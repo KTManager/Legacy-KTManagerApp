@@ -1,0 +1,62 @@
+[
+  {
+    "Id": "CAG",
+    "ModelId": null,
+    "ModelProfileId": null,
+    "NameEn": "Flip Belt",
+    "NameFr": "Ceinture Antigrav",
+    "NameDe": "Harlequingürtel",
+    "DescriptionEn": "This model can move across other models as if they were not there, and it can climb any distance vertically (up or down) when it moves – do not measure the distance moved in this way. In addition, it never suffers falling damage, and never falls on another model. If it would, instead place this model as close as possible to the point where it would have landed. This can bring it within 1\" of an enemy model",
+    "DescriptionFr": "Cette figurine peut se déplacer à travers les autres figurines comme si elles n’étaient pas là. De plus, elle ne subit jamais des dégâts dus à une chute, et ne tombe jamais sur une autre figurine. Si elle devait le faire, placez-la aussi près que possible du point où elle aurait dû atterrir. Cela peut l’amener à 1\" d’une figurine ennemie.",
+    "DescriptionDe": "Dieses Modell kann sich über andere Modelle und Gelände bewegen, als wären sie nicht da, und kann bei der Bewegung beliebige Entfernungen nach oben oder unten klettern - die in der Vertikale zurückgelegte Entfernung wird nicht gemessen. Zudem erleidet es niemals Sturzschaden und fällt nie auf ein anderes Modell. Würde es auf ein anderes Modell fallen, so platziere dieses Modell stattdessen so nahe wie möglich an dem Punkt, an dem es gelandet wäre. Dadurch kann das Modell innerhalb von 1\" um ein feindliches Modell landen.",
+    "Details": []
+  },
+  {
+    "Id": "CRI",
+    "ModelId": null,
+    "ModelProfileId": null,
+    "NameEn": "Rising Crescendo",
+    "NameFr": "Crescendo irrésistible",
+    "NameDe": "Ansteigendes Crescendo",
+    "DescriptionEn": "You may roll 3D6 instead of 2D6 for this model when making a charge roll, and may choose an enemy model within 18\" of this model as the target of a charge, rather than 12\".",
+    "DescriptionFr": "Vous pouvez jeter 3D6 au lieu de 2D6 pour cette figurine quand vous effectuez un jet de charge, et choisir une figurine à 18\" de cette figurine comme cible d'une charge, au lieu de 12\".",
+    "DescriptionDe": "Du darfst 3W6 anstelle von 2W6 werfen, wenn du für dieses Modell einen Angriffswurf durchführst, und du darfst Modelle innerhalb von 18\" um dieses Modell als Angriffsziel auswählen anstatt innerhalb von 12\".",
+    "Details": []
+  },
+  {
+    "Id": "DH",
+    "ModelId": "ARD",
+    "ModelProfileId": null,
+    "NameEn": "Deadly Hunter",
+    "NameFr": "Chasseur mortel",
+    "NameDe": "Tödlicher Jäger",
+    "DescriptionEn": "When this mode! targets an enemy mode! that is obscured in the Shooting phase, treat it as if it were not obscured.",
+    "DescriptionFr": "Lorsque cette figurine cible une figurine ennemie qui est masquée à la phase de tir, celle-ci est considérée comme n'étant pas masquée.",
+    "DescriptionDe": "Wenn dieses Modell in der Fernkampfphase ein Modell als Ziel wählt, das verdeckt ist, behandle das Ziel, als wäre es nicht verdeckt.",
+    "Details": []
+  },
+  {
+    "Id": "DNE",
+    "ModelId": "ARD",
+    "ModelProfileId": null,
+    "NameEn": "Death ls Not Enough",
+    "NameFr": "La Mort ne Suffit pas",
+    "NameDe": "Der Tod ist nicht genug",
+    "DescriptionEn": "If this model takes an enemy mode! out of action in the Shooting phase, the controlling player must add 1 to Nerve tests they make in the Morale phase of that turn.",
+    "DescriptionFr": "Si cette figurine met une figurine ennemie hors de combat à la phase de tir, le joueur qui controle cette dernière doit ajouter 1 à ses tests de sang froid à la phase de Moral de ce tour.",
+    "DescriptionDe": "Wenn dieses Modell in der Fernkampfphase mindestens ein feindliches Modell ausschaltet, muss dessen kontrollierender Spieler in der Moralphase dieser Schlachtrunde 1 auf alle Nerventests addieren.",
+    "Details": []
+  },
+  {
+    "Id": "HOL",
+    "ModelId": null,
+    "ModelProfileId": null,
+    "NameEn": "Holo-suit",
+    "NameFr": "Holocombinaison",
+    "NameDe": "Holoanzug",
+    "DescriptionEn": "This model has a 4+ invulnerable save.",
+    "DescriptionFr": "Cette figurine a une sauvegarde invulnérable de 4+.",
+    "DescriptionDe": "Diese Modell hat einen Rettungswurf von 4+.",
+    "Details": []
+  }
+]

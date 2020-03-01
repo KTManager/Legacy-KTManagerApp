@@ -1,0 +1,381 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <SignAssembly>false</SignAssembly>
+    <AssemblyOriginatorKeyFile>testKey.snk</AssemblyOriginatorKeyFile>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <DebugType>pdbonly</DebugType>
+    <DebugSymbols>true</DebugSymbols>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="DataFiles\**" />
+    <EmbeddedResource Remove="DataFiles\**" />
+    <None Remove="DataFiles\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Remove="SharedAssets\Rules\abilities.json" />
+    <None Remove="SharedAssets\Rules\factions\AdeptusAstartes\abilities.json" />
+    <None Remove="SharedAssets\Rules\factions\AdeptusAstartes\faction.json" />
+    <None Remove="SharedAssets\Rules\factions\AdeptusAstartes\models.json" />
+    <None Remove="SharedAssets\Rules\factions\AdeptusAstartes\psychics.json" />
+    <None Remove="SharedAssets\Rules\factions\AdeptusAstartes\tactics.json" />
+    <None Remove="SharedAssets\Rules\factions\AdeptusCustodes\abilities.json" />
+    <None Remove="SharedAssets\Rules\factions\AdeptusCustodes\faction.json" />
+    <None Remove="SharedAssets\Rules\factions\AdeptusCustodes\models.json" />
+    <None Remove="SharedAssets\Rules\factions\AdeptusCustodes\tactics.json" />
+    <None Remove="SharedAssets\Rules\factions\AdeptusMechanicus\abilities.json" />
+    <None Remove="SharedAssets\Rules\factions\AdeptusMechanicus\faction.json" />
+    <None Remove="SharedAssets\Rules\factions\AdeptusMechanicus\models.json" />
+    <None Remove="SharedAssets\Rules\factions\AdeptusMechanicus\tactics.json" />
+    <None Remove="SharedAssets\Rules\factions\AdeptusMechanicus\traits.json" />
+    <None Remove="SharedAssets\Rules\factions\AstraMilitarum\abilities.json" />
+    <None Remove="SharedAssets\Rules\factions\AstraMilitarum\faction.json" />
+    <None Remove="SharedAssets\Rules\factions\AstraMilitarum\models.json" />
+    <None Remove="SharedAssets\Rules\factions\AstraMilitarum\tactics.json" />
+    <None Remove="SharedAssets\Rules\factions\Asuryani\abilities.json" />
+    <None Remove="SharedAssets\Rules\factions\Asuryani\faction.json" />
+    <None Remove="SharedAssets\Rules\factions\Asuryani\models.json" />
+    <None Remove="SharedAssets\Rules\factions\Asuryani\psychics.json" />
+    <None Remove="SharedAssets\Rules\factions\Asuryani\tactics.json" />
+    <None Remove="SharedAssets\Rules\factions\DeathGuard\abilities.json" />
+    <None Remove="SharedAssets\Rules\factions\DeathGuard\faction.json" />
+    <None Remove="SharedAssets\Rules\factions\DeathGuard\models.json" />
+    <None Remove="SharedAssets\Rules\factions\DeathGuard\tactics.json" />
+    <None Remove="SharedAssets\Rules\factions\Deathwatch\abilities.json" />
+    <None Remove="SharedAssets\Rules\factions\Deathwatch\faction.json" />
+    <None Remove="SharedAssets\Rules\factions\Deathwatch\models.json" />
+    <None Remove="SharedAssets\Rules\factions\Deathwatch\psychics.json" />
+    <None Remove="SharedAssets\Rules\factions\Deathwatch\tactics.json" />
+    <None Remove="SharedAssets\Rules\factions\Drukhari\abilities.json" />
+    <None Remove="SharedAssets\Rules\factions\Drukhari\faction.json" />
+    <None Remove="SharedAssets\Rules\factions\Drukhari\models.json" />
+    <None Remove="SharedAssets\Rules\factions\Drukhari\tactics.json" />
+    <None Remove="SharedAssets\Rules\factions\ElucidianStarstriders\abilities.json" />
+    <None Remove="SharedAssets\Rules\factions\ElucidianStarstriders\faction.json" />
+    <None Remove="SharedAssets\Rules\factions\ElucidianStarstriders\models.json" />
+    <None Remove="SharedAssets\Rules\factions\ElucidianStarstriders\tactics.json" />
+    <None Remove="SharedAssets\Rules\factions\ElucidianStarstriders\traits.json" />
+    <None Remove="SharedAssets\Rules\factions\GellerpoxInfected\abilities.json" />
+    <None Remove="SharedAssets\Rules\factions\GellerpoxInfected\faction.json" />
+    <None Remove="SharedAssets\Rules\factions\GellerpoxInfected\models.json" />
+    <None Remove="SharedAssets\Rules\factions\GellerpoxInfected\tactics.json" />
+    <None Remove="SharedAssets\Rules\factions\GellerpoxInfected\traits.json" />
+    <None Remove="SharedAssets\Rules\factions\GenestealerCults\abilities.json" />
+    <None Remove="SharedAssets\Rules\factions\GenestealerCults\faction.json" />
+    <None Remove="SharedAssets\Rules\factions\GenestealerCults\models.json" />
+    <None Remove="SharedAssets\Rules\factions\GenestealerCults\psychics.json" />
+    <None Remove="SharedAssets\Rules\factions\GenestealerCults\tactics.json" />
+    <None Remove="SharedAssets\Rules\factions\GenestealerCults\traits.json" />
+    <None Remove="SharedAssets\Rules\factions\GreyKnights\abilities.json" />
+    <None Remove="SharedAssets\Rules\factions\GreyKnights\faction.json" />
+    <None Remove="SharedAssets\Rules\factions\GreyKnights\models.json" />
+    <None Remove="SharedAssets\Rules\factions\GreyKnights\psychics.json" />
+    <None Remove="SharedAssets\Rules\factions\GreyKnights\tactics.json" />
+    <None Remove="SharedAssets\Rules\factions\Harlequins\abilities.json" />
+    <None Remove="SharedAssets\Rules\factions\Harlequins\faction.json" />
+    <None Remove="SharedAssets\Rules\factions\Harlequins\models.json" />
+    <None Remove="SharedAssets\Rules\factions\Harlequins\psychics.json" />
+    <None Remove="SharedAssets\Rules\factions\Harlequins\tactics.json" />
+    <None Remove="SharedAssets\Rules\factions\HereticAstartes\abilities.json" />
+    <None Remove="SharedAssets\Rules\factions\HereticAstartes\faction.json" />
+    <None Remove="SharedAssets\Rules\factions\HereticAstartes\models.json" />
+    <None Remove="SharedAssets\Rules\factions\HereticAstartes\psychics.json" />
+    <None Remove="SharedAssets\Rules\factions\HereticAstartes\tactics.json" />
+    <None Remove="SharedAssets\Rules\factions\Kroots\abilities.json" />
+    <None Remove="SharedAssets\Rules\factions\Kroots\faction.json" />
+    <None Remove="SharedAssets\Rules\factions\Kroots\models.json" />
+    <None Remove="SharedAssets\Rules\factions\Kroots\tactics.json" />
+    <None Remove="SharedAssets\Rules\factions\Necrons\abilities.json" />
+    <None Remove="SharedAssets\Rules\factions\Necrons\faction.json" />
+    <None Remove="SharedAssets\Rules\factions\Necrons\models.json" />
+    <None Remove="SharedAssets\Rules\factions\Necrons\tactics.json" />
+    <None Remove="SharedAssets\Rules\factions\Orks\abilities.json" />
+    <None Remove="SharedAssets\Rules\factions\Orks\faction.json" />
+    <None Remove="SharedAssets\Rules\factions\Orks\models.json" />
+    <None Remove="SharedAssets\Rules\factions\Orks\tactics.json" />
+    <None Remove="SharedAssets\Rules\factions\Servantsoftheabyss\abilities.json" />
+    <None Remove="SharedAssets\Rules\factions\Servantsoftheabyss\faction.json" />
+    <None Remove="SharedAssets\Rules\factions\Servantsoftheabyss\models.json" />
+    <None Remove="SharedAssets\Rules\factions\Servantsoftheabyss\tactics.json" />
+    <None Remove="SharedAssets\Rules\factions\TauEmpire\abilities.json" />
+    <None Remove="SharedAssets\Rules\factions\TauEmpire\faction.json" />
+    <None Remove="SharedAssets\Rules\factions\TauEmpire\models.json" />
+    <None Remove="SharedAssets\Rules\factions\TauEmpire\tactics.json" />
+    <None Remove="SharedAssets\Rules\factions\Thousandsons\abilities.json" />
+    <None Remove="SharedAssets\Rules\factions\Thousandsons\faction.json" />
+    <None Remove="SharedAssets\Rules\factions\Thousandsons\models.json" />
+    <None Remove="SharedAssets\Rules\factions\Thousandsons\psychics.json" />
+    <None Remove="SharedAssets\Rules\factions\Thousandsons\tactics.json" />
+    <None Remove="SharedAssets\Rules\factions\Tyranids\abilities.json" />
+    <None Remove="SharedAssets\Rules\factions\Tyranids\faction.json" />
+    <None Remove="SharedAssets\Rules\factions\Tyranids\models.json" />
+    <None Remove="SharedAssets\Rules\factions\Tyranids\psychics.json" />
+    <None Remove="SharedAssets\Rules\factions\Tyranids\tactics.json" />
+    <None Remove="SharedAssets\Rules\phases.json" />
+    <None Remove="SharedAssets\Rules\powers.json" />
+    <None Remove="SharedAssets\Rules\psychics.json" />
+    <None Remove="SharedAssets\Rules\replacements.json" />
+    <None Remove="SharedAssets\Rules\specialists.json" />
+    <None Remove="SharedAssets\Rules\tactics.json" />
+    <None Remove="SharedAssets\Rules\traits.json" />
+    <None Remove="SharedAssets\Rules\version.txt" />
+    <None Remove="SharedAssets\Rules\weapons.json" />
+    <None Remove="SharedAssets\Rules\weapon_types.json" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Include="SharedAssets\LegacyDatabaseUpdate\001.sql" />
+    <EmbeddedResource Include="SharedAssets\LegacyDatabaseUpdate\002.sql" />
+    <EmbeddedResource Include="SharedAssets\LegacyDatabaseUpdate\003.sql" />
+    <EmbeddedResource Include="SharedAssets\LegacyDatabaseUpdate\004.sql" />
+    <EmbeddedResource Include="SharedAssets\LegacyDatabaseUpdate\005.sql" />
+    <EmbeddedResource Include="SharedAssets\LegacyDatabaseUpdate\006.sql" />
+    <EmbeddedResource Include="SharedAssets\LegacyDatabaseUpdate\007.sql" />
+    <EmbeddedResource Include="SharedAssets\LegacyDatabaseUpdate\008-ModifCom.sql" />
+    <EmbeddedResource Include="SharedAssets\LegacyDatabaseUpdate\009-DataCom.sql" />
+    <EmbeddedResource Include="SharedAssets\LegacyDatabaseUpdate\010.sql" />
+    <EmbeddedResource Include="SharedAssets\LegacyDatabaseUpdate\011-RepriseProfileArmes.sql" />
+    <EmbeddedResource Include="SharedAssets\LegacyDatabaseUpdate\012-RemoveDeclinaisonFK.sql" />
+    <EmbeddedResource Include="SharedAssets\LegacyDatabaseUpdate\013-TactiquesSupp.sql" />
+    <EmbeddedResource Include="SharedAssets\LegacyDatabaseUpdate\014 - Trait Special.sql" />
+    <EmbeddedResource Include="SharedAssets\LegacyDatabaseUpdate\015.sql" />
+    <EmbeddedResource Include="SharedAssets\LegacyDatabaseUpdate\016-ModifAllemand.sql" />
+    <EmbeddedResource Include="SharedAssets\LegacyDatabaseUpdate\018.sql" />
+    <EmbeddedResource Include="SharedAssets\Arial.ttf" />
+    <EmbeddedResource Include="SharedAssets\Rules\abilities.json" />
+    <EmbeddedResource Include="SharedAssets\Rules\factions\AdeptusAstartes\abilities.json" />
+    <EmbeddedResource Include="SharedAssets\Rules\factions\AdeptusAstartes\faction.json" />
+    <EmbeddedResource Include="SharedAssets\Rules\factions\AdeptusAstartes\models.json" />
+    <EmbeddedResource Include="SharedAssets\Rules\factions\AdeptusAstartes\psychics.json" />
+    <EmbeddedResource Include="SharedAssets\Rules\factions\AdeptusAstartes\tactics.json" />
+    <EmbeddedResource Include="SharedAssets\Rules\factions\AdeptusCustodes\abilities.json" />
+    <EmbeddedResource Include="SharedAssets\Rules\factions\AdeptusCustodes\faction.json" />
+    <EmbeddedResource Include="SharedAssets\Rules\factions\AdeptusCustodes\models.json" />
+    <EmbeddedResource Include="SharedAssets\Rules\factions\AdeptusCustodes\tactics.json" />
+    <EmbeddedResource Include="SharedAssets\Rules\factions\AdeptusMechanicus\abilities.json" />
+    <EmbeddedResource Include="SharedAssets\Rules\factions\AdeptusMechanicus\faction.json" />
+    <EmbeddedResource Include="SharedAssets\Rules\factions\AdeptusMechanicus\models.json" />
+    <EmbeddedResource Include="SharedAssets\Rules\factions\AdeptusMechanicus\tactics.json" />
+    <EmbeddedResource Include="SharedAssets\Rules\factions\AdeptusMechanicus\traits.json" />
+    <EmbeddedResource Include="SharedAssets\Rules\factions\AstraMilitarum\abilities.json" />
+    <EmbeddedResource Include="SharedAssets\Rules\factions\AstraMilitarum\faction.json" />
+    <EmbeddedResource Include="SharedAssets\Rules\factions\AstraMilitarum\models.json" />
+    <EmbeddedResource Include="SharedAssets\Rules\factions\AstraMilitarum\tactics.json" />
+    <EmbeddedResource Include="SharedAssets\Rules\factions\Asuryani\abilities.json" />
+    <EmbeddedResource Include="SharedAssets\Rules\factions\Asuryani\faction.json" />
+    <EmbeddedResource Include="SharedAssets\Rules\factions\Asuryani\models.json" />
+    <EmbeddedResource Include="SharedAssets\Rules\factions\Asuryani\psychics.json" />
+    <EmbeddedResource Include="SharedAssets\Rules\factions\Asuryani\tactics.json" />
+    <EmbeddedResource Include="SharedAssets\Rules\factions\DeathGuard\abilities.json" />
+    <EmbeddedResource Include="SharedAssets\Rules\factions\DeathGuard\faction.json" />
+    <EmbeddedResource Include="SharedAssets\Rules\factions\DeathGuard\models.json" />
+    <EmbeddedResource Include="SharedAssets\Rules\factions\DeathGuard\tactics.json" />
+    <EmbeddedResource Include="SharedAssets\Rules\factions\Deathwatch\abilities.json" />
+    <EmbeddedResource Include="SharedAssets\Rules\factions\Deathwatch\faction.json" />
+    <EmbeddedResource Include="SharedAssets\Rules\factions\Deathwatch\models.json" />
+    <EmbeddedResource Include="SharedAssets\Rules\factions\Deathwatch\psychics.json" />
+    <EmbeddedResource Include="SharedAssets\Rules\factions\Deathwatch\tactics.json" />
+    <EmbeddedResource Include="SharedAssets\Rules\factions\Drukhari\abilities.json" />
+    <EmbeddedResource Include="SharedAssets\Rules\factions\Drukhari\faction.json" />
+    <EmbeddedResource Include="SharedAssets\Rules\factions\Drukhari\models.json" />
+    <EmbeddedResource Include="SharedAssets\Rules\factions\Drukhari\tactics.json" />
+    <EmbeddedResource Include="SharedAssets\Rules\factions\ElucidianStarstriders\abilities.json" />
+    <EmbeddedResource Include="SharedAssets\Rules\factions\ElucidianStarstriders\faction.json" />
+    <EmbeddedResource Include="SharedAssets\Rules\factions\ElucidianStarstriders\models.json" />
+    <EmbeddedResource Include="SharedAssets\Rules\factions\ElucidianStarstriders\tactics.json" />
+    <EmbeddedResource Include="SharedAssets\Rules\factions\ElucidianStarstriders\traits.json" />
+    <EmbeddedResource Include="SharedAssets\Rules\factions\GellerpoxInfected\abilities.json" />
+    <EmbeddedResource Include="SharedAssets\Rules\factions\GellerpoxInfected\faction.json" />
+    <EmbeddedResource Include="SharedAssets\Rules\factions\GellerpoxInfected\models.json" />
+    <EmbeddedResource Include="SharedAssets\Rules\factions\GellerpoxInfected\tactics.json" />
+    <EmbeddedResource Include="SharedAssets\Rules\factions\GellerpoxInfected\traits.json" />
+    <EmbeddedResource Include="SharedAssets\Rules\factions\GenestealerCults\abilities.json" />
+    <EmbeddedResource Include="SharedAssets\Rules\factions\GenestealerCults\faction.json" />
+    <EmbeddedResource Include="SharedAssets\Rules\factions\GenestealerCults\models.json" />
+    <EmbeddedResource Include="SharedAssets\Rules\factions\GenestealerCults\psychics.json" />
+    <EmbeddedResource Include="SharedAssets\Rules\factions\GenestealerCults\tactics.json" />
+    <EmbeddedResource Include="SharedAssets\Rules\factions\GenestealerCults\traits.json" />
+    <EmbeddedResource Include="SharedAssets\Rules\factions\GreyKnights\abilities.json" />
+    <EmbeddedResource Include="SharedAssets\Rules\factions\GreyKnights\faction.json" />
+    <EmbeddedResource Include="SharedAssets\Rules\factions\GreyKnights\models.json" />
+    <EmbeddedResource Include="SharedAssets\Rules\factions\GreyKnights\psychics.json" />
+    <EmbeddedResource Include="SharedAssets\Rules\factions\GreyKnights\tactics.json" />
+    <EmbeddedResource Include="SharedAssets\Rules\factions\Harlequins\abilities.json" />
+    <EmbeddedResource Include="SharedAssets\Rules\factions\Harlequins\faction.json" />
+    <EmbeddedResource Include="SharedAssets\Rules\factions\Harlequins\models.json" />
+    <EmbeddedResource Include="SharedAssets\Rules\factions\Harlequins\psychics.json" />
+    <EmbeddedResource Include="SharedAssets\Rules\factions\Harlequins\tactics.json" />
+    <EmbeddedResource Include="SharedAssets\Rules\factions\HereticAstartes\abilities.json" />
+    <EmbeddedResource Include="SharedAssets\Rules\factions\HereticAstartes\faction.json" />
+    <EmbeddedResource Include="SharedAssets\Rules\factions\HereticAstartes\models.json" />
+    <EmbeddedResource Include="SharedAssets\Rules\factions\HereticAstartes\psychics.json" />
+    <EmbeddedResource Include="SharedAssets\Rules\factions\HereticAstartes\tactics.json" />
+    <EmbeddedResource Include="SharedAssets\Rules\factions\Kroots\abilities.json" />
+    <EmbeddedResource Include="SharedAssets\Rules\factions\Kroots\faction.json" />
+    <EmbeddedResource Include="SharedAssets\Rules\factions\Kroots\models.json" />
+    <EmbeddedResource Include="SharedAssets\Rules\factions\Kroots\tactics.json" />
+    <EmbeddedResource Include="SharedAssets\Rules\factions\Necrons\abilities.json" />
+    <EmbeddedResource Include="SharedAssets\Rules\factions\Necrons\faction.json" />
+    <EmbeddedResource Include="SharedAssets\Rules\factions\Necrons\models.json" />
+    <EmbeddedResource Include="SharedAssets\Rules\factions\Necrons\tactics.json" />
+    <EmbeddedResource Include="SharedAssets\Rules\factions\Orks\abilities.json" />
+    <EmbeddedResource Include="SharedAssets\Rules\factions\Orks\faction.json" />
+    <EmbeddedResource Include="SharedAssets\Rules\factions\Orks\models.json" />
+    <EmbeddedResource Include="SharedAssets\Rules\factions\Orks\tactics.json" />
+    <EmbeddedResource Include="SharedAssets\Rules\factions\Servantsoftheabyss\abilities.json" />
+    <EmbeddedResource Include="SharedAssets\Rules\factions\Servantsoftheabyss\faction.json" />
+    <EmbeddedResource Include="SharedAssets\Rules\factions\Servantsoftheabyss\models.json" />
+    <EmbeddedResource Include="SharedAssets\Rules\factions\Servantsoftheabyss\tactics.json" />
+    <EmbeddedResource Include="SharedAssets\Rules\factions\TauEmpire\abilities.json" />
+    <EmbeddedResource Include="SharedAssets\Rules\factions\TauEmpire\faction.json" />
+    <EmbeddedResource Include="SharedAssets\Rules\factions\TauEmpire\models.json" />
+    <EmbeddedResource Include="SharedAssets\Rules\factions\TauEmpire\tactics.json" />
+    <EmbeddedResource Include="SharedAssets\Rules\factions\Thousandsons\abilities.json" />
+    <EmbeddedResource Include="SharedAssets\Rules\factions\Thousandsons\faction.json" />
+    <EmbeddedResource Include="SharedAssets\Rules\factions\Thousandsons\models.json" />
+    <EmbeddedResource Include="SharedAssets\Rules\factions\Thousandsons\psychics.json" />
+    <EmbeddedResource Include="SharedAssets\Rules\factions\Thousandsons\tactics.json" />
+    <EmbeddedResource Include="SharedAssets\Rules\factions\Tyranids\abilities.json" />
+    <EmbeddedResource Include="SharedAssets\Rules\factions\Tyranids\faction.json" />
+    <EmbeddedResource Include="SharedAssets\Rules\factions\Tyranids\models.json" />
+    <EmbeddedResource Include="SharedAssets\Rules\factions\Tyranids\psychics.json" />
+    <EmbeddedResource Include="SharedAssets\Rules\factions\Tyranids\tactics.json" />
+    <EmbeddedResource Include="SharedAssets\Rules\phases.json" />
+    <EmbeddedResource Include="SharedAssets\Rules\powers.json" />
+    <EmbeddedResource Include="SharedAssets\Rules\psychics.json" />
+    <EmbeddedResource Include="SharedAssets\Rules\replacements.json" />
+    <EmbeddedResource Include="SharedAssets\Rules\specialists.json" />
+    <EmbeddedResource Include="SharedAssets\Rules\tactics.json" />
+    <EmbeddedResource Include="SharedAssets\Rules\traits.json" />
+    <EmbeddedResource Include="SharedAssets\Rules\version.txt" />
+    <EmbeddedResource Include="SharedAssets\Rules\weapons.json" />
+    <EmbeddedResource Include="SharedAssets\Rules\weapon_types.json" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="CarouselView.FormsPlugin" Version="5.2.0" />
+    <PackageReference Include="Microsoft.AppCenter" Version="2.1.1" />
+    <PackageReference Include="Microsoft.AppCenter.Analytics" Version="2.1.1" />
+    <PackageReference Include="Microsoft.AppCenter.Crashes" Version="2.1.1" />
+    <PackageReference Include="Microsoft.AppCenter.Distribute" Version="2.1.1" />
+    <PackageReference Include="Microsoft.AppCenter.Push" Version="2.1.1" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="2.1.3" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Sqlite" Version="2.1.3" />
+    <PackageReference Include="Newtonsoft.Json" Version="11.0.2" />
+    <PackageReference Include="Plugin.Share" Version="7.1.1" />
+    <PackageReference Include="Syncfusion.Xamarin.DocIO" Version="16.3.0.21" />
+    <PackageReference Include="Syncfusion.Xamarin.DocIORenderer" Version="16.3.0.21" />
+    <PackageReference Include="Syncfusion.Xamarin.Pdf" Version="16.3.0.21" />
+    <PackageReference Include="Syncfusion.Xamarin.SfBusyIndicator" Version="16.3.0.21" />
+    <PackageReference Include="Syncfusion.Xamarin.SfListView" Version="16.3.0.21" />
+    <PackageReference Include="Syncfusion.Xamarin.SfNavigationDrawer" Version="16.3.0.29" />
+    <PackageReference Include="Syncfusion.Xamarin.SfNumericUpDown" Version="16.3.0.29" />
+    <PackageReference Include="Xamarin.Forms" Version="3.1.0.697729" />
+    <PackageReference Include="Xamarin.Plugins.Clipboard" Version="2.2.1" />  
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Update="KTApp.xaml.cs">
+      <DependentUpon>KTApp.xaml</DependentUpon>
+    </Compile>
+    <Compile Update="Views\PsychiqueView.xaml.cs">
+      <DependentUpon>PsychiqueView.xaml</DependentUpon>
+    </Compile>
+    <Compile Update="Views\InGamePage.xaml.cs">
+      <DependentUpon>InGamePage.xaml</DependentUpon>
+    </Compile>
+    <Compile Update="Views\EquipePage.xaml.cs">
+      <DependentUpon>EquipePage.xaml</DependentUpon>
+    </Compile>
+    <Compile Update="Views\ListTactiquePage.xaml.cs">
+      <DependentUpon>ListTactiquePage.xaml</DependentUpon>
+    </Compile>
+    <Compile Update="Views\ListEquipesPage.xaml.cs">
+      <DependentUpon>ListEquipesPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Update="Views\ListDeclinaisonPage.xaml.cs">
+      <DependentUpon>ListDeclinaisonPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Update="Views\AptitudeCell.xaml.cs">
+      <DependentUpon>AptitudeCell.xaml</DependentUpon>
+    </Compile>
+    <Compile Update="Views\ListPsychiquePage.xaml.cs">
+      <DependentUpon>ListPsychiquePage.xaml</DependentUpon>
+    </Compile>
+    <Compile Update="Resx\Translate.de.Designer.cs">
+      <DependentUpon>Translate.de.resx</DependentUpon>
+    </Compile>
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Update="Resx\Translate.de.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Translate.de.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Resx\Translate.en.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Resx\Translate.fr.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Views\AptitudeView.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Views\InGamePage.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Views\ChangeLevelPage.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Views\ChoixImpression.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Views\ConfigurationCell.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Views\FactionsPage.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Views\KickStarter.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Views\LanguagePage.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Views\ListAptitudePage.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Views\ListConfigsArmes.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Views\ListEquipesPage.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Views\ListDeclinaisonPage.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Views\ListErreurPage.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Views\ListSpecialitesPage.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Views\ListTraitPage.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Views\MembrePage.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Views\AptitudeCell.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Views\RemerciementPage.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+  </ItemGroup>
+</Project>

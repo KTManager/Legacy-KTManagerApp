@@ -1,0 +1,62 @@
+[
+  {
+    "Id": "BRAG",
+    "ModelId": null,
+    "ModelProfileId": "KRR",
+    "NameEn": "Agile brute",
+    "NameFr": "Brute agile",
+    "NameDe": "Flinkes Ungetüm",
+    "DescriptionEn": "Add 6\" to ths model's move characteristic for that movement phase when it advances instead of rolling a dice.",
+    "DescriptionFr": "Ajoutez 6\" à la caractéristique de Mouvement de cette figurine à sa phase de mouvement si elle Avance, au lieu de jeter un dé.",
+    "DescriptionDe": "Addiere in dieser Bewegungsphase 6'' auf den Bewegungswert dieses Modells, wenn es vorrückt, anstatt einen Würfel zu werfen.",
+    "Details": []
+  },
+  {
+    "Id": "CBTR2",
+    "ModelId": null,
+    "ModelProfileId": "KRDG",
+    "NameEn": "Concealed Booby Traps",
+    "NameFr": "",
+    "NameDe": "",
+    "DescriptionEn": "If you select the Plant Traps strategy during the Scouting phase, you can booby-trap up to D3+1 pieces of terrain instead of up to D3.",
+    "DescriptionFr": "",
+    "DescriptionDe": "",
+    "Details": []
+  },
+  {
+    "Id": "FICRA2",
+    "ModelId": null,
+    "ModelProfileId": "KRDG",
+    "NameEn": "Fieldcraft",
+    "NameFr": "",
+    "NameDe": "",
+    "DescriptionEn": "When an opponent makes a hit roll for a shooting attack that targets this model, and this model is obscured, that hit roll suffers an additional -1 modifier.",
+    "DescriptionFr": "",
+    "DescriptionDe": "",
+    "Details": []
+  },
+  {
+    "Id": "PRV",
+    "ModelId": null,
+    "ModelProfileId": "KRH",
+    "NameEn": "Voracious predator",
+    "NameFr": "Prédateur vorace",
+    "NameDe": "Gefräßiger Jäger",
+    "DescriptionEn": "Add 1 to hit rolls for attacks made by this model that target a model that has any flesh wounds.",
+    "DescriptionFr": "Ajoutez 1 aux jets de touche des attaques de cette figurine qui ciblent une figurine ayant la moindre blessure légère.",
+    "DescriptionDe": "Addiere 1 auf Trefferwürfe für Attacken dieses Modells, wenn das Ziel ein Modell ist, das Fleischwunden erlitten hat.",
+    "Details": []
+  },
+  {
+    "Id": "QCH2",
+    "ModelId": null,
+    "ModelProfileId": "KRDG",
+    "NameEn": "Quarry Can’t Hide",
+    "NameFr": "",
+    "NameDe": "",
+    "DescriptionEn": "This model does not suffer the penalty to hit rolls for the target being obscured.",
+    "DescriptionFr": "",
+    "DescriptionDe": "",
+    "Details": []
+  }
+]

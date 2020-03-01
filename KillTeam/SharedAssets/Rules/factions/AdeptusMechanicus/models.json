@@ -1,0 +1,1087 @@
+[
+  {
+    "Id": "MECE",
+    "NameEn": "Corpuscarii Electro-Priest",
+    "NameFr": "Corpuscarii Electro-Priest",
+    "NameDe": "Corpuscarii Electro-Priest",
+    "KeywordsEn": "IMPERIUM, CULT MECHANICUS, INFANTRY, ELECTRO-PRIEST, CORPUSCARII",
+    "KeywordsFr": "IMPERIUM, CULT MECHANICUS, INFANTRY, ELECTRO-PRIEST, CORPUSCARII",
+    "KeywordsDe": "IMPERIUM, CULT MECHANICUS, INFANTERIE, ELECTRO-PRIEST, CORPUSCARII",
+    "ModelProfiles": [
+      {
+        "Id": "MECE",
+        "Movement": 6,
+        "WeaponSkill": 4,
+        "BallisticSkill": 3,
+        "Strength": 3,
+        "Toughness": 3,
+        "Wounds": 1,
+        "Attacks": "2",
+        "Leadership": 8,
+        "Save": 6,
+        "MaximumNumber": 0,
+        "Cost": 13,
+        "NameEn": "Corpuscarii Electro-Priest",
+        "NameFr": "Corpuscarii Electro-Priest",
+        "NameDe": "Corpuscarii Electro-Priest",
+        "IsCommander": false,
+        "NumberOfKnownPsychics": 0,
+        "NumberOfPsychicsManifestationPerRound": 0,
+        "NumberOfPsychicsDenialPerRound": 0,
+        "WarGearOptions": [],
+        "Specialists": [
+          {
+            "SpecialistId": "CB"
+          },
+          {
+            "SpecialistId": "L"
+          },
+          {
+            "SpecialistId": "M"
+          },
+          {
+            "SpecialistId": "SC"
+          },
+          {
+            "SpecialistId": "V"
+          },
+          {
+            "SpecialistId": "Z"
+          }
+        ],
+        "ModelProfileWeapons": [],
+        "CostOverrides": [],
+        "LevelCosts": []
+      }
+    ],
+    "ModelWeapons": [
+      {
+        "WeaponId": "AMELGT"
+      }
+    ],
+    "WarGearOptions": []
+  },
+  {
+    "Id": "MED",
+    "NameEn": "Tech-Priest Dominus",
+    "NameFr": "Tech-Priest Dominus",
+    "NameDe": "Tech-Priest Dominus",
+    "KeywordsEn": "IMPERIUM, CULT MECHANICUS, COMMANDER, INFANTRY, TECH-PRIEST, DOMINUS",
+    "KeywordsFr": "IMPERIUM, CULT MECHANICUS, COMMANDANT, INFANTERIE, TECH-PRIEST, DOMINUS",
+    "KeywordsDe": "IMPERIUM, CULT MECHANICUS, KOMMANDEUR, INFANTERIE, TECH-PRIEST, DOMINUS",
+    "ModelProfiles": [
+      {
+        "Id": "MED",
+        "Movement": 6,
+        "WeaponSkill": 3,
+        "BallisticSkill": 2,
+        "Strength": 4,
+        "Toughness": 4,
+        "Wounds": 5,
+        "Attacks": "3",
+        "Leadership": 8,
+        "Save": 2,
+        "MaximumNumber": 1,
+        "Cost": 130,
+        "NameEn": "Tech-Priest Dominus",
+        "NameFr": "Tech-Priest Dominus",
+        "NameDe": "Tech-Priest Dominus",
+        "IsCommander": true,
+        "NumberOfKnownPsychics": 0,
+        "NumberOfPsychicsManifestationPerRound": 0,
+        "NumberOfPsychicsDenialPerRound": 0,
+        "WarGearOptions": [
+          {
+            "Id": "210",
+            "MaximumPerTeam": 0,
+            "Operation": "VB:ER",
+            "Exclusion": null
+          },
+          {
+            "Id": "211",
+            "MaximumPerTeam": 0,
+            "Operation": "M:PS",
+            "Exclusion": null
+          }
+        ],
+        "Specialists": [
+          {
+            "SpecialistId": "F"
+          },
+          {
+            "SpecialistId": "FE"
+          },
+          {
+            "SpecialistId": "LE"
+          },
+          {
+            "SpecialistId": "LH"
+          },
+          {
+            "SpecialistId": "LO"
+          },
+          {
+            "SpecialistId": "SH"
+          },
+          {
+            "SpecialistId": "ST"
+          }
+        ],
+        "ModelProfileWeapons": [
+          {
+            "WeaponId": "M"
+          },
+          {
+            "WeaponId": "OA"
+          },
+          {
+            "WeaponId": "VB"
+          }
+        ],
+        "CostOverrides": [],
+        "LevelCosts": [
+          {
+            "Level": 1,
+            "Cost": 130
+          },
+          {
+            "Level": 2,
+            "Cost": 150
+          },
+          {
+            "Level": 3,
+            "Cost": 170
+          },
+          {
+            "Level": 4,
+            "Cost": 195
+          }
+        ]
+      }
+    ],
+    "ModelWeapons": [],
+    "WarGearOptions": []
+  },
+  {
+    "Id": "MEFE",
+    "NameEn": "Fulgurite Electro-Priest",
+    "NameFr": "Fulgurite Electro-Priest",
+    "NameDe": "Fulgurite Electro-Priest",
+    "KeywordsEn": "IMPERIUM, CULT MECHANICUS, INFANTRY, ELECTRO-PRIEST, FULGURITE",
+    "KeywordsFr": "IMPERIUM, CULT MECHANICUS, INFANTRY, ELECTRO-PRIEST, FULGURITE",
+    "KeywordsDe": "IMPERIUM, CULT MECHANICUS, INFANTERIE, ELECTRO-PRIEST, FULGURITE",
+    "ModelProfiles": [
+      {
+        "Id": "MEFE",
+        "Movement": 6,
+        "WeaponSkill": 3,
+        "BallisticSkill": 4,
+        "Strength": 3,
+        "Toughness": 3,
+        "Wounds": 1,
+        "Attacks": "2",
+        "Leadership": 8,
+        "Save": 6,
+        "MaximumNumber": 0,
+        "Cost": 14,
+        "NameEn": "Fulgurite Electro-Priest",
+        "NameFr": "Fulgurite Electro-Priest",
+        "NameDe": "Fulgurite Electro-Priest",
+        "IsCommander": false,
+        "NumberOfKnownPsychics": 0,
+        "NumberOfPsychicsManifestationPerRound": 0,
+        "NumberOfPsychicsDenialPerRound": 0,
+        "WarGearOptions": [],
+        "Specialists": [
+          {
+            "SpecialistId": "CB"
+          },
+          {
+            "SpecialistId": "L"
+          },
+          {
+            "SpecialistId": "M"
+          },
+          {
+            "SpecialistId": "SC"
+          },
+          {
+            "SpecialistId": "V"
+          },
+          {
+            "SpecialistId": "Z"
+          }
+        ],
+        "ModelProfileWeapons": [],
+        "CostOverrides": [],
+        "LevelCosts": []
+      }
+    ],
+    "ModelWeapons": [
+      {
+        "WeaponId": "AMELST"
+      }
+    ],
+    "WarGearOptions": []
+  },
+  {
+    "Id": "MEJD",
+    "NameEn": "Janus Draik",
+    "NameFr": "Janus Draik",
+    "NameDe": "Janus Draik",
+    "KeywordsEn": "Imperium, Astra Cartographica, Commander, Infantry, Rogue Trader, Janus Draik",
+    "KeywordsFr": "Imperium, Astra Cartographica, Commander, Infantry, Rogue Trader, Janus Draik",
+    "KeywordsDe": "Imperium, Astra Cartographica, Commander, Infantry, Rogue Trader, Janus Draik",
+    "ModelProfiles": [
+      {
+        "Id": "MEJD",
+        "Movement": 6,
+        "WeaponSkill": 3,
+        "BallisticSkill": 3,
+        "Strength": 3,
+        "Toughness": 3,
+        "Wounds": 4,
+        "Attacks": "3",
+        "Leadership": 9,
+        "Save": 4,
+        "MaximumNumber": 1,
+        "Cost": 50,
+        "NameEn": "Janus Draik",
+        "NameFr": "Janus Draik",
+        "NameDe": "Janus Draik",
+        "IsCommander": true,
+        "NumberOfKnownPsychics": 0,
+        "NumberOfPsychicsManifestationPerRound": 0,
+        "NumberOfPsychicsDenialPerRound": 0,
+        "WarGearOptions": [],
+        "Specialists": [
+          {
+            "SpecialistId": "LE"
+          },
+          {
+            "SpecialistId": "LH"
+          }
+        ],
+        "ModelProfileWeapons": [
+          {
+            "WeaponId": "ARCHG"
+          },
+          {
+            "WeaponId": "HPI"
+          },
+          {
+            "WeaponId": "MONOR"
+          }
+        ],
+        "CostOverrides": [],
+        "LevelCosts": [
+          {
+            "Level": 4,
+            "Cost": 105
+          },
+          {
+            "Level": 3,
+            "Cost": 80
+          },
+          {
+            "Level": 2,
+            "Cost": 65
+          },
+          {
+            "Level": 1,
+            "Cost": 50
+          }
+        ]
+      }
+    ],
+    "ModelWeapons": [],
+    "WarGearOptions": []
+  },
+  {
+    "Id": "MERU",
+    "NameEn": "Sicarian Ruststalker",
+    "NameFr": "Sicarian Ruststalker",
+    "NameDe": "Sicarian Ruststalker",
+    "KeywordsEn": "IMPERIUM, INFANTRY, SICARIAN RUSTSTALKER, SKITARII",
+    "KeywordsFr": "IMPERIUM, INFANTERIE, SICARIAN RUSTSTALKER, SKITARII",
+    "KeywordsDe": "IMPERIUM, INFANTERIE, SICARIAN RUSTSTALKER, SKITARII",
+    "ModelProfiles": [
+      {
+        "Id": "MERU1",
+        "Movement": 8,
+        "WeaponSkill": 3,
+        "BallisticSkill": 3,
+        "Strength": 4,
+        "Toughness": 3,
+        "Wounds": 2,
+        "Attacks": "3",
+        "Leadership": 6,
+        "Save": 4,
+        "MaximumNumber": 0,
+        "Cost": 14,
+        "NameEn": "Sicarian Ruststalker",
+        "NameFr": "Sicarian Ruststalker",
+        "NameDe": "Sicarian Ruststalker",
+        "IsCommander": false,
+        "NumberOfKnownPsychics": 0,
+        "NumberOfPsychicsManifestationPerRound": 0,
+        "NumberOfPsychicsDenialPerRound": 0,
+        "WarGearOptions": [
+          {
+            "Id": "38",
+            "MaximumPerTeam": 0,
+            "Operation": "CTR&GDO:LTR",
+            "Exclusion": null
+          }
+        ],
+        "Specialists": [
+          {
+            "SpecialistId": "CB"
+          },
+          {
+            "SpecialistId": "CO"
+          },
+          {
+            "SpecialistId": "SC"
+          },
+          {
+            "SpecialistId": "V"
+          },
+          {
+            "SpecialistId": "Z"
+          }
+        ],
+        "ModelProfileWeapons": [],
+        "CostOverrides": [],
+        "LevelCosts": []
+      },
+      {
+        "Id": "MERU2",
+        "Movement": 8,
+        "WeaponSkill": 3,
+        "BallisticSkill": 3,
+        "Strength": 4,
+        "Toughness": 3,
+        "Wounds": 2,
+        "Attacks": "4",
+        "Leadership": 7,
+        "Save": 4,
+        "MaximumNumber": 1,
+        "Cost": 15,
+        "NameEn": "Ruststalker Princeps",
+        "NameFr": "Ruststalker Princeps",
+        "NameDe": "Ruststalker Princeps",
+        "IsCommander": false,
+        "NumberOfKnownPsychics": 0,
+        "NumberOfPsychicsManifestationPerRound": 0,
+        "NumberOfPsychicsDenialPerRound": 0,
+        "WarGearOptions": [
+          {
+            "Id": "39",
+            "MaximumPerTeam": 0,
+            "Operation": "CTR:LTR",
+            "Exclusion": null
+          }
+        ],
+        "Specialists": [
+          {
+            "SpecialistId": "CB"
+          },
+          {
+            "SpecialistId": "CO"
+          },
+          {
+            "SpecialistId": "L"
+          },
+          {
+            "SpecialistId": "SC"
+          },
+          {
+            "SpecialistId": "V"
+          },
+          {
+            "SpecialistId": "Z"
+          }
+        ],
+        "ModelProfileWeapons": [],
+        "CostOverrides": [],
+        "LevelCosts": []
+      }
+    ],
+    "ModelWeapons": [
+      {
+        "WeaponId": "CTR"
+      },
+      {
+        "WeaponId": "GDO"
+      }
+    ],
+    "WarGearOptions": []
+  },
+  {
+    "Id": "MESI",
+    "NameEn": "Sicarian Infiltrator",
+    "NameFr": "Sicarian Infiltrator",
+    "NameDe": "Sicarian Infiltrator",
+    "KeywordsEn": "IMPERIUM, INFANTRY, SICARIAN INFILTRATOR, SKITARII",
+    "KeywordsFr": "IMPERIUM, INFANTERIE, SICARIAN INFILTRATOR, SKITARII",
+    "KeywordsDe": "IMPERIUM, INFANTERIE, SICARIAN INFILTRATOR, SKITARII",
+    "ModelProfiles": [
+      {
+        "Id": "MESI1",
+        "Movement": 8,
+        "WeaponSkill": 3,
+        "BallisticSkill": 3,
+        "Strength": 4,
+        "Toughness": 3,
+        "Wounds": 2,
+        "Attacks": "2",
+        "Leadership": 6,
+        "Save": 4,
+        "MaximumNumber": 0,
+        "Cost": 14,
+        "NameEn": "Sicarian Infiltrator",
+        "NameFr": "Sicarian Infiltrator",
+        "NameDe": "Sicarian Infiltrator",
+        "IsCommander": false,
+        "NumberOfKnownPsychics": 0,
+        "NumberOfPsychicsManifestationPerRound": 0,
+        "NumberOfPsychicsDenialPerRound": 0,
+        "WarGearOptions": [],
+        "Specialists": [
+          {
+            "SpecialistId": "CB"
+          },
+          {
+            "SpecialistId": "CO"
+          },
+          {
+            "SpecialistId": "SC"
+          },
+          {
+            "SpecialistId": "V"
+          },
+          {
+            "SpecialistId": "Z"
+          }
+        ],
+        "ModelProfileWeapons": [],
+        "CostOverrides": [],
+        "LevelCosts": []
+      },
+      {
+        "Id": "MESI2",
+        "Movement": 8,
+        "WeaponSkill": 3,
+        "BallisticSkill": 3,
+        "Strength": 4,
+        "Toughness": 3,
+        "Wounds": 2,
+        "Attacks": "3",
+        "Leadership": 7,
+        "Save": 4,
+        "MaximumNumber": 1,
+        "Cost": 15,
+        "NameEn": "Infiltrator Princeps",
+        "NameFr": "Infiltrator Princeps",
+        "NameDe": "Infiltrator Princeps",
+        "IsCommander": false,
+        "NumberOfKnownPsychics": 0,
+        "NumberOfPsychicsManifestationPerRound": 0,
+        "NumberOfPsychicsDenialPerRound": 0,
+        "WarGearOptions": [],
+        "Specialists": [
+          {
+            "SpecialistId": "CB"
+          },
+          {
+            "SpecialistId": "CO"
+          },
+          {
+            "SpecialistId": "L"
+          },
+          {
+            "SpecialistId": "SC"
+          },
+          {
+            "SpecialistId": "V"
+          },
+          {
+            "SpecialistId": "Z"
+          }
+        ],
+        "ModelProfileWeapons": [],
+        "CostOverrides": [],
+        "LevelCosts": []
+      }
+    ],
+    "ModelWeapons": [
+      {
+        "WeaponId": "EPE2"
+      },
+      {
+        "WeaponId": "MIT"
+      }
+    ],
+    "WarGearOptions": [
+      {
+        "Id": "40",
+        "MaximumPerTeam": 0,
+        "Operation": "MIT&EPE2:EFL&MLA",
+        "Exclusion": null
+      }
+    ]
+  },
+  {
+    "Id": "MESR",
+    "NameEn": "Skitarii Ranger",
+    "NameFr": "Skitarii Ranger",
+    "NameDe": "Skitarii Ranger",
+    "KeywordsEn": "IMPERIUM, INFANTRY, SKITARII RANGER, SKITARII",
+    "KeywordsFr": "IMPERIUM, INFANTERIE, SKITARII RANGER, SKITARII",
+    "KeywordsDe": "IMPERIUM, INFANTERIE, SKITARII RANGER, SKITARII",
+    "ModelProfiles": [
+      {
+        "Id": "MESR1",
+        "Movement": 6,
+        "WeaponSkill": 4,
+        "BallisticSkill": 3,
+        "Strength": 3,
+        "Toughness": 3,
+        "Wounds": 1,
+        "Attacks": "1",
+        "Leadership": 6,
+        "Save": 4,
+        "MaximumNumber": 0,
+        "Cost": 9,
+        "NameEn": "Skitarii Ranger",
+        "NameFr": "Skitarii Ranger",
+        "NameDe": "Skitarii Ranger",
+        "IsCommander": false,
+        "NumberOfKnownPsychics": 0,
+        "NumberOfPsychicsManifestationPerRound": 0,
+        "NumberOfPsychicsDenialPerRound": 0,
+        "WarGearOptions": [
+          {
+            "Id": "32",
+            "MaximumPerTeam": 1,
+            "Operation": "OMN|DAT",
+            "Exclusion": null
+          }
+        ],
+        "Specialists": [
+          {
+            "SpecialistId": "CO"
+          },
+          {
+            "SpecialistId": "SC"
+          },
+          {
+            "SpecialistId": "SN"
+          },
+          {
+            "SpecialistId": "Z"
+          }
+        ],
+        "ModelProfileWeapons": [],
+        "CostOverrides": [],
+        "LevelCosts": []
+      },
+      {
+        "Id": "MESR2",
+        "Movement": 6,
+        "WeaponSkill": 4,
+        "BallisticSkill": 3,
+        "Strength": 3,
+        "Toughness": 3,
+        "Wounds": 1,
+        "Attacks": "1",
+        "Leadership": 6,
+        "Save": 4,
+        "MaximumNumber": 3,
+        "Cost": 10,
+        "NameEn": "Ranger Gunner",
+        "NameFr": "Ranger Gunner",
+        "NameDe": "Ranger Gunner",
+        "IsCommander": false,
+        "NumberOfKnownPsychics": 0,
+        "NumberOfPsychicsManifestationPerRound": 0,
+        "NumberOfPsychicsDenialPerRound": 0,
+        "WarGearOptions": [
+          {
+            "Id": "33",
+            "MaximumPerTeam": 0,
+            "Operation": "FUG:ELF|CPL|AQT",
+            "Exclusion": null
+          }
+        ],
+        "Specialists": [
+          {
+            "SpecialistId": "AL"
+          },
+          {
+            "SpecialistId": "CO"
+          },
+          {
+            "SpecialistId": "SC"
+          },
+          {
+            "SpecialistId": "SN"
+          },
+          {
+            "SpecialistId": "Z"
+          }
+        ],
+        "ModelProfileWeapons": [],
+        "CostOverrides": [],
+        "LevelCosts": []
+      },
+      {
+        "Id": "MESR3",
+        "Movement": 6,
+        "WeaponSkill": 4,
+        "BallisticSkill": 3,
+        "Strength": 3,
+        "Toughness": 3,
+        "Wounds": 1,
+        "Attacks": "2",
+        "Leadership": 7,
+        "Save": 4,
+        "MaximumNumber": 1,
+        "Cost": 10,
+        "NameEn": "Ranger Alpha",
+        "NameFr": "Ranger Alpha",
+        "NameDe": "Ranger Alpha",
+        "IsCommander": false,
+        "NumberOfKnownPsychics": 0,
+        "NumberOfPsychicsManifestationPerRound": 0,
+        "NumberOfPsychicsDenialPerRound": 0,
+        "WarGearOptions": [
+          {
+            "Id": "34",
+            "MaximumPerTeam": 0,
+            "Operation": "FUG:(ELP|RPO|PIR)&(EMA|EPE2|MLA)",
+            "Exclusion": null
+          }
+        ],
+        "Specialists": [
+          {
+            "SpecialistId": "CO"
+          },
+          {
+            "SpecialistId": "L"
+          },
+          {
+            "SpecialistId": "SC"
+          },
+          {
+            "SpecialistId": "SN"
+          },
+          {
+            "SpecialistId": "Z"
+          }
+        ],
+        "ModelProfileWeapons": [],
+        "CostOverrides": [],
+        "LevelCosts": []
+      }
+    ],
+    "ModelWeapons": [
+      {
+        "WeaponId": "FUG"
+      }
+    ],
+    "WarGearOptions": []
+  },
+  {
+    "Id": "MESV",
+    "NameEn": "Skitarii Vanguard",
+    "NameFr": "Skitarii Vanguard",
+    "NameDe": "Skitarii Vanguard",
+    "KeywordsEn": "IMPERIUM, INFANTRY, SKITARII VANGUARD, SKITARII",
+    "KeywordsFr": "IMPERIUM, INFANTERIE, SKITARII VANGUARD, SKITARII",
+    "KeywordsDe": "IMPERIUM, INFANTERIE, SKITARII VANGUARD, SKITARII",
+    "ModelProfiles": [
+      {
+        "Id": "MESV1",
+        "Movement": 6,
+        "WeaponSkill": 4,
+        "BallisticSkill": 3,
+        "Strength": 3,
+        "Toughness": 3,
+        "Wounds": 1,
+        "Attacks": "1",
+        "Leadership": 6,
+        "Save": 4,
+        "MaximumNumber": 0,
+        "Cost": 9,
+        "NameEn": "Skitarii Vanguard",
+        "NameFr": "Skitarii Vanguard",
+        "NameDe": "Skitarii Vanguard",
+        "IsCommander": false,
+        "NumberOfKnownPsychics": 0,
+        "NumberOfPsychicsManifestationPerRound": 0,
+        "NumberOfPsychicsDenialPerRound": 0,
+        "WarGearOptions": [
+          {
+            "Id": "35",
+            "MaximumPerTeam": 1,
+            "Operation": "OMN|DAT",
+            "Exclusion": null
+          }
+        ],
+        "Specialists": [
+          {
+            "SpecialistId": "CO"
+          },
+          {
+            "SpecialistId": "SC"
+          },
+          {
+            "SpecialistId": "SN"
+          },
+          {
+            "SpecialistId": "Z"
+          }
+        ],
+        "ModelProfileWeapons": [],
+        "CostOverrides": [],
+        "LevelCosts": []
+      },
+      {
+        "Id": "MESV2",
+        "Movement": 6,
+        "WeaponSkill": 4,
+        "BallisticSkill": 3,
+        "Strength": 3,
+        "Toughness": 3,
+        "Wounds": 1,
+        "Attacks": "1",
+        "Leadership": 6,
+        "Save": 4,
+        "MaximumNumber": 3,
+        "Cost": 10,
+        "NameEn": "Skitarii Vanguard Gunner",
+        "NameFr": "Skitarii Vanguard Gunner",
+        "NameDe": "Skitarii Vanguard Gunner",
+        "IsCommander": false,
+        "NumberOfKnownPsychics": 0,
+        "NumberOfPsychicsManifestationPerRound": 0,
+        "NumberOfPsychicsDenialPerRound": 0,
+        "WarGearOptions": [
+          {
+            "Id": "36",
+            "MaximumPerTeam": 0,
+            "Operation": "CRA:ELF|CPL|AQT",
+            "Exclusion": null
+          }
+        ],
+        "Specialists": [
+          {
+            "SpecialistId": "AL"
+          },
+          {
+            "SpecialistId": "CO"
+          },
+          {
+            "SpecialistId": "SC"
+          },
+          {
+            "SpecialistId": "SN"
+          },
+          {
+            "SpecialistId": "Z"
+          }
+        ],
+        "ModelProfileWeapons": [],
+        "CostOverrides": [],
+        "LevelCosts": []
+      },
+      {
+        "Id": "MESV3",
+        "Movement": 6,
+        "WeaponSkill": 4,
+        "BallisticSkill": 3,
+        "Strength": 3,
+        "Toughness": 3,
+        "Wounds": 1,
+        "Attacks": "2",
+        "Leadership": 7,
+        "Save": 4,
+        "MaximumNumber": 1,
+        "Cost": 10,
+        "NameEn": "Vanguard Alpha",
+        "NameFr": "Vanguard Alpha",
+        "NameDe": "Vanguard Alpha",
+        "IsCommander": false,
+        "NumberOfKnownPsychics": 0,
+        "NumberOfPsychicsManifestationPerRound": 0,
+        "NumberOfPsychicsDenialPerRound": 0,
+        "WarGearOptions": [
+          {
+            "Id": "37",
+            "MaximumPerTeam": 0,
+            "Operation": "CRA:(ELP|RPO|PIR)&(EMA|EPE2|MLA)",
+            "Exclusion": null
+          }
+        ],
+        "Specialists": [
+          {
+            "SpecialistId": "CO"
+          },
+          {
+            "SpecialistId": "L"
+          },
+          {
+            "SpecialistId": "SC"
+          },
+          {
+            "SpecialistId": "SN"
+          },
+          {
+            "SpecialistId": "Z"
+          }
+        ],
+        "ModelProfileWeapons": [],
+        "CostOverrides": [],
+        "LevelCosts": []
+      }
+    ],
+    "ModelWeapons": [
+      {
+        "WeaponId": "CRA"
+      }
+    ],
+    "WarGearOptions": []
+  },
+  {
+    "Id": "MET",
+    "NameEn": "Tech-Priest Enginseer",
+    "NameFr": "Tech-Priest Enginseer",
+    "NameDe": "Tech-Priest Enginseer",
+    "KeywordsEn": "IMPERIUM, CULT MECHANICUS, COMMANDER, INFANTRY, TECH-PRIEST, ENGINSEER",
+    "KeywordsFr": "IMPERIUM, CULT MECHANICUS, COMMANDANT, INFANTERIE, TECH-PRIEST, ENGINSEER",
+    "KeywordsDe": "IMPERIUM, CULT MECHANICUS, KOMMANDEUR, INFANTERIE, TECH-PRIEST, ENGINSEER",
+    "ModelProfiles": [
+      {
+        "Id": "MET",
+        "Movement": 6,
+        "WeaponSkill": 4,
+        "BallisticSkill": 4,
+        "Strength": 4,
+        "Toughness": 4,
+        "Wounds": 4,
+        "Attacks": "2",
+        "Leadership": 8,
+        "Save": 3,
+        "MaximumNumber": 1,
+        "Cost": 28,
+        "NameEn": "Tech-Priest Enginseer",
+        "NameFr": "Tech-Priest Enginseer",
+        "NameDe": "Tech-Priest Enginseer",
+        "IsCommander": true,
+        "NumberOfKnownPsychics": 0,
+        "NumberOfPsychicsManifestationPerRound": 0,
+        "NumberOfPsychicsDenialPerRound": 0,
+        "WarGearOptions": [],
+        "Specialists": [
+          {
+            "SpecialistId": "F"
+          },
+          {
+            "SpecialistId": "FE"
+          },
+          {
+            "SpecialistId": "LE"
+          },
+          {
+            "SpecialistId": "LH"
+          },
+          {
+            "SpecialistId": "LO"
+          },
+          {
+            "SpecialistId": "SH"
+          },
+          {
+            "SpecialistId": "ST"
+          }
+        ],
+        "ModelProfileWeapons": [
+          {
+            "WeaponId": "OA"
+          },
+          {
+            "WeaponId": "PLS"
+          },
+          {
+            "WeaponId": "SA"
+          }
+        ],
+        "CostOverrides": [],
+        "LevelCosts": [
+          {
+            "Level": 1,
+            "Cost": 28
+          },
+          {
+            "Level": 2,
+            "Cost": 33
+          },
+          {
+            "Level": 3,
+            "Cost": 48
+          },
+          {
+            "Level": 4,
+            "Cost": 68
+          }
+        ]
+      }
+    ],
+    "ModelWeapons": [],
+    "WarGearOptions": []
+  },
+  {
+    "Id": "METM",
+    "NameEn": "Tech-Priest Manipulus",
+    "NameFr": "Tech-Priest Manipulus",
+    "NameDe": "Tech-Priest Manipulus",
+    "KeywordsEn": "IMPERIUM, CULT MECHANICUS, COMMANDER, INFANTRY, TECH-PRIEST, MANIPULUS",
+    "KeywordsFr": "IMPERIUM, CULT MECHANICUS, COMMANDANT, INFANTERIE, TECH-PRIEST, MANIPULUS",
+    "KeywordsDe": "IMPERIUM, CULT MECHANICUS, KOMMANDEUR, INFANTERIE, TECH-PRIEST, MANIPULUS",
+    "ModelProfiles": [
+      {
+        "Id": "METM",
+        "Movement": 6,
+        "WeaponSkill": 3,
+        "BallisticSkill": 3,
+        "Strength": 4,
+        "Toughness": 4,
+        "Wounds": 4,
+        "Attacks": "3",
+        "Leadership": 8,
+        "Save": 2,
+        "MaximumNumber": 1,
+        "Cost": 102,
+        "NameEn": "Tech-Priest Manipulus",
+        "NameFr": "Tech-Priest Manipulus",
+        "NameDe": "Tech-Priest Manipulus",
+        "IsCommander": true,
+        "NumberOfKnownPsychics": 0,
+        "NumberOfPsychicsManifestationPerRound": 0,
+        "NumberOfPsychicsDenialPerRound": 0,
+        "WarGearOptions": [
+          {
+            "Id": "252",
+            "MaximumPerTeam": 0,
+            "Operation": "LAMA:CATR",
+            "Exclusion": null
+          }
+        ],
+        "Specialists": [
+          {
+            "SpecialistId": "F"
+          },
+          {
+            "SpecialistId": "FE"
+          },
+          {
+            "SpecialistId": "LE"
+          },
+          {
+            "SpecialistId": "LO"
+          },
+          {
+            "SpecialistId": "SH"
+          },
+          {
+            "SpecialistId": "ST"
+          }
+        ],
+        "ModelProfileWeapons": [
+          {
+            "WeaponId": "LAMA"
+          },
+          {
+            "WeaponId": "MECA"
+          },
+          {
+            "WeaponId": "OMST"
+          }
+        ],
+        "CostOverrides": [],
+        "LevelCosts": [
+          {
+            "Level": 4,
+            "Cost": 167
+          },
+          {
+            "Level": 3,
+            "Cost": 142
+          },
+          {
+            "Level": 2,
+            "Cost": 122
+          },
+          {
+            "Level": 1,
+            "Cost": 102
+          }
+        ]
+      }
+    ],
+    "ModelWeapons": [],
+    "WarGearOptions": []
+  },
+  {
+    "Id": "MEUR",
+    "NameEn": "UR-025",
+    "NameFr": "UR-025",
+    "NameDe": "UR-025",
+    "KeywordsEn": "Imperium, Robotica Imperialis, Infantry, Imperial Robot, UR-025",
+    "KeywordsFr": "Imperium, Robotica Imperialis, Infantry, Imperial Robot, UR-025",
+    "KeywordsDe": "Imperium, Robotica Imperialis, Infantry, Imperial Robot, UR-025",
+    "ModelProfiles": [
+      {
+        "Id": "MEUR",
+        "Movement": 5,
+        "WeaponSkill": 3,
+        "BallisticSkill": 3,
+        "Strength": 5,
+        "Toughness": 5,
+        "Wounds": 4,
+        "Attacks": "2",
+        "Leadership": 8,
+        "Save": 3,
+        "MaximumNumber": 1,
+        "Cost": 30,
+        "NameEn": "UR-025",
+        "NameFr": "UR-025",
+        "NameDe": "UR-025",
+        "IsCommander": false,
+        "NumberOfKnownPsychics": 0,
+        "NumberOfPsychicsManifestationPerRound": 0,
+        "NumberOfPsychicsDenialPerRound": 0,
+        "WarGearOptions": [],
+        "Specialists": [
+          {
+            "SpecialistId": "AL"
+          }
+        ],
+        "ModelProfileWeapons": [
+          {
+            "WeaponId": "MKI"
+          },
+          {
+            "WeaponId": "PWCL"
+          }
+        ],
+        "CostOverrides": [],
+        "LevelCosts": []
+      }
+    ],
+    "ModelWeapons": [],
+    "WarGearOptions": []
+  }
+]

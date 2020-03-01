@@ -1,0 +1,44 @@
+[
+  {
+    "Id": "A",
+    "Index": 2,
+    "NameEn": "Assault",
+    "NameFr": "Assaut",
+    "NameDe": "Sturm"
+  },
+  {
+    "Id": "G",
+    "Index": 6,
+    "NameEn": "Grenade",
+    "NameFr": "Grenade",
+    "NameDe": "Granate"
+  },
+  {
+    "Id": "L",
+    "Index": 1,
+    "NameEn": "Heavy",
+    "NameFr": "Lourde",
+    "NameDe": "Schwer"
+  },
+  {
+    "Id": "M",
+    "Index": 4,
+    "NameEn": "Melee",
+    "NameFr": "Mêlée",
+    "NameDe": "Nahkampf"
+  },
+  {
+    "Id": "P",
+    "Index": 5,
+    "NameEn": "Pistol",
+    "NameFr": "Pistolet",
+    "NameDe": "Pistole"
+  },
+  {
+    "Id": "R",
+    "Index": 3,
+    "NameEn": "Rapid Fire",
+    "NameFr": "Tir rapide",
+    "NameDe": "Schnellfeuer"
+  }
+]

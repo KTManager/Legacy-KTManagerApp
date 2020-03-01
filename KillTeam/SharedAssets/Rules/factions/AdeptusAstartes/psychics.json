@@ -1,0 +1,80 @@
+[
+  {
+    "Id": "10",
+    "ModelProfileId": "AAB",
+    "WarpCharge": 8,
+    "Dices": 3,
+    "NameEn": "Null zone",
+    "NameFr": "Zone neutre",
+    "NameDe": "Nullzone",
+    "DescriptionEn": "If manifested, then until the start of the next Psychic phase, while they are within 3\" of the psyker, enemy models cannot take invulnerable saves and must halve the result of any Psychic tests (rounding up) that they take.",
+    "DescriptionFr": "S'il est manifesté, alors jusqu'au début de la prochaine phase psychique, les figurines ennemies à 3\" du psyker ne peuvent pas effectuer de sauvegardes invulnrébles et doivent diviser par deux (en arrondissant au supérieur) les résultats des tests Psychiques qu'elles effectuent.",
+    "DescriptionDe": "Wenn die Psikraft manifestiert wird, können feindliche Modelle bis zum Beginn der nächsten Psiphase und solange sie sich innerhalb von 3'' um den Psioniker befinden keine Rettungswürfe ablegen und müssen das Ergebnis von Psitests, die sie ablegen, halbieren (aufgerundet).",
+    "Commander": true
+  },
+  {
+    "Id": "8",
+    "ModelProfileId": "AAB",
+    "WarpCharge": 5,
+    "Dices": 1,
+    "NameEn": "Veil of time",
+    "NameFr": "Voile du temps",
+    "NameDe": "Schleier der Zeit",
+    "DescriptionEn": "If manifested, pick a friendly model within 18\" of the psyker. Until the start of your next Psychic phase, you can re-roll charge rolls and Advance rolls for that model, and they can always \r\nbe chosen to fight in the Hammer of Wrath section of the Fight phase, even if they did not make a charge move that battle round. ",
+    "DescriptionFr": "S'il est manifesté, choisissez une figurine amie à 18\" du psyker. Jusqu'au début de la prochaine phase psychique, vous pouvez relancer ses jets de charge et d'avance, et elle peut toujours être choisie pour combattre pendant la section Marteau de Fureur de la phase de Combat, même si elle n'a pas effectué de mouvement de charge à ce round.",
+    "DescriptionDe": "Wenn die Psikraft manifestiert wird, wählst du ein befreundetes Modell innerhalb von 18'' um den Psioniker. Bis zum Beginn der nächsten Psiphase kannst du Angriffs- und Vorrücken-Würfe für dieses Modell wiederholen und es kann auch dann im Abschnitt Zorniger Ansturm der Nahkampfphase gewählt werden, um zu kämpfen, wenn es in dieser Schlachtrunde keine Angriffsbewegung ausgeführt hat.",
+    "Commander": true
+  },
+  {
+    "Id": "9",
+    "ModelProfileId": "AAB",
+    "WarpCharge": 6,
+    "Dices": 2,
+    "NameEn": "Might of heroes",
+    "NameFr": "Puissance des héros",
+    "NameDe": "Macht der Helden",
+    "DescriptionEn": "If manifested, pick a friendly model within 12\" of the psyker. Until the start of the next Psychic phase, add 1 to that model's Strength, Toughness and Attacks characteristics.",
+    "DescriptionFr": "S'il est manifesté, choisissez une figurine amie à 12\" du psyker. Jusqu'au début de la prochaine phase psychique, ajoutez 1 à sa Force, son Endurance et ses attaques.",
+    "DescriptionDe": "Wenn die Psikraft manifestiert wird, wähle ein befreundetes Modell innerhalb von 12'' um den Psioniker. Addiere bis zum Beginn der nächsten Psiphase 1 zu den Profilwerten Stärke, Widerstand und Attacken des gewählten Modells.",
+    "Commander": true
+  },
+  {
+    "Id": "HAL",
+    "ModelProfileId": "LIIPA",
+    "WarpCharge": 7,
+    "Dices": 2,
+    "NameEn": "Hallucination",
+    "NameFr": "Hallucination",
+    "NameDe": "Halluzination",
+    "DescriptionEn": "If manifested, select an enemy model within 12\" of and visible to the psyker. Until the start of the next Psychic phase, subtract 1 from that model’sLeadership characteristic and from hit rolls made for that model.",
+    "DescriptionFr": "S'il est manifesté, choisissez une figurine ennemie à 12\" et visible du psyker. Jusqu'au début de la prochaine phase Psychique, soustrayez 1 au Commandement de cette figurine et à ses jets de touche",
+    "DescriptionDe": "Wenn die Psikraft manifestiert wird, wähle ein feindliches Modell innerhalb von 12'' um den Psioniker, das er sehen kann. Ziehe bis zum Beginn deiner nächsten Psiphase 1 vom Moralwert und von Trefferwürfen des gewählten Modells ab.",
+    "Commander": false
+  },
+  {
+    "Id": "MR",
+    "ModelProfileId": "LIIPA",
+    "WarpCharge": 6,
+    "Dices": 3,
+    "NameEn": "Mind Raid",
+    "NameFr": "Raid Psychique",
+    "NameDe": "Verstandraub",
+    "DescriptionEn": "If manifested, select an enemy model within 18\" of and visibleto the psyker.That model suffersa mortal wound. If your kill team is Battle-forged, and the model you chose was a Leader or a COMMANDER, you gain 1 Command Point.",
+    "DescriptionFr": "S'il est manifesté, choisissez une figurine ennemie à 18\" et visible du psyker. Cette figurine subit une blessure mortelle. Si votre kill team est Réglementaire et que la cible est un Leader ou un COMMANDANT, gagnez 1 Point de Commandement",
+    "DescriptionDe": "Wenn die Psikraft manifestiert wird, wähle ein feindliches Modell innerhalb von 18'' um den Psioniker, das er sehen kann. Dieses Modell erleidet eine tödliche Verwundung. Wenn sich deine Armee in Gefechtsordnung befindet und das gewählte Modell ein Anführer oder KOMMANDEUR ist, erhälst du 1 Befehlspunkt.",
+    "Commander": false
+  },
+  {
+    "Id": "SHR",
+    "ModelProfileId": "LIIPA",
+    "WarpCharge": 6,
+    "Dices": 1,
+    "NameEn": "Shrouding",
+    "NameFr": "Suaire",
+    "NameDe": "Psionischer Schleier",
+    "DescriptionEn": "If manifested, select a friendly ADEPTUS ASTARTES PHOBOS model within 8\" of the psyker. Until the start of the next Psychic phase, enemy models can only shoot this model if it is the closest target that is visible to them.",
+    "DescriptionFr": "S'il est manifesté, choisissez une figurine amie ADEPTUS ASTARTES PHOBOS à 8\" du psyker. Jusqu'au début de la prochaine phase Psychique, les figurines ennemies ne peuvent tirer sur cette figurine que s'il s'agit de la cible visible la plus proche",
+    "DescriptionDe": "Wenn die Psikraft manifestiert wird, wähle ein befreundetes ADEPTUS-ASTARTES-PHOBOS-Modell innerhalb von 8'' um den Psioniker. Bis zum Beginn deiner nächsten Psiphase können feindliche Modelle das gewählte Modell nur beschießen, wenn es das nächste für sie sichtbare Modell ist.",
+    "Commander": false
+  }
+]

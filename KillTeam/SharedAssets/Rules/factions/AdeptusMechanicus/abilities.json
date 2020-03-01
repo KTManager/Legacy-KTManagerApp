@@ -1,0 +1,438 @@
+[
+  {
+    "Id": "AUR",
+    "ModelId": "MESI",
+    "ModelProfileId": null,
+    "NameEn": "Neurostatic Aura:",
+    "NameFr": "Aura neurostatique",
+    "NameDe": "Neurostatische Aura",
+    "DescriptionEn": "Subtract 1 from the Leadership characteristic of enemy models whilst they are within 3\" of one or more models with this ability.",
+    "DescriptionFr": "Soustrayez 1 de la caractéristque de Commandement des figurines ennemies se trouvant à 3\" d'une ou plusieurs figurines ayant cette patitude.",
+    "DescriptionDe": "Ziehe 1 vom Moralwert feindlicher Modelle ab, während sie sich innerhalb von 3\" um ein oder mehrere Modelle mit dieser Fähigkeit befinden.",
+    "Details": []
+  },
+  {
+    "Id": "BIO",
+    "ModelId": "MET",
+    "ModelProfileId": null,
+    "NameEn": "Bionics",
+    "NameFr": "Bioniques",
+    "NameDe": "Bionik",
+    "DescriptionEn": "This model has a 6+ invulnerable save.",
+    "DescriptionFr": "Cette figurine a une sauvegarde invulnérable de 6+.",
+    "DescriptionDe": "Dieses Modell hat einen Rettungswurf von 6+.",
+    "Details": []
+  },
+  {
+    "Id": "BIO1",
+    "ModelId": "MERU",
+    "ModelProfileId": null,
+    "NameEn": "Bionics",
+    "NameFr": "Bioniques",
+    "NameDe": "Bionik",
+    "DescriptionEn": "This model has a 6+ invulnerable save.",
+    "DescriptionFr": "Cette figurine a une sauvegarde invulnérable de 6+.",
+    "DescriptionDe": "Dieses Modell hat einen Rettungswurf von 6+.",
+    "Details": []
+  },
+  {
+    "Id": "BIO2",
+    "ModelId": "MESI",
+    "ModelProfileId": null,
+    "NameEn": "Bionics",
+    "NameFr": "Bioniques",
+    "NameDe": "Bionik",
+    "DescriptionEn": "This model has a 6+ invulnerable save.",
+    "DescriptionFr": "Cette figurine a une sauvegarde invulnérable de 6+.",
+    "DescriptionDe": "Dieses Modell hat einen Rettungswurf von 6+.",
+    "Details": []
+  },
+  {
+    "Id": "BIO3",
+    "ModelId": "MESR",
+    "ModelProfileId": null,
+    "NameEn": "Bionics",
+    "NameFr": "Bioniques",
+    "NameDe": "Bionik",
+    "DescriptionEn": "This model has a 6+ invulnerable save.",
+    "DescriptionFr": "Cette figurine a une sauvegarde invulnérable de 6+.",
+    "DescriptionDe": "Dieses Modell hat einen Rettungswurf von 6+.",
+    "Details": []
+  },
+  {
+    "Id": "BIO4",
+    "ModelId": "MESV",
+    "ModelProfileId": null,
+    "NameEn": "Bionics",
+    "NameFr": "Bioniques",
+    "NameDe": "Bionik",
+    "DescriptionEn": "This model has a 6+ invulnerable save.",
+    "DescriptionFr": "Cette figurine a une sauvegarde invulnérable de 6+.",
+    "DescriptionDe": "Dieses Modell hat einen Rettungswurf von 6+.",
+    "Details": []
+  },
+  {
+    "Id": "CAN",
+    "ModelId": null,
+    "ModelProfileId": null,
+    "NameEn": "Canticles of the Omnissiah",
+    "NameFr": "Cantiques de l'Omnimessie",
+    "NameDe": "Lobgesänge des Omnissiah",
+    "DescriptionEn": "At the start of each battle round, pick which Canticle of the Omnissiah from the table opposite is in effect until the end of the battle round. The same Canticle may not be picked twice during the same battle. Alternatively, you can randomly determine which Canticle of the Omnissiah is in effect by rolling a D6 and consulting the table opposite. Note that if you randomly determine a Canticle, it takes effect even if the same Canticle has been in effect earlier in the battle.",
+    "DescriptionFr": "Au début de chaque round de bataille, choisissez dans le tableau ci-contre que Cantique de l'Omnimessie est actif jusqu'à la fin du round. Vous ne pouvez pas choisir deux fois le même cantique au cours de la bataille. Sinon vous pouvez tirer au hasard quel Cantique de l'Omnimessie fera effet en jetant D6 et en consultant le tableau ci-contre. Dans ce cas, le cantique fera effet même s'il a déjà fait effet précédemment au cours de la bataille.",
+    "DescriptionDe": "Zu Beginn jeder Schlachtrunde wählst du, welcher Lobgesang des Omnissiah bis zum Ende der Schlachtrunde wirksam ist. Während einer Schlacht darf kein Lobgesang doppelt gewählt werden. Alternativ kannst du zufällig ermitteln, welcher Lobgesang des Omnissiah gilt, indem du mit einem W6 auf der Tabelle rechts würfelst. Beachte, dass ein zufällig ermittelter Lobgesang auch wirksam ist, wenn der gleiche Lobgesang bereits früher in der Schlacht wirksam war.",
+    "Details": [
+      {
+        "Row": 0,
+        "Column": 1,
+        "ContentEn": "D6",
+        "ContentFr": "D6",
+        "ContentDe": "W6"
+      },
+      {
+        "Row": 1,
+        "Column": 1,
+        "ContentEn": "1",
+        "ContentFr": "1",
+        "ContentDe": "1"
+      },
+      {
+        "Row": 2,
+        "Column": 1,
+        "ContentEn": "2",
+        "ContentFr": "2",
+        "ContentDe": "2"
+      },
+      {
+        "Row": 3,
+        "Column": 1,
+        "ContentEn": "3",
+        "ContentFr": "3",
+        "ContentDe": "3"
+      },
+      {
+        "Row": 4,
+        "Column": 1,
+        "ContentEn": "4",
+        "ContentFr": "4",
+        "ContentDe": "4"
+      },
+      {
+        "Row": 5,
+        "Column": 1,
+        "ContentEn": "5",
+        "ContentFr": "5",
+        "ContentDe": "5"
+      },
+      {
+        "Row": 6,
+        "Column": 1,
+        "ContentEn": "6",
+        "ContentFr": "6",
+        "ContentDe": "6"
+      },
+      {
+        "Row": 0,
+        "Column": 2,
+        "ContentEn": "Canticle",
+        "ContentFr": "Cantique",
+        "ContentDe": "Lobgesang"
+      },
+      {
+        "Row": 1,
+        "Column": 2,
+        "ContentEn": "Incantation of the Iron Soul",
+        "ContentFr": "Incantation de l'ame de fer",
+        "ContentDe": "Anrufung der ehernen Seele"
+      },
+      {
+        "Row": 2,
+        "Column": 2,
+        "ContentEn": "Litany of the Electromancer",
+        "ContentFr": "Litanie de l'électomancien",
+        "ContentDe": "Litanei des Elektromanten"
+      },
+      {
+        "Row": 3,
+        "Column": 2,
+        "ContentEn": "Chant of the Remorseless Fist",
+        "ContentFr": "Chant du poing impossible",
+        "ContentDe": "Choral der gnadenlosen Faust"
+      },
+      {
+        "Row": 4,
+        "Column": 2,
+        "ContentEn": "Shroudpsalm",
+        "ContentFr": "Psaume-linceul",
+        "ContentDe": "Schleierpsalm"
+      },
+      {
+        "Row": 5,
+        "Column": 2,
+        "ContentEn": "Invocation of Machine Might",
+        "ContentFr": "Invocation de la force-machine",
+        "ContentDe": "Invokation der Maschinenmacht"
+      },
+      {
+        "Row": 6,
+        "Column": 2,
+        "ContentEn": "Benediction of the Omnissiah",
+        "ContentFr": "Bénédiction de l'omnimessie",
+        "ContentDe": "Segen des Omnissiah"
+      },
+      {
+        "Row": 0,
+        "Column": 3,
+        "ContentEn": "",
+        "ContentFr": "",
+        "ContentDe": ""
+      },
+      {
+        "Row": 1,
+        "Column": 3,
+        "ContentEn": "You can re-roll failed Nerve tests for models in your kill team.",
+        "ContentFr": "Vous pouvez relancer les tests de sang-froid pour les figurines de votre kill team.",
+        "ContentDe": "Du darfst misslungene Nerventests für Modelle deines Kill Teams wiederholen."
+      },
+      {
+        "Row": 2,
+        "Column": 3,
+        "ContentEn": "Roll a D6 for each enemy model within 1\" of any models in your kill team at the start of the Fight phase. On a 6, that enemy model suffers 1 mortal wound.",
+        "ContentFr": "Jetez un D6 pour chaque figurine ennemie à 1\" d'une figurine de votre kill team au début de la phase de combat. Sur 6, cet ennemi subit 1 blessure mortelle.",
+        "ContentDe": "Wirf zu Beginn der Nahkampfphase für jedes feindliche Modell innerhalb von 1\" um ein Modell deines Kill Teams einen W6. Bei einer 6 erleidet das feindliche Modell eine tödliche Verwundung."
+      },
+      {
+        "Row": 3,
+        "Column": 3,
+        "ContentEn": "Re-roll hit rolls of 1 for models in your kill team in the Fight phase.",
+        "ContentFr": "Relancez les jets de touche de 1 pour les figurines de votre kill team en phase de combat.",
+        "ContentDe": "Wiederhole in der Nahkampfphase Trefferwürfe von 1 für Modelle deines Kill Teams."
+      },
+      {
+        "Row": 4,
+        "Column": 3,
+        "ContentEn": "When an enemy player makes a hit roll for a shooting attack that targets a model from your kill team, and that model is obscured, that hit roll suffers an additional -1 modifier.",
+        "ContentFr": "Lorqu'un joueur adverse effectue un jet de touche pour une attaque de tir ciblant une figurine de votre kill team, et que celle-ci est masquée, le jet de touche subit un malus additionnel de -1.",
+        "ContentDe": "Wenn ein Gegner einen Trefferwurf für eine Fernkampfattacke ablegt, deren Ziel ein Modell deines Kill Teams ist und dieses Modell verdeckt ist, erleidet dieser Trefferwurf einen zusätzlichen Modifikator von -1."
+      },
+      {
+        "Row": 5,
+        "Column": 3,
+        "ContentEn": "Add 1 to the Strength characteristic of models in your kill team.",
+        "ContentFr": "Ajoutez 1 à la force des figurines de votre kill team jusqu'à la fin du round.",
+        "ContentDe": "Addiere 1 zum Stärkewert von Modellen deines Kill Teams."
+      },
+      {
+        "Row": 6,
+        "Column": 3,
+        "ContentEn": "Re-roll hit rolls of 1 for models in your kill team in the Shooting phase.",
+        "ContentFr": "Relancez les jets de touche de 1 pour les figurines de votre kill team en phase de tir.",
+        "ContentDe": "Wiederhole in der Fernkampfphase Trefferwürfe von 1 für Modelle deines Kill Teams."
+      }
+    ]
+  },
+  {
+    "Id": "CAW3",
+    "ModelId": null,
+    "ModelProfileId": "MEJD",
+    "NameEn": "Concealed Archeotech Weapon",
+    "NameFr": "",
+    "NameDe": "",
+    "DescriptionEn": "Once per battle, at the start of the Fight phase, pick one enemy model within 1\" of this model and roll a dice; on a 4+ the target model suffers D3 mortal wounds.",
+    "DescriptionFr": "",
+    "DescriptionDe": "",
+    "Details": []
+  },
+  {
+    "Id": "DFG3",
+    "ModelId": null,
+    "ModelProfileId": "MEJD",
+    "NameEn": "Disruption Field Generator",
+    "NameFr": "",
+    "NameDe": "",
+    "DescriptionEn": "This model has a 4+ invulnerable save",
+    "DescriptionFr": "",
+    "DescriptionDe": "",
+    "Details": []
+  },
+  {
+    "Id": "FADOP",
+    "ModelId": "MECE",
+    "ModelProfileId": null,
+    "NameEn": "Fanatical Devotion",
+    "NameFr": "Dévotion Fanatique",
+    "NameDe": "Fanatische Hingabe",
+    "DescriptionEn": "Each time a model with this ability loses a wound, roll a D6; on a 5+ the model does not lose that wound.",
+    "DescriptionFr": "Jetez un D6 à chaque fois que cette figurine perd un PV, sur un 5+ ne le PV n'est pas perdu",
+    "DescriptionDe": "Wirf jedes Mal einen W6, wenn dieses Modell einen Lebenspunkt verliert; bei 5+ verliert das Modell den Lebenspunkt nicht.",
+    "Details": []
+  },
+  {
+    "Id": "FADOP2",
+    "ModelId": "MEFE",
+    "ModelProfileId": null,
+    "NameEn": "Fanatical Devotion",
+    "NameFr": "Dévotion Fanatique",
+    "NameDe": "Fanatische Hingabe",
+    "DescriptionEn": "Each time a model with this ability loses a wound, roll a D6; on a 5+ the model does not lose that wound.",
+    "DescriptionFr": "Jetez un D6 à chaque fois que cette figurine perd un PV, sur un 5+ ne le PV n'est pas perdu",
+    "DescriptionDe": "Wirf jedes Mal einen W6, wenn dieses Modell einen Lebenspunkt verliert; bei 5+ verliert das Modell den Lebenspunkt nicht.",
+    "Details": []
+  },
+  {
+    "Id": "MB",
+    "ModelId": "MED",
+    "ModelProfileId": null,
+    "NameEn": "Masterwork Bionics",
+    "NameFr": "Bioniques de Maitre",
+    "NameDe": "Meisterhafte Bionik",
+    "DescriptionEn": "At the beginning of each battle round, this model regains D3 lost wounds.",
+    "DescriptionFr": "Au début de chaque round, cette figurine soigne D3 blessures subies.",
+    "DescriptionDe": "Zu Beginn jeder Schlachtrunde erhält dieses Modell W3 verlorene Lebenspunkte zurück.",
+    "Details": []
+  },
+  {
+    "Id": "METM1",
+    "ModelId": null,
+    "ModelProfileId": "METM",
+    "NameEn": "Blessed Bionics",
+    "NameFr": "Bioniques bénis",
+    "NameDe": "Gesegnete Bionik",
+    "DescriptionEn": "This model has a 5+ invulnerable save. In addition, at the beginning of each battle round, this model regains D3 lost wounds.",
+    "DescriptionFr": "Cette figurine a une sauvegarde invulnérable de 5+. En outre, au début de chaque round de bataille, cette figurine soigne D3 blessures subiles.",
+    "DescriptionDe": "Dieses Modell hat einen Rettungswurf von 5+. Außerdem erhält dieses Modell zu Beginn jeder Schlachtrunde W3 verlorene Lebenspunkte zurück.",
+    "Details": []
+  },
+  {
+    "Id": "MSA3",
+    "ModelId": null,
+    "ModelProfileId": "MEJD",
+    "NameEn": "Multi-Spectral Auspicator",
+    "NameFr": "",
+    "NameDe": "",
+    "DescriptionEn": "Re-roll hit rolls of 1 for attacks made by this model.",
+    "DescriptionFr": "",
+    "DescriptionDe": "",
+    "Details": []
+  },
+  {
+    "Id": "RF",
+    "ModelId": "MED",
+    "ModelProfileId": null,
+    "NameEn": "Refractor Field",
+    "NameFr": "Champ réfracteur",
+    "NameDe": "Refraktorfeld",
+    "DescriptionEn": "This model has a 5+ invulnerable save.",
+    "DescriptionFr": "Cette figurine a une sauvegarde invulnérable de 5+.",
+    "DescriptionDe": "Ein Lord Commissar hat einen Rettungswurf von 5+.",
+    "Details": []
+  },
+  {
+    "Id": "RTR3",
+    "ModelId": null,
+    "ModelProfileId": "MEJD",
+    "NameEn": "Rogue Trader",
+    "NameFr": "",
+    "NameDe": "",
+    "DescriptionEn": "This model cannot be affected by any Tactics or abilities that affect models with a particular Faction keyword.",
+    "DescriptionFr": "",
+    "DescriptionDe": "",
+    "Details": []
+  },
+  {
+    "Id": "SAR",
+    "ModelId": "MESV",
+    "ModelProfileId": null,
+    "NameEn": "Rad-saturation",
+    "NameFr": "Saturation de radiation",
+    "NameDe": "Intensive Verstrahlung",
+    "DescriptionEn": "Reduce the Toughness characteristic of enemy models by 1 whilst they are within 1\" of one or more models with this ability.",
+    "DescriptionFr": "Réduisez de 1 point l'Endurance des figurines ennemies à 1\" d'une figurine ayant cette aptitude.",
+    "DescriptionDe": "Reduziere den Widerstandswert feindlicher Modelle um 1, solange sie sich innerhalb von 1\" um eines oder mehrere Modelle mit dieser Fähigkeit befinden.",
+    "Details": []
+  },
+  {
+    "Id": "SERS",
+    "ModelId": null,
+    "ModelProfileId": "MEUR",
+    "NameEn": "Self-repair Systems",
+    "NameFr": "",
+    "NameDe": "",
+    "DescriptionEn": "At the start of each battle round, this model regains 1 lost wound.",
+    "DescriptionFr": "",
+    "DescriptionDe": "",
+    "Details": []
+  },
+  {
+    "Id": "SIQR",
+    "ModelId": null,
+    "ModelProfileId": "MEUR",
+    "NameEn": "Something Isn't Quite Right…",
+    "NameFr": "",
+    "NameDe": "",
+    "DescriptionEn": "This model is not treated as a model in your kill team for the purposes of Canticles of the Omnissiah.",
+    "DescriptionFr": "",
+    "DescriptionDe": "",
+    "Details": []
+  },
+  {
+    "Id": "SPECR3",
+    "ModelId": null,
+    "ModelProfileId": "MEUR",
+    "NameEn": "Specialist Retainer",
+    "NameFr": "",
+    "NameDe": "",
+    "DescriptionEn": "This model is always a Heavy specialist, but this does not count towards the maximum number of specialists in your kill team.",
+    "DescriptionFr": "",
+    "DescriptionDe": "",
+    "Details": []
+  },
+  {
+    "Id": "SV",
+    "ModelId": "MEFE",
+    "ModelProfileId": null,
+    "NameEn": "Siphoned Vigour",
+    "NameFr": "Drain de Vigueur",
+    "NameDe": "Entzogene Lebenskraft",
+    "DescriptionEn": "If this model takes an enemy model out of action in the Fight phase, its invulnerable save is improved to 3+ for the remainder of the mission.",
+    "DescriptionFr": "Si cette figurine met hors de combat une figurine ennemie en phase de Combat, sa sauvegarde invulnérable passe à 3+ pour le restant de la mission",
+    "DescriptionDe": "Wenn dieses Modell in der Nahkampfphase ein feindliches Modell ausschaltet, verbessert sich sein Rettungswurf für den Rest der Mission auf 3+.",
+    "Details": []
+  },
+  {
+    "Id": "VOFIP",
+    "ModelId": "MECE",
+    "ModelProfileId": null,
+    "NameEn": "Voltagheist Field",
+    "NameFr": "Champs Voltagheist",
+    "NameDe": "Voltageistfeld",
+    "DescriptionEn": "This model has a 5+ invulnerable save. When this model finishes a charge move within 1\" of an enemy model, pick an enemy model within 1\" and roll a D6. On a roll of 6 the enemy model suffers a mortal wound.",
+    "DescriptionFr": "Cette figurine a une sauvegarde invulnérable de 5+. Lorsque cette figurine finit un mouvement de charge à 1\" d'une figurine ennemie, choisissez une autre figurine ennemie à 1\" et jetez un D6. Sur un. 6 la figurine ennemie subit une blessure mortelle",
+    "DescriptionDe": "Dieses Modell hat einen Rettungswurf von 5+. Wenn dieses Modell eine Angriffsbewegung innerhalb von 1'' um ein feindliches Modell beendet, wähle ein feindliches Modell innerhalb von 1'' und wirf einen W6. Bei einer 6 erleidet das feindliche Modell eine tödliche Verwundung.",
+    "Details": []
+  },
+  {
+    "Id": "VOFIP2",
+    "ModelId": "MEFE",
+    "ModelProfileId": null,
+    "NameEn": "Voltagheist Field",
+    "NameFr": "Champs Voltagheist",
+    "NameDe": "Voltageistfeld",
+    "DescriptionEn": "This model has a 5+ invulnerable save. When this model finishes a charge move within 1\" of an enemy model, pick an enemy model within 1\" and roll a D6. On a roll of 6 the enemy model suffers a mortal wound.",
+    "DescriptionFr": "Cette figurine a une sauvegarde invulnérable de 5+. Lorsque cette figurine finit un mouvement de charge à 1\" d'une figurine ennemie, choisissez une autre figurine ennemie à 1\" et jetez un D6. Sur un. 6 la figurine ennemie subit une blessure mortelle",
+    "DescriptionDe": "Dieses Modell hat einen Rettungswurf von 5+. Wenn dieses Modell eine Angriffsbewegung innerhalb von 1'' um ein feindliches Modell beendet, wähle ein feindliches Modell innerhalb von 1'' und wirf einen W6. Bei einer 6 erleidet das feindliche Modell eine tödliche Verwundung.",
+    "Details": []
+  },
+  {
+    "Id": "VOTMF",
+    "ModelId": "MECE",
+    "ModelProfileId": null,
+    "NameEn": "Vision of the Motive Force",
+    "NameFr": "Vision de la Force Motrice",
+    "NameDe": "Sichtbare Antriebskraft",
+    "DescriptionEn": "This model's shooting attacks do not suffer any penalty to their hit rolls for the target model being obscured.",
+    "DescriptionFr": "Les attaques de tir de cette figurine ne subissent pas de pénalité pour toucher si la cible est masquée.",
+    "DescriptionDe": "Die Fernkampfattacken dieses Modells erleiden keine Abzüge auf ihre Trefferwürfe dafür, dass das Zielmodell verdeckt ist.",
+    "Details": []
+  }
+]

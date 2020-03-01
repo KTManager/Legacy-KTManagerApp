@@ -1,0 +1,562 @@
+[
+  {
+    "Id": "CPP2",
+    "ModelId": null,
+    "ModelProfileId": null,
+    "NameEn": "And They Shall Know No Fear",
+    "NameFr": "Et ils ne connaitront pas la peur",
+    "NameDe": "Die keine Furcht kennen",
+    "DescriptionEn": "You can re-roll failed Nerve tests for this model.",
+    "DescriptionFr": "Vous pouvez relancer les tests de sang-froid pour cette figurine.",
+    "DescriptionDe": "Du darfst für dieses Modell misslungene Nerventests wiederholen.",
+    "Details": []
+  },
+  {
+    "Id": "CT4",
+    "ModelId": "DWLIT",
+    "ModelProfileId": null,
+    "NameEn": "Crux Terminatus",
+    "NameFr": "Crux Terminatus",
+    "NameDe": "Crux Terminatus",
+    "DescriptionEn": "This model has a 5+ invulnerable save.",
+    "DescriptionFr": "Cette figurine a une sauvegarde invulnérable de 5+",
+    "DescriptionDe": "Dieses Modell hat einen Rettungswurf von 5+.",
+    "Details": []
+  },
+  {
+    "Id": "CTSS1",
+    "ModelId": "DWTE",
+    "ModelProfileId": null,
+    "NameEn": "Crux Terminatus or Storm Shield",
+    "NameFr": "Crux Terminatus ou Bouclier Storm",
+    "NameDe": "Crux Terminatus oder Sturmschild",
+    "DescriptionEn": "This model has a 5+ invulnerable save. If it is armed with a storm shield, it instead has a 3+ invulnerable save.",
+    "DescriptionFr": "Cette figurine a une sauvegarde invulnérable de 5+. Si elle est équipée d'un Bouclier Storm, elle bénéficie d'une sauvegarde invulnérable de 3+",
+    "DescriptionDe": "Dieses Modell hat einen Rettungswurf von 5+.",
+    "Details": []
+  },
+  {
+    "Id": "IH4",
+    "ModelId": "DWCAT",
+    "ModelProfileId": null,
+    "NameEn": "Iron Halo or Storm Shield",
+    "NameFr": "Halo de Fer ou Bouclier Storm",
+    "NameDe": "Stählerner Stern oder Sturmschild",
+    "DescriptionEn": "This model has a 4+ invulnerable save. If it is armed with a storm shield, it instead has a 3+ invulnerable save",
+    "DescriptionFr": "Cette figurine a une sauvegarde invulnérable de 4+. Si elle est équipée d'un Bouclier Storm, elle bénéficie d'une sauvegarde invulnérable de 3+",
+    "DescriptionDe": "Dieses Modell hat einen Rettungswurf von 4+. Wenn es mit einem Sturmschild ausgerüstet ist, hat es stattdessen einen Rettungswurf von 3+.",
+    "Details": []
+  },
+  {
+    "Id": "IHD",
+    "ModelId": "DWW",
+    "ModelProfileId": null,
+    "NameEn": "Iron Halo",
+    "NameFr": "Halo de Fer",
+    "NameDe": "Stählerner Stern",
+    "DescriptionEn": "This model has a 4+ invulnerable save.",
+    "DescriptionFr": "Cette figurine a une sauvegarde invulnérable de 4+.",
+    "DescriptionDe": "Dieses Modell hat einen Rettungswurf von 4+.",
+    "Details": []
+  },
+  {
+    "Id": "MITA",
+    "ModelId": null,
+    "ModelProfileId": null,
+    "NameEn": "Mission Tactics",
+    "NameFr": "Tactiques de Mission",
+    "NameDe": "Missionstaktiken",
+    "DescriptionEn": "At the beginning of the first battle round, choose a datasheet to be your kill team’s priority target (e.g. Tyranid Warrior). You can re-roll wound rolls of 1 for attacks made by models in your kill team that target a model from the datasheet that is your kill team’s priority target (so if you chose Tyranid Warrior, this ability would apply to attacks that targeted Tyranid Warriors and Tyranid Warrior Gunners).",
+    "DescriptionFr": "Au début du premier round, choisissez une fiche technique qui sera la cible prioritaire de votre kill team (par exemple, le Tyranid Warrior). Vous pouvez relancer les jets de blessure de 1 des attaques des figurines de votre kill team qui visent une figurine de la fiche technique étant la cible prioritaire de votrre kill team (donc pour la fiche technique Tyranid Warrior, l'aptitude s'appliquerait contre les Tyranid Warriors et les Tyranid Warriors Gunners)",
+    "DescriptionDe": "Wähle zu Beginn der ersten Schlachtrunde ein Datenblatt, das das Prioritätsziel deines Kill Teams darstellt (z. B. Tyranid Warrior). Du kannst Verwundungswürfe von 1 für Attacken der Modelle deines Kill Teams wiederholen, deren Ziel ein Modell von dem Datenblatt ist, das das Prioritätsziel deines Kill Teams darstellt (wenn du Tyranid Warrior gewählt hättest, gälte diese Fähigkeit für Attacken, deren Ziel Tyranid Warriors und Tyranid Warrior Gunners wären).",
+    "Details": []
+  },
+  {
+    "Id": "MSP",
+    "ModelId": null,
+    "ModelProfileId": null,
+    "NameEn": "Special Issue Ammunition",
+    "NameFr": "Munitions spéciales",
+    "NameDe": "Spezialmunition",
+    "DescriptionEn": "When this model fires an auto bolt rifle, bolt carbine, bolt pistol, bolt rifle, boltgun, combi-melta (boltgun profile only), combiplasma (boltgun profile only), heavy bolt pistol, stalker bolt rifle or stalker pattern boltgun, you can choose one kind of ammunition from the table to the right, and apply the corresponding modifier.",
+    "DescriptionFr": "Lorsque cette figurine tire avec un fusil bolter automatique, une carabine bolter, un pistolet bolter, un bolter, un combi-fuseur (profil du bolter seulement), un combi-plasma (profil du bolter seulement), un pistolet bolter lourd, un fusil bolter Stalker ou un bolter Stalker, vous pouvez choisir un type de muntition du tableau de droite et appliquer le modificateur correspondant",
+    "DescriptionDe": "Wenn dieses Modell eine der folgenden Waffen abfeuert, kannst du eine Art Munition von der Tabelle aussuchen und den entsprechenden Modifikator anwenden: Bolter, Boltgewehr, Boltkarabiner, Boltpistole, Kombi-Flammenwerfer (nur Bolter-Profil), Kombi-Melter (nur Bolter-Profil), Kombi-Plasmawerfer (nur Bolter-Profil), Schwere Boltpistole, Stalker-Boltgewehr, Stalker-Schema-Bolter, Sturmbolter oder Sturmboltgewehr.",
+    "Details": [
+      {
+        "Row": 0,
+        "Column": 1,
+        "ContentEn": "Ammunition",
+        "ContentFr": "Munition",
+        "ContentDe": "Munition"
+      },
+      {
+        "Row": 0,
+        "Column": 2,
+        "ContentEn": "Modifier",
+        "ContentFr": "Modificateur",
+        "ContentDe": "Modifikator"
+      },
+      {
+        "Row": 1,
+        "Column": 1,
+        "ContentEn": "Dragonfire bolt",
+        "ContentFr": "Bolt Dragonfire",
+        "ContentDe": "Drachenfeuer-Munition"
+      },
+      {
+        "Row": 1,
+        "Column": 2,
+        "ContentEn": "Add 1 to hit rolls for this weapon when targeting a model that is obscured.",
+        "ContentFr": "Ajoutez 1 aux jets de touche de l'arme quand elle vise une figurine masquée.",
+        "ContentDe": "Addiere 1 auf die Trefferwürfe für diese Waffe, wenn das Zielmodell verdeckt ist."
+      },
+      {
+        "Row": 2,
+        "Column": 1,
+        "ContentEn": "Hellfire round",
+        "ContentFr": "Munition Hellfire",
+        "ContentDe": "Höllenfeuergeschoss"
+      },
+      {
+        "Row": 2,
+        "Column": 2,
+        "ContentEn": "This weapon always wounds on a 2+.",
+        "ContentFr": "Cette arme blesse toujours sur 2+.",
+        "ContentDe": "Diese Waffe verwundet immer bei 2+."
+      },
+      {
+        "Row": 3,
+        "Column": 1,
+        "ContentEn": "Kraken bolt",
+        "ContentFr": "Bolt Kraken",
+        "ContentDe": "Kraken-Penetratorgeschoss"
+      },
+      {
+        "Row": 3,
+        "Column": 2,
+        "ContentEn": "Add 3\" to the range of this weapon if it is a Pistol – or 6\" otherwise – and improve the AP of the attack by 1 (e.g. an AP of 0 becomes -1), to a maximum AP of -2.",
+        "ContentFr": "Ajoutez 3\" à la portée de l'arme si c'est un pistolet, ou 6\" pour une autre arme. De plus, améliorez d'un point la PA de l'attaque (par ex. PA0 devient -1), jusqu'à une PA maximum de -2.",
+        "ContentDe": "Addiere 3\" zur Reichweite dieser Waffe, wenn es sich um eine Pistole handelt - andernfalls 6\" -, und verbessere den DS der Attacke um 1 (d.h. ein DS von 0 wird zu -1), bis zu einem bestmöglichen DS von -2."
+      },
+      {
+        "Row": 4,
+        "Column": 1,
+        "ContentEn": "Vengeance round",
+        "ContentFr": "Munition vengeance",
+        "ContentDe": "Vergeltergeschoss"
+      },
+      {
+        "Row": 4,
+        "Column": 2,
+        "ContentEn": "Subtract 3\" from the range of this weapon if it is a Pistol – or 6\" otherwise – and improve the AP of the attack by 2 (e.g. an AP of 0 becomes -2), to a maximum AP of -3.",
+        "ContentFr": "Soustrayez 3\" à la portée de l'arme si c'est un pistolet, ou 6\" pour une autre arme.  De plus, améliorez de 2 points la PA de l'attaque (par ex. PA0 devient -2), jusqu'à une PA maximum de -3.",
+        "ContentDe": "Ziehe 3\" von der Reichweite dieser Waffe ab, wenn es sich um eine Pistole handelt - andernfalls 6\" -, und verbessere den DS der Attacke um 2 (d.h. ein DS von 0 wird -2), bis zu einem bestmöglichen DS von -3."
+      }
+    ]
+  },
+  {
+    "Id": "PH4",
+    "ModelId": "DWLIT",
+    "ModelProfileId": null,
+    "NameEn": "Psychic Hood",
+    "NameFr": "Coiffe psychique",
+    "NameDe": "Psimatrix",
+    "DescriptionEn": "You can add 1 to Deny the Witch,tests you take for this mode! against enemy PSYKERS within 12\".",
+    "DescriptionFr": "Vous pouvez ajouter 1 aux tests d'Abjuration de cette figurine contre les Psykers ennemis à 12\".",
+    "DescriptionDe": "Du darfst 1 zum Psibanntest dieses Modells addieren, wenn sich der feindliche PSIONIKER innerhalb von 12'' befindet.",
+    "Details": []
+  },
+  {
+    "Id": "PTR2",
+    "ModelId": null,
+    "ModelProfileId": null,
+    "NameEn": "Transhuman Physiology",
+    "NameFr": "Physiologie transhumaine",
+    "NameDe": "Transhumane Physiologie",
+    "DescriptionEn": "Ignore the penalty to this model’s hit rolls from one flesh wound it has suffered.",
+    "DescriptionFr": "Ignorez la pénalité imposée aux jets de touche de cette figurine par 1 blessure légère.",
+    "DescriptionDe": "Ignoriere den Abzug auf Trefferwürfe dieses Modells durch die erste erlittene Fleischwunde.",
+    "Details": []
+  },
+  {
+    "Id": "R3",
+    "ModelId": "DWCHT",
+    "ModelProfileId": null,
+    "NameEn": "Rosarius",
+    "NameFr": "Rosarius",
+    "NameDe": "Rosarius",
+    "DescriptionEn": "This model has a 4+ invulnerable save.",
+    "DescriptionFr": "Cette figurine a une sauvegarde invulnérable de 4+.",
+    "DescriptionDe": "Dieses Modell hat einen Rettungswurf von 4+.",
+    "Details": []
+  },
+  {
+    "Id": "REH",
+    "ModelId": null,
+    "ModelProfileId": "DWV3",
+    "NameEn": "Atonement Through Honour",
+    "NameFr": "Rédemption par l'honneur",
+    "NameDe": "Buße durch Ehre",
+    "DescriptionEn": "You can re-roll failed charge rolls for a Black Shield.",
+    "DescriptionFr": "Vous pouvez relancer les jets de charge ratés d'un Black Shield",
+    "DescriptionDe": "Du kannst misslungene Angriffswürfe für einen Black Shield wiederholen.",
+    "Details": []
+  },
+  {
+    "Id": "SIA",
+    "ModelId": "DWVE",
+    "ModelProfileId": null,
+    "NameEn": "Special Issue Ammunition",
+    "NameFr": "Munitions Spéciales",
+    "NameDe": "Spezialmunition",
+    "DescriptionEn": "When this model fires an auto bolt rifle, bolt carbine, bolt pistol, bolt rifle, boltgun, combi-flamer (boltgun profile only), combimelta (boltgun profile only), combi-plasma (boltgun profile only), heavy bolt pistol, stalker bolt rifle, stalker pattern boltgun or storm bolter, you can choose one kind of ammunition from the table below, and apply the corresponding modifier.",
+    "DescriptionFr": "Lorsque cette figurine tire avec un fusil bolter automatique, une carabine bolter, un pistolet bolter, un fusil bolter, un bolter, un combi-lance-flamme (profil de bolter uniquement), un combi-fuseur (profil de bolter uniquement), un combi-plasma (profil de bolter uniquement), un pistolet bolter lourd, un fusil bolter Stalker, un bolter Stalker ou un bolter Storm, vous pouvez choisir 1 type de munition du tableau ci-dessous et appliquer le modificateur correspondant",
+    "DescriptionDe": "Wenn dieses Modell eine der folgenden Waffen abfeuert, kannst du eine Art Munition von der Tabelle aussuchen und den entsprechenden Modifikator anwenden: Bolter, Boltgewehr, Boltkarabiner, Boltpistole, Kombi-Flammenwerfer (nur Bolter-Profil), Kombi-Melter (nur Bolter-Profil), Kombi-Plasmawerfer (nur Bolter-Profil), Schwere Boltpistole, Stalker-Boltgewehr, Stalker-Schema-Bolter, Sturmbolter oder Sturmboltgewehr.",
+    "Details": [
+      {
+        "Row": 0,
+        "Column": 0,
+        "ContentEn": "Dragonfire bolt",
+        "ContentFr": "Bolt Dragonfire",
+        "ContentDe": "Drachenfeuer-Munition"
+      },
+      {
+        "Row": 0,
+        "Column": 1,
+        "ContentEn": "Add 1 to hit rolls for this weapon when targeting a model that is obscured.",
+        "ContentFr": "Ajoutez 1 aux jets de touche de l'arme quand elle vise une figurine masquée.",
+        "ContentDe": "Addiere 1 auf Trefferwürfe für diese Waffe, wenn das Zielmodell verdeckt ist."
+      },
+      {
+        "Row": 1,
+        "Column": 0,
+        "ContentEn": "Hellfire round",
+        "ContentFr": "Munition Hellfire",
+        "ContentDe": "Höllenfeuergeschoss"
+      },
+      {
+        "Row": 1,
+        "Column": 1,
+        "ContentEn": "This weapon always wounds on a 2+.",
+        "ContentFr": "Cette arme blesse toujours sur 2+.",
+        "ContentDe": "Diese Waffe verwundet immer auf 2+."
+      },
+      {
+        "Row": 2,
+        "Column": 0,
+        "ContentEn": "Kraken bolt",
+        "ContentFr": "Bolt Kraken",
+        "ContentDe": "Kraken-Penetratorgeschoss"
+      },
+      {
+        "Row": 2,
+        "Column": 1,
+        "ContentEn": "Add 3\" to the range of this weapon if it is a Pistol – or 6\" otherwise – and improve the AP of the attack by 1 (e.g. an AP of 0 becomes -1), to a maximum AP of -2.",
+        "ContentFr": "Ajoutez 3\" à la portée de l'arme si c'est un pistolet, ou 6\" pour une autre arme. De plus, améliorez d'un point la PA de l'attaque (par ex. PA0 devient -1), jusqu'à une PA maximum de -2.",
+        "ContentDe": "Addiere 3'' zur Reichweite dieser Waffe, wenn es sich um eine Pistole handelt - andernfalls 6'' -, und verbessere den DS der Attacke um 1 (d.h. ein DS von 0 wird zu -1), bis zu einem bestmöglichen DS von -2."
+      },
+      {
+        "Row": 3,
+        "Column": 0,
+        "ContentEn": "Vengeance round",
+        "ContentFr": "Munition vengeance",
+        "ContentDe": "Vergeltergeschoss"
+      },
+      {
+        "Row": 3,
+        "Column": 1,
+        "ContentEn": "Subtract 3\" from the range of this weapon if it is a Pistol – or 6\" otherwise – and improve the AP of the attack by 2 (e.g. an AP of 0 becomes -2), to a maximum AP of -3.",
+        "ContentFr": "Soustrayez 3\" à la portée de l'arme si c'est un pistolet, ou 6\" pour une autre arme.  De plus, améliorez de 2 points la PA de l'attaque (par ex. PA0 devient -2), jusqu'à une PA maximum de -3.",
+        "ContentDe": "Ziehe 3'' von der Reichweite dieser Waffe ab, wenn es sich um eine Pistole handelt - andernfalls 6''-, und verbessere den DS der Attacke um 2 (d.h. ein DS von 0 wird zu -2), bis zu einem bestmöglichen DS von -3."
+      }
+    ]
+  },
+  {
+    "Id": "SIA1",
+    "ModelId": "DWTE",
+    "ModelProfileId": null,
+    "NameEn": "Special Issue Ammunition",
+    "NameFr": "Munitions Spéciales",
+    "NameDe": "Spezialmunition",
+    "DescriptionEn": "When this model fires an auto bolt rifle, bolt carbine, bolt pistol, bolt rifle, boltgun, combi-flamer (boltgun profile only), combimelta (boltgun profile only), combi-plasma (boltgun profile only), heavy bolt pistol, stalker bolt rifle, stalker pattern boltgun or storm bolter, you can choose one kind of ammunition from the table below, and apply the corresponding modifier.",
+    "DescriptionFr": "Lorsque cette figurine tire avec un fusil bolter automatique, une carabine bolter, un pistolet bolter, un fusil bolter, un bolter, un combi-lance-flamme (profil de bolter uniquement), un combi-fuseur (profil de bolter uniquement), un combi-plasma (profil de bolter uniquement), un pistolet bolter lourd, un fusil bolter Stalker, un bolter Stalker ou un bolter Storm, vous pouvez choisir 1 type de munition du tableau ci-dessous et appliquer le modificateur correspondant",
+    "DescriptionDe": "Wenn dieses Modell eine der folgenden Waffen abfeuert, kannst du eine Art Munition von der Tabelle aussuchen und den entsprechenden Modifikator anwenden: Bolter, Boltgewehr, Boltkarabiner, Boltpistole, Kombi-Flammenwerfer (nur Bolter-Profil), Kombi-Melter (nur Bolter-Profil), Kombi-Plasmawerfer (nur Bolter-Profil), Schwere Boltpistole, Stalker-Boltgewehr, Stalker-Schema-Bolter, Sturmbolter oder Sturmboltgewehr.",
+    "Details": [
+      {
+        "Row": 0,
+        "Column": 0,
+        "ContentEn": "Dragonfire bolt",
+        "ContentFr": "Bolt Dragonfire",
+        "ContentDe": "Drachenfeuer-Munition"
+      },
+      {
+        "Row": 0,
+        "Column": 1,
+        "ContentEn": "Add 1 to hit rolls for this weapon when targeting a model that is obscured.",
+        "ContentFr": "Ajoutez 1 aux jets de touche de l'arme quand elle vise une figurine masquée.",
+        "ContentDe": "Addiere 1 auf Trefferwürfe für diese Waffe, wenn das Zielmodell verdeckt ist."
+      },
+      {
+        "Row": 1,
+        "Column": 0,
+        "ContentEn": "Hellfire round",
+        "ContentFr": "Munition Hellfire",
+        "ContentDe": "Höllenfeuergeschoss"
+      },
+      {
+        "Row": 1,
+        "Column": 1,
+        "ContentEn": "This weapon always wounds on a 2+.",
+        "ContentFr": "Cette arme blesse toujours sur 2+.",
+        "ContentDe": "Diese Waffe verwundet immer auf 2+."
+      },
+      {
+        "Row": 2,
+        "Column": 0,
+        "ContentEn": "Kraken bolt",
+        "ContentFr": "Bolt Kraken",
+        "ContentDe": "Kraken-Penetratorgeschoss"
+      },
+      {
+        "Row": 2,
+        "Column": 1,
+        "ContentEn": "Add 3\" to the range of this weapon if it is a Pistol – or 6\" otherwise – and improve the AP of the attack by 1 (e.g. an AP of 0 becomes -1), to a maximum AP of -2.",
+        "ContentFr": "Ajoutez 3\" à la portée de l'arme si c'est un pistolet, ou 6\" pour une autre arme. De plus, améliorez d'un point la PA de l'attaque (par ex. PA0 devient -1), jusqu'à une PA maximum de -2.",
+        "ContentDe": "Addiere 3'' zur Reichweite dieser Waffe, wenn es sich um eine Pistole handelt - andernfalls 6'' -, und verbessere den DS der Attacke um 1 (d.h. ein DS von 0 wird zu -1), bis zu einem bestmöglichen DS von -2."
+      },
+      {
+        "Row": 3,
+        "Column": 0,
+        "ContentEn": "Vengeance round",
+        "ContentFr": "Munition vengeance",
+        "ContentDe": "Vergeltergeschoss"
+      },
+      {
+        "Row": 3,
+        "Column": 1,
+        "ContentEn": "Subtract 3\" from the range of this weapon if it is a Pistol – or 6\" otherwise – and improve the AP of the attack by 2 (e.g. an AP of 0 becomes -2), to a maximum AP of -3.",
+        "ContentFr": "Soustrayez 3\" à la portée de l'arme si c'est un pistolet, ou 6\" pour une autre arme.  De plus, améliorez de 2 points la PA de l'attaque (par ex. PA0 devient -2), jusqu'à une PA maximum de -3.",
+        "ContentDe": "Ziehe 3'' von der Reichweite dieser Waffe ab, wenn es sich um eine Pistole handelt - andernfalls 6''-, und verbessere den DS der Attacke um 2 (d.h. ein DS von 0 wird zu -2), bis zu einem bestmöglichen DS von -3."
+      }
+    ]
+  },
+  {
+    "Id": "SIA2",
+    "ModelId": "DWLIT",
+    "ModelProfileId": null,
+    "NameEn": "Special Issue Ammunition",
+    "NameFr": "Munitions Spéciales",
+    "NameDe": "Spezialmunition",
+    "DescriptionEn": "When this model fires an auto bolt rifle, bolt carbine, bolt pistol, bolt rifle, boltgun, combi-flamer (boltgun profile only), combimelta (boltgun profile only), combi-plasma (boltgun profile only), heavy bolt pistol, stalker bolt rifle, stalker pattern boltgun or storm bolter, you can choose one kind of ammunition from the table below, and apply the corresponding modifier.",
+    "DescriptionFr": "Lorsque cette figurine tire avec un fusil bolter automatique, une carabine bolter, un pistolet bolter, un fusil bolter, un bolter, un combi-lance-flamme (profil de bolter uniquement), un combi-fuseur (profil de bolter uniquement), un combi-plasma (profil de bolter uniquement), un pistolet bolter lourd, un fusil bolter Stalker, un bolter Stalker ou un bolter Storm, vous pouvez choisir 1 type de munition du tableau ci-dessous et appliquer le modificateur correspondant",
+    "DescriptionDe": "Wenn dieses Modell eine der folgenden Waffen abfeuert, kannst du eine Art Munition von der Tabelle aussuchen und den entsprechenden Modifikator anwenden: Bolter, Boltgewehr, Boltkarabiner, Boltpistole, Kombi-Flammenwerfer (nur Bolter-Profil), Kombi-Melter (nur Bolter-Profil), Kombi-Plasmawerfer (nur Bolter-Profil), Schwere Boltpistole, Stalker-Boltgewehr, Stalker-Schema-Bolter, Sturmbolter oder Sturmboltgewehr.",
+    "Details": [
+      {
+        "Row": 0,
+        "Column": 0,
+        "ContentEn": "Dragonfire bolt",
+        "ContentFr": "Bolt Dragonfire",
+        "ContentDe": "Drachenfeuer-Munition"
+      },
+      {
+        "Row": 0,
+        "Column": 1,
+        "ContentEn": "Add 1 to hit rolls for this weapon when targeting a model that is obscured.",
+        "ContentFr": "Ajoutez 1 aux jets de touche de l'arme quand elle vise une figurine masquée.",
+        "ContentDe": "Addiere 1 auf Trefferwürfe für diese Waffe, wenn das Zielmodell verdeckt ist."
+      },
+      {
+        "Row": 1,
+        "Column": 0,
+        "ContentEn": "Hellfire round",
+        "ContentFr": "Munition Hellfire",
+        "ContentDe": "Höllenfeuergeschoss"
+      },
+      {
+        "Row": 1,
+        "Column": 1,
+        "ContentEn": "This weapon always wounds on a 2+.",
+        "ContentFr": "Cette arme blesse toujours sur 2+.",
+        "ContentDe": "Diese Waffe verwundet immer auf 2+."
+      },
+      {
+        "Row": 2,
+        "Column": 0,
+        "ContentEn": "Kraken bolt",
+        "ContentFr": "Bolt Kraken",
+        "ContentDe": "Kraken-Penetratorgeschoss"
+      },
+      {
+        "Row": 2,
+        "Column": 1,
+        "ContentEn": "Add 3\" to the range of this weapon if it is a Pistol – or 6\" otherwise – and improve the AP of the attack by 1 (e.g. an AP of 0 becomes -1), to a maximum AP of -2.",
+        "ContentFr": "Ajoutez 3\" à la portée de l'arme si c'est un pistolet, ou 6\" pour une autre arme. De plus, améliorez d'un point la PA de l'attaque (par ex. PA0 devient -1), jusqu'à une PA maximum de -2.",
+        "ContentDe": "Addiere 3'' zur Reichweite dieser Waffe, wenn es sich um eine Pistole handelt - andernfalls 6'' -, und verbessere den DS der Attacke um 1 (d.h. ein DS von 0 wird zu -1), bis zu einem bestmöglichen DS von -2."
+      },
+      {
+        "Row": 3,
+        "Column": 0,
+        "ContentEn": "Vengeance round",
+        "ContentFr": "Munition vengeance",
+        "ContentDe": "Vergeltergeschoss"
+      },
+      {
+        "Row": 3,
+        "Column": 1,
+        "ContentEn": "Subtract 3\" from the range of this weapon if it is a Pistol – or 6\" otherwise – and improve the AP of the attack by 2 (e.g. an AP of 0 becomes -2), to a maximum AP of -3.",
+        "ContentFr": "Soustrayez 3\" à la portée de l'arme si c'est un pistolet, ou 6\" pour une autre arme.  De plus, améliorez de 2 points la PA de l'attaque (par ex. PA0 devient -2), jusqu'à une PA maximum de -3.",
+        "ContentDe": "Ziehe 3'' von der Reichweite dieser Waffe ab, wenn es sich um eine Pistole handelt - andernfalls 6''-, und verbessere den DS der Attacke um 2 (d.h. ein DS von 0 wird zu -2), bis zu einem bestmöglichen DS von -3."
+      }
+    ]
+  },
+  {
+    "Id": "SIA3",
+    "ModelId": "DWCAT",
+    "ModelProfileId": null,
+    "NameEn": "Special Issue Ammunition",
+    "NameFr": "Munitions Spéciales",
+    "NameDe": "Spezialmunition",
+    "DescriptionEn": "When this model fires an auto bolt rifle, bolt carbine, bolt pistol, bolt rifle, boltgun, combi-flamer (boltgun profile only), combimelta (boltgun profile only), combi-plasma (boltgun profile only), heavy bolt pistol, stalker bolt rifle, stalker pattern boltgun or storm bolter, you can choose one kind of ammunition from the table below, and apply the corresponding modifier.",
+    "DescriptionFr": "Lorsque cette figurine tire avec un fusil bolter automatique, une carabine bolter, un pistolet bolter, un fusil bolter, un bolter, un combi-lance-flamme (profil de bolter uniquement), un combi-fuseur (profil de bolter uniquement), un combi-plasma (profil de bolter uniquement), un pistolet bolter lourd, un fusil bolter Stalker, un bolter Stalker ou un bolter Storm, vous pouvez choisir 1 type de munition du tableau ci-dessous et appliquer le modificateur correspondant",
+    "DescriptionDe": "Wenn dieses Modell eine der folgenden Waffen abfeuert, kannst du eine Art Munition von der Tabelle aussuchen und den entsprechenden Modifikator anwenden: Bolter, Boltgewehr, Boltkarabiner, Boltpistole, Kombi-Flammenwerfer (nur Bolter-Profil), Kombi-Melter (nur Bolter-Profil), Kombi-Plasmawerfer (nur Bolter-Profil), Schwere Boltpistole, Stalker-Boltgewehr, Stalker-Schema-Bolter, Sturmbolter oder Sturmboltgewehr.",
+    "Details": [
+      {
+        "Row": 0,
+        "Column": 0,
+        "ContentEn": "Dragonfire bolt",
+        "ContentFr": "Bolt Dragonfire",
+        "ContentDe": "Drachenfeuer-Munition"
+      },
+      {
+        "Row": 0,
+        "Column": 1,
+        "ContentEn": "Add 1 to hit rolls for this weapon when targeting a model that is obscured.",
+        "ContentFr": "Ajoutez 1 aux jets de touche de l'arme quand elle vise une figurine masquée.",
+        "ContentDe": "Addiere 1 auf Trefferwürfe für diese Waffe, wenn das Zielmodell verdeckt ist."
+      },
+      {
+        "Row": 1,
+        "Column": 0,
+        "ContentEn": "Hellfire round",
+        "ContentFr": "Munition Hellfire",
+        "ContentDe": "Höllenfeuergeschoss"
+      },
+      {
+        "Row": 1,
+        "Column": 1,
+        "ContentEn": "This weapon always wounds on a 2+.",
+        "ContentFr": "Cette arme blesse toujours sur 2+.",
+        "ContentDe": "Diese Waffe verwundet immer auf 2+."
+      },
+      {
+        "Row": 2,
+        "Column": 0,
+        "ContentEn": "Kraken bolt",
+        "ContentFr": "Bolt Kraken",
+        "ContentDe": "Kraken-Penetratorgeschoss"
+      },
+      {
+        "Row": 2,
+        "Column": 1,
+        "ContentEn": "Add 3\" to the range of this weapon if it is a Pistol – or 6\" otherwise – and improve the AP of the attack by 1 (e.g. an AP of 0 becomes -1), to a maximum AP of -2.",
+        "ContentFr": "Ajoutez 3\" à la portée de l'arme si c'est un pistolet, ou 6\" pour une autre arme. De plus, améliorez d'un point la PA de l'attaque (par ex. PA0 devient -1), jusqu'à une PA maximum de -2.",
+        "ContentDe": "Addiere 3'' zur Reichweite dieser Waffe, wenn es sich um eine Pistole handelt - andernfalls 6'' -, und verbessere den DS der Attacke um 1 (d.h. ein DS von 0 wird zu -1), bis zu einem bestmöglichen DS von -2."
+      },
+      {
+        "Row": 3,
+        "Column": 0,
+        "ContentEn": "Vengeance round",
+        "ContentFr": "Munition vengeance",
+        "ContentDe": "Vergeltergeschoss"
+      },
+      {
+        "Row": 3,
+        "Column": 1,
+        "ContentEn": "Subtract 3\" from the range of this weapon if it is a Pistol – or 6\" otherwise – and improve the AP of the attack by 2 (e.g. an AP of 0 becomes -2), to a maximum AP of -3.",
+        "ContentFr": "Soustrayez 3\" à la portée de l'arme si c'est un pistolet, ou 6\" pour une autre arme.  De plus, améliorez de 2 points la PA de l'attaque (par ex. PA0 devient -2), jusqu'à une PA maximum de -3.",
+        "ContentDe": "Ziehe 3'' von der Reichweite dieser Waffe ab, wenn es sich um eine Pistole handelt - andernfalls 6''-, und verbessere den DS der Attacke um 2 (d.h. ein DS von 0 wird zu -2), bis zu einem bestmöglichen DS von -3."
+      }
+    ]
+  },
+  {
+    "Id": "SIA4",
+    "ModelId": "DWCHT",
+    "ModelProfileId": null,
+    "NameEn": "Special Issue Ammunition",
+    "NameFr": "Munitions Spéciales",
+    "NameDe": "Spezialmunition",
+    "DescriptionEn": "When this model fires an auto bolt rifle, bolt carbine, bolt pistol, bolt rifle, boltgun, combi-flamer (boltgun profile only), combimelta (boltgun profile only), combi-plasma (boltgun profile only), heavy bolt pistol, stalker bolt rifle, stalker pattern boltgun or storm bolter, you can choose one kind of ammunition from the table below, and apply the corresponding modifier.",
+    "DescriptionFr": "Lorsque cette figurine tire avec un fusil bolter automatique, une carabine bolter, un pistolet bolter, un fusil bolter, un bolter, un combi-lance-flamme (profil de bolter uniquement), un combi-fuseur (profil de bolter uniquement), un combi-plasma (profil de bolter uniquement), un pistolet bolter lourd, un fusil bolter Stalker, un bolter Stalker ou un bolter Storm, vous pouvez choisir 1 type de munition du tableau ci-dessous et appliquer le modificateur correspondant",
+    "DescriptionDe": "Wenn dieses Modell eine der folgenden Waffen abfeuert, kannst du eine Art Munition von der Tabelle aussuchen und den entsprechenden Modifikator anwenden: Bolter, Boltgewehr, Boltkarabiner, Boltpistole, Kombi-Flammenwerfer (nur Bolter-Profil), Kombi-Melter (nur Bolter-Profil), Kombi-Plasmawerfer (nur Bolter-Profil), Schwere Boltpistole, Stalker-Boltgewehr, Stalker-Schema-Bolter, Sturmbolter oder Sturmboltgewehr.",
+    "Details": [
+      {
+        "Row": 0,
+        "Column": 0,
+        "ContentEn": "Dragonfire bolt",
+        "ContentFr": "Bolt Dragonfire",
+        "ContentDe": "Drachenfeuer-Munition"
+      },
+      {
+        "Row": 0,
+        "Column": 1,
+        "ContentEn": "Add 1 to hit rolls for this weapon when targeting a model that is obscured.",
+        "ContentFr": "Ajoutez 1 aux jets de touche de l'arme quand elle vise une figurine masquée.",
+        "ContentDe": "Addiere 1 auf Trefferwürfe für diese Waffe, wenn das Zielmodell verdeckt ist."
+      },
+      {
+        "Row": 1,
+        "Column": 0,
+        "ContentEn": "Hellfire round",
+        "ContentFr": "Munition Hellfire",
+        "ContentDe": "Höllenfeuergeschoss"
+      },
+      {
+        "Row": 1,
+        "Column": 1,
+        "ContentEn": "This weapon always wounds on a 2+.",
+        "ContentFr": "Cette arme blesse toujours sur 2+.",
+        "ContentDe": "Diese Waffe verwundet immer auf 2+."
+      },
+      {
+        "Row": 2,
+        "Column": 0,
+        "ContentEn": "Kraken bolt",
+        "ContentFr": "Bolt Kraken",
+        "ContentDe": "Kraken-Penetratorgeschoss"
+      },
+      {
+        "Row": 2,
+        "Column": 1,
+        "ContentEn": "Add 3\" to the range of this weapon if it is a Pistol – or 6\" otherwise – and improve the AP of the attack by 1 (e.g. an AP of 0 becomes -1), to a maximum AP of -2.",
+        "ContentFr": "Ajoutez 3\" à la portée de l'arme si c'est un pistolet, ou 6\" pour une autre arme. De plus, améliorez d'un point la PA de l'attaque (par ex. PA0 devient -1), jusqu'à une PA maximum de -2.",
+        "ContentDe": "Addiere 3'' zur Reichweite dieser Waffe, wenn es sich um eine Pistole handelt - andernfalls 6'' -, und verbessere den DS der Attacke um 1 (d.h. ein DS von 0 wird zu -1), bis zu einem bestmöglichen DS von -2."
+      },
+      {
+        "Row": 3,
+        "Column": 0,
+        "ContentEn": "Vengeance round",
+        "ContentFr": "Munition vengeance",
+        "ContentDe": "Vergeltergeschoss"
+      },
+      {
+        "Row": 3,
+        "Column": 1,
+        "ContentEn": "Subtract 3\" from the range of this weapon if it is a Pistol – or 6\" otherwise – and improve the AP of the attack by 2 (e.g. an AP of 0 becomes -2), to a maximum AP of -3.",
+        "ContentFr": "Soustrayez 3\" à la portée de l'arme si c'est un pistolet, ou 6\" pour une autre arme.  De plus, améliorez de 2 points la PA de l'attaque (par ex. PA0 devient -2), jusqu'à une PA maximum de -3.",
+        "ContentDe": "Ziehe 3'' von der Reichweite dieser Waffe ab, wenn es sich um eine Pistole handelt - andernfalls 6''-, und verbessere den DS der Attacke um 2 (d.h. ein DS von 0 wird zu -2), bis zu einem bestmöglichen DS von -3."
+      }
+    ]
+  },
+  {
+    "Id": "TTR2",
+    "ModelId": "DWR",
+    "ModelProfileId": null,
+    "NameEn": "Terror troup",
+    "NameFr": "Troupe de terreur",
+    "NameDe": "Terrortruppen",
+    "DescriptionEn": "Enemy models must subtract 1 from their Leadership if they are within 3\" of any Reiver or Reiver Sergeant models.",
+    "DescriptionFr": "Les ennemis soustraient 1 à leur commandement quand ils sont à 3\" d'une ou plusieurs figurines de reiver ou de reiver sergeant.",
+    "DescriptionDe": "Feindliche Modelle müssen 1 von ihrem Moralwert abziehen, wenn sie sich innerhalb von 3\" um Reiver oder Reiver-Sergeant-Modelle befinden.",
+    "Details": []
+  }
+]

@@ -1,0 +1,1476 @@
+[
+  {
+    "Id": "GCA",
+    "NameEn": "Acolyte Iconward",
+    "NameFr": "Acolyte Iconward",
+    "NameDe": "Acolyte Iconward",
+    "KeywordsEn": "TYRANIDS, INFANTRY, COMMANDER, ACOLYTE ICONWARD",
+    "KeywordsFr": "TYRANIDS, INFANTERIE, COMMANDANT, ACOLYTE ICONWARD",
+    "KeywordsDe": "TYRANIDS, INFANTERIE, KOMMANDEUR, ACOLYTE ICONWARD",
+    "ModelProfiles": [
+      {
+        "Id": "GCA",
+        "Movement": 6,
+        "WeaponSkill": 3,
+        "BallisticSkill": 3,
+        "Strength": 4,
+        "Toughness": 3,
+        "Wounds": 4,
+        "Attacks": "4",
+        "Leadership": 8,
+        "Save": 5,
+        "MaximumNumber": 1,
+        "Cost": 18,
+        "NameEn": "Acolyte Iconward",
+        "NameFr": "Acolyte Iconward",
+        "NameDe": "Acolyte Iconward",
+        "IsCommander": true,
+        "NumberOfKnownPsychics": 0,
+        "NumberOfPsychicsManifestationPerRound": 0,
+        "NumberOfPsychicsDenialPerRound": 0,
+        "WarGearOptions": [],
+        "Specialists": [
+          {
+            "SpecialistId": "FE"
+          },
+          {
+            "SpecialistId": "FR"
+          },
+          {
+            "SpecialistId": "LE"
+          },
+          {
+            "SpecialistId": "LH"
+          },
+          {
+            "SpecialistId": "ME"
+          },
+          {
+            "SpecialistId": "SE"
+          }
+        ],
+        "ModelProfileWeapons": [
+          {
+            "WeaponId": "CHE"
+          },
+          {
+            "WeaponId": "PMI"
+          },
+          {
+            "WeaponId": "SFO"
+          }
+        ],
+        "CostOverrides": [],
+        "LevelCosts": [
+          {
+            "Level": 1,
+            "Cost": 18
+          },
+          {
+            "Level": 2,
+            "Cost": 23
+          },
+          {
+            "Level": 3,
+            "Cost": 38
+          },
+          {
+            "Level": 4,
+            "Cost": 58
+          }
+        ]
+      },
+      {
+        "Id": "GCAF",
+        "Movement": 6,
+        "WeaponSkill": 3,
+        "BallisticSkill": 6,
+        "Strength": 4,
+        "Toughness": 3,
+        "Wounds": 1,
+        "Attacks": "2",
+        "Leadership": 8,
+        "Save": 6,
+        "MaximumNumber": 1,
+        "Cost": 4,
+        "NameEn": "Alchemicus Familiar",
+        "NameFr": "Alchemicus Familiar",
+        "NameDe": "Alchemicus Familiar",
+        "IsCommander": false,
+        "NumberOfKnownPsychics": 0,
+        "NumberOfPsychicsManifestationPerRound": 0,
+        "NumberOfPsychicsDenialPerRound": 0,
+        "WarGearOptions": [],
+        "Specialists": [],
+        "ModelProfileWeapons": [],
+        "CostOverrides": [],
+        "LevelCosts": []
+      }
+    ],
+    "ModelWeapons": [],
+    "WarGearOptions": []
+  },
+  {
+    "Id": "GCB",
+    "NameEn": "Aberrant",
+    "NameFr": "Aberrant",
+    "NameDe": "Aberrant",
+    "KeywordsEn": "TYRANIDS, INFANTRY, ABERRANT",
+    "KeywordsFr": "TYRANIDS, INFANTERIE, ABERRANT",
+    "KeywordsDe": "TYRANIDS, INFANTERIE, ABERRANT",
+    "ModelProfiles": [
+      {
+        "Id": "GCB",
+        "Movement": 6,
+        "WeaponSkill": 3,
+        "BallisticSkill": 6,
+        "Strength": 5,
+        "Toughness": 4,
+        "Wounds": 2,
+        "Attacks": "2",
+        "Leadership": 7,
+        "Save": 5,
+        "MaximumNumber": 0,
+        "Cost": 15,
+        "NameEn": "Aberrant",
+        "NameFr": "Aberrant",
+        "NameDe": "Aberrant",
+        "IsCommander": false,
+        "NumberOfKnownPsychics": 0,
+        "NumberOfPsychicsManifestationPerRound": 0,
+        "NumberOfPsychicsDenialPerRound": 0,
+        "WarGearOptions": [],
+        "Specialists": [
+          {
+            "SpecialistId": "CB"
+          },
+          {
+            "SpecialistId": "D"
+          },
+          {
+            "SpecialistId": "L"
+          },
+          {
+            "SpecialistId": "Z"
+          }
+        ],
+        "ModelProfileWeapons": [],
+        "CostOverrides": [],
+        "LevelCosts": []
+      }
+    ],
+    "ModelWeapons": [
+      {
+        "WeaponId": "PIE"
+      },
+      {
+        "WeaponId": "SFO"
+      }
+    ],
+    "WarGearOptions": [
+      {
+        "Id": "124",
+        "MaximumPerTeam": 0,
+        "Operation": "PIE:MTE",
+        "Exclusion": null
+      }
+    ]
+  },
+  {
+    "Id": "GCBI",
+    "NameEn": "Biophagus",
+    "NameFr": "Biophagus",
+    "NameDe": "Biophagus",
+    "KeywordsEn": "COMMANDER, INFANTRY, BIOPHAGUS (Alchemicus Familiar is INFANTRY, FAMILIAR)",
+    "KeywordsFr": "",
+    "KeywordsDe": "KOMMANDEUR, INFANTERIE, BIOPHAGUS (Alchemicus Familiar: INFANTERIE, FAMILIAR)",
+    "ModelProfiles": [
+      {
+        "Id": "GCBI",
+        "Movement": 6,
+        "WeaponSkill": 3,
+        "BallisticSkill": 3,
+        "Strength": 3,
+        "Toughness": 3,
+        "Wounds": 4,
+        "Attacks": "3",
+        "Leadership": 8,
+        "Save": 5,
+        "MaximumNumber": 1,
+        "Cost": 29,
+        "NameEn": "Biophagus",
+        "NameFr": "Biophagus",
+        "NameDe": "Biophagus",
+        "IsCommander": true,
+        "NumberOfKnownPsychics": 0,
+        "NumberOfPsychicsManifestationPerRound": 0,
+        "NumberOfPsychicsDenialPerRound": 0,
+        "WarGearOptions": [],
+        "Specialists": [
+          {
+            "SpecialistId": "LO"
+          },
+          {
+            "SpecialistId": "ST"
+          }
+        ],
+        "ModelProfileWeapons": [
+          {
+            "WeaponId": "IG"
+          },
+          {
+            "WeaponId": "PMI"
+          }
+        ],
+        "CostOverrides": [],
+        "LevelCosts": [
+          {
+            "Level": 1,
+            "Cost": 29
+          },
+          {
+            "Level": 2,
+            "Cost": 34
+          },
+          {
+            "Level": 3,
+            "Cost": 49
+          },
+          {
+            "Level": 4,
+            "Cost": 69
+          }
+        ]
+      }
+    ],
+    "ModelWeapons": [],
+    "WarGearOptions": []
+  },
+  {
+    "Id": "GCC",
+    "NameEn": "Acolyte Hybrid",
+    "NameFr": "Acolyte Hybrid",
+    "NameDe": "Acolyte Hybrid",
+    "KeywordsEn": "TYRANIDS, INFANTRY, ACOLYTE HYBRID",
+    "KeywordsFr": "TYRANIDS, INFANTERIE, ACOLYTE HYBRID",
+    "KeywordsDe": "TYRANIDS, INFANTERIE, ACOLYTE HYBRID",
+    "ModelProfiles": [
+      {
+        "Id": "GCC1",
+        "Movement": 6,
+        "WeaponSkill": 3,
+        "BallisticSkill": 4,
+        "Strength": 4,
+        "Toughness": 3,
+        "Wounds": 1,
+        "Attacks": "2",
+        "Leadership": 7,
+        "Save": 5,
+        "MaximumNumber": 0,
+        "Cost": 7,
+        "NameEn": "Acolyte Hybrid",
+        "NameFr": "Acolyte Hybrid",
+        "NameDe": "Acolyte Hybrid",
+        "IsCommander": false,
+        "NumberOfKnownPsychics": 0,
+        "NumberOfPsychicsManifestationPerRound": 0,
+        "NumberOfPsychicsDenialPerRound": 0,
+        "WarGearOptions": [
+          {
+            "Id": "123",
+            "MaximumPerTeam": 1,
+            "Operation": "ICU",
+            "Exclusion": null
+          }
+        ],
+        "Specialists": [
+          {
+            "SpecialistId": "CB"
+          },
+          {
+            "SpecialistId": "CO"
+          },
+          {
+            "SpecialistId": "Z"
+          }
+        ],
+        "ModelProfileWeapons": [],
+        "CostOverrides": [],
+        "LevelCosts": []
+      },
+      {
+        "Id": "GCC2",
+        "Movement": 6,
+        "WeaponSkill": 3,
+        "BallisticSkill": 4,
+        "Strength": 4,
+        "Toughness": 3,
+        "Wounds": 1,
+        "Attacks": "2",
+        "Leadership": 7,
+        "Save": 5,
+        "MaximumNumber": 4,
+        "Cost": 8,
+        "NameEn": "Acolyte Fighter",
+        "NameFr": "Acolyte Fighter",
+        "NameDe": "Acolyte Fighter",
+        "IsCommander": false,
+        "NumberOfKnownPsychics": 0,
+        "NumberOfPsychicsManifestationPerRound": 0,
+        "NumberOfPsychicsDenialPerRound": 0,
+        "WarGearOptions": [
+          {
+            "Id": "122",
+            "MaximumPerTeam": 0,
+            "Operation": "PCU&SFO:FOL|DSL|CSL|CHD",
+            "Exclusion": null
+          }
+        ],
+        "Specialists": [
+          {
+            "SpecialistId": "CB"
+          },
+          {
+            "SpecialistId": "CO"
+          },
+          {
+            "SpecialistId": "D"
+          },
+          {
+            "SpecialistId": "Z"
+          }
+        ],
+        "ModelProfileWeapons": [],
+        "CostOverrides": [],
+        "LevelCosts": []
+      },
+      {
+        "Id": "GCC3",
+        "Movement": 6,
+        "WeaponSkill": 3,
+        "BallisticSkill": 4,
+        "Strength": 4,
+        "Toughness": 3,
+        "Wounds": 1,
+        "Attacks": "3",
+        "Leadership": 8,
+        "Save": 5,
+        "MaximumNumber": 1,
+        "Cost": 8,
+        "NameEn": "Acolyte Leader",
+        "NameFr": "Acolyte Leader",
+        "NameDe": "Acolyte Leader",
+        "IsCommander": false,
+        "NumberOfKnownPsychics": 0,
+        "NumberOfPsychicsManifestationPerRound": 0,
+        "NumberOfPsychicsDenialPerRound": 0,
+        "WarGearOptions": [
+          {
+            "Id": "120",
+            "MaximumPerTeam": 0,
+            "Operation": "PCU:EPO2",
+            "Exclusion": null
+          },
+          {
+            "Id": "121",
+            "MaximumPerTeam": 0,
+            "Operation": "PMI&PCU:BEP",
+            "Exclusion": null
+          }
+        ],
+        "Specialists": [
+          {
+            "SpecialistId": "CB"
+          },
+          {
+            "SpecialistId": "CO"
+          },
+          {
+            "SpecialistId": "L"
+          },
+          {
+            "SpecialistId": "Z"
+          }
+        ],
+        "ModelProfileWeapons": [],
+        "CostOverrides": [
+          {
+            "WeaponId": "BEP",
+            "Cost": 2
+          }
+        ],
+        "LevelCosts": []
+      }
+    ],
+    "ModelWeapons": [
+      {
+        "WeaponId": "CHE"
+      },
+      {
+        "WeaponId": "PCU"
+      },
+      {
+        "WeaponId": "PMI"
+      },
+      {
+        "WeaponId": "SFO"
+      }
+    ],
+    "WarGearOptions": [
+      {
+        "Id": "119",
+        "MaximumPerTeam": 0,
+        "Operation": "PMI:LFL",
+        "Exclusion": null
+      }
+    ]
+  },
+  {
+    "Id": "GCCL",
+    "NameEn": "Clamavus",
+    "NameFr": "Clamavus",
+    "NameDe": "Clamavus",
+    "KeywordsEn": "COMMANDER, INFANTRY, CLAMAVUS",
+    "KeywordsFr": "COMMANDANT, INFANTERIE, CLAMAVUS",
+    "KeywordsDe": "KOMMANDEUR, INFANTERIE, CLAMAVUS",
+    "ModelProfiles": [
+      {
+        "Id": "GCCL",
+        "Movement": 6,
+        "WeaponSkill": 3,
+        "BallisticSkill": 3,
+        "Strength": 3,
+        "Toughness": 3,
+        "Wounds": 4,
+        "Attacks": "3",
+        "Leadership": 8,
+        "Save": 5,
+        "MaximumNumber": 1,
+        "Cost": 26,
+        "NameEn": "Clamavus",
+        "NameFr": "Clamavus",
+        "NameDe": "Clamavus",
+        "IsCommander": true,
+        "NumberOfKnownPsychics": 0,
+        "NumberOfPsychicsManifestationPerRound": 0,
+        "NumberOfPsychicsDenialPerRound": 0,
+        "WarGearOptions": [],
+        "Specialists": [
+          {
+            "SpecialistId": "LE"
+          },
+          {
+            "SpecialistId": "ST"
+          }
+        ],
+        "ModelProfileWeapons": [],
+        "CostOverrides": [],
+        "LevelCosts": [
+          {
+            "Level": 1,
+            "Cost": 26
+          },
+          {
+            "Level": 2,
+            "Cost": 31
+          },
+          {
+            "Level": 3,
+            "Cost": 46
+          },
+          {
+            "Level": 4,
+            "Cost": 66
+          }
+        ]
+      }
+    ],
+    "ModelWeapons": [
+      {
+        "WeaponId": "PMI"
+      }
+    ],
+    "WarGearOptions": []
+  },
+  {
+    "Id": "GCH",
+    "NameEn": "Patriarch",
+    "NameFr": "Patriarch",
+    "NameDe": "Patriarch",
+    "KeywordsEn": "TYRANIDS, INFANTRY, GENESTEALER, COMMANDER, PSYKER, PATRIARCH",
+    "KeywordsFr": "TYRANIDS, INFANTERIE, GENESTEALER, COMMANDANT, PSYKER, PATRIARCH",
+    "KeywordsDe": "TYRANIDS, INFANTERIE, GENESTEALER, KOMMANDEUR, PSIONIKER, PATRIARCH",
+    "ModelProfiles": [
+      {
+        "Id": "GCH",
+        "Movement": 8,
+        "WeaponSkill": 2,
+        "BallisticSkill": 5,
+        "Strength": 6,
+        "Toughness": 5,
+        "Wounds": 6,
+        "Attacks": "6",
+        "Leadership": 10,
+        "Save": 4,
+        "MaximumNumber": 1,
+        "Cost": 131,
+        "NameEn": "Patriarch",
+        "NameFr": "Patriarch",
+        "NameDe": "Patriarch",
+        "IsCommander": true,
+        "NumberOfKnownPsychics": 1,
+        "NumberOfPsychicsManifestationPerRound": 1,
+        "NumberOfPsychicsDenialPerRound": 1,
+        "WarGearOptions": [],
+        "Specialists": [
+          {
+            "SpecialistId": "F"
+          },
+          {
+            "SpecialistId": "FE"
+          },
+          {
+            "SpecialistId": "FR"
+          },
+          {
+            "SpecialistId": "LH"
+          },
+          {
+            "SpecialistId": "ME"
+          },
+          {
+            "SpecialistId": "P"
+          },
+          {
+            "SpecialistId": "SE"
+          }
+        ],
+        "ModelProfileWeapons": [
+          {
+            "WeaponId": "MRC"
+          }
+        ],
+        "CostOverrides": [],
+        "LevelCosts": [
+          {
+            "Level": 1,
+            "Cost": 131
+          },
+          {
+            "Level": 2,
+            "Cost": 151
+          },
+          {
+            "Level": 3,
+            "Cost": 171
+          },
+          {
+            "Level": 4,
+            "Cost": 196
+          }
+        ]
+      }
+    ],
+    "ModelWeapons": [],
+    "WarGearOptions": []
+  },
+  {
+    "Id": "GCK",
+    "NameEn": "Kelemorph",
+    "NameFr": "Kelemorph",
+    "NameDe": "Kelemorph",
+    "KeywordsEn": "TYRANIDS, INFANTRY, COMMANDER, KELEMORPH",
+    "KeywordsFr": "TYRANIDS, INFANTERIE, COMMANDANT, KELEMORPH",
+    "KeywordsDe": "TYRANIDS, INFANTERIE, COMMANDER, KELEMORPH",
+    "ModelProfiles": [
+      {
+        "Id": "GCK",
+        "Movement": 6,
+        "WeaponSkill": 3,
+        "BallisticSkill": 2,
+        "Strength": 3,
+        "Toughness": 3,
+        "Wounds": 4,
+        "Attacks": "3",
+        "Leadership": 8,
+        "Save": 5,
+        "MaximumNumber": 1,
+        "Cost": 25,
+        "NameEn": "Kelermorph",
+        "NameFr": "Kelermorph",
+        "NameDe": "Kelermorph",
+        "IsCommander": true,
+        "NumberOfKnownPsychics": 0,
+        "NumberOfPsychicsManifestationPerRound": 0,
+        "NumberOfPsychicsDenialPerRound": 0,
+        "WarGearOptions": [],
+        "Specialists": [
+          {
+            "SpecialistId": "FE"
+          },
+          {
+            "SpecialistId": "LE"
+          },
+          {
+            "SpecialistId": "SE"
+          },
+          {
+            "SpecialistId": "SH"
+          }
+        ],
+        "ModelProfileWeapons": [
+          {
+            "WeaponId": "LIBAU"
+          },
+          {
+            "WeaponId": "LIBAU2"
+          },
+          {
+            "WeaponId": "LIBAU3"
+          },
+          {
+            "WeaponId": "PCU"
+          }
+        ],
+        "CostOverrides": [],
+        "LevelCosts": [
+          {
+            "Level": 4,
+            "Cost": 65
+          },
+          {
+            "Level": 3,
+            "Cost": 45
+          },
+          {
+            "Level": 2,
+            "Cost": 30
+          },
+          {
+            "Level": 1,
+            "Cost": 25
+          }
+        ]
+      }
+    ],
+    "ModelWeapons": [],
+    "WarGearOptions": []
+  },
+  {
+    "Id": "GCL",
+    "NameEn": "Locus",
+    "NameFr": "Locus",
+    "NameDe": "Locus",
+    "KeywordsEn": "COMMANDER, INFANTRY, LOCUS",
+    "KeywordsFr": "COMMANDANT, INFANTERIE, LOCUS",
+    "KeywordsDe": "KOMMANDEUR, INFANTERIE, LOCUS",
+    "ModelProfiles": [
+      {
+        "Id": "GCL",
+        "Movement": 6,
+        "WeaponSkill": 2,
+        "BallisticSkill": 2,
+        "Strength": 4,
+        "Toughness": 3,
+        "Wounds": 4,
+        "Attacks": "4",
+        "Leadership": 8,
+        "Save": 5,
+        "MaximumNumber": 1,
+        "Cost": 66,
+        "NameEn": "Locus",
+        "NameFr": "Locus",
+        "NameDe": "Locus",
+        "IsCommander": true,
+        "NumberOfKnownPsychics": 0,
+        "NumberOfPsychicsManifestationPerRound": 0,
+        "NumberOfPsychicsDenialPerRound": 0,
+        "WarGearOptions": [],
+        "Specialists": [
+          {
+            "SpecialistId": "FR"
+          },
+          {
+            "SpecialistId": "ME"
+          },
+          {
+            "SpecialistId": "SE"
+          }
+        ],
+        "ModelProfileWeapons": [],
+        "CostOverrides": [],
+        "LevelCosts": [
+          {
+            "Level": 1,
+            "Cost": 66
+          },
+          {
+            "Level": 2,
+            "Cost": 81
+          },
+          {
+            "Level": 3,
+            "Cost": 96
+          },
+          {
+            "Level": 4,
+            "Cost": 121
+          }
+        ]
+      }
+    ],
+    "ModelWeapons": [
+      {
+        "WeaponId": "HMT"
+      },
+      {
+        "WeaponId": "LB"
+      }
+    ],
+    "WarGearOptions": []
+  },
+  {
+    "Id": "GCM",
+    "NameEn": "Hybrid Metamorph",
+    "NameFr": "Hybrid Metamorph",
+    "NameDe": "Hybrid Metamorph",
+    "KeywordsEn": "TYRANIDS, INFANTRY, HYBRID METAMORPH",
+    "KeywordsFr": "TYRANIDS, INFANTERIE, HYBRID METAMORPH",
+    "KeywordsDe": "TYRANIDS, INFANTERIE, HYBRID METAMORPH",
+    "ModelProfiles": [
+      {
+        "Id": "GCM1",
+        "Movement": 6,
+        "WeaponSkill": 3,
+        "BallisticSkill": 4,
+        "Strength": 4,
+        "Toughness": 3,
+        "Wounds": 1,
+        "Attacks": "3",
+        "Leadership": 7,
+        "Save": 5,
+        "MaximumNumber": 0,
+        "Cost": 8,
+        "NameEn": "Hybrid Metamorph",
+        "NameFr": "Hybrid Metamorph",
+        "NameDe": "Hybrid Metamorph",
+        "IsCommander": false,
+        "NumberOfKnownPsychics": 0,
+        "NumberOfPsychicsManifestationPerRound": 0,
+        "NumberOfPsychicsDenialPerRound": 0,
+        "WarGearOptions": [
+          {
+            "Id": "136",
+            "MaximumPerTeam": 1,
+            "Operation": "ICU",
+            "Exclusion": null
+          }
+        ],
+        "Specialists": [
+          {
+            "SpecialistId": "CB"
+          },
+          {
+            "SpecialistId": "CO"
+          },
+          {
+            "SpecialistId": "D"
+          },
+          {
+            "SpecialistId": "Z"
+          }
+        ],
+        "ModelProfileWeapons": [],
+        "CostOverrides": [],
+        "LevelCosts": []
+      },
+      {
+        "Id": "GCM2",
+        "Movement": 6,
+        "WeaponSkill": 3,
+        "BallisticSkill": 4,
+        "Strength": 4,
+        "Toughness": 3,
+        "Wounds": 1,
+        "Attacks": "4",
+        "Leadership": 8,
+        "Save": 5,
+        "MaximumNumber": 1,
+        "Cost": 9,
+        "NameEn": "Metamorph Leader",
+        "NameFr": "Metamorph Leader",
+        "NameDe": "Metamorph Leader",
+        "IsCommander": false,
+        "NumberOfKnownPsychics": 0,
+        "NumberOfPsychicsManifestationPerRound": 0,
+        "NumberOfPsychicsDenialPerRound": 0,
+        "WarGearOptions": [
+          {
+            "Id": "135",
+            "MaximumPerTeam": 0,
+            "Operation": "EPO2",
+            "Exclusion": null
+          }
+        ],
+        "Specialists": [
+          {
+            "SpecialistId": "CB"
+          },
+          {
+            "SpecialistId": "CO"
+          },
+          {
+            "SpecialistId": "D"
+          },
+          {
+            "SpecialistId": "L"
+          },
+          {
+            "SpecialistId": "Z"
+          }
+        ],
+        "ModelProfileWeapons": [],
+        "CostOverrides": [],
+        "LevelCosts": []
+      }
+    ],
+    "ModelWeapons": [
+      {
+        "WeaponId": "CHE"
+      },
+      {
+        "WeaponId": "GME"
+      },
+      {
+        "WeaponId": "PMI"
+      },
+      {
+        "WeaponId": "SFO"
+      }
+    ],
+    "WarGearOptions": [
+      {
+        "Id": "131",
+        "MaximumPerTeam": 0,
+        "Operation": "SFO:GME",
+        "Exclusion": "GCM"
+      },
+      {
+        "Id": "132",
+        "MaximumPerTeam": 0,
+        "Operation": "GME:FME",
+        "Exclusion": "GCM"
+      },
+      {
+        "Id": "133",
+        "MaximumPerTeam": 0,
+        "Operation": "SFO&GME:PME",
+        "Exclusion": "GCM"
+      },
+      {
+        "Id": "134",
+        "MaximumPerTeam": 0,
+        "Operation": "PMI:LFL",
+        "Exclusion": null
+      }
+    ]
+  },
+  {
+    "Id": "GCN",
+    "NameEn": "Neophyte Hybrid",
+    "NameFr": "Neophyte Hybrid",
+    "NameDe": "Neophyte Hybrid",
+    "KeywordsEn": "TYRANIDS, INFANTRY, NEOPHYTE HYBRID",
+    "KeywordsFr": "TYRANIDS, INFANTERIE, NEOPHYTE HYBRID",
+    "KeywordsDe": "TYRANIDS, INFANTERIE, NEOPHYTE HYBRID",
+    "ModelProfiles": [
+      {
+        "Id": "GCN1",
+        "Movement": 6,
+        "WeaponSkill": 4,
+        "BallisticSkill": 4,
+        "Strength": 3,
+        "Toughness": 3,
+        "Wounds": 1,
+        "Attacks": "1",
+        "Leadership": 7,
+        "Save": 5,
+        "MaximumNumber": 0,
+        "Cost": 5,
+        "NameEn": "Neophyte Hybrid",
+        "NameFr": "Neophyte Hybrid",
+        "NameDe": "Neophyte Hybrid",
+        "IsCommander": false,
+        "NumberOfKnownPsychics": 0,
+        "NumberOfPsychicsManifestationPerRound": 0,
+        "NumberOfPsychicsDenialPerRound": 0,
+        "WarGearOptions": [
+          {
+            "Id": "125",
+            "MaximumPerTeam": 0,
+            "Operation": "FUA:FP",
+            "Exclusion": null
+          },
+          {
+            "Id": "130",
+            "MaximumPerTeam": 1,
+            "Operation": "ICU",
+            "Exclusion": null
+          }
+        ],
+        "Specialists": [
+          {
+            "SpecialistId": "D"
+          },
+          {
+            "SpecialistId": "M"
+          },
+          {
+            "SpecialistId": "SC"
+          },
+          {
+            "SpecialistId": "Z"
+          }
+        ],
+        "ModelProfileWeapons": [],
+        "CostOverrides": [],
+        "LevelCosts": []
+      },
+      {
+        "Id": "GCN2",
+        "Movement": 6,
+        "WeaponSkill": 4,
+        "BallisticSkill": 4,
+        "Strength": 3,
+        "Toughness": 3,
+        "Wounds": 1,
+        "Attacks": "1",
+        "Leadership": 7,
+        "Save": 5,
+        "MaximumNumber": 4,
+        "Cost": 6,
+        "NameEn": "Neophyte Gunner",
+        "NameFr": "Neophyte Gunner",
+        "NameDe": "Neophyte Gunner",
+        "IsCommander": false,
+        "NumberOfKnownPsychics": 0,
+        "NumberOfPsychicsManifestationPerRound": 0,
+        "NumberOfPsychicsDenialPerRound": 0,
+        "WarGearOptions": [
+          {
+            "Id": "126",
+            "MaximumPerTeam": 0,
+            "Operation": "FUA:FP",
+            "Exclusion": null
+          },
+          {
+            "Id": "128",
+            "MaximumPerTeam": 2,
+            "Operation": "FUA:LF|LGR|LTO",
+            "Exclusion": null
+          },
+          {
+            "Id": "129",
+            "MaximumPerTeam": 2,
+            "Operation": "FUA:MTI|LMI|CSI",
+            "Exclusion": null
+          }
+        ],
+        "Specialists": [
+          {
+            "SpecialistId": "AL"
+          },
+          {
+            "SpecialistId": "D"
+          },
+          {
+            "SpecialistId": "M"
+          },
+          {
+            "SpecialistId": "SC"
+          },
+          {
+            "SpecialistId": "Z"
+          }
+        ],
+        "ModelProfileWeapons": [],
+        "CostOverrides": [],
+        "LevelCosts": []
+      },
+      {
+        "Id": "GCN3",
+        "Movement": 6,
+        "WeaponSkill": 4,
+        "BallisticSkill": 4,
+        "Strength": 3,
+        "Toughness": 3,
+        "Wounds": 1,
+        "Attacks": "2",
+        "Leadership": 8,
+        "Save": 5,
+        "MaximumNumber": 1,
+        "Cost": 6,
+        "NameEn": "Neophyte Leader",
+        "NameFr": "Neophyte Leader",
+        "NameDe": "Neophyte Leader",
+        "IsCommander": false,
+        "NumberOfKnownPsychics": 0,
+        "NumberOfPsychicsManifestationPerRound": 0,
+        "NumberOfPsychicsDenialPerRound": 0,
+        "WarGearOptions": [
+          {
+            "Id": "127",
+            "MaximumPerTeam": 0,
+            "Operation": "FUA&PMI:(PMI|PB|LTL)&(EPT|PIE|MAE)",
+            "Exclusion": null
+          }
+        ],
+        "Specialists": [
+          {
+            "SpecialistId": "D"
+          },
+          {
+            "SpecialistId": "L"
+          },
+          {
+            "SpecialistId": "M"
+          },
+          {
+            "SpecialistId": "SC"
+          },
+          {
+            "SpecialistId": "Z"
+          }
+        ],
+        "ModelProfileWeapons": [],
+        "CostOverrides": [],
+        "LevelCosts": []
+      }
+    ],
+    "ModelWeapons": [
+      {
+        "WeaponId": "CHE"
+      },
+      {
+        "WeaponId": "FUA"
+      },
+      {
+        "WeaponId": "PMI"
+      }
+    ],
+    "WarGearOptions": []
+  },
+  {
+    "Id": "GCNE",
+    "NameEn": "Nexos",
+    "NameFr": "Nexos",
+    "NameDe": "Nexos",
+    "KeywordsEn": "COMMANDER, INFANTRY, NEXOS",
+    "KeywordsFr": "COMMANDANT, INFANTERIE, NEXOS",
+    "KeywordsDe": "KOMMANDEUR, INFANTERIE, NEXOS",
+    "ModelProfiles": [
+      {
+        "Id": "GCNE",
+        "Movement": 6,
+        "WeaponSkill": 3,
+        "BallisticSkill": 3,
+        "Strength": 3,
+        "Toughness": 3,
+        "Wounds": 4,
+        "Attacks": "3",
+        "Leadership": 8,
+        "Save": 5,
+        "MaximumNumber": 1,
+        "Cost": 32,
+        "NameEn": "Nexos",
+        "NameFr": "Nexos",
+        "NameDe": "Nexos",
+        "IsCommander": true,
+        "NumberOfKnownPsychics": 0,
+        "NumberOfPsychicsManifestationPerRound": 0,
+        "NumberOfPsychicsDenialPerRound": 0,
+        "WarGearOptions": [],
+        "Specialists": [
+          {
+            "SpecialistId": "LO"
+          },
+          {
+            "SpecialistId": "ST"
+          }
+        ],
+        "ModelProfileWeapons": [],
+        "CostOverrides": [],
+        "LevelCosts": [
+          {
+            "Level": 1,
+            "Cost": 32
+          },
+          {
+            "Level": 2,
+            "Cost": 37
+          },
+          {
+            "Level": 3,
+            "Cost": 52
+          },
+          {
+            "Level": 4,
+            "Cost": 72
+          }
+        ]
+      }
+    ],
+    "ModelWeapons": [
+      {
+        "WeaponId": "PMI"
+      }
+    ],
+    "WarGearOptions": []
+  },
+  {
+    "Id": "GCP",
+    "NameEn": "Primus",
+    "NameFr": "Primus",
+    "NameDe": "Primus",
+    "KeywordsEn": "TYRANIDS, INFANTRY, COMMANDER, PRIMUS",
+    "KeywordsFr": "TYRANIDS, INFANTERIE, COMMANDANT, PRIMUS",
+    "KeywordsDe": "TYRANIDS, INFANTERIE, KOMMANDEUR, PRIMUS",
+    "ModelProfiles": [
+      {
+        "Id": "GCP",
+        "Movement": 6,
+        "WeaponSkill": 2,
+        "BallisticSkill": 3,
+        "Strength": 4,
+        "Toughness": 3,
+        "Wounds": 5,
+        "Attacks": "4",
+        "Leadership": 9,
+        "Save": 5,
+        "MaximumNumber": 1,
+        "Cost": 28,
+        "NameEn": "Primus",
+        "NameFr": "Primus",
+        "NameDe": "Primus",
+        "IsCommander": true,
+        "NumberOfKnownPsychics": 0,
+        "NumberOfPsychicsManifestationPerRound": 0,
+        "NumberOfPsychicsDenialPerRound": 0,
+        "WarGearOptions": [],
+        "Specialists": [
+          {
+            "SpecialistId": "F"
+          },
+          {
+            "SpecialistId": "FE"
+          },
+          {
+            "SpecialistId": "FR"
+          },
+          {
+            "SpecialistId": "LE"
+          },
+          {
+            "SpecialistId": "LH"
+          },
+          {
+            "SpecialistId": "LO"
+          },
+          {
+            "SpecialistId": "ME"
+          },
+          {
+            "SpecialistId": "SE"
+          },
+          {
+            "SpecialistId": "SH"
+          },
+          {
+            "SpecialistId": "ST"
+          }
+        ],
+        "ModelProfileWeapons": [
+          {
+            "WeaponId": "CHE"
+          },
+          {
+            "WeaponId": "EPO"
+          },
+          {
+            "WeaponId": "NP"
+          },
+          {
+            "WeaponId": "TIC"
+          }
+        ],
+        "CostOverrides": [],
+        "LevelCosts": [
+          {
+            "Level": 1,
+            "Cost": 28
+          },
+          {
+            "Level": 2,
+            "Cost": 33
+          },
+          {
+            "Level": 3,
+            "Cost": 48
+          },
+          {
+            "Level": 4,
+            "Cost": 68
+          }
+        ]
+      }
+    ],
+    "ModelWeapons": [],
+    "WarGearOptions": []
+  },
+  {
+    "Id": "GCS",
+    "NameEn": "Sanctus",
+    "NameFr": "Sanctus",
+    "NameDe": "Sanctus",
+    "KeywordsEn": "COMMANDER, INFANTRY, SANCTUS",
+    "KeywordsFr": "COMMANDANT, INFANTERIE, SANCTUS",
+    "KeywordsDe": "COMMANDER, INFANTRY, SANCTUS",
+    "ModelProfiles": [
+      {
+        "Id": "GCS",
+        "Movement": 6,
+        "WeaponSkill": 2,
+        "BallisticSkill": 2,
+        "Strength": 3,
+        "Toughness": 3,
+        "Wounds": 4,
+        "Attacks": "4",
+        "Leadership": 8,
+        "Save": 5,
+        "MaximumNumber": 1,
+        "Cost": 33,
+        "NameEn": "Sanctus",
+        "NameFr": "Sanctus",
+        "NameDe": "Sanctus",
+        "IsCommander": true,
+        "NumberOfKnownPsychics": 0,
+        "NumberOfPsychicsManifestationPerRound": 0,
+        "NumberOfPsychicsDenialPerRound": 0,
+        "WarGearOptions": [],
+        "Specialists": [
+          {
+            "SpecialistId": "ME"
+          },
+          {
+            "SpecialistId": "SE"
+          },
+          {
+            "SpecialistId": "SH"
+          }
+        ],
+        "ModelProfileWeapons": [],
+        "CostOverrides": [],
+        "LevelCosts": [
+          {
+            "Level": 1,
+            "Cost": 33
+          },
+          {
+            "Level": 2,
+            "Cost": 38
+          },
+          {
+            "Level": 3,
+            "Cost": 53
+          },
+          {
+            "Level": 4,
+            "Cost": 73
+          }
+        ]
+      }
+    ],
+    "ModelWeapons": [
+      {
+        "WeaponId": "GCFC"
+      },
+      {
+        "WeaponId": "GCSS"
+      }
+    ],
+    "WarGearOptions": [
+      {
+        "Id": "337",
+        "MaximumPerTeam": 0,
+        "Operation": "GCSS:GCSB",
+        "Exclusion": null
+      }
+    ]
+  },
+  {
+    "Id": "GCZ",
+    "NameEn": "Magus",
+    "NameFr": "Magus",
+    "NameDe": "Magus",
+    "KeywordsEn": "TYRANIDS, INFANTRY, COMMANDER, PSYKER, MAGUS",
+    "KeywordsFr": "TYRANIDS, INFANTERIE, COMMANDANT, PSYKER, MAGUS",
+    "KeywordsDe": "TYRANIDS, INFANTERIE, KOMMANDEUR, PSIONIKER, MAGUS",
+    "ModelProfiles": [
+      {
+        "Id": "GCZ",
+        "Movement": 6,
+        "WeaponSkill": 3,
+        "BallisticSkill": 3,
+        "Strength": 3,
+        "Toughness": 3,
+        "Wounds": 4,
+        "Attacks": "3",
+        "Leadership": 8,
+        "Save": 5,
+        "MaximumNumber": 1,
+        "Cost": 30,
+        "NameEn": "Magus",
+        "NameFr": "Magus",
+        "NameDe": "Magus",
+        "IsCommander": true,
+        "NumberOfKnownPsychics": 1,
+        "NumberOfPsychicsManifestationPerRound": 1,
+        "NumberOfPsychicsDenialPerRound": 1,
+        "WarGearOptions": [],
+        "Specialists": [
+          {
+            "SpecialistId": "LE"
+          },
+          {
+            "SpecialistId": "LH"
+          },
+          {
+            "SpecialistId": "LO"
+          },
+          {
+            "SpecialistId": "P"
+          },
+          {
+            "SpecialistId": "SE"
+          }
+        ],
+        "ModelProfileWeapons": [
+          {
+            "WeaponId": "PMI"
+          },
+          {
+            "WeaponId": "SCF"
+          }
+        ],
+        "CostOverrides": [],
+        "LevelCosts": [
+          {
+            "Level": 1,
+            "Cost": 30
+          },
+          {
+            "Level": 2,
+            "Cost": 35
+          },
+          {
+            "Level": 3,
+            "Cost": 50
+          },
+          {
+            "Level": 4,
+            "Cost": 70
+          }
+        ]
+      }
+    ],
+    "ModelWeapons": [],
+    "WarGearOptions": []
+  },
+  {
+    "Id": "GEN2",
+    "NameEn": "Genestealer",
+    "NameFr": "Genestealer",
+    "NameDe": "Genestealer",
+    "KeywordsEn": "INFANTRY, GENESTEALER",
+    "KeywordsFr": "INFANTRY, GENESTEALER",
+    "KeywordsDe": "INFANTERIE, GENESTEALER",
+    "ModelProfiles": [
+      {
+        "Id": "GEN2",
+        "Movement": 8,
+        "WeaponSkill": 3,
+        "BallisticSkill": 4,
+        "Strength": 4,
+        "Toughness": 4,
+        "Wounds": 1,
+        "Attacks": "3",
+        "Leadership": 9,
+        "Save": 5,
+        "MaximumNumber": 0,
+        "Cost": 11,
+        "NameEn": "Genestealer",
+        "NameFr": "Genestealer",
+        "NameDe": "Genestealer",
+        "IsCommander": false,
+        "NumberOfKnownPsychics": 0,
+        "NumberOfPsychicsManifestationPerRound": 0,
+        "NumberOfPsychicsDenialPerRound": 0,
+        "WarGearOptions": [],
+        "Specialists": [
+          {
+            "SpecialistId": "CB"
+          },
+          {
+            "SpecialistId": "L"
+          },
+          {
+            "SpecialistId": "SC"
+          },
+          {
+            "SpecialistId": "V"
+          }
+        ],
+        "ModelProfileWeapons": [],
+        "CostOverrides": [],
+        "LevelCosts": []
+      }
+    ],
+    "ModelWeapons": [
+      {
+        "WeaponId": "SFO"
+      }
+    ],
+    "WarGearOptions": [
+      {
+        "Id": "137",
+        "MaximumPerTeam": 0,
+        "Operation": "GTR",
+        "Exclusion": null
+      },
+      {
+        "Id": "138",
+        "MaximumPerTeam": 0,
+        "Operation": "CAR",
+        "Exclusion": null
+      },
+      {
+        "Id": "139",
+        "MaximumPerTeam": 0,
+        "Operation": "TOS",
+        "Exclusion": null
+      },
+      {
+        "Id": "140",
+        "MaximumPerTeam": 1,
+        "Operation": "GAC",
+        "Exclusion": null
+      },
+      {
+        "Id": "141",
+        "MaximumPerTeam": 1,
+        "Operation": "CRO",
+        "Exclusion": null
+      }
+    ]
+  }
+]

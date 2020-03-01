@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:i18n="clr-namespace:KillTeam.Services;assembly=KillTeam"
+             x:Class="KillTeam.Views.RemerciementPage"
+             Title="{i18n:Translate Remerciement}">
+    <ContentPage.Content>
+        <ScrollView>
+            <StackLayout>
+                <Label Text="Thomas Lacombe" HorizontalOptions="CenterAndExpand" />
+                <Label Text="Scott Holmes" HorizontalOptions="CenterAndExpand" />
+                <Label Text="Jonny Olliff-Lee" HorizontalOptions="CenterAndExpand" />
+                <Label Text="Jake Cordero" HorizontalOptions="CenterAndExpand" />
+                <Label Text="Dean Raspa" HorizontalOptions="CenterAndExpand" />
+                <Label Text="Frank Gerlach" HorizontalOptions="CenterAndExpand" />
+                <Label Text="Scott Micklethwaite" HorizontalOptions="CenterAndExpand" />
+                <Label Text="Gustavo Pereira" HorizontalOptions="CenterAndExpand" />
+                <Label Text="Frank Gerlach" HorizontalOptions="CenterAndExpand" />
+                <Label Text="Damien Coppola" HorizontalOptions="CenterAndExpand" />
+            </StackLayout>
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>

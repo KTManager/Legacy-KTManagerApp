@@ -1,0 +1,1557 @@
+[
+  {
+    "Id": "TAB",
+    "NameEn": "Fire warrior Breacher",
+    "NameFr": "Fire warrior Breacher",
+    "NameDe": "Fire warrior Breacher",
+    "KeywordsEn": "INFANTRY, FIRE WARRIOR BREACHER",
+    "KeywordsFr": "INFANTERIE, FIRE WARRIOR BREACHER",
+    "KeywordsDe": "INFANTERIE, FIRE WARRIOR BREACHER (nur Breacher Shas'la und Breacher Shas'ui), DS8 TACTICAL SUPPORT TURRET (nur DS 8 Tactical Support Turret)",
+    "ModelProfiles": [
+      {
+        "Id": "TAB1",
+        "Movement": 6,
+        "WeaponSkill": 5,
+        "BallisticSkill": 4,
+        "Strength": 3,
+        "Toughness": 3,
+        "Wounds": 1,
+        "Attacks": "1",
+        "Leadership": 6,
+        "Save": 4,
+        "MaximumNumber": 0,
+        "Cost": 8,
+        "NameEn": "Breacher Shas’la",
+        "NameFr": "Breacher Shas’la",
+        "NameDe": "Breacher Shas’la",
+        "IsCommander": false,
+        "NumberOfKnownPsychics": 0,
+        "NumberOfPsychicsManifestationPerRound": 0,
+        "NumberOfPsychicsDenialPerRound": 0,
+        "WarGearOptions": [
+          {
+            "Id": "96",
+            "MaximumPerTeam": 0,
+            "Operation": "PIM",
+            "Exclusion": null
+          }
+        ],
+        "Specialists": [
+          {
+            "SpecialistId": "CO"
+          },
+          {
+            "SpecialistId": "D"
+          },
+          {
+            "SpecialistId": "M"
+          },
+          {
+            "SpecialistId": "SC"
+          },
+          {
+            "SpecialistId": "V"
+          }
+        ],
+        "ModelProfileWeapons": [
+          {
+            "WeaponId": "ECI"
+          },
+          {
+            "WeaponId": "GPH"
+          }
+        ],
+        "CostOverrides": [],
+        "LevelCosts": []
+      },
+      {
+        "Id": "TAB2",
+        "Movement": 6,
+        "WeaponSkill": 5,
+        "BallisticSkill": 4,
+        "Strength": 3,
+        "Toughness": 3,
+        "Wounds": 1,
+        "Attacks": "2",
+        "Leadership": 7,
+        "Save": 4,
+        "MaximumNumber": 1,
+        "Cost": 8,
+        "NameEn": "Breacher Shas’ui",
+        "NameFr": "Breacher Shas’ui",
+        "NameDe": "Breacher Shas’ui",
+        "IsCommander": false,
+        "NumberOfKnownPsychics": 0,
+        "NumberOfPsychicsManifestationPerRound": 0,
+        "NumberOfPsychicsDenialPerRound": 0,
+        "WarGearOptions": [
+          {
+            "Id": "97",
+            "MaximumPerTeam": 0,
+            "Operation": "PIM",
+            "Exclusion": null
+          },
+          {
+            "Id": "98",
+            "MaximumPerTeam": 0,
+            "Operation": "DLA",
+            "Exclusion": null
+          }
+        ],
+        "Specialists": [
+          {
+            "SpecialistId": "CO"
+          },
+          {
+            "SpecialistId": "D"
+          },
+          {
+            "SpecialistId": "L"
+          },
+          {
+            "SpecialistId": "M"
+          },
+          {
+            "SpecialistId": "SC"
+          },
+          {
+            "SpecialistId": "V"
+          }
+        ],
+        "ModelProfileWeapons": [
+          {
+            "WeaponId": "ECI"
+          },
+          {
+            "WeaponId": "GPH"
+          }
+        ],
+        "CostOverrides": [],
+        "LevelCosts": []
+      },
+      {
+        "Id": "TAB3",
+        "Movement": 0,
+        "WeaponSkill": 0,
+        "BallisticSkill": 4,
+        "Strength": 3,
+        "Toughness": 3,
+        "Wounds": 1,
+        "Attacks": "1",
+        "Leadership": 6,
+        "Save": 4,
+        "MaximumNumber": 1,
+        "Cost": 0,
+        "NameEn": "DS8 Tactical Support Turret",
+        "NameFr": "DS8 Tactical Support Turret",
+        "NameDe": "DS8 Tactical Support Turret",
+        "IsCommander": false,
+        "NumberOfKnownPsychics": 0,
+        "NumberOfPsychicsManifestationPerRound": 0,
+        "NumberOfPsychicsDenialPerRound": 0,
+        "WarGearOptions": [
+          {
+            "Id": "88",
+            "MaximumPerTeam": 0,
+            "Operation": "SMA|NMI",
+            "Exclusion": null
+          }
+        ],
+        "Specialists": [],
+        "ModelProfileWeapons": [],
+        "CostOverrides": [],
+        "LevelCosts": []
+      }
+    ],
+    "ModelWeapons": [],
+    "WarGearOptions": []
+  },
+  {
+    "Id": "TAC",
+    "NameEn": "Cadre Fireblade",
+    "NameFr": "Cadre Fireblade",
+    "NameDe": "Cadre Fireblade",
+    "KeywordsEn": "COMMANDER, INFANTRY, CADRE FIREBLADE",
+    "KeywordsFr": "COMMANDANT, INFANTERIE, CADRE FIREBLADE",
+    "KeywordsDe": "KOMMANDEUR, INFANTERIE, CADRE FIREBLADE",
+    "ModelProfiles": [
+      {
+        "Id": "TAC",
+        "Movement": 6,
+        "WeaponSkill": 3,
+        "BallisticSkill": 2,
+        "Strength": 3,
+        "Toughness": 3,
+        "Wounds": 5,
+        "Attacks": "3",
+        "Leadership": 8,
+        "Save": 4,
+        "MaximumNumber": 1,
+        "Cost": 23,
+        "NameEn": "Cadre Fireblade",
+        "NameFr": "Cadre Fireblade",
+        "NameDe": "Cadre Fireblade",
+        "IsCommander": true,
+        "NumberOfKnownPsychics": 0,
+        "NumberOfPsychicsManifestationPerRound": 0,
+        "NumberOfPsychicsDenialPerRound": 0,
+        "WarGearOptions": [],
+        "Specialists": [
+          {
+            "SpecialistId": "LE"
+          },
+          {
+            "SpecialistId": "LH"
+          },
+          {
+            "SpecialistId": "LO"
+          },
+          {
+            "SpecialistId": "SE"
+          },
+          {
+            "SpecialistId": "SH"
+          },
+          {
+            "SpecialistId": "ST"
+          }
+        ],
+        "ModelProfileWeapons": [
+          {
+            "WeaponId": "DLA"
+          },
+          {
+            "WeaponId": "FIM"
+          },
+          {
+            "WeaponId": "GPH"
+          }
+        ],
+        "CostOverrides": [],
+        "LevelCosts": [
+          {
+            "Level": 1,
+            "Cost": 23
+          },
+          {
+            "Level": 2,
+            "Cost": 28
+          },
+          {
+            "Level": 3,
+            "Cost": 43
+          },
+          {
+            "Level": 4,
+            "Cost": 63
+          }
+        ]
+      }
+    ],
+    "ModelWeapons": [],
+    "WarGearOptions": []
+  },
+  {
+    "Id": "TACIXEB",
+    "NameEn": "Commander in XV85 Enforced Battlesuit",
+    "NameFr": "Commandant en XV85 Enforcer Battlesuit",
+    "NameDe": "Commander in XV85 Enforced Battlesuit",
+    "KeywordsEn": "BATTLESUIT, COMMANDER, XV85 ENFORCER, JET PACK, FLY",
+    "KeywordsFr": "BATTLESUIT, COMMANDANT, XV85, ENFORCER, RÉPULSEUR, VOL",
+    "KeywordsDe": "BATTLESUIT, KOMMANDEU, XV85 ENFORCER, SCHWEBEMODUL, FLIEGEN",
+    "ModelProfiles": [
+      {
+        "Id": "TACIXEB",
+        "Movement": 8,
+        "WeaponSkill": 3,
+        "BallisticSkill": 2,
+        "Strength": 5,
+        "Toughness": 5,
+        "Wounds": 6,
+        "Attacks": "4",
+        "Leadership": 9,
+        "Save": 3,
+        "MaximumNumber": 1,
+        "Cost": 62,
+        "NameEn": "Commander in XV85 Enforced Battlesuit",
+        "NameFr": "Commandant en XV85 Enforcer Battlesuit",
+        "NameDe": "Commander in XV85 Enforced Battlesuit",
+        "IsCommander": true,
+        "NumberOfKnownPsychics": 0,
+        "NumberOfPsychicsManifestationPerRound": 0,
+        "NumberOfPsychicsDenialPerRound": 0,
+        "WarGearOptions": [],
+        "Specialists": [
+          {
+            "SpecialistId": "F"
+          },
+          {
+            "SpecialistId": "FE"
+          },
+          {
+            "SpecialistId": "LE"
+          },
+          {
+            "SpecialistId": "LO"
+          },
+          {
+            "SpecialistId": "SH"
+          },
+          {
+            "SpecialistId": "ST"
+          }
+        ],
+        "ModelProfileWeapons": [],
+        "CostOverrides": [
+          {
+            "WeaponId": "LF",
+            "Cost": 4
+          },
+          {
+            "WeaponId": "CIN",
+            "Cost": 7
+          },
+          {
+            "WeaponId": "NMI",
+            "Cost": 17
+          },
+          {
+            "WeaponId": "TAABFP",
+            "Cost": 6
+          },
+          {
+            "WeaponId": "EFU",
+            "Cost": 17
+          },
+          {
+            "WeaponId": "TAPR",
+            "Cost": 7
+          }
+        ],
+        "LevelCosts": [
+          {
+            "Level": 1,
+            "Cost": 62
+          },
+          {
+            "Level": 2,
+            "Cost": 82
+          },
+          {
+            "Level": 3,
+            "Cost": 102
+          },
+          {
+            "Level": 4,
+            "Cost": 127
+          }
+        ]
+      }
+    ],
+    "ModelWeapons": [
+      {
+        "WeaponId": "CIN"
+      },
+      {
+        "WeaponId": "NMI"
+      }
+    ],
+    "WarGearOptions": [
+      {
+        "Id": "361",
+        "MaximumPerTeam": 0,
+        "Operation": "CIN&NMI:((TAABFP|TACIB|LF|TAKR|TAPR)&(TAABFP|TACIB|LF|TAKR|TAPR))|((TAABFP|TACIB|LF|TAKR|TAPR)&(TAATS|TACDS|TADC|TAEWO|TAMT|TASG|TATL|TAVT))|(TAATS&TACDS)|(TAATS&TADC)|(TAATS&TAEWO)|(TAATS&TAMT)|(TAATS&TASG)|(TAATS&TATL)|(TAATS&TAVT)|(TACDS&TADC)|(TACDS&TAEWO)|(TACDS&TAMT)|(TACDS&TASG)|(TACDS&TATL)|(TACDS&TAVT)|(TADC&TAEWO)|(TADC&TAMT)|(TADC&TASG)|(TADC&TATL)|(TADC&TAVT)|(TAEWO&TAMT)|(TAEWO&TASG)|(TAEWO&TATL)|(TAEWO&TAVT)|(TAMT&TASG)|(TAMT&TATL)|(TAMT&TAVT)|(TASG&TATL)|(TASG&TAVT)|(TATL&TAVT)",
+        "Exclusion": null
+      },
+      {
+        "Id": "362",
+        "MaximumPerTeam": 0,
+        "Operation": "(TAABFP|TACIB|LF|TAKR|TAPR)&(TAABFP|TACIB|LF|TAKR|TAPR)|(TAABFP|TACIB|LF|TAKR|TAPR)&(TAATS|TACDS|TADC|TAEWO|TAMT|TASG|TATL|TAVT)|(TAATS&TACDS)|(TAATS&TADC)|(TAATS&TAEWO)|(TAATS&TAMT)|(TAATS&TASG)|(TAATS&TATL)|(TAATS&TAVT)|(TACDS&TADC)|(TACDS&TAEWO)|(TACDS&TAMT)|(TACDS&TASG)|(TACDS&TATL)|(TACDS&TAVT)|(TADC&TAEWO)|(TADC&TAMT)|(TADC&TASG)|(TADC&TATL)|(TADC&TAVT)|(TAEWO&TAMT)|(TAEWO&TASG)|(TAEWO&TATL)|(TAEWO&TAVT)|(TAMT&TASG)|(TAMT&TATL)|(TAMT&TAVT)|(TASG&TATL)|(TASG&TAVT)|(TATL&TAVT)",
+        "Exclusion": null
+      }
+    ]
+  },
+  {
+    "Id": "TAD",
+    "NameEn": "Drone",
+    "NameFr": "Drone",
+    "NameDe": "Drone",
+    "KeywordsEn": "FLY, DRONE",
+    "KeywordsFr": "VOL, DRONE",
+    "KeywordsDe": "FLIEGEN, DRONE",
+    "ModelProfiles": [
+      {
+        "Id": "MB3",
+        "Movement": 8,
+        "WeaponSkill": 5,
+        "BallisticSkill": 5,
+        "Strength": 4,
+        "Toughness": 4,
+        "Wounds": 2,
+        "Attacks": "1",
+        "Leadership": 6,
+        "Save": 4,
+        "MaximumNumber": 1,
+        "Cost": 7,
+        "NameEn": "MB3 Recon Drone",
+        "NameFr": "MB3 Recon Drone",
+        "NameDe": "MB3 Recon Drone",
+        "IsCommander": false,
+        "NumberOfKnownPsychics": 0,
+        "NumberOfPsychicsManifestationPerRound": 0,
+        "NumberOfPsychicsDenialPerRound": 0,
+        "WarGearOptions": [],
+        "Specialists": [],
+        "ModelProfileWeapons": [
+          {
+            "WeaponId": "CIN"
+          }
+        ],
+        "CostOverrides": [],
+        "LevelCosts": []
+      },
+      {
+        "Id": "MV1",
+        "Movement": 8,
+        "WeaponSkill": 5,
+        "BallisticSkill": 5,
+        "Strength": 3,
+        "Toughness": 4,
+        "Wounds": 1,
+        "Attacks": "1",
+        "Leadership": 6,
+        "Save": 4,
+        "MaximumNumber": 0,
+        "Cost": 7,
+        "NameEn": "MV1 Gun Drone",
+        "NameFr": "MV1 Gun Drone",
+        "NameDe": "MV1 Gun Drone",
+        "IsCommander": false,
+        "NumberOfKnownPsychics": 0,
+        "NumberOfPsychicsManifestationPerRound": 0,
+        "NumberOfPsychicsDenialPerRound": 0,
+        "WarGearOptions": [],
+        "Specialists": [],
+        "ModelProfileWeapons": [
+          {
+            "WeaponId": "CRI"
+          },
+          {
+            "WeaponId": "CRI2"
+          }
+        ],
+        "CostOverrides": [],
+        "LevelCosts": []
+      },
+      {
+        "Id": "MV31",
+        "Movement": 8,
+        "WeaponSkill": 5,
+        "BallisticSkill": 5,
+        "Strength": 3,
+        "Toughness": 4,
+        "Wounds": 1,
+        "Attacks": "1",
+        "Leadership": 6,
+        "Save": 4,
+        "MaximumNumber": 1,
+        "Cost": 7,
+        "NameEn": "MV31 Pulse Accelerator Drone",
+        "NameFr": "MV31 Pulse Accelerator Drone",
+        "NameDe": "MV31 Pulse Accelerator Drone",
+        "IsCommander": false,
+        "NumberOfKnownPsychics": 0,
+        "NumberOfPsychicsManifestationPerRound": 0,
+        "NumberOfPsychicsDenialPerRound": 0,
+        "WarGearOptions": [],
+        "Specialists": [],
+        "ModelProfileWeapons": [],
+        "CostOverrides": [],
+        "LevelCosts": []
+      },
+      {
+        "Id": "MV33",
+        "Movement": 8,
+        "WeaponSkill": 5,
+        "BallisticSkill": 5,
+        "Strength": 3,
+        "Toughness": 4,
+        "Wounds": 1,
+        "Attacks": "1",
+        "Leadership": 6,
+        "Save": 4,
+        "MaximumNumber": 1,
+        "Cost": 7,
+        "NameEn": "MV33 Grav-inihibitor Drone",
+        "NameFr": "MV33 Grav-inihibitor Drone",
+        "NameDe": "MV33 Grav-inihibitor Drone",
+        "IsCommander": false,
+        "NumberOfKnownPsychics": 0,
+        "NumberOfPsychicsManifestationPerRound": 0,
+        "NumberOfPsychicsDenialPerRound": 0,
+        "WarGearOptions": [],
+        "Specialists": [],
+        "ModelProfileWeapons": [],
+        "CostOverrides": [],
+        "LevelCosts": []
+      },
+      {
+        "Id": "MV36",
+        "Movement": 8,
+        "WeaponSkill": 5,
+        "BallisticSkill": 5,
+        "Strength": 3,
+        "Toughness": 4,
+        "Wounds": 1,
+        "Attacks": "1",
+        "Leadership": 6,
+        "Save": 4,
+        "MaximumNumber": 1,
+        "Cost": 7,
+        "NameEn": "MV36 Guardian Drone",
+        "NameFr": "MV36 Guardian Drone",
+        "NameDe": "MV36 Guardian Drone",
+        "IsCommander": false,
+        "NumberOfKnownPsychics": 0,
+        "NumberOfPsychicsManifestationPerRound": 0,
+        "NumberOfPsychicsDenialPerRound": 0,
+        "WarGearOptions": [],
+        "Specialists": [],
+        "ModelProfileWeapons": [],
+        "CostOverrides": [],
+        "LevelCosts": []
+      },
+      {
+        "Id": "MV4",
+        "Movement": 8,
+        "WeaponSkill": 5,
+        "BallisticSkill": 5,
+        "Strength": 3,
+        "Toughness": 4,
+        "Wounds": 1,
+        "Attacks": "1",
+        "Leadership": 6,
+        "Save": 4,
+        "MaximumNumber": 0,
+        "Cost": 7,
+        "NameEn": "MV4 Shield Drone",
+        "NameFr": "MV4 Shield Drone",
+        "NameDe": "MV4 Shield Drone",
+        "IsCommander": false,
+        "NumberOfKnownPsychics": 0,
+        "NumberOfPsychicsManifestationPerRound": 0,
+        "NumberOfPsychicsDenialPerRound": 0,
+        "WarGearOptions": [],
+        "Specialists": [],
+        "ModelProfileWeapons": [
+          {
+            "WeaponId": "GBO"
+          }
+        ],
+        "CostOverrides": [],
+        "LevelCosts": []
+      },
+      {
+        "Id": "MV7",
+        "Movement": 8,
+        "WeaponSkill": 5,
+        "BallisticSkill": 5,
+        "Strength": 3,
+        "Toughness": 4,
+        "Wounds": 1,
+        "Attacks": "1",
+        "Leadership": 6,
+        "Save": 4,
+        "MaximumNumber": 0,
+        "Cost": 7,
+        "NameEn": "MV7 Marker Drone",
+        "NameFr": "MV7 Marker Drone",
+        "NameDe": "MV7 Marker Drone",
+        "IsCommander": false,
+        "NumberOfKnownPsychics": 0,
+        "NumberOfPsychicsManifestationPerRound": 0,
+        "NumberOfPsychicsDenialPerRound": 0,
+        "WarGearOptions": [],
+        "Specialists": [],
+        "ModelProfileWeapons": [
+          {
+            "WeaponId": "DLA"
+          }
+        ],
+        "CostOverrides": [],
+        "LevelCosts": []
+      }
+    ],
+    "ModelWeapons": [],
+    "WarGearOptions": []
+  },
+  {
+    "Id": "TADG",
+    "NameEn": "Dahyak Grekh",
+    "NameFr": "Dahyak Grekh",
+    "NameDe": "Dahyak Grekh",
+    "KeywordsEn": "Commander, Infantry, Dahyak Grekh",
+    "KeywordsFr": "Commander, Infantry, Dahyak Grekh",
+    "KeywordsDe": "Commander, Infantry, Dahyak Grekh",
+    "ModelProfiles": [
+      {
+        "Id": "TADG",
+        "Movement": 7,
+        "WeaponSkill": 3,
+        "BallisticSkill": 3,
+        "Strength": 3,
+        "Toughness": 3,
+        "Wounds": 3,
+        "Attacks": "3",
+        "Leadership": 7,
+        "Save": 6,
+        "MaximumNumber": 1,
+        "Cost": 25,
+        "NameEn": "Dahyak Grekh",
+        "NameFr": "Dahyak Grekh",
+        "NameDe": "Dahyak Grekh",
+        "IsCommander": true,
+        "NumberOfKnownPsychics": 0,
+        "NumberOfPsychicsManifestationPerRound": 0,
+        "NumberOfPsychicsDenialPerRound": 0,
+        "WarGearOptions": [],
+        "Specialists": [
+          {
+            "SpecialistId": "LH"
+          },
+          {
+            "SpecialistId": "SE"
+          }
+        ],
+        "ModelProfileWeapons": [
+          {
+            "WeaponId": "KRP"
+          },
+          {
+            "WeaponId": "KRRM"
+          },
+          {
+            "WeaponId": "KRRS"
+          }
+        ],
+        "CostOverrides": [],
+        "LevelCosts": [
+          {
+            "Level": 4,
+            "Cost": 50
+          },
+          {
+            "Level": 3,
+            "Cost": 40
+          },
+          {
+            "Level": 2,
+            "Cost": 30
+          },
+          {
+            "Level": 1,
+            "Cost": 25
+          }
+        ]
+      }
+    ],
+    "ModelWeapons": [],
+    "WarGearOptions": []
+  },
+  {
+    "Id": "TADS",
+    "NameEn": "Darkstrider",
+    "NameFr": "Darkstrider",
+    "NameDe": "Darkstrider",
+    "KeywordsEn": "COMMANDER, INFANTRY, DARKSTRIDER",
+    "KeywordsFr": "COMMANDANT, INFANTEIRE, DARKSTRIDER",
+    "KeywordsDe": "KOMMANDEUR, INFANTERIE, DARKSTRIDER",
+    "ModelProfiles": [
+      {
+        "Id": "TADS",
+        "Movement": 7,
+        "WeaponSkill": 3,
+        "BallisticSkill": 2,
+        "Strength": 3,
+        "Toughness": 3,
+        "Wounds": 5,
+        "Attacks": "3",
+        "Leadership": 8,
+        "Save": 5,
+        "MaximumNumber": 1,
+        "Cost": 39,
+        "NameEn": "Darkstrider",
+        "NameFr": "Darkstrider",
+        "NameDe": "Darkstrider",
+        "IsCommander": true,
+        "NumberOfKnownPsychics": 0,
+        "NumberOfPsychicsManifestationPerRound": 0,
+        "NumberOfPsychicsDenialPerRound": 0,
+        "WarGearOptions": [],
+        "Specialists": [
+          {
+            "SpecialistId": "LH"
+          }
+        ],
+        "ModelProfileWeapons": [],
+        "CostOverrides": [
+          {
+            "WeaponId": "LF",
+            "Cost": 4
+          }
+        ],
+        "LevelCosts": [
+          {
+            "Level": 1,
+            "Cost": 39
+          },
+          {
+            "Level": 2,
+            "Cost": 39
+          }
+        ]
+      }
+    ],
+    "ModelWeapons": [
+      {
+        "WeaponId": "CRI"
+      },
+      {
+        "WeaponId": "DLA"
+      },
+      {
+        "WeaponId": "GPH"
+      }
+    ],
+    "WarGearOptions": []
+  },
+  {
+    "Id": "TAE",
+    "NameEn": "Ethereal",
+    "NameFr": "Ethereal",
+    "NameDe": "Ethereal",
+    "KeywordsEn": "COMMANDER, INFANTRY, ETHEREAL",
+    "KeywordsFr": "COMMANDANT, INFANTERIE, ETHEREAL",
+    "KeywordsDe": "KOMMANDEUR, INFANTERIE, ETHEREAL",
+    "ModelProfiles": [
+      {
+        "Id": "TAE",
+        "Movement": 6,
+        "WeaponSkill": 3,
+        "BallisticSkill": 4,
+        "Strength": 3,
+        "Toughness": 3,
+        "Wounds": 4,
+        "Attacks": "3",
+        "Leadership": 9,
+        "Save": 5,
+        "MaximumNumber": 1,
+        "Cost": 18,
+        "NameEn": "Ethereal",
+        "NameFr": "Ethereal",
+        "NameDe": "Ethereal",
+        "IsCommander": true,
+        "NumberOfKnownPsychics": 0,
+        "NumberOfPsychicsManifestationPerRound": 0,
+        "NumberOfPsychicsDenialPerRound": 0,
+        "WarGearOptions": [
+          {
+            "Id": "234",
+            "MaximumPerTeam": 0,
+            "Operation": "HB:E",
+            "Exclusion": null
+          },
+          {
+            "Id": "235",
+            "MaximumPerTeam": 0,
+            "Operation": "HD",
+            "Exclusion": null
+          }
+        ],
+        "Specialists": [
+          {
+            "SpecialistId": "LE"
+          },
+          {
+            "SpecialistId": "LH"
+          },
+          {
+            "SpecialistId": "LO"
+          },
+          {
+            "SpecialistId": "ST"
+          }
+        ],
+        "ModelProfileWeapons": [
+          {
+            "WeaponId": "HB"
+          }
+        ],
+        "CostOverrides": [],
+        "LevelCosts": [
+          {
+            "Level": 1,
+            "Cost": 18
+          },
+          {
+            "Level": 2,
+            "Cost": 23
+          },
+          {
+            "Level": 3,
+            "Cost": 38
+          },
+          {
+            "Level": 4,
+            "Cost": 58
+          }
+        ]
+      }
+    ],
+    "ModelWeapons": [],
+    "WarGearOptions": []
+  },
+  {
+    "Id": "TAF",
+    "NameEn": "Fire warrior",
+    "NameFr": "Fire warrior",
+    "NameDe": "Fire warrior",
+    "KeywordsEn": "INFANTRY, FIRE WARRIOR",
+    "KeywordsFr": "INFANTERIE, FIRE WARRIOR",
+    "KeywordsDe": "INFANTERIE, FIRE WARRIOR (nur Shas'la und Shas'ui), DS8 TACTICAL SUPPORT TURRET (nur DS8 Tactical Support Turret)",
+    "ModelProfiles": [
+      {
+        "Id": "TAF1",
+        "Movement": 6,
+        "WeaponSkill": 5,
+        "BallisticSkill": 4,
+        "Strength": 3,
+        "Toughness": 3,
+        "Wounds": 1,
+        "Attacks": "1",
+        "Leadership": 6,
+        "Save": 4,
+        "MaximumNumber": 0,
+        "Cost": 8,
+        "NameEn": "Shas'la",
+        "NameFr": "Shas'la",
+        "NameDe": "Shas'la",
+        "IsCommander": false,
+        "NumberOfKnownPsychics": 0,
+        "NumberOfPsychicsManifestationPerRound": 0,
+        "NumberOfPsychicsDenialPerRound": 0,
+        "WarGearOptions": [
+          {
+            "Id": "89",
+            "MaximumPerTeam": 0,
+            "Operation": "FIM:CRI",
+            "Exclusion": null
+          },
+          {
+            "Id": "91",
+            "MaximumPerTeam": 0,
+            "Operation": "PIM",
+            "Exclusion": null
+          }
+        ],
+        "Specialists": [
+          {
+            "SpecialistId": "CO"
+          },
+          {
+            "SpecialistId": "M"
+          },
+          {
+            "SpecialistId": "SC"
+          },
+          {
+            "SpecialistId": "SN"
+          },
+          {
+            "SpecialistId": "V"
+          }
+        ],
+        "ModelProfileWeapons": [
+          {
+            "WeaponId": "FIM"
+          },
+          {
+            "WeaponId": "GPH"
+          }
+        ],
+        "CostOverrides": [],
+        "LevelCosts": []
+      },
+      {
+        "Id": "TAF2",
+        "Movement": 6,
+        "WeaponSkill": 5,
+        "BallisticSkill": 4,
+        "Strength": 3,
+        "Toughness": 3,
+        "Wounds": 1,
+        "Attacks": "2",
+        "Leadership": 7,
+        "Save": 4,
+        "MaximumNumber": 1,
+        "Cost": 8,
+        "NameEn": "Shas'ui",
+        "NameFr": "Shas'ui",
+        "NameDe": "Shas'ui",
+        "IsCommander": false,
+        "NumberOfKnownPsychics": 0,
+        "NumberOfPsychicsManifestationPerRound": 0,
+        "NumberOfPsychicsDenialPerRound": 0,
+        "WarGearOptions": [
+          {
+            "Id": "90",
+            "MaximumPerTeam": 0,
+            "Operation": "FIM:CRI",
+            "Exclusion": null
+          },
+          {
+            "Id": "92",
+            "MaximumPerTeam": 0,
+            "Operation": "PIM",
+            "Exclusion": null
+          },
+          {
+            "Id": "93",
+            "MaximumPerTeam": 0,
+            "Operation": "DLA",
+            "Exclusion": null
+          }
+        ],
+        "Specialists": [
+          {
+            "SpecialistId": "CO"
+          },
+          {
+            "SpecialistId": "L"
+          },
+          {
+            "SpecialistId": "M"
+          },
+          {
+            "SpecialistId": "SC"
+          },
+          {
+            "SpecialistId": "SN"
+          },
+          {
+            "SpecialistId": "V"
+          }
+        ],
+        "ModelProfileWeapons": [
+          {
+            "WeaponId": "FIM"
+          },
+          {
+            "WeaponId": "GPH"
+          }
+        ],
+        "CostOverrides": [],
+        "LevelCosts": []
+      },
+      {
+        "Id": "TAF3",
+        "Movement": 0,
+        "WeaponSkill": 0,
+        "BallisticSkill": 4,
+        "Strength": 3,
+        "Toughness": 3,
+        "Wounds": 1,
+        "Attacks": "1",
+        "Leadership": 6,
+        "Save": 4,
+        "MaximumNumber": 1,
+        "Cost": 0,
+        "NameEn": "DS8 Tactical Support Turret",
+        "NameFr": "DS8 Tactical Support Turret",
+        "NameDe": "DS8 Tactical Support Turret",
+        "IsCommander": false,
+        "NumberOfKnownPsychics": 0,
+        "NumberOfPsychicsManifestationPerRound": 0,
+        "NumberOfPsychicsDenialPerRound": 0,
+        "WarGearOptions": [
+          {
+            "Id": "87",
+            "MaximumPerTeam": 0,
+            "Operation": "SMA|NMI",
+            "Exclusion": null
+          }
+        ],
+        "Specialists": [],
+        "ModelProfileWeapons": [],
+        "CostOverrides": [],
+        "LevelCosts": []
+      }
+    ],
+    "ModelWeapons": [],
+    "WarGearOptions": []
+  },
+  {
+    "Id": "TAKC",
+    "NameEn": "Kroot Carnivore",
+    "NameFr": "Kroot Carnivore",
+    "NameDe": "Kroot Carnivore",
+    "KeywordsEn": "KROOT, INFANTRY, KROOT CARNIVORE",
+    "KeywordsFr": "KROOT, INFANTERIE, KROOT CARNIVORE",
+    "KeywordsDe": "KROOT, INFANTERIE, KROOT CARNIVORE",
+    "ModelProfiles": [
+      {
+        "Id": "TAK",
+        "Movement": 7,
+        "WeaponSkill": 3,
+        "BallisticSkill": 4,
+        "Strength": 3,
+        "Toughness": 3,
+        "Wounds": 1,
+        "Attacks": "1",
+        "Leadership": 6,
+        "Save": 6,
+        "MaximumNumber": 0,
+        "Cost": 6,
+        "NameEn": "Kroot",
+        "NameFr": "Kroot",
+        "NameDe": "Kroot",
+        "IsCommander": false,
+        "NumberOfKnownPsychics": 0,
+        "NumberOfPsychicsManifestationPerRound": 0,
+        "NumberOfPsychicsDenialPerRound": 0,
+        "WarGearOptions": [],
+        "Specialists": [
+          {
+            "SpecialistId": "CB"
+          },
+          {
+            "SpecialistId": "L"
+          },
+          {
+            "SpecialistId": "SC"
+          },
+          {
+            "SpecialistId": "SN"
+          },
+          {
+            "SpecialistId": "V"
+          },
+          {
+            "SpecialistId": "Z"
+          }
+        ],
+        "ModelProfileWeapons": [],
+        "CostOverrides": [
+          {
+            "WeaponId": "LF",
+            "Cost": 4
+          }
+        ],
+        "LevelCosts": []
+      }
+    ],
+    "ModelWeapons": [
+      {
+        "WeaponId": "TAKR"
+      }
+    ],
+    "WarGearOptions": []
+  },
+  {
+    "Id": "TAKRC",
+    "NameEn": "Kroot Carnivore",
+    "NameFr": "Kroot Carnivore",
+    "NameDe": "Kroot Carnivore",
+    "KeywordsEn": "T'AU EMPIRE, INFANTERY, KROOT CARNIVORE",
+    "KeywordsFr": "T'AU EMPIRE, INFANTERIE, KROOT CARNIVORE",
+    "KeywordsDe": "T'AU EMPIRE, INFANTERIE, KROOT CARNIVORE",
+    "ModelProfiles": [
+      {
+        "Id": "TAKRC",
+        "Movement": 7,
+        "WeaponSkill": 3,
+        "BallisticSkill": 4,
+        "Strength": 3,
+        "Toughness": 3,
+        "Wounds": 1,
+        "Attacks": "1",
+        "Leadership": 6,
+        "Save": 6,
+        "MaximumNumber": 0,
+        "Cost": 6,
+        "NameEn": "Kroot Carnivore",
+        "NameFr": "Kroot Carnivore",
+        "NameDe": "Kroot Carnivore",
+        "IsCommander": false,
+        "NumberOfKnownPsychics": 0,
+        "NumberOfPsychicsManifestationPerRound": 0,
+        "NumberOfPsychicsDenialPerRound": 0,
+        "WarGearOptions": [],
+        "Specialists": [
+          {
+            "SpecialistId": "CB"
+          },
+          {
+            "SpecialistId": "L"
+          },
+          {
+            "SpecialistId": "SC"
+          },
+          {
+            "SpecialistId": "SN"
+          },
+          {
+            "SpecialistId": "V"
+          },
+          {
+            "SpecialistId": "Z"
+          }
+        ],
+        "ModelProfileWeapons": [
+          {
+            "WeaponId": "KRFC"
+          },
+          {
+            "WeaponId": "KRFT"
+          }
+        ],
+        "CostOverrides": [],
+        "LevelCosts": []
+      }
+    ],
+    "ModelWeapons": [],
+    "WarGearOptions": []
+  },
+  {
+    "Id": "TAP",
+    "NameEn": "Pathfinder",
+    "NameFr": "Pathfinder",
+    "NameDe": "Pathfinder",
+    "KeywordsEn": "INFANTRY, PATHFINDER",
+    "KeywordsFr": "INFANTERIE, PATHFINDER",
+    "KeywordsDe": "INFANTERIE, PATHFINDER",
+    "ModelProfiles": [
+      {
+        "Id": "TAP1",
+        "Movement": 7,
+        "WeaponSkill": 5,
+        "BallisticSkill": 4,
+        "Strength": 3,
+        "Toughness": 3,
+        "Wounds": 1,
+        "Attacks": "1",
+        "Leadership": 6,
+        "Save": 5,
+        "MaximumNumber": 0,
+        "Cost": 6,
+        "NameEn": "Pathfinder",
+        "NameFr": "Pathfinder",
+        "NameDe": "Pathfinder",
+        "IsCommander": false,
+        "NumberOfKnownPsychics": 0,
+        "NumberOfPsychicsManifestationPerRound": 0,
+        "NumberOfPsychicsDenialPerRound": 0,
+        "WarGearOptions": [],
+        "Specialists": [
+          {
+            "SpecialistId": "CO"
+          },
+          {
+            "SpecialistId": "D"
+          },
+          {
+            "SpecialistId": "M"
+          },
+          {
+            "SpecialistId": "SC"
+          },
+          {
+            "SpecialistId": "V"
+          }
+        ],
+        "ModelProfileWeapons": [],
+        "CostOverrides": [],
+        "LevelCosts": []
+      },
+      {
+        "Id": "TAP2",
+        "Movement": 7,
+        "WeaponSkill": 5,
+        "BallisticSkill": 4,
+        "Strength": 3,
+        "Toughness": 3,
+        "Wounds": 1,
+        "Attacks": "1",
+        "Leadership": 6,
+        "Save": 5,
+        "MaximumNumber": 3,
+        "Cost": 7,
+        "NameEn": "Pathfinder Gunner",
+        "NameFr": "Pathfinder Gunner",
+        "NameDe": "Pathfinder Gunner",
+        "IsCommander": false,
+        "NumberOfKnownPsychics": 0,
+        "NumberOfPsychicsManifestationPerRound": 0,
+        "NumberOfPsychicsDenialPerRound": 0,
+        "WarGearOptions": [
+          {
+            "Id": "94",
+            "MaximumPerTeam": 0,
+            "Operation": "CRI&DLA:FRA|FUI",
+            "Exclusion": null
+          }
+        ],
+        "Specialists": [
+          {
+            "SpecialistId": "CO"
+          },
+          {
+            "SpecialistId": "D"
+          },
+          {
+            "SpecialistId": "M"
+          },
+          {
+            "SpecialistId": "SC"
+          },
+          {
+            "SpecialistId": "SN"
+          },
+          {
+            "SpecialistId": "V"
+          }
+        ],
+        "ModelProfileWeapons": [],
+        "CostOverrides": [],
+        "LevelCosts": []
+      },
+      {
+        "Id": "TAP3",
+        "Movement": 7,
+        "WeaponSkill": 5,
+        "BallisticSkill": 4,
+        "Strength": 3,
+        "Toughness": 3,
+        "Wounds": 1,
+        "Attacks": "2",
+        "Leadership": 7,
+        "Save": 5,
+        "MaximumNumber": 1,
+        "Cost": 7,
+        "NameEn": "Pathfinder Shas'ui",
+        "NameFr": "Pathfinder Shas'ui",
+        "NameDe": "Pathfinder Shas'ui",
+        "IsCommander": false,
+        "NumberOfKnownPsychics": 0,
+        "NumberOfPsychicsManifestationPerRound": 0,
+        "NumberOfPsychicsDenialPerRound": 0,
+        "WarGearOptions": [
+          {
+            "Id": "95",
+            "MaximumPerTeam": 0,
+            "Operation": "PIM",
+            "Exclusion": null
+          }
+        ],
+        "Specialists": [
+          {
+            "SpecialistId": "CO"
+          },
+          {
+            "SpecialistId": "D"
+          },
+          {
+            "SpecialistId": "L"
+          },
+          {
+            "SpecialistId": "M"
+          },
+          {
+            "SpecialistId": "SC"
+          },
+          {
+            "SpecialistId": "V"
+          }
+        ],
+        "ModelProfileWeapons": [],
+        "CostOverrides": [],
+        "LevelCosts": []
+      }
+    ],
+    "ModelWeapons": [
+      {
+        "WeaponId": "CRI"
+      },
+      {
+        "WeaponId": "DLA"
+      },
+      {
+        "WeaponId": "GPH"
+      }
+    ],
+    "WarGearOptions": []
+  },
+  {
+    "Id": "TAX",
+    "NameEn": "Xv25 Stealth Battlesuit",
+    "NameFr": "Xv25 Stealth Battlesuit",
+    "NameDe": "Xv25 Stealth Battlesuit",
+    "KeywordsEn": "BATTLESUIT, INFANTRY, JET PACK, FLY, XV25 STEALTH BATTLESUIT",
+    "KeywordsFr": "BATTLESUIT, INFANTERIE, REPULSEUR VOL, XV25 STEALTH BATTLESUIT",
+    "KeywordsDe": "BATTLESUIT, INFANTERIE, SCHWEBEMODUL, FLIEGEN, XV25 STEALTH BATTLESUIT",
+    "ModelProfiles": [
+      {
+        "Id": "TAX1",
+        "Movement": 8,
+        "WeaponSkill": 5,
+        "BallisticSkill": 4,
+        "Strength": 4,
+        "Toughness": 4,
+        "Wounds": 2,
+        "Attacks": "2",
+        "Leadership": 7,
+        "Save": 3,
+        "MaximumNumber": 0,
+        "Cost": 20,
+        "NameEn": "Stealth Shas’ui",
+        "NameFr": "Stealth Shas’ui",
+        "NameDe": "Stealth Shas’ui",
+        "IsCommander": false,
+        "NumberOfKnownPsychics": 0,
+        "NumberOfPsychicsManifestationPerRound": 0,
+        "NumberOfPsychicsDenialPerRound": 0,
+        "WarGearOptions": [],
+        "Specialists": [
+          {
+            "SpecialistId": "AL"
+          },
+          {
+            "SpecialistId": "CO"
+          },
+          {
+            "SpecialistId": "SC"
+          },
+          {
+            "SpecialistId": "V"
+          }
+        ],
+        "ModelProfileWeapons": [],
+        "CostOverrides": [],
+        "LevelCosts": []
+      },
+      {
+        "Id": "TAX2",
+        "Movement": 8,
+        "WeaponSkill": 5,
+        "BallisticSkill": 4,
+        "Strength": 4,
+        "Toughness": 4,
+        "Wounds": 2,
+        "Attacks": "3",
+        "Leadership": 8,
+        "Save": 3,
+        "MaximumNumber": 1,
+        "Cost": 20,
+        "NameEn": "Stealth Shas’vre",
+        "NameFr": "Stealth Shas’vre",
+        "NameDe": "Stealth Shas’vre",
+        "IsCommander": false,
+        "NumberOfKnownPsychics": 0,
+        "NumberOfPsychicsManifestationPerRound": 0,
+        "NumberOfPsychicsDenialPerRound": 0,
+        "WarGearOptions": [
+          {
+            "Id": "100",
+            "MaximumPerTeam": 0,
+            "Operation": "DLA&VCI",
+            "Exclusion": null
+          }
+        ],
+        "Specialists": [
+          {
+            "SpecialistId": "AL"
+          },
+          {
+            "SpecialistId": "CO"
+          },
+          {
+            "SpecialistId": "L"
+          },
+          {
+            "SpecialistId": "SC"
+          },
+          {
+            "SpecialistId": "V"
+          }
+        ],
+        "ModelProfileWeapons": [],
+        "CostOverrides": [],
+        "LevelCosts": []
+      }
+    ],
+    "ModelWeapons": [
+      {
+        "WeaponId": "CIN"
+      }
+    ],
+    "WarGearOptions": [
+      {
+        "Id": "99",
+        "MaximumPerTeam": 1,
+        "Operation": "CIN:EFU",
+        "Exclusion": null
+      }
+    ]
+  },
+  {
+    "Id": "TAXCB",
+    "NameEn": "XV8 Crisis Battlesuit",
+    "NameFr": "XV8 Crisis Battlesuit",
+    "NameDe": "XV8 Crisis Battlesuit",
+    "KeywordsEn": "BATTLESUIT, JET PACK, FLY, XV8 CRISIS BATTLESUIT",
+    "KeywordsFr": "BATTLESUIT, RÉPULSEUR, VOL, XV8 CRISIS BATTLESUIT",
+    "KeywordsDe": "BATTLESUIT, SCHWEBEMODUL, FLIEGEN, XV8 CRISIS BATTLESUIT",
+    "ModelProfiles": [
+      {
+        "Id": "TAXCSU",
+        "Movement": 8,
+        "WeaponSkill": 5,
+        "BallisticSkill": 4,
+        "Strength": 5,
+        "Toughness": 5,
+        "Wounds": 3,
+        "Attacks": "2",
+        "Leadership": 7,
+        "Save": 3,
+        "MaximumNumber": 0,
+        "Cost": 32,
+        "NameEn": "XV8 Crisis Shas'ui",
+        "NameFr": "XV8 Crisis Shas'ui",
+        "NameDe": "XV8 Crisis Shas'ui",
+        "IsCommander": false,
+        "NumberOfKnownPsychics": 0,
+        "NumberOfPsychicsManifestationPerRound": 0,
+        "NumberOfPsychicsDenialPerRound": 0,
+        "WarGearOptions": [],
+        "Specialists": [
+          {
+            "SpecialistId": "AL"
+          },
+          {
+            "SpecialistId": "CO"
+          },
+          {
+            "SpecialistId": "D"
+          },
+          {
+            "SpecialistId": "SN"
+          },
+          {
+            "SpecialistId": "V"
+          }
+        ],
+        "ModelProfileWeapons": [],
+        "CostOverrides": [
+          {
+            "WeaponId": "LF",
+            "Cost": 4
+          },
+          {
+            "WeaponId": "CIN",
+            "Cost": 4
+          },
+          {
+            "WeaponId": "NMI",
+            "Cost": 10
+          },
+          {
+            "WeaponId": "EFU",
+            "Cost": 10
+          }
+        ],
+        "LevelCosts": []
+      },
+      {
+        "Id": "TAXCSV",
+        "Movement": 8,
+        "WeaponSkill": 5,
+        "BallisticSkill": 4,
+        "Strength": 5,
+        "Toughness": 5,
+        "Wounds": 3,
+        "Attacks": "3",
+        "Leadership": 8,
+        "Save": 3,
+        "MaximumNumber": 1,
+        "Cost": 33,
+        "NameEn": "XV8 Crisis Shas'vre",
+        "NameFr": "XV8 Crisis Shas'vre",
+        "NameDe": "XV8 Crisis Shas'vre",
+        "IsCommander": false,
+        "NumberOfKnownPsychics": 0,
+        "NumberOfPsychicsManifestationPerRound": 0,
+        "NumberOfPsychicsDenialPerRound": 0,
+        "WarGearOptions": [],
+        "Specialists": [
+          {
+            "SpecialistId": "AL"
+          },
+          {
+            "SpecialistId": "CO"
+          },
+          {
+            "SpecialistId": "D"
+          },
+          {
+            "SpecialistId": "L"
+          },
+          {
+            "SpecialistId": "SN"
+          },
+          {
+            "SpecialistId": "V"
+          }
+        ],
+        "ModelProfileWeapons": [],
+        "CostOverrides": [
+          {
+            "WeaponId": "LF",
+            "Cost": 4
+          },
+          {
+            "WeaponId": "CIN",
+            "Cost": 4
+          },
+          {
+            "WeaponId": "NMI",
+            "Cost": 10
+          },
+          {
+            "WeaponId": "EFU",
+            "Cost": 10
+          }
+        ],
+        "LevelCosts": []
+      }
+    ],
+    "ModelWeapons": [
+      {
+        "WeaponId": "CIN"
+      }
+    ],
+    "WarGearOptions": [
+      {
+        "Id": "363",
+        "MaximumPerTeam": 0,
+        "Operation": "CIN:(TAABFP|TACIB|LF|TAKR|TAPR|TACDS|TADC|TAEWO|TAMT|TASG|TATL|TAVT)\n|((TAABFP|TACIB|LF|TAKR|TAPR|TACDS|TADC|TAEWO|TAMT|TASG|TATL|TAVT)&(TAABFP|TACIB|LF|TAKR|TAPR|TACDS|TADC|TAEWO|TAMT|TASG|TATL|TAVT))\n|((TAABFP|TACIB|LF|TAKR|TAPR|TACDS|TADC|TAEWO|TAMT|TASG|TATL|TAVT)&(TAABFP|TACIB|LF|TAKR|TAPR|TACDS|TADC|TAEWO|TAMT|TASG|TATL|TAVT)&(TAABFP|TACIB|LF|TAKR|TAPR|TACDS|TADC|TAEWO|TAMT|TASG|TATL|TAVT))",
+        "Exclusion": null
+      },
+      {
+        "Id": "364",
+        "MaximumPerTeam": 3,
+        "Operation": "TAXCIBS",
+        "Exclusion": null
+      }
+    ]
+  }
+]

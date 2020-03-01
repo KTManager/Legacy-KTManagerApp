@@ -1,0 +1,1062 @@
+[
+  {
+    "Id": "DRA",
+    "NameEn": "Archon",
+    "NameFr": "Archon",
+    "NameDe": "Archon",
+    "KeywordsEn": "AELDARI, COMMANDER, INFANTRY, ARCHON",
+    "KeywordsFr": "AELDARI, COMMANDANT, INFANTERIE, ARCHON",
+    "KeywordsDe": "AELDARI, KOMMANDEUR, INFANTERIE, ARCHON",
+    "ModelProfiles": [
+      {
+        "Id": "DRA",
+        "Movement": 8,
+        "WeaponSkill": 2,
+        "BallisticSkill": 2,
+        "Strength": 3,
+        "Toughness": 3,
+        "Wounds": 5,
+        "Attacks": "5",
+        "Leadership": 9,
+        "Save": 5,
+        "MaximumNumber": 1,
+        "Cost": 56,
+        "NameEn": "Archon",
+        "NameFr": "Archon",
+        "NameDe": "Archon",
+        "IsCommander": true,
+        "NumberOfKnownPsychics": 0,
+        "NumberOfPsychicsManifestationPerRound": 0,
+        "NumberOfPsychicsDenialPerRound": 0,
+        "WarGearOptions": [
+          {
+            "Id": "222",
+            "MaximumPerTeam": 0,
+            "Operation": "H:NEU|EPE2|VBE",
+            "Exclusion": null
+          },
+          {
+            "Id": "223",
+            "MaximumPerTeam": 0,
+            "Operation": "PEC:PDI",
+            "Exclusion": null
+          }
+        ],
+        "Specialists": [
+          {
+            "SpecialistId": "FR"
+          },
+          {
+            "SpecialistId": "LE"
+          },
+          {
+            "SpecialistId": "LH"
+          },
+          {
+            "SpecialistId": "LO"
+          },
+          {
+            "SpecialistId": "ME"
+          },
+          {
+            "SpecialistId": "SE"
+          },
+          {
+            "SpecialistId": "SH"
+          },
+          {
+            "SpecialistId": "ST"
+          }
+        ],
+        "ModelProfileWeapons": [
+          {
+            "WeaponId": "H"
+          },
+          {
+            "WeaponId": "PEC"
+          }
+        ],
+        "CostOverrides": [
+          {
+            "WeaponId": "NEU",
+            "Cost": 0
+          },
+          {
+            "WeaponId": "PDI",
+            "Cost": 10
+          },
+          {
+            "WeaponId": "VBE",
+            "Cost": 0
+          }
+        ],
+        "LevelCosts": [
+          {
+            "Level": 1,
+            "Cost": 56
+          },
+          {
+            "Level": 2,
+            "Cost": 71
+          },
+          {
+            "Level": 3,
+            "Cost": 86
+          },
+          {
+            "Level": 4,
+            "Cost": 111
+          }
+        ]
+      }
+    ],
+    "ModelWeapons": [],
+    "WarGearOptions": []
+  },
+  {
+    "Id": "DRGR",
+    "NameEn": "Grotesque",
+    "NameFr": "Grotesque",
+    "NameDe": "Grotesque",
+    "KeywordsEn": "AELDARI, HAEMONCULUS COVEN, INFANTRY, GROTESQUE",
+    "KeywordsFr": "AELDARI, HAEMONCULUS COVEN, INFANTRY, GROTESQUE",
+    "KeywordsDe": "AELDARI, HAEMONCULUS-ZIRKEL, INFANTERIE, GROTESQUE",
+    "ModelProfiles": [
+      {
+        "Id": "DRGR",
+        "Movement": 7,
+        "WeaponSkill": 3,
+        "BallisticSkill": 6,
+        "Strength": 5,
+        "Toughness": 5,
+        "Wounds": 4,
+        "Attacks": "4",
+        "Leadership": 8,
+        "Save": 6,
+        "MaximumNumber": 0,
+        "Cost": 38,
+        "NameEn": "Grotesque",
+        "NameFr": "Grotesque",
+        "NameDe": "Grotesque",
+        "IsCommander": false,
+        "NumberOfKnownPsychics": 0,
+        "NumberOfPsychicsManifestationPerRound": 0,
+        "NumberOfPsychicsDenialPerRound": 0,
+        "WarGearOptions": [],
+        "Specialists": [
+          {
+            "SpecialistId": "CB"
+          },
+          {
+            "SpecialistId": "D"
+          },
+          {
+            "SpecialistId": "Z"
+          }
+        ],
+        "ModelProfileWeapons": [],
+        "CostOverrides": [],
+        "LevelCosts": []
+      }
+    ],
+    "ModelWeapons": [
+      {
+        "WeaponId": "DFLGAT"
+      },
+      {
+        "WeaponId": "DMOCLR"
+      }
+    ],
+    "WarGearOptions": [
+      {
+        "Id": "326",
+        "MaximumPerTeam": 0,
+        "Operation": "DMOCLR:DLIQG",
+        "Exclusion": null
+      }
+    ]
+  },
+  {
+    "Id": "DRH",
+    "NameEn": "Haemonculus",
+    "NameFr": "Haemonculus",
+    "NameDe": "Haemonculus",
+    "KeywordsEn": "AELDARI, COMMANDER, INFANTRY, HAEMONCULUS",
+    "KeywordsFr": "AELDARI, COMMANDANT, INFANTERIE, HAEMONCULUS",
+    "KeywordsDe": "AELDARI, KOMMANDEUR, INFANTERIE, HAEMONCULUS",
+    "ModelProfiles": [
+      {
+        "Id": "DRH",
+        "Movement": 7,
+        "WeaponSkill": 2,
+        "BallisticSkill": 2,
+        "Strength": 3,
+        "Toughness": 4,
+        "Wounds": 5,
+        "Attacks": "5",
+        "Leadership": 8,
+        "Save": 6,
+        "MaximumNumber": 1,
+        "Cost": 30,
+        "NameEn": "Haemonculus",
+        "NameFr": "Haemonculus",
+        "NameDe": "Haemonculus",
+        "IsCommander": true,
+        "NumberOfKnownPsychics": 0,
+        "NumberOfPsychicsManifestationPerRound": 0,
+        "NumberOfPsychicsDenialPerRound": 0,
+        "WarGearOptions": [
+          {
+            "Id": "224",
+            "MaximumPerTeam": 0,
+            "Operation": "IJ",
+            "Exclusion": null
+          }
+        ],
+        "Specialists": [
+          {
+            "SpecialistId": "F"
+          },
+          {
+            "SpecialistId": "FE"
+          },
+          {
+            "SpecialistId": "FR"
+          },
+          {
+            "SpecialistId": "LH"
+          },
+          {
+            "SpecialistId": "LO"
+          },
+          {
+            "SpecialistId": "ME"
+          }
+        ],
+        "ModelProfileWeapons": [
+          {
+            "WeaponId": "HT"
+          },
+          {
+            "WeaponId": "SP"
+          }
+        ],
+        "CostOverrides": [],
+        "LevelCosts": [
+          {
+            "Level": 1,
+            "Cost": 30
+          },
+          {
+            "Level": 2,
+            "Cost": 35
+          },
+          {
+            "Level": 3,
+            "Cost": 50
+          },
+          {
+            "Level": 4,
+            "Cost": 70
+          }
+        ]
+      }
+    ],
+    "ModelWeapons": [],
+    "WarGearOptions": []
+  },
+  {
+    "Id": "DRIN",
+    "NameEn": "Incubus",
+    "NameFr": "Incubus",
+    "NameDe": "Incubus",
+    "KeywordsEn": "AELDARI, INFANTRY, INCUBUS",
+    "KeywordsFr": "AELDARI, INFANTRY, INCUBUS",
+    "KeywordsDe": "AELDARI, INFANTERIE, INCUBUS",
+    "ModelProfiles": [
+      {
+        "Id": "DRIN",
+        "Movement": 7,
+        "WeaponSkill": 3,
+        "BallisticSkill": 3,
+        "Strength": 3,
+        "Toughness": 3,
+        "Wounds": 1,
+        "Attacks": "3",
+        "Leadership": 8,
+        "Save": 3,
+        "MaximumNumber": 0,
+        "Cost": 13,
+        "NameEn": "Incubus",
+        "NameFr": "Incubus",
+        "NameDe": "Incubus",
+        "IsCommander": false,
+        "NumberOfKnownPsychics": 0,
+        "NumberOfPsychicsManifestationPerRound": 0,
+        "NumberOfPsychicsDenialPerRound": 0,
+        "WarGearOptions": [],
+        "Specialists": [
+          {
+            "SpecialistId": "CB"
+          },
+          {
+            "SpecialistId": "V"
+          },
+          {
+            "SpecialistId": "Z"
+          }
+        ],
+        "ModelProfileWeapons": [],
+        "CostOverrides": [],
+        "LevelCosts": []
+      },
+      {
+        "Id": "DRKL",
+        "Movement": 7,
+        "WeaponSkill": 3,
+        "BallisticSkill": 3,
+        "Strength": 3,
+        "Toughness": 3,
+        "Wounds": 2,
+        "Attacks": "4",
+        "Leadership": 9,
+        "Save": 3,
+        "MaximumNumber": 1,
+        "Cost": 16,
+        "NameEn": "Klaivex",
+        "NameFr": "Klaivex",
+        "NameDe": "Klaivex",
+        "IsCommander": false,
+        "NumberOfKnownPsychics": 0,
+        "NumberOfPsychicsManifestationPerRound": 0,
+        "NumberOfPsychicsDenialPerRound": 0,
+        "WarGearOptions": [],
+        "Specialists": [
+          {
+            "SpecialistId": "CB"
+          },
+          {
+            "SpecialistId": "L"
+          },
+          {
+            "SpecialistId": "V"
+          },
+          {
+            "SpecialistId": "Z"
+          }
+        ],
+        "ModelProfileWeapons": [],
+        "CostOverrides": [],
+        "LevelCosts": []
+      }
+    ],
+    "ModelWeapons": [
+      {
+        "WeaponId": "DKLAVE"
+      }
+    ],
+    "WarGearOptions": []
+  },
+  {
+    "Id": "DRK",
+    "NameEn": "Kabalite Warrior",
+    "NameFr": "Kabalite Warrior",
+    "NameDe": "Kabalite Warrior",
+    "KeywordsEn": "AELDARI, INFANTRY, KABALITE WARRIOR",
+    "KeywordsFr": "AELDARI, INFANTERIE, KABALITE WARRIOR",
+    "KeywordsDe": "AELDARI, INFANTERIE, KABALITE WARRIOR",
+    "ModelProfiles": [
+      {
+        "Id": "DRK1",
+        "Movement": 7,
+        "WeaponSkill": 3,
+        "BallisticSkill": 3,
+        "Strength": 3,
+        "Toughness": 3,
+        "Wounds": 1,
+        "Attacks": "1",
+        "Leadership": 7,
+        "Save": 5,
+        "MaximumNumber": 0,
+        "Cost": 7,
+        "NameEn": "Kabalite Warrior",
+        "NameFr": "Kabalite Warrior",
+        "NameDe": "Kabalite Warrior",
+        "IsCommander": false,
+        "NumberOfKnownPsychics": 0,
+        "NumberOfPsychicsManifestationPerRound": 0,
+        "NumberOfPsychicsDenialPerRound": 0,
+        "WarGearOptions": [],
+        "Specialists": [
+          {
+            "SpecialistId": "CO"
+          },
+          {
+            "SpecialistId": "SC"
+          },
+          {
+            "SpecialistId": "V"
+          },
+          {
+            "SpecialistId": "Z"
+          }
+        ],
+        "ModelProfileWeapons": [],
+        "CostOverrides": [],
+        "LevelCosts": []
+      },
+      {
+        "Id": "DRK2",
+        "Movement": 7,
+        "WeaponSkill": 3,
+        "BallisticSkill": 3,
+        "Strength": 3,
+        "Toughness": 3,
+        "Wounds": 1,
+        "Attacks": "1",
+        "Leadership": 7,
+        "Save": 5,
+        "MaximumNumber": 2,
+        "Cost": 8,
+        "NameEn": "Kabalite Warrior Gunner",
+        "NameFr": "Kabalite Warrior Gunner",
+        "NameDe": "Kabalite Warrior Gunner",
+        "IsCommander": false,
+        "NumberOfKnownPsychics": 0,
+        "NumberOfPsychicsManifestationPerRound": 0,
+        "NumberOfPsychicsDenialPerRound": 0,
+        "WarGearOptions": [
+          {
+            "Id": "68",
+            "MaximumPerTeam": 1,
+            "Operation": "FEC:CAE|LTE",
+            "Exclusion": null
+          },
+          {
+            "Id": "69",
+            "MaximumPerTeam": 1,
+            "Operation": "FEC:LAC|DIS",
+            "Exclusion": null
+          }
+        ],
+        "Specialists": [
+          {
+            "SpecialistId": "CO"
+          },
+          {
+            "SpecialistId": "SC"
+          },
+          {
+            "SpecialistId": "SN"
+          },
+          {
+            "SpecialistId": "V"
+          },
+          {
+            "SpecialistId": "Z"
+          }
+        ],
+        "ModelProfileWeapons": [],
+        "CostOverrides": [],
+        "LevelCosts": []
+      },
+      {
+        "Id": "DRK3",
+        "Movement": 7,
+        "WeaponSkill": 3,
+        "BallisticSkill": 3,
+        "Strength": 3,
+        "Toughness": 3,
+        "Wounds": 1,
+        "Attacks": "2",
+        "Leadership": 8,
+        "Save": 5,
+        "MaximumNumber": 1,
+        "Cost": 8,
+        "NameEn": "Sybarite",
+        "NameFr": "Sybarite",
+        "NameDe": "Sybarite",
+        "IsCommander": false,
+        "NumberOfKnownPsychics": 0,
+        "NumberOfPsychicsManifestationPerRound": 0,
+        "NumberOfPsychicsDenialPerRound": 0,
+        "WarGearOptions": [
+          {
+            "Id": "70",
+            "MaximumPerTeam": 0,
+            "Operation": "EPE|NEU",
+            "Exclusion": null
+          },
+          {
+            "Id": "71",
+            "MaximumPerTeam": 0,
+            "Operation": "LGP",
+            "Exclusion": null
+          },
+          {
+            "Id": "72",
+            "MaximumPerTeam": 0,
+            "Operation": "FEC:PEC|PDI",
+            "Exclusion": null
+          }
+        ],
+        "Specialists": [
+          {
+            "SpecialistId": "CO"
+          },
+          {
+            "SpecialistId": "L"
+          },
+          {
+            "SpecialistId": "SC"
+          },
+          {
+            "SpecialistId": "V"
+          },
+          {
+            "SpecialistId": "Z"
+          }
+        ],
+        "ModelProfileWeapons": [],
+        "CostOverrides": [],
+        "LevelCosts": []
+      }
+    ],
+    "ModelWeapons": [
+      {
+        "WeaponId": "FEC"
+      }
+    ],
+    "WarGearOptions": []
+  },
+  {
+    "Id": "DRMA",
+    "NameEn": "Mandrake",
+    "NameFr": "Mandrake",
+    "NameDe": "Mandrake",
+    "KeywordsEn": "AELDARI, INFANTRY, MANDRAKE",
+    "KeywordsFr": "AELDARI, INFANTRY, MANDRAKE",
+    "KeywordsDe": "AELDARI, INFANTERIE, MANDRAKE",
+    "ModelProfiles": [
+      {
+        "Id": "DRMA",
+        "Movement": 8,
+        "WeaponSkill": 3,
+        "BallisticSkill": 3,
+        "Strength": 4,
+        "Toughness": 3,
+        "Wounds": 1,
+        "Attacks": "3",
+        "Leadership": 7,
+        "Save": 7,
+        "MaximumNumber": 0,
+        "Cost": 12,
+        "NameEn": "Mandrake",
+        "NameFr": "Mandrake",
+        "NameDe": "Mandrake",
+        "IsCommander": false,
+        "NumberOfKnownPsychics": 0,
+        "NumberOfPsychicsManifestationPerRound": 0,
+        "NumberOfPsychicsDenialPerRound": 0,
+        "WarGearOptions": [],
+        "Specialists": [
+          {
+            "SpecialistId": "CB"
+          },
+          {
+            "SpecialistId": "SC"
+          },
+          {
+            "SpecialistId": "V"
+          },
+          {
+            "SpecialistId": "Z"
+          }
+        ],
+        "ModelProfileWeapons": [],
+        "CostOverrides": [],
+        "LevelCosts": []
+      },
+      {
+        "Id": "DRNI",
+        "Movement": 8,
+        "WeaponSkill": 3,
+        "BallisticSkill": 3,
+        "Strength": 4,
+        "Toughness": 3,
+        "Wounds": 1,
+        "Attacks": "4",
+        "Leadership": 8,
+        "Save": 7,
+        "MaximumNumber": 1,
+        "Cost": 13,
+        "NameEn": "Nightfiend",
+        "NameFr": "Nightfiend",
+        "NameDe": "Nightfiend",
+        "IsCommander": false,
+        "NumberOfKnownPsychics": 0,
+        "NumberOfPsychicsManifestationPerRound": 0,
+        "NumberOfPsychicsDenialPerRound": 0,
+        "WarGearOptions": [],
+        "Specialists": [
+          {
+            "SpecialistId": "CB"
+          },
+          {
+            "SpecialistId": "L"
+          },
+          {
+            "SpecialistId": "SC"
+          },
+          {
+            "SpecialistId": "V"
+          },
+          {
+            "SpecialistId": "Z"
+          }
+        ],
+        "ModelProfileWeapons": [],
+        "CostOverrides": [],
+        "LevelCosts": []
+      }
+    ],
+    "ModelWeapons": [
+      {
+        "WeaponId": "DBABL"
+      },
+      {
+        "WeaponId": "DGLBLD"
+      }
+    ],
+    "WarGearOptions": []
+  },
+  {
+    "Id": "DRS",
+    "NameEn": "Succubus",
+    "NameFr": "Succubus",
+    "NameDe": "Succubus",
+    "KeywordsEn": "AELDARI, COMMANDER, INFANTRY, SUCCUBUS",
+    "KeywordsFr": "AELDARI, COMMANDANT, INFANTERIE, SUCCUBUS",
+    "KeywordsDe": "AELDARI, KOMMANDEUR, INFANTERIE, SUCCUBUS",
+    "ModelProfiles": [
+      {
+        "Id": "DRS",
+        "Movement": 8,
+        "WeaponSkill": 2,
+        "BallisticSkill": 2,
+        "Strength": 3,
+        "Toughness": 3,
+        "Wounds": 5,
+        "Attacks": "4",
+        "Leadership": 8,
+        "Save": 6,
+        "MaximumNumber": 1,
+        "Cost": 48,
+        "NameEn": "Succubus",
+        "NameFr": "Succubus",
+        "NameDe": "Succubus",
+        "IsCommander": true,
+        "NumberOfKnownPsychics": 0,
+        "NumberOfPsychicsManifestationPerRound": 0,
+        "NumberOfPsychicsDenialPerRound": 0,
+        "WarGearOptions": [],
+        "Specialists": [
+          {
+            "SpecialistId": "FR"
+          },
+          {
+            "SpecialistId": "LH"
+          },
+          {
+            "SpecialistId": "ME"
+          },
+          {
+            "SpecialistId": "SE"
+          }
+        ],
+        "ModelProfileWeapons": [
+          {
+            "WeaponId": "AG"
+          },
+          {
+            "WeaponId": "NEU"
+          }
+        ],
+        "CostOverrides": [
+          {
+            "WeaponId": "NEU",
+            "Cost": 0
+          }
+        ],
+        "LevelCosts": [
+          {
+            "Level": 1,
+            "Cost": 48
+          },
+          {
+            "Level": 2,
+            "Cost": 63
+          },
+          {
+            "Level": 3,
+            "Cost": 78
+          },
+          {
+            "Level": 4,
+            "Cost": 103
+          }
+        ]
+      }
+    ],
+    "ModelWeapons": [],
+    "WarGearOptions": []
+  },
+  {
+    "Id": "DRW",
+    "NameEn": "Wych",
+    "NameFr": "Wych",
+    "NameDe": "Wych",
+    "KeywordsEn": "AELDARI, INFANTRY, WYCH",
+    "KeywordsFr": "AELDARI, INFANTRY, WYCH",
+    "KeywordsDe": "AELDARI, INFANTERIE, WYCH",
+    "ModelProfiles": [
+      {
+        "Id": "DRW1",
+        "Movement": 8,
+        "WeaponSkill": 3,
+        "BallisticSkill": 3,
+        "Strength": 3,
+        "Toughness": 3,
+        "Wounds": 1,
+        "Attacks": "2",
+        "Leadership": 7,
+        "Save": 6,
+        "MaximumNumber": 0,
+        "Cost": 8,
+        "NameEn": "Wych",
+        "NameFr": "Wych",
+        "NameDe": "Wych",
+        "IsCommander": false,
+        "NumberOfKnownPsychics": 0,
+        "NumberOfPsychicsManifestationPerRound": 0,
+        "NumberOfPsychicsDenialPerRound": 0,
+        "WarGearOptions": [],
+        "Specialists": [
+          {
+            "SpecialistId": "CB"
+          },
+          {
+            "SpecialistId": "SC"
+          },
+          {
+            "SpecialistId": "V"
+          },
+          {
+            "SpecialistId": "Z"
+          }
+        ],
+        "ModelProfileWeapons": [],
+        "CostOverrides": [],
+        "LevelCosts": []
+      },
+      {
+        "Id": "DRW2",
+        "Movement": 8,
+        "WeaponSkill": 3,
+        "BallisticSkill": 3,
+        "Strength": 3,
+        "Toughness": 3,
+        "Wounds": 1,
+        "Attacks": "2",
+        "Leadership": 7,
+        "Save": 6,
+        "MaximumNumber": 3,
+        "Cost": 9,
+        "NameEn": "Wych Fighter",
+        "NameFr": "Wych Fighter",
+        "NameDe": "Wych Fighter",
+        "IsCommander": false,
+        "NumberOfKnownPsychics": 0,
+        "NumberOfPsychicsManifestationPerRound": 0,
+        "NumberOfPsychicsDenialPerRound": 0,
+        "WarGearOptions": [
+          {
+            "Id": "73",
+            "MaximumPerTeam": 0,
+            "Operation": "PEC&LHE:GAH|EPF|FBE",
+            "Exclusion": null
+          }
+        ],
+        "Specialists": [
+          {
+            "SpecialistId": "CB"
+          },
+          {
+            "SpecialistId": "SC"
+          },
+          {
+            "SpecialistId": "V"
+          },
+          {
+            "SpecialistId": "Z"
+          }
+        ],
+        "ModelProfileWeapons": [],
+        "CostOverrides": [],
+        "LevelCosts": []
+      },
+      {
+        "Id": "DRW3",
+        "Movement": 8,
+        "WeaponSkill": 3,
+        "BallisticSkill": 3,
+        "Strength": 3,
+        "Toughness": 3,
+        "Wounds": 1,
+        "Attacks": "3",
+        "Leadership": 8,
+        "Save": 6,
+        "MaximumNumber": 1,
+        "Cost": 9,
+        "NameEn": "Hekatrix",
+        "NameFr": "Hekatrix",
+        "NameDe": "Hekatrix",
+        "IsCommander": false,
+        "NumberOfKnownPsychics": 0,
+        "NumberOfPsychicsManifestationPerRound": 0,
+        "NumberOfPsychicsDenialPerRound": 0,
+        "WarGearOptions": [
+          {
+            "Id": "74",
+            "MaximumPerTeam": 0,
+            "Operation": "LHE:EPE|NEU",
+            "Exclusion": null
+          },
+          {
+            "Id": "75",
+            "MaximumPerTeam": 0,
+            "Operation": "LGP",
+            "Exclusion": null
+          },
+          {
+            "Id": "76",
+            "MaximumPerTeam": 0,
+            "Operation": "PEC:PDI",
+            "Exclusion": null
+          }
+        ],
+        "Specialists": [
+          {
+            "SpecialistId": "CB"
+          },
+          {
+            "SpecialistId": "L"
+          },
+          {
+            "SpecialistId": "SC"
+          },
+          {
+            "SpecialistId": "V"
+          },
+          {
+            "SpecialistId": "Z"
+          }
+        ],
+        "ModelProfileWeapons": [],
+        "CostOverrides": [],
+        "LevelCosts": []
+      }
+    ],
+    "ModelWeapons": [
+      {
+        "WeaponId": "GPL"
+      },
+      {
+        "WeaponId": "LHE"
+      },
+      {
+        "WeaponId": "PEC"
+      }
+    ],
+    "WarGearOptions": []
+  },
+  {
+    "Id": "DRWR",
+    "NameEn": "Wrack",
+    "NameFr": "Wrack",
+    "NameDe": "Wrack",
+    "KeywordsEn": "AELDARI, HAEMONCULUS COVEN, INFANTRY, WRACK",
+    "KeywordsFr": "AELDARI, HAEMONCULUS COVEN, INFANTRY, WRACK",
+    "KeywordsDe": "AELDARI, HAEMONCULUS-ZIRKEL, INFANTERIE, WRACK",
+    "ModelProfiles": [
+      {
+        "Id": "DRAC",
+        "Movement": 8,
+        "WeaponSkill": 3,
+        "BallisticSkill": 3,
+        "Strength": 4,
+        "Toughness": 3,
+        "Wounds": 1,
+        "Attacks": "4",
+        "Leadership": 8,
+        "Save": 7,
+        "MaximumNumber": 1,
+        "Cost": 9,
+        "NameEn": "Acothyst",
+        "NameFr": "Acothyst",
+        "NameDe": "Acothyst",
+        "IsCommander": false,
+        "NumberOfKnownPsychics": 0,
+        "NumberOfPsychicsManifestationPerRound": 0,
+        "NumberOfPsychicsDenialPerRound": 0,
+        "WarGearOptions": [
+          {
+            "Id": "324",
+            "MaximumPerTeam": 0,
+            "Operation": "DHEXR|DLIQG|DSTIG",
+            "Exclusion": null
+          },
+          {
+            "Id": "325",
+            "MaximumPerTeam": 0,
+            "Operation": "HT:DELWHP|DFLGAT|DMIGTL|DSCIHD|VBE|NEU",
+            "Exclusion": null
+          }
+        ],
+        "Specialists": [
+          {
+            "SpecialistId": "CB"
+          },
+          {
+            "SpecialistId": "D"
+          },
+          {
+            "SpecialistId": "L"
+          },
+          {
+            "SpecialistId": "M"
+          },
+          {
+            "SpecialistId": "V"
+          },
+          {
+            "SpecialistId": "Z"
+          }
+        ],
+        "ModelProfileWeapons": [],
+        "CostOverrides": [
+          {
+            "WeaponId": "NEU",
+            "Cost": 1
+          }
+        ],
+        "LevelCosts": []
+      },
+      {
+        "Id": "DRWR",
+        "Movement": 8,
+        "WeaponSkill": 3,
+        "BallisticSkill": 3,
+        "Strength": 4,
+        "Toughness": 3,
+        "Wounds": 1,
+        "Attacks": "3",
+        "Leadership": 7,
+        "Save": 7,
+        "MaximumNumber": 0,
+        "Cost": 8,
+        "NameEn": "Wrack",
+        "NameFr": "Wrack",
+        "NameDe": "Wrack",
+        "IsCommander": false,
+        "NumberOfKnownPsychics": 0,
+        "NumberOfPsychicsManifestationPerRound": 0,
+        "NumberOfPsychicsDenialPerRound": 0,
+        "WarGearOptions": [],
+        "Specialists": [
+          {
+            "SpecialistId": "CB"
+          },
+          {
+            "SpecialistId": "D"
+          },
+          {
+            "SpecialistId": "M"
+          },
+          {
+            "SpecialistId": "V"
+          },
+          {
+            "SpecialistId": "Z"
+          }
+        ],
+        "ModelProfileWeapons": [],
+        "CostOverrides": [
+          {
+            "WeaponId": "NEU",
+            "Cost": 1
+          }
+        ],
+        "LevelCosts": []
+      },
+      {
+        "Id": "DRWRG",
+        "Movement": 8,
+        "WeaponSkill": 3,
+        "BallisticSkill": 3,
+        "Strength": 4,
+        "Toughness": 3,
+        "Wounds": 1,
+        "Attacks": "3",
+        "Leadership": 7,
+        "Save": 7,
+        "MaximumNumber": 2,
+        "Cost": 9,
+        "NameEn": "Wrack Gunner",
+        "NameFr": "Wrack Gunner",
+        "NameDe": "Wrack Gunner",
+        "IsCommander": false,
+        "NumberOfKnownPsychics": 0,
+        "NumberOfPsychicsManifestationPerRound": 0,
+        "NumberOfPsychicsDenialPerRound": 0,
+        "WarGearOptions": [
+          {
+            "Id": "323",
+            "MaximumPerTeam": 0,
+            "Operation": "DLIQG|DOSSR",
+            "Exclusion": null
+          }
+        ],
+        "Specialists": [
+          {
+            "SpecialistId": "AL"
+          },
+          {
+            "SpecialistId": "CB"
+          },
+          {
+            "SpecialistId": "D"
+          },
+          {
+            "SpecialistId": "M"
+          },
+          {
+            "SpecialistId": "V"
+          },
+          {
+            "SpecialistId": "Z"
+          }
+        ],
+        "ModelProfileWeapons": [],
+        "CostOverrides": [],
+        "LevelCosts": []
+      }
+    ],
+    "ModelWeapons": [
+      {
+        "WeaponId": "HT"
+      }
+    ],
+    "WarGearOptions": []
+  }
+]

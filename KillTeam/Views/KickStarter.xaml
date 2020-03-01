@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:i18n="clr-namespace:KillTeam.Services;assembly=KillTeam"
+             x:Class="KillTeam.Views.KickStarter">
+    <ContentPage.Content>
+        <StackLayout VerticalOptions="FillAndExpand" Padding="10">
+            <Label HorizontalOptions="Center" FontSize="30" VerticalOptions="Center" Text="{i18n:Translate KickStarterTitle}" />
+            <Image Source="kickstarter.png" VerticalOptions="Center"/>
+            <Label HorizontalOptions="Center" 
+                   FontSize="Medium" 
+                   VerticalOptions="Center"
+                   Text="{i18n:Translate KickStarterText}" />
+            <Button Text="{i18n:Translate KickStarterJoinUs}" Clicked="Voir_Clicked" VerticalOptions="End"/>
+            <Button Text="{i18n:Translate KickStarterDotNotShow}" Clicked="NePlusAfficher_Clicked" VerticalOptions="End"/>
+            <Button Text="{i18n:Translate KickStarterContinue}" Clicked="Continuer_Clicked" VerticalOptions="End"/>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

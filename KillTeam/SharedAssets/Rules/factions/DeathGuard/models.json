@@ -1,0 +1,1160 @@
+[
+  {
+    "Id": "DGB",
+    "NameEn": "Biologus Putrifier",
+    "NameFr": "Biologus Putrifier",
+    "NameDe": "Biologus Putrifier",
+    "KeywordsEn": "CHAOS, NURGLE, HERETIC ASTARTES, COMMANDER, INFANTRY, BIOLOGUS PUTRIFIER",
+    "KeywordsFr": "CHAOS, NURGLE, HERETIC ASTARTES, COMMANDANT, INFANTERIE, BIOLOGUS PUTRIFIER",
+    "KeywordsDe": "CHAOS, NURGLE, HERETIC ASTARTES, KOMMANDEUR, INFANTERIE, BIOLOGUS PUTRIFIER",
+    "ModelProfiles": [
+      {
+        "Id": "DGB",
+        "Movement": 5,
+        "WeaponSkill": 3,
+        "BallisticSkill": 3,
+        "Strength": 4,
+        "Toughness": 5,
+        "Wounds": 4,
+        "Attacks": "3",
+        "Leadership": 8,
+        "Save": 3,
+        "MaximumNumber": 1,
+        "Cost": 50,
+        "NameEn": "Biologus Putrifier",
+        "NameFr": "Biologus Putrifier",
+        "NameDe": "Biologus Putrifier",
+        "IsCommander": true,
+        "NumberOfKnownPsychics": 0,
+        "NumberOfPsychicsManifestationPerRound": 0,
+        "NumberOfPsychicsDenialPerRound": 0,
+        "WarGearOptions": [],
+        "Specialists": [
+          {
+            "SpecialistId": "F"
+          },
+          {
+            "SpecialistId": "FE"
+          },
+          {
+            "SpecialistId": "LH"
+          },
+          {
+            "SpecialistId": "LO"
+          },
+          {
+            "SpecialistId": "ME"
+          },
+          {
+            "SpecialistId": "SH"
+          }
+        ],
+        "ModelProfileWeapons": [
+          {
+            "WeaponId": "CP"
+          },
+          {
+            "WeaponId": "GK"
+          },
+          {
+            "WeaponId": "HBG"
+          },
+          {
+            "WeaponId": "IP"
+          }
+        ],
+        "CostOverrides": [],
+        "LevelCosts": [
+          {
+            "Level": 1,
+            "Cost": 50
+          },
+          {
+            "Level": 2,
+            "Cost": 65
+          },
+          {
+            "Level": 3,
+            "Cost": 80
+          },
+          {
+            "Level": 4,
+            "Cost": 105
+          }
+        ]
+      }
+    ],
+    "ModelWeapons": [],
+    "WarGearOptions": []
+  },
+  {
+    "Id": "DGBL",
+    "NameEn": "Blightlord Terminator",
+    "NameFr": "Blightlord Terminator",
+    "NameDe": "Blightlord Terminator",
+    "KeywordsEn": "CHAOS, NURGLE, HERETIC ASTARTES, INFANTRY, TERMINATOR, BLIGHTLORD TERMINATOR",
+    "KeywordsFr": "CHAOS, NURGLE, HERETIC ASTARTES, INFANTERIE, TERMINATOR, BLIGHTLORD TERMINATOR",
+    "KeywordsDe": "CHAOS, NURGLE, HERETIC ASTARTES, INFANTERIE, TERMINATOR, BLIGHTLORD TERMINATOR",
+    "ModelProfiles": [
+      {
+        "Id": "DGBL1",
+        "Movement": 4,
+        "WeaponSkill": 3,
+        "BallisticSkill": 3,
+        "Strength": 4,
+        "Toughness": 5,
+        "Wounds": 2,
+        "Attacks": "2",
+        "Leadership": 8,
+        "Save": 2,
+        "MaximumNumber": 0,
+        "Cost": 40,
+        "NameEn": "Blightlord Terminator",
+        "NameFr": "Blightlord Terminator",
+        "NameDe": "Blightlord Terminator",
+        "IsCommander": false,
+        "NumberOfKnownPsychics": 0,
+        "NumberOfPsychicsManifestationPerRound": 0,
+        "NumberOfPsychicsDenialPerRound": 0,
+        "WarGearOptions": [
+          {
+            "Id": "291",
+            "MaximumPerTeam": 0,
+            "Operation": "HP:B",
+            "Exclusion": null
+          },
+          {
+            "Id": "296",
+            "MaximumPerTeam": 0,
+            "Operation": "COB:COL|COF|COP",
+            "Exclusion": null
+          }
+        ],
+        "Specialists": [
+          {
+            "SpecialistId": "CB"
+          },
+          {
+            "SpecialistId": "D"
+          },
+          {
+            "SpecialistId": "V"
+          },
+          {
+            "SpecialistId": "Z"
+          }
+        ],
+        "ModelProfileWeapons": [
+          {
+            "WeaponId": "COB"
+          },
+          {
+            "WeaponId": "HP"
+          }
+        ],
+        "CostOverrides": [
+          {
+            "WeaponId": "HP",
+            "Cost": 0
+          },
+          {
+            "WeaponId": "COL",
+            "Cost": 1
+          },
+          {
+            "WeaponId": "COP",
+            "Cost": 3
+          },
+          {
+            "WeaponId": "COF",
+            "Cost": 5
+          }
+        ],
+        "LevelCosts": []
+      },
+      {
+        "Id": "DGBL2",
+        "Movement": 4,
+        "WeaponSkill": 3,
+        "BallisticSkill": 3,
+        "Strength": 4,
+        "Toughness": 5,
+        "Wounds": 2,
+        "Attacks": "2",
+        "Leadership": 8,
+        "Save": 2,
+        "MaximumNumber": 2,
+        "Cost": 41,
+        "NameEn": "Blightlord Gunner",
+        "NameFr": "Blightlord Gunner",
+        "NameDe": "Blightlord Gunner",
+        "IsCommander": false,
+        "NumberOfKnownPsychics": 0,
+        "NumberOfPsychicsManifestationPerRound": 0,
+        "NumberOfPsychicsDenialPerRound": 0,
+        "WarGearOptions": [
+          {
+            "Id": "292",
+            "MaximumPerTeam": 0,
+            "Operation": "HP:B",
+            "Exclusion": null
+          },
+          {
+            "Id": "297",
+            "MaximumPerTeam": 0,
+            "Operation": "COB:GP|DGRA|LPE|COL|COF|COP",
+            "Exclusion": null
+          }
+        ],
+        "Specialists": [
+          {
+            "SpecialistId": "AL"
+          },
+          {
+            "SpecialistId": "CB"
+          },
+          {
+            "SpecialistId": "D"
+          },
+          {
+            "SpecialistId": "V"
+          },
+          {
+            "SpecialistId": "Z"
+          }
+        ],
+        "ModelProfileWeapons": [
+          {
+            "WeaponId": "COB"
+          },
+          {
+            "WeaponId": "HP"
+          }
+        ],
+        "CostOverrides": [
+          {
+            "WeaponId": "LPE",
+            "Cost": 7
+          },
+          {
+            "WeaponId": "GP",
+            "Cost": 0
+          },
+          {
+            "WeaponId": "HP",
+            "Cost": 0
+          },
+          {
+            "WeaponId": "COL",
+            "Cost": 1
+          },
+          {
+            "WeaponId": "COP",
+            "Cost": 3
+          },
+          {
+            "WeaponId": "COF",
+            "Cost": 5
+          }
+        ],
+        "LevelCosts": []
+      },
+      {
+        "Id": "DGBL3",
+        "Movement": 4,
+        "WeaponSkill": 3,
+        "BallisticSkill": 3,
+        "Strength": 4,
+        "Toughness": 5,
+        "Wounds": 2,
+        "Attacks": "2",
+        "Leadership": 8,
+        "Save": 2,
+        "MaximumNumber": 2,
+        "Cost": 41,
+        "NameEn": "Blightlord Fighter",
+        "NameFr": "Blightlord Fighter",
+        "NameDe": "Blightlord Fighter",
+        "IsCommander": false,
+        "NumberOfKnownPsychics": 0,
+        "NumberOfPsychicsManifestationPerRound": 0,
+        "NumberOfPsychicsDenialPerRound": 0,
+        "WarGearOptions": [
+          {
+            "Id": "293",
+            "MaximumPerTeam": 0,
+            "Operation": "HP:B",
+            "Exclusion": null
+          },
+          {
+            "Id": "295",
+            "MaximumPerTeam": 0,
+            "Operation": "COB&HP:FLC",
+            "Exclusion": null
+          },
+          {
+            "Id": "298",
+            "MaximumPerTeam": 0,
+            "Operation": "COB:COL|COF|COP",
+            "Exclusion": null
+          }
+        ],
+        "Specialists": [
+          {
+            "SpecialistId": "CB"
+          },
+          {
+            "SpecialistId": "D"
+          },
+          {
+            "SpecialistId": "L"
+          },
+          {
+            "SpecialistId": "V"
+          },
+          {
+            "SpecialistId": "Z"
+          }
+        ],
+        "ModelProfileWeapons": [
+          {
+            "WeaponId": "COB"
+          },
+          {
+            "WeaponId": "HP"
+          }
+        ],
+        "CostOverrides": [
+          {
+            "WeaponId": "HP",
+            "Cost": 0
+          },
+          {
+            "WeaponId": "FLC",
+            "Cost": 0
+          },
+          {
+            "WeaponId": "COL",
+            "Cost": 1
+          },
+          {
+            "WeaponId": "COP",
+            "Cost": 3
+          },
+          {
+            "WeaponId": "COF",
+            "Cost": 5
+          }
+        ],
+        "LevelCosts": []
+      },
+      {
+        "Id": "DGBL4",
+        "Movement": 4,
+        "WeaponSkill": 3,
+        "BallisticSkill": 3,
+        "Strength": 4,
+        "Toughness": 5,
+        "Wounds": 2,
+        "Attacks": "3",
+        "Leadership": 9,
+        "Save": 2,
+        "MaximumNumber": 1,
+        "Cost": 41,
+        "NameEn": "Blightlord Champion",
+        "NameFr": "Blightlord Champion",
+        "NameDe": "Blightlord Champion",
+        "IsCommander": false,
+        "NumberOfKnownPsychics": 0,
+        "NumberOfPsychicsManifestationPerRound": 0,
+        "NumberOfPsychicsDenialPerRound": 0,
+        "WarGearOptions": [
+          {
+            "Id": "294",
+            "MaximumPerTeam": 0,
+            "Operation": "HP:B",
+            "Exclusion": null
+          },
+          {
+            "Id": "299",
+            "MaximumPerTeam": 0,
+            "Operation": "COB:COL|COF|COP",
+            "Exclusion": null
+          }
+        ],
+        "Specialists": [],
+        "ModelProfileWeapons": [
+          {
+            "WeaponId": "COB"
+          },
+          {
+            "WeaponId": "HP"
+          }
+        ],
+        "CostOverrides": [
+          {
+            "WeaponId": "HP",
+            "Cost": 0
+          },
+          {
+            "WeaponId": "COL",
+            "Cost": 1
+          },
+          {
+            "WeaponId": "COP",
+            "Cost": 3
+          },
+          {
+            "WeaponId": "COF",
+            "Cost": 5
+          }
+        ],
+        "LevelCosts": []
+      }
+    ],
+    "ModelWeapons": [],
+    "WarGearOptions": []
+  },
+  {
+    "Id": "DGDS",
+    "NameEn": "Deathshroud Terminator",
+    "NameFr": "Deathshroud Terminator",
+    "NameDe": "Deathshroud Terminator",
+    "KeywordsEn": "CHAOS, NURGLE, HERETIC ASTARTES, INFANTRY, TERMINATOR, DEATHSHROUD TERMINATOR",
+    "KeywordsFr": "CHAOS, NURGLE, HERETIC ASTARTES, INFANTERIE, TERMINATOR, DEATHSHROUD TERMINATOR",
+    "KeywordsDe": "CHAOS, NURGLE, HERETIC ASTARTES, INFANTERIE, TERMINATOR, BLIGHTLORD TERMINATOR",
+    "ModelProfiles": [
+      {
+        "Id": "DGDS1",
+        "Movement": 4,
+        "WeaponSkill": 3,
+        "BallisticSkill": 3,
+        "Strength": 5,
+        "Toughness": 5,
+        "Wounds": 2,
+        "Attacks": "3",
+        "Leadership": 8,
+        "Save": 2,
+        "MaximumNumber": 0,
+        "Cost": 50,
+        "NameEn": "Deathshroud Terminator",
+        "NameFr": "Deathshroud Terminator",
+        "NameDe": "Deathshroud Terminator",
+        "IsCommander": false,
+        "NumberOfKnownPsychics": 0,
+        "NumberOfPsychicsManifestationPerRound": 0,
+        "NumberOfPsychicsDenialPerRound": 0,
+        "WarGearOptions": [],
+        "Specialists": [
+          {
+            "SpecialistId": "CB"
+          },
+          {
+            "SpecialistId": "D"
+          },
+          {
+            "SpecialistId": "V"
+          },
+          {
+            "SpecialistId": "Z"
+          }
+        ],
+        "ModelProfileWeapons": [
+          {
+            "WeaponId": "DGMR"
+          },
+          {
+            "WeaponId": "DGPS1"
+          }
+        ],
+        "CostOverrides": [],
+        "LevelCosts": []
+      },
+      {
+        "Id": "DGDS2",
+        "Movement": 4,
+        "WeaponSkill": 3,
+        "BallisticSkill": 3,
+        "Strength": 5,
+        "Toughness": 5,
+        "Wounds": 2,
+        "Attacks": "4",
+        "Leadership": 9,
+        "Save": 2,
+        "MaximumNumber": 1,
+        "Cost": 55,
+        "NameEn": "Deathshroud Champion",
+        "NameFr": "Deathshroud Champion",
+        "NameDe": "Deathshroud Champion",
+        "IsCommander": false,
+        "NumberOfKnownPsychics": 0,
+        "NumberOfPsychicsManifestationPerRound": 0,
+        "NumberOfPsychicsDenialPerRound": 0,
+        "WarGearOptions": [
+          {
+            "Id": "290",
+            "MaximumPerTeam": 0,
+            "Operation": "DGPS1:DGPS2",
+            "Exclusion": null
+          }
+        ],
+        "Specialists": [
+          {
+            "SpecialistId": "CB"
+          },
+          {
+            "SpecialistId": "D"
+          },
+          {
+            "SpecialistId": "L"
+          },
+          {
+            "SpecialistId": "V"
+          },
+          {
+            "SpecialistId": "Z"
+          }
+        ],
+        "ModelProfileWeapons": [
+          {
+            "WeaponId": "DGMR"
+          },
+          {
+            "WeaponId": "DGPS1"
+          }
+        ],
+        "CostOverrides": [],
+        "LevelCosts": []
+      }
+    ],
+    "ModelWeapons": [],
+    "WarGearOptions": []
+  },
+  {
+    "Id": "DGF",
+    "NameEn": "Foul Blightspawn",
+    "NameFr": "Foul Blightspawn",
+    "NameDe": "Foul Blightspawn",
+    "KeywordsEn": "CHAOS, NURGLE, HERETIC ASTARTES, COMMANDER, INFANTRY, FOUL BLIGHTSPAWN",
+    "KeywordsFr": "CHAOS, NURGLE, HERETIC ASTARTES, COMMANDANT, INFANTERIE, FOUL BLIGHTSPAWN",
+    "KeywordsDe": "CHAOS, NURGLE, HERETIC ASTARTES, KOMMANDEUR, INFANTERIE, FOUL BLIGHTSPAWN",
+    "ModelProfiles": [
+      {
+        "Id": "DGF",
+        "Movement": 5,
+        "WeaponSkill": 3,
+        "BallisticSkill": 3,
+        "Strength": 4,
+        "Toughness": 5,
+        "Wounds": 4,
+        "Attacks": "3",
+        "Leadership": 8,
+        "Save": 3,
+        "MaximumNumber": 1,
+        "Cost": 80,
+        "NameEn": "Foul Blightspawn",
+        "NameFr": "Foul Blightspawn",
+        "NameDe": "Foul Blightspawn",
+        "IsCommander": true,
+        "NumberOfKnownPsychics": 0,
+        "NumberOfPsychicsManifestationPerRound": 0,
+        "NumberOfPsychicsDenialPerRound": 0,
+        "WarGearOptions": [],
+        "Specialists": [
+          {
+            "SpecialistId": "F"
+          },
+          {
+            "SpecialistId": "FE"
+          },
+          {
+            "SpecialistId": "LH"
+          },
+          {
+            "SpecialistId": "LO"
+          },
+          {
+            "SpecialistId": "ME"
+          }
+        ],
+        "ModelProfileWeapons": [
+          {
+            "WeaponId": "GBU"
+          },
+          {
+            "WeaponId": "GK"
+          },
+          {
+            "WeaponId": "PSR"
+          }
+        ],
+        "CostOverrides": [],
+        "LevelCosts": [
+          {
+            "Level": 1,
+            "Cost": 80
+          },
+          {
+            "Level": 2,
+            "Cost": 100
+          },
+          {
+            "Level": 3,
+            "Cost": 120
+          },
+          {
+            "Level": 4,
+            "Cost": 145
+          }
+        ]
+      }
+    ],
+    "ModelWeapons": [],
+    "WarGearOptions": []
+  },
+  {
+    "Id": "DGLC",
+    "NameEn": "Lord of Contagion",
+    "NameFr": "Lord of Contagion",
+    "NameDe": "Lord of Contagion",
+    "KeywordsEn": "CHAOS, NURGLE, HERETIC ASTARTES, COMMANDER, INFANTRY, TERMINATOR, LORD OF CONTAGION",
+    "KeywordsFr": "CHAOS, NURGLE, HERETIC ASTARTES, COMMANDER, INFANTRY, TERMINATOR, LORD OF CONTAGION",
+    "KeywordsDe": "CHAOS, NURGLE, HERETIC ASTARTES, KOMMANDEUR, INFANTERIE, TERMINATOR, LORD OF CONTAGION",
+    "ModelProfiles": [
+      {
+        "Id": "DGLC",
+        "Movement": 4,
+        "WeaponSkill": 2,
+        "BallisticSkill": 2,
+        "Strength": 6,
+        "Toughness": 5,
+        "Wounds": 6,
+        "Attacks": "4",
+        "Leadership": 9,
+        "Save": 2,
+        "MaximumNumber": 1,
+        "Cost": 114,
+        "NameEn": "Lord of Contagion",
+        "NameFr": "Lord of Contagion",
+        "NameDe": "Lord of Contagion",
+        "IsCommander": true,
+        "NumberOfKnownPsychics": 0,
+        "NumberOfPsychicsManifestationPerRound": 0,
+        "NumberOfPsychicsDenialPerRound": 0,
+        "WarGearOptions": [],
+        "Specialists": [
+          {
+            "SpecialistId": "F"
+          },
+          {
+            "SpecialistId": "FE"
+          },
+          {
+            "SpecialistId": "FR"
+          },
+          {
+            "SpecialistId": "LE"
+          },
+          {
+            "SpecialistId": "LO"
+          },
+          {
+            "SpecialistId": "ME"
+          },
+          {
+            "SpecialistId": "ST"
+          }
+        ],
+        "ModelProfileWeapons": [
+          {
+            "WeaponId": "DGPR"
+          }
+        ],
+        "CostOverrides": [],
+        "LevelCosts": [
+          {
+            "Level": 1,
+            "Cost": 114
+          },
+          {
+            "Level": 2,
+            "Cost": 134
+          },
+          {
+            "Level": 3,
+            "Cost": 154
+          },
+          {
+            "Level": 4,
+            "Cost": 179
+          }
+        ]
+      }
+    ],
+    "ModelWeapons": [],
+    "WarGearOptions": [
+      {
+        "Id": "289",
+        "MaximumPerTeam": 0,
+        "Operation": "DGPR:DGMR",
+        "Exclusion": null
+      }
+    ]
+  },
+  {
+    "Id": "DGM",
+    "NameEn": "Plague marine",
+    "NameFr": "Plague marine",
+    "NameDe": "Plague marine",
+    "KeywordsEn": "CHAOS, NURGLE, HERETIC ASTARTES, INFANTRY, PLAGUE MARINE",
+    "KeywordsFr": "CHAOS, NURGLE, HERETIC ASTARTES, INFANTERIE, PLAGUE MARINE",
+    "KeywordsDe": "CHAOS, NURGLE, HERETIC ASTARTES, INFANTERIE, PLAGUE MARINE",
+    "ModelProfiles": [
+      {
+        "Id": "DGM1",
+        "Movement": 5,
+        "WeaponSkill": 3,
+        "BallisticSkill": 3,
+        "Strength": 4,
+        "Toughness": 5,
+        "Wounds": 1,
+        "Attacks": "1",
+        "Leadership": 7,
+        "Save": 3,
+        "MaximumNumber": 0,
+        "Cost": 14,
+        "NameEn": "Plague Marine",
+        "NameFr": "Plague Marine",
+        "NameDe": "Plague Marine",
+        "IsCommander": false,
+        "NumberOfKnownPsychics": 0,
+        "NumberOfPsychicsManifestationPerRound": 0,
+        "NumberOfPsychicsDenialPerRound": 0,
+        "WarGearOptions": [
+          {
+            "Id": "57",
+            "MaximumPerTeam": 1,
+            "Operation": "IDE",
+            "Exclusion": null
+          }
+        ],
+        "Specialists": [
+          {
+            "SpecialistId": "CB"
+          },
+          {
+            "SpecialistId": "D"
+          },
+          {
+            "SpecialistId": "V"
+          }
+        ],
+        "ModelProfileWeapons": [],
+        "CostOverrides": [],
+        "LevelCosts": []
+      },
+      {
+        "Id": "DGM2",
+        "Movement": 5,
+        "WeaponSkill": 3,
+        "BallisticSkill": 3,
+        "Strength": 4,
+        "Toughness": 5,
+        "Wounds": 1,
+        "Attacks": "1",
+        "Leadership": 7,
+        "Save": 3,
+        "MaximumNumber": 2,
+        "Cost": 15,
+        "NameEn": "Plague Marine Gunner",
+        "NameFr": "Plague Marine Gunner",
+        "NameDe": "Plague Marine Gunner",
+        "IsCommander": false,
+        "NumberOfKnownPsychics": 0,
+        "NumberOfPsychicsManifestationPerRound": 0,
+        "NumberOfPsychicsDenialPerRound": 0,
+        "WarGearOptions": [
+          {
+            "Id": "52",
+            "MaximumPerTeam": 0,
+            "Operation": "BO:GP|RP|LPE|FU|PLA",
+            "Exclusion": null
+          }
+        ],
+        "Specialists": [
+          {
+            "SpecialistId": "AL"
+          },
+          {
+            "SpecialistId": "CB"
+          },
+          {
+            "SpecialistId": "D"
+          },
+          {
+            "SpecialistId": "V"
+          }
+        ],
+        "ModelProfileWeapons": [],
+        "CostOverrides": [],
+        "LevelCosts": []
+      },
+      {
+        "Id": "DGM3",
+        "Movement": 5,
+        "WeaponSkill": 3,
+        "BallisticSkill": 3,
+        "Strength": 4,
+        "Toughness": 5,
+        "Wounds": 1,
+        "Attacks": "2",
+        "Leadership": 7,
+        "Save": 3,
+        "MaximumNumber": 2,
+        "Cost": 15,
+        "NameEn": "Plague Marine Fighter",
+        "NameFr": "Plague Marine Fighter",
+        "NameDe": "Plague Marine Fighter",
+        "IsCommander": false,
+        "NumberOfKnownPsychics": 0,
+        "NumberOfPsychicsManifestationPerRound": 0,
+        "NumberOfPsychicsDenialPerRound": 0,
+        "WarGearOptions": [
+          {
+            "Id": "53",
+            "MaximumPerTeam": 0,
+            "Operation": "BO:HP|GHP|FLC|CP|(MC&HP)",
+            "Exclusion": null
+          }
+        ],
+        "Specialists": [
+          {
+            "SpecialistId": "CB"
+          },
+          {
+            "SpecialistId": "D"
+          },
+          {
+            "SpecialistId": "V"
+          },
+          {
+            "SpecialistId": "Z"
+          }
+        ],
+        "ModelProfileWeapons": [],
+        "CostOverrides": [],
+        "LevelCosts": []
+      },
+      {
+        "Id": "DGM4",
+        "Movement": 5,
+        "WeaponSkill": 3,
+        "BallisticSkill": 3,
+        "Strength": 4,
+        "Toughness": 5,
+        "Wounds": 1,
+        "Attacks": "2",
+        "Leadership": 8,
+        "Save": 3,
+        "MaximumNumber": 1,
+        "Cost": 15,
+        "NameEn": "Plague Champion",
+        "NameFr": "Plague Champion",
+        "NameDe": "Plague Champion",
+        "IsCommander": false,
+        "NumberOfKnownPsychics": 0,
+        "NumberOfPsychicsManifestationPerRound": 0,
+        "NumberOfPsychicsDenialPerRound": 0,
+        "WarGearOptions": [
+          {
+            "Id": "54",
+            "MaximumPerTeam": 0,
+            "Operation": "CP:EPP",
+            "Exclusion": null
+          },
+          {
+            "Id": "55",
+            "MaximumPerTeam": 0,
+            "Operation": "BO:PB|PP|PLA",
+            "Exclusion": null
+          },
+          {
+            "Id": "56",
+            "MaximumPerTeam": 0,
+            "Operation": "GEN",
+            "Exclusion": null
+          }
+        ],
+        "Specialists": [
+          {
+            "SpecialistId": "CB"
+          },
+          {
+            "SpecialistId": "D"
+          },
+          {
+            "SpecialistId": "L"
+          },
+          {
+            "SpecialistId": "V"
+          }
+        ],
+        "ModelProfileWeapons": [],
+        "CostOverrides": [],
+        "LevelCosts": []
+      }
+    ],
+    "ModelWeapons": [
+      {
+        "WeaponId": "BO"
+      },
+      {
+        "WeaponId": "CP"
+      },
+      {
+        "WeaponId": "GBU"
+      },
+      {
+        "WeaponId": "GK"
+      }
+    ],
+    "WarGearOptions": []
+  },
+  {
+    "Id": "DGP",
+    "NameEn": "Poxwalker",
+    "NameFr": "Poxwalker",
+    "NameDe": "Poxwalker",
+    "KeywordsEn": "CHAOS, NURGLE, HERETIC ASTARTES, INFANTRY, PLAGUE MARINE, POXWALKER",
+    "KeywordsFr": "CHAOS, NURGLE, HERETIC ASTARTES, INFANTERIE, POXWALKER",
+    "KeywordsDe": "CHAOS, NURGLE, HERETIC ASTARTES, INFANTERIE, POXWALKER",
+    "ModelProfiles": [
+      {
+        "Id": "DGP",
+        "Movement": 4,
+        "WeaponSkill": 5,
+        "BallisticSkill": 6,
+        "Strength": 3,
+        "Toughness": 3,
+        "Wounds": 1,
+        "Attacks": "2",
+        "Leadership": 4,
+        "Save": 7,
+        "MaximumNumber": 0,
+        "Cost": 3,
+        "NameEn": "Poxwalker",
+        "NameFr": "Poxwalker",
+        "NameDe": "Poxwalker",
+        "IsCommander": false,
+        "NumberOfKnownPsychics": 0,
+        "NumberOfPsychicsManifestationPerRound": 0,
+        "NumberOfPsychicsDenialPerRound": 0,
+        "WarGearOptions": [],
+        "Specialists": [
+          {
+            "SpecialistId": "CB"
+          },
+          {
+            "SpecialistId": "Z"
+          }
+        ],
+        "ModelProfileWeapons": [],
+        "CostOverrides": [],
+        "LevelCosts": []
+      }
+    ],
+    "ModelWeapons": [
+      {
+        "WeaponId": "AI"
+      }
+    ],
+    "WarGearOptions": []
+  },
+  {
+    "Id": "DGPS",
+    "NameEn": "Plague Surgeon",
+    "NameFr": "Plague Surgeon",
+    "NameDe": "Plague Surgeon",
+    "KeywordsEn": "CHAOS, NURGLE, HERETIC ASTARTES, COMMANDER, INFANTRY, PLAGUE SURGEON",
+    "KeywordsFr": "CHAOS, NURGLE, HERETIC ASTARTES, COMMANDANT, INFANTERIE, PLAGUE SURGEON",
+    "KeywordsDe": "CHAOS, NURGLE, HERETIC ASTARTES, KOMMANDEUR, INFANTERIE, PLAGUE SURGEON",
+    "ModelProfiles": [
+      {
+        "Id": "DGPS",
+        "Movement": 5,
+        "WeaponSkill": 3,
+        "BallisticSkill": 3,
+        "Strength": 4,
+        "Toughness": 5,
+        "Wounds": 4,
+        "Attacks": "3",
+        "Leadership": 8,
+        "Save": 3,
+        "MaximumNumber": 1,
+        "Cost": 45,
+        "NameEn": "Plague Surgeon",
+        "NameFr": "Plague Surgeon",
+        "NameDe": "Plague Surgeon",
+        "IsCommander": true,
+        "NumberOfKnownPsychics": 0,
+        "NumberOfPsychicsManifestationPerRound": 0,
+        "NumberOfPsychicsDenialPerRound": 0,
+        "WarGearOptions": [],
+        "Specialists": [
+          {
+            "SpecialistId": "F"
+          },
+          {
+            "SpecialistId": "FE"
+          },
+          {
+            "SpecialistId": "LE"
+          },
+          {
+            "SpecialistId": "LH"
+          },
+          {
+            "SpecialistId": "LO"
+          },
+          {
+            "SpecialistId": "ME"
+          },
+          {
+            "SpecialistId": "SH"
+          }
+        ],
+        "ModelProfileWeapons": [
+          {
+            "WeaponId": "B"
+          },
+          {
+            "WeaponId": "GBU"
+          },
+          {
+            "WeaponId": "GK"
+          },
+          {
+            "WeaponId": "PB"
+          }
+        ],
+        "CostOverrides": [],
+        "LevelCosts": [
+          {
+            "Level": 1,
+            "Cost": 45
+          },
+          {
+            "Level": 2,
+            "Cost": 60
+          },
+          {
+            "Level": 3,
+            "Cost": 75
+          },
+          {
+            "Level": 4,
+            "Cost": 100
+          }
+        ]
+      }
+    ],
+    "ModelWeapons": [],
+    "WarGearOptions": []
+  },
+  {
+    "Id": "DGT",
+    "NameEn": "Tallyman",
+    "NameFr": "Tallyman",
+    "NameDe": "Tallyman",
+    "KeywordsEn": "CHAOS, NURGLE, HERETIC ASTARTES, COMMANDER, INFANTRY, TALLYMAN",
+    "KeywordsFr": "CHAOS, NURGLE, HERETIC ASTARTES, COMMANDANT, INFANTERIE, TALLYMAN",
+    "KeywordsDe": "CHAOS, NURGLE, HERETIC ASTARTES, KOMMANDEUR, INFANTERIE, TALLYMAN",
+    "ModelProfiles": [
+      {
+        "Id": "DGT",
+        "Movement": 5,
+        "WeaponSkill": 3,
+        "BallisticSkill": 3,
+        "Strength": 4,
+        "Toughness": 5,
+        "Wounds": 4,
+        "Attacks": "3",
+        "Leadership": 8,
+        "Save": 3,
+        "MaximumNumber": 1,
+        "Cost": 45,
+        "NameEn": "Tallyman",
+        "NameFr": "Tallyman",
+        "NameDe": "Tallyman",
+        "IsCommander": true,
+        "NumberOfKnownPsychics": 0,
+        "NumberOfPsychicsManifestationPerRound": 0,
+        "NumberOfPsychicsDenialPerRound": 0,
+        "WarGearOptions": [],
+        "Specialists": [
+          {
+            "SpecialistId": "F"
+          },
+          {
+            "SpecialistId": "FE"
+          },
+          {
+            "SpecialistId": "LE"
+          },
+          {
+            "SpecialistId": "LH"
+          },
+          {
+            "SpecialistId": "LO"
+          },
+          {
+            "SpecialistId": "ME"
+          },
+          {
+            "SpecialistId": "SH"
+          },
+          {
+            "SpecialistId": "ST"
+          }
+        ],
+        "ModelProfileWeapons": [
+          {
+            "WeaponId": "GBU"
+          },
+          {
+            "WeaponId": "GK"
+          },
+          {
+            "WeaponId": "PP"
+          }
+        ],
+        "CostOverrides": [
+          {
+            "WeaponId": "PP",
+            "Cost": 0
+          }
+        ],
+        "LevelCosts": [
+          {
+            "Level": 1,
+            "Cost": 45
+          },
+          {
+            "Level": 2,
+            "Cost": 60
+          },
+          {
+            "Level": 3,
+            "Cost": 75
+          },
+          {
+            "Level": 4,
+            "Cost": 100
+          }
+        ]
+      }
+    ],
+    "ModelWeapons": [],
+    "WarGearOptions": []
+  }
+]

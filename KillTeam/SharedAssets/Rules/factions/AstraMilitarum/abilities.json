@@ -1,0 +1,425 @@
+[
+  {
+    "Id": "AMAM1",
+    "ModelId": "AMOG",
+    "ModelProfileId": null,
+    "NameEn": "Avalanche of Muscle",
+    "NameFr": "Avalanche de Muscle",
+    "NameDe": "Lawine aus Muskeln",
+    "DescriptionEn": "You can add 1 to the Attacks characteristic of this model in the Fight phase of any battle round in which it charged. This ability may only be used the first time this model fights each battle round.",
+    "DescriptionFr": "Vous pouvez ajouter 1 aux Attaques de cette figurine en phase de Combat lors d'un. round où elle a chargé. Cette aptitude ne peut servir que la première fois où cette figurine combat à chaque round",
+    "DescriptionDe": "In der Nahkampfphase jeder Schlachtrunde, in der es angegriffen hat, kannst du 1 zum Attackenwert dieses Modells addieren. Diese Fähigkeit kann nur beim ersten Mal, wenn dieses Modell in jeder Schlachtrunde kämpft, eingesetzt werden.",
+    "Details": []
+  },
+  {
+    "Id": "AMAM2",
+    "ModelId": "AMBG",
+    "ModelProfileId": null,
+    "NameEn": "Avalanche of Muscle",
+    "NameFr": "Avalanche de Muscle",
+    "NameDe": "Lawine aus Muskeln",
+    "DescriptionEn": "You can add 1 to the Attacks characteristic of this model in the Fight phase of any battle round in which it charged. This ability may only be used the first time this model fights each battle round.",
+    "DescriptionFr": "Vous pouvez ajouter 1 aux Attaques de cette figurine en phase de Combat lors d'un. round où elle a chargé. Cette aptitude ne peut servir que la première fois où cette figurine combat à chaque round",
+    "DescriptionDe": "In der Nahkampfphase jeder Schlachtrunde, in der es angegriffen hat, kannst du 1 zum Attackenwert dieses Modells addieren. Diese Fähigkeit kann nur beim ersten Mal, wenn dieses Modell in jeder Schlachtrunde kämpft, eingesetzt werden.",
+    "Details": []
+  },
+  {
+    "Id": "AMLA",
+    "ModelId": null,
+    "ModelProfileId": "AMSM",
+    "NameEn": "Lethal Ambush",
+    "NameFr": "Embuscade Mortelle",
+    "NameDe": "Tödlicher Hinterhalt",
+    "DescriptionEn": "When you set up Sly Marbo from Reserve, you may choose one of the following:\n• Stalk with Blade: You can immediately declare that Sly Marbo will attempt to charge, though you may only roll a\nsingle D6 (rather than 2D6) for the charge roll. In addition, until the end of the battle round, add 2 to Sly Marbo’s\nAttacks characteristic.\n• Snipe with Pistol: Sly Marbo can immediately shoot his ripper pistol as if it were the Shooting phase.\n• Detonate Concealed Explosives: Roll a D6 for each of up to 6 enemy models on the battlefield. On a 6 the model\nbeing rolled for and all models within 2\" of that model suffer a mortal wound.",
+    "DescriptionFr": "Quand vous placez Sly Marbo depuis les Réserves, choisissez une des options suivantes :\n• Attaquer au Couteau: Vous pouvez délcarer immédiatement que Sly Marbo tente de charger, mais vous ne jetez qu'un seul D6 (au lieu de 2) pour le jet de charge. De plus, jusqu'à la fin du round, ajoutez 2 aux Attaques de Sly Marbo.\n• Tirer au Pistolet: Sly Marbo peut immédiatement tirer avec son pistolet Ripper, comme en phase de Tir.\n• Détonation d'Explosifs Cachés: Jetez un D6 pour jusqu'à 6 figurines ennemies sur le champs de bataille. Sur 6, la figurine concernée. et toutes les figurines à 2\" d'elle subissent une blessure mortelle.",
+    "DescriptionDe": "Wenn du Sly Marbo aus der Reserve aufstellst, kannstdu dich für eine der folgenden Optionen entscheiden:\n• Mit der Klinge jagen: Du kannst sofort ansagen, dass Sly Marbo einen Angriff versucht, doch darfst du für den Angriffswurf nur einen einzigen W6 werfen (anstelle von 2W6). Addiere außerdem bis zum ende der Schlachtrunde 2 zu Sly Marbos Attackenwert.\n• Mit der Pistole schießen: Sly Marbo kann sofort mit seiner Stahlviper schießen, als wäre es die Fernkampfphase.\n• Versteckte Sprengladung zünden: Wähle bis zu sechs feindliche Modelle auf dem Schlachtfeld und wirf für jedes davon einen W6. Bei einer 6 erleiden das Modell, für das gewürfelt wird, und alle Modelle innerhalb von 2'' um das Modell, für das gewürfelt wird, je eine tödliche Verwundung.",
+    "Details": []
+  },
+  {
+    "Id": "AMLO",
+    "ModelId": null,
+    "ModelProfileId": "AMSM",
+    "NameEn": "Loner",
+    "NameFr": "Solitaire",
+    "NameDe": "Einsamer Wolf",
+    "DescriptionEn": "The Voice of Command ability has no effect on Sly Marbo.",
+    "DescriptionFr": "L'aptitude Commandement Verbal ne peut pas affecter Sly Marbo",
+    "DescriptionDe": "Die Fähigkeit Befehlsgewalt hat keinen Effekt auf Sly Marbo.",
+    "Details": []
+  },
+  {
+    "Id": "AMSR",
+    "ModelId": null,
+    "ModelProfileId": "AMSR",
+    "NameEn": "Leading from the front",
+    "NameFr": "Officier de ligne",
+    "NameDe": "Mit gutem Beispiel voran",
+    "DescriptionEn": "Friendly Astra Militarum models within 6\" of this model -whilst it is within 1\" of an ennemy model and not shaken- automatically pass Nerve tests.",
+    "DescriptionFr": "Les figurines amies de l'Astra Militarum à 6\" de cette figurine -tant qu'elle est à 1\" d'une figurine ennemie et qu'elle n'est pas secouée- réussissent automatiquement les tests de sang froid.",
+    "DescriptionDe": "Befreundete Modelle des ASTRA MILITARUM innerhalb von 6'' um dieses Modell - solange sich dieses Modell innerhalb von 1'' um ein feindliches Modell befindet und nicht erschüttert ist - bestehen Nerventests automatisch.",
+    "Details": []
+  },
+  {
+    "Id": "CAW2",
+    "ModelId": null,
+    "ModelProfileId": "AMJD",
+    "NameEn": "Concealed Archeotech Weapon",
+    "NameFr": "",
+    "NameDe": "",
+    "DescriptionEn": "Once per battle, at the start of the Fight phase, pick one enemy model within 1\" of this model and roll a dice; on a 4+ the target model suffers D3 mortal wounds.",
+    "DescriptionFr": "",
+    "DescriptionDe": "",
+    "Details": []
+  },
+  {
+    "Id": "CMV",
+    "ModelId": null,
+    "ModelProfileId": null,
+    "NameEn": "Voice of Command",
+    "NameFr": "Commandement verbal",
+    "NameDe": "Befehlsgewalt",
+    "DescriptionEn": "Once per battle round, if your Leader is on the battlefield and not shaken, they can issue an order to other members of your kill team at the start of the Shooting phase. To issue an order, pick another friendly ASTRA MILITARUM model (other than a shaken model) within 12\" of your Leader and choose which order you wish to issue from the list opposite. A model may only be affected by one order per battle round.",
+    "DescriptionFr": "Une fois par round de bataille, si votre Leader est sur le champ de bataille et n'est pas secoué, il peut donner un ordre aux autres membres de votre kill team au début de la phase de tir. Pour ce faire, choisissez une autre figurine amie ASTRA MILITARUM qui n'est pas secouée et à 12\" de votre leader, et choisissez un ordre ci-contre. Une figurine ne peut être affectée que par un seul ordre par round de bataille.",
+    "DescriptionDe": "Einmal pro Schlachtrunde kann dein Anführer, wenn er sich auf dem Schlachtfeld befindet und nicht erschüttert ist, anderen Mitgliedern deines Kill Teams zu Beginn der Fernkampfphase einen Befehl geben. Um einen Befehl zu geben, wähle ein anderes befreundetes Modell des ASTRA MILITARUM (kein erschüttertes) innerhalb von 12\" um deinen Anführer und wähle den Befehl von der Liste rechts. Ein Modell darf pro Schlachtrunde nur von einem Befehl betroffen sein.",
+    "Details": [
+      {
+        "Row": 0,
+        "Column": 1,
+        "ContentEn": "Order",
+        "ContentFr": "Ordre",
+        "ContentDe": "Befehl"
+      },
+      {
+        "Row": 1,
+        "Column": 1,
+        "ContentEn": "Take Aim!",
+        "ContentFr": "En joue!",
+        "ContentDe": "Zielen!"
+      },
+      {
+        "Row": 2,
+        "Column": 1,
+        "ContentEn": "Bring it Down!",
+        "ContentFr": "Abattez-le!",
+        "ContentDe": "Zerstöre es!"
+      },
+      {
+        "Row": 3,
+        "Column": 1,
+        "ContentEn": "Forwards, for the Emperor!",
+        "ContentFr": "En avant, pour l'empereur!",
+        "ContentDe": "Vorwärts, für den Imperator!"
+      },
+      {
+        "Row": 4,
+        "Column": 1,
+        "ContentEn": "Get Back in the Fight!",
+        "ContentFr": "Retournez au combat!",
+        "ContentDe": "Reiß dich zusammen!"
+      },
+      {
+        "Row": 5,
+        "Column": 1,
+        "ContentEn": "Move! Move! Move!",
+        "ContentFr": "Allez! Allez! Allez!",
+        "ContentDe": "Los! Los! Los!"
+      },
+      {
+        "Row": 6,
+        "Column": 1,
+        "ContentEn": "Fix Bayonets!",
+        "ContentFr": "Baïonnettes au canon!",
+        "ContentDe": "Bajonett aufpflanzen!"
+      },
+      {
+        "Row": 0,
+        "Column": 2,
+        "ContentEn": "",
+        "ContentFr": "",
+        "ContentDe": ""
+      },
+      {
+        "Row": 1,
+        "Column": 2,
+        "ContentEn": "Re-roll hit rolls of 1 for the ordered model until the end of the phase",
+        "ContentFr": "Relancez les jets de touche de 1 de la figurine jusqu'à la fin de la phase.",
+        "ContentDe": "Wiederhole bis zum Ende der Phase Trefferwürfe von 1 für den Empfänger dieses Befehls."
+      },
+      {
+        "Row": 2,
+        "Column": 2,
+        "ContentEn": "Re-roll wound rolls of 1 for the ordered model until the end of the phase.",
+        "ContentFr": "Relancez les jets de blessure de 1 de la figurine jusqu'à la fin de la phase.",
+        "ContentDe": "Wiederhole bis zum Ende der Phase Verwundungswürfe von 1 für den Empfänger dieses Befehls."
+      },
+      {
+        "Row": 3,
+        "Column": 2,
+        "ContentEn": "The ordered model can shoot even if it Advanced in the previous Movement phase.",
+        "ContentFr": "La figurine peut tirer même si elle a avancé à la phase de mouvement précédente.",
+        "ContentDe": "Der Empfänger dieses Befehls kann schießen, selbst wenn er in der vorhergehenden Bewegungsphase vorgerückt ist."
+      },
+      {
+        "Row": 4,
+        "Column": 2,
+        "ContentEn": "The ordered model can shoot this phase, even if it Fell Back in the Movement phase.",
+        "ContentFr": "La figurine peut tirer même si elle a battu en retraite à la phase de mouvement précédente.",
+        "ContentDe": "Der Empfänger dieses Befehls kann in dieser Phase schießen, selbst wenn er sich in der Bewegungsphase zurückgezogen hat."
+      },
+      {
+        "Row": 5,
+        "Column": 2,
+        "ContentEn": "Instead of shooting this phase, the ordered model immediately makes an Advance move as if it were the Movement phase.",
+        "ContentFr": "Au lieu de tirer, la figurine effectue immédiatement une Avance, comme s'il s'agissait de la phase de mouvement.",
+        "ContentDe": "Anstatt in dieser Phase zu schießen, führt der Empfänger sofort wie in der Bewegungsphase eine Vorrücken-Bewegung aus."
+      },
+      {
+        "Row": 6,
+        "Column": 2,
+        "ContentEn": "This order can only be issued to a model within 1\" of an enemy model. The ordered model immediately fights as if it were the Fight phase.",
+        "ContentFr": "Cet ordre ne peut être donné qu'à une figurine à 1\" d'une figurine ennemie. La figurine combat immédiatement comme en phase de combat.",
+        "ContentDe": "Dieser Befehl kann nur einem Modell innerhalb von 1\" um ein feindliches Modell gegeben werden. Der Empfänger kämpft sofort, als ob es die Nahkampfphase wäre."
+      }
+    ]
+  },
+  {
+    "Id": "DFG2",
+    "ModelId": null,
+    "ModelProfileId": "AMJD",
+    "NameEn": "Disruption Field Generator",
+    "NameFr": "",
+    "NameDe": "",
+    "DescriptionEn": "This model has a 4+ invulnerable save",
+    "DescriptionFr": "",
+    "DescriptionDe": "",
+    "Details": []
+  },
+  {
+    "Id": "GRAH",
+    "ModelId": null,
+    "ModelProfileId": "AMRR2",
+    "NameEn": "Grappling Hook",
+    "NameFr": "",
+    "NameDe": "",
+    "DescriptionEn": "Raus can climb any distance vertically (up or down) when he makes a normal move – do not measure the distance moved in this way.",
+    "DescriptionFr": "",
+    "DescriptionDe": "",
+    "Details": []
+  },
+  {
+    "Id": "MANF",
+    "ModelId": null,
+    "ModelProfileId": "AMPV",
+    "NameEn": "Maniacal Fervour",
+    "NameFr": "",
+    "NameDe": "",
+    "DescriptionEn": "Roll a D6 each time this model loses a wound; on a 5+ that wound is not lost.",
+    "DescriptionFr": "",
+    "DescriptionDe": "",
+    "Details": []
+  },
+  {
+    "Id": "MSA2",
+    "ModelId": null,
+    "ModelProfileId": "AMJD",
+    "NameEn": "Multi-Spectral Auspicator",
+    "NameFr": "",
+    "NameDe": "",
+    "DescriptionEn": "Re-roll hit rolls of 1 for attacks made by this model.",
+    "DescriptionFr": "",
+    "DescriptionDe": "",
+    "Details": []
+  },
+  {
+    "Id": "NAST",
+    "ModelId": "AMRR",
+    "ModelProfileId": null,
+    "NameEn": "Naturally Stealthy",
+    "NameFr": "",
+    "NameDe": "",
+    "DescriptionEn": "When an opponent makes a hit roll for a shooting attack that targets Rein or Raus, and the target model is obscured, that hit roll suffers an additional -1 modifier.",
+    "DescriptionFr": "",
+    "DescriptionDe": "",
+    "Details": []
+  },
+  {
+    "Id": "PSBA",
+    "ModelId": null,
+    "ModelProfileId": "AMEL",
+    "NameEn": "Psychic Barrier",
+    "NameFr": "",
+    "NameDe": "",
+    "DescriptionEn": "This model has a 4+ invulnerable save.",
+    "DescriptionFr": "",
+    "DescriptionDe": "",
+    "Details": []
+  },
+  {
+    "Id": "RF1",
+    "ModelId": null,
+    "ModelProfileId": "AMC2",
+    "NameEn": "Refractor Field",
+    "NameFr": "Champ réfracteur",
+    "NameDe": "Refraktorfeld",
+    "DescriptionEn": "A Lord Commissar has a 5+ invulnerable save.",
+    "DescriptionFr": "Cette figurine a une sauvegarde invulnérable de 5+.",
+    "DescriptionDe": "Ein Lord Commissar hat einen Rettungswurf von 5+.",
+    "Details": []
+  },
+  {
+    "Id": "RF2",
+    "ModelId": "AMP",
+    "ModelProfileId": null,
+    "NameEn": "Refractor Field",
+    "NameFr": "Champ réfracteur",
+    "NameDe": "Refraktorfeld",
+    "DescriptionEn": "This model has a 5+ invulnerable save.",
+    "DescriptionFr": "Cette figurine a une sauvegarde invulnérable de 5+.",
+    "DescriptionDe": "Dieses Modell hat einen Rettungswurf von 5+.",
+    "Details": []
+  },
+  {
+    "Id": "ROSA",
+    "ModelId": null,
+    "ModelProfileId": "AMTP",
+    "NameEn": "Rosarius",
+    "NameFr": "Rosarius",
+    "NameDe": "Rosarius",
+    "DescriptionEn": "This model has a 4+ invulnerable save.",
+    "DescriptionFr": "Cette figurine a une sauvegarde invulnérable de 4+.",
+    "DescriptionDe": "Dieses Modell hat einen Rettungswurf von 4+.",
+    "Details": []
+  },
+  {
+    "Id": "RTR2",
+    "ModelId": null,
+    "ModelProfileId": "AMJD",
+    "NameEn": "Rogue Trader",
+    "NameFr": "",
+    "NameDe": "",
+    "DescriptionEn": "This model cannot be affected by any Tactics or abilities that affect models with a particular Faction keyword.",
+    "DescriptionFr": "",
+    "DescriptionDe": "",
+    "Details": []
+  },
+  {
+    "Id": "SO",
+    "ModelId": null,
+    "ModelProfileId": "AMP2",
+    "NameEn": "Senior Officer",
+    "NameFr": "Officier supérieur",
+    "NameDe": "Hochrangiger Offizier",
+    "DescriptionEn": "A Company Commander may use the Voice of Command ability twice each battle round. Resolve the effects of the first order before issuing the second order.",
+    "DescriptionFr": "Un Company Commander peut utiliser l'aptitude Commandement verbal deux fois à chaque round. Résolvez les effets du premier ordre avant de donner le second.",
+    "DescriptionDe": "Ein Company Commander darf die Fähigkeit Befehlsgewalt zweimal pro Schlachtrunde einsetzen. Handle den ersten Befehl ganz ab, bevor du den zweiten gibst.",
+    "Details": []
+  },
+  {
+    "Id": "SPECR",
+    "ModelId": null,
+    "ModelProfileId": "AMPV",
+    "NameEn": "Specialist Retainer",
+    "NameFr": "",
+    "NameDe": "",
+    "DescriptionEn": "This model is always a Zealot specialist, but this does not count towards the maximum number of specialists in your kill team.",
+    "DescriptionFr": "",
+    "DescriptionDe": "",
+    "Details": []
+  },
+  {
+    "Id": "SPECR2",
+    "ModelId": null,
+    "ModelProfileId": "AMRR1",
+    "NameEn": "Specialist Retainer",
+    "NameFr": "",
+    "NameDe": "",
+    "DescriptionEn": "Rein is always a Sniper specialist, but this does not count towards the maximum number of specialists in your kill team.",
+    "DescriptionFr": "",
+    "DescriptionDe": "",
+    "Details": []
+  },
+  {
+    "Id": "SSSC",
+    "ModelId": "AMRR",
+    "ModelProfileId": null,
+    "NameEn": "Shoot Sharp and Scarper",
+    "NameFr": "",
+    "NameDe": "",
+    "DescriptionEn": "Immediately after making a shooting attack with Rein or Raus (other than firing Overwatch), the firing model can move as if it were the Movement phase (though it cannot Advance as part of this move).",
+    "DescriptionFr": "",
+    "DescriptionDe": "",
+    "Details": []
+  },
+  {
+    "Id": "TCR",
+    "ModelId": "AMT",
+    "ModelProfileId": null,
+    "NameEn": "Tempestus Command Rod",
+    "NameFr": "Sceptre de commandement Tempestus",
+    "NameDe": "Tempestus-Kommandostab",
+    "DescriptionEn": "A model with a Tempestus command rod may use the Voice of Command ability twice in each battle round. Resolve the effects of the first order before issuing the second order.",
+    "DescriptionFr": "Le porteur peut utiliser l'aptitude Commandement Verbal deux fois à chaque round. Résolvez les effets du premier ordre avant de donner le second.",
+    "DescriptionDe": "Ein Modell mit Tempestus-Kommandostab darf die Fähigkeit Befehlsgewalt zweimal pro Schlachtrunde einsetzen. Handle den ersten Befehl ganz ab, bevor du den zweiten gibst.",
+    "Details": []
+  },
+  {
+    "Id": "TRTW",
+    "ModelId": null,
+    "ModelProfileId": "AMRR1",
+    "NameEn": "The Ratling Twins",
+    "NameFr": "",
+    "NameDe": "",
+    "DescriptionEn": "You can re-roll failed hit and wound rolls when shooting with Rein’s sniper rifle if the target is also visible to Raus.",
+    "DescriptionFr": "",
+    "DescriptionDe": "",
+    "Details": []
+  },
+  {
+    "Id": "TTE",
+    "ModelId": null,
+    "ModelProfileId": "AMEL",
+    "NameEn": "The Third Eye",
+    "NameFr": "",
+    "NameDe": "",
+    "DescriptionEn": "When this model attempts to manifest the Psybolt psychic power, select an enemy model within 12\" of and visible to it before making the Psychic test – if there are none, it cannot attempt to manifest Psybolt this phase. If the power is successfully manifested, the model you chose suffers the mortal wounds, even if another enemy model is closer to this model.",
+    "DescriptionFr": "",
+    "DescriptionDe": "",
+    "Details": []
+  },
+  {
+    "Id": "WARH",
+    "ModelId": null,
+    "ModelProfileId": "AMTP",
+    "NameEn": "War Hymns",
+    "NameFr": "",
+    "NameDe": "",
+    "DescriptionEn": "Add 1 to the Attacks characteristic of Astra Militarum models whilst they are within 6\" of any friendly Ministorum Priests.",
+    "DescriptionFr": "",
+    "DescriptionDe": "",
+    "Details": []
+  },
+  {
+    "Id": "ZEAL",
+    "ModelId": null,
+    "ModelProfileId": "AMTP",
+    "NameEn": "Zealot",
+    "NameFr": "",
+    "NameDe": "",
+    "DescriptionEn": "You can re-roll failed hit rolls for attacks made by this model in a battle round in which it charged or was charged.",
+    "DescriptionFr": "",
+    "DescriptionDe": "",
+    "Details": []
+  },
+  {
+    "Id": "ZEAL2",
+    "ModelId": null,
+    "ModelProfileId": "AMPV",
+    "NameEn": "Zealot",
+    "NameFr": "",
+    "NameDe": "",
+    "DescriptionEn": "You can re-roll failed hit rolls for attacks made by this model in a battle round in which it charged or was charged.",
+    "DescriptionFr": "",
+    "DescriptionDe": "",
+    "Details": []
+  }
+]

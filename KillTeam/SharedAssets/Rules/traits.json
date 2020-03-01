@@ -1,0 +1,74 @@
+[
+  {
+    "Id": "G1",
+    "ModelProfileId": null,
+    "Level": 0,
+    "Cost": 5,
+    "NameEn": "Iron will",
+    "NameFr": "Volonté de fer",
+    "NameDe": "Eiserner Wille",
+    "DescriptionEn": "This model automatically passes Nerve tests.",
+    "DescriptionFr": "Cette figurine réussit automatiquement les tests de Sang-froid.",
+    "DescriptionDe": "Dieses Modell besteht Nerventests automatisch."
+  },
+  {
+    "Id": "G2",
+    "ModelProfileId": null,
+    "Level": 0,
+    "Cost": 10,
+    "NameEn": "Destined by fate",
+    "NameFr": "Touché par le destin",
+    "NameDe": "Vom Schicksal auserwählt",
+    "DescriptionEn": "Roll a D6 each time this model suffers a mortal wound. On a 6, that wound is not lost.",
+    "DescriptionFr": "Jetez un D6 chaque fois que cette figurine subit une blessure mortelle. Sur 6, elle ne perd pas de PV.",
+    "DescriptionDe": "Wirf jedes Mal einen W6, wenn dieses Modell eine tödliche Verwundung erleidet. Bei einer 6 verliert es den Lebenspunkt nicht."
+  },
+  {
+    "Id": "G3",
+    "ModelProfileId": null,
+    "Level": 0,
+    "Cost": 10,
+    "NameEn": "Stoic hero",
+    "NameFr": "Héros stoïque",
+    "NameDe": "Stoischer Held",
+    "DescriptionEn": "Ignore the penalty to this model's hit rolls from flesh wounds it has suffered.",
+    "DescriptionFr": "Ignorez la pénalité aux jets de touche de cette figurine causée par les blessures légères qu'elle a subies.",
+    "DescriptionDe": "Dieses Modell erleidet durch erlittene Fleischwunden keinen Abzug auf seine Trefferwürfe."
+  },
+  {
+    "Id": "G4",
+    "ModelProfileId": null,
+    "Level": 0,
+    "Cost": 15,
+    "NameEn": "Tactical planner",
+    "NameFr": "Planificateur tactique",
+    "NameDe": "Taktischer Planer",
+    "DescriptionEn": "At the start of the first battle round you gain D3 Command Points.",
+    "DescriptionFr": "Au début du premier round de bataille, vous gagnez D3 points de commandement.",
+    "DescriptionDe": "Zu Beginn der ersten Schlachtrunde erhältst du W3 Befehlspunkte."
+  },
+  {
+    "Id": "G5",
+    "ModelProfileId": null,
+    "Level": 4,
+    "Cost": 15,
+    "NameEn": "Generalist",
+    "NameFr": "Généraliste",
+    "NameDe": "Generalist",
+    "DescriptionEn": "Instead of choosing the level 4 ability from their specialism's ability tree, you can choose a Level 1 ability for this model from a different specialism listed on their datacard. Their specialism does not change.",
+    "DescriptionFr": "Au lieu de choisir l'aptitude de niveau 4 de son arbre d'aptitude, vous pouvez choisir pour cette figurine une aptitude de niveau 1 issue d'une autre spécialité listée sur sa carte technique. Sa spéciliét ne change pas pour autant.",
+    "DescriptionDe": "Anstatt eine Fähigkeit der Stufe 4 aus dem Fähigkeitenbaum seiner Spezialisierung zu wählen, darfst du für dieses Modell eine Fähigkeit der Stufe 1 aus einer anderen Spezialisierung wählen, die auf seinem Datenblatt aufgeführt ist. Seine Spezialisierung verändert sich dadurch nicht."
+  },
+  {
+    "Id": "G6",
+    "ModelProfileId": null,
+    "Level": 4,
+    "Cost": 30,
+    "NameEn": "Master specialist",
+    "NameFr": "Maitre spécialiste",
+    "NameDe": "Meisterspezialist",
+    "DescriptionEn": "Instead of choosing a single ability for this model not already chosen from their specialism's ability tree (for being Level 4), you can choose two abilities not already chosen from their specialism's ability tree.",
+    "DescriptionFr": "Au lieu de choisir pour cette figurine une seule aptitude qu'elle n'a pas déjà choisie sur l'arbre d'aptitude de sa spécialité (car elle est niveau 4), vous pouvez choisir deux aptitudes qu'elle n'a pas déjà choisies sur l'arbre d'aptitudes de sa spécialité.",
+    "DescriptionDe": "Anstatt für dieses Modell eine einzelne Fähigkeit zu wählen, die noch nicht aus dem Fähigkeitenbaum seiner Spezialisierung ausgewählt wurde (für Stufe 4), darfst du zwei Fähigkeiten vom Fähigkeitenbaum seiner Spezialisierung wählen, die noch nicht gewählt wurden."
+  }
+]

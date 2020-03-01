@@ -1,0 +1,93 @@
+[
+  {
+    "Id": "1",
+    "ModelProfileId": null,
+    "WarpCharge": 5,
+    "Dices": 0,
+    "NameEn": "Psybolt",
+    "NameFr": "Trait psychique",
+    "NameDe": "Psischlag",
+    "DescriptionEn": "If manifested,\r\nthe closest enemy model within 18\" of and visible\r\nto the psyker suffers 1 mortal wound (pg 33). If the\r\nresult of the Psychic test was 11+, the target suffers\r\nD3 mortal wounds instead.",
+    "DescriptionFr": "S'il est manifesté, la figurine ennemie visible du psyker et la plus proche dans les 18\" subit 1 blessure mortelle (p.33). Si le résultat du test psychique était 11+, la cible subit D3 blessures mortelles à la place.",
+    "DescriptionDe": "Wenn die Psikraft manifestiert wird, erleidet das nächste feindliche Modell, das sich innerhalb von 18'' um den Psioniker befindet und für diesen sichtbar ist, eine tödliche Verwundung. Wenn das Ergebnis des Psitests 11+ beträgt, erleidet das Ziel stattdessen W3 tödliche Verwundungen.",
+    "Commander": false
+  },
+  {
+    "Id": "2",
+    "ModelProfileId": null,
+    "WarpCharge": 7,
+    "Dices": 1,
+    "NameEn": "Iron arm",
+    "NameFr": "Bras d'acier",
+    "NameDe": "Eisenarm",
+    "DescriptionEn": "If manifested, then until the start of the next Psychic phase, add 2 to the psyker's Strength and Toughness characteristics.",
+    "DescriptionFr": "S'il est manifesté, jusqu'au début de la prochaine phas Psychique, ajoutez 2 aux caractéristiques de Force et d'Endurance du psyker.",
+    "DescriptionDe": "Wenn die Psikraft manifestiert wird, addiere bis zum Beginn der nächsten Psiphase 2 zu den Profilwerten Stärke und Widerstand des Psionikers.",
+    "Commander": true
+  },
+  {
+    "Id": "3",
+    "ModelProfileId": null,
+    "WarpCharge": 6,
+    "Dices": 2,
+    "NameEn": "Forewarning",
+    "NameFr": "Prescience",
+    "NameDe": "Vorwarnung",
+    "DescriptionEn": "If manifested, then until the start of the next Psychic phase, the psyker has a 4+ invulnerable save. ",
+    "DescriptionFr": "S'il est manifesté, jusqu'au début de la prochaine phas Psychique, le psyker a une sauvegarde invulnérable de 4+.",
+    "DescriptionDe": "Wenn die Psikraft manifestiert wird, hat der Psioniker bis zum Beginn der nächsten Psiphase einen Rettungswurf von 4+.",
+    "Commander": true
+  },
+  {
+    "Id": "4",
+    "ModelProfileId": null,
+    "WarpCharge": 6,
+    "Dices": 3,
+    "NameEn": "Fire shield",
+    "NameFr": "Bouclier ardent",
+    "NameDe": "Feuerschild",
+    "DescriptionEn": "If manifested, pick a friendly model within \r\n8\" of the psyker. Until the start of the \r\nnext Psychic phase, that model counts as obscured, even if they are completely visible to the firing model.",
+    "DescriptionFr": "S'il est manifesté, choisissez une figurine amie à 8\" du psyker. Jusqu'au début de la prochaine phase psychique, cette figurine compte comme masquée même si elle est complètement visible par le tireur.",
+    "DescriptionDe": "Wenn die Psikraft manifestiert wird, Wähle ein befreundetes Modell innerhalb von 8'' um den Psioniker. Bis zum Beginn der nächsten Psiphase zählt dieses Modell als verdeckt, auch wenn es für das schießende Modell vollständig sichtbar ist.",
+    "Commander": true
+  },
+  {
+    "Id": "5",
+    "ModelProfileId": null,
+    "WarpCharge": 5,
+    "Dices": 4,
+    "NameEn": "Psychic Shriek",
+    "NameFr": "Hurlement psychique",
+    "NameDe": "Psionisches Kreischen",
+    "DescriptionEn": "If manifested, select an enemy model within 12\" of and visible to the psyker. That model must immediately take a Nerve test as if it were the Morale phase.",
+    "DescriptionFr": "S'il est manifesté, choisissez une figurine amie à 12\" et visible du psyker. Cette figurine doit immédiatement effectuer un test de Sang-froid comme à la phase moral.",
+    "DescriptionDe": "Wenn die Psikraft manifestiert wird, wähle ein feindliches Modell innerhalb von 12'' um den Psioniker, das für ihn sichtbar ist. Dieses Modell muss sofort einen Nerventest wie in der Moralphase ablegen.",
+    "Commander": true
+  },
+  {
+    "Id": "6",
+    "ModelProfileId": null,
+    "WarpCharge": 7,
+    "Dices": 5,
+    "NameEn": "Enfeeble",
+    "NameFr": "Affaiblissement",
+    "NameDe": "Schwächen",
+    "DescriptionEn": "If manifested, select an enemy model within 12\" of and visible to the psyker. Until the start of the next Psychic phase, your opponent must subtract 1 from hit and wound rolls for the target model's close combat attacks.",
+    "DescriptionFr": "S'il est manifesté, choisissez une figurine amie à 12\" et visible du psyker. Jusqu'au début de la prochaine phase psychique, votre adversaire doit soustraire 1 aux jets de touche et de blessure pour les attaques de corps à corps de la figurine ciblée par ce pouvoir.",
+    "DescriptionDe": "Wenn die Psikraft manifestiert wird, wähle ein feindliches Modell innerhalb von 12'' um den Psioniker, das für ihn sichtbar ist. Bis zum Beginn der nächsten Psiphase muss dein Gegner 1 von Treffer- und Verwundungswürfen für die Nahkampfattacken dieses Modells abziehen.",
+    "Commander": true
+  },
+  {
+    "Id": "7",
+    "ModelProfileId": null,
+    "WarpCharge": 7,
+    "Dices": 6,
+    "NameEn": "Misfortune",
+    "NameFr": "Fatalité",
+    "NameDe": "Verhängnis",
+    "DescriptionEn": "If manifested, select an enemy model within 12\" of and visible to the psyker. Until the start of the next Psychic phase, improve the AP characteristic of any weapon that targets that model by 1 (for example, an AP0 weapon becomes AP-1).",
+    "DescriptionFr": "S'il est manifesté, choisissez une figurine amie à 12\" et visible du psyker. Jusqu'au début de la prochaine phase psychique, améliorez de 1 la caractéristique PA de toute arme qui cible cette figurine (par exemple, une arme PA0 devient PA-1).",
+    "DescriptionDe": "Wenn die Psikraft manifestiert wird, wähle ein feindliches Modell innerhalb von 12'' um den Psioniker, das für ihn sichtbar ist. Bis zum Beginn der nächsten Psiphase verbesserst du den Durchschlagswert aller Waffen, die dieses Modell zum Ziel haben, um 1 (eine Waffe mit DS 0 hätte dann beispielsweise DS -1).",
+    "Commander": true
+  }
+]

@@ -1,0 +1,7 @@
+﻿
+ALTER TABLE Equipes
+  ADD Position INTEGER DEFAULT (0) NOT NULL;
+    
+ALTER TABLE Membres
+  ADD Position INTEGER DEFAULT (0) NOT NULL;
+

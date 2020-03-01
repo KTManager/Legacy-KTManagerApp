@@ -1,0 +1,41 @@
+[
+  {
+    "Id": "39",
+    "ModelProfileId": "AABDW",
+    "WarpCharge": 5,
+    "Dices": 1,
+    "NameEn": "Veil of time",
+    "NameFr": "Voile du temps",
+    "NameDe": "Schleier der Zeit",
+    "DescriptionEn": "If manifested, pick a friendly model within 18\" of the psyker. Until the start of your next Psychic phase, you can re-roll charge rolls and Advance rolls for that model, and they can always \r\nbe chosen to fight in the Hammer of Wrath section of the Fight phase, even if they did not make a charge move that battle round. ",
+    "DescriptionFr": "S'il est manifesté, choisissez une figurine amie à 18\" du psyker. Jusqu'au début de la prochaine phase psychique, vous pouvez relancer ses jets de charge et d'avance, et elle peut toujours être choisie pour combattre pendant la section Marteau de Fureur de la phase de Combat, même si elle n'a pas effectué de mouvement de charge à ce round.",
+    "DescriptionDe": "Wenn die Psikraft manifestiert wird, wählst du ein befreundetes Modell innerhalb von 18'' um den Psioniker. Bis zum Beginn der nächsten Psiphase kannst du Angriffs- und Vorrücken-Würfe für dieses Modell wiederholen und es kann auch dann im Abschnitt Zorniger Ansturm der Nahkampfphase gewählt werden, um zu kämpfen, wenn es in dieser Schlachtrunde keine Angriffsbewegung ausgeführt hat.",
+    "Commander": true
+  },
+  {
+    "Id": "40",
+    "ModelProfileId": "AABDW",
+    "WarpCharge": 6,
+    "Dices": 2,
+    "NameEn": "Might of heroes",
+    "NameFr": "Puissance des héros",
+    "NameDe": "Macht der Helden",
+    "DescriptionEn": "If manifested, pick a friendly model within 12\" of the psyker. Until the start of the next Psychic phase, add 1 to that model's Strength, Toughness and Attacks characteristics.",
+    "DescriptionFr": "S'il est manifesté, choisissez une figurine amie à 12\" du psyker. Jusqu'au début de la prochaine phase psychique, ajoutez 1 à sa Force, son Endurance et ses attaques.",
+    "DescriptionDe": "Wenn die Psikraft manifestiert wird, wähle ein befreundetes Modell innerhalb von 12'' um den Psioniker. Addiere bis zum Beginn der nächsten Psiphase 1 zu den Profilwerten Stärke, Widerstand und Attacken des gewählten Modells.",
+    "Commander": true
+  },
+  {
+    "Id": "41",
+    "ModelProfileId": "AABDW",
+    "WarpCharge": 8,
+    "Dices": 3,
+    "NameEn": "Null zone",
+    "NameFr": "Zone neutre",
+    "NameDe": "Nullzone",
+    "DescriptionEn": "If manifested, then until the start of the next Psychic phase, while they are within 3\" of the psyker, enemy models cannot take invulnerable saves and must halve the result of any Psychic tests (rounding up) that they take.",
+    "DescriptionFr": "S'il est manifesté, alors jusqu'au début de la prochaine phase psychique, les figurines ennemies à 3\" du psyker ne peuvent pas effectuer de sauvegardes invulnrébles et doivent diviser par deux (en arrondissant au supérieur) les résultats des tests Psychiques qu'elles effectuent.",
+    "DescriptionDe": "Wenn die Psikraft manifestiert wird, können feindliche Modelle bis zum Beginn der nächsten Psiphase und solange sie sich innerhalb von 3'' um den Psioniker befinden keine Rettungswürfe ablegen und müssen das Ergebnis von Psitests, die sie ablegen, halbieren (aufgerundet).",
+    "Commander": true
+  }
+]

@@ -1,0 +1,1734 @@
+[
+  {
+    "Id": "HABZ",
+    "NameEn": "Khorne Berzerker",
+    "NameFr": "Khorne Berzerker",
+    "NameDe": "Khorne Berzerker",
+    "KeywordsEn": "CHAOS, KHORNE, INFANTRY, KHORNE BERZERKER",
+    "KeywordsFr": "CHAOS,KHORNE, INFANTERIE, KHORNE BERZERKER",
+    "KeywordsDe": "CHAOS, KHORNE, INFANTERIE, KHORNE BERZERKER",
+    "ModelProfiles": [
+      {
+        "Id": "HABZ1",
+        "Movement": 6,
+        "WeaponSkill": 3,
+        "BallisticSkill": 3,
+        "Strength": 5,
+        "Toughness": 4,
+        "Wounds": 1,
+        "Attacks": "2",
+        "Leadership": 7,
+        "Save": 3,
+        "MaximumNumber": 0,
+        "Cost": 16,
+        "NameEn": "Khorne Berzerker",
+        "NameFr": "Khorne Berzerker",
+        "NameDe": "Khorne Berzerker",
+        "IsCommander": false,
+        "NumberOfKnownPsychics": 0,
+        "NumberOfPsychicsManifestationPerRound": 0,
+        "NumberOfPsychicsDenialPerRound": 0,
+        "WarGearOptions": [
+          {
+            "Id": "356",
+            "MaximumPerTeam": 1,
+            "Operation": "IFU",
+            "Exclusion": null
+          }
+        ],
+        "Specialists": [
+          {
+            "SpecialistId": "CB"
+          },
+          {
+            "SpecialistId": "D"
+          },
+          {
+            "SpecialistId": "V"
+          },
+          {
+            "SpecialistId": "Z"
+          }
+        ],
+        "ModelProfileWeapons": [],
+        "CostOverrides": [],
+        "LevelCosts": []
+      },
+      {
+        "Id": "HABZ2",
+        "Movement": 6,
+        "WeaponSkill": 3,
+        "BallisticSkill": 3,
+        "Strength": 5,
+        "Toughness": 4,
+        "Wounds": 1,
+        "Attacks": "2",
+        "Leadership": 7,
+        "Save": 3,
+        "MaximumNumber": 2,
+        "Cost": 17,
+        "NameEn": "Berzerker Destroyer",
+        "NameFr": "Berzerker Destroyer",
+        "NameDe": "Berzerker Zerstörer",
+        "IsCommander": false,
+        "NumberOfKnownPsychics": 0,
+        "NumberOfPsychicsManifestationPerRound": 0,
+        "NumberOfPsychicsDenialPerRound": 0,
+        "WarGearOptions": [
+          {
+            "Id": "357",
+            "MaximumPerTeam": 0,
+            "Operation": "PB:PP",
+            "Exclusion": null
+          }
+        ],
+        "Specialists": [
+          {
+            "SpecialistId": "CB"
+          },
+          {
+            "SpecialistId": "D"
+          },
+          {
+            "SpecialistId": "V"
+          },
+          {
+            "SpecialistId": "Z"
+          }
+        ],
+        "ModelProfileWeapons": [],
+        "CostOverrides": [],
+        "LevelCosts": []
+      },
+      {
+        "Id": "HABZ3",
+        "Movement": 6,
+        "WeaponSkill": 3,
+        "BallisticSkill": 3,
+        "Strength": 5,
+        "Toughness": 4,
+        "Wounds": 1,
+        "Attacks": "3",
+        "Leadership": 8,
+        "Save": 3,
+        "MaximumNumber": 1,
+        "Cost": 17,
+        "NameEn": "Berzerker Champion",
+        "NameFr": "Berzerker Champion",
+        "NameDe": "Berzerker Champion",
+        "IsCommander": false,
+        "NumberOfKnownPsychics": 0,
+        "NumberOfPsychicsManifestationPerRound": 0,
+        "NumberOfPsychicsDenialPerRound": 0,
+        "WarGearOptions": [
+          {
+            "Id": "358",
+            "MaximumPerTeam": 0,
+            "Operation": "PB&EPT:(((PB|HACHAX|EPT|LCL|PP|PAX|GEN|MAE|EPE1)&!(PB|HACHAX|EPT|PP|PAX|GEN|MAE|EPE1))|LCL2)|(PB|HACHAX|EPT|LCL|PP|PAX|GEN|MAE|EPE1)&(BO|COB|COL|COF|COP)",
+            "Exclusion": null
+          }
+        ],
+        "Specialists": [
+          {
+            "SpecialistId": "CB"
+          },
+          {
+            "SpecialistId": "D"
+          },
+          {
+            "SpecialistId": "L"
+          },
+          {
+            "SpecialistId": "V"
+          },
+          {
+            "SpecialistId": "Z"
+          }
+        ],
+        "ModelProfileWeapons": [],
+        "CostOverrides": [
+          {
+            "WeaponId": "COB",
+            "Cost": 4
+          }
+        ],
+        "LevelCosts": []
+      }
+    ],
+    "ModelWeapons": [
+      {
+        "WeaponId": "EPT"
+      },
+      {
+        "WeaponId": "GF"
+      },
+      {
+        "WeaponId": "GK"
+      },
+      {
+        "WeaponId": "PB"
+      }
+    ],
+    "WarGearOptions": [
+      {
+        "Id": "354",
+        "MaximumPerTeam": 0,
+        "Operation": "EPT|PB:HACHAX",
+        "Exclusion": null
+      }
+    ]
+  },
+  {
+    "Id": "HAC",
+    "NameEn": "Chaos Cultist",
+    "NameFr": "Chaos Cultist",
+    "NameDe": "Chaos Cultist",
+    "KeywordsEn": "CHAOS, <MARK OF CHAOS>, INFANTRY, CHAOS CULTIST",
+    "KeywordsFr": "CHAOS,<MARQUE DU CHAOS>, INFANTERIE, CHAOS CULTIST",
+    "KeywordsDe": "CHAOS, <MAL DES CHAOS>, INFANTERIE, CHAOS CULTIST",
+    "ModelProfiles": [
+      {
+        "Id": "HAC1",
+        "Movement": 6,
+        "WeaponSkill": 4,
+        "BallisticSkill": 4,
+        "Strength": 3,
+        "Toughness": 3,
+        "Wounds": 1,
+        "Attacks": "1",
+        "Leadership": 5,
+        "Save": 6,
+        "MaximumNumber": 0,
+        "Cost": 4,
+        "NameEn": "Chaos Cultist",
+        "NameFr": "Chaos Cultist",
+        "NameDe": "Chaos Cultist",
+        "IsCommander": false,
+        "NumberOfKnownPsychics": 0,
+        "NumberOfPsychicsManifestationPerRound": 0,
+        "NumberOfPsychicsDenialPerRound": 0,
+        "WarGearOptions": [
+          {
+            "Id": "41",
+            "MaximumPerTeam": 0,
+            "Operation": "FUA:PMI&AAB",
+            "Exclusion": null
+          }
+        ],
+        "Specialists": [
+          {
+            "SpecialistId": "CB"
+          },
+          {
+            "SpecialistId": "D"
+          },
+          {
+            "SpecialistId": "V"
+          },
+          {
+            "SpecialistId": "Z"
+          }
+        ],
+        "ModelProfileWeapons": [],
+        "CostOverrides": [],
+        "LevelCosts": []
+      },
+      {
+        "Id": "HAC2",
+        "Movement": 6,
+        "WeaponSkill": 4,
+        "BallisticSkill": 4,
+        "Strength": 3,
+        "Toughness": 3,
+        "Wounds": 1,
+        "Attacks": "1",
+        "Leadership": 5,
+        "Save": 6,
+        "MaximumNumber": 2,
+        "Cost": 5,
+        "NameEn": "Chaos Cultist Gunner",
+        "NameFr": "Chaos Cultist Gunner",
+        "NameDe": "Chaos Cultist Gunner",
+        "IsCommander": false,
+        "NumberOfKnownPsychics": 0,
+        "NumberOfPsychicsManifestationPerRound": 0,
+        "NumberOfPsychicsDenialPerRound": 0,
+        "WarGearOptions": [
+          {
+            "Id": "43",
+            "MaximumPerTeam": 0,
+            "Operation": "FUA:LF|MTI",
+            "Exclusion": null
+          }
+        ],
+        "Specialists": [
+          {
+            "SpecialistId": "AL"
+          },
+          {
+            "SpecialistId": "CB"
+          },
+          {
+            "SpecialistId": "D"
+          },
+          {
+            "SpecialistId": "V"
+          },
+          {
+            "SpecialistId": "Z"
+          }
+        ],
+        "ModelProfileWeapons": [],
+        "CostOverrides": [],
+        "LevelCosts": []
+      },
+      {
+        "Id": "HAC3",
+        "Movement": 6,
+        "WeaponSkill": 4,
+        "BallisticSkill": 4,
+        "Strength": 3,
+        "Toughness": 3,
+        "Wounds": 1,
+        "Attacks": "2",
+        "Leadership": 6,
+        "Save": 6,
+        "MaximumNumber": 1,
+        "Cost": 5,
+        "NameEn": "Chaos Champion",
+        "NameFr": "Chaos Champion",
+        "NameDe": "Chaos Champion",
+        "IsCommander": false,
+        "NumberOfKnownPsychics": 0,
+        "NumberOfPsychicsManifestationPerRound": 0,
+        "NumberOfPsychicsDenialPerRound": 0,
+        "WarGearOptions": [
+          {
+            "Id": "44",
+            "MaximumPerTeam": 0,
+            "Operation": "FUA:FP|(AAB&PMI)",
+            "Exclusion": null
+          }
+        ],
+        "Specialists": [
+          {
+            "SpecialistId": "CB"
+          },
+          {
+            "SpecialistId": "D"
+          },
+          {
+            "SpecialistId": "L"
+          },
+          {
+            "SpecialistId": "V"
+          },
+          {
+            "SpecialistId": "Z"
+          }
+        ],
+        "ModelProfileWeapons": [],
+        "CostOverrides": [],
+        "LevelCosts": []
+      }
+    ],
+    "ModelWeapons": [
+      {
+        "WeaponId": "FUA"
+      }
+    ],
+    "WarGearOptions": []
+  },
+  {
+    "Id": "HADA",
+    "NameEn": "Dark Apostle",
+    "NameFr": "Dark Apostle",
+    "NameDe": "Dark Apostle",
+    "KeywordsEn": "CHAOS, <MARK OF CHAOS>, COMMANDER, INFANTRY, DARK APOSTLE (Dark Disciple is CHAOS, <MARK OF CHAOS>, INFANTRY, DARK DISCIPLE)",
+    "KeywordsFr": "CHAOS, <MARK OF CHAOS>, COMMANDER, INFANTRY, DARK APOSTLE (Dark Discipline is CHAOS, <MARK OF CHAOS>, INFANTRY, DARK DISCIPLE)",
+    "KeywordsDe": "CHAOS, <MAL DES CHAOS>, KOMMANDEUR, INFANTERIE, DARK APOSTLE (Dark Disciple: CHAOS, <MAL DES CHAOS>, INFANTERIE, DARK DISCIPLE)",
+    "ModelProfiles": [
+      {
+        "Id": "HADA",
+        "Movement": 6,
+        "WeaponSkill": 2,
+        "BallisticSkill": 3,
+        "Strength": 4,
+        "Toughness": 4,
+        "Wounds": 4,
+        "Attacks": "3",
+        "Leadership": 9,
+        "Save": 3,
+        "MaximumNumber": 1,
+        "Cost": 49,
+        "NameEn": "Dark Apostle",
+        "NameFr": "Dark Apostle",
+        "NameDe": "Dark Apostle",
+        "IsCommander": true,
+        "NumberOfKnownPsychics": 0,
+        "NumberOfPsychicsManifestationPerRound": 0,
+        "NumberOfPsychicsDenialPerRound": 0,
+        "WarGearOptions": [
+          {
+            "Id": "380",
+            "MaximumPerTeam": 0,
+            "Operation": "PB:COB|COL|COF|COP|PP",
+            "Exclusion": null
+          }
+        ],
+        "Specialists": [
+          {
+            "SpecialistId": "F"
+          },
+          {
+            "SpecialistId": "FE"
+          },
+          {
+            "SpecialistId": "FR"
+          },
+          {
+            "SpecialistId": "LE"
+          },
+          {
+            "SpecialistId": "ME"
+          }
+        ],
+        "ModelProfileWeapons": [],
+        "CostOverrides": [
+          {
+            "WeaponId": "MAE",
+            "Cost": 0
+          },
+          {
+            "WeaponId": "PB",
+            "Cost": 0
+          },
+          {
+            "WeaponId": "COB",
+            "Cost": 4
+          },
+          {
+            "WeaponId": "COL",
+            "Cost": 12
+          },
+          {
+            "WeaponId": "COF",
+            "Cost": 14
+          },
+          {
+            "WeaponId": "COP",
+            "Cost": 12
+          },
+          {
+            "WeaponId": "PP",
+            "Cost": 4
+          }
+        ],
+        "LevelCosts": [
+          {
+            "Level": 1,
+            "Cost": 49
+          },
+          {
+            "Level": 2,
+            "Cost": 64
+          },
+          {
+            "Level": 3,
+            "Cost": 79
+          },
+          {
+            "Level": 4,
+            "Cost": 104
+          }
+        ]
+      },
+      {
+        "Id": "HADD",
+        "Movement": 6,
+        "WeaponSkill": 4,
+        "BallisticSkill": 5,
+        "Strength": 3,
+        "Toughness": 3,
+        "Wounds": 1,
+        "Attacks": "1",
+        "Leadership": 6,
+        "Save": 5,
+        "MaximumNumber": 2,
+        "Cost": 4,
+        "NameEn": "Dark Disciple",
+        "NameFr": "Dark Disciple",
+        "NameDe": "Dark Disciple",
+        "IsCommander": false,
+        "NumberOfKnownPsychics": 0,
+        "NumberOfPsychicsManifestationPerRound": 0,
+        "NumberOfPsychicsDenialPerRound": 0,
+        "WarGearOptions": [],
+        "Specialists": [
+          {
+            "SpecialistId": "F"
+          },
+          {
+            "SpecialistId": "FE"
+          },
+          {
+            "SpecialistId": "FR"
+          },
+          {
+            "SpecialistId": "LE"
+          },
+          {
+            "SpecialistId": "ME"
+          }
+        ],
+        "ModelProfileWeapons": [],
+        "CostOverrides": [
+          {
+            "WeaponId": "PB",
+            "Cost": 0
+          },
+          {
+            "WeaponId": "MAE",
+            "Cost": 0
+          }
+        ],
+        "LevelCosts": []
+      }
+    ],
+    "ModelWeapons": [
+      {
+        "WeaponId": "GF"
+      },
+      {
+        "WeaponId": "GK"
+      },
+      {
+        "WeaponId": "MAE"
+      },
+      {
+        "WeaponId": "PB"
+      }
+    ],
+    "WarGearOptions": []
+  },
+  {
+    "Id": "HAE",
+    "NameEn": "Exalted Champion",
+    "NameFr": "Exalted Champion",
+    "NameDe": "Exalted Champion",
+    "KeywordsEn": "CHAOS, <MARK OF CHAOS>, COMMANDER, INFANTRY, EXALTED CHAMPION",
+    "KeywordsFr": "CHAOS, <MARK OF CHAOS>, COMMANDANT, INFANTERIE, EXALTED CHAMPION",
+    "KeywordsDe": "CHAOS, <MAL DES CHAOS>, KOMMANDEUR, INFANTERIE, EXALTED CHAMPION",
+    "ModelProfiles": [
+      {
+        "Id": "HAE",
+        "Movement": 6,
+        "WeaponSkill": 2,
+        "BallisticSkill": 3,
+        "Strength": 4,
+        "Toughness": 4,
+        "Wounds": 4,
+        "Attacks": "4",
+        "Leadership": 8,
+        "Save": 3,
+        "MaximumNumber": 1,
+        "Cost": 30,
+        "NameEn": "Exalted Champion",
+        "NameFr": "Exalted Champion",
+        "NameDe": "Exalted Champion",
+        "IsCommander": true,
+        "NumberOfKnownPsychics": 0,
+        "NumberOfPsychicsManifestationPerRound": 0,
+        "NumberOfPsychicsDenialPerRound": 0,
+        "WarGearOptions": [
+          {
+            "Id": "212",
+            "MaximumPerTeam": 0,
+            "Operation": "BO",
+            "Exclusion": null
+          },
+          {
+            "Id": "213",
+            "MaximumPerTeam": 0,
+            "Operation": "PB:PP",
+            "Exclusion": null
+          },
+          {
+            "Id": "214",
+            "MaximumPerTeam": 0,
+            "Operation": "EPT:PAX|GEN|EPE",
+            "Exclusion": null
+          }
+        ],
+        "Specialists": [
+          {
+            "SpecialistId": "F"
+          },
+          {
+            "SpecialistId": "FE"
+          },
+          {
+            "SpecialistId": "FR"
+          },
+          {
+            "SpecialistId": "LE"
+          },
+          {
+            "SpecialistId": "LH"
+          },
+          {
+            "SpecialistId": "LO"
+          },
+          {
+            "SpecialistId": "ME"
+          },
+          {
+            "SpecialistId": "SE"
+          },
+          {
+            "SpecialistId": "SH"
+          },
+          {
+            "SpecialistId": "ST"
+          }
+        ],
+        "ModelProfileWeapons": [
+          {
+            "WeaponId": "EPT"
+          },
+          {
+            "WeaponId": "GF"
+          },
+          {
+            "WeaponId": "GK"
+          },
+          {
+            "WeaponId": "PB"
+          }
+        ],
+        "CostOverrides": [
+          {
+            "WeaponId": "PP",
+            "Cost": 4
+          },
+          {
+            "WeaponId": "GEN",
+            "Cost": 12
+          },
+          {
+            "WeaponId": "EPE",
+            "Cost": 4
+          },
+          {
+            "WeaponId": "PAX",
+            "Cost": 5
+          }
+        ],
+        "LevelCosts": [
+          {
+            "Level": 1,
+            "Cost": 30
+          },
+          {
+            "Level": 2,
+            "Cost": 35
+          },
+          {
+            "Level": 3,
+            "Cost": 50
+          },
+          {
+            "Level": 4,
+            "Cost": 70
+          }
+        ]
+      }
+    ],
+    "ModelWeapons": [],
+    "WarGearOptions": []
+  },
+  {
+    "Id": "HAEX",
+    "NameEn": "Master of Executions",
+    "NameFr": "Master of Executions",
+    "NameDe": "Master of Executions",
+    "KeywordsEn": "CHAOS, <MARK OF CHAOS>, COMMANDER, INFANTRY, MASTER OF EXECUTIONS",
+    "KeywordsFr": "CHAOS, <MARK OF CHAOS>, COMMANDER, INFANTRY, MASTER OF EXECUTIONS",
+    "KeywordsDe": "CHAOS, <MAL DES CHAOS>, KOMMANDEUR, INFANTERIE, MASTER OF EXECUTIONS",
+    "ModelProfiles": [
+      {
+        "Id": "HAEX",
+        "Movement": 6,
+        "WeaponSkill": 2,
+        "BallisticSkill": 3,
+        "Strength": 4,
+        "Toughness": 4,
+        "Wounds": 4,
+        "Attacks": "4",
+        "Leadership": 8,
+        "Save": 3,
+        "MaximumNumber": 1,
+        "Cost": 71,
+        "NameEn": "Master of Executions",
+        "NameFr": "Master of Executions",
+        "NameDe": "Master of Executions",
+        "IsCommander": true,
+        "NumberOfKnownPsychics": 0,
+        "NumberOfPsychicsManifestationPerRound": 0,
+        "NumberOfPsychicsDenialPerRound": 0,
+        "WarGearOptions": [],
+        "Specialists": [
+          {
+            "SpecialistId": "F"
+          },
+          {
+            "SpecialistId": "FE"
+          },
+          {
+            "SpecialistId": "FR"
+          },
+          {
+            "SpecialistId": "ME"
+          }
+        ],
+        "ModelProfileWeapons": [],
+        "CostOverrides": [],
+        "LevelCosts": [
+          {
+            "Level": 1,
+            "Cost": 71
+          },
+          {
+            "Level": 2,
+            "Cost": 91
+          },
+          {
+            "Level": 3,
+            "Cost": 111
+          },
+          {
+            "Level": 4,
+            "Cost": 136
+          }
+        ]
+      }
+    ],
+    "ModelWeapons": [
+      {
+        "WeaponId": "GF"
+      },
+      {
+        "WeaponId": "GK"
+      },
+      {
+        "WeaponId": "HAAOD"
+      },
+      {
+        "WeaponId": "PB"
+      }
+    ],
+    "WarGearOptions": []
+  },
+  {
+    "Id": "HAGP",
+    "NameEn": "Greater Possessed",
+    "NameFr": "Greater Possessed",
+    "NameDe": "Greater Possessed",
+    "KeywordsEn": "CHAOS, <MARK OF CHAOS>, COMMANDER, INFANTRY, DAEMON, GREATER POSSESSED",
+    "KeywordsFr": "CHAOS, <MARQUE DU CHAOS>, COMMANDANT, INFANTERIE, DAEMON, GREATER POSSESSED",
+    "KeywordsDe": "CHAOS, <MAL DES CHAOS>, KOMMANDEUR, INFANTERIE, DAEMON, GREATER POSSESSED",
+    "ModelProfiles": [
+      {
+        "Id": "HAGP",
+        "Movement": 7,
+        "WeaponSkill": 2,
+        "BallisticSkill": 3,
+        "Strength": 5,
+        "Toughness": 5,
+        "Wounds": 5,
+        "Attacks": "5",
+        "Leadership": 8,
+        "Save": 3,
+        "MaximumNumber": 1,
+        "Cost": 80,
+        "NameEn": "Greater Possessed",
+        "NameFr": "Greater Possessed",
+        "NameDe": "Greater Possessed",
+        "IsCommander": true,
+        "NumberOfKnownPsychics": 0,
+        "NumberOfPsychicsManifestationPerRound": 0,
+        "NumberOfPsychicsDenialPerRound": 0,
+        "WarGearOptions": [],
+        "Specialists": [
+          {
+            "SpecialistId": "F"
+          },
+          {
+            "SpecialistId": "FE"
+          },
+          {
+            "SpecialistId": "FR"
+          },
+          {
+            "SpecialistId": "ME"
+          }
+        ],
+        "ModelProfileWeapons": [],
+        "CostOverrides": [],
+        "LevelCosts": [
+          {
+            "Level": 1,
+            "Cost": 80
+          },
+          {
+            "Level": 2,
+            "Cost": 100
+          },
+          {
+            "Level": 3,
+            "Cost": 120
+          },
+          {
+            "Level": 4,
+            "Cost": 145
+          }
+        ]
+      }
+    ],
+    "ModelWeapons": [
+      {
+        "WeaponId": "HADM"
+      }
+    ],
+    "WarGearOptions": []
+  },
+  {
+    "Id": "HALT",
+    "NameEn": "Chaos Lord in Terminator Armour",
+    "NameFr": "Chaos Lord en Armure Terminator",
+    "NameDe": "Chaos Lord in Terminatorrüstung",
+    "KeywordsEn": "CHAOS, <MARK OF CHAOS>, COMMANDER, INFANTRY, TERMINATOR, CHAOS LORD",
+    "KeywordsFr": "CHAOS, <MARK OF CHAOS>, COMMANDER, INFANTRY, TERMINATOR, CHAOS LORD",
+    "KeywordsDe": "CHAOS, <MAL DES CHAOS>, KOMMANDEUR, INFANTERIE, TERMINATOR, CHAOS LORD",
+    "ModelProfiles": [
+      {
+        "Id": "HALT",
+        "Movement": 5,
+        "WeaponSkill": 2,
+        "BallisticSkill": 2,
+        "Strength": 4,
+        "Toughness": 4,
+        "Wounds": 6,
+        "Attacks": "4",
+        "Leadership": 9,
+        "Save": 2,
+        "MaximumNumber": 1,
+        "Cost": 80,
+        "NameEn": "Chaos Lord in Terminator Armour",
+        "NameFr": "Chaos Lord en Armure Terminator",
+        "NameDe": "Chaos Lord in Terminatorrüstung",
+        "IsCommander": true,
+        "NumberOfKnownPsychics": 0,
+        "NumberOfPsychicsManifestationPerRound": 0,
+        "NumberOfPsychicsDenialPerRound": 0,
+        "WarGearOptions": [],
+        "Specialists": [
+          {
+            "SpecialistId": "F"
+          },
+          {
+            "SpecialistId": "FE"
+          },
+          {
+            "SpecialistId": "FR"
+          },
+          {
+            "SpecialistId": "LE"
+          },
+          {
+            "SpecialistId": "LO"
+          },
+          {
+            "SpecialistId": "ME"
+          },
+          {
+            "SpecialistId": "SH"
+          },
+          {
+            "SpecialistId": "ST"
+          }
+        ],
+        "ModelProfileWeapons": [],
+        "CostOverrides": [
+          {
+            "WeaponId": "CHF",
+            "Cost": 13
+          },
+          {
+            "WeaponId": "LCL",
+            "Cost": 4
+          },
+          {
+            "WeaponId": "LCL2",
+            "Cost": 8
+          },
+          {
+            "WeaponId": "COB",
+            "Cost": 0
+          }
+        ],
+        "LevelCosts": [
+          {
+            "Level": 1,
+            "Cost": 80
+          },
+          {
+            "Level": 2,
+            "Cost": 100
+          },
+          {
+            "Level": 3,
+            "Cost": 120
+          },
+          {
+            "Level": 4,
+            "Cost": 145
+          }
+        ]
+      }
+    ],
+    "ModelWeapons": [
+      {
+        "WeaponId": "COB"
+      },
+      {
+        "WeaponId": "EPE1"
+      }
+    ],
+    "WarGearOptions": [
+      {
+        "Id": "383",
+        "MaximumPerTeam": 0,
+        "Operation": "COB:COL|COF|COP|CHF|LCL|PAX|GEN|MAE|EPE1",
+        "Exclusion": null
+      },
+      {
+        "Id": "384",
+        "MaximumPerTeam": 0,
+        "Operation": "EPE1:CHF|LCL|PAX|MAE",
+        "Exclusion": null
+      }
+    ]
+  },
+  {
+    "Id": "HAM",
+    "NameEn": "Chaos Space Marine",
+    "NameFr": "Chaos Space Marine",
+    "NameDe": "Chaos Space Marine",
+    "KeywordsEn": "CHAOS, <MARK OF CHAOS>, INFANTRY, CHAOS SPACE MARINE",
+    "KeywordsFr": "CHAOS,<MARQUE DU CHAOS>, INFANTERIE, CHAOS SPACE MARINE",
+    "KeywordsDe": "CHAOS, <MAL DES CHAOS>, INFANTERIE, CHAOS SPACE MARINE",
+    "ModelProfiles": [
+      {
+        "Id": "HAM1",
+        "Movement": 6,
+        "WeaponSkill": 3,
+        "BallisticSkill": 3,
+        "Strength": 4,
+        "Toughness": 4,
+        "Wounds": 1,
+        "Attacks": "1",
+        "Leadership": 7,
+        "Save": 3,
+        "MaximumNumber": 0,
+        "Cost": 12,
+        "NameEn": "Chaos Space Marine",
+        "NameFr": "Chaos Space Marine",
+        "NameDe": "Chaos Space Marine",
+        "IsCommander": false,
+        "NumberOfKnownPsychics": 0,
+        "NumberOfPsychicsManifestationPerRound": 0,
+        "NumberOfPsychicsDenialPerRound": 0,
+        "WarGearOptions": [
+          {
+            "Id": "45",
+            "MaximumPerTeam": 0,
+            "Operation": "BO:EPT",
+            "Exclusion": null
+          },
+          {
+            "Id": "47",
+            "MaximumPerTeam": 1,
+            "Operation": "IFU|IFL|IDE|IEX|IVE",
+            "Exclusion": null
+          }
+        ],
+        "Specialists": [
+          {
+            "SpecialistId": "CB"
+          },
+          {
+            "SpecialistId": "D"
+          },
+          {
+            "SpecialistId": "SN"
+          },
+          {
+            "SpecialistId": "V"
+          },
+          {
+            "SpecialistId": "Z"
+          }
+        ],
+        "ModelProfileWeapons": [],
+        "CostOverrides": [],
+        "LevelCosts": []
+      },
+      {
+        "Id": "HAM2",
+        "Movement": 6,
+        "WeaponSkill": 3,
+        "BallisticSkill": 3,
+        "Strength": 4,
+        "Toughness": 4,
+        "Wounds": 1,
+        "Attacks": "1",
+        "Leadership": 7,
+        "Save": 3,
+        "MaximumNumber": 2,
+        "Cost": 13,
+        "NameEn": "Chaos Space Marine Gunner",
+        "NameFr": "Chaos Space Marine Gunner",
+        "NameDe": "Chaos Space Marine Gunner",
+        "IsCommander": false,
+        "NumberOfKnownPsychics": 0,
+        "NumberOfPsychicsManifestationPerRound": 0,
+        "NumberOfPsychicsDenialPerRound": 0,
+        "WarGearOptions": [
+          {
+            "Id": "48",
+            "MaximumPerTeam": 1,
+            "Operation": "BO:LF|FU|PLA",
+            "Exclusion": null
+          },
+          {
+            "Id": "49",
+            "MaximumPerTeam": 1,
+            "Operation": "BO:BOL",
+            "Exclusion": null
+          }
+        ],
+        "Specialists": [
+          {
+            "SpecialistId": "AL"
+          },
+          {
+            "SpecialistId": "CB"
+          },
+          {
+            "SpecialistId": "D"
+          },
+          {
+            "SpecialistId": "SN"
+          },
+          {
+            "SpecialistId": "V"
+          },
+          {
+            "SpecialistId": "Z"
+          }
+        ],
+        "ModelProfileWeapons": [],
+        "CostOverrides": [],
+        "LevelCosts": []
+      },
+      {
+        "Id": "HAM3",
+        "Movement": 6,
+        "WeaponSkill": 3,
+        "BallisticSkill": 3,
+        "Strength": 4,
+        "Toughness": 4,
+        "Wounds": 1,
+        "Attacks": "2",
+        "Leadership": 8,
+        "Save": 3,
+        "MaximumNumber": 1,
+        "Cost": 13,
+        "NameEn": "Aspiring Champion",
+        "NameFr": "Aspiring Champion",
+        "NameDe": "Aspiring Champion",
+        "IsCommander": false,
+        "NumberOfKnownPsychics": 0,
+        "NumberOfPsychicsManifestationPerRound": 0,
+        "NumberOfPsychicsDenialPerRound": 0,
+        "WarGearOptions": [
+          {
+            "Id": "50",
+            "MaximumPerTeam": 0,
+            "Operation": "PB:PP",
+            "Exclusion": null
+          },
+          {
+            "Id": "51",
+            "MaximumPerTeam": 0,
+            "Operation": "BO:EPT|EPE|GEN",
+            "Exclusion": null
+          }
+        ],
+        "Specialists": [
+          {
+            "SpecialistId": "CB"
+          },
+          {
+            "SpecialistId": "D"
+          },
+          {
+            "SpecialistId": "L"
+          },
+          {
+            "SpecialistId": "SN"
+          },
+          {
+            "SpecialistId": "V"
+          },
+          {
+            "SpecialistId": "Z"
+          }
+        ],
+        "ModelProfileWeapons": [],
+        "CostOverrides": [],
+        "LevelCosts": []
+      }
+    ],
+    "ModelWeapons": [
+      {
+        "WeaponId": "BO"
+      },
+      {
+        "WeaponId": "GF"
+      },
+      {
+        "WeaponId": "GK"
+      },
+      {
+        "WeaponId": "PB"
+      }
+    ],
+    "WarGearOptions": []
+  },
+  {
+    "Id": "HAMP",
+    "NameEn": "Master of Possessions",
+    "NameFr": "Master of Possessions",
+    "NameDe": "Master of Possessions",
+    "KeywordsEn": "CHAOS, <MARK OF CHAOS>, COMMANDER, INFANTRY, PSYKER, MASTER OF POSSESSION",
+    "KeywordsFr": "CHAOS, <MARK OF CHAOS>, COMMANDER, INFANTRY, PSYKER, MASTER OF POSSESSION",
+    "KeywordsDe": "CHAOS, <MAL DES CHAOS>, KOMMANDEUR, INFANTERIE, PSIONIKER, MASTER OF POSSESSION",
+    "ModelProfiles": [
+      {
+        "Id": "HAMP",
+        "Movement": 6,
+        "WeaponSkill": 3,
+        "BallisticSkill": 3,
+        "Strength": 4,
+        "Toughness": 4,
+        "Wounds": 4,
+        "Attacks": "3",
+        "Leadership": 9,
+        "Save": 3,
+        "MaximumNumber": 1,
+        "Cost": 68,
+        "NameEn": "Master of Possession",
+        "NameFr": "Master of Possession",
+        "NameDe": "Master of Possession",
+        "IsCommander": true,
+        "NumberOfKnownPsychics": 2,
+        "NumberOfPsychicsManifestationPerRound": 2,
+        "NumberOfPsychicsDenialPerRound": 1,
+        "WarGearOptions": [],
+        "Specialists": [
+          {
+            "SpecialistId": "F"
+          },
+          {
+            "SpecialistId": "FR"
+          },
+          {
+            "SpecialistId": "LE"
+          },
+          {
+            "SpecialistId": "ME"
+          },
+          {
+            "SpecialistId": "P"
+          }
+        ],
+        "ModelProfileWeapons": [],
+        "CostOverrides": [],
+        "LevelCosts": [
+          {
+            "Level": 1,
+            "Cost": 68
+          },
+          {
+            "Level": 2,
+            "Cost": 88
+          },
+          {
+            "Level": 3,
+            "Cost": 108
+          },
+          {
+            "Level": 4,
+            "Cost": 133
+          }
+        ]
+      }
+    ],
+    "ModelWeapons": [
+      {
+        "WeaponId": "GF"
+      },
+      {
+        "WeaponId": "GK"
+      },
+      {
+        "WeaponId": "PB"
+      },
+      {
+        "WeaponId": "SCF"
+      }
+    ],
+    "WarGearOptions": []
+  },
+  {
+    "Id": "HAPO",
+    "NameEn": "Possessed",
+    "NameFr": "Possessed",
+    "NameDe": "Possessed",
+    "KeywordsEn": "CHAOS, <MARK OF CHAOS>, INFANTRY, DEMON, POSSESSED",
+    "KeywordsFr": "CHAOS, <MARK OF CHAOS>, INFANTRY, DEMON, POSSESSED",
+    "KeywordsDe": "CHAOS, <MAL DES CHAOS>, INFANTERIE, DAEMON, POSSESSED",
+    "ModelProfiles": [
+      {
+        "Id": "HAPO",
+        "Movement": 7,
+        "WeaponSkill": 3,
+        "BallisticSkill": 3,
+        "Strength": 5,
+        "Toughness": 4,
+        "Wounds": 2,
+        "Attacks": "D3",
+        "Leadership": 8,
+        "Save": 3,
+        "MaximumNumber": 0,
+        "Cost": 20,
+        "NameEn": "Possessed",
+        "NameFr": "Possessed",
+        "NameDe": "Possessed",
+        "IsCommander": false,
+        "NumberOfKnownPsychics": 0,
+        "NumberOfPsychicsManifestationPerRound": 0,
+        "NumberOfPsychicsDenialPerRound": 0,
+        "WarGearOptions": [],
+        "Specialists": [
+          {
+            "SpecialistId": "CB"
+          },
+          {
+            "SpecialistId": "L"
+          },
+          {
+            "SpecialistId": "SE"
+          },
+          {
+            "SpecialistId": "V"
+          },
+          {
+            "SpecialistId": "Z"
+          }
+        ],
+        "ModelProfileWeapons": [],
+        "CostOverrides": [],
+        "LevelCosts": []
+      }
+    ],
+    "ModelWeapons": [
+      {
+        "WeaponId": "HAHORM"
+      }
+    ],
+    "WarGearOptions": []
+  },
+  {
+    "Id": "HAS",
+    "NameEn": "Sorcerer",
+    "NameFr": "Sorcerer",
+    "NameDe": "Sorcerer",
+    "KeywordsEn": "CHAOS, <MARK OF CHAOS>, COMMANDER, INFANTRY, PSYKER, SORCERER",
+    "KeywordsFr": "CHAOS, <MARK OF CHAOS>, COMMANDANT, INFANTERIE, PSYKER, SORCERER",
+    "KeywordsDe": "CHAOS, <MAL DES CHAOS>, KOMMANDEUR, INFANTERIE, PSIONIKER, SORCERER",
+    "ModelProfiles": [
+      {
+        "Id": "HAS",
+        "Movement": 6,
+        "WeaponSkill": 3,
+        "BallisticSkill": 3,
+        "Strength": 4,
+        "Toughness": 4,
+        "Wounds": 4,
+        "Attacks": "3",
+        "Leadership": 9,
+        "Save": 3,
+        "MaximumNumber": 1,
+        "Cost": 65,
+        "NameEn": "Sorcerer",
+        "NameFr": "Sorcerer",
+        "NameDe": "Sorcerer",
+        "IsCommander": true,
+        "NumberOfKnownPsychics": 2,
+        "NumberOfPsychicsManifestationPerRound": 2,
+        "NumberOfPsychicsDenialPerRound": 1,
+        "WarGearOptions": [
+          {
+            "Id": "215",
+            "MaximumPerTeam": 0,
+            "Operation": "FS:SCF",
+            "Exclusion": null
+          }
+        ],
+        "Specialists": [
+          {
+            "SpecialistId": "F"
+          },
+          {
+            "SpecialistId": "FE"
+          },
+          {
+            "SpecialistId": "LH"
+          },
+          {
+            "SpecialistId": "ME"
+          },
+          {
+            "SpecialistId": "P"
+          },
+          {
+            "SpecialistId": "SH"
+          }
+        ],
+        "ModelProfileWeapons": [
+          {
+            "WeaponId": "FS"
+          },
+          {
+            "WeaponId": "GF"
+          },
+          {
+            "WeaponId": "GK"
+          },
+          {
+            "WeaponId": "PB"
+          }
+        ],
+        "CostOverrides": [],
+        "LevelCosts": [
+          {
+            "Level": 1,
+            "Cost": 65
+          },
+          {
+            "Level": 2,
+            "Cost": 80
+          },
+          {
+            "Level": 3,
+            "Cost": 95
+          },
+          {
+            "Level": 4,
+            "Cost": 120
+          }
+        ]
+      }
+    ],
+    "ModelWeapons": [],
+    "WarGearOptions": []
+  },
+  {
+    "Id": "HAST",
+    "NameEn": "Sorcerer in Terminator Armour",
+    "NameFr": "Sorcerer en Armure Terminator",
+    "NameDe": "Sorcerer in Terminatorrüstung",
+    "KeywordsEn": "CHAOS, <MARK OF CHAOS>, COMMANDER, INFANTRY, TERMINATOR, PSYKER, SORCERER",
+    "KeywordsFr": "CHAOS, <MARK OF CHAOS>, COMMANDER, INFANTRY, TERMINATOR, PSYKER, SORCERER",
+    "KeywordsDe": "CHAOS, <MARK OF CHAOS>, COMMANDER, INFANTRY, TERMINATOR, PSYKER, SORCERER",
+    "ModelProfiles": [
+      {
+        "Id": "HAST",
+        "Movement": 5,
+        "WeaponSkill": 3,
+        "BallisticSkill": 3,
+        "Strength": 4,
+        "Toughness": 4,
+        "Wounds": 5,
+        "Attacks": "3",
+        "Leadership": 9,
+        "Save": 2,
+        "MaximumNumber": 1,
+        "Cost": 88,
+        "NameEn": "Sorcerer in Terminator Armour",
+        "NameFr": "Sorcerer en Armure Terminator",
+        "NameDe": "Sorcerer in Terminatorrüstung",
+        "IsCommander": true,
+        "NumberOfKnownPsychics": 2,
+        "NumberOfPsychicsManifestationPerRound": 2,
+        "NumberOfPsychicsDenialPerRound": 1,
+        "WarGearOptions": [],
+        "Specialists": [
+          {
+            "SpecialistId": "F"
+          },
+          {
+            "SpecialistId": "FR"
+          },
+          {
+            "SpecialistId": "ME"
+          },
+          {
+            "SpecialistId": "P"
+          },
+          {
+            "SpecialistId": "SH"
+          }
+        ],
+        "ModelProfileWeapons": [],
+        "CostOverrides": [
+          {
+            "WeaponId": "CHF",
+            "Cost": 0
+          },
+          {
+            "WeaponId": "LCL",
+            "Cost": 0
+          },
+          {
+            "WeaponId": "LCL2",
+            "Cost": 0
+          },
+          {
+            "WeaponId": "PAX",
+            "Cost": 0
+          },
+          {
+            "WeaponId": "MAE",
+            "Cost": 0
+          },
+          {
+            "WeaponId": "COB",
+            "Cost": 0
+          }
+        ],
+        "LevelCosts": [
+          {
+            "Level": 1,
+            "Cost": 88
+          },
+          {
+            "Level": 2,
+            "Cost": 108
+          },
+          {
+            "Level": 3,
+            "Cost": 128
+          },
+          {
+            "Level": 4,
+            "Cost": 153
+          }
+        ]
+      }
+    ],
+    "ModelWeapons": [
+      {
+        "WeaponId": "COB"
+      },
+      {
+        "WeaponId": "SCF"
+      }
+    ],
+    "WarGearOptions": [
+      {
+        "Id": "381",
+        "MaximumPerTeam": 0,
+        "Operation": "COB:COL|COF|COP|CHF|LCL|PAX|GEN|MAE|EPE1",
+        "Exclusion": null
+      },
+      {
+        "Id": "382",
+        "MaximumPerTeam": 0,
+        "Operation": "SCF:FS|FA",
+        "Exclusion": null
+      }
+    ]
+  },
+  {
+    "Id": "HATE",
+    "NameEn": "Terminator",
+    "NameFr": "Terminator",
+    "NameDe": "Terminator",
+    "KeywordsEn": "CHAOS, <MARK OF CHAOS>, INFANTRY, TERMINATOR",
+    "KeywordsFr": "CHAOS, <MARK OF CHAOS>, INFANTRY, TERMINATOR",
+    "KeywordsDe": "CHAOS, <MARK OF CHAOS>, INFANTRY, TERMINATOR",
+    "ModelProfiles": [
+      {
+        "Id": "HATE1",
+        "Movement": 5,
+        "WeaponSkill": 3,
+        "BallisticSkill": 3,
+        "Strength": 4,
+        "Toughness": 4,
+        "Wounds": 2,
+        "Attacks": "2",
+        "Leadership": 8,
+        "Save": 2,
+        "MaximumNumber": 0,
+        "Cost": 25,
+        "NameEn": "Terminator",
+        "NameFr": "Terminator",
+        "NameDe": "Terminator",
+        "IsCommander": false,
+        "NumberOfKnownPsychics": 0,
+        "NumberOfPsychicsManifestationPerRound": 0,
+        "NumberOfPsychicsDenialPerRound": 0,
+        "WarGearOptions": [
+          {
+            "Id": "373",
+            "MaximumPerTeam": 0,
+            "Operation": "COB&HACHAX:LCL2",
+            "Exclusion": null
+          },
+          {
+            "Id": "374",
+            "MaximumPerTeam": 1,
+            "Operation": "IFU|IFL|IDE|IEX|IVE",
+            "Exclusion": null
+          }
+        ],
+        "Specialists": [
+          {
+            "SpecialistId": "CB"
+          },
+          {
+            "SpecialistId": "CO"
+          },
+          {
+            "SpecialistId": "D"
+          },
+          {
+            "SpecialistId": "V"
+          }
+        ],
+        "ModelProfileWeapons": [],
+        "CostOverrides": [
+          {
+            "WeaponId": "LCL",
+            "Cost": 1
+          },
+          {
+            "WeaponId": "LCL2",
+            "Cost": 3
+          },
+          {
+            "WeaponId": "COB",
+            "Cost": 4
+          },
+          {
+            "WeaponId": "COF",
+            "Cost": 9
+          },
+          {
+            "WeaponId": "COP",
+            "Cost": 7
+          },
+          {
+            "WeaponId": "COL",
+            "Cost": 5
+          }
+        ],
+        "LevelCosts": []
+      },
+      {
+        "Id": "HATE2",
+        "Movement": 5,
+        "WeaponSkill": 3,
+        "BallisticSkill": 3,
+        "Strength": 4,
+        "Toughness": 4,
+        "Wounds": 2,
+        "Attacks": "2",
+        "Leadership": 8,
+        "Save": 2,
+        "MaximumNumber": 2,
+        "Cost": 26,
+        "NameEn": "Terminator Gunner",
+        "NameFr": "Terminator Gunner",
+        "NameDe": "Terminator Gunner",
+        "IsCommander": false,
+        "NumberOfKnownPsychics": 0,
+        "NumberOfPsychicsManifestationPerRound": 0,
+        "NumberOfPsychicsDenialPerRound": 0,
+        "WarGearOptions": [
+          {
+            "Id": "376",
+            "MaximumPerTeam": 0,
+            "Operation": "COB:CF|CM|CP|HFL|DGRA",
+            "Exclusion": null
+          }
+        ],
+        "Specialists": [
+          {
+            "SpecialistId": "AL"
+          },
+          {
+            "SpecialistId": "CB"
+          },
+          {
+            "SpecialistId": "CO"
+          },
+          {
+            "SpecialistId": "D"
+          },
+          {
+            "SpecialistId": "V"
+          }
+        ],
+        "ModelProfileWeapons": [],
+        "CostOverrides": [
+          {
+            "WeaponId": "LCL",
+            "Cost": 1
+          },
+          {
+            "WeaponId": "LCL2",
+            "Cost": 3
+          },
+          {
+            "WeaponId": "COB",
+            "Cost": 4
+          },
+          {
+            "WeaponId": "COF",
+            "Cost": 9
+          },
+          {
+            "WeaponId": "COP",
+            "Cost": 7
+          },
+          {
+            "WeaponId": "COL",
+            "Cost": 5
+          }
+        ],
+        "LevelCosts": []
+      },
+      {
+        "Id": "HATE3",
+        "Movement": 5,
+        "WeaponSkill": 3,
+        "BallisticSkill": 3,
+        "Strength": 4,
+        "Toughness": 4,
+        "Wounds": 2,
+        "Attacks": "3",
+        "Leadership": 9,
+        "Save": 2,
+        "MaximumNumber": 1,
+        "Cost": 27,
+        "NameEn": "Terminator Champion",
+        "NameFr": "Terminator Champion",
+        "NameDe": "Terminator Champion",
+        "IsCommander": false,
+        "NumberOfKnownPsychics": 0,
+        "NumberOfPsychicsManifestationPerRound": 0,
+        "NumberOfPsychicsDenialPerRound": 0,
+        "WarGearOptions": [
+          {
+            "Id": "377",
+            "MaximumPerTeam": 0,
+            "Operation": "COB&HACHAX:LCL2",
+            "Exclusion": null
+          }
+        ],
+        "Specialists": [
+          {
+            "SpecialistId": "CB"
+          },
+          {
+            "SpecialistId": "CO"
+          },
+          {
+            "SpecialistId": "D"
+          },
+          {
+            "SpecialistId": "L"
+          },
+          {
+            "SpecialistId": "V"
+          }
+        ],
+        "ModelProfileWeapons": [],
+        "CostOverrides": [
+          {
+            "WeaponId": "LCL",
+            "Cost": 1
+          },
+          {
+            "WeaponId": "LCL2",
+            "Cost": 3
+          },
+          {
+            "WeaponId": "COB",
+            "Cost": 4
+          },
+          {
+            "WeaponId": "COF",
+            "Cost": 9
+          },
+          {
+            "WeaponId": "COP",
+            "Cost": 7
+          },
+          {
+            "WeaponId": "COL",
+            "Cost": 5
+          }
+        ],
+        "LevelCosts": []
+      }
+    ],
+    "ModelWeapons": [
+      {
+        "WeaponId": "COB"
+      },
+      {
+        "WeaponId": "HACHAX"
+      }
+    ],
+    "WarGearOptions": [
+      {
+        "Id": "371",
+        "MaximumPerTeam": 0,
+        "Operation": "COB:COL|COF|COP",
+        "Exclusion": null
+      },
+      {
+        "Id": "372",
+        "MaximumPerTeam": 0,
+        "Operation": "HACHAX:CHF|LCL|PAX|GEN|MAE|EPE1",
+        "Exclusion": null
+      }
+    ]
+  }
+]

@@ -1,0 +1,275 @@
+[
+  {
+    "Id": "ACAC",
+    "NameEn": "Allarius Custodian",
+    "NameFr": "Allarius Custodian",
+    "NameDe": "Allarius Custodian",
+    "KeywordsEn": "IMPERIUM, INFANTRY, TERMINATOR, ALLARUS CUSTODIAN",
+    "KeywordsFr": "IMPERIUM, INFANTRY, TERMINATOR, ALLARUS CUSTODIAN",
+    "KeywordsDe": "IMPERIUM, INFANTERIE, TERMINATOR, ALLARUS CUSTODIAN",
+    "ModelProfiles": [
+      {
+        "Id": "ACAC",
+        "Movement": 6,
+        "WeaponSkill": 2,
+        "BallisticSkill": 2,
+        "Strength": 5,
+        "Toughness": 5,
+        "Wounds": 4,
+        "Attacks": "4",
+        "Leadership": 9,
+        "Save": 2,
+        "MaximumNumber": 0,
+        "Cost": 67,
+        "NameEn": "Allarus Custodian",
+        "NameFr": "Allarus Custodian",
+        "NameDe": "Allarus Custodian",
+        "IsCommander": false,
+        "NumberOfKnownPsychics": 0,
+        "NumberOfPsychicsManifestationPerRound": 0,
+        "NumberOfPsychicsDenialPerRound": 0,
+        "WarGearOptions": [],
+        "Specialists": [
+          {
+            "SpecialistId": "CB"
+          },
+          {
+            "SpecialistId": "D"
+          },
+          {
+            "SpecialistId": "L"
+          },
+          {
+            "SpecialistId": "SN"
+          },
+          {
+            "SpecialistId": "V"
+          },
+          {
+            "SpecialistId": "Z"
+          }
+        ],
+        "ModelProfileWeapons": [],
+        "CostOverrides": [
+          {
+            "WeaponId": "BST",
+            "Cost": 0
+          }
+        ],
+        "LevelCosts": []
+      }
+    ],
+    "ModelWeapons": [
+      {
+        "WeaponId": "ACBLGL"
+      },
+      {
+        "WeaponId": "ACCAAX"
+      }
+    ],
+    "WarGearOptions": [
+      {
+        "Id": "302",
+        "MaximumPerTeam": 0,
+        "Operation": "ACCAAX:GSE",
+        "Exclusion": null
+      },
+      {
+        "Id": "303",
+        "MaximumPerTeam": 0,
+        "Operation": "ACMISER",
+        "Exclusion": null
+      }
+    ]
+  },
+  {
+    "Id": "ACCG",
+    "NameEn": "Custodian Guard",
+    "NameFr": "Custodian Guard",
+    "NameDe": "Custodian Guard",
+    "KeywordsEn": "IMPERIUM, INFANTRY, CUSTODIAN GUARD",
+    "KeywordsFr": "IMPERIUM, INFANTRY, CUSTODIAN GUARD",
+    "KeywordsDe": "IMPERIUM, INFANTERIE, CUSTODIAN GUARD",
+    "ModelProfiles": [
+      {
+        "Id": "ACCG",
+        "Movement": 6,
+        "WeaponSkill": 2,
+        "BallisticSkill": 2,
+        "Strength": 5,
+        "Toughness": 5,
+        "Wounds": 3,
+        "Attacks": "3",
+        "Leadership": 8,
+        "Save": 2,
+        "MaximumNumber": 0,
+        "Cost": 33,
+        "NameEn": "Custodian Guard",
+        "NameFr": "Custodian Guard",
+        "NameDe": "Custodian Guard",
+        "IsCommander": false,
+        "NumberOfKnownPsychics": 0,
+        "NumberOfPsychicsManifestationPerRound": 0,
+        "NumberOfPsychicsDenialPerRound": 0,
+        "WarGearOptions": [],
+        "Specialists": [
+          {
+            "SpecialistId": "CB"
+          },
+          {
+            "SpecialistId": "L"
+          },
+          {
+            "SpecialistId": "SC"
+          },
+          {
+            "SpecialistId": "SN"
+          },
+          {
+            "SpecialistId": "V"
+          },
+          {
+            "SpecialistId": "Z"
+          }
+        ],
+        "ModelProfileWeapons": [],
+        "CostOverrides": [
+          {
+            "WeaponId": "BST",
+            "Cost": 0
+          }
+        ],
+        "LevelCosts": []
+      }
+    ],
+    "ModelWeapons": [
+      {
+        "WeaponId": "GSE"
+      }
+    ],
+    "WarGearOptions": [
+      {
+        "Id": "300",
+        "MaximumPerTeam": 0,
+        "Operation": "GSE:ACSLBL&BST",
+        "Exclusion": null
+      },
+      {
+        "Id": "301",
+        "MaximumPerTeam": 0,
+        "Operation": "ACMISER",
+        "Exclusion": null
+      }
+    ]
+  },
+  {
+    "Id": "ACSC",
+    "NameEn": "Shield-captain",
+    "NameFr": "Shield-captain",
+    "NameDe": "Shield-Captain",
+    "KeywordsEn": "IMPERIUM, COMMANDER, INFANTRY, SHIELD-CAPTAIN",
+    "KeywordsFr": "IMPERIUM, COMMANDER, INFANTRY, SHIELD-CAPTAIN",
+    "KeywordsDe": "IMPERIUM, KOMMANDEUR, INFANTERIE, SHIELD-CAPTAIN",
+    "ModelProfiles": [
+      {
+        "Id": "ACSC",
+        "Movement": 6,
+        "WeaponSkill": 2,
+        "BallisticSkill": 2,
+        "Strength": 5,
+        "Toughness": 5,
+        "Wounds": 6,
+        "Attacks": "5",
+        "Leadership": 9,
+        "Save": 2,
+        "MaximumNumber": 1,
+        "Cost": 118,
+        "NameEn": "Shield-Captain",
+        "NameFr": "Shield-captain",
+        "NameDe": "Shield-Captain",
+        "IsCommander": true,
+        "NumberOfKnownPsychics": 0,
+        "NumberOfPsychicsManifestationPerRound": 0,
+        "NumberOfPsychicsDenialPerRound": 0,
+        "WarGearOptions": [],
+        "Specialists": [
+          {
+            "SpecialistId": "F"
+          },
+          {
+            "SpecialistId": "FE"
+          },
+          {
+            "SpecialistId": "FR"
+          },
+          {
+            "SpecialistId": "L"
+          },
+          {
+            "SpecialistId": "LO"
+          },
+          {
+            "SpecialistId": "ME"
+          },
+          {
+            "SpecialistId": "SE"
+          },
+          {
+            "SpecialistId": "SH"
+          },
+          {
+            "SpecialistId": "ST"
+          }
+        ],
+        "ModelProfileWeapons": [],
+        "CostOverrides": [
+          {
+            "WeaponId": "ACMISER",
+            "Cost": 2
+          },
+          {
+            "WeaponId": "BST",
+            "Cost": 15
+          }
+        ],
+        "LevelCosts": [
+          {
+            "Level": 1,
+            "Cost": 118
+          },
+          {
+            "Level": 2,
+            "Cost": 138
+          },
+          {
+            "Level": 3,
+            "Cost": 158
+          },
+          {
+            "Level": 4,
+            "Cost": 183
+          }
+        ]
+      }
+    ],
+    "ModelWeapons": [
+      {
+        "WeaponId": "GSE"
+      }
+    ],
+    "WarGearOptions": [
+      {
+        "Id": "287",
+        "MaximumPerTeam": 0,
+        "Operation": "GSE:ACCAAX|ACSLBL|(ACSLBL&BST)",
+        "Exclusion": null
+      },
+      {
+        "Id": "288",
+        "MaximumPerTeam": 0,
+        "Operation": "ACMISER",
+        "Exclusion": null
+      }
+    ]
+  }
+]

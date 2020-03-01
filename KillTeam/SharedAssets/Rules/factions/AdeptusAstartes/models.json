@@ -1,0 +1,3245 @@
+[
+   {
+      "Id": "AAB",
+      "KeywordsDe": "IMPERIUM, KOMMANDEUR, INFANTERIE, PRIMARIS, PSIONIKER, LIBRARIAN",
+      "KeywordsEn": "IMPERIUM, COMMANDER, INFANTRY, PRIMARIS, PSYKER, LIBRARIAN",
+      "KeywordsFr": "IMPERIUM, COMMANDANT, INFANTERIE, PRIMARIS, PSYKER, LIBRARIAN",
+      "ModelProfiles": [
+         {
+            "Attacks": "4",
+            "BallisticSkill": 3,
+            "Cost": 81,
+            "CostOverrides": [ ],
+            "Id": "AAB",
+            "IsCommander": true,
+            "Leadership": 9,
+            "LevelCosts": [
+               {
+                  "Cost": 81,
+                  "Level": 1
+               },
+               {
+                  "Cost": 101,
+                  "Level": 2
+               },
+               {
+                  "Cost": 121,
+                  "Level": 3
+               },
+               {
+                  "Cost": 146,
+                  "Level": 4
+               }
+            ],
+            "MaximumNumber": 1,
+            "ModelProfileWeapons": [
+               {
+                  "WeaponId": "FS"
+               },
+               {
+                  "WeaponId": "GF"
+               },
+               {
+                  "WeaponId": "GK"
+               },
+               {
+                  "WeaponId": "PB"
+               }
+            ],
+            "Movement": 6,
+            "NameDe": "Primaris Librarian",
+            "NameEn": "Primaris Librarian",
+            "NameFr": "Primaris Librarian",
+            "NumberOfKnownPsychics": 2,
+            "NumberOfPsychicsDenialPerRound": 1,
+            "NumberOfPsychicsManifestationPerRound": 2,
+            "Save": 3,
+            "Specialists": [
+               {
+                  "SpecialistId": "F"
+               },
+               {
+                  "SpecialistId": "FE"
+               },
+               {
+                  "SpecialistId": "LH"
+               },
+               {
+                  "SpecialistId": "ME"
+               },
+               {
+                  "SpecialistId": "P"
+               },
+               {
+                  "SpecialistId": "SH"
+               }
+            ],
+            "Strength": 4,
+            "Toughness": 4,
+            "WarGearOptions": [ ],
+            "WeaponSkill": 3,
+            "Wounds": 5
+         }
+      ],
+      "ModelWeapons": [ ],
+      "NameDe": "Primaris Librarian",
+      "NameEn": "Primaris Librarian",
+      "NameFr": "Primaris Librarian",
+      "WarGearOptions": [ ]
+   },
+   {
+      "Id": "AAC",
+      "KeywordsDe": "IMPERIUM, KOMMANDEUR, INFANTERIE, PRIMARIS, CAPTAIN",
+      "KeywordsEn": "IMPERIUM, COMMANDER, INFANTRY, PRIMARIS, CAPTAIN",
+      "KeywordsFr": "IMPERIUM, COMMANDANT, INFANTERIE, PRIMARIS, CAPTAIN",
+      "ModelProfiles": [
+         {
+            "Attacks": "5",
+            "BallisticSkill": 2,
+            "Cost": 76,
+            "CostOverrides": [
+               {
+                  "Cost": 7,
+                  "WeaponId": "EPE"
+               }
+            ],
+            "Id": "AAC",
+            "IsCommander": true,
+            "Leadership": 9,
+            "LevelCosts": [
+               {
+                  "Cost": 76,
+                  "Level": 1
+               },
+               {
+                  "Cost": 96,
+                  "Level": 2
+               },
+               {
+                  "Cost": 116,
+                  "Level": 3
+               },
+               {
+                  "Cost": 141,
+                  "Level": 4
+               }
+            ],
+            "MaximumNumber": 1,
+            "ModelProfileWeapons": [
+               {
+                  "WeaponId": "FBAM"
+               },
+               {
+                  "WeaponId": "GF"
+               },
+               {
+                  "WeaponId": "GK"
+               },
+               {
+                  "WeaponId": "PB"
+               }
+            ],
+            "Movement": 6,
+            "NameDe": "Primaris Captain",
+            "NameEn": "Primaris Captain",
+            "NameFr": "Primaris Captain",
+            "NumberOfKnownPsychics": 0,
+            "NumberOfPsychicsDenialPerRound": 0,
+            "NumberOfPsychicsManifestationPerRound": 0,
+            "Save": 3,
+            "Specialists": [
+               {
+                  "SpecialistId": "F"
+               },
+               {
+                  "SpecialistId": "FE"
+               },
+               {
+                  "SpecialistId": "FR"
+               },
+               {
+                  "SpecialistId": "LE"
+               },
+               {
+                  "SpecialistId": "LH"
+               },
+               {
+                  "SpecialistId": "LO"
+               },
+               {
+                  "SpecialistId": "ME"
+               },
+               {
+                  "SpecialistId": "SE"
+               },
+               {
+                  "SpecialistId": "SH"
+               },
+               {
+                  "SpecialistId": "ST"
+               }
+            ],
+            "Strength": 4,
+            "Toughness": 4,
+            "WarGearOptions": [
+               {
+                  "Exclusion": null,
+                  "Id": "200",
+                  "MaximumPerTeam": 0,
+                  "Operation": "FBAM:FBSM"
+               },
+               {
+                  "Exclusion": null,
+                  "Id": "201",
+                  "MaximumPerTeam": 0,
+                  "Operation": "EPE"
+               }
+            ],
+            "WeaponSkill": 2,
+            "Wounds": 6
+         }
+      ],
+      "ModelWeapons": [ ],
+      "NameDe": "Primaris Captain",
+      "NameEn": "Primaris Captain",
+      "NameFr": "Primaris Captain",
+      "WarGearOptions": [ ]
+   },
+   {
+      "Id": "AAH",
+      "KeywordsDe": "IMPERIUM, KOMMANDEUR, INFANTERIE, PRIMARIS, CHAPLAIN",
+      "KeywordsEn": "IMPERIUM, COMMANDER, INFANTRY, PRIMARIS, CHAPLAIN",
+      "KeywordsFr": "IMPERIUM, COMMANDANT, INFANTERIE, PRIMARIS, CHAPLAIN",
+      "ModelProfiles": [
+         {
+            "Attacks": "4",
+            "BallisticSkill": 3,
+            "Cost": 63,
+            "CostOverrides": [ ],
+            "Id": "AAH",
+            "IsCommander": true,
+            "Leadership": 9,
+            "LevelCosts": [
+               {
+                  "Cost": 63,
+                  "Level": 1
+               },
+               {
+                  "Cost": 78,
+                  "Level": 2
+               },
+               {
+                  "Cost": 93,
+                  "Level": 3
+               },
+               {
+                  "Cost": 118,
+                  "Level": 4
+               }
+            ],
+            "MaximumNumber": 1,
+            "ModelProfileWeapons": [
+               {
+                  "WeaponId": "CA"
+               },
+               {
+                  "WeaponId": "GF"
+               },
+               {
+                  "WeaponId": "GK"
+               },
+               {
+                  "WeaponId": "PBA"
+               }
+            ],
+            "Movement": 6,
+            "NameDe": "Primaris Chaplain",
+            "NameEn": "Primaris Chaplain",
+            "NameFr": "Primaris Chaplain",
+            "NumberOfKnownPsychics": 0,
+            "NumberOfPsychicsDenialPerRound": 0,
+            "NumberOfPsychicsManifestationPerRound": 0,
+            "Save": 3,
+            "Specialists": [
+               {
+                  "SpecialistId": "F"
+               },
+               {
+                  "SpecialistId": "FE"
+               },
+               {
+                  "SpecialistId": "FR"
+               },
+               {
+                  "SpecialistId": "LE"
+               },
+               {
+                  "SpecialistId": "LH"
+               },
+               {
+                  "SpecialistId": "ME"
+               },
+               {
+                  "SpecialistId": "SH"
+               }
+            ],
+            "Strength": 4,
+            "Toughness": 4,
+            "WarGearOptions": [ ],
+            "WeaponSkill": 2,
+            "Wounds": 5
+         }
+      ],
+      "ModelWeapons": [ ],
+      "NameDe": "Primaris Chaplain",
+      "NameEn": "Primaris Chaplain",
+      "NameFr": "Primaris Chaplain",
+      "WarGearOptions": [ ]
+   },
+   {
+      "Id": "CITA",
+      "KeywordsDe": "IMPERIUM, KOMMANDEUR, INFANTERIE, TERMINATOR, CAPTAIN",
+      "KeywordsEn": "IMPERIUM, COMMANDER, INFANTRY, TERMINATOR, CAPTAIN",
+      "KeywordsFr": "IMPERIUM, COMMANDER, INFANTRY, TERMINATOR, CAPTAIN",
+      "ModelProfiles": [
+         {
+            "Attacks": "4",
+            "BallisticSkill": 2,
+            "Cost": 80,
+            "CostOverrides": [
+               {
+                  "Cost": 0,
+                  "WeaponId": "BOST"
+               },
+               {
+                  "Cost": 15,
+                  "WeaponId": "BST"
+               },
+               {
+                  "Cost": 8,
+                  "WeaponId": "COF"
+               },
+               {
+                  "Cost": 2,
+                  "WeaponId": "COL"
+               },
+               {
+                  "Cost": 5,
+                  "WeaponId": "COP"
+               },
+               {
+                  "Cost": 0,
+                  "WeaponId": "EPE"
+               },
+               {
+                  "Cost": 12,
+                  "WeaponId": "GEN"
+               },
+               {
+                  "Cost": 4,
+                  "WeaponId": "LCL"
+               },
+               {
+                  "Cost": 8,
+                  "WeaponId": "LCL2"
+               },
+               {
+                  "Cost": 14,
+                  "WeaponId": "RBL"
+               },
+               {
+                  "Cost": 18,
+                  "WeaponId": "THA"
+               }
+            ],
+            "Id": "CITA",
+            "IsCommander": true,
+            "Leadership": 9,
+            "LevelCosts": [
+               {
+                  "Cost": 80,
+                  "Level": 1
+               },
+               {
+                  "Cost": 100,
+                  "Level": 2
+               },
+               {
+                  "Cost": 120,
+                  "Level": 3
+               },
+               {
+                  "Cost": 145,
+                  "Level": 4
+               }
+            ],
+            "MaximumNumber": 1,
+            "ModelProfileWeapons": [ ],
+            "Movement": 5,
+            "NameDe": "Captain in Terminator Armour",
+            "NameEn": "Captain in Terminator Armour",
+            "NameFr": "Captain en Armure Terminator",
+            "NumberOfKnownPsychics": 0,
+            "NumberOfPsychicsDenialPerRound": 0,
+            "NumberOfPsychicsManifestationPerRound": 0,
+            "Save": 2,
+            "Specialists": [
+               {
+                  "SpecialistId": "F"
+               },
+               {
+                  "SpecialistId": "FE"
+               },
+               {
+                  "SpecialistId": "FR"
+               },
+               {
+                  "SpecialistId": "LE"
+               },
+               {
+                  "SpecialistId": "LO"
+               },
+               {
+                  "SpecialistId": "ME"
+               },
+               {
+                  "SpecialistId": "SH"
+               },
+               {
+                  "SpecialistId": "ST"
+               }
+            ],
+            "Strength": 4,
+            "Toughness": 4,
+            "WarGearOptions": [ ],
+            "WeaponSkill": 2,
+            "Wounds": 6
+         }
+      ],
+      "ModelWeapons": [
+         {
+            "WeaponId": "BOST"
+         },
+         {
+            "WeaponId": "EPE"
+         }
+      ],
+      "NameDe": "Captain in Terminatorrüstung",
+      "NameEn": "Captain in Terminator Armour",
+      "NameFr": "Captain en armure Terminator",
+      "WarGearOptions": [
+         {
+            "Exclusion": null,
+            "Id": "256",
+            "MaximumPerTeam": 0,
+            "Operation": "BOST:(COL|COP|COF|CHFSW|LCL|PM0|EPE|GEN|(GEN&WMGL)|PAX|RBL|BST|THA)"
+         },
+         {
+            "Exclusion": null,
+            "Id": "257",
+            "MaximumPerTeam": 0,
+            "Operation": "EPE:(CHFSW|LCL|PM0|EPE|GEN|(GEN&WMGL)|PAX|RBL|BST|THA)"
+         },
+         {
+            "Exclusion": null,
+            "Id": "258",
+            "MaximumPerTeam": 0,
+            "Operation": "EPE&BOST:LCL2"
+         }
+      ]
+   },
+   {
+      "Id": "CIITA",
+      "KeywordsDe": "IMPERIUM, KOMMANDEUR, INFANTERIE, TERMINATOR, CHAPLAIN",
+      "KeywordsEn": "IMPERIUM, COMMANDER, INFANTRY, TERMINATOR, CHAPLAIN",
+      "KeywordsFr": "IMPERIUM, COMMANDER, INFANTRY, TERMINATOR, CHAPLAIN",
+      "ModelProfiles": [
+         {
+            "Attacks": "3",
+            "BallisticSkill": 3,
+            "Cost": 74,
+            "CostOverrides": [
+               {
+                  "Cost": 0,
+                  "WeaponId": "BOST"
+               },
+               {
+                  "Cost": 8,
+                  "WeaponId": "COF"
+               },
+               {
+                  "Cost": 2,
+                  "WeaponId": "COL"
+               },
+               {
+                  "Cost": 5,
+                  "WeaponId": "COP"
+               }
+            ],
+            "Id": "CIITA",
+            "IsCommander": true,
+            "Leadership": 9,
+            "LevelCosts": [
+               {
+                  "Cost": 74,
+                  "Level": 1
+               },
+               {
+                  "Cost": 94,
+                  "Level": 2
+               },
+               {
+                  "Cost": 114,
+                  "Level": 3
+               },
+               {
+                  "Cost": 139,
+                  "Level": 4
+               }
+            ],
+            "MaximumNumber": 1,
+            "ModelProfileWeapons": [ ],
+            "Movement": 5,
+            "NameDe": "Chaplain in Terminator Armour",
+            "NameEn": "Chaplain in Terminator Armour",
+            "NameFr": "Chaplain en Armure Terminator",
+            "NumberOfKnownPsychics": 0,
+            "NumberOfPsychicsDenialPerRound": 0,
+            "NumberOfPsychicsManifestationPerRound": 0,
+            "Save": 2,
+            "Specialists": [
+               {
+                  "SpecialistId": "F"
+               },
+               {
+                  "SpecialistId": "FE"
+               },
+               {
+                  "SpecialistId": "FR"
+               },
+               {
+                  "SpecialistId": "L"
+               },
+               {
+                  "SpecialistId": "ME"
+               },
+               {
+                  "SpecialistId": "SH"
+               }
+            ],
+            "Strength": 4,
+            "Toughness": 4,
+            "WarGearOptions": [ ],
+            "WeaponSkill": 2,
+            "Wounds": 5
+         }
+      ],
+      "ModelWeapons": [
+         {
+            "WeaponId": "BOST"
+         },
+         {
+            "WeaponId": "CA"
+         }
+      ],
+      "NameDe": "Chaplain in Terminatorrüstung",
+      "NameEn": "Chaplain in Terminator Armour",
+      "NameFr": "Chaplain en armure Terminator",
+      "WarGearOptions": [
+         {
+            "Exclusion": null,
+            "Id": "255",
+            "MaximumPerTeam": 0,
+            "Operation": "BOST:(COL|COP|COF)"
+         }
+      ]
+   },
+   {
+      "Id": "LITA",
+      "KeywordsDe": "IMPERIUM, COMMANDER, INFANTRY, TERMINATOR, PSYKER, LIBRARIAN",
+      "KeywordsEn": "IMPERIUM, COMMANDER, INFANTRY, TERMINATOR, PSYKER, LIBRARIAN",
+      "KeywordsFr": "IMPERIUM, COMMANDER, INFANTRY, TERMINATOR, PSYKER, LIBRARIAN",
+      "ModelProfiles": [
+         {
+            "Attacks": "3",
+            "BallisticSkill": 3,
+            "Cost": 88,
+            "CostOverrides": [
+               {
+                  "Cost": 4,
+                  "WeaponId": "BOST"
+               },
+               {
+                  "Cost": 12,
+                  "WeaponId": "COF"
+               },
+               {
+                  "Cost": 6,
+                  "WeaponId": "COL"
+               },
+               {
+                  "Cost": 9,
+                  "WeaponId": "COP"
+               }
+            ],
+            "Id": "LITA",
+            "IsCommander": true,
+            "Leadership": 9,
+            "LevelCosts": [
+               {
+                  "Cost": 88,
+                  "Level": 1
+               },
+               {
+                  "Cost": 108,
+                  "Level": 2
+               },
+               {
+                  "Cost": 128,
+                  "Level": 3
+               },
+               {
+                  "Cost": 153,
+                  "Level": 4
+               }
+            ],
+            "MaximumNumber": 1,
+            "ModelProfileWeapons": [ ],
+            "Movement": 5,
+            "NameDe": "Librarian in Terminator Armour",
+            "NameEn": "Librarian in Terminator Armour",
+            "NameFr": "Librarian en Armure Terminator",
+            "NumberOfKnownPsychics": 2,
+            "NumberOfPsychicsDenialPerRound": 1,
+            "NumberOfPsychicsManifestationPerRound": 2,
+            "Save": 2,
+            "Specialists": [
+               {
+                  "SpecialistId": "F"
+               },
+               {
+                  "SpecialistId": "FE"
+               },
+               {
+                  "SpecialistId": "ME"
+               },
+               {
+                  "SpecialistId": "P"
+               },
+               {
+                  "SpecialistId": "SH"
+               }
+            ],
+            "Strength": 4,
+            "Toughness": 4,
+            "WarGearOptions": [ ],
+            "WeaponSkill": 3,
+            "Wounds": 5
+         }
+      ],
+      "ModelWeapons": [
+         {
+            "WeaponId": "SCF"
+         }
+      ],
+      "NameDe": "Librarian in Terminator Armour",
+      "NameEn": "Librarian in Terminator Armour",
+      "NameFr": "Librarian en armure Terminator",
+      "WarGearOptions": [
+         {
+            "Exclusion": null,
+            "Id": "253",
+            "MaximumPerTeam": 0,
+            "Operation": "COL|COF|COP|BOST"
+         },
+         {
+            "Exclusion": null,
+            "Id": "254",
+            "MaximumPerTeam": 0,
+            "Operation": "SCF:(FA|FS)"
+         }
+      ]
+   },
+   {
+      "Id": "AATE",
+      "KeywordsDe": "IMPERIUM, INFANTRY, TERMINATOR",
+      "KeywordsEn": "IMPERIUM, INFANTRY, TERMINATOR",
+      "KeywordsFr": "IMPERIUM, INFANTRY, TERMINATOR",
+      "ModelProfiles": [
+         {
+            "Attacks": "2",
+            "BallisticSkill": 3,
+            "Cost": 25,
+            "CostOverrides": [
+               {
+                  "Cost": 9,
+                  "WeaponId": "COF"
+               },
+               {
+                  "Cost": 5,
+                  "WeaponId": "COL"
+               },
+               {
+                  "Cost": 7,
+                  "WeaponId": "COP"
+               },
+               {
+                  "Cost": 1,
+                  "WeaponId": "EPE"
+               }
+            ],
+            "Id": "AATE",
+            "IsCommander": false,
+            "Leadership": 8,
+            "LevelCosts": [ ],
+            "MaximumNumber": 0,
+            "ModelProfileWeapons": [
+               {
+                  "WeaponId": "BOST"
+               },
+               {
+                  "WeaponId": "GEN"
+               }
+            ],
+            "Movement": 5,
+            "NameDe": "Terminator",
+            "NameEn": "Terminator",
+            "NameFr": "Terminator",
+            "NumberOfKnownPsychics": 0,
+            "NumberOfPsychicsDenialPerRound": 0,
+            "NumberOfPsychicsManifestationPerRound": 0,
+            "Save": 2,
+            "Specialists": [
+               {
+                  "SpecialistId": "CB"
+               },
+               {
+                  "SpecialistId": "CO"
+               },
+               {
+                  "SpecialistId": "D"
+               },
+               {
+                  "SpecialistId": "V"
+               },
+               {
+                  "SpecialistId": "Z"
+               }
+            ],
+            "Strength": 4,
+            "Toughness": 4,
+            "WarGearOptions": [
+               {
+                  "Exclusion": null,
+                  "Id": "259",
+                  "MaximumPerTeam": 0,
+                  "Operation": "GEN:CHF"
+               },
+               {
+                  "Exclusion": null,
+                  "Id": "282",
+                  "MaximumPerTeam": 0,
+                  "Operation": "GEN&BOST:LCL2|(THA&BST)"
+               },
+               {
+                  "Exclusion": null,
+                  "Id": "386",
+                  "MaximumPerTeam": 0,
+                  "Operation": "GEN:CHF"
+               }
+            ],
+            "WeaponSkill": 3,
+            "Wounds": 2
+         },
+         {
+            "Attacks": "2",
+            "BallisticSkill": 3,
+            "Cost": 26,
+            "CostOverrides": [
+               {
+                  "Cost": 9,
+                  "WeaponId": "COF"
+               },
+               {
+                  "Cost": 5,
+                  "WeaponId": "COL"
+               },
+               {
+                  "Cost": 7,
+                  "WeaponId": "COP"
+               },
+               {
+                  "Cost": 1,
+                  "WeaponId": "EPE"
+               }
+            ],
+            "Id": "AATG",
+            "IsCommander": false,
+            "Leadership": 8,
+            "LevelCosts": [ ],
+            "MaximumNumber": 2,
+            "ModelProfileWeapons": [
+               {
+                  "WeaponId": "BOST"
+               },
+               {
+                  "WeaponId": "GEN"
+               }
+            ],
+            "Movement": 5,
+            "NameDe": "Terminator Gunner",
+            "NameEn": "Terminator Gunner",
+            "NameFr": "Terminator Gunner",
+            "NumberOfKnownPsychics": 0,
+            "NumberOfPsychicsDenialPerRound": 0,
+            "NumberOfPsychicsManifestationPerRound": 0,
+            "Save": 2,
+            "Specialists": [
+               {
+                  "SpecialistId": "AL"
+               },
+               {
+                  "SpecialistId": "CB"
+               },
+               {
+                  "SpecialistId": "CO"
+               },
+               {
+                  "SpecialistId": "D"
+               },
+               {
+                  "SpecialistId": "V"
+               },
+               {
+                  "SpecialistId": "Z"
+               }
+            ],
+            "Strength": 4,
+            "Toughness": 4,
+            "WarGearOptions": [
+               {
+                  "Exclusion": null,
+                  "Id": "260",
+                  "MaximumPerTeam": 0,
+                  "Operation": "GEN:CHF"
+               },
+               {
+                  "Exclusion": null,
+                  "Id": "261",
+                  "MaximumPerTeam": 0,
+                  "Operation": "BOST:(ACA|HFL|PLCA|(CML&BOST))"
+               }
+            ],
+            "WeaponSkill": 3,
+            "Wounds": 2
+         },
+         {
+            "Attacks": "3",
+            "BallisticSkill": 3,
+            "Cost": 27,
+            "CostOverrides": [
+               {
+                  "Cost": 9,
+                  "WeaponId": "COF"
+               },
+               {
+                  "Cost": 5,
+                  "WeaponId": "COL"
+               },
+               {
+                  "Cost": 7,
+                  "WeaponId": "COP"
+               },
+               {
+                  "Cost": 1,
+                  "WeaponId": "EPE"
+               }
+            ],
+            "Id": "AATS",
+            "IsCommander": false,
+            "Leadership": 9,
+            "LevelCosts": [ ],
+            "MaximumNumber": 1,
+            "ModelProfileWeapons": [
+               {
+                  "WeaponId": "BOST"
+               },
+               {
+                  "WeaponId": "EPE"
+               }
+            ],
+            "Movement": 5,
+            "NameDe": "Terminator Sergeant",
+            "NameEn": "Terminator Sergeant",
+            "NameFr": "Terminator Sergeant",
+            "NumberOfKnownPsychics": 0,
+            "NumberOfPsychicsDenialPerRound": 0,
+            "NumberOfPsychicsManifestationPerRound": 0,
+            "Save": 2,
+            "Specialists": [
+               {
+                  "SpecialistId": "CB"
+               },
+               {
+                  "SpecialistId": "CO"
+               },
+               {
+                  "SpecialistId": "D"
+               },
+               {
+                  "SpecialistId": "L"
+               },
+               {
+                  "SpecialistId": "V"
+               },
+               {
+                  "SpecialistId": "Z"
+               }
+            ],
+            "Strength": 4,
+            "Toughness": 4,
+            "WarGearOptions": [
+               {
+                  "Exclusion": null,
+                  "Id": "284",
+                  "MaximumPerTeam": 0,
+                  "Operation": "EPE&BOST:LCL2|(THA&BST)"
+               }
+            ],
+            "WeaponSkill": 3,
+            "Wounds": 2
+         }
+      ],
+      "ModelWeapons": [ ],
+      "NameDe": "Terminator",
+      "NameEn": "Terminator",
+      "NameFr": "Terminator",
+      "WarGearOptions": [ ]
+   },
+   {
+      "Id": "AAEL",
+      "KeywordsDe": "IMPERIUM, INFANTERIE, PHOBOS, PRIMARIS, ELIMINATOR",
+      "KeywordsEn": "IMPERIUM, INFANTRY, PHOBOS, PRIMARIS, ELIMINATOR",
+      "KeywordsFr": "IMPERIUM, INFANTRY, PHOBOS, PRIMARIS, ELIMINATOR",
+      "ModelProfiles": [
+         {
+            "Attacks": "2",
+            "BallisticSkill": 3,
+            "Cost": 18,
+            "CostOverrides": [ ],
+            "Id": "AAEL",
+            "IsCommander": false,
+            "Leadership": 7,
+            "LevelCosts": [ ],
+            "MaximumNumber": 0,
+            "ModelProfileWeapons": [ ],
+            "Movement": 6,
+            "NameDe": "Eliminator",
+            "NameEn": "Eliminator",
+            "NameFr": "Eliminator",
+            "NumberOfKnownPsychics": 0,
+            "NumberOfPsychicsDenialPerRound": 0,
+            "NumberOfPsychicsManifestationPerRound": 0,
+            "Save": 3,
+            "Specialists": [
+               {
+                  "SpecialistId": "CO"
+               },
+               {
+                  "SpecialistId": "SC"
+               },
+               {
+                  "SpecialistId": "SE"
+               },
+               {
+                  "SpecialistId": "SN"
+               },
+               {
+                  "SpecialistId": "V"
+               }
+            ],
+            "Strength": 4,
+            "Toughness": 4,
+            "WarGearOptions": [ ],
+            "WeaponSkill": 3,
+            "Wounds": 2
+         },
+         {
+            "Attacks": "3",
+            "BallisticSkill": 3,
+            "Cost": 19,
+            "CostOverrides": [ ],
+            "Id": "AAES",
+            "IsCommander": false,
+            "Leadership": 8,
+            "LevelCosts": [ ],
+            "MaximumNumber": 1,
+            "ModelProfileWeapons": [ ],
+            "Movement": 6,
+            "NameDe": "Eliminator Sergeant",
+            "NameEn": "Eliminator Sergeant",
+            "NameFr": "Eliminator Sergeant",
+            "NumberOfKnownPsychics": 0,
+            "NumberOfPsychicsDenialPerRound": 0,
+            "NumberOfPsychicsManifestationPerRound": 0,
+            "Save": 3,
+            "Specialists": [
+               {
+                  "SpecialistId": "CO"
+               },
+               {
+                  "SpecialistId": "L"
+               },
+               {
+                  "SpecialistId": "SC"
+               },
+               {
+                  "SpecialistId": "SE"
+               },
+               {
+                  "SpecialistId": "SN"
+               },
+               {
+                  "SpecialistId": "V"
+               }
+            ],
+            "Strength": 4,
+            "Toughness": 4,
+            "WarGearOptions": [ ],
+            "WeaponSkill": 3,
+            "Wounds": 2
+         }
+      ],
+      "ModelWeapons": [
+         {
+            "WeaponId": "BSNR"
+         },
+         {
+            "WeaponId": "GF"
+         },
+         {
+            "WeaponId": "GK"
+         },
+         {
+            "WeaponId": "PB"
+         }
+      ],
+      "NameDe": "Eliminator",
+      "NameEn": "Eliminator",
+      "NameFr": "Eliminator",
+      "WarGearOptions": [ ]
+   },
+   {
+      "Id": "AAI",
+      "KeywordsDe": "IMPERIUM, INFANTERIE, PRIMARIS, INTERCESSOR",
+      "KeywordsEn": "IMPERIUM, INFANTRY, PRIMARIS, INTERCESSOR",
+      "KeywordsFr": "IMPERIUM, INFANTERIE, PRIMARIS, INTERCESSOR",
+      "ModelProfiles": [
+         {
+            "Attacks": "2",
+            "BallisticSkill": 3,
+            "Cost": 15,
+            "CostOverrides": [ ],
+            "Id": "AAI1",
+            "IsCommander": false,
+            "Leadership": 7,
+            "LevelCosts": [ ],
+            "MaximumNumber": 0,
+            "ModelProfileWeapons": [ ],
+            "Movement": 6,
+            "NameDe": "Intercessor",
+            "NameEn": "Intercessor",
+            "NameFr": "Intercessor",
+            "NumberOfKnownPsychics": 0,
+            "NumberOfPsychicsDenialPerRound": 0,
+            "NumberOfPsychicsManifestationPerRound": 0,
+            "Save": 3,
+            "Specialists": [
+               {
+                  "SpecialistId": "CB"
+               },
+               {
+                  "SpecialistId": "CO"
+               },
+               {
+                  "SpecialistId": "M"
+               },
+               {
+                  "SpecialistId": "SN"
+               },
+               {
+                  "SpecialistId": "V"
+               }
+            ],
+            "Strength": 4,
+            "Toughness": 4,
+            "WarGearOptions": [ ],
+            "WeaponSkill": 3,
+            "Wounds": 2
+         },
+         {
+            "Attacks": "2",
+            "BallisticSkill": 3,
+            "Cost": 16,
+            "CostOverrides": [ ],
+            "Id": "AAI2",
+            "IsCommander": false,
+            "Leadership": 7,
+            "LevelCosts": [ ],
+            "MaximumNumber": 2,
+            "ModelProfileWeapons": [ ],
+            "Movement": 6,
+            "NameDe": "Intercessor Gunner",
+            "NameEn": "Intercessor Gunner",
+            "NameFr": "Intercessor Gunner",
+            "NumberOfKnownPsychics": 0,
+            "NumberOfPsychicsDenialPerRound": 0,
+            "NumberOfPsychicsManifestationPerRound": 0,
+            "Save": 3,
+            "Specialists": [
+               {
+                  "SpecialistId": "CB"
+               },
+               {
+                  "SpecialistId": "CO"
+               },
+               {
+                  "SpecialistId": "D"
+               },
+               {
+                  "SpecialistId": "M"
+               },
+               {
+                  "SpecialistId": "SN"
+               },
+               {
+                  "SpecialistId": "V"
+               }
+            ],
+            "Strength": 4,
+            "Toughness": 4,
+            "WarGearOptions": [
+               {
+                  "Exclusion": null,
+                  "Id": "13",
+                  "MaximumPerTeam": 0,
+                  "Operation": "LGA"
+               }
+            ],
+            "WeaponSkill": 3,
+            "Wounds": 2
+         },
+         {
+            "Attacks": "3",
+            "BallisticSkill": 3,
+            "Cost": 16,
+            "CostOverrides": [ ],
+            "Id": "AAI3",
+            "IsCommander": false,
+            "Leadership": 8,
+            "LevelCosts": [ ],
+            "MaximumNumber": 1,
+            "ModelProfileWeapons": [ ],
+            "Movement": 6,
+            "NameDe": "Intercessor Sergeant",
+            "NameEn": "Intercessor Sergeant",
+            "NameFr": "Intercessor Sergeant",
+            "NumberOfKnownPsychics": 0,
+            "NumberOfPsychicsDenialPerRound": 0,
+            "NumberOfPsychicsManifestationPerRound": 0,
+            "Save": 3,
+            "Specialists": [
+               {
+                  "SpecialistId": "CB"
+               },
+               {
+                  "SpecialistId": "CO"
+               },
+               {
+                  "SpecialistId": "L"
+               },
+               {
+                  "SpecialistId": "M"
+               },
+               {
+                  "SpecialistId": "SN"
+               },
+               {
+                  "SpecialistId": "V"
+               }
+            ],
+            "Strength": 4,
+            "Toughness": 4,
+            "WarGearOptions": [
+               {
+                  "Exclusion": "AAI3",
+                  "Id": "14",
+                  "MaximumPerTeam": 0,
+                  "Operation": "EPE|EPT"
+               },
+               {
+                  "Exclusion": "AAI3",
+                  "Id": "243",
+                  "MaximumPerTeam": 0,
+                  "Operation": "FBO:EPE|EPT"
+               }
+            ],
+            "WeaponSkill": 3,
+            "Wounds": 2
+         }
+      ],
+      "ModelWeapons": [
+         {
+            "WeaponId": "FBO"
+         },
+         {
+            "WeaponId": "GF"
+         },
+         {
+            "WeaponId": "GK"
+         },
+         {
+            "WeaponId": "PB"
+         }
+      ],
+      "NameDe": "Intercessor",
+      "NameEn": "Intercessor",
+      "NameFr": "Intercessor",
+      "WarGearOptions": [
+         {
+            "Exclusion": null,
+            "Id": "12",
+            "MaximumPerTeam": 0,
+            "Operation": "FBO:FBA|FBS"
+         },
+         {
+            "Exclusion": null,
+            "Id": "149",
+            "MaximumPerTeam": 1,
+            "Operation": "AUS"
+         }
+      ]
+   },
+   {
+      "Id": "AAINF",
+      "KeywordsDe": "IMPERIUM, INFANTERIE, PHOBOS, PRIMARIS, INFILTRATOR",
+      "KeywordsEn": "IMPERIUM, INFANTRY, PHOBOS, PRIMARIS, INFILTRATOR",
+      "KeywordsFr": "IMPERIUM, INFANTRY, PHOBOS, PRIMARIS, INFILTRATOR",
+      "ModelProfiles": [
+         {
+            "Attacks": "2",
+            "BallisticSkill": 3,
+            "Cost": 18,
+            "CostOverrides": [ ],
+            "Id": "AAIHA",
+            "IsCommander": false,
+            "Leadership": 7,
+            "LevelCosts": [ ],
+            "MaximumNumber": 1,
+            "ModelProfileWeapons": [ ],
+            "Movement": 6,
+            "NameDe": "Infiltrator Helix Adept",
+            "NameEn": "Infiltrator Helix Adept",
+            "NameFr": "Infiltrator Helix Adept",
+            "NumberOfKnownPsychics": 0,
+            "NumberOfPsychicsDenialPerRound": 0,
+            "NumberOfPsychicsManifestationPerRound": 0,
+            "Save": 3,
+            "Specialists": [
+               {
+                  "SpecialistId": "CO"
+               },
+               {
+                  "SpecialistId": "D"
+               },
+               {
+                  "SpecialistId": "M"
+               },
+               {
+                  "SpecialistId": "SC"
+               },
+               {
+                  "SpecialistId": "SE"
+               },
+               {
+                  "SpecialistId": "V"
+               }
+            ],
+            "Strength": 4,
+            "Toughness": 4,
+            "WarGearOptions": [ ],
+            "WeaponSkill": 3,
+            "Wounds": 2
+         },
+         {
+            "Attacks": "2",
+            "BallisticSkill": 3,
+            "Cost": 17,
+            "CostOverrides": [ ],
+            "Id": "AAINF",
+            "IsCommander": false,
+            "Leadership": 7,
+            "LevelCosts": [ ],
+            "MaximumNumber": 0,
+            "ModelProfileWeapons": [ ],
+            "Movement": 6,
+            "NameDe": "Infiltrator",
+            "NameEn": "Infiltrator",
+            "NameFr": "Infiltrator",
+            "NumberOfKnownPsychics": 0,
+            "NumberOfPsychicsDenialPerRound": 0,
+            "NumberOfPsychicsManifestationPerRound": 0,
+            "Save": 3,
+            "Specialists": [
+               {
+                  "SpecialistId": "CO"
+               },
+               {
+                  "SpecialistId": "D"
+               },
+               {
+                  "SpecialistId": "SC"
+               },
+               {
+                  "SpecialistId": "SE"
+               },
+               {
+                  "SpecialistId": "V"
+               }
+            ],
+            "Strength": 4,
+            "Toughness": 4,
+            "WarGearOptions": [ ],
+            "WeaponSkill": 3,
+            "Wounds": 2
+         },
+         {
+            "Attacks": "3",
+            "BallisticSkill": 3,
+            "Cost": 18,
+            "CostOverrides": [ ],
+            "Id": "AAIS",
+            "IsCommander": false,
+            "Leadership": 8,
+            "LevelCosts": [ ],
+            "MaximumNumber": 1,
+            "ModelProfileWeapons": [ ],
+            "Movement": 6,
+            "NameDe": "Infiltrator Sergeant",
+            "NameEn": "Infiltrator Sergeant",
+            "NameFr": "Infiltrator Sergeant",
+            "NumberOfKnownPsychics": 0,
+            "NumberOfPsychicsDenialPerRound": 0,
+            "NumberOfPsychicsManifestationPerRound": 0,
+            "Save": 3,
+            "Specialists": [
+               {
+                  "SpecialistId": "CO"
+               },
+               {
+                  "SpecialistId": "D"
+               },
+               {
+                  "SpecialistId": "L"
+               },
+               {
+                  "SpecialistId": "M"
+               },
+               {
+                  "SpecialistId": "SC"
+               },
+               {
+                  "SpecialistId": "SE"
+               },
+               {
+                  "SpecialistId": "V"
+               }
+            ],
+            "Strength": 4,
+            "Toughness": 4,
+            "WarGearOptions": [ ],
+            "WeaponSkill": 3,
+            "Wounds": 2
+         }
+      ],
+      "ModelWeapons": [
+         {
+            "WeaponId": "GF"
+         },
+         {
+            "WeaponId": "GK"
+         },
+         {
+            "WeaponId": "MMBC"
+         },
+         {
+            "WeaponId": "PB"
+         }
+      ],
+      "NameDe": "Infiltrator",
+      "NameEn": "Infiltrator",
+      "NameFr": "Infiltrator",
+      "WarGearOptions": [ ]
+   },
+   {
+      "Id": "AAJD",
+      "KeywordsDe": "Imperium, Astra Cartographica, Commander, Infantry, Rogue Trader, Janus Draik",
+      "KeywordsEn": "Imperium, Astra Cartographica, Commander, Infantry, Rogue Trader, Janus Draik",
+      "KeywordsFr": "Imperium, Astra Cartographica, Commander, Infantry, Rogue Trader, Janus Draik",
+      "ModelProfiles": [
+         {
+            "Attacks": "3",
+            "BallisticSkill": 3,
+            "Cost": 50,
+            "CostOverrides": [ ],
+            "Id": "AAJD",
+            "IsCommander": true,
+            "Leadership": 9,
+            "LevelCosts": [
+               {
+                  "Cost": 105,
+                  "Level": 4
+               },
+               {
+                  "Cost": 80,
+                  "Level": 3
+               },
+               {
+                  "Cost": 65,
+                  "Level": 2
+               },
+               {
+                  "Cost": 50,
+                  "Level": 1
+               }
+            ],
+            "MaximumNumber": 1,
+            "ModelProfileWeapons": [
+               {
+                  "WeaponId": "ARCHG"
+               },
+               {
+                  "WeaponId": "HPI"
+               },
+               {
+                  "WeaponId": "MONOR"
+               }
+            ],
+            "Movement": 6,
+            "NameDe": "Janus Draik",
+            "NameEn": "Janus Draik",
+            "NameFr": "Janus Draik",
+            "NumberOfKnownPsychics": 0,
+            "NumberOfPsychicsDenialPerRound": 0,
+            "NumberOfPsychicsManifestationPerRound": 0,
+            "Save": 4,
+            "Specialists": [
+               {
+                  "SpecialistId": "LE"
+               },
+               {
+                  "SpecialistId": "LH"
+               }
+            ],
+            "Strength": 3,
+            "Toughness": 3,
+            "WarGearOptions": [ ],
+            "WeaponSkill": 3,
+            "Wounds": 4
+         }
+      ],
+      "ModelWeapons": [ ],
+      "NameDe": "Janus Draik",
+      "NameEn": "Janus Draik",
+      "NameFr": "Janus Draik",
+      "WarGearOptions": [ ]
+   },
+   {
+      "Id": "AAL",
+      "KeywordsDe": "IMPERIUM, KOMMANDEUR, INFANTERIE, PRIMARIS , LIEUTENANT",
+      "KeywordsEn": "IMPERIUM, COMMANDER, INFANTRY, PRIMARIS , LIEUTENANT",
+      "KeywordsFr": "IMPERIUM, COMMANDANT, INFANTERIE, PRIMARIS , LIEUTENANT",
+      "ModelProfiles": [
+         {
+            "Attacks": "4",
+            "BallisticSkill": 3,
+            "Cost": 46,
+            "CostOverrides": [
+               {
+                  "Cost": 4,
+                  "WeaponId": "EPE"
+               }
+            ],
+            "Id": "AAL",
+            "IsCommander": true,
+            "Leadership": 8,
+            "LevelCosts": [
+               {
+                  "Cost": 46,
+                  "Level": 1
+               },
+               {
+                  "Cost": 61,
+                  "Level": 2
+               },
+               {
+                  "Cost": 76,
+                  "Level": 3
+               },
+               {
+                  "Cost": 101,
+                  "Level": 4
+               }
+            ],
+            "MaximumNumber": 1,
+            "ModelProfileWeapons": [
+               {
+                  "WeaponId": "FBAM"
+               },
+               {
+                  "WeaponId": "GF"
+               },
+               {
+                  "WeaponId": "GK"
+               },
+               {
+                  "WeaponId": "PB"
+               }
+            ],
+            "Movement": 6,
+            "NameDe": "Primaris Lieutenant",
+            "NameEn": "Primaris Lieutenant",
+            "NameFr": "Primaris Lieutenant",
+            "NumberOfKnownPsychics": 0,
+            "NumberOfPsychicsDenialPerRound": 0,
+            "NumberOfPsychicsManifestationPerRound": 0,
+            "Save": 3,
+            "Specialists": [
+               {
+                  "SpecialistId": "F"
+               },
+               {
+                  "SpecialistId": "FE"
+               },
+               {
+                  "SpecialistId": "FR"
+               },
+               {
+                  "SpecialistId": "LE"
+               },
+               {
+                  "SpecialistId": "LH"
+               },
+               {
+                  "SpecialistId": "LO"
+               },
+               {
+                  "SpecialistId": "ME"
+               },
+               {
+                  "SpecialistId": "SE"
+               },
+               {
+                  "SpecialistId": "SH"
+               },
+               {
+                  "SpecialistId": "ST"
+               }
+            ],
+            "Strength": 4,
+            "Toughness": 4,
+            "WarGearOptions": [
+               {
+                  "Exclusion": null,
+                  "Id": "202",
+                  "MaximumPerTeam": 0,
+                  "Operation": "FBAM:EPE|FBSM"
+               }
+            ],
+            "WeaponSkill": 2,
+            "Wounds": 5
+         }
+      ],
+      "ModelWeapons": [ ],
+      "NameDe": "Primaris Lieutenant",
+      "NameEn": "Primaris Lieutenant",
+      "NameFr": "Primaris Lieutenant",
+      "WarGearOptions": [ ]
+   },
+   {
+      "Id": "AAR",
+      "KeywordsDe": "IMPERIUM, INFANTERIE, PRIMARIS, REIVER",
+      "KeywordsEn": "IMPERIUM, INFANTRY, PRIMARIS, REIVER",
+      "KeywordsFr": "IMPERIUM, INFANTERIE, PRIMARIS, REIVER",
+      "ModelProfiles": [
+         {
+            "Attacks": "2",
+            "BallisticSkill": 3,
+            "Cost": 16,
+            "CostOverrides": [ ],
+            "Id": "AAR1",
+            "IsCommander": false,
+            "Leadership": 7,
+            "LevelCosts": [ ],
+            "MaximumNumber": 0,
+            "ModelProfileWeapons": [ ],
+            "Movement": 6,
+            "NameDe": "Reiver",
+            "NameEn": "Reiver",
+            "NameFr": "Reiver",
+            "NumberOfKnownPsychics": 0,
+            "NumberOfPsychicsDenialPerRound": 0,
+            "NumberOfPsychicsManifestationPerRound": 0,
+            "Save": 3,
+            "Specialists": [
+               {
+                  "SpecialistId": "CB"
+               },
+               {
+                  "SpecialistId": "CO"
+               },
+               {
+                  "SpecialistId": "D"
+               },
+               {
+                  "SpecialistId": "SC"
+               },
+               {
+                  "SpecialistId": "V"
+               }
+            ],
+            "Strength": 4,
+            "Toughness": 4,
+            "WarGearOptions": [
+               {
+                  "Exclusion": null,
+                  "Id": "8",
+                  "MaximumPerTeam": 0,
+                  "Operation": "CBO:CC"
+               }
+            ],
+            "WeaponSkill": 3,
+            "Wounds": 2
+         },
+         {
+            "Attacks": "3",
+            "BallisticSkill": 3,
+            "Cost": 17,
+            "CostOverrides": [ ],
+            "Id": "AAR2",
+            "IsCommander": false,
+            "Leadership": 8,
+            "LevelCosts": [ ],
+            "MaximumNumber": 1,
+            "ModelProfileWeapons": [ ],
+            "Movement": 6,
+            "NameDe": "Reiver Sergeant",
+            "NameEn": "Reiver Sergeant",
+            "NameFr": "Reiver Sergeant",
+            "NumberOfKnownPsychics": 0,
+            "NumberOfPsychicsDenialPerRound": 0,
+            "NumberOfPsychicsManifestationPerRound": 0,
+            "Save": 3,
+            "Specialists": [
+               {
+                  "SpecialistId": "CB"
+               },
+               {
+                  "SpecialistId": "CO"
+               },
+               {
+                  "SpecialistId": "D"
+               },
+               {
+                  "SpecialistId": "L"
+               },
+               {
+                  "SpecialistId": "SC"
+               },
+               {
+                  "SpecialistId": "V"
+               }
+            ],
+            "Strength": 4,
+            "Toughness": 4,
+            "WarGearOptions": [
+               {
+                  "Exclusion": null,
+                  "Id": "9",
+                  "MaximumPerTeam": 0,
+                  "Operation": "CBO|PBL:CC"
+               }
+            ],
+            "WeaponSkill": 3,
+            "Wounds": 2
+         }
+      ],
+      "ModelWeapons": [
+         {
+            "WeaponId": "CBO"
+         },
+         {
+            "WeaponId": "GF"
+         },
+         {
+            "WeaponId": "GK"
+         },
+         {
+            "WeaponId": "GS"
+         },
+         {
+            "WeaponId": "PBL"
+         }
+      ],
+      "NameDe": "Reiver",
+      "NameEn": "Reiver",
+      "NameFr": "Reiver",
+      "WarGearOptions": [
+         {
+            "Exclusion": null,
+            "Id": "10",
+            "MaximumPerTeam": 0,
+            "Operation": "HAG"
+         },
+         {
+            "Exclusion": null,
+            "Id": "11",
+            "MaximumPerTeam": 0,
+            "Operation": "GRA"
+         }
+      ]
+   },
+   {
+      "Id": "AAS",
+      "KeywordsDe": "IMPERIUM, INFANTERIE, SCOUT",
+      "KeywordsEn": "IMPERIUM, INFANTRY, SCOUT",
+      "KeywordsFr": "IMPERIUM, INFANTERIE, SCOUT",
+      "ModelProfiles": [
+         {
+            "Attacks": "1",
+            "BallisticSkill": 3,
+            "Cost": 10,
+            "CostOverrides": [ ],
+            "Id": "AAS1",
+            "IsCommander": false,
+            "Leadership": 7,
+            "LevelCosts": [ ],
+            "MaximumNumber": 0,
+            "ModelProfileWeapons": [ ],
+            "Movement": 6,
+            "NameDe": "Scout",
+            "NameEn": "Scout",
+            "NameFr": "Scout",
+            "NumberOfKnownPsychics": 0,
+            "NumberOfPsychicsDenialPerRound": 0,
+            "NumberOfPsychicsManifestationPerRound": 0,
+            "Save": 4,
+            "Specialists": [
+               {
+                  "SpecialistId": "CO"
+               },
+               {
+                  "SpecialistId": "D"
+               },
+               {
+                  "SpecialistId": "SC"
+               },
+               {
+                  "SpecialistId": "SN"
+               }
+            ],
+            "Strength": 4,
+            "Toughness": 4,
+            "WarGearOptions": [
+               {
+                  "Exclusion": null,
+                  "Id": "1",
+                  "MaximumPerTeam": 0,
+                  "Operation": "BO:CC|FPA|(SN&CAP)"
+               }
+            ],
+            "WeaponSkill": 3,
+            "Wounds": 1
+         },
+         {
+            "Attacks": "1",
+            "BallisticSkill": 3,
+            "Cost": 11,
+            "CostOverrides": [ ],
+            "Id": "AAS2",
+            "IsCommander": false,
+            "Leadership": 7,
+            "LevelCosts": [ ],
+            "MaximumNumber": 2,
+            "ModelProfileWeapons": [ ],
+            "Movement": 6,
+            "NameDe": "Scout Gunner",
+            "NameEn": "Scout Gunner",
+            "NameFr": "Scout Gunner",
+            "NumberOfKnownPsychics": 0,
+            "NumberOfPsychicsDenialPerRound": 0,
+            "NumberOfPsychicsManifestationPerRound": 0,
+            "Save": 4,
+            "Specialists": [
+               {
+                  "SpecialistId": "AL"
+               },
+               {
+                  "SpecialistId": "CO"
+               },
+               {
+                  "SpecialistId": "D"
+               },
+               {
+                  "SpecialistId": "SC"
+               },
+               {
+                  "SpecialistId": "SN"
+               }
+            ],
+            "Strength": 4,
+            "Toughness": 4,
+            "WarGearOptions": [
+               {
+                  "Exclusion": null,
+                  "Id": "2",
+                  "MaximumPerTeam": 0,
+                  "Operation": "BO:BOL|LM|(LM&CAP)|(SN&CAP)"
+               }
+            ],
+            "WeaponSkill": 3,
+            "Wounds": 1
+         },
+         {
+            "Attacks": "2",
+            "BallisticSkill": 3,
+            "Cost": 11,
+            "CostOverrides": [ ],
+            "Id": "AAS3",
+            "IsCommander": false,
+            "Leadership": 8,
+            "LevelCosts": [ ],
+            "MaximumNumber": 1,
+            "ModelProfileWeapons": [ ],
+            "Movement": 6,
+            "NameDe": "Scout Sergeant",
+            "NameEn": "Scout Sergeant",
+            "NameFr": "Scout Sergeant",
+            "NumberOfKnownPsychics": 0,
+            "NumberOfPsychicsDenialPerRound": 0,
+            "NumberOfPsychicsManifestationPerRound": 0,
+            "Save": 4,
+            "Specialists": [
+               {
+                  "SpecialistId": "CO"
+               },
+               {
+                  "SpecialistId": "D"
+               },
+               {
+                  "SpecialistId": "L"
+               },
+               {
+                  "SpecialistId": "SC"
+               },
+               {
+                  "SpecialistId": "SN"
+               }
+            ],
+            "Strength": 4,
+            "Toughness": 4,
+            "WarGearOptions": [
+               {
+                  "Exclusion": null,
+                  "Id": "3",
+                  "MaximumPerTeam": 0,
+                  "Operation": "BO:FPA|EPT|(SN&CAP)"
+               }
+            ],
+            "WeaponSkill": 3,
+            "Wounds": 1
+         }
+      ],
+      "ModelWeapons": [
+         {
+            "WeaponId": "BO"
+         },
+         {
+            "WeaponId": "GF"
+         },
+         {
+            "WeaponId": "GK"
+         },
+         {
+            "WeaponId": "PB"
+         }
+      ],
+      "NameDe": "Scout",
+      "NameEn": "Scout",
+      "NameFr": "Scout",
+      "WarGearOptions": [ ]
+   },
+   {
+      "Id": "AASU",
+      "KeywordsDe": "IMPERIUM, INFANTRY, FLY, PHOBOS, PRIMARIS, GRAV-CHUTE, SUPPRESSOR",
+      "KeywordsEn": "IMPERIUM, INFANTRY, FLY, PHOBOS, PRIMARIS, GRAV-CHUTE, SUPPRESSOR",
+      "KeywordsFr": "IMPERIUM, INFANTRY, FLY, PHOBOS, PRIMARIS, GRAV-CHUTE, SUPPRESSOR",
+      "ModelProfiles": [
+         {
+            "Attacks": "2",
+            "BallisticSkill": 3,
+            "Cost": 29,
+            "CostOverrides": [ ],
+            "Id": "AASU",
+            "IsCommander": false,
+            "Leadership": 7,
+            "LevelCosts": [ ],
+            "MaximumNumber": 0,
+            "ModelProfileWeapons": [ ],
+            "Movement": 12,
+            "NameDe": "Suppressor",
+            "NameEn": "Suppressor",
+            "NameFr": "Suppressor",
+            "NumberOfKnownPsychics": 0,
+            "NumberOfPsychicsDenialPerRound": 0,
+            "NumberOfPsychicsManifestationPerRound": 0,
+            "Save": 3,
+            "Specialists": [
+               {
+                  "SpecialistId": "D"
+               },
+               {
+                  "SpecialistId": "SC"
+               },
+               {
+                  "SpecialistId": "SE"
+               },
+               {
+                  "SpecialistId": "SN"
+               },
+               {
+                  "SpecialistId": "V"
+               }
+            ],
+            "Strength": 4,
+            "Toughness": 4,
+            "WarGearOptions": [ ],
+            "WeaponSkill": 3,
+            "Wounds": 2
+         },
+         {
+            "Attacks": "3",
+            "BallisticSkill": 3,
+            "Cost": 30,
+            "CostOverrides": [ ],
+            "Id": "AASUS",
+            "IsCommander": false,
+            "Leadership": 8,
+            "LevelCosts": [ ],
+            "MaximumNumber": 1,
+            "ModelProfileWeapons": [ ],
+            "Movement": 12,
+            "NameDe": "Suppressor Sergeant",
+            "NameEn": "Suppressor Sergeant",
+            "NameFr": "Suppressor Sergeant",
+            "NumberOfKnownPsychics": 0,
+            "NumberOfPsychicsDenialPerRound": 0,
+            "NumberOfPsychicsManifestationPerRound": 0,
+            "Save": 3,
+            "Specialists": [
+               {
+                  "SpecialistId": "D"
+               },
+               {
+                  "SpecialistId": "L"
+               },
+               {
+                  "SpecialistId": "SC"
+               },
+               {
+                  "SpecialistId": "SE"
+               },
+               {
+                  "SpecialistId": "SN"
+               },
+               {
+                  "SpecialistId": "V"
+               }
+            ],
+            "Strength": 4,
+            "Toughness": 4,
+            "WarGearOptions": [ ],
+            "WeaponSkill": 3,
+            "Wounds": 2
+         }
+      ],
+      "ModelWeapons": [
+         {
+            "WeaponId": "ACAC"
+         },
+         {
+            "WeaponId": "GF"
+         },
+         {
+            "WeaponId": "GK"
+         },
+         {
+            "WeaponId": "PB"
+         }
+      ],
+      "NameDe": "Suppressor",
+      "NameEn": "Suppressor",
+      "NameFr": "Suppressor",
+      "WarGearOptions": [ ]
+   },
+   {
+      "Id": "AAT",
+      "KeywordsDe": "IMPERIUM, INFANTERIE, TACTICAL MARINE",
+      "KeywordsEn": "IMPERIUM, INFANTRY, TACTICAL MARINE",
+      "KeywordsFr": "IMPERIUM, INFANTERIE, TACTICAL MARINE",
+      "ModelProfiles": [
+         {
+            "Attacks": "1",
+            "BallisticSkill": 3,
+            "Cost": 12,
+            "CostOverrides": [ ],
+            "Id": "AAT1",
+            "IsCommander": false,
+            "Leadership": 7,
+            "LevelCosts": [ ],
+            "MaximumNumber": 0,
+            "ModelProfileWeapons": [ ],
+            "Movement": 6,
+            "NameDe": "Tactical Marine",
+            "NameEn": "Tactical Marine",
+            "NameFr": "Tactical Marine",
+            "NumberOfKnownPsychics": 0,
+            "NumberOfPsychicsDenialPerRound": 0,
+            "NumberOfPsychicsManifestationPerRound": 0,
+            "Save": 3,
+            "Specialists": [
+               {
+                  "SpecialistId": "CO"
+               },
+               {
+                  "SpecialistId": "D"
+               },
+               {
+                  "SpecialistId": "M"
+               },
+               {
+                  "SpecialistId": "SN"
+               },
+               {
+                  "SpecialistId": "V"
+               }
+            ],
+            "Strength": 4,
+            "Toughness": 4,
+            "WarGearOptions": [ ],
+            "WeaponSkill": 3,
+            "Wounds": 1
+         },
+         {
+            "Attacks": "1",
+            "BallisticSkill": 3,
+            "Cost": 13,
+            "CostOverrides": [ ],
+            "Id": "AAT2",
+            "IsCommander": false,
+            "Leadership": 7,
+            "LevelCosts": [ ],
+            "MaximumNumber": 2,
+            "ModelProfileWeapons": [ ],
+            "Movement": 6,
+            "NameDe": "Tactical Marine Gunner",
+            "NameEn": "Tactical Marine Gunner",
+            "NameFr": "Tactical Marine Gunner",
+            "NumberOfKnownPsychics": 0,
+            "NumberOfPsychicsDenialPerRound": 0,
+            "NumberOfPsychicsManifestationPerRound": 0,
+            "Save": 3,
+            "Specialists": [
+               {
+                  "SpecialistId": "AL"
+               },
+               {
+                  "SpecialistId": "CO"
+               },
+               {
+                  "SpecialistId": "D"
+               },
+               {
+                  "SpecialistId": "M"
+               },
+               {
+                  "SpecialistId": "SN"
+               },
+               {
+                  "SpecialistId": "V"
+               }
+            ],
+            "Strength": 4,
+            "Toughness": 4,
+            "WarGearOptions": [
+               {
+                  "Exclusion": null,
+                  "Id": "4",
+                  "MaximumPerTeam": 1,
+                  "Operation": "BO:LF|FU|PLA|FG"
+               },
+               {
+                  "Exclusion": null,
+                  "Id": "5",
+                  "MaximumPerTeam": 1,
+                  "Operation": "BO:LM|BOL"
+               }
+            ],
+            "WeaponSkill": 3,
+            "Wounds": 1
+         },
+         {
+            "Attacks": "2",
+            "BallisticSkill": 3,
+            "Cost": 13,
+            "CostOverrides": [ ],
+            "Id": "AAT3",
+            "IsCommander": false,
+            "Leadership": 8,
+            "LevelCosts": [ ],
+            "MaximumNumber": 1,
+            "ModelProfileWeapons": [ ],
+            "Movement": 6,
+            "NameDe": "Tactical Sergeant",
+            "NameEn": "Tactical Sergeant",
+            "NameFr": "Tactical Sergeant",
+            "NumberOfKnownPsychics": 0,
+            "NumberOfPsychicsDenialPerRound": 0,
+            "NumberOfPsychicsManifestationPerRound": 0,
+            "Save": 3,
+            "Specialists": [
+               {
+                  "SpecialistId": "CO"
+               },
+               {
+                  "SpecialistId": "D"
+               },
+               {
+                  "SpecialistId": "L"
+               },
+               {
+                  "SpecialistId": "M"
+               },
+               {
+                  "SpecialistId": "SN"
+               },
+               {
+                  "SpecialistId": "V"
+               }
+            ],
+            "Strength": 4,
+            "Toughness": 4,
+            "WarGearOptions": [
+               {
+                  "Exclusion": null,
+                  "Id": "6",
+                  "MaximumPerTeam": 0,
+                  "Operation": "PB&BO:COL|COG|COP|COF"
+               },
+               {
+                  "Exclusion": null,
+                  "Id": "7",
+                  "MaximumPerTeam": 0,
+                  "Operation": "PB&BO:(PB|BO|PP|PG)&(EPT|EPE|GEN|AUS)"
+               }
+            ],
+            "WeaponSkill": 3,
+            "Wounds": 1
+         }
+      ],
+      "ModelWeapons": [
+         {
+            "WeaponId": "BO"
+         },
+         {
+            "WeaponId": "GF"
+         },
+         {
+            "WeaponId": "GK"
+         },
+         {
+            "WeaponId": "PB"
+         }
+      ],
+      "NameDe": "Tactical Marine",
+      "NameEn": "Tactical Marine",
+      "NameFr": "Tactical Marine",
+      "WarGearOptions": [ ]
+   },
+   {
+      "Id": "AAVE",
+      "KeywordsDe": "IMPERIUM, INFANTRY, STERNGUARD VETERAN/VANGUARD VETERAN/COMPANY VETERAN",
+      "KeywordsEn": "IMPERIUM, INFANTRY, STERNGUARD VETERAN/VANGUARD VETERAN/COMPANY VETERAN",
+      "KeywordsFr": "IMPERIUM, INFANTERIE, STERNGUARD VETERAN/VANGUARD VETERAN/ COMPANY. VETERAN",
+      "ModelProfiles": [
+         {
+            "Attacks": "2",
+            "BallisticSkill": 3,
+            "Cost": 13,
+            "CostOverrides": [
+               {
+                  "Cost": 9,
+                  "WeaponId": "COF"
+               },
+               {
+                  "Cost": 4,
+                  "WeaponId": "COG"
+               },
+               {
+                  "Cost": 5,
+                  "WeaponId": "COL"
+               },
+               {
+                  "Cost": 7,
+                  "WeaponId": "COP"
+               },
+               {
+                  "Cost": 1,
+                  "WeaponId": "EPE"
+               },
+               {
+                  "Cost": 7,
+                  "WeaponId": "FU"
+               },
+               {
+                  "Cost": 10,
+                  "WeaponId": "LM"
+               },
+               {
+                  "Cost": 5,
+                  "WeaponId": "PLA"
+               },
+               {
+                  "Cost": 2,
+                  "WeaponId": "PP"
+               }
+            ],
+            "Id": "AACV",
+            "IsCommander": false,
+            "Leadership": 8,
+            "LevelCosts": [ ],
+            "MaximumNumber": 4,
+            "ModelProfileWeapons": [
+               {
+                  "WeaponId": "EPT"
+               },
+               {
+                  "WeaponId": "GF"
+               },
+               {
+                  "WeaponId": "GK"
+               },
+               {
+                  "WeaponId": "PB"
+               }
+            ],
+            "Movement": 6,
+            "NameDe": "Company Veteran",
+            "NameEn": "Company Veteran",
+            "NameFr": "Company Veteran",
+            "NumberOfKnownPsychics": 0,
+            "NumberOfPsychicsDenialPerRound": 0,
+            "NumberOfPsychicsManifestationPerRound": 0,
+            "Save": 3,
+            "Specialists": [
+               {
+                  "SpecialistId": "CB"
+               },
+               {
+                  "SpecialistId": "CO"
+               },
+               {
+                  "SpecialistId": "D"
+               },
+               {
+                  "SpecialistId": "SN"
+               },
+               {
+                  "SpecialistId": "V"
+               },
+               {
+                  "SpecialistId": "Z"
+               }
+            ],
+            "Strength": 4,
+            "Toughness": 4,
+            "WarGearOptions": [
+               {
+                  "Exclusion": null,
+                  "Id": "265",
+                  "MaximumPerTeam": 0,
+                  "Operation": "PB:(PGV|PP|PIV|LFLV|LCL|PAX|GEN|PMV|EPE|BST|THA)"
+               },
+               {
+                  "Exclusion": null,
+                  "Id": "267",
+                  "MaximumPerTeam": 0,
+                  "Operation": "EPT:(BO|COL|COGV|COF|COP|BOST|LF|FG|FU|PLA|PGV|PP|PIV|LFLV|LCL|PAX|GEN|PMV|EPE|BST|THA)"
+               },
+               {
+                  "Exclusion": null,
+                  "Id": "391",
+                  "MaximumPerTeam": 0,
+                  "Operation": "PB&EPT:LCL2"
+               }
+            ],
+            "WeaponSkill": 3,
+            "Wounds": 1
+         },
+         {
+            "Attacks": "2",
+            "BallisticSkill": 3,
+            "Cost": 14,
+            "CostOverrides": [
+               {
+                  "Cost": 9,
+                  "WeaponId": "COF"
+               },
+               {
+                  "Cost": 4,
+                  "WeaponId": "COG"
+               },
+               {
+                  "Cost": 5,
+                  "WeaponId": "COL"
+               },
+               {
+                  "Cost": 7,
+                  "WeaponId": "COP"
+               },
+               {
+                  "Cost": 1,
+                  "WeaponId": "EPE"
+               },
+               {
+                  "Cost": 7,
+                  "WeaponId": "FU"
+               },
+               {
+                  "Cost": 10,
+                  "WeaponId": "LM"
+               },
+               {
+                  "Cost": 5,
+                  "WeaponId": "PLA"
+               },
+               {
+                  "Cost": 2,
+                  "WeaponId": "PP"
+               }
+            ],
+            "Id": "AASG",
+            "IsCommander": false,
+            "Leadership": 8,
+            "LevelCosts": [ ],
+            "MaximumNumber": 2,
+            "ModelProfileWeapons": [
+               {
+                  "WeaponId": "GF"
+               },
+               {
+                  "WeaponId": "GK"
+               },
+               {
+                  "WeaponId": "PB"
+               },
+               {
+                  "WeaponId": "SPBG"
+               }
+            ],
+            "Movement": 6,
+            "NameDe": "Sternguard Gunner",
+            "NameEn": "Sternguard Gunner",
+            "NameFr": "Sternguard Gunner",
+            "NumberOfKnownPsychics": 0,
+            "NumberOfPsychicsDenialPerRound": 0,
+            "NumberOfPsychicsManifestationPerRound": 0,
+            "Save": 3,
+            "Specialists": [
+               {
+                  "SpecialistId": "AL"
+               },
+               {
+                  "SpecialistId": "CB"
+               },
+               {
+                  "SpecialistId": "CO"
+               },
+               {
+                  "SpecialistId": "D"
+               },
+               {
+                  "SpecialistId": "SN"
+               },
+               {
+                  "SpecialistId": "V"
+               },
+               {
+                  "SpecialistId": "Z"
+               }
+            ],
+            "Strength": 4,
+            "Toughness": 4,
+            "WarGearOptions": [
+               {
+                  "Exclusion": null,
+                  "Id": "262",
+                  "MaximumPerTeam": 0,
+                  "Operation": "SPBG:(COL|COGV|COF|COP|BOST)|(GCGA|BOL|HFL|LACA|LM|MLME|PLCA)"
+               }
+            ],
+            "WeaponSkill": 3,
+            "Wounds": 1
+         },
+         {
+            "Attacks": "3",
+            "BallisticSkill": 3,
+            "Cost": 14,
+            "CostOverrides": [
+               {
+                  "Cost": 9,
+                  "WeaponId": "COF"
+               },
+               {
+                  "Cost": 4,
+                  "WeaponId": "COG"
+               },
+               {
+                  "Cost": 5,
+                  "WeaponId": "COL"
+               },
+               {
+                  "Cost": 7,
+                  "WeaponId": "COP"
+               },
+               {
+                  "Cost": 1,
+                  "WeaponId": "EPE"
+               },
+               {
+                  "Cost": 7,
+                  "WeaponId": "FU"
+               },
+               {
+                  "Cost": 10,
+                  "WeaponId": "LM"
+               },
+               {
+                  "Cost": 5,
+                  "WeaponId": "PLA"
+               },
+               {
+                  "Cost": 2,
+                  "WeaponId": "PP"
+               }
+            ],
+            "Id": "AASS",
+            "IsCommander": false,
+            "Leadership": 9,
+            "LevelCosts": [ ],
+            "MaximumNumber": 1,
+            "ModelProfileWeapons": [
+               {
+                  "WeaponId": "GF"
+               },
+               {
+                  "WeaponId": "GK"
+               },
+               {
+                  "WeaponId": "PB"
+               },
+               {
+                  "WeaponId": "SPBG"
+               }
+            ],
+            "Movement": 6,
+            "NameDe": "Sternguard Sergeant",
+            "NameEn": "Sternguard Sergeant",
+            "NameFr": "Sternguard Sergeant",
+            "NumberOfKnownPsychics": 0,
+            "NumberOfPsychicsDenialPerRound": 0,
+            "NumberOfPsychicsManifestationPerRound": 0,
+            "Save": 3,
+            "Specialists": [
+               {
+                  "SpecialistId": "CB"
+               },
+               {
+                  "SpecialistId": "CO"
+               },
+               {
+                  "SpecialistId": "D"
+               },
+               {
+                  "SpecialistId": "L"
+               },
+               {
+                  "SpecialistId": "SN"
+               },
+               {
+                  "SpecialistId": "V"
+               },
+               {
+                  "SpecialistId": "Z"
+               }
+            ],
+            "Strength": 4,
+            "Toughness": 4,
+            "WarGearOptions": [
+               {
+                  "Exclusion": null,
+                  "Id": "276",
+                  "MaximumPerTeam": 0,
+                  "Operation": "SPBG&PB:(((PB|PGV|PP|PIV|LFLV|EPT|LCL|PAX|GEN|PMV|EPE)&!(PB|PGV|PP|PIV|LFLV|EPT|PAX|GEN|PMV|EPE))|LCL2)&!(SPBG|COL|COGV|COF|COP|BOST)"
+               },
+               {
+                  "Exclusion": null,
+                  "Id": "387",
+                  "MaximumPerTeam": 0,
+                  "Operation": "AUS"
+               }
+            ],
+            "WeaponSkill": 3,
+            "Wounds": 1
+         },
+         {
+            "Attacks": "2",
+            "BallisticSkill": 3,
+            "Cost": 13,
+            "CostOverrides": [
+               {
+                  "Cost": 9,
+                  "WeaponId": "COF"
+               },
+               {
+                  "Cost": 4,
+                  "WeaponId": "COG"
+               },
+               {
+                  "Cost": 5,
+                  "WeaponId": "COL"
+               },
+               {
+                  "Cost": 7,
+                  "WeaponId": "COP"
+               },
+               {
+                  "Cost": 1,
+                  "WeaponId": "EPE"
+               },
+               {
+                  "Cost": 7,
+                  "WeaponId": "FU"
+               },
+               {
+                  "Cost": 10,
+                  "WeaponId": "LM"
+               },
+               {
+                  "Cost": 5,
+                  "WeaponId": "PLA"
+               },
+               {
+                  "Cost": 2,
+                  "WeaponId": "PP"
+               }
+            ],
+            "Id": "AASV",
+            "IsCommander": false,
+            "Leadership": 8,
+            "LevelCosts": [ ],
+            "MaximumNumber": 0,
+            "ModelProfileWeapons": [
+               {
+                  "WeaponId": "GF"
+               },
+               {
+                  "WeaponId": "GK"
+               },
+               {
+                  "WeaponId": "PB"
+               },
+               {
+                  "WeaponId": "SPBG"
+               }
+            ],
+            "Movement": 6,
+            "NameDe": "Sternguard Veteran",
+            "NameEn": "Sternguard Veteran",
+            "NameFr": "Sternguard Veteran",
+            "NumberOfKnownPsychics": 0,
+            "NumberOfPsychicsDenialPerRound": 0,
+            "NumberOfPsychicsManifestationPerRound": 0,
+            "Save": 3,
+            "Specialists": [
+               {
+                  "SpecialistId": "CB"
+               },
+               {
+                  "SpecialistId": "CO"
+               },
+               {
+                  "SpecialistId": "D"
+               },
+               {
+                  "SpecialistId": "SN"
+               },
+               {
+                  "SpecialistId": "V"
+               },
+               {
+                  "SpecialistId": "Z"
+               }
+            ],
+            "Strength": 4,
+            "Toughness": 4,
+            "WarGearOptions": [
+               {
+                  "Exclusion": null,
+                  "Id": "263",
+                  "MaximumPerTeam": 0,
+                  "Operation": "SPBG:(COL|COGV|COF|COP|BOST)"
+               }
+            ],
+            "WeaponSkill": 3,
+            "Wounds": 1
+         },
+         {
+            "Attacks": "3",
+            "BallisticSkill": 3,
+            "Cost": 14,
+            "CostOverrides": [
+               {
+                  "Cost": 9,
+                  "WeaponId": "COF"
+               },
+               {
+                  "Cost": 4,
+                  "WeaponId": "COG"
+               },
+               {
+                  "Cost": 5,
+                  "WeaponId": "COL"
+               },
+               {
+                  "Cost": 7,
+                  "WeaponId": "COP"
+               },
+               {
+                  "Cost": 1,
+                  "WeaponId": "EPE"
+               },
+               {
+                  "Cost": 7,
+                  "WeaponId": "FU"
+               },
+               {
+                  "Cost": 10,
+                  "WeaponId": "LM"
+               },
+               {
+                  "Cost": 5,
+                  "WeaponId": "PLA"
+               },
+               {
+                  "Cost": 2,
+                  "WeaponId": "PP"
+               }
+            ],
+            "Id": "AAVS",
+            "IsCommander": false,
+            "Leadership": 9,
+            "LevelCosts": [ ],
+            "MaximumNumber": 1,
+            "ModelProfileWeapons": [
+               {
+                  "WeaponId": "EPT"
+               },
+               {
+                  "WeaponId": "GF"
+               },
+               {
+                  "WeaponId": "GK"
+               },
+               {
+                  "WeaponId": "PB"
+               }
+            ],
+            "Movement": 6,
+            "NameDe": "Vanguard Sergeant",
+            "NameEn": "Vanguard Sergeant",
+            "NameFr": "Vanguard Sergeant",
+            "NumberOfKnownPsychics": 0,
+            "NumberOfPsychicsDenialPerRound": 0,
+            "NumberOfPsychicsManifestationPerRound": 0,
+            "Save": 3,
+            "Specialists": [
+               {
+                  "SpecialistId": "CB"
+               },
+               {
+                  "SpecialistId": "CO"
+               },
+               {
+                  "SpecialistId": "D"
+               },
+               {
+                  "SpecialistId": "L"
+               },
+               {
+                  "SpecialistId": "SN"
+               },
+               {
+                  "SpecialistId": "V"
+               },
+               {
+                  "SpecialistId": "Z"
+               }
+            ],
+            "Strength": 4,
+            "Toughness": 4,
+            "WarGearOptions": [
+               {
+                  "Exclusion": null,
+                  "Id": "272",
+                  "MaximumPerTeam": 0,
+                  "Operation": "JPK"
+               },
+               {
+                  "Exclusion": null,
+                  "Id": "275",
+                  "MaximumPerTeam": 1,
+                  "Operation": "MEBO"
+               },
+               {
+                  "Exclusion": null,
+                  "Id": "277",
+                  "MaximumPerTeam": 0,
+                  "Operation": "PB&EPT:((PB|PGV|PP|PIV|LFLV|EPT|LCL|PAX|GEN|PMV|EPE|RBL|BST|THA)&(PB|PGV|PP|PIV|LFLV))|LCL2"
+               }
+            ],
+            "WeaponSkill": 3,
+            "Wounds": 1
+         },
+         {
+            "Attacks": "3",
+            "BallisticSkill": 3,
+            "Cost": 14,
+            "CostOverrides": [
+               {
+                  "Cost": 9,
+                  "WeaponId": "COF"
+               },
+               {
+                  "Cost": 4,
+                  "WeaponId": "COG"
+               },
+               {
+                  "Cost": 5,
+                  "WeaponId": "COL"
+               },
+               {
+                  "Cost": 7,
+                  "WeaponId": "COP"
+               },
+               {
+                  "Cost": 1,
+                  "WeaponId": "EPE"
+               },
+               {
+                  "Cost": 7,
+                  "WeaponId": "FU"
+               },
+               {
+                  "Cost": 10,
+                  "WeaponId": "LM"
+               },
+               {
+                  "Cost": 5,
+                  "WeaponId": "PLA"
+               },
+               {
+                  "Cost": 2,
+                  "WeaponId": "PP"
+               }
+            ],
+            "Id": "AAVSG",
+            "IsCommander": false,
+            "Leadership": 9,
+            "LevelCosts": [ ],
+            "MaximumNumber": 1,
+            "ModelProfileWeapons": [
+               {
+                  "WeaponId": "EPT"
+               },
+               {
+                  "WeaponId": "GF"
+               },
+               {
+                  "WeaponId": "GK"
+               },
+               {
+                  "WeaponId": "PB"
+               }
+            ],
+            "Movement": 6,
+            "NameDe": "Veteran Sergeant",
+            "NameEn": "Veteran Sergeant",
+            "NameFr": "Veteran Sergeant",
+            "NumberOfKnownPsychics": 0,
+            "NumberOfPsychicsDenialPerRound": 0,
+            "NumberOfPsychicsManifestationPerRound": 0,
+            "Save": 3,
+            "Specialists": [
+               {
+                  "SpecialistId": "CB"
+               },
+               {
+                  "SpecialistId": "CO"
+               },
+               {
+                  "SpecialistId": "D"
+               },
+               {
+                  "SpecialistId": "L"
+               },
+               {
+                  "SpecialistId": "SN"
+               },
+               {
+                  "SpecialistId": "V"
+               },
+               {
+                  "SpecialistId": "Z"
+               }
+            ],
+            "Strength": 4,
+            "Toughness": 4,
+            "WarGearOptions": [
+               {
+                  "Exclusion": null,
+                  "Id": "285",
+                  "MaximumPerTeam": 0,
+                  "Operation": "EPT&PB:(((PB|PGV|PP|PIV|LFLV|EPT|LCL|PAX|GEN|PMV|EPE|BST|THA)&!(PB|PGV|PP|PIV|LFLV|EPT|PAX|GEN|PMV|EPE|BST|THA))|LCL2)&!(BO|COL|COGV|COF|COP|BOST)"
+               }
+            ],
+            "WeaponSkill": 3,
+            "Wounds": 1
+         },
+         {
+            "Attacks": "2",
+            "BallisticSkill": 3,
+            "Cost": 13,
+            "CostOverrides": [
+               {
+                  "Cost": 9,
+                  "WeaponId": "COF"
+               },
+               {
+                  "Cost": 4,
+                  "WeaponId": "COG"
+               },
+               {
+                  "Cost": 5,
+                  "WeaponId": "COL"
+               },
+               {
+                  "Cost": 7,
+                  "WeaponId": "COP"
+               },
+               {
+                  "Cost": 1,
+                  "WeaponId": "EPE"
+               },
+               {
+                  "Cost": 7,
+                  "WeaponId": "FU"
+               },
+               {
+                  "Cost": 10,
+                  "WeaponId": "LM"
+               },
+               {
+                  "Cost": 5,
+                  "WeaponId": "PLA"
+               },
+               {
+                  "Cost": 2,
+                  "WeaponId": "PP"
+               }
+            ],
+            "Id": "AAVV",
+            "IsCommander": false,
+            "Leadership": 8,
+            "LevelCosts": [ ],
+            "MaximumNumber": 0,
+            "ModelProfileWeapons": [
+               {
+                  "WeaponId": "EPT"
+               },
+               {
+                  "WeaponId": "GF"
+               },
+               {
+                  "WeaponId": "GK"
+               },
+               {
+                  "WeaponId": "PB"
+               }
+            ],
+            "Movement": 6,
+            "NameDe": "Vanguard Veteran",
+            "NameEn": "Vanguard Veteran",
+            "NameFr": "Vanguard Veteran",
+            "NumberOfKnownPsychics": 0,
+            "NumberOfPsychicsDenialPerRound": 0,
+            "NumberOfPsychicsManifestationPerRound": 0,
+            "Save": 3,
+            "Specialists": [
+               {
+                  "SpecialistId": "CB"
+               },
+               {
+                  "SpecialistId": "CO"
+               },
+               {
+                  "SpecialistId": "D"
+               },
+               {
+                  "SpecialistId": "SN"
+               },
+               {
+                  "SpecialistId": "V"
+               },
+               {
+                  "SpecialistId": "Z"
+               }
+            ],
+            "Strength": 4,
+            "Toughness": 4,
+            "WarGearOptions": [
+               {
+                  "Exclusion": null,
+                  "Id": "268",
+                  "MaximumPerTeam": 0,
+                  "Operation": "PB&EPT:((PB|PGV|PP|PIV|LFLV|EPT|LCL|PAX|GEN|PMV|EPE|BST|THA)&(PB|PGV|PP|PIV|LFLV))|LCL2"
+               },
+               {
+                  "Exclusion": null,
+                  "Id": "273",
+                  "MaximumPerTeam": 0,
+                  "Operation": "JPK"
+               },
+               {
+                  "Exclusion": null,
+                  "Id": "274",
+                  "MaximumPerTeam": 1,
+                  "Operation": "MEBO"
+               }
+            ],
+            "WeaponSkill": 3,
+            "Wounds": 1
+         }
+      ],
+      "ModelWeapons": [ ],
+      "NameDe": "Veteran",
+      "NameEn": "Veteran",
+      "NameFr": "Veteran",
+      "WarGearOptions": [ ]
+   },
+   {
+      "Id": "CIFA",
+      "KeywordsDe": "IMPERIUM, KOMMANDEUR, INFANTERIE, PHOBOS, PRIMARIS, CAPTAIN",
+      "KeywordsEn": "IMPERIUM, COMMANDER, INFANTRY, PHOBOS, PRIMARIS, CAPTAIN",
+      "KeywordsFr": "IMPERIUM, COMMANDER, INFANTRY, PHOBOS, PRIMARIS, CAPTAIN",
+      "ModelProfiles": [
+         {
+            "Attacks": "5",
+            "BallisticSkill": 2,
+            "Cost": 81,
+            "CostOverrides": [ ],
+            "Id": "CIFA",
+            "IsCommander": true,
+            "Leadership": 9,
+            "LevelCosts": [
+               {
+                  "Cost": 81,
+                  "Level": 1
+               },
+               {
+                  "Cost": 101,
+                  "Level": 2
+               },
+               {
+                  "Cost": 121,
+                  "Level": 3
+               },
+               {
+                  "Cost": 146,
+                  "Level": 4
+               }
+            ],
+            "MaximumNumber": 1,
+            "ModelProfileWeapons": [
+               {
+                  "WeaponId": "CC"
+               },
+               {
+                  "WeaponId": "GF"
+               },
+               {
+                  "WeaponId": "GK"
+               },
+               {
+                  "WeaponId": "MCIBC"
+               },
+               {
+                  "WeaponId": "PB"
+               }
+            ],
+            "Movement": 6,
+            "NameDe": "Captain in Phobos Armour",
+            "NameEn": "Captain in Phobos Armour",
+            "NameFr": "Captain en Armure Phobos",
+            "NumberOfKnownPsychics": 0,
+            "NumberOfPsychicsDenialPerRound": 0,
+            "NumberOfPsychicsManifestationPerRound": 0,
+            "Save": 3,
+            "Specialists": [
+               {
+                  "SpecialistId": "F"
+               },
+               {
+                  "SpecialistId": "FE"
+               },
+               {
+                  "SpecialistId": "FR"
+               },
+               {
+                  "SpecialistId": "L"
+               },
+               {
+                  "SpecialistId": "LO"
+               },
+               {
+                  "SpecialistId": "ME"
+               },
+               {
+                  "SpecialistId": "SE"
+               },
+               {
+                  "SpecialistId": "SH"
+               },
+               {
+                  "SpecialistId": "ST"
+               }
+            ],
+            "Strength": 4,
+            "Toughness": 4,
+            "WarGearOptions": [ ],
+            "WeaponSkill": 2,
+            "Wounds": 6
+         }
+      ],
+      "ModelWeapons": [ ],
+      "NameDe": "Captain in Phobos Armour",
+      "NameEn": "Captain in Phobos Armour",
+      "NameFr": "Captain en armure Phobos",
+      "WarGearOptions": [ ]
+   },
+   {
+      "Id": "LIIPA",
+      "KeywordsDe": "IMPERIUM, COMMANDER, INFANTRY, PHOBOS, PRIMARIS, PSYKER, LIBRARIAN",
+      "KeywordsEn": "IMPERIUM, COMMANDER, INFANTRY, PHOBOS, PRIMARIS, PSYKER, LIBRARIAN",
+      "KeywordsFr": "IMPERIUM, COMMANDER, INFANTRY, PHOBOS, PRIMARIS, PSYKER, LIBRARIAN",
+      "ModelProfiles": [
+         {
+            "Attacks": "4",
+            "BallisticSkill": 3,
+            "Cost": 91,
+            "CostOverrides": [ ],
+            "Id": "LIIPA",
+            "IsCommander": true,
+            "Leadership": 9,
+            "LevelCosts": [
+               {
+                  "Cost": 91,
+                  "Level": 1
+               },
+               {
+                  "Cost": 111,
+                  "Level": 2
+               },
+               {
+                  "Cost": 131,
+                  "Level": 3
+               },
+               {
+                  "Cost": 156,
+                  "Level": 4
+               }
+            ],
+            "MaximumNumber": 1,
+            "ModelProfileWeapons": [ ],
+            "Movement": 6,
+            "NameDe": "Librarian in Phobos Armour",
+            "NameEn": "Librarian in Phobos Armour",
+            "NameFr": "Librarian en Armure Phobos",
+            "NumberOfKnownPsychics": 2,
+            "NumberOfPsychicsDenialPerRound": 1,
+            "NumberOfPsychicsManifestationPerRound": 2,
+            "Save": 3,
+            "Specialists": [
+               {
+                  "SpecialistId": "F"
+               },
+               {
+                  "SpecialistId": "FE"
+               },
+               {
+                  "SpecialistId": "ME"
+               },
+               {
+                  "SpecialistId": "P"
+               },
+               {
+                  "SpecialistId": "SE"
+               }
+            ],
+            "Strength": 4,
+            "Toughness": 4,
+            "WarGearOptions": [ ],
+            "WeaponSkill": 3,
+            "Wounds": 5
+         }
+      ],
+      "ModelWeapons": [
+         {
+            "WeaponId": "FS"
+         },
+         {
+            "WeaponId": "GF"
+         },
+         {
+            "WeaponId": "GK"
+         },
+         {
+            "WeaponId": "PB"
+         }
+      ],
+      "NameDe": "Librarian in Phobos Armour",
+      "NameEn": "Librarian in Phobos Armour",
+      "NameFr": "Librarian en armure Phobos",
+      "WarGearOptions": [ ]
+   },
+   {
+      "Id": "LIPA",
+      "KeywordsDe": "IMPERIUM, COMMANDER, INFANTRY, PHOBOS, PRIMARIS, GRAV-CHUTE, LIEUTENANT",
+      "KeywordsEn": "IMPERIUM, COMMANDER, INFANTRY, PHOBOS, PRIMARIS, GRAV-CHUTE, LIEUTENANT",
+      "KeywordsFr": "IMPERIUM, COMMANDER, INFANTRY, PHOBOS, PRIMARIS, GRAV-CHUTE, LIEUTENANT",
+      "ModelProfiles": [
+         {
+            "Attacks": "4",
+            "BallisticSkill": 3,
+            "Cost": 51,
+            "CostOverrides": [ ],
+            "Id": "LIPA",
+            "IsCommander": true,
+            "Leadership": 8,
+            "LevelCosts": [
+               {
+                  "Cost": 66,
+                  "Level": 2
+               },
+               {
+                  "Cost": 106,
+                  "Level": 4
+               },
+               {
+                  "Cost": 81,
+                  "Level": 3
+               },
+               {
+                  "Cost": 51,
+                  "Level": 1
+               }
+            ],
+            "MaximumNumber": 1,
+            "ModelProfileWeapons": [ ],
+            "Movement": 6,
+            "NameDe": "Lieutenant in Phobos Armour",
+            "NameEn": "Lieutenant in Phobos Armour",
+            "NameFr": "Lieutenant en Armure Phobos",
+            "NumberOfKnownPsychics": 0,
+            "NumberOfPsychicsDenialPerRound": 0,
+            "NumberOfPsychicsManifestationPerRound": 0,
+            "Save": 3,
+            "Specialists": [
+               {
+                  "SpecialistId": "F"
+               },
+               {
+                  "SpecialistId": "FE"
+               },
+               {
+                  "SpecialistId": "FR"
+               },
+               {
+                  "SpecialistId": "L"
+               },
+               {
+                  "SpecialistId": "LO"
+               },
+               {
+                  "SpecialistId": "ME"
+               },
+               {
+                  "SpecialistId": "SE"
+               },
+               {
+                  "SpecialistId": "SH"
+               },
+               {
+                  "SpecialistId": "ST"
+               }
+            ],
+            "Strength": 4,
+            "Toughness": 4,
+            "WarGearOptions": [ ],
+            "WeaponSkill": 2,
+            "Wounds": 5
+         }
+      ],
+      "ModelWeapons": [
+         {
+            "WeaponId": "CCW"
+         },
+         {
+            "WeaponId": "GF"
+         },
+         {
+            "WeaponId": "GK"
+         },
+         {
+            "WeaponId": "MCOBC"
+         },
+         {
+            "WeaponId": "PB"
+         }
+      ],
+      "NameDe": "Lieutenant in Phobos Armour",
+      "NameEn": "Lieutenant in Phobos Armour",
+      "NameFr": "Lieutenant en armure Phobos",
+      "WarGearOptions": [ ]
+   }
+]

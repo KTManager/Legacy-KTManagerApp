@@ -1,0 +1,50 @@
+[
+  {
+    "Id": "METM1",
+    "ModelProfileId": "METM",
+    "Level": 1,
+    "Cost": 0,
+    "NameEn": "Sentient scopes",
+    "NameFr": "Viseurs intelligents",
+    "NameDe": "Intelligente Optiken",
+    "DescriptionEn": "Re-roll hit rolls of 1 for this model in the shooting phase",
+    "DescriptionFr": "Relancez les jets de touche de 1 pour cette figurine à la phase de tir.",
+    "DescriptionDe": "Wiederhole in der Fernkampfphase Trefferwürfe von 1 für dieses Modell."
+  },
+  {
+    "Id": "METM2",
+    "ModelProfileId": "METM",
+    "Level": 2,
+    "Cost": 0,
+    "NameEn": "System cleanse",
+    "NameFr": "Purge des systèmes",
+    "NameDe": "Systemreinigung",
+    "DescriptionEn": "Roll a D6 at the start of the battle round if this model is shaken; on a 5+ this model is no longer shaken",
+    "DescriptionFr": "Jetez un D6 au début du round de bataille si cette figurine est secouée: sur 5+ cette figurine n'est plus secouée.",
+    "DescriptionDe": "Wirf zu Beginn der Schlachtrunde einen W6, wenn dieses Modell erschüttert ist; bei 5+ ist dieses Modell nicht länger erschüttert."
+  },
+  {
+    "Id": "METM3",
+    "ModelProfileId": "METM",
+    "Level": 3,
+    "Cost": 0,
+    "NameEn": "Binharic Wrath",
+    "NameFr": "Courroux binhaire",
+    "NameDe": "Binhärer Zorn",
+    "DescriptionEn": "Add 1 to the Attacks characteristic of this model in the Fight phase if it charged in the previous Movement phase.",
+    "DescriptionFr": "Ajoutez 1 à la caractéristique d'attaques de cette figurine à la phase de combat si elle a chargé à la phase de mouvement précédente.",
+    "DescriptionDe": "Addiere 1 zum Attackenwert dieses Modells in der Nahkampfphase, wenn es in der vorhergehenden Bewegungsphase angegriffen hat.\n"
+  },
+  {
+    "Id": "METM4",
+    "ModelProfileId": "METM",
+    "Level": 4,
+    "Cost": 0,
+    "NameEn": "Data surge",
+    "NameFr": "Afflux de données",
+    "NameDe": "Datenschwall",
+    "DescriptionEn": "At the start of each battle round, pick a Canticle of the Omnissiah not currently in effect. That Canticle is also considered to be in effect, but only applies to this model.",
+    "DescriptionFr": "Au début de chaque round de bataille, choisissez un cantique de l'Omnimessie qui n'est pas actif. Ce cantique compte aussi comme étant actif, mais il s'applique uniquement à cette figurine.",
+    "DescriptionDe": "Wähle zu Beginn jeder Schlachtrunde einen Lobgesang des Omnissiah, der aktuell nicht wirksam ist. Dieser Lobgesang gilt zusätzlich als wirksam, gilt aber nur für dieses Modell."
+  }
+]

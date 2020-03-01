@@ -1,0 +1,128 @@
+[
+  {
+    "Id": "AL",
+    "NameEn": "Heavy",
+    "NameFr": "Appui lourd",
+    "NameDe": "Schwerer Schütze"
+  },
+  {
+    "Id": "CB",
+    "NameEn": "Combat",
+    "NameFr": "Combat",
+    "NameDe": "Nahkampfspezialist"
+  },
+  {
+    "Id": "CO",
+    "NameEn": "Comms",
+    "NameFr": "Communications",
+    "NameDe": "Funker"
+  },
+  {
+    "Id": "D",
+    "NameEn": "Demolition",
+    "NameFr": "Démolition",
+    "NameDe": "Sprengstoffspezialist"
+  },
+  {
+    "Id": "F",
+    "NameEn": "Strength",
+    "NameFr": "Force",
+    "NameDe": "Stärkespezialist"
+  },
+  {
+    "Id": "FE",
+    "NameEn": "Fortitude",
+    "NameFr": "Bravoure",
+    "NameDe": "Unbezwingbarer Krieger"
+  },
+  {
+    "Id": "FR",
+    "NameEn": "Ferocity",
+    "NameFr": "Férocité",
+    "NameDe": "Berserker"
+  },
+  {
+    "Id": "L",
+    "NameEn": "Leader",
+    "NameFr": "Leader",
+    "NameDe": "Anführer"
+  },
+  {
+    "Id": "LE",
+    "NameEn": "Leadership",
+    "NameFr": "Leadership",
+    "NameDe": "General"
+  },
+  {
+    "Id": "LH",
+    "NameEn": "Legendary Hunter",
+    "NameFr": null,
+    "NameDe": null
+  },
+  {
+    "Id": "LO",
+    "NameEn": "Logistics",
+    "NameFr": "Logistique",
+    "NameDe": "Logistiker"
+  },
+  {
+    "Id": "M",
+    "NameEn": "Medic",
+    "NameFr": "Médic",
+    "NameDe": "Sanitäter"
+  },
+  {
+    "Id": "ME",
+    "NameEn": "Melee",
+    "NameFr": "Mêlée",
+    "NameDe": "Meisterkämpfer"
+  },
+  {
+    "Id": "P",
+    "NameEn": "Psyker",
+    "NameFr": "Psykers",
+    "NameDe": "Psioniker"
+  },
+  {
+    "Id": "SC",
+    "NameEn": "Scout",
+    "NameFr": "Scout",
+    "NameDe": "Aufklärer"
+  },
+  {
+    "Id": "SE",
+    "NameEn": "Stealth",
+    "NameFr": "Furtivité",
+    "NameDe": "Pirscher"
+  },
+  {
+    "Id": "SH",
+    "NameEn": "Shooting",
+    "NameFr": "Tir",
+    "NameDe": "Meisterschütze"
+  },
+  {
+    "Id": "SN",
+    "NameEn": "Sniper",
+    "NameFr": "Sniper",
+    "NameDe": "Scharfschütze"
+  },
+  {
+    "Id": "ST",
+    "NameEn": "Strategist",
+    "NameFr": "Stratèges",
+    "NameDe": "Stratege"
+  },
+  {
+    "Id": "V",
+    "NameEn": "Veteran",
+    "NameFr": "Vétéran",
+    "NameDe": "Veteran"
+  },
+  {
+    "Id": "Z",
+    "NameEn": "Zealot",
+    "NameFr": "Zélote",
+    "NameDe": "Zelot"
+  }
+]

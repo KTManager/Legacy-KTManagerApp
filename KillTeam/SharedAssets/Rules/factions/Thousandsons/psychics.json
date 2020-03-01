@@ -1,0 +1,80 @@
+[
+  {
+    "Id": "14",
+    "ModelProfileId": "TSE",
+    "WarpCharge": 6,
+    "Dices": 1,
+    "NameEn": "Gaze of fate",
+    "NameFr": "Regard du destin",
+    "NameDe": "Blick des Schicksals",
+    "DescriptionEn": "If manifested, you can re-roll a single Advance roll, charge roll, Psychic test, Deny the Witch test, hit roll, wound roll, saving throw, Injury roll or Nerve test before the next Psychic phase.",
+    "DescriptionFr": "S'il est manifesté, vous pouvez relancer un seul jet d'Avance, de charge, un test psychique ou d'abjuration, un jet de touche, de blessure, de trauma, de sauvegarde ou de Sang-froid avant la prochaine phase Psychique.",
+    "DescriptionDe": "Wird diese Psikraft manifestiert, kannst du einen einzelnen Vorrücken-Wurf, Angriffswurf, Psitest, Psibanntest, Trefferwurf, Verwundungswurf, Schutzwurf oder Nerventest vor der nächsten Psiphase Wiederholen.",
+    "Commander": true
+  },
+  {
+    "Id": "15",
+    "ModelProfileId": "TSE",
+    "WarpCharge": 8,
+    "Dices": 2,
+    "NameEn": "Treason of tzeentch",
+    "NameFr": "Trahison de Tzeentch",
+    "NameDe": "Verrat des Tzeentch",
+    "DescriptionEn": "If manifested, select an enemy model that is within 12\" of the psyker and visible to him and roll 2D6. If the result is greater than the character's Leadership characteristic, the model is treated as if it were a model from your kill team in the subsequent Shooting and Fight phases. At the end of the Fight phase, the model reverts to being an enemy model.",
+    "DescriptionFr": "S'il est manifesté, choisissez une figurine ennemie à 12\" et visible du psyker., puis jetez 2D6. Si le résultat est supérieur au Commandement de la figurine, elle compte comme faisant partie de votre kill team lors des phases de tir et de combat suivantes. A la fin de la phase de combat, la figurine redevient une figurine ennemie.",
+    "DescriptionDe": "Wenn diese Psikraft manifestiert wird, wähle ein für den Psioniker sichtbares feindliches Modell innerhalb von 12'' um ihn und wirf dann 2W6. Übersteigt das Ergebnis den Moralwert des Modells, wird das Modell in der folgenden Fernkampf- und Nahkampfphase wie ein Modell aus deinem Kill Team behandelt. Am Ende der Nahkampfphase wird das Modell wieder zu einem feindlichen Modell.",
+    "Commander": true
+  },
+  {
+    "Id": "16",
+    "ModelProfileId": "TSE",
+    "WarpCharge": 9,
+    "Dices": 3,
+    "NameEn": "Bolt of change",
+    "NameFr": "Eclair du changement",
+    "NameDe": "Blitz des Wandels",
+    "DescriptionEn": "If manifested, the closest enemy model within 12\" of the psyker and visible to him suffers D3 mortal wounds.",
+    "DescriptionFr": "S'il est manifesté, la figurine ennemie la plus proche visible du psyker et à 12\" subit D3 blessures mortelles.",
+    "DescriptionDe": "Wenn diese Psikraft manifestiert wird, erleidet das nächste feindliche Modell innerhalb von 12'' um den Psioniker, das für ihn sichtbar ist, W3 tödliche Verwundungen.",
+    "Commander": true
+  },
+  {
+    "Id": "17",
+    "ModelProfileId": "TSTS",
+    "WarpCharge": 6,
+    "Dices": 1,
+    "NameEn": "Gaze of fate",
+    "NameFr": "Regard du destin",
+    "NameDe": "Blick des Schicksals",
+    "DescriptionEn": "If manifested, you can re-roll a single Advance roll, charge roll, Psychic test, Deny the Witch test, hit roll, wound roll, saving throw, Injury roll or Nerve test before the next Psychic phase.",
+    "DescriptionFr": "S'il est manifesté, vous pouvez relancer un seul jet d'Avance, de charge, un test psychique ou d'abjuration, un jet de touche, de blessure, de trauma, de sauvegarde ou de Sang-froid avant la prochaine phase Psychique.",
+    "DescriptionDe": "Wird diese Psikraft manifestiert, kannst du einen einzelnen Vorrücken-Wurf, Angriffswurf, Psitest, Psibanntest, Trefferwurf, Verwundungswurf, Schutzwurf oder Nerventest vor der nächsten Psiphase Wiederholen.",
+    "Commander": true
+  },
+  {
+    "Id": "18",
+    "ModelProfileId": "TSTS",
+    "WarpCharge": 8,
+    "Dices": 2,
+    "NameEn": "Treason of tzeentch",
+    "NameFr": "Trahison de Tzeentch",
+    "NameDe": "Verrat des Tzeentch",
+    "DescriptionEn": "If manifested, select an enemy model that is within 12\" of the psyker and visible to him and roll 2D6. If the result is greater than the character's Leadership characteristic, the model is treated as if it were a model from your kill team in the subsequent Shooting and Fight phases. At the end of the Fight phase, the model reverts to being an enemy model.",
+    "DescriptionFr": "S'il est manifesté, choisissez une figurine ennemie à 12\" et visible du psyker., puis jetez 2D6. Si le résultat est supérieur au Commandement de la figurine, elle compte comme faisant partie de votre kill team lors des phases de tir et de combat suivantes. A la fin de la phase de combat, la figurine redevient une figurine ennemie.",
+    "DescriptionDe": "Wenn diese Psikraft manifestiert wird, wähle ein für den Psioniker sichtbares feindliches Modell innerhalb von 12'' um ihn und wirf dann 2W6. Übersteigt das Ergebnis den Moralwert des Modells, wird das Modell in der folgenden Fernkampf- und Nahkampfphase wie ein Modell aus deinem Kill Team behandelt. Am Ende der Nahkampfphase wird das Modell wieder zu einem feindlichen Modell.",
+    "Commander": true
+  },
+  {
+    "Id": "19",
+    "ModelProfileId": "TSTS",
+    "WarpCharge": 9,
+    "Dices": 3,
+    "NameEn": "Bolt of change",
+    "NameFr": "Eclair du changement",
+    "NameDe": "Blitz des Wandels",
+    "DescriptionEn": "If manifested, the closest enemy model within 12\" of the psyker and visible to him suffers D3 mortal wounds.",
+    "DescriptionFr": "S'il est manifesté, la figurine ennemie la plus proche visible du psyker et à 12\" subit D3 blessures mortelles.",
+    "DescriptionDe": "Wenn diese Psikraft manifestiert wird, erleidet das nächste feindliche Modell innerhalb von 12'' um den Psioniker, das für ihn sichtbar ist, W3 tödliche Verwundungen.",
+    "Commander": true
+  }
+]

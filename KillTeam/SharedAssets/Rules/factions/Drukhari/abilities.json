@@ -1,0 +1,433 @@
+[
+  {
+    "Id": "CD",
+    "ModelId": "DRS",
+    "ModelProfileId": null,
+    "NameEn": "Combat Drugs",
+    "NameFr": "Drogues de combat",
+    "NameDe": "Kampfdrogen",
+    "DescriptionEn": "Models with this ability gain a bonus during the battle depending on the drugs they have taken. Before the battle, roll on the table below to see which combat drug your kill team is using. This bonus applies to all models in your kill team with the Combat Drugs ability.",
+    "DescriptionFr": "Les figurines ayant cette aptitude gagnent un bonus pour toute la bataille, qui dépend de la drogue prise. Avant la bataille, faites un jet sur le tableau ci-dessous pour voir quelle drogue de combat votre kill team emploie. Ce bonus s'applique à toutes les figurines de votre kill team ayant cette aptitude.",
+    "DescriptionDe": "Modelle mit dieser Fähigkeit erhalten in der Schlacht eine Fähigkeit, die von der injizierten Droge abhängt. Würfle vor dem Gefecht auf der folgenden Tabelle, um zu ermitteln, welche Kampfdroge dein Kill Team einsetzt. Diesen Bonus erhalten alle Modelle in deinem Kill Team mit der Fähigkeit Kampfdrogen.",
+    "Details": []
+  },
+  {
+    "Id": "DC",
+    "ModelId": "DRW",
+    "ModelProfileId": null,
+    "NameEn": "Combat Drugs",
+    "NameFr": "Drogues de combat",
+    "NameDe": "Kampfdrogen",
+    "DescriptionEn": "Models with this ability gain a bonus during the battle depending on the drugs they have taken. Before the battle, roll on the table below to see which combat drug your kill team is using. This bonus applies to all models in your kill team with the Combat Drugs ability.",
+    "DescriptionFr": "Les figurines ayant cette aptitude gagnent un bonus pour toute la bataille, qui dépend de la drogue prise. Avant la bataille, faites un jet sur le tableau ci-dessous pour voir quelle drogue de combat votre kill team emploie. Ce bonus s'applique à toutes les figurines de votre kill team ayant cette aptitude.",
+    "DescriptionDe": "Modelle mit dieser Fähigkeit erhalten in der Schlacht eine Fähigkeit, die von der injizierten Droge abhängt. Würfle vor dem Gefecht auf der folgenden Tabelle, um zu ermitteln, welche Kampfdroge dein Kill Team einsetzt. Diesen Bonus erhalten alle Modelle in deinem Kill Team mit der Fähigkeit Kampfdrogen.",
+    "Details": [
+      {
+        "Row": 0,
+        "Column": 1,
+        "ContentEn": "D6",
+        "ContentFr": "D6",
+        "ContentDe": "W6"
+      },
+      {
+        "Row": 0,
+        "Column": 2,
+        "ContentEn": "Bonus",
+        "ContentFr": "Bonus",
+        "ContentDe": "Bonus"
+      },
+      {
+        "Row": 0,
+        "Column": 3,
+        "ContentEn": "",
+        "ContentFr": "",
+        "ContentDe": ""
+      },
+      {
+        "Row": 1,
+        "Column": 1,
+        "ContentEn": "1",
+        "ContentFr": "1",
+        "ContentDe": "1"
+      },
+      {
+        "Row": 2,
+        "Column": 1,
+        "ContentEn": "2",
+        "ContentFr": "2",
+        "ContentDe": "2"
+      },
+      {
+        "Row": 3,
+        "Column": 1,
+        "ContentEn": "3",
+        "ContentFr": "3",
+        "ContentDe": "3"
+      },
+      {
+        "Row": 4,
+        "Column": 1,
+        "ContentEn": "4",
+        "ContentFr": "4",
+        "ContentDe": "4"
+      },
+      {
+        "Row": 5,
+        "Column": 1,
+        "ContentEn": "5",
+        "ContentFr": "5",
+        "ContentDe": "5"
+      },
+      {
+        "Row": 6,
+        "Column": 1,
+        "ContentEn": "6",
+        "ContentFr": "6",
+        "ContentDe": "6"
+      },
+      {
+        "Row": 1,
+        "Column": 2,
+        "ContentEn": "Adrenalight",
+        "ContentFr": "Métadrénaline",
+        "ContentDe": "Adrenaphin"
+      },
+      {
+        "Row": 2,
+        "Column": 2,
+        "ContentEn": "Grave Lotus",
+        "ContentFr": "Lotus tumulaire",
+        "ContentDe": "Grablotus"
+      },
+      {
+        "Row": 3,
+        "Column": 2,
+        "ContentEn": "Hypex",
+        "ContentFr": "Hypex",
+        "ContentDe": "Hypex"
+      },
+      {
+        "Row": 4,
+        "Column": 2,
+        "ContentEn": "Painbringer",
+        "ContentFr": "Crucifiant",
+        "ContentDe": "Schmerzbringer"
+      },
+      {
+        "Row": 5,
+        "Column": 2,
+        "ContentEn": "Serpentin",
+        "ContentFr": "Serpentine",
+        "ContentDe": "Serpentin"
+      },
+      {
+        "Row": 6,
+        "Column": 2,
+        "ContentEn": "Splintermind",
+        "ContentFr": "Psychopompe",
+        "ContentDe": "Seelenbrecher"
+      },
+      {
+        "Row": 1,
+        "Column": 3,
+        "ContentEn": "+1 to Attacks characteristic",
+        "ContentFr": "+1 à la caractéristique d'attaques",
+        "ContentDe": "+1 auf den Attackewert"
+      },
+      {
+        "Row": 2,
+        "Column": 3,
+        "ContentEn": "+1 to Strength characteristic",
+        "ContentFr": "+1 à la caractéristique de Force",
+        "ContentDe": "+1 auf den Stärkewert"
+      },
+      {
+        "Row": 3,
+        "Column": 3,
+        "ContentEn": "+1 to Toughness characteristic",
+        "ContentFr": "+2 à la caractéristique de mouvement",
+        "ContentDe": "+2 auf den Bewegungswert"
+      },
+      {
+        "Row": 4,
+        "Column": 3,
+        "ContentEn": "+1 to Weapon Skill characteristic (e.g. WS 3+ becomes WS 2+)",
+        "ContentFr": "+1 à la caractéristique d'endurance",
+        "ContentDe": "+1 auf den Widerstandswert"
+      },
+      {
+        "Row": 5,
+        "Column": 3,
+        "ContentEn": "+2 to Leadership characteristic",
+        "ContentFr": "+1 à la caractéristique de capacité de combat",
+        "ContentDe": "+1 auf den Kampfgeschickwert (KG +3 wird KG 2+ usw.)"
+      },
+      {
+        "Row": 6,
+        "Column": 3,
+        "ContentEn": "+2 to Move characteristic",
+        "ContentFr": "+2 à la caractéristique de Commandement",
+        "ContentDe": "+2 auf den Moralwert"
+      }
+    ]
+  },
+  {
+    "Id": "ESQ",
+    "ModelId": "DRW",
+    "ModelProfileId": null,
+    "NameEn": "Dodge",
+    "NameFr": "Esquive",
+    "NameDe": "Ausweichen",
+    "DescriptionEn": "This model has a 4+ invulnerable save in the Fight phase.",
+    "DescriptionFr": "Cette figurine a une sauvegarde invulnérable de 4+ à la phase de combat.",
+    "DescriptionDe": "Dieses Modell hat in der Nahkampfphase einen Rettungswurf von 4+.",
+    "Details": []
+  },
+  {
+    "Id": "ITP",
+    "ModelId": "DRH",
+    "ModelProfileId": null,
+    "NameEn": "Isensible To Pain",
+    "NameFr": "Insensible à la douleur",
+    "NameDe": "Schmerzunempfindlich",
+    "DescriptionEn": "This model has a 5+ invulnerable save.",
+    "DescriptionFr": "Cette figurine a une sauvegarde invulnérable de 5+.",
+    "DescriptionDe": "Dieses Modell hat einen Rettungswurf von 5+.",
+    "Details": []
+  },
+  {
+    "Id": "ITP1",
+    "ModelId": "DRWR",
+    "ModelProfileId": null,
+    "NameEn": "Isensible To Pain",
+    "NameFr": "Insensible à la douleur",
+    "NameDe": "Schmerzunempfindlich",
+    "DescriptionEn": "This model has a 5+ invulnerable save.",
+    "DescriptionFr": "Cette figurine a une sauvegarde invulnérable de 5+.",
+    "DescriptionDe": "Dieses Modell hat einen Rettungswurf von 5+.",
+    "Details": []
+  },
+  {
+    "Id": "LD",
+    "ModelId": "DRS",
+    "ModelProfileId": null,
+    "NameEn": "Lightning Dodge",
+    "NameFr": "Esquive fulgurante",
+    "NameDe": "Schnelles Ausweichen",
+    "DescriptionEn": "This model has a 4+ invulnerable save.",
+    "DescriptionFr": "Cette figurine a une sauvegarde invulnérable de 4+.",
+    "DescriptionDe": "Dieses Modell hat einen Rettungswurf von 4+.",
+    "Details": []
+  },
+  {
+    "Id": "LPR",
+    "ModelId": "DRIN",
+    "ModelProfileId": null,
+    "NameEn": "Lethal Precision",
+    "NameFr": "Précision Mortelle",
+    "NameDe": "Tödliche Präzision",
+    "DescriptionEn": "Add 2 to the Damage characteristic of a close combat attack made by a Klaivex if the wound roll for the attack is 6+.",
+    "DescriptionFr": "Ajoutez 2 aux Dégâts d'une attaque de corps à corps effectuée par un Klaivexsi le jetde blessure de l'attaquant est 6+",
+    "DescriptionDe": "Addiere bei einem Verwundungswurf von 6+ für eine Nahkampfattacke eines Klaivex 2 zum Schadenswert der Attacke.",
+    "Details": []
+  },
+  {
+    "Id": "NE",
+    "ModelId": "DRS",
+    "ModelProfileId": null,
+    "NameEn": "No Escape",
+    "NameFr": "Pas d'échappatoire",
+    "NameDe": "Kein Entkommen",
+    "DescriptionEn": "Roll off if an INFANTRY mode! within l\" of any enemy models with this ability would Fall Back. The model that would Fall Back can only do so if the player controlling it wins the roll- off.",
+    "DescriptionFr": "Tirez au dé lorsqu'une figurine d'Infanterie à 1\" d'une ou plusieurs figurine ennemie avec cette aptitude veut Battre en Retraite. Cette figurine peut Battre en Retraite seulement si le joueur qui la controle remporte le tir au dé.",
+    "DescriptionDe": "Würfelt gegeneinander, wenn sich ein INFANTERIE-Modell innerhalb von 1\" um ein feindliches Modell mit dieser Fähigkeit zurückziehen soll. Das Modell darf sich nur dann zurückziehen, wenn der es kontrollierende Spieler den Wurf gewinnt.",
+    "Details": []
+  },
+  {
+    "Id": "PAE",
+    "ModelId": "DRW",
+    "ModelProfileId": null,
+    "NameEn": "No Escape",
+    "NameFr": "Pas d'échappatoire",
+    "NameDe": "Kein Entkommen",
+    "DescriptionEn": "If an INFANTRY model within 1\" of any enemy models with this ability would Fall Back, the controlling players roll off. The model that would Fall Back can only do so if the player controlling it wins the roll-off.",
+    "DescriptionFr": "Tirez au dé si une figurine d'infanterie à 1\" au moins d'une figurine ennemie ayant cette aptitude veut battre en retraite. La figurine peut battre en retraite seulement si le joueur qui la commande gagne le tir au dé.",
+    "DescriptionDe": "Würfelt gegeneinander, wenn sich ein INFANTERIE-Modell innerhalb von 1\" um ein feindliches Modell mit dieser Fähigkeit zurückziehen soll. Das Modell darf sich nur dann zurückziehen, wenn der es kontrollierende Spieler den Wurf gewinnt.",
+    "Details": []
+  },
+  {
+    "Id": "PSF",
+    "ModelId": null,
+    "ModelProfileId": null,
+    "NameEn": "Power From Pain",
+    "NameFr": "La puissance par la souffrance",
+    "NameDe": "Macht durch Schmerz",
+    "DescriptionEn": "Models with this ability gain a bonus depending upon which battle round it is, as shown in the table below. Note that all bonuses are cumulative.",
+    "DescriptionFr": "Les figurines avec cette aptitude gagnent un bonus selon le round de bataille en cours, comme indiqué dans le tableau. Les bonus sont cumulatifs",
+    "DescriptionDe": "Modelle mit dieser Fähigkeit erhalten einen Bonus, der von der Schlachtrunde abhängt, wie auf der Tabelle unten aufgeführt. Beachte, dass all diese Boni kumulativ sind.",
+    "Details": [
+      {
+        "Row": 0,
+        "Column": 1,
+        "ContentEn": "Battle round",
+        "ContentFr": "Round",
+        "ContentDe": "Schlachtrunde"
+      },
+      {
+        "Row": 0,
+        "Column": 2,
+        "ContentEn": "Bonus",
+        "ContentFr": "Bonus",
+        "ContentDe": "Bonus"
+      },
+      {
+        "Row": 0,
+        "Column": 3,
+        "ContentEn": "",
+        "ContentFr": "",
+        "ContentDe": ""
+      },
+      {
+        "Row": 1,
+        "Column": 1,
+        "ContentEn": "1",
+        "ContentFr": "1",
+        "ContentDe": "1"
+      },
+      {
+        "Row": 2,
+        "Column": 1,
+        "ContentEn": "2",
+        "ContentFr": "2",
+        "ContentDe": "2"
+      },
+      {
+        "Row": 3,
+        "Column": 1,
+        "ContentEn": "3",
+        "ContentFr": "3",
+        "ContentDe": "3"
+      },
+      {
+        "Row": 4,
+        "Column": 1,
+        "ContentEn": "4",
+        "ContentFr": "4",
+        "ContentDe": "4"
+      },
+      {
+        "Row": 5,
+        "Column": 1,
+        "ContentEn": "5+",
+        "ContentFr": "5+",
+        "ContentDe": "5+"
+      },
+      {
+        "Row": 1,
+        "Column": 2,
+        "ContentEn": "Inured to Suffering",
+        "ContentFr": "Insensibles à la souffrance",
+        "ContentDe": "An Leid gewöhnt"
+      },
+      {
+        "Row": 2,
+        "Column": 2,
+        "ContentEn": "Eager to Flay",
+        "ContentFr": "Impatients d'égorger",
+        "ContentDe": "Begierig zu häuten"
+      },
+      {
+        "Row": 3,
+        "Column": 2,
+        "ContentEn": "Flensing Fury",
+        "ContentFr": "Enragés du dépeçage",
+        "ContentDe": "Häutungswut"
+      },
+      {
+        "Row": 4,
+        "Column": 2,
+        "ContentEn": "Emboldened by Bloodshed",
+        "ContentFr": "Enhardis pour la tuerie",
+        "ContentDe": "Ermutigt durch Blutvergießen"
+      },
+      {
+        "Row": 5,
+        "Column": 2,
+        "ContentEn": "Mantle of Agony",
+        "ContentFr": "Drapés de douleur",
+        "ContentDe": "Mantel der Agonie"
+      },
+      {
+        "Row": 1,
+        "Column": 3,
+        "ContentEn": "Roll a D6 each time this model loses a wound; on a 6 that wound is not lost.",
+        "ContentFr": "Jetez un D6 chaque fois que cette figurine perd 1PV; sur un 6 le PV n'est pas perdu.",
+        "ContentDe": "Wirf jedes Mal einen W6, wenn dieses Modell einen Lebenspunkt verliert; bei einer 6 verliert es den Lebenspunkt nicht."
+      },
+      {
+        "Row": 2,
+        "Column": 3,
+        "ContentEn": "You can re-roll the dice when determining how far this model moves when it Advances or charges.",
+        "ContentFr": "Vous pouvez relancer le dé pour déterminer la distance que peut parcourir cette figurine lorsqu'elle avance ou qu'elle charge.",
+        "ContentDe": "Wenn du ermittelst, wie weit sich dieses Modell beim Vorrücken oder Angriff bewegt, darfst du den Wurf wiederholen."
+      },
+      {
+        "Row": 3,
+        "Column": 3,
+        "ContentEn": "Add 1 to hit rolls for this model in the Fight phase.",
+        "ContentFr": "Ajouter 1 aux jets de touche pour cette figurine à la phase de combat.",
+        "ContentDe": "Addiere in der Nahkampfphase 1 zu Trefferwürfen für dieses Modell."
+      },
+      {
+        "Row": 4,
+        "Column": 3,
+        "ContentEn": "Re-roll failed Nerve tests for this model.",
+        "ContentFr": "Relancez les tests de sang-froid ratés pour cette figurine.",
+        "ContentDe": "Wiederhole misslungene Nerventests für dieses Modell."
+      },
+      {
+        "Row": 5,
+        "Column": 3,
+        "ContentEn": "Subtract 1 from the Leadership characteristic of enemy models that are within 6\" of any models from your kill team with this bonus.",
+        "ContentFr": "Soustrayez 1 à la caractéristique de commandement des figurines ennemies à 6\" de toute figurine de votre kill team ayant ce bonus.",
+        "ContentDe": "Ziehe 1 vom Moralwert feindlicher Modelle ab, die sich innerhalb von 6\" um Modelle aus deinem Kill Team mit diesem Bonus befinden."
+      }
+    ]
+  },
+  {
+    "Id": "S",
+    "ModelId": "DRA",
+    "ModelProfileId": null,
+    "NameEn": "Shadowfield",
+    "NameFr": "Générateur de l'ombre",
+    "NameDe": "Schattenfeld",
+    "DescriptionEn": "This model has a 2+ invulnerable save, which cannot be re-rolled for any reason. The first time this invulnerable save is failed the shadowfield ceases to fonction for the remainder of the battle.",
+    "DescriptionFr": "Cette figurine a une sauvegarde de 2+, qui ne peut jamais être relancée quelel qu'en soit la raison. La première fois que cette sauvegarde invulnérable est ratée, le générateur d'ombre cesse de fonctionner jusqu'à la fin de la bataille.",
+    "DescriptionDe": "Dieses Modell hat einen Rettungswurf von 2+, der aus keinem Grund wiederholt werden darf. Wenn dieser Rettungswurf zum ersten Mal missling, stellt das Schattenfeld für das restliche Gefecht seine Funktion ein.",
+    "Details": []
+  },
+  {
+    "Id": "SFS",
+    "ModelId": "DRMA",
+    "ModelProfileId": null,
+    "NameEn": "Shrouded From Sight",
+    "NameFr": "Totalement Dissimulé",
+    "NameDe": "Von Blicken verhüllt",
+    "DescriptionEn": "Subtract 1 from the hit rolls for attacks that target this model. In addition, this model has a 5+ invulnerable save.",
+    "DescriptionFr": "Soustrayez 1 des jets de touche des attaques qui visent cette figurine. De plus, elle a une sauvegarde invulnérable de 5+",
+    "DescriptionDe": "Ziehe 1 von Trefferwürfen für Attacken gegen dieses Modell ab. Zusätzlich hat dieses Modell einen Rettungswurf von 5+.",
+    "Details": []
+  },
+  {
+    "Id": "TOR",
+    "ModelId": "DRIN",
+    "ModelProfileId": null,
+    "NameEn": "Tormentors",
+    "NameFr": "Tourmenteurs",
+    "NameDe": "Tormentoren",
+    "DescriptionEn": "Your opponents must add 1 to Nerve tests taken for models that are within 3\" of any enemy models with this ability.",
+    "DescriptionFr": "Vos adversaires doivent ajouter 1 aux tests de Sang-froid effectués par des figurines à 3\" d'une figurine avec cette aptitude",
+    "DescriptionDe": "Deine Gegner müssen 1 zu Nerventests für Modelle innerhalb von 3'' um feindliche Modelle mit dieser Fähigkeit addieren.",
+    "Details": []
+  }
+]

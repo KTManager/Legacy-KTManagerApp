@@ -1,0 +1,26 @@
+[
+  {
+    "Id": "ESE1",
+    "ModelProfileId": "ESE",
+    "Level": 0,
+    "Cost": 10,
+    "NameEn": "Explorator Fleetmaster",
+    "NameFr": "Maitresse de flotte d'exploration",
+    "NameDe": "Explorator-Flottenmeister",
+    "DescriptionEn": "If your kill team is Battle-forged, you start the battle with 1 additional Command Point (this can only be spent to use an Elucidian Starstriders Tactic).",
+    "DescriptionFr": "Si votre kill team est réglementaire, vous débutez la bataille avec 1 point de Commandement supplémentaire (qui peut être dépensé seulement pour utiliser une tactique Elucidian Starstriders).",
+    "DescriptionDe": "Wenn dein Kill Team in Gefechtsordnung ist, erhältst du zu Beginn des Spiels 1 zusätzlichen Befehlspunkt (dieser kann nur für Elucidian-Starstriders-Taktiken verwendet werden)."
+  },
+  {
+    "Id": "ESE2",
+    "ModelProfileId": "ESE",
+    "Level": 0,
+    "Cost": 15,
+    "NameEn": "Trader militant",
+    "NameFr": "Marchande combattante",
+    "NameDe": "Wehrhafter Händler",
+    "DescriptionEn": "Add 1 to this model's Attacks characteristic.",
+    "DescriptionFr": "Ajoutez 1 à la caractéristique d'attaques de cette figurine.",
+    "DescriptionDe": "Addiere 1 auf den Attackenwert dieses Modells."
+  }
+]

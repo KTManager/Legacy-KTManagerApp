@@ -1,0 +1,243 @@
+[
+  {
+    "Id": "KRC",
+    "NameEn": "Kroot Carnivore",
+    "NameFr": "Kroot Carnivore",
+    "NameDe": "Kroot Carnivore",
+    "KeywordsEn": "T'AU EMPIRE, INFANTERY, KROOT CARNIVORE",
+    "KeywordsFr": "T'AU EMPIRE, INFANTERIE, KROOT CARNIVORE",
+    "KeywordsDe": "T'AU EMPIRE, INFANTERIE, KROOT CARNIVORE",
+    "ModelProfiles": [
+      {
+        "Id": "KRC",
+        "Movement": 7,
+        "WeaponSkill": 3,
+        "BallisticSkill": 4,
+        "Strength": 3,
+        "Toughness": 3,
+        "Wounds": 1,
+        "Attacks": "1",
+        "Leadership": 6,
+        "Save": 6,
+        "MaximumNumber": 0,
+        "Cost": 6,
+        "NameEn": "Kroot Carnivore",
+        "NameFr": "Kroot Carnivore",
+        "NameDe": "Kroot Carnivore",
+        "IsCommander": false,
+        "NumberOfKnownPsychics": 0,
+        "NumberOfPsychicsManifestationPerRound": 0,
+        "NumberOfPsychicsDenialPerRound": 0,
+        "WarGearOptions": [],
+        "Specialists": [
+          {
+            "SpecialistId": "CB"
+          },
+          {
+            "SpecialistId": "L"
+          },
+          {
+            "SpecialistId": "SC"
+          },
+          {
+            "SpecialistId": "SN"
+          },
+          {
+            "SpecialistId": "V"
+          },
+          {
+            "SpecialistId": "Z"
+          }
+        ],
+        "ModelProfileWeapons": [
+          {
+            "WeaponId": "KRFC"
+          },
+          {
+            "WeaponId": "KRFT"
+          }
+        ],
+        "CostOverrides": [],
+        "LevelCosts": []
+      }
+    ],
+    "ModelWeapons": [],
+    "WarGearOptions": []
+  },
+  {
+    "Id": "KRDG",
+    "NameEn": "Dahyak Grekh",
+    "NameFr": "Dahyak Grekh",
+    "NameDe": "Dahyak Grekh",
+    "KeywordsEn": "Commander, Infantry, Dahyak Grekh",
+    "KeywordsFr": "Commander, Infantry, Dahyak Grekh",
+    "KeywordsDe": "Commander, Infantry, Dahyak Grekh",
+    "ModelProfiles": [
+      {
+        "Id": "KRDG",
+        "Movement": 7,
+        "WeaponSkill": 3,
+        "BallisticSkill": 3,
+        "Strength": 3,
+        "Toughness": 3,
+        "Wounds": 3,
+        "Attacks": "3",
+        "Leadership": 7,
+        "Save": 6,
+        "MaximumNumber": 1,
+        "Cost": 25,
+        "NameEn": "Dahyak Grekh",
+        "NameFr": "Dahyak Grekh",
+        "NameDe": "Dahyak Grekh",
+        "IsCommander": true,
+        "NumberOfKnownPsychics": 0,
+        "NumberOfPsychicsManifestationPerRound": 0,
+        "NumberOfPsychicsDenialPerRound": 0,
+        "WarGearOptions": [],
+        "Specialists": [
+          {
+            "SpecialistId": "LH"
+          },
+          {
+            "SpecialistId": "SE"
+          }
+        ],
+        "ModelProfileWeapons": [
+          {
+            "WeaponId": "KRP"
+          },
+          {
+            "WeaponId": "KRRM"
+          },
+          {
+            "WeaponId": "KRRS"
+          }
+        ],
+        "CostOverrides": [],
+        "LevelCosts": [
+          {
+            "Level": 4,
+            "Cost": 50
+          },
+          {
+            "Level": 3,
+            "Cost": 40
+          },
+          {
+            "Level": 2,
+            "Cost": 30
+          },
+          {
+            "Level": 1,
+            "Cost": 25
+          }
+        ]
+      }
+    ],
+    "ModelWeapons": [],
+    "WarGearOptions": []
+  },
+  {
+    "Id": "KRH",
+    "NameEn": "Kroot Hound",
+    "NameFr": "Kroot Hound",
+    "NameDe": "Kroot Hound",
+    "KeywordsEn": "T'AU EMPIRE, BEAST, KROOT HOUND",
+    "KeywordsFr": "T'AU EMPIRE, BETE, KROOT HOUND",
+    "KeywordsDe": "T'AU EMPIRE, BESTIE, KROOT HOUND",
+    "ModelProfiles": [
+      {
+        "Id": "KRH",
+        "Movement": 12,
+        "WeaponSkill": 3,
+        "BallisticSkill": 0,
+        "Strength": 3,
+        "Toughness": 3,
+        "Wounds": 1,
+        "Attacks": "2",
+        "Leadership": 5,
+        "Save": 6,
+        "MaximumNumber": 4,
+        "Cost": 6,
+        "NameEn": "Kroot Hound",
+        "NameFr": "Kroot Hound",
+        "NameDe": "Kroot Hound",
+        "IsCommander": false,
+        "NumberOfKnownPsychics": 0,
+        "NumberOfPsychicsManifestationPerRound": 0,
+        "NumberOfPsychicsDenialPerRound": 0,
+        "WarGearOptions": [],
+        "Specialists": [
+          {
+            "SpecialistId": "CB"
+          },
+          {
+            "SpecialistId": "SC"
+          }
+        ],
+        "ModelProfileWeapons": [
+          {
+            "WeaponId": "KRCD"
+          }
+        ],
+        "CostOverrides": [],
+        "LevelCosts": []
+      }
+    ],
+    "ModelWeapons": [],
+    "WarGearOptions": []
+  },
+  {
+    "Id": "KRR",
+    "NameEn": "Krootox Rider",
+    "NameFr": "Krootox Rider",
+    "NameDe": "Krootox Rider",
+    "KeywordsEn": "T'AU EMPIRE, CAVALRY, KROOTOX RIDER",
+    "KeywordsFr": "T'AU EMPIRE, CAVALERIE, KROOTOX RIDER",
+    "KeywordsDe": "T'AU EMPIRE, KAVALLERIE, KROOTOX RIDER",
+    "ModelProfiles": [
+      {
+        "Id": "KRR",
+        "Movement": 7,
+        "WeaponSkill": 3,
+        "BallisticSkill": 4,
+        "Strength": 6,
+        "Toughness": 5,
+        "Wounds": 4,
+        "Attacks": "2",
+        "Leadership": 6,
+        "Save": 6,
+        "MaximumNumber": 1,
+        "Cost": 27,
+        "NameEn": "Krootox Rider",
+        "NameFr": "Krootox Rider",
+        "NameDe": "Krootox Rider",
+        "IsCommander": false,
+        "NumberOfKnownPsychics": 0,
+        "NumberOfPsychicsManifestationPerRound": 0,
+        "NumberOfPsychicsDenialPerRound": 0,
+        "WarGearOptions": [],
+        "Specialists": [
+          {
+            "SpecialistId": "AL"
+          },
+          {
+            "SpecialistId": "CB"
+          }
+        ],
+        "ModelProfileWeapons": [
+          {
+            "WeaponId": "KRC"
+          },
+          {
+            "WeaponId": "KRPK"
+          }
+        ],
+        "CostOverrides": [],
+        "LevelCosts": []
+      }
+    ],
+    "ModelWeapons": [],
+    "WarGearOptions": []
+  }
+]

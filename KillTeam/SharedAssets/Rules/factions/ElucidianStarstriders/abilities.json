@@ -1,0 +1,122 @@
+[
+  {
+    "Id": "AAD",
+    "ModelId": null,
+    "ModelProfileId": "ESE",
+    "NameEn": "Concealed Archeotech Weapon",
+    "NameFr": "Arme Archéotechnologique Dissimulée",
+    "NameDe": "Versteckte Archeotech-Waffe",
+    "DescriptionEn": "Once per battle, at the start of the Fight phase, pick an enemy model within 1\" of this model and roll a dice; on a 4+ the enemy model suffers D3 mortal wounds.",
+    "DescriptionFr": "Une fois par bataille, au début de la phase de Combat, Choisissez une figurine ennemie à 1\" de cette figurine et jetez un dé; sur 4+, la figurine ennemie subit D3 blessures mortelles.",
+    "DescriptionDe": "Einmal pro Gefecht kannst du zu Beginn der Nahkampfphase ein feindliches Modell innerhalb von 1'' um dieses Modell wählen und einen Würfel werfen; bei 4+ erleidet das feindliche Modell W3 tödliche Verwundungen.",
+    "Details": []
+  },
+  {
+    "Id": "DVO",
+    "ModelId": null,
+    "ModelProfileId": "ESL",
+    "NameEn": "Voltagheist Array",
+    "NameFr": "Dispositif Voltagheist",
+    "NameDe": "Voltageist-Gerät",
+    "DescriptionEn": "Friendly ELUCIDIAN STARSTRIDERS models that are within 6\" of this model have a 5+ invulnerable save.",
+    "DescriptionFr": "Les figurines d'ELUCIDIAN STARSTRIDERS amies à 6\" de cette figurine ont une sauvegarde invulnérable de 5+.",
+    "DescriptionDe": "Befreundete ELUCIDIAN-STARSTRIDERS-Modelle innerhalb von 6'' um dieses Modell haben einen Rettungswurf von 5+.",
+    "Details": []
+  },
+  {
+    "Id": "GCD",
+    "ModelId": null,
+    "ModelProfileId": "ESE",
+    "NameEn": "Disruption Field Generator",
+    "NameFr": "Générateur de Champ Disrupteur",
+    "NameDe": "Widerwärtig zäh",
+    "DescriptionEn": "This model has a 4+ invulnerable save.",
+    "DescriptionFr": "Cette figurine a une sauvegarde invulnérable de 4+.",
+    "DescriptionDe": "Wirf jedes Mal einen W6, wenn ein Modell mit dieser Fähigkeit einen Lebenspunkt verliert; bei 5 oder 6 verliert das Modell den Lebenspunkt nicht.",
+    "Details": []
+  },
+  {
+    "Id": "RET",
+    "ModelId": null,
+    "ModelProfileId": "ESK",
+    "NameEn": "Uncanny reflexes",
+    "NameFr": "Réflexes troublants",
+    "NameDe": "Übermenschliche Reflexe",
+    "DescriptionEn": "This model has a 5+ invulnerable save.",
+    "DescriptionFr": "Cette figurine a une sauvegarde invulnérable de 5+.",
+    "DescriptionDe": "Dieses Modell hat einen Rettungswurf von 5+.",
+    "Details": []
+  },
+  {
+    "Id": "SEL",
+    "ModelId": "ESV",
+    "ModelProfileId": null,
+    "NameEn": "Loyal Retainer",
+    "NameFr": "Serviteur loyal",
+    "NameDe": "Loyales Gefolge",
+    "DescriptionEn": "Add 1 to the Leadership characteristic of this model whilst it is within 6\" of ELUCIA VHANE.",
+    "DescriptionFr": "Ajoutez 1 à la caractéristique Commandement de cette figurine si elle est à 6\" d'ELUCIA VHANE.",
+    "DescriptionDe": "Addiere 1 auf den Moralwert dieses Modells, wenn es sich innerhalb von 6'' um ELUCIA VHANE befindet.",
+    "Details": []
+  },
+  {
+    "Id": "SESPCB",
+    "ModelId": null,
+    "ModelProfileId": "ESK",
+    "NameEn": "Specialist retainer",
+    "NameFr": "Serviteur spécialiste",
+    "NameDe": "Spezialisten-Gefolge",
+    "DescriptionEn": "This model is always a Combat specialist, but this does not count towards the maximum number of specialists in your kill team.",
+    "DescriptionFr": "Cette figurine est toujours un specialiste en combat, mais cela ne compte pas dans le nombre maximum des spécialistes de votre kill team.",
+    "DescriptionDe": "Dieses Modell ist immer eine Nahkampfspezialistin zählt aber nicht gegen die maximale Anzahl an Spezialisten in deinem Kill Team.",
+    "Details": []
+  },
+  {
+    "Id": "SESPCO",
+    "ModelId": null,
+    "ModelProfileId": "ESL",
+    "NameEn": "Specialist retainer",
+    "NameFr": "Serviteur spécialiste",
+    "NameDe": "Spezialisten-Gefolge",
+    "DescriptionEn": "This model is always a Comms specialist, but this does not count towards the maximum number of specialists in your kill team.",
+    "DescriptionFr": "Cette figurine est toujours un specialiste en communications, mais cela ne compte pas dans le nombre maximum des spécialistes de votre kill team.",
+    "DescriptionDe": "Dieses Modell ist immer ein Funker zählt aber nicht gegen die maximale Anzahl an Spezialisten in deinem Kill Team.",
+    "Details": []
+  },
+  {
+    "Id": "SESPM",
+    "ModelId": null,
+    "ModelProfileId": "ESS",
+    "NameEn": "Specialist retainer",
+    "NameFr": "Serviteur spécialiste",
+    "NameDe": "Spezialisten-Gefolge",
+    "DescriptionEn": "This model is always a Medic specialist, but this does not count towards the maximum number of specialists in your kill team.",
+    "DescriptionFr": "Cette figurine est toujours un specialiste médic, mais cela ne compte pas dans le nombre maximum des spécialistes de votre kill team.",
+    "DescriptionDe": "Dieses Modell ist immer eine Sanitäterin, zählt aber nicht gegen die maximale Anzahl an Spezialisten in deinem Kill Team.",
+    "Details": []
+  },
+  {
+    "Id": "SSO",
+    "ModelId": null,
+    "ModelProfileId": "ESS",
+    "NameEn": "Healing serum",
+    "NameFr": "Sérum de soin",
+    "NameDe": "Heilendes Serum",
+    "DescriptionEn": "At the end of the Movement phase, as long as this model is not shaken or Readied and did not Fall Back or make a charge attempt this phase, choose a friendly ELUCIDIAN STARSTRIDERS model that has any flesh wounds and is within 1\" of this model. Roll a D6; on a 4+ one flesh wound is removed from that model.",
+    "DescriptionFr": "A la fin de la phase de Mouvement, si cette figurine n'est pas secouée ni Préparée, et si si elle n'a pas Battu en Retraite ni tenté de charger à cette phase, choisissez une figurine d'Elucidian starstriders amie à 1\" de cette figurine et ayant une ou plusieurs blessures légères. Jetez un D6; sur 4+, une blessure légère est retirée de cette figurine.",
+    "DescriptionDe": "Wenn dieses Modell nicht erschüttert oder in Feuerbereitschaft ist und sich in dieser Phase nicht zurückgezogen oder versucht hat, einen Angriff durchzuführen, kannst du am Ende der Bewegungsphase ein befreundetes ELUCIDIAN-STARSTRIDERS-Modell wählen, das Fleischwunden hat und sich innerhalb von 1'' um dieses Modell befindet. Wirf einen W6; bei 4+ wird eine Fleischwunde von dem gewählten Modell entfernt.",
+    "Details": []
+  },
+  {
+    "Id": "ZEL",
+    "ModelId": null,
+    "ModelProfileId": "ESK",
+    "NameEn": "Zealous",
+    "NameFr": "Zélée",
+    "NameDe": "Eifernd",
+    "DescriptionEn": "You can re-roll failed hit rolls for this model in a battle round in which it charged or was charged by an enemy model.",
+    "DescriptionFr": "Vous pouvez relancerles jets de touche ratés pour cette figurine lors d'un round de bataille où elle a chargé ou a été chargée par une figurine ennemie.",
+    "DescriptionDe": "Du darfst in einer Schlachtrunde, in welcher dieses Modell angegriffen hat oder von einem feindlichen Modell angegriffen wurde, misslungene Trefferwürfe für es wiederholen.",
+    "Details": []
+  }
+]

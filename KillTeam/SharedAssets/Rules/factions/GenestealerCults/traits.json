@@ -1,0 +1,50 @@
+[
+  {
+    "Id": "K1",
+    "ModelProfileId": "GCK",
+    "Level": 1,
+    "Cost": 0,
+    "NameEn": "Hybrid Agility",
+    "NameFr": "Agilité hybride",
+    "NameDe": "Gewandtheit des Hybrids",
+    "DescriptionEn": "Add 1\" to this model's move characteristic (already included in profile).",
+    "DescriptionFr": "Ajoutez 1\" à la caractéristique mouvement de cette figurine (déjà inclus sur le profil)",
+    "DescriptionDe": "Addiere 1'' zum Bewegungswert dieses Modells (bereits im Profil enthalten)."
+  },
+  {
+    "Id": "K2",
+    "ModelProfileId": "GCK",
+    "Level": 2,
+    "Cost": 0,
+    "NameEn": "Preternatural skill",
+    "NameFr": "Talent surnaturel",
+    "NameDe": "Übernatürliches Können",
+    "DescriptionEn": "Shooting attacks made by this model do not suffer the penalty to hit rolls for the target being obscured.",
+    "DescriptionFr": "Les attaques de tir de cette figurine ne subissent pas de malus aux jets de touche lorsque la cible est masquée.",
+    "DescriptionDe": "Fernkampfattacken dieses Modells erleiden nicht den Malus auf Trefferwürfe dafür, dass das Ziel verdeckt ist.\n"
+  },
+  {
+    "Id": "K3",
+    "ModelProfileId": "GCK",
+    "Level": 3,
+    "Cost": 0,
+    "NameEn": "Swift reflexes",
+    "NameFr": "Vifs réflexes",
+    "NameDe": "Schnelle Reflexe",
+    "DescriptionEn": "This model successfully hits on results of 4+ instead of 6 when making overwatch attacks.",
+    "DescriptionFr": "Cette figurine touche sur un résultat de 4+ au lieu de 6 lorsqu'elle tire en état d'alerte.",
+    "DescriptionDe": "Dieses Modell trifft erfolgreich bei 4+ anstatt 6, wenn es Abwehrfeuer abgibt."
+  },
+  {
+    "Id": "K4",
+    "ModelProfileId": "GCK",
+    "Level": 4,
+    "Cost": 0,
+    "NameEn": "Trick shooter",
+    "NameFr": "Tireur perfide",
+    "NameDe": "Kunstschütze",
+    "DescriptionEn": "Once per battle round, when you pick this model to shoot, you can choose a friendly model within 6\" of this model. You can resolve one of the kelemorph's attacks (including choosing a target and measuring range) as if the attack was made by the other model you choose, but using the kelemorph's weapon and characteristics.",
+    "DescriptionFr": "Une fois par round de bataille, lorsque vous choisissez de faire tirer cette figurine, vous pouvez désigner une figurine amie à 6\" de cette figurine. Vous pouvez résoudre une des attaques du Kelemorph comme si cette attaque était effectuée par l'autre figurine désignée (y compris pour choisir la cible et mesurer la portée), mais en utilisant les armes et les caractéristiques du Kelemorph.",
+    "DescriptionDe": "Einmal pro Schlachtrunde kannst du, wenn du dieses Modell wählst, um zu schießen, ein befreundetes Modell innerhalb von 6'' um dieses Modell wählen. Du kannst eine einzelne der Attacken des Kelermorphs (einschließlich Wahl des Ziels und Ausmessen der Reichweite) so ausführen, als würde die Attacke von dem anderen gewählten Modell ausgeführt, aber mit der Waffe und den Profilwerten des Kelermorphs."
+  }
+]

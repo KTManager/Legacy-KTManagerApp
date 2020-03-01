@@ -1,0 +1,44 @@
+[
+  {
+    "Id": "1",
+    "NameEn": "Initiative",
+    "NameFr": "Initiative",
+    "NameDe": "Initiativephase"
+  },
+  {
+    "Id": "2",
+    "NameEn": "Movement",
+    "NameFr": "Mouvement",
+    "NameDe": "Bewegungsphase"
+  },
+  {
+    "Id": "3",
+    "NameEn": "Psychic",
+    "NameFr": "Psychique",
+    "NameDe": "Psiphase"
+  },
+  {
+    "Id": "4",
+    "NameEn": "Shooting",
+    "NameFr": "Tir",
+    "NameDe": "Fernkampfphase"
+  },
+  {
+    "Id": "5",
+    "NameEn": "Fight",
+    "NameFr": "Combat",
+    "NameDe": "Nahkampfphase"
+  },
+  {
+    "Id": "6",
+    "NameEn": "Morale",
+    "NameFr": "Moral",
+    "NameDe": "Moralphase"
+  },
+  {
+    "Id": "7",
+    "NameEn": "Shooting & fight",
+    "NameFr": "Tir & combat",
+    "NameDe": "Fern- und Nahkampfphase"
+  }
+]

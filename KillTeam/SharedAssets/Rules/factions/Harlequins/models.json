@@ -1,0 +1,382 @@
+[
+  {
+    "Id": "ARD",
+    "NameEn": "Death Jester",
+    "NameFr": "Death Jester",
+    "NameDe": "Death Jester",
+    "KeywordsEn": "AELDARI, COMMANDER, INFANTRY, DEATH JESTER",
+    "KeywordsFr": "AELDARI, COMMANDANT, INFANTERIE, DEATH JESTER",
+    "KeywordsDe": "AELDARI, KOMMANDEUR, INFANTERIE, DEATH JESTER",
+    "ModelProfiles": [
+      {
+        "Id": "ARD",
+        "Movement": 8,
+        "WeaponSkill": 2,
+        "BallisticSkill": 2,
+        "Strength": 3,
+        "Toughness": 3,
+        "Wounds": 5,
+        "Attacks": "4",
+        "Leadership": 9,
+        "Save": 6,
+        "MaximumNumber": 1,
+        "Cost": 45,
+        "NameEn": "Death Jester",
+        "NameFr": "Death Jester",
+        "NameDe": "Death Jester",
+        "IsCommander": true,
+        "NumberOfKnownPsychics": 0,
+        "NumberOfPsychicsManifestationPerRound": 0,
+        "NumberOfPsychicsDenialPerRound": 0,
+        "WarGearOptions": [],
+        "Specialists": [
+          {
+            "SpecialistId": "FR"
+          },
+          {
+            "SpecialistId": "LH"
+          },
+          {
+            "SpecialistId": "ME"
+          },
+          {
+            "SpecialistId": "SE"
+          },
+          {
+            "SpecialistId": "SH"
+          }
+        ],
+        "ModelProfileWeapons": [
+          {
+            "WeaponId": "SC"
+          }
+        ],
+        "CostOverrides": [],
+        "LevelCosts": [
+          {
+            "Level": 1,
+            "Cost": 45
+          },
+          {
+            "Level": 2,
+            "Cost": 60
+          },
+          {
+            "Level": 3,
+            "Cost": 75
+          },
+          {
+            "Level": 4,
+            "Cost": 100
+          }
+        ]
+      }
+    ],
+    "ModelWeapons": [],
+    "WarGearOptions": []
+  },
+  {
+    "Id": "ARP",
+    "NameEn": "Player",
+    "NameFr": "Player",
+    "NameDe": "Player",
+    "KeywordsEn": "AELDARI, INFANTRY, PLAYER",
+    "KeywordsFr": "AELDARI, INFANTERIE, PLAYER",
+    "KeywordsDe": "AELDARI, INFANTERIE, PLAYER",
+    "ModelProfiles": [
+      {
+        "Id": "ARP",
+        "Movement": 8,
+        "WeaponSkill": 3,
+        "BallisticSkill": 3,
+        "Strength": 3,
+        "Toughness": 3,
+        "Wounds": 1,
+        "Attacks": "4",
+        "Leadership": 8,
+        "Save": 6,
+        "MaximumNumber": 0,
+        "Cost": 12,
+        "NameEn": "Player",
+        "NameFr": "Player",
+        "NameDe": "Player",
+        "IsCommander": false,
+        "NumberOfKnownPsychics": 0,
+        "NumberOfPsychicsManifestationPerRound": 0,
+        "NumberOfPsychicsDenialPerRound": 0,
+        "WarGearOptions": [],
+        "Specialists": [
+          {
+            "SpecialistId": "CB"
+          },
+          {
+            "SpecialistId": "L"
+          },
+          {
+            "SpecialistId": "M"
+          },
+          {
+            "SpecialistId": "SC"
+          },
+          {
+            "SpecialistId": "V"
+          },
+          {
+            "SpecialistId": "Z"
+          }
+        ],
+        "ModelProfileWeapons": [],
+        "CostOverrides": [],
+        "LevelCosts": []
+      }
+    ],
+    "ModelWeapons": [
+      {
+        "WeaponId": "GPL"
+      },
+      {
+        "WeaponId": "LHA"
+      },
+      {
+        "WeaponId": "PSH"
+      }
+    ],
+    "WarGearOptions": [
+      {
+        "Id": "77",
+        "MaximumPerTeam": 0,
+        "Operation": "PSH:NDI|PFU",
+        "Exclusion": null
+      },
+      {
+        "Id": "78",
+        "MaximumPerTeam": 0,
+        "Operation": "LHA:EHA|CHA|BHA",
+        "Exclusion": null
+      }
+    ]
+  },
+  {
+    "Id": "ARS",
+    "NameEn": "Shadowseer",
+    "NameFr": "Shadowseer",
+    "NameDe": "Shadowseer",
+    "KeywordsEn": "AELDARI, COMMANDER, INFANTRY, PSYKER, SHADOWSEER",
+    "KeywordsFr": "AELDARI, COMMANDANT, INFANTERIE, PSYKER, SHADOWSEER",
+    "KeywordsDe": "AELDARI, KOMMANDEUR, INFANTERIE, PSIONIKER, SHADOWSEER",
+    "ModelProfiles": [
+      {
+        "Id": "ARS",
+        "Movement": 8,
+        "WeaponSkill": 2,
+        "BallisticSkill": 2,
+        "Strength": 3,
+        "Toughness": 3,
+        "Wounds": 5,
+        "Attacks": "3",
+        "Leadership": 9,
+        "Save": 6,
+        "MaximumNumber": 1,
+        "Cost": 65,
+        "NameEn": "Shadowseer",
+        "NameFr": "Shadowseer",
+        "NameDe": "Shadowseer",
+        "IsCommander": true,
+        "NumberOfKnownPsychics": 2,
+        "NumberOfPsychicsManifestationPerRound": 2,
+        "NumberOfPsychicsDenialPerRound": 1,
+        "WarGearOptions": [
+          {
+            "Id": "227",
+            "MaximumPerTeam": 0,
+            "Operation": "PSH:NDI",
+            "Exclusion": null
+          }
+        ],
+        "Specialists": [
+          {
+            "SpecialistId": "FR"
+          },
+          {
+            "SpecialistId": "LH"
+          },
+          {
+            "SpecialistId": "ME"
+          },
+          {
+            "SpecialistId": "P"
+          },
+          {
+            "SpecialistId": "SE"
+          },
+          {
+            "SpecialistId": "SH"
+          }
+        ],
+        "ModelProfileWeapons": [
+          {
+            "WeaponId": "HGL"
+          },
+          {
+            "WeaponId": "MS"
+          },
+          {
+            "WeaponId": "PSH"
+          }
+        ],
+        "CostOverrides": [
+          {
+            "WeaponId": "NDI",
+            "Cost": 6
+          }
+        ],
+        "LevelCosts": [
+          {
+            "Level": 1,
+            "Cost": 65
+          },
+          {
+            "Level": 2,
+            "Cost": 80
+          },
+          {
+            "Level": 3,
+            "Cost": 95
+          },
+          {
+            "Level": 4,
+            "Cost": 120
+          }
+        ]
+      }
+    ],
+    "ModelWeapons": [],
+    "WarGearOptions": []
+  },
+  {
+    "Id": "ART",
+    "NameEn": "Troupe Master",
+    "NameFr": "Troupe Master",
+    "NameDe": "Troupe Master",
+    "KeywordsEn": "AELDARI, COMMANDER, INFANTRY, TROUPE MASTER",
+    "KeywordsFr": "AELDARI, COMMANDANT, INFANTERIE, TROUPE MASTER",
+    "KeywordsDe": "AELDARI, KOMMANDEUR, INFANTERIE, TROUPE MASTER",
+    "ModelProfiles": [
+      {
+        "Id": "ART",
+        "Movement": 8,
+        "WeaponSkill": 2,
+        "BallisticSkill": 2,
+        "Strength": 3,
+        "Toughness": 3,
+        "Wounds": 5,
+        "Attacks": "5",
+        "Leadership": 9,
+        "Save": 6,
+        "MaximumNumber": 1,
+        "Cost": 50,
+        "NameEn": "Troupe Master",
+        "NameFr": "Troupe Master",
+        "NameDe": "Troupe Master",
+        "IsCommander": true,
+        "NumberOfKnownPsychics": 0,
+        "NumberOfPsychicsManifestationPerRound": 0,
+        "NumberOfPsychicsDenialPerRound": 0,
+        "WarGearOptions": [
+          {
+            "Id": "225",
+            "MaximumPerTeam": 0,
+            "Operation": "PSH:NDI|PFU",
+            "Exclusion": null
+          },
+          {
+            "Id": "226",
+            "MaximumPerTeam": 0,
+            "Operation": "LHA:EPE|EHA|BHA|CHA",
+            "Exclusion": null
+          }
+        ],
+        "Specialists": [
+          {
+            "SpecialistId": "FR"
+          },
+          {
+            "SpecialistId": "LE"
+          },
+          {
+            "SpecialistId": "LH"
+          },
+          {
+            "SpecialistId": "ME"
+          },
+          {
+            "SpecialistId": "SE"
+          },
+          {
+            "SpecialistId": "SH"
+          },
+          {
+            "SpecialistId": "ST"
+          }
+        ],
+        "ModelProfileWeapons": [
+          {
+            "WeaponId": "GPL"
+          },
+          {
+            "WeaponId": "LHA"
+          },
+          {
+            "WeaponId": "PSH"
+          }
+        ],
+        "CostOverrides": [
+          {
+            "WeaponId": "BHA",
+            "Cost": 9
+          },
+          {
+            "WeaponId": "CHA",
+            "Cost": 7
+          },
+          {
+            "WeaponId": "EPE",
+            "Cost": 4
+          },
+          {
+            "WeaponId": "EHA",
+            "Cost": 6
+          },
+          {
+            "WeaponId": "NDI",
+            "Cost": 6
+          },
+          {
+            "WeaponId": "PFU",
+            "Cost": 10
+          }
+        ],
+        "LevelCosts": [
+          {
+            "Level": 1,
+            "Cost": 50
+          },
+          {
+            "Level": 2,
+            "Cost": 65
+          },
+          {
+            "Level": 3,
+            "Cost": 80
+          },
+          {
+            "Level": 4,
+            "Cost": 105
+          }
+        ]
+      }
+    ],
+    "ModelWeapons": [],
+    "WarGearOptions": []
+  }
+]

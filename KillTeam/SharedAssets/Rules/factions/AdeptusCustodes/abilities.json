@@ -1,0 +1,86 @@
+[
+  {
+    "Id": "AOTE",
+    "ModelId": "ACSC",
+    "ModelProfileId": null,
+    "NameEn": "Aegis of the Emperor",
+    "NameFr": "Aegis de l'Empereur",
+    "NameDe": "Aegis des Imperators",
+    "DescriptionEn": "This model has a 5+ invulnerable save. In addition, roll a D6 each time a model with this ability suffers a mortal wound in the Psychic phase. On a 6 that mortal wound is ignored.",
+    "DescriptionFr": "Cette figurine a une sauvegarde invulnérable de 5+. De plus, jetez un D6 à chaque fois que cette figurine subit une blessure mortelleen phase Psychique. Sur 6+ la blessure mortelle est ignorée",
+    "DescriptionDe": "Dieses Modell hat einen Rettungswurf von 5+. Wirf außerdem jedes Mal einen W6, wenn dieses Modell in der Psiphase eine tödliche Verwundung erleidet. Bei einer 6 wird die tödliche Verwundung ignoriert.",
+    "Details": []
+  },
+  {
+    "Id": "AOTE2",
+    "ModelId": "ACCG",
+    "ModelProfileId": null,
+    "NameEn": "Aegis of the Emperor",
+    "NameFr": "Aegis de l'Empereur",
+    "NameDe": "Aegis des Imperators",
+    "DescriptionEn": "This model has a 5+ invulnerable save. In addition, roll a D6 each time a model with this ability suffers a mortal wound in the Psychic phase. On a 6 that mortal wound is ignored.",
+    "DescriptionFr": "Cette figurine a une sauvegarde invulnérable de 5+. De plus, jetez un D6 à chaque fois que cette figurine subit une blessure mortelleen phase Psychique. Sur 6+ la blessure mortelle est ignorée",
+    "DescriptionDe": "Dieses Modell hat einen Rettungswurf von 5+. Wirf außerdem jedes Mal einen W6, wenn dieses Modell in der Psiphase eine tödliche Verwundung erleidet. Bei einer 6 wird die tödliche Verwundung ignoriert.",
+    "Details": []
+  },
+  {
+    "Id": "AOTE3",
+    "ModelId": "ACAC",
+    "ModelProfileId": null,
+    "NameEn": "Aegis of the Emperor",
+    "NameFr": "Aegis de l'Empereur",
+    "NameDe": "Aegis des Imperators",
+    "DescriptionEn": "This model has a 5+ invulnerable save. In addition, roll a D6 each time a model with this ability suffers a mortal wound in the Psychic phase. On a 6 that mortal wound is ignored.",
+    "DescriptionFr": "Cette figurine a une sauvegarde invulnérable de 5+. De plus, jetez un D6 à chaque fois que cette figurine subit une blessure mortelleen phase Psychique. Sur 6+ la blessure mortelle est ignorée",
+    "DescriptionDe": "Dieses Modell hat einen Rettungswurf von 5+. Wirf außerdem jedes Mal einen W6, wenn dieses Modell in der Psiphase eine tödliche Verwundung erleidet. Bei einer 6 wird die tödliche Verwundung ignoriert.",
+    "Details": []
+  },
+  {
+    "Id": "SOT",
+    "ModelId": "ACAC",
+    "ModelProfileId": null,
+    "NameEn": "Slayer of Tyrants",
+    "NameFr": "Tueur de Tyrans",
+    "NameDe": "Scharfrichter von Tyrannen",
+    "DescriptionEn": "When this model piles in and consolidates, they can move up to 3\" towards the nearest enemy Leader or COMMANDER even if it is not the nearest enemy model, so long as they finish this move within 1\" of an enemy model.",
+    "DescriptionFr": "Lorsque cette figurine engage et consolide, elle peut se déplacer de jusqu'à 3\" vers le Leader ennemi ou le COMMANDANT ennemi le plus proche, même si ce n'est pas la figurine la plus proche, tant qu'elle finit ce mouvement à 1\" d'une figurine ennemie",
+    "DescriptionDe": "Wenn dieses Modell nachrückt und sich neu ordnet, kann es sich bis zu 3'' auf den nächsten feindlichen Anführer oder KOMMANDEUR zubewegen, selbst wenn dieser nicht das nächste feindliche Modell ist, solange es diese Bewegung innerhalb von 1'' um ein feindliches Modell beendet.",
+    "Details": []
+  },
+  {
+    "Id": "STPH",
+    "ModelId": "ACSC",
+    "ModelProfileId": null,
+    "NameEn": "Superior Transhuman Physiology",
+    "NameFr": "Physiologie Transhumaine Supérieure",
+    "NameDe": "Überlegene transhumane Physiologie",
+    "DescriptionEn": "Ignore the penalty to this model’s hit rolls from flesh wounds.",
+    "DescriptionFr": "Ignores la pénalité imposée aux jets de touche de cette figurine par toutes les blessures légères",
+    "DescriptionDe": "Ignoriere den Abzug durch Fleischwunden auf Trefferwürfe dieses Modells.",
+    "Details": []
+  },
+  {
+    "Id": "STPH1",
+    "ModelId": "ACCG",
+    "ModelProfileId": null,
+    "NameEn": "Superior Transhuman Physiology",
+    "NameFr": "Physiologie Transhumaine Supérieure",
+    "NameDe": "Überlegene transhumane Physiologie",
+    "DescriptionEn": "Ignore the penalty to this model’s hit rolls from flesh wounds.",
+    "DescriptionFr": "Ignores la pénalité imposée aux jets de touche de cette figurine par toutes les blessures légères",
+    "DescriptionDe": "Ignoriere den Abzug durch Fleischwunden auf Trefferwürfe dieses Modells.",
+    "Details": []
+  },
+  {
+    "Id": "STPH2",
+    "ModelId": "ACAC",
+    "ModelProfileId": null,
+    "NameEn": "Superior Transhuman Physiology",
+    "NameFr": "Physiologie Transhumaine Supérieure",
+    "NameDe": "Überlegene transhumane Physiologie",
+    "DescriptionEn": "Ignore the penalty to this model’s hit rolls from flesh wounds.",
+    "DescriptionFr": "Ignores la pénalité imposée aux jets de touche de cette figurine par toutes les blessures légères",
+    "DescriptionDe": "Ignoriere den Abzug durch Fleischwunden auf Trefferwürfe dieses Modells.",
+    "Details": []
+  }
+]

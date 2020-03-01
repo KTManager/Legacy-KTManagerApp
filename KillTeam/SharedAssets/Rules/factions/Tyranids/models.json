@@ -1,0 +1,967 @@
+[
+  {
+    "Id": "GEN",
+    "NameEn": "Genestealer",
+    "NameFr": "Genestealer",
+    "NameDe": "Genestealer",
+    "KeywordsEn": "INFANTRY, GENESTEALER",
+    "KeywordsFr": "INFANTRY, GENESTEALER",
+    "KeywordsDe": "INFANTERIE, GENESTEALER",
+    "ModelProfiles": [
+      {
+        "Id": "GEN",
+        "Movement": 8,
+        "WeaponSkill": 3,
+        "BallisticSkill": 4,
+        "Strength": 4,
+        "Toughness": 4,
+        "Wounds": 1,
+        "Attacks": "3",
+        "Leadership": 9,
+        "Save": 5,
+        "MaximumNumber": 0,
+        "Cost": 11,
+        "NameEn": "Genestealer",
+        "NameFr": "Genestealer",
+        "NameDe": "Genestealer",
+        "IsCommander": false,
+        "NumberOfKnownPsychics": 0,
+        "NumberOfPsychicsManifestationPerRound": 0,
+        "NumberOfPsychicsDenialPerRound": 0,
+        "WarGearOptions": [],
+        "Specialists": [
+          {
+            "SpecialistId": "CB"
+          },
+          {
+            "SpecialistId": "L"
+          },
+          {
+            "SpecialistId": "SC"
+          },
+          {
+            "SpecialistId": "V"
+          }
+        ],
+        "ModelProfileWeapons": [],
+        "CostOverrides": [],
+        "LevelCosts": []
+      }
+    ],
+    "ModelWeapons": [
+      {
+        "WeaponId": "SFO"
+      }
+    ],
+    "WarGearOptions": [
+      {
+        "Id": "113",
+        "MaximumPerTeam": 0,
+        "Operation": "GTR",
+        "Exclusion": null
+      },
+      {
+        "Id": "114",
+        "MaximumPerTeam": 0,
+        "Operation": "TOS",
+        "Exclusion": null
+      },
+      {
+        "Id": "115",
+        "MaximumPerTeam": 0,
+        "Operation": "CAR",
+        "Exclusion": null
+      },
+      {
+        "Id": "116",
+        "MaximumPerTeam": 1,
+        "Operation": "GAC",
+        "Exclusion": null
+      },
+      {
+        "Id": "117",
+        "MaximumPerTeam": 1,
+        "Operation": "CRO",
+        "Exclusion": null
+      }
+    ]
+  },
+  {
+    "Id": "TYB",
+    "NameEn": "Broodlord",
+    "NameFr": "Broodlord",
+    "NameDe": "Broodlord",
+    "KeywordsEn": "COMMANDER, INFANTRY, GENESTEALER, PSYKER, SYNAPSE, BROODLORD",
+    "KeywordsFr": "COMMANDANT, INFANTERIE, GENESTEALER, PSYKER, SYNAPSE, BROODLORD",
+    "KeywordsDe": "KOMMANDEUR, INFANTERIE, GENESTEALER, PSIONIKER, SYNAPSE, BROODLORD",
+    "ModelProfiles": [
+      {
+        "Id": "TYB",
+        "Movement": 8,
+        "WeaponSkill": 2,
+        "BallisticSkill": 0,
+        "Strength": 5,
+        "Toughness": 5,
+        "Wounds": 6,
+        "Attacks": "6",
+        "Leadership": 10,
+        "Save": 4,
+        "MaximumNumber": 1,
+        "Cost": 131,
+        "NameEn": "Broodlord",
+        "NameFr": "Broodlord",
+        "NameDe": "Broodlord",
+        "IsCommander": true,
+        "NumberOfKnownPsychics": 1,
+        "NumberOfPsychicsManifestationPerRound": 1,
+        "NumberOfPsychicsDenialPerRound": 1,
+        "WarGearOptions": [],
+        "Specialists": [
+          {
+            "SpecialistId": "F"
+          },
+          {
+            "SpecialistId": "FE"
+          },
+          {
+            "SpecialistId": "FR"
+          },
+          {
+            "SpecialistId": "LE"
+          },
+          {
+            "SpecialistId": "LH"
+          },
+          {
+            "SpecialistId": "ME"
+          },
+          {
+            "SpecialistId": "P"
+          },
+          {
+            "SpecialistId": "SE"
+          },
+          {
+            "SpecialistId": "ST"
+          }
+        ],
+        "ModelProfileWeapons": [
+          {
+            "WeaponId": "MRC"
+          }
+        ],
+        "CostOverrides": [],
+        "LevelCosts": [
+          {
+            "Level": 1,
+            "Cost": 131
+          },
+          {
+            "Level": 2,
+            "Cost": 151
+          },
+          {
+            "Level": 3,
+            "Cost": 171
+          },
+          {
+            "Level": 4,
+            "Cost": 196
+          }
+        ]
+      }
+    ],
+    "ModelWeapons": [],
+    "WarGearOptions": []
+  },
+  {
+    "Id": "TYDL",
+    "NameEn": "Deathleaper",
+    "NameFr": "Deathleaper",
+    "NameDe": "Deathleaper",
+    "KeywordsEn": "COMMANDER, INFANTRY, LICTOR, DEATHLEAPER",
+    "KeywordsFr": "COMMANDER, INFANTRY, LICTOR, DEATHLEAPER",
+    "KeywordsDe": "KOMMANDEUR, INFANTERIE, LICTOR, DEATHLEAPER",
+    "ModelProfiles": [
+      {
+        "Id": "TYDL",
+        "Movement": 9,
+        "WeaponSkill": 2,
+        "BallisticSkill": 4,
+        "Strength": 6,
+        "Toughness": 4,
+        "Wounds": 6,
+        "Attacks": "4",
+        "Leadership": 10,
+        "Save": 5,
+        "MaximumNumber": 1,
+        "Cost": 70,
+        "NameEn": "Deathleaper",
+        "NameFr": "Deathleaper",
+        "NameDe": "Deathleaper",
+        "IsCommander": true,
+        "NumberOfKnownPsychics": 0,
+        "NumberOfPsychicsManifestationPerRound": 0,
+        "NumberOfPsychicsDenialPerRound": 0,
+        "WarGearOptions": [],
+        "Specialists": [
+          {
+            "SpecialistId": "LH"
+          }
+        ],
+        "ModelProfileWeapons": [],
+        "CostOverrides": [],
+        "LevelCosts": [
+          {
+            "Level": 1,
+            "Cost": 70
+          },
+          {
+            "Level": 2,
+            "Cost": 70
+          },
+          {
+            "Level": 3,
+            "Cost": 70
+          },
+          {
+            "Level": 4,
+            "Cost": 70
+          }
+        ]
+      }
+    ],
+    "ModelWeapons": [
+      {
+        "WeaponId": "CRO"
+      },
+      {
+        "WeaponId": "SFO"
+      },
+      {
+        "WeaponId": "SPR"
+      }
+    ],
+    "WarGearOptions": []
+  },
+  {
+    "Id": "TYH",
+    "NameEn": "Hormagaunt",
+    "NameFr": "Hormagaunt",
+    "NameDe": "Hormagaunt",
+    "KeywordsEn": "INFANTRY, HORMAGAUNT",
+    "KeywordsFr": "INFANTERIE, HORMAGAUNT",
+    "KeywordsDe": "INFANTERIE, HORMAGAUNT",
+    "ModelProfiles": [
+      {
+        "Id": "TYH",
+        "Movement": 8,
+        "WeaponSkill": 4,
+        "BallisticSkill": 4,
+        "Strength": 3,
+        "Toughness": 3,
+        "Wounds": 1,
+        "Attacks": "2",
+        "Leadership": 5,
+        "Save": 6,
+        "MaximumNumber": 0,
+        "Cost": 4,
+        "NameEn": "Hormagaunt",
+        "NameFr": "Hormagaunt",
+        "NameDe": "Hormagaunt",
+        "IsCommander": false,
+        "NumberOfKnownPsychics": 0,
+        "NumberOfPsychicsManifestationPerRound": 0,
+        "NumberOfPsychicsDenialPerRound": 0,
+        "WarGearOptions": [],
+        "Specialists": [
+          {
+            "SpecialistId": "CB"
+          },
+          {
+            "SpecialistId": "SC"
+          },
+          {
+            "SpecialistId": "V"
+          }
+        ],
+        "ModelProfileWeapons": [],
+        "CostOverrides": [],
+        "LevelCosts": []
+      }
+    ],
+    "ModelWeapons": [
+      {
+        "WeaponId": "GTR"
+      }
+    ],
+    "WarGearOptions": [
+      {
+        "Id": "105",
+        "MaximumPerTeam": 0,
+        "Operation": "TOS",
+        "Exclusion": null
+      },
+      {
+        "Id": "106",
+        "MaximumPerTeam": 0,
+        "Operation": "GSU",
+        "Exclusion": null
+      }
+    ]
+  },
+  {
+    "Id": "TYHG",
+    "NameEn": "Hive Guard",
+    "NameFr": "Hive Guard",
+    "NameDe": "Hive Guard",
+    "KeywordsEn": "INFANTRY, HIVE GUARD",
+    "KeywordsFr": "INFANTRY, HIVE GUARD",
+    "KeywordsDe": "INFANTERIE, HIVE GUARD",
+    "ModelProfiles": [
+      {
+        "Id": "TYHG",
+        "Movement": 5,
+        "WeaponSkill": 4,
+        "BallisticSkill": 3,
+        "Strength": 4,
+        "Toughness": 5,
+        "Wounds": 3,
+        "Attacks": "2",
+        "Leadership": 7,
+        "Save": 4,
+        "MaximumNumber": 0,
+        "Cost": 35,
+        "NameEn": "Hive Guard",
+        "NameFr": "Hive Guard",
+        "NameDe": "Hive Guard",
+        "IsCommander": false,
+        "NumberOfKnownPsychics": 0,
+        "NumberOfPsychicsManifestationPerRound": 0,
+        "NumberOfPsychicsDenialPerRound": 0,
+        "WarGearOptions": [],
+        "Specialists": [
+          {
+            "SpecialistId": "AL"
+          },
+          {
+            "SpecialistId": "SN"
+          },
+          {
+            "SpecialistId": "V"
+          }
+        ],
+        "ModelProfileWeapons": [],
+        "CostOverrides": [],
+        "LevelCosts": []
+      }
+    ],
+    "ModelWeapons": [
+      {
+        "WeaponId": "TICN"
+      }
+    ],
+    "WarGearOptions": [
+      {
+        "Id": "311",
+        "MaximumPerTeam": 0,
+        "Operation": "TICN:TSC",
+        "Exclusion": null
+      },
+      {
+        "Id": "312",
+        "MaximumPerTeam": 0,
+        "Operation": "TOS",
+        "Exclusion": null
+      },
+      {
+        "Id": "313",
+        "MaximumPerTeam": 0,
+        "Operation": "GSU",
+        "Exclusion": null
+      }
+    ]
+  },
+  {
+    "Id": "TYL",
+    "NameEn": "Lictor",
+    "NameFr": "Lictor",
+    "NameDe": "Lictor",
+    "KeywordsEn": "INFANTRY, LICTOR",
+    "KeywordsFr": "INFANTERIE, LICTOR",
+    "KeywordsDe": "INFANTERIE, LICTOR",
+    "ModelProfiles": [
+      {
+        "Id": "TYL",
+        "Movement": 9,
+        "WeaponSkill": 2,
+        "BallisticSkill": 4,
+        "Strength": 6,
+        "Toughness": 4,
+        "Wounds": 4,
+        "Attacks": "3",
+        "Leadership": 9,
+        "Save": 5,
+        "MaximumNumber": 0,
+        "Cost": 25,
+        "NameEn": "Lictor",
+        "NameFr": "Lictor",
+        "NameDe": "Lictor",
+        "IsCommander": false,
+        "NumberOfKnownPsychics": 0,
+        "NumberOfPsychicsManifestationPerRound": 0,
+        "NumberOfPsychicsDenialPerRound": 0,
+        "WarGearOptions": [],
+        "Specialists": [
+          {
+            "SpecialistId": "CB"
+          },
+          {
+            "SpecialistId": "CO"
+          },
+          {
+            "SpecialistId": "L"
+          },
+          {
+            "SpecialistId": "SC"
+          },
+          {
+            "SpecialistId": "V"
+          }
+        ],
+        "ModelProfileWeapons": [],
+        "CostOverrides": [],
+        "LevelCosts": []
+      }
+    ],
+    "ModelWeapons": [
+      {
+        "WeaponId": "CRO"
+      },
+      {
+        "WeaponId": "SFO"
+      },
+      {
+        "WeaponId": "SPR"
+      }
+    ],
+    "WarGearOptions": []
+  },
+  {
+    "Id": "TYR",
+    "NameEn": "Ravener",
+    "NameFr": "Ravener",
+    "NameDe": "Ravener",
+    "KeywordsEn": "INFANTRY, RAVENER",
+    "KeywordsFr": "INFANTRY, RAVENER",
+    "KeywordsDe": "INFANTERIE, RAVENER",
+    "ModelProfiles": [
+      {
+        "Id": "TYR",
+        "Movement": 12,
+        "WeaponSkill": 3,
+        "BallisticSkill": 4,
+        "Strength": 4,
+        "Toughness": 4,
+        "Wounds": 3,
+        "Attacks": "4",
+        "Leadership": 5,
+        "Save": 5,
+        "MaximumNumber": 0,
+        "Cost": 15,
+        "NameEn": "Ravener",
+        "NameFr": "Ravener",
+        "NameDe": "Ravener",
+        "IsCommander": false,
+        "NumberOfKnownPsychics": 0,
+        "NumberOfPsychicsManifestationPerRound": 0,
+        "NumberOfPsychicsDenialPerRound": 0,
+        "WarGearOptions": [],
+        "Specialists": [
+          {
+            "SpecialistId": "CB"
+          },
+          {
+            "SpecialistId": "SC"
+          },
+          {
+            "SpecialistId": "V"
+          }
+        ],
+        "ModelProfileWeapons": [],
+        "CostOverrides": [
+          {
+            "WeaponId": "SFO",
+            "Cost": 1
+          },
+          {
+            "WeaponId": "CRM",
+            "Cost": 5
+          },
+          {
+            "WeaponId": "POE",
+            "Cost": 2
+          }
+        ],
+        "LevelCosts": []
+      }
+    ],
+    "ModelWeapons": [
+      {
+        "WeaponId": "GTR"
+      },
+      {
+        "WeaponId": "GTR2"
+      }
+    ],
+    "WarGearOptions": [
+      {
+        "Id": "314",
+        "MaximumPerTeam": 0,
+        "Operation": "GTR2:SFO",
+        "Exclusion": null
+      },
+      {
+        "Id": "388",
+        "MaximumPerTeam": 0,
+        "Operation": "DEV|CRM|POE",
+        "Exclusion": null
+      }
+    ]
+  },
+  {
+    "Id": "TYT",
+    "NameEn": "Termagant",
+    "NameFr": "Termagant",
+    "NameDe": "Termagant",
+    "KeywordsEn": "INFANTRY, TERMAGANT",
+    "KeywordsFr": "INFANTERIE, TERMAGANT",
+    "KeywordsDe": "INFANTERIE, TERMAGANT",
+    "ModelProfiles": [
+      {
+        "Id": "TYT",
+        "Movement": 6,
+        "WeaponSkill": 4,
+        "BallisticSkill": 4,
+        "Strength": 3,
+        "Toughness": 3,
+        "Wounds": 1,
+        "Attacks": "1",
+        "Leadership": 5,
+        "Save": 6,
+        "MaximumNumber": 0,
+        "Cost": 4,
+        "NameEn": "Termagant",
+        "NameFr": "Termagant",
+        "NameDe": "Termagant",
+        "IsCommander": false,
+        "NumberOfKnownPsychics": 0,
+        "NumberOfPsychicsManifestationPerRound": 0,
+        "NumberOfPsychicsDenialPerRound": 0,
+        "WarGearOptions": [],
+        "Specialists": [
+          {
+            "SpecialistId": "SC"
+          },
+          {
+            "SpecialistId": "V"
+          }
+        ],
+        "ModelProfileWeapons": [],
+        "CostOverrides": [],
+        "LevelCosts": []
+      }
+    ],
+    "ModelWeapons": [
+      {
+        "WeaponId": "ECO"
+      }
+    ],
+    "WarGearOptions": [
+      {
+        "Id": "102",
+        "MaximumPerTeam": 0,
+        "Operation": "ECO:DEV|POE",
+        "Exclusion": null
+      },
+      {
+        "Id": "103",
+        "MaximumPerTeam": 0,
+        "Operation": "TOS",
+        "Exclusion": null
+      },
+      {
+        "Id": "104",
+        "MaximumPerTeam": 0,
+        "Operation": "GSU",
+        "Exclusion": null
+      }
+    ]
+  },
+  {
+    "Id": "TYTG",
+    "NameEn": "Tyrant Guard",
+    "NameFr": "Tyrant Guard",
+    "NameDe": "Tyrant Guard",
+    "KeywordsEn": "INFANTRY, TYRANT GUARD",
+    "KeywordsFr": "INFANTRY, TYRANT GUARD",
+    "KeywordsDe": "INFANTERIE, TYRANT GUARD",
+    "ModelProfiles": [
+      {
+        "Id": "TYTG",
+        "Movement": 7,
+        "WeaponSkill": 3,
+        "BallisticSkill": 4,
+        "Strength": 5,
+        "Toughness": 5,
+        "Wounds": 3,
+        "Attacks": "3",
+        "Leadership": 6,
+        "Save": 3,
+        "MaximumNumber": 0,
+        "Cost": 32,
+        "NameEn": "Tyrant Guard",
+        "NameFr": "Tyrant Guard",
+        "NameDe": "Tyrant Guard",
+        "IsCommander": false,
+        "NumberOfKnownPsychics": 0,
+        "NumberOfPsychicsManifestationPerRound": 0,
+        "NumberOfPsychicsDenialPerRound": 0,
+        "WarGearOptions": [],
+        "Specialists": [
+          {
+            "SpecialistId": "CB"
+          },
+          {
+            "SpecialistId": "V"
+          },
+          {
+            "SpecialistId": "Z"
+          }
+        ],
+        "ModelProfileWeapons": [],
+        "CostOverrides": [],
+        "LevelCosts": []
+      }
+    ],
+    "ModelWeapons": [
+      {
+        "WeaponId": "GTR"
+      },
+      {
+        "WeaponId": "SFO"
+      }
+    ],
+    "WarGearOptions": [
+      {
+        "Id": "308",
+        "MaximumPerTeam": 0,
+        "Operation": "GTR:TCC|BEP",
+        "Exclusion": null
+      },
+      {
+        "Id": "309",
+        "MaximumPerTeam": 0,
+        "Operation": "TOS",
+        "Exclusion": null
+      },
+      {
+        "Id": "310",
+        "MaximumPerTeam": 0,
+        "Operation": "GSU",
+        "Exclusion": null
+      }
+    ]
+  },
+  {
+    "Id": "TYTP",
+    "NameEn": "Tyranid Prime",
+    "NameFr": "Tyranid Prime",
+    "NameDe": "Tyranid Prime",
+    "KeywordsEn": "COMMANDER, INFANTRY, SYNAPSE, TYRANID PRIME",
+    "KeywordsFr": "COMMANDANT, INFANTERIE, SYNAPSE, TYRANID PRIME",
+    "KeywordsDe": "KOMMANDEUR, INFANTERIE, SYNAPSE, TYRANID PRIME",
+    "ModelProfiles": [
+      {
+        "Id": "TYTP",
+        "Movement": 6,
+        "WeaponSkill": 2,
+        "BallisticSkill": 3,
+        "Strength": 5,
+        "Toughness": 5,
+        "Wounds": 6,
+        "Attacks": "4",
+        "Leadership": 10,
+        "Save": 3,
+        "MaximumNumber": 1,
+        "Cost": 50,
+        "NameEn": "Tyranid Prime",
+        "NameFr": "Tyranid Prime",
+        "NameDe": "Tyranid Prime",
+        "IsCommander": true,
+        "NumberOfKnownPsychics": 0,
+        "NumberOfPsychicsManifestationPerRound": 0,
+        "NumberOfPsychicsDenialPerRound": 0,
+        "WarGearOptions": [
+          {
+            "Id": "236",
+            "MaximumPerTeam": 0,
+            "Operation": "DEV:CRM|GTR|POE|EPO|SFO|BEP",
+            "Exclusion": null
+          },
+          {
+            "Id": "237",
+            "MaximumPerTeam": 0,
+            "Operation": "GTR:EPO|SFO|BEP",
+            "Exclusion": null
+          },
+          {
+            "Id": "238",
+            "MaximumPerTeam": 0,
+            "Operation": "CRO",
+            "Exclusion": null
+          },
+          {
+            "Id": "239",
+            "MaximumPerTeam": 0,
+            "Operation": "TOS",
+            "Exclusion": null
+          },
+          {
+            "Id": "240",
+            "MaximumPerTeam": 0,
+            "Operation": "GSU",
+            "Exclusion": null
+          }
+        ],
+        "Specialists": [
+          {
+            "SpecialistId": "F"
+          },
+          {
+            "SpecialistId": "FE"
+          },
+          {
+            "SpecialistId": "FR"
+          },
+          {
+            "SpecialistId": "LE"
+          },
+          {
+            "SpecialistId": "LH"
+          },
+          {
+            "SpecialistId": "ME"
+          },
+          {
+            "SpecialistId": "ST"
+          }
+        ],
+        "ModelProfileWeapons": [
+          {
+            "WeaponId": "DEV"
+          },
+          {
+            "WeaponId": "GTR"
+          }
+        ],
+        "CostOverrides": [
+          {
+            "WeaponId": "BEP",
+            "Cost": 5
+          },
+          {
+            "WeaponId": "CRM",
+            "Cost": 5
+          },
+          {
+            "WeaponId": "CRO",
+            "Cost": 2
+          },
+          {
+            "WeaponId": "EPO",
+            "Cost": 5
+          },
+          {
+            "WeaponId": "TOS",
+            "Cost": 8
+          },
+          {
+            "WeaponId": "DEV",
+            "Cost": 0
+          }
+        ],
+        "LevelCosts": [
+          {
+            "Level": 1,
+            "Cost": 50
+          },
+          {
+            "Level": 2,
+            "Cost": 65
+          },
+          {
+            "Level": 3,
+            "Cost": 80
+          },
+          {
+            "Level": 4,
+            "Cost": 105
+          }
+        ]
+      }
+    ],
+    "ModelWeapons": [],
+    "WarGearOptions": []
+  },
+  {
+    "Id": "TYW",
+    "NameEn": "Tyranid Warrior",
+    "NameFr": "Tyranid Warrior",
+    "NameDe": "Tyranid Warrior",
+    "KeywordsEn": "INFANTRY, SYNAPSE, TYRANID WARRIOR",
+    "KeywordsFr": "INFANTERIE, SYNAPSE, TYRANID WARRIOR",
+    "KeywordsDe": "INFANTERIE, SYNAPSE, TYRANID WARRIOR",
+    "ModelProfiles": [
+      {
+        "Id": "TYW1",
+        "Movement": 6,
+        "WeaponSkill": 3,
+        "BallisticSkill": 4,
+        "Strength": 4,
+        "Toughness": 4,
+        "Wounds": 3,
+        "Attacks": "3",
+        "Leadership": 9,
+        "Save": 4,
+        "MaximumNumber": 0,
+        "Cost": 20,
+        "NameEn": "Tyranid Warrior",
+        "NameFr": "Tyranid Warrior",
+        "NameDe": "Tyranid Warrior",
+        "IsCommander": false,
+        "NumberOfKnownPsychics": 0,
+        "NumberOfPsychicsManifestationPerRound": 0,
+        "NumberOfPsychicsDenialPerRound": 0,
+        "WarGearOptions": [
+          {
+            "Id": "108",
+            "MaximumPerTeam": 0,
+            "Operation": "DEV:CRM|POE|SFO|EPO|GTR|BEP",
+            "Exclusion": null
+          }
+        ],
+        "Specialists": [
+          {
+            "SpecialistId": "CB"
+          },
+          {
+            "SpecialistId": "CO"
+          },
+          {
+            "SpecialistId": "L"
+          },
+          {
+            "SpecialistId": "V"
+          }
+        ],
+        "ModelProfileWeapons": [],
+        "CostOverrides": [
+          {
+            "WeaponId": "DEV",
+            "Cost": 0
+          }
+        ],
+        "LevelCosts": []
+      },
+      {
+        "Id": "TYW2",
+        "Movement": 6,
+        "WeaponSkill": 3,
+        "BallisticSkill": 4,
+        "Strength": 4,
+        "Toughness": 4,
+        "Wounds": 3,
+        "Attacks": "3",
+        "Leadership": 9,
+        "Save": 4,
+        "MaximumNumber": 1,
+        "Cost": 20,
+        "NameEn": "Tyranid Warrior Gunner",
+        "NameFr": "Tyranid Warrior Gunner",
+        "NameDe": "Tyranid Warrior Gunner",
+        "IsCommander": false,
+        "NumberOfKnownPsychics": 0,
+        "NumberOfPsychicsManifestationPerRound": 0,
+        "NumberOfPsychicsDenialPerRound": 0,
+        "WarGearOptions": [
+          {
+            "Id": "109",
+            "MaximumPerTeam": 0,
+            "Operation": "DEV:ETR|CVE",
+            "Exclusion": null
+          }
+        ],
+        "Specialists": [
+          {
+            "SpecialistId": "AL"
+          },
+          {
+            "SpecialistId": "CB"
+          },
+          {
+            "SpecialistId": "CO"
+          },
+          {
+            "SpecialistId": "L"
+          },
+          {
+            "SpecialistId": "V"
+          }
+        ],
+        "ModelProfileWeapons": [],
+        "CostOverrides": [
+          {
+            "WeaponId": "DEV",
+            "Cost": 0
+          }
+        ],
+        "LevelCosts": []
+      }
+    ],
+    "ModelWeapons": [
+      {
+        "WeaponId": "DEV"
+      },
+      {
+        "WeaponId": "GTR"
+      }
+    ],
+    "WarGearOptions": [
+      {
+        "Id": "107",
+        "MaximumPerTeam": 0,
+        "Operation": "GTR:SFO|EPO|BEP",
+        "Exclusion": null
+      },
+      {
+        "Id": "110",
+        "MaximumPerTeam": 0,
+        "Operation": "CRO",
+        "Exclusion": null
+      },
+      {
+        "Id": "111",
+        "MaximumPerTeam": 0,
+        "Operation": "TOS",
+        "Exclusion": null
+      },
+      {
+        "Id": "112",
+        "MaximumPerTeam": 0,
+        "Operation": "GSU",
+        "Exclusion": null
+      }
+    ]
+  }
+]

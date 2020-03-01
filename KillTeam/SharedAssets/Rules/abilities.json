@@ -1,0 +1,14 @@
+[
+  {
+    "Id": "HAST",
+    "ModelId": null,
+    "ModelProfileId": null,
+    "NameEn": "Terminator Armour",
+    "NameFr": "Armure Terminator",
+    "NameDe": "Terminatorrüstung",
+    "DescriptionEn": "This model has a 5+ invulnerable save.",
+    "DescriptionFr": "Cette figurine a une sauvegarde invulnérable de 5+.",
+    "DescriptionDe": "Dieses Modell hat einen Rettungswurf von 5+.",
+    "Details": []
+  }
+]

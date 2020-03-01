@@ -1,0 +1,1021 @@
+[
+   {
+      "Id": "GK",
+      "KeywordsDe": "IMPERIUM, ADEPTUS ASTARTES, INFANTERIE, PSIONIKER, GREY KNIGHT",
+      "KeywordsEn": "IMPERIUM, ADEPTUS ASTARTES, INFANTRY, PSYKER, GREY KNIGHT",
+      "KeywordsFr": "IMPERIUM, ADEPTUS ASTARTES, INFANTRY, PSYKER, GREY KNIGHT",
+      "ModelProfiles": [
+         {
+            "Attacks": "1",
+            "BallisticSkill": 3,
+            "Cost": 18,
+            "CostOverrides": [
+               {
+                  "Cost": 0,
+                  "WeaponId": "BOST"
+               }
+            ],
+            "Id": "GK1",
+            "IsCommander": false,
+            "Leadership": 7,
+            "LevelCosts": [ ],
+            "MaximumNumber": 0,
+            "ModelProfileWeapons": [ ],
+            "Movement": 6,
+            "NameDe": "Grey Knight",
+            "NameEn": "Grey Knight",
+            "NameFr": "Grey Knight",
+            "NumberOfKnownPsychics": 0,
+            "NumberOfPsychicsDenialPerRound": 1,
+            "NumberOfPsychicsManifestationPerRound": 1,
+            "Save": 3,
+            "Specialists": [
+               {
+                  "SpecialistId": "CB"
+               },
+               {
+                  "SpecialistId": "CO"
+               },
+               {
+                  "SpecialistId": "D"
+               },
+               {
+                  "SpecialistId": "V"
+               },
+               {
+                  "SpecialistId": "Z"
+               }
+            ],
+            "Strength": 4,
+            "Toughness": 4,
+            "WarGearOptions": [ ],
+            "WeaponSkill": 3,
+            "Wounds": 1
+         },
+         {
+            "Attacks": "1",
+            "BallisticSkill": 3,
+            "Cost": 19,
+            "CostOverrides": [
+               {
+                  "Cost": 0,
+                  "WeaponId": "BOST"
+               }
+            ],
+            "Id": "GK2",
+            "IsCommander": false,
+            "Leadership": 7,
+            "LevelCosts": [ ],
+            "MaximumNumber": 2,
+            "ModelProfileWeapons": [ ],
+            "Movement": 6,
+            "NameDe": "Grey Knight Gunner",
+            "NameEn": "Grey Knight Gunner",
+            "NameFr": "Grey Knight Gunner",
+            "NumberOfKnownPsychics": 0,
+            "NumberOfPsychicsDenialPerRound": 1,
+            "NumberOfPsychicsManifestationPerRound": 1,
+            "Save": 3,
+            "Specialists": [
+               {
+                  "SpecialistId": "AL"
+               },
+               {
+                  "SpecialistId": "CB"
+               },
+               {
+                  "SpecialistId": "CO"
+               },
+               {
+                  "SpecialistId": "D"
+               },
+               {
+                  "SpecialistId": "V"
+               },
+               {
+                  "SpecialistId": "Z"
+               }
+            ],
+            "Strength": 4,
+            "Toughness": 4,
+            "WarGearOptions": [
+               {
+                  "Exclusion": "GKG",
+                  "Id": "21",
+                  "MaximumPerTeam": 0,
+                  "Operation": "EFN&BOST:INC|EX|PSC"
+               }
+            ],
+            "WeaponSkill": 3,
+            "Wounds": 1
+         },
+         {
+            "Attacks": "2",
+            "BallisticSkill": 3,
+            "Cost": 19,
+            "CostOverrides": [
+               {
+                  "Cost": 0,
+                  "WeaponId": "BOST"
+               }
+            ],
+            "Id": "GK3",
+            "IsCommander": false,
+            "Leadership": 8,
+            "LevelCosts": [ ],
+            "MaximumNumber": 1,
+            "ModelProfileWeapons": [ ],
+            "Movement": 6,
+            "NameDe": "Justicar",
+            "NameEn": "Justicar",
+            "NameFr": "Justicar",
+            "NumberOfKnownPsychics": 0,
+            "NumberOfPsychicsDenialPerRound": 1,
+            "NumberOfPsychicsManifestationPerRound": 1,
+            "Save": 3,
+            "Specialists": [
+               {
+                  "SpecialistId": "CB"
+               },
+               {
+                  "SpecialistId": "CO"
+               },
+               {
+                  "SpecialistId": "D"
+               },
+               {
+                  "SpecialistId": "L"
+               },
+               {
+                  "SpecialistId": "V"
+               },
+               {
+                  "SpecialistId": "Z"
+               }
+            ],
+            "Strength": 4,
+            "Toughness": 4,
+            "WarGearOptions": [ ],
+            "WeaponSkill": 3,
+            "Wounds": 1
+         }
+      ],
+      "ModelWeapons": [
+         {
+            "WeaponId": "BOST"
+         },
+         {
+            "WeaponId": "EFN"
+         },
+         {
+            "WeaponId": "GAP"
+         },
+         {
+            "WeaponId": "GF"
+         },
+         {
+            "WeaponId": "GK"
+         }
+      ],
+      "NameDe": "Grey Knight",
+      "NameEn": "Grey Knight",
+      "NameFr": "Grey Knight",
+      "WarGearOptions": [
+         {
+            "Exclusion": "GKG",
+            "Id": "20",
+            "MaximumPerTeam": 0,
+            "Operation": "EFN:HFN|MTDN|SFN|GLN"
+         }
+      ]
+   },
+   {
+      "Id": "GKBC",
+      "KeywordsDe": "IMPERIUM, ADEPTUS ASTARTES, KOMMANDEUR, INFANTERIE, TERMINATOR, BROTHER-CAPTAIN",
+      "KeywordsEn": "IMPERIUM, ADEPTUS ASTARTES, COMMANDER, INFANTRY, TERMINATOR, BROTHER-CAPTAIN",
+      "KeywordsFr": "IMPERIUM, ADEPTUS ASTARTES, COMMANDER, INFANTRY, TERMINATOR, BROTHER-CAPTAIN",
+      "ModelProfiles": [
+         {
+            "Attacks": "4",
+            "BallisticSkill": 2,
+            "Cost": 100,
+            "CostOverrides": [
+               {
+                  "Cost": 0,
+                  "WeaponId": "BOST"
+               },
+               {
+                  "Cost": 16,
+                  "WeaponId": "EX"
+               },
+               {
+                  "Cost": 7,
+                  "WeaponId": "PSC"
+               },
+               {
+                  "Cost": 8,
+                  "WeaponId": "MTDN"
+               },
+               {
+                  "Cost": 0,
+                  "WeaponId": "GLN"
+               }
+            ],
+            "Id": "GKBC",
+            "IsCommander": true,
+            "Leadership": 9,
+            "LevelCosts": [
+               {
+                  "Cost": 100,
+                  "Level": 1
+               },
+               {
+                  "Cost": 120,
+                  "Level": 2
+               },
+               {
+                  "Cost": 140,
+                  "Level": 3
+               },
+               {
+                  "Cost": 165,
+                  "Level": 4
+               }
+            ],
+            "MaximumNumber": 1,
+            "ModelProfileWeapons": [ ],
+            "Movement": 5,
+            "NameDe": "Brother-Captain",
+            "NameEn": "Brother-captain",
+            "NameFr": "Brother-captain",
+            "NumberOfKnownPsychics": 1,
+            "NumberOfPsychicsDenialPerRound": 1,
+            "NumberOfPsychicsManifestationPerRound": 1,
+            "Save": 2,
+            "Specialists": [
+               {
+                  "SpecialistId": "F"
+               },
+               {
+                  "SpecialistId": "FE"
+               },
+               {
+                  "SpecialistId": "FR"
+               },
+               {
+                  "SpecialistId": "LE"
+               },
+               {
+                  "SpecialistId": "LO"
+               },
+               {
+                  "SpecialistId": "ME"
+               },
+               {
+                  "SpecialistId": "P"
+               },
+               {
+                  "SpecialistId": "SH"
+               },
+               {
+                  "SpecialistId": "ST"
+               }
+            ],
+            "Strength": 4,
+            "Toughness": 4,
+            "WarGearOptions": [ ],
+            "WeaponSkill": 2,
+            "Wounds": 6
+         }
+      ],
+      "ModelWeapons": [
+         {
+            "WeaponId": "GAP"
+         },
+         {
+            "WeaponId": "GF"
+         },
+         {
+            "WeaponId": "GK"
+         },
+         {
+            "WeaponId": "HFN"
+         }
+      ],
+      "NameDe": "Brother-Captain",
+      "NameEn": "Brother-captain",
+      "NameFr": "Brother-captain",
+      "WarGearOptions": [
+         {
+            "Exclusion": null,
+            "Id": "317",
+            "MaximumPerTeam": 0,
+            "Operation": "HFN:MTDN|EFN|SFN|GLN"
+         },
+         {
+            "Exclusion": null,
+            "Id": "318",
+            "MaximumPerTeam": 0,
+            "Operation": "BOST:INC|EX|PSC"
+         }
+      ]
+   },
+   {
+      "Id": "GKC",
+      "KeywordsDe": "IMPERIUM, ADEPTUS ASTARTES, KOMMANDEUR, INFANTERIE, PSIONIKER, BROTHERHOOD CHAMPION",
+      "KeywordsEn": "IMPERIUM, ADEPTUS ASTARTES, COMMANDER, INFANTRY, PSYKER, BROTHERHOOD CHAMPION",
+      "KeywordsFr": "IMPERIUM, ADEPTUS ASTARTES, COMMANDANT, INFANTERIE, PSYKER, BROTHERHOOD CHAMPION",
+      "ModelProfiles": [
+         {
+            "Attacks": "4",
+            "BallisticSkill": 2,
+            "Cost": 108,
+            "CostOverrides": [
+               {
+                  "Cost": 0,
+                  "WeaponId": "BOST"
+               }
+            ],
+            "Id": "GKC",
+            "IsCommander": true,
+            "Leadership": 8,
+            "LevelCosts": [
+               {
+                  "Cost": 108,
+                  "Level": 1
+               },
+               {
+                  "Cost": 128,
+                  "Level": 2
+               },
+               {
+                  "Cost": 148,
+                  "Level": 3
+               },
+               {
+                  "Cost": 173,
+                  "Level": 4
+               }
+            ],
+            "MaximumNumber": 1,
+            "ModelProfileWeapons": [
+               {
+                  "WeaponId": "BOST"
+               },
+               {
+                  "WeaponId": "EFN"
+               },
+               {
+                  "WeaponId": "GAP"
+               },
+               {
+                  "WeaponId": "GF"
+               },
+               {
+                  "WeaponId": "GK"
+               }
+            ],
+            "Movement": 6,
+            "NameDe": "Brotherhood Champion",
+            "NameEn": "Brotherhood Champion",
+            "NameFr": "Brotherhood Champion",
+            "NumberOfKnownPsychics": 1,
+            "NumberOfPsychicsDenialPerRound": 1,
+            "NumberOfPsychicsManifestationPerRound": 1,
+            "Save": 2,
+            "Specialists": [
+               {
+                  "SpecialistId": "F"
+               },
+               {
+                  "SpecialistId": "FE"
+               },
+               {
+                  "SpecialistId": "LE"
+               },
+               {
+                  "SpecialistId": "LH"
+               },
+               {
+                  "SpecialistId": "ME"
+               },
+               {
+                  "SpecialistId": "P"
+               },
+               {
+                  "SpecialistId": "SH"
+               }
+            ],
+            "Strength": 4,
+            "Toughness": 4,
+            "WarGearOptions": [ ],
+            "WeaponSkill": 2,
+            "Wounds": 4
+         }
+      ],
+      "ModelWeapons": [ ],
+      "NameDe": "Brotherhood Champion",
+      "NameEn": "Brotherhood Champion",
+      "NameFr": "Brotherhood Champion",
+      "WarGearOptions": [ ]
+   },
+   {
+      "Id": "GKLI",
+      "KeywordsDe": "IMPERIUM, ADEPTUS ASTARTES, KOMMANDEUR, INFANTERIE, TERMINATOR, PSYKER, LIBRARIAN",
+      "KeywordsEn": "IMPERIUM, ADEPTUS ASTARTES, COMMANDER, INFANTRY, TERMINATOR, PSYKER, LIBRARIAN",
+      "KeywordsFr": "IMPERIUM, ADEPTUS ASTARTES, COMMANDER, INFANTRY, TERMINATOR, PSYKER, LIBRARIAN",
+      "ModelProfiles": [
+         {
+            "Attacks": "3",
+            "BallisticSkill": 2,
+            "Cost": 96,
+            "CostOverrides": [
+               {
+                  "Cost": 12,
+                  "WeaponId": "COL"
+               },
+               {
+                  "Cost": 14,
+                  "WeaponId": "COF"
+               },
+               {
+                  "Cost": 12,
+                  "WeaponId": "COP"
+               },
+               {
+                  "Cost": 8,
+                  "WeaponId": "MTDN"
+               },
+               {
+                  "Cost": 4,
+                  "WeaponId": "BOST"
+               },
+               {
+                  "Cost": 0,
+                  "WeaponId": "GLN"
+               }
+            ],
+            "Id": "GKLI",
+            "IsCommander": true,
+            "Leadership": 9,
+            "LevelCosts": [
+               {
+                  "Cost": 96,
+                  "Level": 1
+               },
+               {
+                  "Cost": 116,
+                  "Level": 2
+               },
+               {
+                  "Cost": 136,
+                  "Level": 3
+               },
+               {
+                  "Cost": 161,
+                  "Level": 4
+               }
+            ],
+            "MaximumNumber": 1,
+            "ModelProfileWeapons": [ ],
+            "Movement": 5,
+            "NameDe": "Librarian",
+            "NameEn": "Librarian",
+            "NameFr": "Librarian",
+            "NumberOfKnownPsychics": 2,
+            "NumberOfPsychicsDenialPerRound": 2,
+            "NumberOfPsychicsManifestationPerRound": 2,
+            "Save": 2,
+            "Specialists": [
+               {
+                  "SpecialistId": "F"
+               },
+               {
+                  "SpecialistId": "FE"
+               },
+               {
+                  "SpecialistId": "ME"
+               },
+               {
+                  "SpecialistId": "P"
+               },
+               {
+                  "SpecialistId": "SH"
+               }
+            ],
+            "Strength": 4,
+            "Toughness": 4,
+            "WarGearOptions": [ ],
+            "WeaponSkill": 2,
+            "Wounds": 5
+         }
+      ],
+      "ModelWeapons": [
+         {
+            "WeaponId": "GAP"
+         },
+         {
+            "WeaponId": "GF"
+         },
+         {
+            "WeaponId": "GK"
+         },
+         {
+            "WeaponId": "SFN"
+         }
+      ],
+      "NameDe": "Librarian",
+      "NameEn": "Librarian",
+      "NameFr": "Librarian",
+      "WarGearOptions": [
+         {
+            "Exclusion": null,
+            "Id": "315",
+            "MaximumPerTeam": 0,
+            "Operation": "COP|COF|COL|BOST"
+         },
+         {
+            "Exclusion": null,
+            "Id": "316",
+            "MaximumPerTeam": 0,
+            "Operation": "SFN:MTDN|HFN|EFN|GLN"
+         }
+      ]
+   },
+   {
+      "Id": "GKPA",
+      "KeywordsDe": "IMPERIUM, ADEPTUS ASTARTES, INFANTERIE, PSIONIKER, TERMINATOR, PALADIN",
+      "KeywordsEn": "IMPERIUM, ADEPTUS ASTARTES, INFANTRY, PSYKER, TERMINATOR, PALADIN",
+      "KeywordsFr": "IMPERIUM, ADEPTUS ASTARTES, INFANTRY, PSYKER, TERMINATOR, PALADIN",
+      "ModelProfiles": [
+         {
+            "Attacks": "3",
+            "BallisticSkill": 3,
+            "Cost": 47,
+            "CostOverrides": [
+               {
+                  "Cost": 0,
+                  "WeaponId": "BOST"
+               },
+               {
+                  "Cost": 4,
+                  "WeaponId": "MTDN"
+               },
+               {
+                  "Cost": 1,
+                  "WeaponId": "HFN"
+               },
+               {
+                  "Cost": 3,
+                  "WeaponId": "SFN"
+               }
+            ],
+            "Id": "GKPA",
+            "IsCommander": false,
+            "Leadership": 8,
+            "LevelCosts": [ ],
+            "MaximumNumber": 0,
+            "ModelProfileWeapons": [ ],
+            "Movement": 5,
+            "NameDe": "Paladin",
+            "NameEn": "Paladin",
+            "NameFr": "Paladin",
+            "NumberOfKnownPsychics": 0,
+            "NumberOfPsychicsDenialPerRound": 1,
+            "NumberOfPsychicsManifestationPerRound": 1,
+            "Save": 2,
+            "Specialists": [
+               {
+                  "SpecialistId": "CB"
+               },
+               {
+                  "SpecialistId": "CO"
+               },
+               {
+                  "SpecialistId": "D"
+               },
+               {
+                  "SpecialistId": "V"
+               },
+               {
+                  "SpecialistId": "Z"
+               }
+            ],
+            "Strength": 4,
+            "Toughness": 4,
+            "WarGearOptions": [ ],
+            "WeaponSkill": 3,
+            "Wounds": 3
+         },
+         {
+            "Attacks": "3",
+            "BallisticSkill": 3,
+            "Cost": 48,
+            "CostOverrides": [
+               {
+                  "Cost": 0,
+                  "WeaponId": "BOST"
+               },
+               {
+                  "Cost": 4,
+                  "WeaponId": "MTDN"
+               },
+               {
+                  "Cost": 1,
+                  "WeaponId": "HFN"
+               },
+               {
+                  "Cost": 3,
+                  "WeaponId": "SFN"
+               },
+               {
+                  "Cost": 1,
+                  "WeaponId": "INC"
+               },
+               {
+                  "Cost": 8,
+                  "WeaponId": "EX"
+               },
+               {
+                  "Cost": 4,
+                  "WeaponId": "PSC"
+               }
+            ],
+            "Id": "GKPAG",
+            "IsCommander": false,
+            "Leadership": 8,
+            "LevelCosts": [ ],
+            "MaximumNumber": 4,
+            "ModelProfileWeapons": [ ],
+            "Movement": 5,
+            "NameDe": "Paladin Gunner",
+            "NameEn": "Paladin Gunner",
+            "NameFr": "Paladin Gunner",
+            "NumberOfKnownPsychics": 0,
+            "NumberOfPsychicsDenialPerRound": 1,
+            "NumberOfPsychicsManifestationPerRound": 1,
+            "Save": 2,
+            "Specialists": [
+               {
+                  "SpecialistId": "AL"
+               },
+               {
+                  "SpecialistId": "CB"
+               },
+               {
+                  "SpecialistId": "CO"
+               },
+               {
+                  "SpecialistId": "D"
+               },
+               {
+                  "SpecialistId": "V"
+               },
+               {
+                  "SpecialistId": "Z"
+               }
+            ],
+            "Strength": 4,
+            "Toughness": 4,
+            "WarGearOptions": [
+               {
+                  "Exclusion": null,
+                  "Id": "322",
+                  "MaximumPerTeam": 0,
+                  "Operation": "BOST:INC|EX|PSC"
+               }
+            ],
+            "WeaponSkill": 3,
+            "Wounds": 3
+         },
+         {
+            "Attacks": "3",
+            "BallisticSkill": 3,
+            "Cost": 50,
+            "CostOverrides": [
+               {
+                  "Cost": 0,
+                  "WeaponId": "BOST"
+               },
+               {
+                  "Cost": 4,
+                  "WeaponId": "MTDN"
+               },
+               {
+                  "Cost": 1,
+                  "WeaponId": "HFN"
+               },
+               {
+                  "Cost": 3,
+                  "WeaponId": "SFN"
+               }
+            ],
+            "Id": "GKPR",
+            "IsCommander": false,
+            "Leadership": 9,
+            "LevelCosts": [ ],
+            "MaximumNumber": 1,
+            "ModelProfileWeapons": [ ],
+            "Movement": 5,
+            "NameDe": "Paragon",
+            "NameEn": "Paragon",
+            "NameFr": "Paragon",
+            "NumberOfKnownPsychics": 0,
+            "NumberOfPsychicsDenialPerRound": 1,
+            "NumberOfPsychicsManifestationPerRound": 1,
+            "Save": 2,
+            "Specialists": [
+               {
+                  "SpecialistId": "CB"
+               },
+               {
+                  "SpecialistId": "CO"
+               },
+               {
+                  "SpecialistId": "D"
+               },
+               {
+                  "SpecialistId": "L"
+               },
+               {
+                  "SpecialistId": "V"
+               },
+               {
+                  "SpecialistId": "Z"
+               }
+            ],
+            "Strength": 4,
+            "Toughness": 4,
+            "WarGearOptions": [ ],
+            "WeaponSkill": 3,
+            "Wounds": 3
+         }
+      ],
+      "ModelWeapons": [
+         {
+            "WeaponId": "BOST"
+         },
+         {
+            "WeaponId": "EFN"
+         },
+         {
+            "WeaponId": "GAP"
+         },
+         {
+            "WeaponId": "GF"
+         },
+         {
+            "WeaponId": "GK"
+         }
+      ],
+      "NameDe": "Paladin",
+      "NameEn": "Paladin",
+      "NameFr": "Paladin",
+      "WarGearOptions": [
+         {
+            "Exclusion": null,
+            "Id": "321",
+            "MaximumPerTeam": 0,
+            "Operation": "EFN:MTDN|HFN|SFN|GLN"
+         }
+      ]
+   },
+   {
+      "Id": "GKTE",
+      "KeywordsDe": "IMPERIUM, ADEPTUS ASTARTES, INFANTERIE, PSIONIKER, TERMINATOR",
+      "KeywordsEn": "IMPERIUM, ADEPTUS ASTARTES, INFANTRY, PSYKER, TERMINATOR",
+      "KeywordsFr": "IMPERIUM, ADEPTUS ASTARTES, INFANTRY, PSYKER, TERMINATOR",
+      "ModelProfiles": [
+         {
+            "Attacks": "2",
+            "BallisticSkill": 3,
+            "Cost": 36,
+            "CostOverrides": [
+               {
+                  "Cost": 0,
+                  "WeaponId": "BOST"
+               },
+               {
+                  "Cost": 4,
+                  "WeaponId": "MTDN"
+               },
+               {
+                  "Cost": 1,
+                  "WeaponId": "HFN"
+               },
+               {
+                  "Cost": 3,
+                  "WeaponId": "SFN"
+               }
+            ],
+            "Id": "GKTE",
+            "IsCommander": false,
+            "Leadership": 7,
+            "LevelCosts": [ ],
+            "MaximumNumber": 0,
+            "ModelProfileWeapons": [ ],
+            "Movement": 5,
+            "NameDe": "Terminator",
+            "NameEn": "Terminator",
+            "NameFr": "Terminator",
+            "NumberOfKnownPsychics": 0,
+            "NumberOfPsychicsDenialPerRound": 1,
+            "NumberOfPsychicsManifestationPerRound": 1,
+            "Save": 2,
+            "Specialists": [
+               {
+                  "SpecialistId": "CB"
+               },
+               {
+                  "SpecialistId": "CO"
+               },
+               {
+                  "SpecialistId": "D"
+               },
+               {
+                  "SpecialistId": "V"
+               },
+               {
+                  "SpecialistId": "Z"
+               }
+            ],
+            "Strength": 4,
+            "Toughness": 4,
+            "WarGearOptions": [ ],
+            "WeaponSkill": 3,
+            "Wounds": 2
+         },
+         {
+            "Attacks": "2",
+            "BallisticSkill": 3,
+            "Cost": 37,
+            "CostOverrides": [
+               {
+                  "Cost": 0,
+                  "WeaponId": "BOST"
+               },
+               {
+                  "Cost": 4,
+                  "WeaponId": "MTDN"
+               },
+               {
+                  "Cost": 1,
+                  "WeaponId": "HFN"
+               },
+               {
+                  "Cost": 3,
+                  "WeaponId": "SFN"
+               },
+               {
+                  "Cost": 1,
+                  "WeaponId": "INC"
+               },
+               {
+                  "Cost": 8,
+                  "WeaponId": "EX"
+               },
+               {
+                  "Cost": 4,
+                  "WeaponId": "PSC"
+               }
+            ],
+            "Id": "GKTEG",
+            "IsCommander": false,
+            "Leadership": 7,
+            "LevelCosts": [ ],
+            "MaximumNumber": 2,
+            "ModelProfileWeapons": [ ],
+            "Movement": 5,
+            "NameDe": "Terminator Gunner",
+            "NameEn": "Terminator Gunner",
+            "NameFr": "Terminator Gunner",
+            "NumberOfKnownPsychics": 0,
+            "NumberOfPsychicsDenialPerRound": 1,
+            "NumberOfPsychicsManifestationPerRound": 1,
+            "Save": 2,
+            "Specialists": [
+               {
+                  "SpecialistId": "AL"
+               },
+               {
+                  "SpecialistId": "CB"
+               },
+               {
+                  "SpecialistId": "CO"
+               },
+               {
+                  "SpecialistId": "D"
+               },
+               {
+                  "SpecialistId": "V"
+               },
+               {
+                  "SpecialistId": "Z"
+               }
+            ],
+            "Strength": 4,
+            "Toughness": 4,
+            "WarGearOptions": [
+               {
+                  "Exclusion": "",
+                  "Id": "389",
+                  "MaximumPerTeam": 0,
+                  "Operation": "BOST:INC|EX|PSC"
+               }
+            ],
+            "WeaponSkill": 3,
+            "Wounds": 2
+         },
+         {
+            "Attacks": "3",
+            "BallisticSkill": 3,
+            "Cost": 39,
+            "CostOverrides": [
+               {
+                  "Cost": 0,
+                  "WeaponId": "BOST"
+               },
+               {
+                  "Cost": 4,
+                  "WeaponId": "MTDN"
+               },
+               {
+                  "Cost": 1,
+                  "WeaponId": "HFN"
+               },
+               {
+                  "Cost": 3,
+                  "WeaponId": "SFN"
+               }
+            ],
+            "Id": "GKTEJ",
+            "IsCommander": false,
+            "Leadership": 8,
+            "LevelCosts": [ ],
+            "MaximumNumber": 1,
+            "ModelProfileWeapons": [ ],
+            "Movement": 5,
+            "NameDe": "Terminator Justicar",
+            "NameEn": "Terminator Justicar",
+            "NameFr": "Terminator Justicar",
+            "NumberOfKnownPsychics": 0,
+            "NumberOfPsychicsDenialPerRound": 1,
+            "NumberOfPsychicsManifestationPerRound": 1,
+            "Save": 2,
+            "Specialists": [
+               {
+                  "SpecialistId": "CB"
+               },
+               {
+                  "SpecialistId": "CO"
+               },
+               {
+                  "SpecialistId": "D"
+               },
+               {
+                  "SpecialistId": "L"
+               },
+               {
+                  "SpecialistId": "V"
+               },
+               {
+                  "SpecialistId": "Z"
+               }
+            ],
+            "Strength": 4,
+            "Toughness": 4,
+            "WarGearOptions": [ ],
+            "WeaponSkill": 3,
+            "Wounds": 2
+         }
+      ],
+      "ModelWeapons": [
+         {
+            "WeaponId": "BOST"
+         },
+         {
+            "WeaponId": "EFN"
+         },
+         {
+            "WeaponId": "GAP"
+         },
+         {
+            "WeaponId": "GF"
+         },
+         {
+            "WeaponId": "GK"
+         }
+      ],
+      "NameDe": "Terminator",
+      "NameEn": "Terminator",
+      "NameFr": "Terminator",
+      "WarGearOptions": [
+         {
+            "Exclusion": null,
+            "Id": "385",
+            "MaximumPerTeam": 0,
+            "Operation": "EFN:MTDN|HFN|SFN|GLN"
+         }
+      ]
+   }
+]

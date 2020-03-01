@@ -1,0 +1,41 @@
+[
+  {
+    "Id": "26",
+    "ModelProfileId": "ARS",
+    "WarpCharge": 5,
+    "Dices": 1,
+    "NameEn": "Fog of dreams",
+    "NameFr": "Brume des rêves",
+    "NameDe": "Nebel der Träume",
+    "DescriptionEn": "If manifested, select an enemy model within 12\" of and visible to the psyker. Until the start of the next Psychic phase, your opponent must subtract 1 from hit rolls for that model.",
+    "DescriptionFr": "S'il est manifesté, choisissez une figurine ennemie à 12\" et visible du psyker. Jusqu'au début de la prochaine phase psychique, votre adversaire doit soustraire 1 aux jets de touche de cette figurine.",
+    "DescriptionDe": "Wenn er manifestiert wird, wähle ein feindliches Modell innerhalb von 12'' um den Psioniker, das er sehen kann. Bis zum Beginn der nächsten Psiphase muss dein Gegner 1 von Trefferwürfen für dieses Modell abziehen.",
+    "Commander": true
+  },
+  {
+    "Id": "27",
+    "ModelProfileId": "ARS",
+    "WarpCharge": 7,
+    "Dices": 2,
+    "NameEn": "Webway dance",
+    "NameFr": "Danse de la toile",
+    "NameDe": "Tanz des Netzes der tausend Tore",
+    "DescriptionEn": "If manifested, then until the start of the next Psychic phase, roll a D6 whenever a friendly model within 6\" of the psyker loses a wound; on a 6 that wound is not lost. If a model already has an ability with a similar effect, you can choose which effect applies, and re-roll ls when making these rolls.",
+    "DescriptionFr": "S'il est manifesté, jusqu'au début de la prochaine phase psychique, jetez un D6 lorsqu'une figurne amie à 6\" du psyker perd un PV; sur 6 ce PV n'est pas perdu. Si la figurine dispose d'une aptitude similaire, vous pouvez choisir quel effet s'applique, et relancer les 1 obtenus sur le jet de dé.",
+    "DescriptionDe": "Wenn er manifestiert wird, wirf bis zur nächsten Psiphase jedes Mal einen W6, wenn ein befreundetes Modell innerhalb von 6'' um den Psioniker einen Lebenspunkt verliert. Bei einer 6 verliert es den Lebenspunkt nicht. Hat das Modell bereits eine Fähigkeit mit ähnlichem Effekt, entscheidest du, welcher Effekt angewendet wird, und wiederholst eine gewürfelte 1.",
+    "Commander": true
+  },
+  {
+    "Id": "28",
+    "ModelProfileId": "ARS",
+    "WarpCharge": 7,
+    "Dices": 3,
+    "NameEn": "Mirror of minds",
+    "NameFr": "Miroirs mentaux",
+    "NameDe": "Spiegel des Geistes",
+    "DescriptionEn": "If manifested, select an enemy model within 12\" of the psyker. Then, both controlling players roll a D6. If the Harlequin player's roll is equal to or higher than their opponent's, the target suffers 1 mortal wound. Repeat this process until the target is taken out of action, or the other player beats the Harlequin player's roll.",
+    "DescriptionFr": "S'il est manifesté, choisissez une figurine ennemie à 12\" du psyker. Les deux joueurs lancent chacun un D6. Si le résultat du joueur Harlequin est supérieur ou égal à celui de l'adversaire, la cible subit une blessure mortelle. Recommencez jusqu'à ce que la figurine soit mise hors de combat ou que l'adversaire obtienne un résultat supérieur.",
+    "DescriptionDe": "Wird er erfolgreich manifestiert, wähle ein feindliches Modell innerhalb von 12'' um den Psioniker. Dann werfen beide Spieler einen W6. Ist das Ergebnis des Harlequin-Spielers gleich dem oder höher als das des Gegners, erleidet das Ziel 1 tödliche Verwundung. Wiederhole diesen Vorgang, bis das Ziel ausgeschaltet ist oder der Gegner höher würfelt als der Harlequin—Spieler.",
+    "Commander": true
+  }
+]

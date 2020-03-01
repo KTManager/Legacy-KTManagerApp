@@ -1,0 +1,677 @@
+[
+  {
+    "Id": "TSE",
+    "NameEn": "Exalted Sorcerer",
+    "NameFr": "Exalted Sorcerer",
+    "NameDe": "Exalted Sorcerer",
+    "KeywordsEn": "CHAOS, TZEENTCH, HERETIC ASTARTES, COMMANDER, INFANTRY, SORCERER, PSYKER, EXALTED SORCERER",
+    "KeywordsFr": "CHAOS, TZEENTCH, HERETIC ASTARTES, COMMANDANT, INFANTERIE, SORCERER, PSYKER, EXALTED SORCERER",
+    "KeywordsDe": "CHAOS, TZEENTCH, HERETIC ASTARTES, KOMMANDEUR, INFANTERIE, SORCERER, PSIONIKER, EXALTED SORCERER",
+    "ModelProfiles": [
+      {
+        "Id": "TSE",
+        "Movement": 6,
+        "WeaponSkill": 2,
+        "BallisticSkill": 2,
+        "Strength": 4,
+        "Toughness": 4,
+        "Wounds": 4,
+        "Attacks": "5",
+        "Leadership": 9,
+        "Save": 3,
+        "MaximumNumber": 1,
+        "Cost": 81,
+        "NameEn": "Exalted Sorcerer",
+        "NameFr": "Exalted Sorcerer",
+        "NameDe": "Exalted Sorcerer",
+        "IsCommander": true,
+        "NumberOfKnownPsychics": 2,
+        "NumberOfPsychicsManifestationPerRound": 2,
+        "NumberOfPsychicsDenialPerRound": 1,
+        "WarGearOptions": [
+          {
+            "Id": "216",
+            "MaximumPerTeam": 0,
+            "Operation": "PBI:PP|LFWL",
+            "Exclusion": null
+          },
+          {
+            "Id": "217",
+            "MaximumPerTeam": 0,
+            "Operation": "EPE2",
+            "Exclusion": null
+          },
+          {
+            "Id": "218",
+            "MaximumPerTeam": 0,
+            "Operation": "DST&BD",
+            "Exclusion": null
+          }
+        ],
+        "Specialists": [
+          {
+            "SpecialistId": "F"
+          },
+          {
+            "SpecialistId": "FE"
+          },
+          {
+            "SpecialistId": "LE"
+          },
+          {
+            "SpecialistId": "LH"
+          },
+          {
+            "SpecialistId": "LO"
+          },
+          {
+            "SpecialistId": "ME"
+          },
+          {
+            "SpecialistId": "P"
+          },
+          {
+            "SpecialistId": "SH"
+          },
+          {
+            "SpecialistId": "ST"
+          }
+        ],
+        "ModelProfileWeapons": [
+          {
+            "WeaponId": "GF"
+          },
+          {
+            "WeaponId": "GK"
+          },
+          {
+            "WeaponId": "PBI"
+          },
+          {
+            "WeaponId": "SCF"
+          }
+        ],
+        "CostOverrides": [
+          {
+            "WeaponId": "PP",
+            "Cost": 7
+          },
+          {
+            "WeaponId": "LFWL",
+            "Cost": 7
+          }
+        ],
+        "LevelCosts": [
+          {
+            "Level": 1,
+            "Cost": 81
+          },
+          {
+            "Level": 2,
+            "Cost": 101
+          },
+          {
+            "Level": 3,
+            "Cost": 121
+          },
+          {
+            "Level": 4,
+            "Cost": 146
+          }
+        ]
+      }
+    ],
+    "ModelWeapons": [],
+    "WarGearOptions": []
+  },
+  {
+    "Id": "TSM",
+    "NameEn": "Rubric Marine",
+    "NameFr": "Rubric Marine",
+    "NameDe": "Rubric Marine",
+    "KeywordsEn": "CHAOS, TZEENTCH, HERETIC ASTARTES, INFANTRY, PSYKER (ASPIRING SORCERER ONLY), RUBRIC MARINE",
+    "KeywordsFr": "CHAOS, TZEENTCH, HERETIC ASTARTES, INFANTERIE, PSYKER (ASPIRING SORCERER ONLY), RUBRIC MARINE",
+    "KeywordsDe": "CHAOS, TZEENTCH, HERETIC ASTARTES, INFANTERIE, PSIONIKER (nur ASPIRING SORCERER), RUBRIC MARINE",
+    "ModelProfiles": [
+      {
+        "Id": "TSM1",
+        "Movement": 5,
+        "WeaponSkill": 3,
+        "BallisticSkill": 3,
+        "Strength": 4,
+        "Toughness": 4,
+        "Wounds": 1,
+        "Attacks": "1",
+        "Leadership": 7,
+        "Save": 3,
+        "MaximumNumber": 0,
+        "Cost": 16,
+        "NameEn": "Rubric Marine",
+        "NameFr": "Rubric Marine",
+        "NameDe": "Rubric Marine",
+        "IsCommander": false,
+        "NumberOfKnownPsychics": 0,
+        "NumberOfPsychicsManifestationPerRound": 0,
+        "NumberOfPsychicsDenialPerRound": 0,
+        "WarGearOptions": [
+          {
+            "Id": "59",
+            "MaximumPerTeam": 0,
+            "Operation": "BOI:LFW",
+            "Exclusion": null
+          },
+          {
+            "Id": "61",
+            "MaximumPerTeam": 1,
+            "Operation": "IFL",
+            "Exclusion": null
+          }
+        ],
+        "Specialists": [
+          {
+            "SpecialistId": "CB"
+          },
+          {
+            "SpecialistId": "D"
+          },
+          {
+            "SpecialistId": "V"
+          }
+        ],
+        "ModelProfileWeapons": [],
+        "CostOverrides": [],
+        "LevelCosts": []
+      },
+      {
+        "Id": "TSM2",
+        "Movement": 5,
+        "WeaponSkill": 3,
+        "BallisticSkill": 3,
+        "Strength": 4,
+        "Toughness": 4,
+        "Wounds": 1,
+        "Attacks": "1",
+        "Leadership": 7,
+        "Save": 3,
+        "MaximumNumber": 1,
+        "Cost": 16,
+        "NameEn": "Rubric Marine Gunner",
+        "NameFr": "Rubric Marine Gunner",
+        "NameDe": "Rubric Marine Gunner",
+        "IsCommander": false,
+        "NumberOfKnownPsychics": 0,
+        "NumberOfPsychicsManifestationPerRound": 0,
+        "NumberOfPsychicsDenialPerRound": 0,
+        "WarGearOptions": [
+          {
+            "Id": "60",
+            "MaximumPerTeam": 0,
+            "Operation": "BOI:CAS",
+            "Exclusion": null
+          }
+        ],
+        "Specialists": [
+          {
+            "SpecialistId": "AL"
+          },
+          {
+            "SpecialistId": "CB"
+          },
+          {
+            "SpecialistId": "D"
+          },
+          {
+            "SpecialistId": "V"
+          }
+        ],
+        "ModelProfileWeapons": [],
+        "CostOverrides": [],
+        "LevelCosts": []
+      },
+      {
+        "Id": "TSM3",
+        "Movement": 6,
+        "WeaponSkill": 3,
+        "BallisticSkill": 3,
+        "Strength": 4,
+        "Toughness": 4,
+        "Wounds": 1,
+        "Attacks": "2",
+        "Leadership": 8,
+        "Save": 3,
+        "MaximumNumber": 1,
+        "Cost": 17,
+        "NameEn": "Aspiring Sorcerer",
+        "NameFr": "Aspiring Sorcerer",
+        "NameDe": "Aspiring Sorcerer",
+        "IsCommander": false,
+        "NumberOfKnownPsychics": 0,
+        "NumberOfPsychicsManifestationPerRound": 1,
+        "NumberOfPsychicsDenialPerRound": 1,
+        "WarGearOptions": [
+          {
+            "Id": "58",
+            "MaximumPerTeam": 0,
+            "Operation": "PBI:LFWL",
+            "Exclusion": null
+          }
+        ],
+        "Specialists": [
+          {
+            "SpecialistId": "CB"
+          },
+          {
+            "SpecialistId": "D"
+          },
+          {
+            "SpecialistId": "L"
+          },
+          {
+            "SpecialistId": "V"
+          }
+        ],
+        "ModelProfileWeapons": [
+          {
+            "WeaponId": "PBI"
+          },
+          {
+            "WeaponId": "SCF"
+          }
+        ],
+        "CostOverrides": [],
+        "LevelCosts": []
+      }
+    ],
+    "ModelWeapons": [
+      {
+        "WeaponId": "BOI"
+      }
+    ],
+    "WarGearOptions": []
+  },
+  {
+    "Id": "TSSO",
+    "NameEn": "Scarab Occult Terminator",
+    "NameFr": "Scarab Occult Terminator",
+    "NameDe": "Scarab Occult Terminator",
+    "KeywordsEn": "CHAOS, TZEENTCH, HERETIC ASTARTES, INFANTRY, PSYKER (SCARAB OCCULT SORCERER ONLY), TERMINATOR, SCARAB OCCULT TERMINATOR",
+    "KeywordsFr": "CHAOS, TZEENTCH, HERETIC ASTARTES, INFANTERIE, PSYKER (SCARAB OCCULT SORCERER ONLY), TERMINATOR, SCARAB OCCULT TERMINATOR",
+    "KeywordsDe": "CHAOS, TZEENTCH, HERETIC ASTARTES, INFANTERIE, PSIONIKER (nur SCARAB OCCULT SORCERER), TERMINATOR, SCARAB OCCULT TERMINATOR",
+    "ModelProfiles": [
+      {
+        "Id": "TSSO1",
+        "Movement": 4,
+        "WeaponSkill": 3,
+        "BallisticSkill": 3,
+        "Strength": 4,
+        "Toughness": 4,
+        "Wounds": 2,
+        "Attacks": "2",
+        "Leadership": 8,
+        "Save": 2,
+        "MaximumNumber": 0,
+        "Cost": 32,
+        "NameEn": "Scarab Occult Terminator",
+        "NameFr": "Scarab Occult Terminator",
+        "NameDe": "Scarab Occult Terminator",
+        "IsCommander": false,
+        "NumberOfKnownPsychics": 0,
+        "NumberOfPsychicsManifestationPerRound": 0,
+        "NumberOfPsychicsDenialPerRound": 0,
+        "WarGearOptions": [
+          {
+            "Id": "278",
+            "MaximumPerTeam": 2,
+            "Operation": "HMR",
+            "Exclusion": null
+          }
+        ],
+        "Specialists": [
+          {
+            "SpecialistId": "CB"
+          },
+          {
+            "SpecialistId": "D"
+          },
+          {
+            "SpecialistId": "V"
+          }
+        ],
+        "ModelProfileWeapons": [
+          {
+            "WeaponId": "EPE2"
+          },
+          {
+            "WeaponId": "ICB"
+          }
+        ],
+        "CostOverrides": [],
+        "LevelCosts": []
+      },
+      {
+        "Id": "TSSO2",
+        "Movement": 4,
+        "WeaponSkill": 3,
+        "BallisticSkill": 3,
+        "Strength": 4,
+        "Toughness": 4,
+        "Wounds": 2,
+        "Attacks": "2",
+        "Leadership": 8,
+        "Save": 2,
+        "MaximumNumber": 2,
+        "Cost": 33,
+        "NameEn": "Scarab Occult Gunner",
+        "NameFr": "Scarab Occult Gunner",
+        "NameDe": "Scarab Occult Gunner",
+        "IsCommander": false,
+        "NumberOfKnownPsychics": 0,
+        "NumberOfPsychicsManifestationPerRound": 0,
+        "NumberOfPsychicsDenialPerRound": 0,
+        "WarGearOptions": [
+          {
+            "Id": "279",
+            "MaximumPerTeam": 2,
+            "Operation": "HMR",
+            "Exclusion": null
+          },
+          {
+            "Id": "280",
+            "MaximumPerTeam": 0,
+            "Operation": "ICB:HWF|CAS",
+            "Exclusion": null
+          }
+        ],
+        "Specialists": [
+          {
+            "SpecialistId": "AL"
+          },
+          {
+            "SpecialistId": "CB"
+          },
+          {
+            "SpecialistId": "D"
+          },
+          {
+            "SpecialistId": "V"
+          }
+        ],
+        "ModelProfileWeapons": [
+          {
+            "WeaponId": "EPE2"
+          },
+          {
+            "WeaponId": "ICB"
+          }
+        ],
+        "CostOverrides": [
+          {
+            "WeaponId": "CAS",
+            "Cost": 3
+          }
+        ],
+        "LevelCosts": []
+      },
+      {
+        "Id": "TSSO3",
+        "Movement": 5,
+        "WeaponSkill": 3,
+        "BallisticSkill": 3,
+        "Strength": 4,
+        "Toughness": 4,
+        "Wounds": 2,
+        "Attacks": "2",
+        "Leadership": 9,
+        "Save": 2,
+        "MaximumNumber": 1,
+        "Cost": 38,
+        "NameEn": "Scarab Occult Sorcerer",
+        "NameFr": "Scarab Occult Sorcerer",
+        "NameDe": "Scarab Occult Sorcerer",
+        "IsCommander": false,
+        "NumberOfKnownPsychics": 0,
+        "NumberOfPsychicsManifestationPerRound": 1,
+        "NumberOfPsychicsDenialPerRound": 1,
+        "WarGearOptions": [
+          {
+            "Id": "281",
+            "MaximumPerTeam": 0,
+            "Operation": "ICB:EPE2",
+            "Exclusion": null
+          }
+        ],
+        "Specialists": [
+          {
+            "SpecialistId": "CB"
+          },
+          {
+            "SpecialistId": "D"
+          },
+          {
+            "SpecialistId": "L"
+          },
+          {
+            "SpecialistId": "V"
+          }
+        ],
+        "ModelProfileWeapons": [
+          {
+            "WeaponId": "ICB"
+          },
+          {
+            "WeaponId": "SCF"
+          }
+        ],
+        "CostOverrides": [],
+        "LevelCosts": []
+      }
+    ],
+    "ModelWeapons": [],
+    "WarGearOptions": []
+  },
+  {
+    "Id": "TST",
+    "NameEn": "Tzaangor",
+    "NameFr": "Tzaangor",
+    "NameDe": "Tzaangor",
+    "KeywordsEn": "CHAOS, TZEENTCH, HERETIC ASTARTES, INFANTRY, TZAANGOR",
+    "KeywordsFr": "CHAOS, TZEENTCH, HERETIC ASTARTES, INFANTERIE, TZAANGOR",
+    "KeywordsDe": "CHAOS, TZEENTCH, HERETIC ASTARTES, INFANTERIE, TZAANGOR",
+    "ModelProfiles": [
+      {
+        "Id": "TST1",
+        "Movement": 6,
+        "WeaponSkill": 3,
+        "BallisticSkill": 4,
+        "Strength": 4,
+        "Toughness": 4,
+        "Wounds": 1,
+        "Attacks": "1",
+        "Leadership": 6,
+        "Save": 6,
+        "MaximumNumber": 0,
+        "Cost": 7,
+        "NameEn": "Tzaangor",
+        "NameFr": "Tzaangor",
+        "NameDe": "Tzaangor",
+        "IsCommander": false,
+        "NumberOfKnownPsychics": 0,
+        "NumberOfPsychicsManifestationPerRound": 0,
+        "NumberOfPsychicsDenialPerRound": 0,
+        "WarGearOptions": [
+          {
+            "Id": "63",
+            "MaximumPerTeam": 1,
+            "Operation": "BRA",
+            "Exclusion": "TZA"
+          }
+        ],
+        "Specialists": [
+          {
+            "SpecialistId": "CB"
+          },
+          {
+            "SpecialistId": "CO"
+          },
+          {
+            "SpecialistId": "M"
+          },
+          {
+            "SpecialistId": "V"
+          },
+          {
+            "SpecialistId": "Z"
+          }
+        ],
+        "ModelProfileWeapons": [],
+        "CostOverrides": [],
+        "LevelCosts": []
+      },
+      {
+        "Id": "TST2",
+        "Movement": 6,
+        "WeaponSkill": 3,
+        "BallisticSkill": 4,
+        "Strength": 4,
+        "Toughness": 4,
+        "Wounds": 1,
+        "Attacks": "2",
+        "Leadership": 7,
+        "Save": 6,
+        "MaximumNumber": 0,
+        "Cost": 8,
+        "NameEn": "Twistbray",
+        "NameFr": "Twistbray",
+        "NameDe": "Twistbray",
+        "IsCommander": false,
+        "NumberOfKnownPsychics": 0,
+        "NumberOfPsychicsManifestationPerRound": 0,
+        "NumberOfPsychicsDenialPerRound": 0,
+        "WarGearOptions": [],
+        "Specialists": [
+          {
+            "SpecialistId": "CB"
+          },
+          {
+            "SpecialistId": "L"
+          },
+          {
+            "SpecialistId": "M"
+          },
+          {
+            "SpecialistId": "V"
+          },
+          {
+            "SpecialistId": "Z"
+          }
+        ],
+        "ModelProfileWeapons": [],
+        "CostOverrides": [],
+        "LevelCosts": []
+      }
+    ],
+    "ModelWeapons": [
+      {
+        "WeaponId": "LTZ"
+      }
+    ],
+    "WarGearOptions": [
+      {
+        "Id": "62",
+        "MaximumPerTeam": 0,
+        "Operation": "LTZ:PMI&EPT",
+        "Exclusion": "TZA"
+      }
+    ]
+  },
+  {
+    "Id": "TSTS",
+    "NameEn": "Tzaangor Shaman",
+    "NameFr": "Tzaangor Shaman",
+    "NameDe": "Tzaangor Shaman",
+    "KeywordsEn": "CHAOS, TZEENTCH, HERETIC ASTARTES, COMMANDER, CAVALRY, DAEMON, TZAANGOR, FLY, PSYKER, SHAMAN",
+    "KeywordsFr": "CHAOS, TZEENTCH, HERETIC ASTARTES, COMMANDANT, CAVALERIE, DAEMON, TZAANGOR, VOL, PSYKER, SHAMAN",
+    "KeywordsDe": "CHAOS, TZEENTCH, HERETIC ASTARTES, KOMMANDEUR, KAVALERIE, DAEMON, TZAANGOR, FLIEGEN, PSIONIKER, SHAMAN",
+    "ModelProfiles": [
+      {
+        "Id": "TSTS",
+        "Movement": 12,
+        "WeaponSkill": 3,
+        "BallisticSkill": 3,
+        "Strength": 4,
+        "Toughness": 4,
+        "Wounds": 4,
+        "Attacks": "3",
+        "Leadership": 8,
+        "Save": 6,
+        "MaximumNumber": 1,
+        "Cost": 40,
+        "NameEn": "Tzaangor Shaman",
+        "NameFr": "Tzaangor Shaman",
+        "NameDe": "Tzaangor Shaman",
+        "IsCommander": true,
+        "NumberOfKnownPsychics": 1,
+        "NumberOfPsychicsManifestationPerRound": 1,
+        "NumberOfPsychicsDenialPerRound": 1,
+        "WarGearOptions": [],
+        "Specialists": [
+          {
+            "SpecialistId": "F"
+          },
+          {
+            "SpecialistId": "FE"
+          },
+          {
+            "SpecialistId": "FR"
+          },
+          {
+            "SpecialistId": "LE"
+          },
+          {
+            "SpecialistId": "LH"
+          },
+          {
+            "SpecialistId": "ME"
+          },
+          {
+            "SpecialistId": "P"
+          },
+          {
+            "SpecialistId": "ST"
+          }
+        ],
+        "ModelProfileWeapons": [
+          {
+            "WeaponId": "SCF"
+          }
+        ],
+        "CostOverrides": [
+          {
+            "WeaponId": "DST",
+            "Cost": 0
+          }
+        ],
+        "LevelCosts": [
+          {
+            "Level": 1,
+            "Cost": 40
+          },
+          {
+            "Level": 2,
+            "Cost": 55
+          },
+          {
+            "Level": 3,
+            "Cost": 70
+          },
+          {
+            "Level": 4,
+            "Cost": 95
+          }
+        ]
+      }
+    ],
+    "ModelWeapons": [],
+    "WarGearOptions": []
+  }
+]

@@ -1,0 +1,67 @@
+[
+  {
+    "Id": "38",
+    "ModelProfileId": "GKC",
+    "WarpCharge": 5,
+    "Dices": 0,
+    "NameEn": "Hammerhand",
+    "NameFr": "Poing d'acier",
+    "NameDe": "Hammerfaust",
+    "DescriptionEn": "If manifested, pick a friendly model within 8\" of the psyker. Add 1 to wound rolls you make for that model's Melee weapons until the start of the next Psychic phase.",
+    "DescriptionFr": "S'il est manifesté, choisissez une figurine amie à 8\" du psyker. Ajoutez 1 aux jets de blessure des armes de mêlée de cette figurine jusqu'au début de la prochaine phase psychique.",
+    "DescriptionDe": "Wenn die Kraft manifestiert wird, wählst du ein befreundetes Modell innerhalb von 8'' um den Psioniker. Addiere bis zum Beginn der nächsten Psiphase 1 zu allen Verwundungswürfen, die du für die Nahkampfwaffen des gewählten Modells ablegst.",
+    "Commander": true
+  },
+  {
+    "Id": "GOI",
+    "ModelProfileId": "GKLI",
+    "WarpCharge": 6,
+    "Dices": 1,
+    "NameEn": "Gate of Infinity",
+    "NameFr": "Portail d'Infinité",
+    "NameDe": "Tor zur Unendlichkeit",
+    "DescriptionEn": "If manifested, pick a friendly model within 8\" of the psyker. Remove that model from the battlefield and immediately set it up anywhere on the battlefield that is more than 5\" from any enemy models. The model is not considered to have charged or been charged in the next Fight phase.",
+    "DescriptionFr": "S'il est manifesté, choisissez une figurine amie à 8\" du psyker. Retirez-la du champs de bataille et replacez-la n'importe où, à plus de 5\" de toute figurine ennemie. La figurine n'est pas considérée comme ayant chargé ou ayant été chargé à la prochaine phase de Combat",
+    "DescriptionDe": "Wenn die Psikraft manifestiert wird, wähle ein befreundetes Modell innerhalb von 8'' um den Psioniker. Entferne das Modell vom Schlachtfeld und stelle es sofort irgendwo auf dem Schlachtfeld wieder auf, wo es weiter als 5'' von allen feindlichen Modellen entfernt ist. In der nächsten Kampfphase gilt das Modell nicht als Angreifer oder als angegriffen.",
+    "Commander": false
+  },
+  {
+    "Id": "HAHA",
+    "ModelProfileId": "GKLI",
+    "WarpCharge": 5,
+    "Dices": 2,
+    "NameEn": "Hammerhand",
+    "NameFr": "Poing d'acier",
+    "NameDe": "Hammerfaust",
+    "DescriptionEn": "If manifested, pick a friendly model within 12\"of the psyker. Add 1 to wound rolls you make for that model’s Melee weapons until the start of the next Psychic phase.",
+    "DescriptionFr": "S'il est manifesté, choisissez une figurine amie à 12\" du psyker. Ajoutez 1 aux jets de blessure de ses armes de Mêlée jusqu'au début de la prochaine phase Psychique",
+    "DescriptionDe": "Wenn die Kraft manifestiert wird, wählst du ein befreundetes Modell innerhalb von 12'' um den Psioniker. Addiere bis zum Beginn der nächsten Psiphase 1 zu allen Verwundungswürfen, die du für die Nahkampfwaffen des Modells ablegst.",
+    "Commander": false
+  },
+  {
+    "Id": "SAN",
+    "ModelProfileId": "GKLI",
+    "WarpCharge": 6,
+    "Dices": 3,
+    "NameEn": "Sanctuary",
+    "NameFr": "Sanctuaire",
+    "NameDe": "Zuflucht",
+    "DescriptionEn": "If manifested, pick a GREY KNIGHTS model within 8\" of the psyker. That model gains a 5+ invulnerable save until the start of the next Psychic phase. If the model already has an invulnerable save,improve that save by 1 (to a maximum of 3+) until the start of the next Psychic phase instead.",
+    "DescriptionFr": "S'il est manifesté, choisissez une figurine GREY KNIGHT à 8\" du psyker. Elle gagne une sauvegarde invulnérable de 5+ jusqu'au début de la prochaine phase Psychique. Si elle a déjà une sauvegarde invulnérable, améliorez-la d'un point (jusqu'à un maximum de 3+) jusqu'au début de la prochaine phase Psychique",
+    "DescriptionDe": "Wenn diese Kraft manifestiert wird, wähle ein GREY-KNIGHTS-Modell innerhalb von 8'' um den Psioniker. Das gewählte Modell erhält bis zum Beginn der nächsten Psiphase einen Rettungswurf von 5+. Falls das Modell bereits einen Rettungswurf hat, wird er stattdessen bis zum Beginn der nächsten Psiphase um 1 verbessert (bis zu einem bestmöglichen Rettungswurf von 3+).",
+    "Commander": false
+  },
+  {
+    "Id": "SAN1",
+    "ModelProfileId": "GKBC",
+    "WarpCharge": 6,
+    "Dices": 3,
+    "NameEn": "Sanctuary",
+    "NameFr": "Sanctuaire",
+    "NameDe": "Zuflucht",
+    "DescriptionEn": "If manifested, pick a GREY KNIGHTS model within 8\" of the psyker. That model gains a 5+ invulnerable save until the start of the next Psychic phase. If the model already has an invulnerable save,improve that save by 1 (to a maximum of 3+) until the start of the next Psychic phase instead.",
+    "DescriptionFr": "S'il est manifesté, choisissez une figurine GREY KNIGHT à 8\" du psyker. Elle gagne une sauvegarde invulnérable de 5+ jusqu'au début de la prochaine phase Psychique. Si elle a déjà une sauvegarde invulnérable, améliorez-la d'un point (jusqu'à un maximum de 3+) jusqu'au début de la prochaine phase Psychique",
+    "DescriptionDe": "Wenn diese Kraft manifestiert wird, wähle ein GREY-KNIGHTS-Modell innerhalb von 8'' um den Psioniker. Das gewählte Modell erhält bis zum Beginn der nächsten Psiphase einen Rettungswurf von 5+. Falls das Modell bereits einen Rettungswurf hat, wird er stattdessen bis zum Beginn der nächsten Psiphase um 1 verbessert (bis zu einem bestmöglichen Rettungswurf von 3+).",
+    "Commander": false
+  }
+]

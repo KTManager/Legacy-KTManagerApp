@@ -1,0 +1,518 @@
+[
+  {
+    "Id": "SABL",
+    "NameEn": "Black Legionnaire",
+    "NameFr": "Black Legionnaire",
+    "NameDe": "Black Legionnaire",
+    "KeywordsEn": "Chaos, Heretic Astartes, Infantry, Black Legionnaire",
+    "KeywordsFr": "Chaos, Heretic Astartes, Infantry, Black Legionnaire",
+    "KeywordsDe": "Chaos, Heretic Astartes, Infantry, Black Legionnaire",
+    "ModelProfiles": [
+      {
+        "Id": "SABL",
+        "Movement": 6,
+        "WeaponSkill": 3,
+        "BallisticSkill": 3,
+        "Strength": 4,
+        "Toughness": 4,
+        "Wounds": 1,
+        "Attacks": "1",
+        "Leadership": 7,
+        "Save": 3,
+        "MaximumNumber": 0,
+        "Cost": 12,
+        "NameEn": "Black Legionnaire",
+        "NameFr": "Black Legionnaire",
+        "NameDe": "Black Legionnaire",
+        "IsCommander": false,
+        "NumberOfKnownPsychics": 0,
+        "NumberOfPsychicsManifestationPerRound": 0,
+        "NumberOfPsychicsDenialPerRound": 0,
+        "WarGearOptions": [],
+        "Specialists": [
+          {
+            "SpecialistId": "CB"
+          },
+          {
+            "SpecialistId": "L"
+          },
+          {
+            "SpecialistId": "SN"
+          },
+          {
+            "SpecialistId": "V"
+          },
+          {
+            "SpecialistId": "Z"
+          }
+        ],
+        "ModelProfileWeapons": [
+          {
+            "WeaponId": "BO"
+          },
+          {
+            "WeaponId": "GF"
+          },
+          {
+            "WeaponId": "GK"
+          },
+          {
+            "WeaponId": "PB"
+          }
+        ],
+        "CostOverrides": [],
+        "LevelCosts": []
+      }
+    ],
+    "ModelWeapons": [],
+    "WarGearOptions": []
+  },
+  {
+    "Id": "SACB",
+    "NameEn": "Chaos Beastmen",
+    "NameFr": "Chaos Beastmen",
+    "NameDe": "Chaos Beastmen",
+    "KeywordsEn": "Chaos, Infantry, Chaos Beastmen",
+    "KeywordsFr": "Chaos, Infantry, Chaos Beastmen",
+    "KeywordsDe": "Chaos, Infantry, Chaos Beastmen",
+    "ModelProfiles": [
+      {
+        "Id": "SACB",
+        "Movement": 6,
+        "WeaponSkill": 3,
+        "BallisticSkill": 4,
+        "Strength": 4,
+        "Toughness": 4,
+        "Wounds": 1,
+        "Attacks": "1",
+        "Leadership": 6,
+        "Save": 5,
+        "MaximumNumber": 0,
+        "Cost": 7,
+        "NameEn": "Chaos Beastmen",
+        "NameFr": "Chaos Beastmen",
+        "NameDe": "Chaos Beastmen",
+        "IsCommander": false,
+        "NumberOfKnownPsychics": 0,
+        "NumberOfPsychicsManifestationPerRound": 0,
+        "NumberOfPsychicsDenialPerRound": 0,
+        "WarGearOptions": [
+          {
+            "Id": "250",
+            "MaximumPerTeam": 0,
+            "Operation": "PLS:PMI",
+            "Exclusion": null
+          },
+          {
+            "Id": "251",
+            "MaximumPerTeam": 0,
+            "Operation": "EPT:AAB",
+            "Exclusion": null
+          }
+        ],
+        "Specialists": [
+          {
+            "SpecialistId": "CB"
+          },
+          {
+            "SpecialistId": "D"
+          },
+          {
+            "SpecialistId": "L"
+          },
+          {
+            "SpecialistId": "V"
+          },
+          {
+            "SpecialistId": "Z"
+          }
+        ],
+        "ModelProfileWeapons": [
+          {
+            "WeaponId": "EPT"
+          },
+          {
+            "WeaponId": "GF"
+          },
+          {
+            "WeaponId": "PLS"
+          }
+        ],
+        "CostOverrides": [],
+        "LevelCosts": []
+      }
+    ],
+    "ModelWeapons": [],
+    "WarGearOptions": []
+  },
+  {
+    "Id": "SANC",
+    "NameEn": "Negavolt Cultists",
+    "NameFr": "Negavolt Cultists",
+    "NameDe": "Negavolt Cultists",
+    "KeywordsEn": "Chaos, Infantry, Negavolt Cultists",
+    "KeywordsFr": "Chaos, Infantry, Negavolt Cultists",
+    "KeywordsDe": "Chaos, Infantry, Negavolt Cultists",
+    "ModelProfiles": [
+      {
+        "Id": "SANC",
+        "Movement": 6,
+        "WeaponSkill": 3,
+        "BallisticSkill": 4,
+        "Strength": 3,
+        "Toughness": 3,
+        "Wounds": 1,
+        "Attacks": "3",
+        "Leadership": 8,
+        "Save": 6,
+        "MaximumNumber": 0,
+        "Cost": 9,
+        "NameEn": "Negavolt Cultists",
+        "NameFr": "Negavolt Cultists",
+        "NameDe": "Negavolt Cultists",
+        "IsCommander": false,
+        "NumberOfKnownPsychics": 0,
+        "NumberOfPsychicsManifestationPerRound": 0,
+        "NumberOfPsychicsDenialPerRound": 0,
+        "WarGearOptions": [],
+        "Specialists": [
+          {
+            "SpecialistId": "CB"
+          },
+          {
+            "SpecialistId": "L"
+          },
+          {
+            "SpecialistId": "V"
+          },
+          {
+            "SpecialistId": "Z"
+          }
+        ],
+        "ModelProfileWeapons": [
+          {
+            "WeaponId": "EGOA"
+          }
+        ],
+        "CostOverrides": [],
+        "LevelCosts": []
+      }
+    ],
+    "ModelWeapons": [],
+    "WarGearOptions": []
+  },
+  {
+    "Id": "SAOM",
+    "NameEn": "Obsidius Mallex",
+    "NameFr": "Obsidius Mallex",
+    "NameDe": "Obsidius Mallex",
+    "KeywordsEn": "Chaos, Heretic Astartes, Black Legion, Commander, Infantry, Obsidius Mallex",
+    "KeywordsFr": "Chaos, Heretic Astartes, Black Legion, Commander, Infantry, Obsidius Mallex",
+    "KeywordsDe": "Chaos, Heretic Astartes, Black Legion, Commander, Infantry, Obsidius Mallex",
+    "ModelProfiles": [
+      {
+        "Id": "SAOM",
+        "Movement": 6,
+        "WeaponSkill": 2,
+        "BallisticSkill": 2,
+        "Strength": 4,
+        "Toughness": 4,
+        "Wounds": 5,
+        "Attacks": "4",
+        "Leadership": 9,
+        "Save": 3,
+        "MaximumNumber": 1,
+        "Cost": 125,
+        "NameEn": "Obsidius Mallex",
+        "NameFr": "Obsidius Mallex",
+        "NameDe": "Obsidius Mallex",
+        "IsCommander": true,
+        "NumberOfKnownPsychics": 0,
+        "NumberOfPsychicsManifestationPerRound": 0,
+        "NumberOfPsychicsDenialPerRound": 0,
+        "WarGearOptions": [],
+        "Specialists": [
+          {
+            "SpecialistId": "FE"
+          },
+          {
+            "SpecialistId": "LH"
+          }
+        ],
+        "ModelProfileWeapons": [
+          {
+            "WeaponId": "PP"
+          },
+          {
+            "WeaponId": "THA"
+          }
+        ],
+        "CostOverrides": [
+          {
+            "WeaponId": "PP",
+            "Cost": 0
+          }
+        ],
+        "LevelCosts": [
+          {
+            "Level": 1,
+            "Cost": 125
+          },
+          {
+            "Level": 2,
+            "Cost": 140
+          },
+          {
+            "Level": 3,
+            "Cost": 155
+          },
+          {
+            "Level": 4,
+            "Cost": 170
+          }
+        ]
+      }
+    ],
+    "ModelWeapons": [],
+    "WarGearOptions": []
+  },
+  {
+    "Id": "SARP",
+    "NameEn": "Rogue Psyker",
+    "NameFr": "Rogue Psyker",
+    "NameDe": "Rogue Psyker",
+    "KeywordsEn": "Chaos, Infantry, Psyker, Rogue Psyker",
+    "KeywordsFr": "Chaos, Infantry, Psyker, Rogue Psyker",
+    "KeywordsDe": "Chaos, Infantry, Psyker, Rogue Psyker",
+    "ModelProfiles": [
+      {
+        "Id": "SARP",
+        "Movement": 6,
+        "WeaponSkill": 4,
+        "BallisticSkill": 4,
+        "Strength": 3,
+        "Toughness": 3,
+        "Wounds": 4,
+        "Attacks": "2",
+        "Leadership": 8,
+        "Save": 5,
+        "MaximumNumber": 0,
+        "Cost": 20,
+        "NameEn": "Rogue Psyker",
+        "NameFr": "Rogue Psyker",
+        "NameDe": "Rogue Psyker",
+        "IsCommander": false,
+        "NumberOfKnownPsychics": 0,
+        "NumberOfPsychicsManifestationPerRound": 1,
+        "NumberOfPsychicsDenialPerRound": 1,
+        "WarGearOptions": [],
+        "Specialists": [
+          {
+            "SpecialistId": "CO"
+          },
+          {
+            "SpecialistId": "L"
+          },
+          {
+            "SpecialistId": "V"
+          },
+          {
+            "SpecialistId": "Z"
+          }
+        ],
+        "ModelProfileWeapons": [
+          {
+            "WeaponId": "CHST"
+          },
+          {
+            "WeaponId": "PLS"
+          }
+        ],
+        "CostOverrides": [],
+        "LevelCosts": []
+      }
+    ],
+    "ModelWeapons": [],
+    "WarGearOptions": []
+  },
+  {
+    "Id": "SATG",
+    "NameEn": "Traitor Guardsmen",
+    "NameFr": "Traitor Guardsmen",
+    "NameDe": "Traitor Guardsmen",
+    "KeywordsEn": "Chaos, Infantry, Traitor Guardsmen",
+    "KeywordsFr": "Chaos, Infantry, Traitor Guardsmen",
+    "KeywordsDe": "Chaos, Infantry, Traitor Guardsmen",
+    "ModelProfiles": [
+      {
+        "Id": "SATG1",
+        "Movement": 6,
+        "WeaponSkill": 4,
+        "BallisticSkill": 4,
+        "Strength": 3,
+        "Toughness": 3,
+        "Wounds": 1,
+        "Attacks": "1",
+        "Leadership": 6,
+        "Save": 5,
+        "MaximumNumber": 0,
+        "Cost": 5,
+        "NameEn": "Traitor Guardsmen",
+        "NameFr": "Traitor Guardsmen",
+        "NameDe": "Traitor Guardsmen",
+        "IsCommander": false,
+        "NumberOfKnownPsychics": 0,
+        "NumberOfPsychicsManifestationPerRound": 0,
+        "NumberOfPsychicsDenialPerRound": 0,
+        "WarGearOptions": [
+          {
+            "Id": "249",
+            "MaximumPerTeam": 0,
+            "Operation": "FLA:(PMI&AAB)|(PLS&AAB)",
+            "Exclusion": null
+          }
+        ],
+        "Specialists": [
+          {
+            "SpecialistId": "D"
+          },
+          {
+            "SpecialistId": "SC"
+          },
+          {
+            "SpecialistId": "SN"
+          },
+          {
+            "SpecialistId": "V"
+          }
+        ],
+        "ModelProfileWeapons": [
+          {
+            "WeaponId": "FLA"
+          },
+          {
+            "WeaponId": "GF"
+          }
+        ],
+        "CostOverrides": [],
+        "LevelCosts": []
+      },
+      {
+        "Id": "SATG2",
+        "Movement": 6,
+        "WeaponSkill": 4,
+        "BallisticSkill": 4,
+        "Strength": 3,
+        "Toughness": 3,
+        "Wounds": 1,
+        "Attacks": "1",
+        "Leadership": 6,
+        "Save": 5,
+        "MaximumNumber": 2,
+        "Cost": 5,
+        "NameEn": "Traitor Guardsmen Gunner",
+        "NameFr": "Traitor Guardsmen Gunner",
+        "NameDe": "Traitor Guardsmen Gunner",
+        "IsCommander": false,
+        "NumberOfKnownPsychics": 0,
+        "NumberOfPsychicsManifestationPerRound": 0,
+        "NumberOfPsychicsDenialPerRound": 0,
+        "WarGearOptions": [
+          {
+            "Id": "247",
+            "MaximumPerTeam": 0,
+            "Operation": "FLA:LF",
+            "Exclusion": "SATG2"
+          },
+          {
+            "Id": "248",
+            "MaximumPerTeam": 0,
+            "Operation": "GK",
+            "Exclusion": "SATG2"
+          }
+        ],
+        "Specialists": [
+          {
+            "SpecialistId": "AL"
+          },
+          {
+            "SpecialistId": "D"
+          },
+          {
+            "SpecialistId": "SC"
+          },
+          {
+            "SpecialistId": "SN"
+          },
+          {
+            "SpecialistId": "V"
+          }
+        ],
+        "ModelProfileWeapons": [
+          {
+            "WeaponId": "FLA"
+          },
+          {
+            "WeaponId": "GF"
+          }
+        ],
+        "CostOverrides": [],
+        "LevelCosts": []
+      },
+      {
+        "Id": "SATG3",
+        "Movement": 6,
+        "WeaponSkill": 4,
+        "BallisticSkill": 4,
+        "Strength": 3,
+        "Toughness": 3,
+        "Wounds": 1,
+        "Attacks": "2",
+        "Leadership": 7,
+        "Save": 5,
+        "MaximumNumber": 1,
+        "Cost": 5,
+        "NameEn": "Traitor Sergeant",
+        "NameFr": "Traitor Sergeant",
+        "NameDe": "Traitor Sergeant",
+        "IsCommander": false,
+        "NumberOfKnownPsychics": 0,
+        "NumberOfPsychicsManifestationPerRound": 0,
+        "NumberOfPsychicsDenialPerRound": 0,
+        "WarGearOptions": [],
+        "Specialists": [
+          {
+            "SpecialistId": "D"
+          },
+          {
+            "SpecialistId": "L"
+          },
+          {
+            "SpecialistId": "SC"
+          },
+          {
+            "SpecialistId": "SN"
+          },
+          {
+            "SpecialistId": "V"
+          }
+        ],
+        "ModelProfileWeapons": [
+          {
+            "WeaponId": "EPT"
+          },
+          {
+            "WeaponId": "GF"
+          },
+          {
+            "WeaponId": "PLS"
+          }
+        ],
+        "CostOverrides": [],
+        "LevelCosts": []
+      }
+    ],
+    "ModelWeapons": [],
+    "WarGearOptions": []
+  }
+]

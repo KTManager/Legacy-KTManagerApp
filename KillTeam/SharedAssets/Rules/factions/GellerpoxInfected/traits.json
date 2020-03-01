@@ -1,0 +1,26 @@
+[
+  {
+    "Id": "GIV1",
+    "ModelProfileId": "GIV",
+    "Level": 0,
+    "Cost": 10,
+    "NameEn": "Twisted Brillance",
+    "NameFr": "Malveillance éclairée",
+    "NameDe": "Verdorbenes Genie",
+    "DescriptionEn": "If your kill team is Battle-forged, you start the battle with 1 additional Command Point (this can only be spent to use a Gellerpox Infected Tactic).",
+    "DescriptionFr": "Si votre kill team est réglementaire, vous débutez la bataille avec 1 point de Commandement supplémentaire (qui peut être dépensé seulement pour utiliser une tactique Gellerpox Infected).",
+    "DescriptionDe": "Wenn dein Kill Team in Gefechtsordnung ist, beginnst du den Kampf mit 1 zusätzlichen Befehlspunkt (dieser kann nur für eine Gellerpox-Infected-Taktik verwendet werden."
+  },
+  {
+    "Id": "GIV2",
+    "ModelProfileId": "GIV",
+    "Level": 0,
+    "Cost": 15,
+    "NameEn": "Master of vermin",
+    "NameFr": "Maitre de la vermine",
+    "NameDe": "Herr des Ungeziefers",
+    "DescriptionEn": "As long as this model is not shaken, you can re­roll failed hit rolls for friendly MUTOID VERMIN models whilst they are within 6\" of it.",
+    "DescriptionFr": "Si cette figurine n'est pas secouée, vous pouvez relancer les jets de touche ratés pour les figurines de MUTOID VERMIN amies à 6\" d'elle.",
+    "DescriptionDe": "Solange dieses Modell nicht erschüttert ist, kannst du Trefferwürfe für befreundete MUTIERTES-UNGEZIEFER-Modelle innerhalb von 6'' um dieses Modell wiederholen."
+  }
+]

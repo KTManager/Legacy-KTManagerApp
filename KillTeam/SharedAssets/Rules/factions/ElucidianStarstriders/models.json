@@ -1,0 +1,427 @@
+[
+  {
+    "Id": "ESE",
+    "NameEn": "Elucia Vhane",
+    "NameFr": "Elucia Vhane",
+    "NameDe": "Elucia Vhane",
+    "KeywordsEn": "IMPERIUM, ASTRA CARTOGRAPHICA, COMMANDER, INFANTERIE, ROGUE TRADER, ELUCIA VHANE",
+    "KeywordsFr": "IMPERIUM, ASTRA CARTOGRAPHICA, COMMANDANT, INFANTERIE, ROGUE TRADER, ELUCIA VHANE",
+    "KeywordsDe": "IMPERIUM, ASTRA CARTOGRAPHICA, KOMMANDEUR, INFANTERIE, ROGUE TRADER, ELUCIA VHANE",
+    "ModelProfiles": [
+      {
+        "Id": "ESE",
+        "Movement": 6,
+        "WeaponSkill": 3,
+        "BallisticSkill": 3,
+        "Strength": 3,
+        "Toughness": 3,
+        "Wounds": 4,
+        "Attacks": "3",
+        "Leadership": 9,
+        "Save": 4,
+        "MaximumNumber": 1,
+        "Cost": 45,
+        "NameEn": "Elucia Vhane",
+        "NameFr": "Elucia Vhane",
+        "NameDe": "Elucia Vhane",
+        "IsCommander": true,
+        "NumberOfKnownPsychics": 0,
+        "NumberOfPsychicsManifestationPerRound": 0,
+        "NumberOfPsychicsDenialPerRound": 0,
+        "WarGearOptions": [],
+        "Specialists": [
+          {
+            "SpecialistId": "CB"
+          },
+          {
+            "SpecialistId": "LH"
+          },
+          {
+            "SpecialistId": "SC"
+          },
+          {
+            "SpecialistId": "ST"
+          },
+          {
+            "SpecialistId": "V"
+          },
+          {
+            "SpecialistId": "Z"
+          }
+        ],
+        "ModelProfileWeapons": [
+          {
+            "WeaponId": "CRMO"
+          },
+          {
+            "WeaponId": "GSP"
+          },
+          {
+            "WeaponId": "PFA"
+          }
+        ],
+        "CostOverrides": [],
+        "LevelCosts": [
+          {
+            "Level": 4,
+            "Cost": 100
+          },
+          {
+            "Level": 3,
+            "Cost": 75
+          },
+          {
+            "Level": 2,
+            "Cost": 60
+          },
+          {
+            "Level": 1,
+            "Cost": 45
+          }
+        ]
+      }
+    ],
+    "ModelWeapons": [],
+    "WarGearOptions": []
+  },
+  {
+    "Id": "ESK",
+    "NameEn": "Knosso Prond",
+    "NameFr": "Knosso Prond",
+    "NameDe": "Knosso Prond",
+    "KeywordsEn": "IMPERIUM, ADEPTUS MINISTORUM, INFANTRY, DEATH CULT EXECUTIONER, KNOSSO PROND",
+    "KeywordsFr": "IMPERIUM, ADEPTUS MINISTORUM, INFANTERIE, DEATH CULT EXECUTIONER, KNOSSO PROND",
+    "KeywordsDe": "IMPERIUM, ADEPTUS MINISTORUM, INFANTERIE, DEATH CULT EXECUTIONER, KNOSSO PROND",
+    "ModelProfiles": [
+      {
+        "Id": "ESK",
+        "Movement": 7,
+        "WeaponSkill": 3,
+        "BallisticSkill": 4,
+        "Strength": 4,
+        "Toughness": 3,
+        "Wounds": 2,
+        "Attacks": "4",
+        "Leadership": 8,
+        "Save": 5,
+        "MaximumNumber": 1,
+        "Cost": 25,
+        "NameEn": "Knosso Prond",
+        "NameFr": "Knosso Prond",
+        "NameDe": "Knosso Prond",
+        "IsCommander": false,
+        "NumberOfKnownPsychics": 0,
+        "NumberOfPsychicsManifestationPerRound": 0,
+        "NumberOfPsychicsDenialPerRound": 0,
+        "WarGearOptions": [],
+        "Specialists": [
+          {
+            "SpecialistId": "CB"
+          }
+        ],
+        "ModelProfileWeapons": [
+          {
+            "WeaponId": "GSP"
+          },
+          {
+            "WeaponId": "LEDC"
+          },
+          {
+            "WeaponId": "MAG"
+          }
+        ],
+        "CostOverrides": [],
+        "LevelCosts": []
+      }
+    ],
+    "ModelWeapons": [],
+    "WarGearOptions": []
+  },
+  {
+    "Id": "ESL",
+    "NameEn": "Larsen Van Der Grauss",
+    "NameFr": "Larsen Van Der Grauss",
+    "NameDe": "Larsen Van Der Grauss",
+    "KeywordsEn": "IMPERIUM, ADEPTUS MECHANICUS, MARS, INFANTRY, TECH-PRIEST, LECTRO-MAESTER, LARSEN VAN DER GRAUSS",
+    "KeywordsFr": "IMPERIUM, ADEPTUS MECHANICUS, MARS, INFANTERIE, TECH-PRIEST, LECTRO-MAESTER, LARSEN VAN DER GRAUSS",
+    "KeywordsDe": "IMPERIUM, ADEPTUS MECHANICUS, MARS, INFANTERIE, TECH-PRIEST, LECTRO-MAESTER, LARSEN VAN DER GRAUSS",
+    "ModelProfiles": [
+      {
+        "Id": "ESL",
+        "Movement": 6,
+        "WeaponSkill": 4,
+        "BallisticSkill": 4,
+        "Strength": 3,
+        "Toughness": 3,
+        "Wounds": 2,
+        "Attacks": "2",
+        "Leadership": 8,
+        "Save": 4,
+        "MaximumNumber": 1,
+        "Cost": 22,
+        "NameEn": "Larsen Van Der Grauss",
+        "NameFr": "Larsen Van Der Grauss",
+        "NameDe": "Larsen Van Der Grauss",
+        "IsCommander": false,
+        "NumberOfKnownPsychics": 0,
+        "NumberOfPsychicsManifestationPerRound": 0,
+        "NumberOfPsychicsDenialPerRound": 0,
+        "WarGearOptions": [],
+        "Specialists": [
+          {
+            "SpecialistId": "CO"
+          }
+        ],
+        "ModelProfileWeapons": [
+          {
+            "WeaponId": "GSP"
+          },
+          {
+            "WeaponId": "PVO"
+          }
+        ],
+        "CostOverrides": [],
+        "LevelCosts": []
+      }
+    ],
+    "ModelWeapons": [],
+    "WarGearOptions": []
+  },
+  {
+    "Id": "ESS",
+    "NameEn": "Sanistasia Minst",
+    "NameFr": "Sanistasia Minst",
+    "NameDe": "Sanistasia Minst",
+    "KeywordsEn": "IMPERIUM, INFANTRY, REJUVENAT ADEPT, SANISTASIA MINST",
+    "KeywordsFr": "IMPERIUM, INFANTERIE, REJUVENAT ADEPT, SANISTASIA MINST",
+    "KeywordsDe": "IMPERIUM, INFANTERIE, REJUVENAT ADEPT, SANISTASIA MINST",
+    "ModelProfiles": [
+      {
+        "Id": "ESS",
+        "Movement": 6,
+        "WeaponSkill": 4,
+        "BallisticSkill": 4,
+        "Strength": 3,
+        "Toughness": 3,
+        "Wounds": 2,
+        "Attacks": "2",
+        "Leadership": 7,
+        "Save": 5,
+        "MaximumNumber": 1,
+        "Cost": 17,
+        "NameEn": "Sanistasia Minst",
+        "NameFr": "Sanistasia Minst",
+        "NameDe": "Sanistasia Minst",
+        "IsCommander": false,
+        "NumberOfKnownPsychics": 0,
+        "NumberOfPsychicsManifestationPerRound": 0,
+        "NumberOfPsychicsDenialPerRound": 0,
+        "WarGearOptions": [],
+        "Specialists": [
+          {
+            "SpecialistId": "M"
+          }
+        ],
+        "ModelProfileWeapons": [
+          {
+            "WeaponId": "GSC"
+          },
+          {
+            "WeaponId": "GSP"
+          },
+          {
+            "WeaponId": "PLS"
+          }
+        ],
+        "CostOverrides": [],
+        "LevelCosts": []
+      }
+    ],
+    "ModelWeapons": [],
+    "WarGearOptions": []
+  },
+  {
+    "Id": "ESV",
+    "NameEn": "Voidsman",
+    "NameFr": "Voidsman",
+    "NameDe": "Voidsman",
+    "KeywordsEn": "IMPERIUM, INFANTRY, VOIDSMAN (Aximilion : IMPERIUM, BÊTE, VOIDSMAN, AXIMILLION)",
+    "KeywordsFr": "IMPERIUM, INFANTERIE, VOIDSMAN (Aximilion : IMPERIUM, BÊTE, VOIDSMAN, AXIMILLION)",
+    "KeywordsDe": "IMPERIUM, INFANTERIE, VOIDSMAN (Aximilion : IMPERIUM, BESTIE, VOIDSMAN, AXIMILLION)",
+    "ModelProfiles": [
+      {
+        "Id": "ESV1",
+        "Movement": 6,
+        "WeaponSkill": 4,
+        "BallisticSkill": 3,
+        "Strength": 3,
+        "Toughness": 3,
+        "Wounds": 1,
+        "Attacks": "1",
+        "Leadership": 7,
+        "Save": 5,
+        "MaximumNumber": 3,
+        "Cost": 6,
+        "NameEn": "Voidsman",
+        "NameFr": "Voidsman",
+        "NameDe": "Voidsman",
+        "IsCommander": false,
+        "NumberOfKnownPsychics": 0,
+        "NumberOfPsychicsManifestationPerRound": 0,
+        "NumberOfPsychicsDenialPerRound": 0,
+        "WarGearOptions": [],
+        "Specialists": [
+          {
+            "SpecialistId": "D"
+          },
+          {
+            "SpecialistId": "V"
+          }
+        ],
+        "ModelProfileWeapons": [
+          {
+            "WeaponId": "FULA"
+          },
+          {
+            "WeaponId": "GSP"
+          },
+          {
+            "WeaponId": "PLS"
+          }
+        ],
+        "CostOverrides": [],
+        "LevelCosts": []
+      },
+      {
+        "Id": "ESV2",
+        "Movement": 6,
+        "WeaponSkill": 4,
+        "BallisticSkill": 3,
+        "Strength": 3,
+        "Toughness": 3,
+        "Wounds": 1,
+        "Attacks": "1",
+        "Leadership": 7,
+        "Save": 5,
+        "MaximumNumber": 1,
+        "Cost": 6,
+        "NameEn": "Voidsman Gunner",
+        "NameFr": "Voidsman Gunner",
+        "NameDe": "Voidsman Gunner",
+        "IsCommander": false,
+        "NumberOfKnownPsychics": 0,
+        "NumberOfPsychicsManifestationPerRound": 0,
+        "NumberOfPsychicsDenialPerRound": 0,
+        "WarGearOptions": [],
+        "Specialists": [
+          {
+            "SpecialistId": "AL"
+          },
+          {
+            "SpecialistId": "D"
+          },
+          {
+            "SpecialistId": "V"
+          }
+        ],
+        "ModelProfileWeapons": [
+          {
+            "WeaponId": "CARO"
+          },
+          {
+            "WeaponId": "GSP"
+          },
+          {
+            "WeaponId": "PLS"
+          }
+        ],
+        "CostOverrides": [],
+        "LevelCosts": []
+      },
+      {
+        "Id": "ESV3",
+        "Movement": 6,
+        "WeaponSkill": 4,
+        "BallisticSkill": 3,
+        "Strength": 3,
+        "Toughness": 3,
+        "Wounds": 2,
+        "Attacks": "2",
+        "Leadership": 8,
+        "Save": 5,
+        "MaximumNumber": 1,
+        "Cost": 6,
+        "NameEn": "Voidsman Nitsch",
+        "NameFr": "Voidsman Nitsch",
+        "NameDe": "Voidsman Nitsch",
+        "IsCommander": false,
+        "NumberOfKnownPsychics": 0,
+        "NumberOfPsychicsManifestationPerRound": 0,
+        "NumberOfPsychicsDenialPerRound": 0,
+        "WarGearOptions": [],
+        "Specialists": [
+          {
+            "SpecialistId": "D"
+          },
+          {
+            "SpecialistId": "L"
+          },
+          {
+            "SpecialistId": "V"
+          }
+        ],
+        "ModelProfileWeapons": [
+          {
+            "WeaponId": "FPAR"
+          },
+          {
+            "WeaponId": "GSP"
+          },
+          {
+            "WeaponId": "PLS"
+          }
+        ],
+        "CostOverrides": [],
+        "LevelCosts": []
+      },
+      {
+        "Id": "ESV4",
+        "Movement": 8,
+        "WeaponSkill": 4,
+        "BallisticSkill": 0,
+        "Strength": 3,
+        "Toughness": 3,
+        "Wounds": 1,
+        "Attacks": "2",
+        "Leadership": 5,
+        "Save": 6,
+        "MaximumNumber": 1,
+        "Cost": 6,
+        "NameEn": "Aximillion",
+        "NameFr": "Aximillion",
+        "NameDe": "Aximillion",
+        "IsCommander": false,
+        "NumberOfKnownPsychics": 0,
+        "NumberOfPsychicsManifestationPerRound": 0,
+        "NumberOfPsychicsDenialPerRound": 0,
+        "WarGearOptions": [],
+        "Specialists": [
+          {
+            "SpecialistId": "D"
+          },
+          {
+            "SpecialistId": "SC"
+          },
+          {
+            "SpecialistId": "V"
+          }
+        ],
+        "ModelProfileWeapons": [],
+        "CostOverrides": [],
+        "LevelCosts": []
+      }
+    ],
+    "ModelWeapons": [],
+    "WarGearOptions": []
+  }
+]

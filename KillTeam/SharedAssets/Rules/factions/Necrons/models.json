@@ -1,0 +1,546 @@
+[
+  {
+    "Id": "NEC",
+    "NameEn": "Necron Warrior",
+    "NameFr": "Necron Warrior",
+    "NameDe": "Necron Warrior",
+    "KeywordsEn": "INFANTRY, NECRON WARRIOR",
+    "KeywordsFr": "INFANTERIE, NECRON WARRIOR",
+    "KeywordsDe": "INFANTERIE, NECRON WARRIOR",
+    "ModelProfiles": [
+      {
+        "Id": "NEC",
+        "Movement": 5,
+        "WeaponSkill": 3,
+        "BallisticSkill": 3,
+        "Strength": 4,
+        "Toughness": 4,
+        "Wounds": 1,
+        "Attacks": "1",
+        "Leadership": 10,
+        "Save": 4,
+        "MaximumNumber": 0,
+        "Cost": 12,
+        "NameEn": "Necron Warrior",
+        "NameFr": "Necron Warrior",
+        "NameDe": "Necron Warrior",
+        "IsCommander": false,
+        "NumberOfKnownPsychics": 0,
+        "NumberOfPsychicsManifestationPerRound": 0,
+        "NumberOfPsychicsDenialPerRound": 0,
+        "WarGearOptions": [],
+        "Specialists": [
+          {
+            "SpecialistId": "CO"
+          },
+          {
+            "SpecialistId": "L"
+          },
+          {
+            "SpecialistId": "V"
+          }
+        ],
+        "ModelProfileWeapons": [],
+        "CostOverrides": [],
+        "LevelCosts": []
+      }
+    ],
+    "ModelWeapons": [
+      {
+        "WeaponId": "ECG"
+      }
+    ],
+    "WarGearOptions": []
+  },
+  {
+    "Id": "NED",
+    "NameEn": "Deathmark",
+    "NameFr": "Deathmark",
+    "NameDe": "Deathmark",
+    "KeywordsEn": "INFANTRY, DEATHMARK",
+    "KeywordsFr": "INFANTERIE, DEATHMARK",
+    "KeywordsDe": "INFANTERIE, DEATHMARK",
+    "ModelProfiles": [
+      {
+        "Id": "NED",
+        "Movement": 5,
+        "WeaponSkill": 3,
+        "BallisticSkill": 3,
+        "Strength": 4,
+        "Toughness": 4,
+        "Wounds": 1,
+        "Attacks": "1",
+        "Leadership": 10,
+        "Save": 3,
+        "MaximumNumber": 0,
+        "Cost": 15,
+        "NameEn": "Deathmark",
+        "NameFr": "Deathmark",
+        "NameDe": "Deathmark",
+        "IsCommander": false,
+        "NumberOfKnownPsychics": 0,
+        "NumberOfPsychicsManifestationPerRound": 0,
+        "NumberOfPsychicsDenialPerRound": 0,
+        "WarGearOptions": [],
+        "Specialists": [
+          {
+            "SpecialistId": "CO"
+          },
+          {
+            "SpecialistId": "L"
+          },
+          {
+            "SpecialistId": "SC"
+          },
+          {
+            "SpecialistId": "SN"
+          },
+          {
+            "SpecialistId": "V"
+          }
+        ],
+        "ModelProfileWeapons": [],
+        "CostOverrides": [],
+        "LevelCosts": []
+      }
+    ],
+    "ModelWeapons": [
+      {
+        "WeaponId": "DSY"
+      }
+    ],
+    "WarGearOptions": []
+  },
+  {
+    "Id": "NEF",
+    "NameEn": "Flayed One",
+    "NameFr": "Flayed One",
+    "NameDe": "Flayed One",
+    "KeywordsEn": "INFANTRY, FLAYED ONE",
+    "KeywordsFr": "INFANTERIE, FLAYED ONE",
+    "KeywordsDe": "INFANTERIE, FLAYED ONE",
+    "ModelProfiles": [
+      {
+        "Id": "NEF",
+        "Movement": 5,
+        "WeaponSkill": 3,
+        "BallisticSkill": 6,
+        "Strength": 4,
+        "Toughness": 4,
+        "Wounds": 1,
+        "Attacks": "3",
+        "Leadership": 10,
+        "Save": 4,
+        "MaximumNumber": 0,
+        "Cost": 10,
+        "NameEn": "Flayed One",
+        "NameFr": "Flayed One",
+        "NameDe": "Flayed One",
+        "IsCommander": false,
+        "NumberOfKnownPsychics": 0,
+        "NumberOfPsychicsManifestationPerRound": 0,
+        "NumberOfPsychicsDenialPerRound": 0,
+        "WarGearOptions": [],
+        "Specialists": [
+          {
+            "SpecialistId": "CB"
+          },
+          {
+            "SpecialistId": "L"
+          },
+          {
+            "SpecialistId": "V"
+          },
+          {
+            "SpecialistId": "Z"
+          }
+        ],
+        "ModelProfileWeapons": [],
+        "CostOverrides": [],
+        "LevelCosts": []
+      }
+    ],
+    "ModelWeapons": [
+      {
+        "WeaponId": "GDE"
+      }
+    ],
+    "WarGearOptions": []
+  },
+  {
+    "Id": "NEI",
+    "NameEn": "Immortal",
+    "NameFr": "Immortal",
+    "NameDe": "Immortal",
+    "KeywordsEn": "INFANTRY, IMMORTAL",
+    "KeywordsFr": "INFANTERIE, IMMORTAL",
+    "KeywordsDe": "INFANTERIE, IMMORTAL",
+    "ModelProfiles": [
+      {
+        "Id": "NEI",
+        "Movement": 5,
+        "WeaponSkill": 3,
+        "BallisticSkill": 3,
+        "Strength": 4,
+        "Toughness": 4,
+        "Wounds": 1,
+        "Attacks": "1",
+        "Leadership": 10,
+        "Save": 3,
+        "MaximumNumber": 0,
+        "Cost": 16,
+        "NameEn": "Immortal",
+        "NameFr": "Immortal",
+        "NameDe": "Immortal",
+        "IsCommander": false,
+        "NumberOfKnownPsychics": 0,
+        "NumberOfPsychicsManifestationPerRound": 0,
+        "NumberOfPsychicsDenialPerRound": 0,
+        "WarGearOptions": [
+          {
+            "Id": "79",
+            "MaximumPerTeam": 0,
+            "Operation": "ELG:CTE",
+            "Exclusion": null
+          }
+        ],
+        "Specialists": [
+          {
+            "SpecialistId": "CO"
+          },
+          {
+            "SpecialistId": "L"
+          },
+          {
+            "SpecialistId": "V"
+          },
+          {
+            "SpecialistId": "Z"
+          }
+        ],
+        "ModelProfileWeapons": [],
+        "CostOverrides": [],
+        "LevelCosts": []
+      }
+    ],
+    "ModelWeapons": [
+      {
+        "WeaponId": "ELG"
+      }
+    ],
+    "WarGearOptions": []
+  },
+  {
+    "Id": "NELG",
+    "NameEn": "Lychguard",
+    "NameFr": "Lychguard",
+    "NameDe": "Lychguard",
+    "KeywordsEn": "INFANTRY, LYCHGUARD",
+    "KeywordsFr": "INFANTERIE, LYCHGUARD",
+    "KeywordsDe": "INFANTERIE, LYCHGUARD",
+    "ModelProfiles": [
+      {
+        "Id": "NELG",
+        "Movement": 5,
+        "WeaponSkill": 3,
+        "BallisticSkill": 3,
+        "Strength": 5,
+        "Toughness": 5,
+        "Wounds": 2,
+        "Attacks": "2",
+        "Leadership": 10,
+        "Save": 3,
+        "MaximumNumber": 0,
+        "Cost": 20,
+        "NameEn": "Lychguard",
+        "NameFr": "Lychguard",
+        "NameDe": "Lychguard",
+        "IsCommander": false,
+        "NumberOfKnownPsychics": 0,
+        "NumberOfPsychicsManifestationPerRound": 0,
+        "NumberOfPsychicsDenialPerRound": 0,
+        "WarGearOptions": [
+          {
+            "Id": "304",
+            "MaximumPerTeam": 0,
+            "Operation": "WSK:HPS&DISH",
+            "Exclusion": null
+          }
+        ],
+        "Specialists": [
+          {
+            "SpecialistId": "CB"
+          },
+          {
+            "SpecialistId": "CO"
+          },
+          {
+            "SpecialistId": "L"
+          },
+          {
+            "SpecialistId": "V"
+          },
+          {
+            "SpecialistId": "Z"
+          }
+        ],
+        "ModelProfileWeapons": [],
+        "CostOverrides": [],
+        "LevelCosts": []
+      }
+    ],
+    "ModelWeapons": [
+      {
+        "WeaponId": "WSK"
+      }
+    ],
+    "WarGearOptions": []
+  },
+  {
+    "Id": "NEO",
+    "NameEn": "Overlord",
+    "NameFr": "Overlord",
+    "NameDe": "Overlord",
+    "KeywordsEn": "COMMANDER, INFANTRY, OVERLORD",
+    "KeywordsFr": "COMMANDANT, INFANTERIE, OVERLORD",
+    "KeywordsDe": "KOMMANDEUR, INFANTERIE, OVERLORD",
+    "ModelProfiles": [
+      {
+        "Id": "NEO",
+        "Movement": 5,
+        "WeaponSkill": 2,
+        "BallisticSkill": 2,
+        "Strength": 5,
+        "Toughness": 5,
+        "Wounds": 5,
+        "Attacks": "3",
+        "Leadership": 10,
+        "Save": 3,
+        "MaximumNumber": 1,
+        "Cost": 86,
+        "NameEn": "Overlord",
+        "NameFr": "Overlord",
+        "NameDe": "Overlord",
+        "IsCommander": true,
+        "NumberOfKnownPsychics": 0,
+        "NumberOfPsychicsManifestationPerRound": 0,
+        "NumberOfPsychicsDenialPerRound": 0,
+        "WarGearOptions": [
+          {
+            "Id": "228",
+            "MaximumPerTeam": 0,
+            "Operation": "V:SOL|WC",
+            "Exclusion": null
+          }
+        ],
+        "Specialists": [
+          {
+            "SpecialistId": "F"
+          },
+          {
+            "SpecialistId": "FE"
+          },
+          {
+            "SpecialistId": "LE"
+          },
+          {
+            "SpecialistId": "LH"
+          },
+          {
+            "SpecialistId": "LO"
+          },
+          {
+            "SpecialistId": "ME"
+          },
+          {
+            "SpecialistId": "SH"
+          },
+          {
+            "SpecialistId": "ST"
+          }
+        ],
+        "ModelProfileWeapons": [
+          {
+            "WeaponId": "V"
+          }
+        ],
+        "CostOverrides": [],
+        "LevelCosts": [
+          {
+            "Level": 1,
+            "Cost": 86
+          },
+          {
+            "Level": 2,
+            "Cost": 106
+          },
+          {
+            "Level": 3,
+            "Cost": 126
+          },
+          {
+            "Level": 4,
+            "Cost": 151
+          }
+        ]
+      }
+    ],
+    "ModelWeapons": [],
+    "WarGearOptions": []
+  },
+  {
+    "Id": "NETP",
+    "NameEn": "Triarch Praetorian",
+    "NameFr": "Triarch Praetorian",
+    "NameDe": "Triarch Praetorian",
+    "KeywordsEn": "INFANTRY, FLY, TRIARCH PRAETORIAN",
+    "KeywordsFr": "INFANTERIE, FLY, TRIARCH PRAETORIAN",
+    "KeywordsDe": "INFANTERIE, FLIEGEN, TRIARCH PRAETORIAN",
+    "ModelProfiles": [
+      {
+        "Id": "NETP",
+        "Movement": 10,
+        "WeaponSkill": 3,
+        "BallisticSkill": 3,
+        "Strength": 5,
+        "Toughness": 5,
+        "Wounds": 2,
+        "Attacks": "2",
+        "Leadership": 10,
+        "Save": 3,
+        "MaximumNumber": 0,
+        "Cost": 26,
+        "NameEn": "Triarch Praetorian",
+        "NameFr": "Triarch Praetorian",
+        "NameDe": "Triarch Praetorian",
+        "IsCommander": false,
+        "NumberOfKnownPsychics": 0,
+        "NumberOfPsychicsManifestationPerRound": 0,
+        "NumberOfPsychicsDenialPerRound": 0,
+        "WarGearOptions": [
+          {
+            "Id": "305",
+            "MaximumPerTeam": 0,
+            "Operation": "ROC:VBL&PAC",
+            "Exclusion": null
+          }
+        ],
+        "Specialists": [
+          {
+            "SpecialistId": "CB"
+          },
+          {
+            "SpecialistId": "CO"
+          },
+          {
+            "SpecialistId": "L"
+          },
+          {
+            "SpecialistId": "V"
+          },
+          {
+            "SpecialistId": "Z"
+          }
+        ],
+        "ModelProfileWeapons": [],
+        "CostOverrides": [],
+        "LevelCosts": []
+      }
+    ],
+    "ModelWeapons": [
+      {
+        "WeaponId": "ROC"
+      }
+    ],
+    "WarGearOptions": []
+  },
+  {
+    "Id": "NEY",
+    "NameEn": "Cryptek",
+    "NameFr": "Cryptek",
+    "NameDe": "Cryptek",
+    "KeywordsEn": "COMMANDER, INFANTRY, CRYPTEK",
+    "KeywordsFr": "COMMANDANT, INFANTERIE, CRYPTEK",
+    "KeywordsDe": "KOMMANDEUR, INFANTERIE, CRYPTEK",
+    "ModelProfiles": [
+      {
+        "Id": "NEY",
+        "Movement": 5,
+        "WeaponSkill": 3,
+        "BallisticSkill": 3,
+        "Strength": 4,
+        "Toughness": 4,
+        "Wounds": 4,
+        "Attacks": "1",
+        "Leadership": 10,
+        "Save": 4,
+        "MaximumNumber": 1,
+        "Cost": 44,
+        "NameEn": "Cryptek",
+        "NameFr": "Cryptek",
+        "NameDe": "Cryptek",
+        "IsCommander": true,
+        "NumberOfKnownPsychics": 0,
+        "NumberOfPsychicsManifestationPerRound": 0,
+        "NumberOfPsychicsDenialPerRound": 0,
+        "WarGearOptions": [
+          {
+            "Id": "229",
+            "MaximumPerTeam": 0,
+            "Operation": "CCA",
+            "Exclusion": null
+          }
+        ],
+        "Specialists": [
+          {
+            "SpecialistId": "F"
+          },
+          {
+            "SpecialistId": "FE"
+          },
+          {
+            "SpecialistId": "LH"
+          },
+          {
+            "SpecialistId": "LO"
+          },
+          {
+            "SpecialistId": "ME"
+          },
+          {
+            "SpecialistId": "SH"
+          },
+          {
+            "SpecialistId": "ST"
+          }
+        ],
+        "ModelProfileWeapons": [
+          {
+            "WeaponId": "SOL"
+          }
+        ],
+        "CostOverrides": [],
+        "LevelCosts": [
+          {
+            "Level": 1,
+            "Cost": 44
+          },
+          {
+            "Level": 2,
+            "Cost": 59
+          },
+          {
+            "Level": 3,
+            "Cost": 74
+          },
+          {
+            "Level": 4,
+            "Cost": 99
+          }
+        ]
+      }
+    ],
+    "ModelWeapons": [],
+    "WarGearOptions": []
+  }
+]

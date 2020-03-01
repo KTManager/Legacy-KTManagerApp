@@ -1,0 +1,97 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="KillTeam.Views.ChoixImpression"
+             xmlns:i18n="clr-namespace:KillTeam.Services;assembly=KillTeam"
+             xmlns:syncfusion="clr-namespace:Syncfusion.SfBusyIndicator.XForms;assembly=Syncfusion.SfBusyIndicator.XForms">
+    <ContentPage.Content>
+        <StackLayout Orientation="Vertical">
+            <Label Text="{i18n:Translate ChoixImpression}"  FontSize="20"/>
+
+            <StackLayout Orientation="Horizontal"
+                         VerticalOptions="Start">
+                <Label Text="{i18n:Translate PdfOfficiel}" 
+                       LineBreakMode="NoWrap" 
+                       Style="{DynamicResource ListItemTextStyle}" 
+                       FontSize="16" />
+                <Switch IsToggled="{Binding PdfOfficiel}"
+                        IsEnabled="True"
+                        x:Name="PdfOfficiel"
+                        Toggled="OfficialPdfToggled"
+                        HorizontalOptions="EndAndExpand"></Switch>
+            </StackLayout>
+            <StackLayout Orientation="Horizontal"
+                         VerticalOptions="Start">
+                <Label Text="{i18n:Translate RegroupeMembres}" 
+                       LineBreakMode="NoWrap"
+                       Style="{DynamicResource ListItemTextStyle}" 
+                       FontSize="16" />
+                <Switch IsToggled="{Binding RegrouperIdentique}"
+                        IsEnabled="True"
+                        x:Name="RegrouperIdentique"
+                        Toggled="NoneOfficialPdfToggled"
+                        HorizontalOptions="EndAndExpand"></Switch>
+            </StackLayout>
+            <StackLayout Orientation="Horizontal">
+                <Label Text="{i18n:Translate DetailsAptitudes}" 
+                       LineBreakMode="NoWrap" 
+                       Style="{DynamicResource ListItemTextStyle}" 
+                       FontSize="16" />
+                <Switch IsToggled="{Binding DetailAptitudes}"
+                        IsEnabled="True"
+                        x:Name="DetailAptitudes"
+                        Toggled="NoneOfficialPdfToggled"
+                        HorizontalOptions="EndAndExpand"></Switch>
+            </StackLayout>
+            <StackLayout Orientation="Horizontal">
+                <Label Text="{i18n:Translate RegrouperAptitudes}" 
+                       LineBreakMode="NoWrap"
+                       Style="{DynamicResource ListItemTextStyle}" 
+                       FontSize="16" />
+                <Switch IsToggled="{Binding RegrouperAptitudes}"
+                        IsEnabled="True"
+                        x:Name="RegrouperAptitudes"
+                        Toggled="NoneOfficialPdfToggled"
+                        HorizontalOptions="EndAndExpand"></Switch>
+            </StackLayout>
+            <StackLayout Orientation="Horizontal">
+                <Label Text="{i18n:Translate Tactiques}" 
+                       LineBreakMode="NoWrap" 
+                       Style="{DynamicResource ListItemTextStyle}" 
+                       FontSize="16" />
+                <Switch IsToggled="{Binding Tactiques}"
+                        IsEnabled="True"
+                        x:Name="Tactiques"
+                        Toggled="NoneOfficialPdfToggled"
+                        HorizontalOptions="EndAndExpand"></Switch>
+            </StackLayout>
+            <StackLayout Orientation="Horizontal">
+                <Label Text="{i18n:Translate XPRecrueConvalescence}" 
+                       LineBreakMode="NoWrap" 
+                       Style="{DynamicResource ListItemTextStyle}" 
+                       FontSize="16" />
+                <Switch IsToggled="{Binding XPRecrueConvalescence}"
+                        IsEnabled="True"
+                        x:Name="XPRecrueConvalescence"
+                        Toggled="NoneOfficialPdfToggled"
+                        HorizontalOptions="EndAndExpand"></Switch>
+            </StackLayout>
+
+            <Button Text="{i18n:Translate GeneratePDF}"
+                    VerticalOptions="End"
+                    Clicked="OnButtonPdfClicked"
+                    x:Name="PDFButton"
+                    IsVisible="{Binding GenerateButtonVisible, Mode=TwoWay}"/>
+            <Button Text="{i18n:Translate Ouvrir}"
+                    VerticalOptions="End"
+                    Clicked="OpenButton_Clicked"
+                    x:Name="OpenButton"
+                    IsVisible="{Binding OpenButtonVisible, Mode=TwoWay}"/>
+            <syncfusion:SfBusyIndicator x:Name="BusyIndicator" 
+                                        AnimationType="Ball" 
+                                        Title="Pdf Generation"
+                                        IsVisible="{Binding BusyIndicatorVisible, Mode=TwoWay}" 
+                                        TextColor="Black" />
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

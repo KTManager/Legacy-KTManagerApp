@@ -1,0 +1,397 @@
+[
+  {
+    "Id": "CBTR",
+    "ModelId": null,
+    "ModelProfileId": "TADG",
+    "NameEn": "Concealed Booby Traps",
+    "NameFr": "",
+    "NameDe": "",
+    "DescriptionEn": "If you select the Plant Traps strategy during the Scouting phase, you can booby-trap up to D3+1 pieces of terrain instead of up to D3.",
+    "DescriptionFr": "",
+    "DescriptionDe": "",
+    "Details": []
+  },
+  {
+    "Id": "CCA",
+    "ModelId": "TAX",
+    "ModelProfileId": null,
+    "NameEn": "Camouflage Fields",
+    "NameFr": "Champs de camouflage",
+    "NameDe": "Camouflage-Felder",
+    "DescriptionEn": "Your opponent must subtract 1 from all hit rolls for attacks that target this model.",
+    "DescriptionFr": "Votre adversaire doit soustraire 1 aux jets de touche pour les attaques qui ciblent cette figurine.",
+    "DescriptionDe": "Dein Gegner muss 1 von allen Trefferwürfen für Attacken gegen dieses Modell abziehen.",
+    "Details": []
+  },
+  {
+    "Id": "DLA",
+    "ModelId": null,
+    "ModelProfileId": null,
+    "NameEn": "Markerlights",
+    "NameFr": "Désignateurs laser",
+    "NameDe": "Zielmarkierer",
+    "DescriptionEn": "If a model fires a markerlight, it cannot fire any other weapons in that phase. When a model is hit by a markerlight, place a counter next to it for the remainder of the phase. The table below describes the benefits models from your kill team receive when shooting at a model that has markerlight counters. All benefits are cumulative.",
+    "DescriptionFr": "Si une figurine tire avec un désignateur laser, elle ne peut tirer avec aucune autre arme à cette phase. Lorsqu'une figurine est touchée par un désignateur laser, placez un pion à côté d'elle pour le reste de la phase. Le tableau ci-dessous décrit les bénéfices que les figurines de votre kill team reçoivent lorsqu'elles tirent sur une figurine qui a reçu des pionts désignateurs laser. Tous ces bénéfices sont cumulatifs.",
+    "DescriptionDe": "Wenn ein Modell einen Zielmarkierer abfeuert, kann es in dieser Phase keine anderen Waffen abfeuern. Wird ein Modell von einem Zielmarkierer getroffen, platzierst du für den Rest der Phase einen Marker neben ihm. Die Tabelle unten beschreibt die Vorteile, die Modelle deines Kill Teams erhalten, wenn sie auf ein Modell schießen, neben dem Zielmarkierer-Marker liegen. Alle Vorteile sind kumulativ.",
+    "Details": [
+      {
+        "Row": 0,
+        "Column": 1,
+        "ContentEn": "Markerlights",
+        "ContentFr": "Pions",
+        "ContentDe": "Marker-Anzahl"
+      },
+      {
+        "Row": 0,
+        "Column": 2,
+        "ContentEn": "Benefit",
+        "ContentFr": "Bénéfice",
+        "ContentDe": "Vorteil"
+      },
+      {
+        "Row": 1,
+        "Column": 1,
+        "ContentEn": "1",
+        "ContentFr": "1",
+        "ContentDe": "1"
+      },
+      {
+        "Row": 2,
+        "Column": 1,
+        "ContentEn": "2",
+        "ContentFr": "2",
+        "ContentDe": "2"
+      },
+      {
+        "Row": 3,
+        "Column": 1,
+        "ContentEn": "3",
+        "ContentFr": "3",
+        "ContentDe": "3"
+      },
+      {
+        "Row": 4,
+        "Column": 1,
+        "ContentEn": "4 or more",
+        "ContentFr": "4 ou plus",
+        "ContentDe": "4 oder mehr"
+      },
+      {
+        "Row": 1,
+        "Column": 2,
+        "ContentEn": "You can re-roll hit rolls of 1 for attacks that target this model.",
+        "ContentFr": "Vous pouvez relancer les jets de touche de 1 pour les attaques qui ciblent cette figurine.",
+        "ContentDe": "Du kannst Trefferwürfe von 1 für Attacken gegen dieses Modell wiederholen."
+      },
+      {
+        "Row": 2,
+        "Column": 2,
+        "ContentEn": "Add 1 to hit rolls for attacks that target this model if it is obscured.",
+        "ContentFr": "Ajoutez 1 aux jets de touche pour les attaques qui ciblent cette figurine si elle est masquée.",
+        "ContentDe": "Addiere 1 zu Trefferwürfen für Attacken gegen dieses Modell, wenn es verdeckt ist."
+      },
+      {
+        "Row": 3,
+        "Column": 2,
+        "ContentEn": "Models attacking this model do not suffer the penalty for moving and firing Heavy weapons or Advancing and firing Assault weapons.",
+        "ContentFr": "Les figurines qui attaquent cette figurine ne subissent pas de pénalité pour se déplacer et tirer avec des armes lourdes ou avance et tire avec des armes d'assaut.",
+        "ContentDe": "Modelle, die dieses Modell attackieren, erleiden nicht den Abzug für das Bewegen und Abfeuern von Schweren Waffen oder das Vorrücken und Abfeuern von Sturmwaffen."
+      },
+      {
+        "Row": 4,
+        "Column": 2,
+        "ContentEn": "Add 1 to hit rolls for attacks that target this model.",
+        "ContentFr": "Ajoutez 1 aux jets de touche pour les attaques qui ciblent cette figurine.",
+        "ContentDe": "Addiere 1 zu Trefferwürfen für Attacken gegen dieses Modell."
+      }
+    ]
+  },
+  {
+    "Id": "DS8",
+    "ModelId": null,
+    "ModelProfileId": "TAF3",
+    "NameEn": "DS8 Tactical Support Turret",
+    "NameFr": "DS8 Tactical Support Turret",
+    "NameDe": "DS8 Tactical Support Turret",
+    "DescriptionEn": "A Tactical Support Turret is set up within 2\" of the model it accompanies when that model is set up on the battlefield. It is treated as a separate model, but cannot move for any reason. If this model is more than 2\" from the model it accompanies at any point, it is removed from the battlefield. It does not count as having been taken out of action. Tactical Support Turrets may not be specialists, are not part of a fire team (pg 204) and do not gain experience.",
+    "DescriptionFr": "Une Tactical Support Turret est placée à 2\" de la figurine qui l'accompagne lorsque cette figurine est placée sur le champ de bataille. Elle est traitée comme une figurine séparée, mais ne peut jamais se déplacer. Si, quelqu'en soit la cause, cette figurine se trouve à plus de 2\" de la figurine qui l'accompagne, elle est retirée du champ de bataille. Elle ne compte pas comme ayant été mise hors de combat. Les tactical support turrets ne peuvent pas être spécialistes, ne font pas partie d'une équipe de tir et ne gagnent pas d'expérience.",
+    "DescriptionDe": "Ein Tactical Support Turret wird innerhalb von 2\" um das Modell aufgestellt, dem er zugeordnet ist, wenn dieses Modell auf dem Schlachtfeld aufgestellt wird. Er wird als separates Modell behandelt, kann sich aber unter keinen Umständen bewegen. Ist der Tactical Support Turret zu irgendeinem Zeitpunkt weiter als 2\" von dem Modell entfernt, dem er zugeordnet ist, wird er vom Schlachtfeld entfernt. Er gilt nicht als ausgeschaltet. Tactical Support Turrets können keine Spezialisten sein, sind nicht Teil eines Trupps und gewinnen keine Erfahrung.",
+    "Details": []
+  },
+  {
+    "Id": "DS82",
+    "ModelId": null,
+    "ModelProfileId": "TAB3",
+    "NameEn": "DS8 Tactical Support Turret",
+    "NameFr": "DS8 Tactical Support Turret",
+    "NameDe": "DS8 Tactical Support Turret",
+    "DescriptionEn": "A Tactical Support Turret is set up within 2\" of the model it accompanies when that model is set up on the battlefield. It is treated as a separate model, but cannot move for any reason. If this model is more than 2\" from the model it accompanies at any point, it is removed from the battlefield. It does not count as having been taken out of action. Tactical Support Turrets may not be specialists, are not part of a fire team (pg 204) and do not gain experience.",
+    "DescriptionFr": "Une Tactical Support Turret est placée à 2\" de la figurine qui l'accompagne lorsque cette figurine est placée sur le champ de bataille. Elle est traitée comme une figurine séparée, mais ne peut jamais se déplacer. Si, quelqu'en soit la cause, cette figurine se trouve à plus de 2\" de la figurine qui l'accompagne, elle est retirée du champ de bataille. Elle ne compte pas comme ayant été mise hors de combat. Les tactical support turrets ne peuvent pas être spécialistes, ne font pas partie d'une équipe de tir et ne gagnent pas d'expérience.",
+    "DescriptionDe": "Ein Tactical Support Turret wird innerhalb von 2\" um das Modell aufgestellt, dem er zugeordnet ist, wenn dieses Modell auf dem Schlachtfeld aufgestellt wird. Er wird als separates Modell behandelt, kann sich aber unter keinen Umständen bewegen. Ist der Tactical Support Turret zu irgendeinem Zeitpunkt weiter als 2\" von dem Modell entfernt, dem er zugeordnet ist, wird er vom Schlachtfeld entfernt. Er gilt nicht als ausgeschaltet. Tactical Support Turrets können keine Spezialisten sein, sind nicht Teil eines Trupps und gewinnen keine Erfahrung.",
+    "Details": []
+  },
+  {
+    "Id": "FICRA",
+    "ModelId": null,
+    "ModelProfileId": "TADG",
+    "NameEn": "Fieldcraft",
+    "NameFr": "",
+    "NameDe": "",
+    "DescriptionEn": "When an opponent makes a hit roll for a shooting attack that targets this model, and this model is obscured, that hit roll suffers an additional -1 modifier.",
+    "DescriptionFr": "",
+    "DescriptionDe": "",
+    "Details": []
+  },
+  {
+    "Id": "MB3",
+    "ModelId": null,
+    "ModelProfileId": "MB3",
+    "NameEn": "Recon Suite",
+    "NameFr": "Dispositif de reconnaissance",
+    "NameDe": "Aufklärungsausrüstung",
+    "DescriptionEn": "At the start of the Shooting phase, you can choose a PATHFINDER from your kill team within 6\" of a friendly Recon Drone. Until the end of the phase, that model does not suffer penalties to their hit and Injury rolls due to their target being obscured.",
+    "DescriptionFr": "Au début de la phase de tir, vous pouvez choisir un pathfinder de votre kill team à 6\" d'un recon drone ami. Jusqu'à la fin de la phase, cette figurine ne subit aucun malus à ses jets de touche et de trauma lié au fait que la cible soit masquée.",
+    "DescriptionDe": "Zu Beginn der Fernkampfphase kannst du einen PATHFINDER deines Kill Teams innerhalb von 6\" um eine befreundete Recon Drone wählen. Bis zum Ende der Phase erleidet das gewählte Modell keinen Abzug auf Treffer- und Verletzungswürfe dafür, dass das Ziel verdeckt ist.",
+    "Details": []
+  },
+  {
+    "Id": "MV31",
+    "ModelId": null,
+    "ModelProfileId": "MV31",
+    "NameEn": "Pulse Accelerator",
+    "NameFr": "Accélérateur d'impulsions",
+    "NameDe": "Pulsbeschleuniger",
+    "DescriptionEn": "Whilst a T’AU EMPIRE INFANTRY model is within 3\" of a friendly Pulse Accelerator Drone, increase the Range characteristic of that model’s pulse pistol, pulse carbine or pulse rifle by 6\".",
+    "DescriptionFr": "Tant qu'une figurine d'infanterie T'au empire est à 3\" d'un pulse accelerator drone ami, augmentez de 6\" la caractéristique de portée du pistolet à impulsions, de la carabine à impulsions ou du fusil à impulsions de la figurine.",
+    "DescriptionDe": "Solange sich ein T'AU EMPIRE-INFANTERIE-Modell innerhalb von 3\" um eine befreundete Pulse Accelerator Drone befindet, erhöhst du den Profilwert Reichweite der Pulspistole, des Pulskarabiners oder des Pulsgewehrs des Modells um 6\".",
+    "Details": []
+  },
+  {
+    "Id": "MV33",
+    "ModelId": null,
+    "ModelProfileId": "MV33",
+    "NameEn": "Gravity Wave Projector",
+    "NameFr": "Projecteur à gravitons",
+    "NameDe": "Gravitationswellenprojektor",
+    "DescriptionEn": "Enemy models beginning a charge move within 12\" of any Grav-inhibitor Drones reduce their charge distance by D3\"",
+    "DescriptionFr": "Les figurines ennemies commençant un mouvement de charge à 12\" d'au moins un Grav-inhibitor drone réduisent leur distance de charge de D3\".",
+    "DescriptionDe": "Feindliche Modelle, die ihre Angriffsbewegung innerhalb von 12\" um einen oder mehrere Grav-inhibitor Drones beginnen, reduzieren ihre Angriffsreichweite um W3\".",
+    "Details": []
+  },
+  {
+    "Id": "MV36",
+    "ModelId": null,
+    "ModelProfileId": "MV36",
+    "NameEn": "Guardian Fields",
+    "NameFr": "Champ guardian",
+    "NameDe": "Schutzfelder",
+    "DescriptionEn": "A Guardian Drone has a 5+ invulnerable save. Friendly T’AU EMPIRE models within 6\" of this model have a 6+ invulnerable save.",
+    "DescriptionFr": "Un guardian drone a une sauvegarde invulnérable de 5+. Les figurines T'au empire amies à 6\" de cette figurine ont une sauvegarde invulnérable de 6+.",
+    "DescriptionDe": "Eine Guardian Drone hat einen Rettungswurf von 5+. Befreundete Modelle des T'AU EMPIRES innerhalb von 6\" um dieses Modell haben einen Rettungswurf von 6+.",
+    "Details": []
+  },
+  {
+    "Id": "PBS",
+    "ModelId": "TAC",
+    "ModelProfileId": null,
+    "NameEn": "For the Greater Good",
+    "NameFr": "Pour le bien suprême",
+    "NameDe": "Für das Höhere Wohl",
+    "DescriptionEn": "When an enemy model declares a charge against a model from your kill team, models from your kill team with this ability within 6\" of one of the charging model’s targets may fire Overwatch as if they were also targeted. Once a model has done so, they cannot fire Overwatch or Retreat for the rest of the phase.",
+    "DescriptionFr": "Lorsqu'une figurine ennemie déclare une charge contre une figurine de votre kill team, les figurines de votre kill team, les figurines de votre kill team avec cette aptitude à 6\" d'une des cibles de la figurine qui chargent peuvent tirer en état d'alerte comme si elles étaient ciblées elles aussi. Une figurine qui agit ainsi ne peut plus tirer en état d'alerte jusqu'à la fin de la phase.",
+    "DescriptionDe": "Wenn ein feindliches Modell einen Angriff gegen ein Modell deines Kill Teams ansagt, dürfen Modelle deines Kill Teams mit dieser Fähigkeit, die sich innerhalb von 6\" um das Ziel des angreifenden Modells befinden, Abwehrfeuer abgeben, als wären sie selbst das Ziel. Sobald ein Modell dies getan hat, kann es für den Rest dieser Phase nicht noch einmal Abwehrfeuer abgeben und nicht mehr ausweichen.",
+    "Details": []
+  },
+  {
+    "Id": "PBS1",
+    "ModelId": "TACIXEB",
+    "ModelProfileId": null,
+    "NameEn": "For the Greater Good",
+    "NameFr": "Pour le bien suprême",
+    "NameDe": "Für das Höhere Wohl",
+    "DescriptionEn": "When an enemy model declares a charge against a model from your kill team, models from your kill team with this ability within 6\" of one of the charging model’s targets may fire Overwatch as if they were also targeted. Once a model has done so, they cannot fire Overwatch or Retreat for the rest of the phase.",
+    "DescriptionFr": "Lorsqu'une figurine ennemie déclare une charge contre une figurine de votre kill team, les figurines de votre kill team, les figurines de votre kill team avec cette aptitude à 6\" d'une des cibles de la figurine qui chargent peuvent tirer en état d'alerte comme si elles étaient ciblées elles aussi. Une figurine qui agit ainsi ne peut plus tirer en état d'alerte jusqu'à la fin de la phase.",
+    "DescriptionDe": "Wenn ein feindliches Modell einen Angriff gegen ein Modell deines Kill Teams ansagt, dürfen Modelle deines Kill Teams mit dieser Fähigkeit, die sich innerhalb von 6\" um das Ziel des angreifenden Modells befinden, Abwehrfeuer abgeben, als wären sie selbst das Ziel. Sobald ein Modell dies getan hat, kann es für den Rest dieser Phase nicht noch einmal Abwehrfeuer abgeben und nicht mehr ausweichen.",
+    "Details": []
+  },
+  {
+    "Id": "PBS2",
+    "ModelId": "TAXCB",
+    "ModelProfileId": null,
+    "NameEn": "For the Greater Good",
+    "NameFr": "Pour le bien suprême",
+    "NameDe": "Für das Höhere Wohl",
+    "DescriptionEn": "When an enemy model declares a charge against a model from your kill team, models from your kill team with this ability within 6\" of one of the charging model’s targets may fire Overwatch as if they were also targeted. Once a model has done so, they cannot fire Overwatch or Retreat for the rest of the phase.",
+    "DescriptionFr": "Lorsqu'une figurine ennemie déclare une charge contre une figurine de votre kill team, les figurines de votre kill team, les figurines de votre kill team avec cette aptitude à 6\" d'une des cibles de la figurine qui chargent peuvent tirer en état d'alerte comme si elles étaient ciblées elles aussi. Une figurine qui agit ainsi ne peut plus tirer en état d'alerte jusqu'à la fin de la phase.",
+    "DescriptionDe": "Wenn ein feindliches Modell einen Angriff gegen ein Modell deines Kill Teams ansagt, dürfen Modelle deines Kill Teams mit dieser Fähigkeit, die sich innerhalb von 6\" um das Ziel des angreifenden Modells befinden, Abwehrfeuer abgeben, als wären sie selbst das Ziel. Sobald ein Modell dies getan hat, kann es für den Rest dieser Phase nicht noch einmal Abwehrfeuer abgeben und nicht mehr ausweichen.",
+    "Details": []
+  },
+  {
+    "Id": "PBS3",
+    "ModelId": "TADS",
+    "ModelProfileId": null,
+    "NameEn": "For the Greater Good",
+    "NameFr": "Pour le bien suprême",
+    "NameDe": "Für das Höhere Wohl",
+    "DescriptionEn": "When an enemy model declares a charge against a model from your kill team, models from your kill team with this ability within 6\" of one of the charging model’s targets may fire Overwatch as if they were also targeted. Once a model has done so, they cannot fire Overwatch or Retreat for the rest of the phase.",
+    "DescriptionFr": "Lorsqu'une figurine ennemie déclare une charge contre une figurine de votre kill team, les figurines de votre kill team, les figurines de votre kill team avec cette aptitude à 6\" d'une des cibles de la figurine qui chargent peuvent tirer en état d'alerte comme si elles étaient ciblées elles aussi. Une figurine qui agit ainsi ne peut plus tirer en état d'alerte jusqu'à la fin de la phase.",
+    "DescriptionDe": "Wenn ein feindliches Modell einen Angriff gegen ein Modell deines Kill Teams ansagt, dürfen Modelle deines Kill Teams mit dieser Fähigkeit, die sich innerhalb von 6\" um das Ziel des angreifenden Modells befinden, Abwehrfeuer abgeben, als wären sie selbst das Ziel. Sobald ein Modell dies getan hat, kann es für den Rest dieser Phase nicht noch einmal Abwehrfeuer abgeben und nicht mehr ausweichen.",
+    "Details": []
+  },
+  {
+    "Id": "PBSB",
+    "ModelId": "TAB",
+    "ModelProfileId": null,
+    "NameEn": "For the Greater Good",
+    "NameFr": "Pour le bien suprême",
+    "NameDe": "Für das Höhere Wohl",
+    "DescriptionEn": "When an enemy model declares a charge against a model from your kill team, models from your kill team with this ability within 6\" of one of the charging model’s targets may fire Overwatch as if they were also targeted. Once a model has done so, they cannot fire Overwatch or Retreat for the rest of the phase.",
+    "DescriptionFr": "Lorsqu'une figurine ennemie déclare une charge contre une figurine de votre kill team, les figurines de votre kill team, les figurines de votre kill team avec cette aptitude à 6\" d'une des cibles de la figurine qui chargent peuvent tirer en état d'alerte comme si elles étaient ciblées elles aussi. Une figurine qui agit ainsi ne peut plus tirer en état d'alerte jusqu'à la fin de la phase.",
+    "DescriptionDe": "Wenn ein feindliches Modell einen Angriff gegen ein Modell deines Kill Teams ansagt, dürfen Modelle deines Kill Teams mit dieser Fähigkeit, die sich innerhalb von 6\" um das Ziel des angreifenden Modells befinden, Abwehrfeuer abgeben, als wären sie selbst das Ziel. Sobald ein Modell dies getan hat, kann es für den Rest dieser Phase nicht noch einmal Abwehrfeuer abgeben und nicht mehr ausweichen.",
+    "Details": []
+  },
+  {
+    "Id": "PBSD",
+    "ModelId": "TAD",
+    "ModelProfileId": null,
+    "NameEn": "For the Greater Good",
+    "NameFr": "Pour le bien suprême",
+    "NameDe": "Für das Höhere Wohl",
+    "DescriptionEn": "When an enemy model declares a charge against a model from your kill team, models from your kill team with this ability within 6\" of one of the charging model’s targets may fire Overwatch as if they were also targeted. Once a model has done so, they cannot fire Overwatch or Retreat for the rest of the phase.",
+    "DescriptionFr": "Lorsqu'une figurine ennemie déclare une charge contre une figurine de votre kill team, les figurines de votre kill team, les figurines de votre kill team avec cette aptitude à 6\" d'une des cibles de la figurine qui chargent peuvent tirer en état d'alerte comme si elles étaient ciblées elles aussi. Une figurine qui agit ainsi ne peut plus tirer en état d'alerte jusqu'à la fin de la phase.",
+    "DescriptionDe": "Wenn ein feindliches Modell einen Angriff gegen ein Modell deines Kill Teams ansagt, dürfen Modelle deines Kill Teams mit dieser Fähigkeit, die sich innerhalb von 6\" um das Ziel des angreifenden Modells befinden, Abwehrfeuer abgeben, als wären sie selbst das Ziel. Sobald ein Modell dies getan hat, kann es für den Rest dieser Phase nicht noch einmal Abwehrfeuer abgeben und nicht mehr ausweichen.",
+    "Details": []
+  },
+  {
+    "Id": "PBSF",
+    "ModelId": "TAF",
+    "ModelProfileId": null,
+    "NameEn": "For the Greater Good",
+    "NameFr": "Pour le bien suprême",
+    "NameDe": "Für das Höhere Wohl",
+    "DescriptionEn": "When an enemy model declares a charge against a model from your kill team, models from your kill team with this ability within 6\" of one of the charging model’s targets may fire Overwatch as if they were also targeted. Once a model has done so, they cannot fire Overwatch or Retreat for the rest of the phase.",
+    "DescriptionFr": "Lorsqu'une figurine ennemie déclare une charge contre une figurine de votre kill team, les figurines de votre kill team, les figurines de votre kill team avec cette aptitude à 6\" d'une des cibles de la figurine qui chargent peuvent tirer en état d'alerte comme si elles étaient ciblées elles aussi. Une figurine qui agit ainsi ne peut plus tirer en état d'alerte jusqu'à la fin de la phase.",
+    "DescriptionDe": "Wenn ein feindliches Modell einen Angriff gegen ein Modell deines Kill Teams ansagt, dürfen Modelle deines Kill Teams mit dieser Fähigkeit, die sich innerhalb von 6\" um das Ziel des angreifenden Modells befinden, Abwehrfeuer abgeben, als wären sie selbst das Ziel. Sobald ein Modell dies getan hat, kann es für den Rest dieser Phase nicht noch einmal Abwehrfeuer abgeben und nicht mehr ausweichen.",
+    "Details": []
+  },
+  {
+    "Id": "PBSP",
+    "ModelId": "TAP",
+    "ModelProfileId": null,
+    "NameEn": "For the Greater Good",
+    "NameFr": "Pour le bien suprême",
+    "NameDe": "Für das Höhere Wohl",
+    "DescriptionEn": "When an enemy model declares a charge against a model from your kill team, models from your kill team with this ability within 6\" of one of the charging model’s targets may fire Overwatch as if they were also targeted. Once a model has done so, they cannot fire Overwatch or Retreat for the rest of the phase.",
+    "DescriptionFr": "Lorsqu'une figurine ennemie déclare une charge contre une figurine de votre kill team, les figurines de votre kill team, les figurines de votre kill team avec cette aptitude à 6\" d'une des cibles de la figurine qui chargent peuvent tirer en état d'alerte comme si elles étaient ciblées elles aussi. Une figurine qui agit ainsi ne peut plus tirer en état d'alerte jusqu'à la fin de la phase.",
+    "DescriptionDe": "Wenn ein feindliches Modell einen Angriff gegen ein Modell deines Kill Teams ansagt, dürfen Modelle deines Kill Teams mit dieser Fähigkeit, die sich innerhalb von 6\" um das Ziel des angreifenden Modells befinden, Abwehrfeuer abgeben, als wären sie selbst das Ziel. Sobald ein Modell dies getan hat, kann es für den Rest dieser Phase nicht noch einmal Abwehrfeuer abgeben und nicht mehr ausweichen.",
+    "Details": []
+  },
+  {
+    "Id": "PFS",
+    "ModelId": null,
+    "ModelProfileId": "MV7",
+    "NameEn": "Stable Platform",
+    "NameFr": "Plate-forme Stable",
+    "NameDe": "Stabile Plattform",
+    "DescriptionEn": "This model does not suffer the penalty to hit rolls for moving and firing Heavy weapons",
+    "DescriptionFr": "Cette figurine ne subit pas de pénalité pour se déplacer et tirer avec des armes Lourdes.",
+    "DescriptionDe": "Dieses Modell erleidet keinen Abzug auf seine Trefferwürfe für das Abfeuern schwerer Waffen nach der Bewegung.",
+    "Details": []
+  },
+  {
+    "Id": "PSA",
+    "ModelId": "TAD",
+    "ModelProfileId": null,
+    "NameEn": "Saviour Protocols",
+    "NameFr": "Protocoles salvateurs",
+    "NameDe": "Retter-Protokolle",
+    "DescriptionEn": "If a DRONE is within 3\" of a friendly T’AU EMPIRE INFANTRY model when an enemy attack successfully wounds it, you can inflict a mortal wound on the Drone, and the target model does not suffer any damage from this attack.",
+    "DescriptionFr": "Si un drone est à 3\" d'une figurine d'infanterie T'au empire amie lorsqu'une attaque réussit à la blesser, vous pouvez infliger une blessure mortelle au drone, et la figurine ciblée ne subit aucun dégât dû à cette attaque.",
+    "DescriptionDe": "Wenn sich eine DRONE innerhalb von 3\" um ein befreundetes T'AU-EMPIRE-INFANTERIE-Modell befindet, wenn eine feindliche Attacke dieses erfolgreich verwundet, kannst du der Drone eine tödliche Verwundung zuweisen und das Zielmodell erleidet durch die Attacke keinen Schaden.",
+    "Details": []
+  },
+  {
+    "Id": "QCH",
+    "ModelId": null,
+    "ModelProfileId": "TADG",
+    "NameEn": "Quarry Can’t Hide",
+    "NameFr": "",
+    "NameDe": "",
+    "DescriptionEn": "This model does not suffer the penalty to hit rolls for the target being obscured.",
+    "DescriptionFr": "",
+    "DescriptionDe": "",
+    "Details": []
+  },
+  {
+    "Id": "SRS",
+    "ModelId": "TAD",
+    "ModelProfileId": null,
+    "NameEn": "Support Subroutines",
+    "NameFr": "Sous-routines de soutien",
+    "NameDe": "Unterstützungs-Subroutinen",
+    "DescriptionEn": "Drones cannot be specialists, are not part of a fire team and cannot gain experience",
+    "DescriptionFr": "Les drones ne peuvent pas être spécialistes, ni intégrer d'équipe de tir, ni gagner de l'expérience.",
+    "DescriptionDe": "Drones können keine Spezialisten sein, sind nicht Teil eines Trupps und gewinnen keine Erfahrung.",
+    "Details": []
+  },
+  {
+    "Id": "UCRB",
+    "ModelId": "TAB",
+    "ModelProfileId": null,
+    "NameEn": "Bonding Knife Ritual",
+    "NameFr": "Unis par le couteau rituel",
+    "NameDe": "Breacher-Ritual des Klingenbundes",
+    "DescriptionEn": "You can subtract 1 from Nerve tests for Breacher Shas’las and Breacher Shas’uis from your kill team within 3\" of any other friendly models with this ability that are not shaken.",
+    "DescriptionFr": "Vous pouvez soustraire 1 aux tests de Sang-froid pour les Breacher Shas’la et Breacher Shas’ui de votre kill team à 3\" de toute autre figurine amie avec cette aptitude qui n’est pas secouée.",
+    "DescriptionDe": "Du kannst 1 von Nerventests für Breacher Shas'las und Breacher Shas'uis deines Kill Teams innerhalb von 3\" um beliebige befreundete Modelle mit dieser Fähikgkeit abziehen, solange diese nicht erschüttert sind.",
+    "Details": []
+  },
+  {
+    "Id": "UCRB1",
+    "ModelId": "TAXCB",
+    "ModelProfileId": null,
+    "NameEn": "Bonding Knife Ritual",
+    "NameFr": "Unis par le couteau rituel",
+    "NameDe": "Crisis-Ritual des Klingenbundes",
+    "DescriptionEn": "You can subtract 1 from Nerve tests for XV8 Crisis Shas’uis or XV8 Crisis Shas’vres from your kill team within 3\" of any other friendly models with this ability that are not shaken.",
+    "DescriptionFr": "Vous pouvez soustraire 1 aux tests de Sang-froid pour les XV8 Crisis Shas’uis et XV8 Crisis Shas’vres de votre kill team à 3\" de toute autre figurine amie avec cette aptitude qui n’est pas secouée.",
+    "DescriptionDe": "Du kannst von Nerventests für XV8 Crisis Shas'uis und XV8 Crisis Shas'vres deines Kill Teams innerhalb von 3\" um andere befreundete Modelle mit dieser Fähikgkeit 1 abziehen, solange diese nicht erschüttert sind.",
+    "Details": []
+  },
+  {
+    "Id": "UCRF",
+    "ModelId": "TAF",
+    "ModelProfileId": null,
+    "NameEn": "Bonding Knife Ritual",
+    "NameFr": "Unis par le couteau rituel",
+    "NameDe": "Fire-Warrior-Ritual des Klingenbundes",
+    "DescriptionEn": "You can subtract 1 from Nerve tests for Shas’las and Shas’uis from your kill team within 3\" of any other friendly models with this ability that are not shaken.",
+    "DescriptionFr": "Vous pouvez soustraire 1 aux tests de Sang-froid pour les Shas’la ou Shas’ui de votre kill team à 3\" de toute autre figurine amie avec cette aptitude qui n’est pas secouée.",
+    "DescriptionDe": "Du kannst 1 von Nerventests für Shas'las und Shas'uis deines Kill Teams innerhalb von 3\" um beliebige befreundete Modelle mit dieser Fähikgkeit abziehen, solange diese nicht erschüttert sind.",
+    "Details": []
+  },
+  {
+    "Id": "UCRP",
+    "ModelId": "TAP",
+    "ModelProfileId": null,
+    "NameEn": "Bonding Knife Ritual",
+    "NameFr": "Unis par le couteau rituel",
+    "NameDe": "Pathfinder-Ritual des Klingenbundes",
+    "DescriptionEn": "You can subtract 1 from Nerve tests for Pathfinders, Pathfinder Gunners and Pathfinder Shas’uis from your kill team within 3\" of any other friendly models with this ability that are not shaken.",
+    "DescriptionFr": "Vous pouvez soustraire 1 aux tests de Sang-froid pour les Pathfinders, Pathfinder Gunners et Pathfinder Shas’ui de votre kill team à 3\" de toute autre figurine amie avec cette aptitude qui n’est pas secouée.",
+    "DescriptionDe": "Du kannst 1 von Nerventests für Pathfinders, Pathfinder Gunners und Pathfinder Shas'uis deines Kill Teams innerhalb von 3\" um beliebige befreundete Modelle mit dieser Fähikgkeit abziehen, solange diese nicht erschüttert sind.",
+    "Details": []
+  },
+  {
+    "Id": "UCRX",
+    "ModelId": "TAX",
+    "ModelProfileId": null,
+    "NameEn": "Bonding Knife Ritual",
+    "NameFr": "Unis par le couteau rituel",
+    "NameDe": "Stealth-Team-Ritual des Klingenbundes",
+    "DescriptionEn": "You can subtract 1 from Nerve tests for Stealth Shas’uis and Stealth Shas’vres from your kill team within 3\" of any other friendly models with this ability that are not shaken.",
+    "DescriptionFr": "Vous pouvez soustraire 1 aux tests de Sang-froid pour les Stealth Shas’ui et Stealth Shas’vre de votre kill team à 3\" de toute autre figurine amie avec cette aptitude qui n’est pas secouée.",
+    "DescriptionDe": "Du kannst 1 von Nerventests für Stealth Shas'uis und Stealth Shas'vres deines Kill Teams innerhalb von 3\" um beliebige befreundete Modelle mit dieser Fähikgkeit abziehen, solange diese nicht erschüttert sind.",
+    "Details": []
+  }
+]

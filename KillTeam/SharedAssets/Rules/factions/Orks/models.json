@@ -1,0 +1,1429 @@
+[
+  {
+    "Id": "ORB",
+    "NameEn": "Burna Boy",
+    "NameFr": "Burna Boy",
+    "NameDe": "Burna Boy",
+    "KeywordsEn": "INFANTRY, BURNA BOY",
+    "KeywordsFr": "INFANTERIE, BURNA BOY",
+    "KeywordsDe": "INFANTERIE, BURNA BOY",
+    "ModelProfiles": [
+      {
+        "Id": "ORB1",
+        "Movement": 5,
+        "WeaponSkill": 3,
+        "BallisticSkill": 5,
+        "Strength": 4,
+        "Toughness": 4,
+        "Wounds": 1,
+        "Attacks": "2",
+        "Leadership": 6,
+        "Save": 6,
+        "MaximumNumber": 0,
+        "Cost": 12,
+        "NameEn": "Burna Boy",
+        "NameFr": "Burna Boy",
+        "NameDe": "Burna Boy",
+        "IsCommander": false,
+        "NumberOfKnownPsychics": 0,
+        "NumberOfPsychicsManifestationPerRound": 0,
+        "NumberOfPsychicsDenialPerRound": 0,
+        "WarGearOptions": [],
+        "Specialists": [
+          {
+            "SpecialistId": "CB"
+          },
+          {
+            "SpecialistId": "D"
+          },
+          {
+            "SpecialistId": "L"
+          },
+          {
+            "SpecialistId": "V"
+          },
+          {
+            "SpecialistId": "Z"
+          }
+        ],
+        "ModelProfileWeapons": [],
+        "CostOverrides": [],
+        "LevelCosts": []
+      },
+      {
+        "Id": "ORB2",
+        "Movement": 5,
+        "WeaponSkill": 3,
+        "BallisticSkill": 5,
+        "Strength": 4,
+        "Toughness": 4,
+        "Wounds": 1,
+        "Attacks": "2",
+        "Leadership": 6,
+        "Save": 6,
+        "MaximumNumber": 3,
+        "Cost": 10,
+        "NameEn": "Burna Spanner",
+        "NameFr": "Burna Spanner",
+        "NameDe": "Burna Spanner",
+        "IsCommander": false,
+        "NumberOfKnownPsychics": 0,
+        "NumberOfPsychicsManifestationPerRound": 0,
+        "NumberOfPsychicsDenialPerRound": 0,
+        "WarGearOptions": [
+          {
+            "Id": "85",
+            "MaximumPerTeam": 0,
+            "Operation": "GRF:MKK|LRO",
+            "Exclusion": null
+          }
+        ],
+        "Specialists": [
+          {
+            "SpecialistId": "CB"
+          },
+          {
+            "SpecialistId": "CO"
+          },
+          {
+            "SpecialistId": "D"
+          },
+          {
+            "SpecialistId": "L"
+          },
+          {
+            "SpecialistId": "V"
+          },
+          {
+            "SpecialistId": "Z"
+          }
+        ],
+        "ModelProfileWeapons": [
+          {
+            "WeaponId": "FRM"
+          },
+          {
+            "WeaponId": "GRF"
+          }
+        ],
+        "CostOverrides": [],
+        "LevelCosts": []
+      }
+    ],
+    "ModelWeapons": [
+      {
+        "WeaponId": "FRM"
+      },
+      {
+        "WeaponId": "KRA"
+      }
+    ],
+    "WarGearOptions": []
+  },
+  {
+    "Id": "ORBM",
+    "NameEn": "BigMek",
+    "NameFr": "BigMek",
+    "NameDe": "BigMek",
+    "KeywordsEn": "COMMANDER, INFANTRY, BIG MEK",
+    "KeywordsFr": "COMMANDANT, INFANTERIE, BIG MEK",
+    "KeywordsDe": "KOMMANDEUR, INFANTERIE, BIG MEK",
+    "ModelProfiles": [
+      {
+        "Id": "ORBM",
+        "Movement": 5,
+        "WeaponSkill": 3,
+        "BallisticSkill": 5,
+        "Strength": 5,
+        "Toughness": 4,
+        "Wounds": 4,
+        "Attacks": "3",
+        "Leadership": 7,
+        "Save": 4,
+        "MaximumNumber": 1,
+        "Cost": 20,
+        "NameEn": "Big Mek",
+        "NameFr": "Big Mek",
+        "NameDe": "Big Mek",
+        "IsCommander": true,
+        "NumberOfKnownPsychics": 0,
+        "NumberOfPsychicsManifestationPerRound": 0,
+        "NumberOfPsychicsDenialPerRound": 0,
+        "WarGearOptions": [
+          {
+            "Id": "233",
+            "MaximumPerTeam": 0,
+            "Operation": "KAL:KMS|SAG|CFC",
+            "Exclusion": null
+          }
+        ],
+        "Specialists": [
+          {
+            "SpecialistId": "CB"
+          },
+          {
+            "SpecialistId": "CO"
+          },
+          {
+            "SpecialistId": "D"
+          },
+          {
+            "SpecialistId": "F"
+          },
+          {
+            "SpecialistId": "FE"
+          },
+          {
+            "SpecialistId": "FR"
+          },
+          {
+            "SpecialistId": "L"
+          },
+          {
+            "SpecialistId": "LH"
+          },
+          {
+            "SpecialistId": "LO"
+          },
+          {
+            "SpecialistId": "ME"
+          },
+          {
+            "SpecialistId": "V"
+          }
+        ],
+        "ModelProfileWeapons": [
+          {
+            "WeaponId": "FRM"
+          },
+          {
+            "WeaponId": "KAL"
+          },
+          {
+            "WeaponId": "KK"
+          }
+        ],
+        "CostOverrides": [
+          {
+            "WeaponId": "KK",
+            "Cost": 0
+          }
+        ],
+        "LevelCosts": [
+          {
+            "Level": 1,
+            "Cost": 20
+          },
+          {
+            "Level": 2,
+            "Cost": 25
+          },
+          {
+            "Level": 3,
+            "Cost": 40
+          },
+          {
+            "Level": 4,
+            "Cost": 60
+          }
+        ]
+      }
+    ],
+    "ModelWeapons": [],
+    "WarGearOptions": []
+  },
+  {
+    "Id": "ORBS",
+    "NameEn": "Boss Snikrot",
+    "NameFr": "Boss Snikrot",
+    "NameDe": "Boss Snikrot",
+    "KeywordsEn": "COMMANDER, INFANTRY, KOMMANDO, BOSS SNIKROT",
+    "KeywordsFr": "COMMANDANT, INFANTERIE, KOMMANDO, BOSS SNIKROT",
+    "KeywordsDe": "KOMMANDEUR, INFANTERIE, KOMMANDO, BOSS SNIKROT",
+    "ModelProfiles": [
+      {
+        "Id": "ORBS",
+        "Movement": 6,
+        "WeaponSkill": 2,
+        "BallisticSkill": 5,
+        "Strength": 6,
+        "Toughness": 4,
+        "Wounds": 6,
+        "Attacks": "6",
+        "Leadership": 7,
+        "Save": 6,
+        "MaximumNumber": 1,
+        "Cost": 82,
+        "NameEn": "Boss Snikrot",
+        "NameFr": "Boss Snikrot",
+        "NameDe": "Boss Snikrot",
+        "IsCommander": true,
+        "NumberOfKnownPsychics": 0,
+        "NumberOfPsychicsManifestationPerRound": 0,
+        "NumberOfPsychicsDenialPerRound": 0,
+        "WarGearOptions": [],
+        "Specialists": [
+          {
+            "SpecialistId": "LH"
+          }
+        ],
+        "ModelProfileWeapons": [],
+        "CostOverrides": [],
+        "LevelCosts": [
+          {
+            "Level": 1,
+            "Cost": 82
+          },
+          {
+            "Level": 2,
+            "Cost": 82
+          },
+          {
+            "Level": 3,
+            "Cost": 82
+          }
+        ]
+      }
+    ],
+    "ModelWeapons": [
+      {
+        "WeaponId": "FRM"
+      },
+      {
+        "WeaponId": "ORMT"
+      }
+    ],
+    "WarGearOptions": []
+  },
+  {
+    "Id": "ORFG",
+    "NameEn": "Flash git",
+    "NameFr": "Flash Git",
+    "NameDe": "Flash Git",
+    "KeywordsEn": "FREEBOOTERZ, INFANTRY, FLASH GIT",
+    "KeywordsFr": "FREEBOOTERZ, INFANTERIE, FLASH GITZ",
+    "KeywordsDe": "FREEBOOTERZ, INFANTERIE, FLASH GIT",
+    "ModelProfiles": [
+      {
+        "Id": "ORFG",
+        "Movement": 5,
+        "WeaponSkill": 3,
+        "BallisticSkill": 4,
+        "Strength": 5,
+        "Toughness": 4,
+        "Wounds": 2,
+        "Attacks": "3",
+        "Leadership": 6,
+        "Save": 4,
+        "MaximumNumber": 0,
+        "Cost": 23,
+        "NameEn": "Flash Git",
+        "NameFr": "Flash Git",
+        "NameDe": "Flash Git",
+        "IsCommander": false,
+        "NumberOfKnownPsychics": 0,
+        "NumberOfPsychicsManifestationPerRound": 0,
+        "NumberOfPsychicsDenialPerRound": 0,
+        "WarGearOptions": [],
+        "Specialists": [
+          {
+            "SpecialistId": "AL"
+          },
+          {
+            "SpecialistId": "CB"
+          },
+          {
+            "SpecialistId": "CO"
+          },
+          {
+            "SpecialistId": "D"
+          },
+          {
+            "SpecialistId": "V"
+          }
+        ],
+        "ModelProfileWeapons": [],
+        "CostOverrides": [],
+        "LevelCosts": []
+      },
+      {
+        "Id": "ORKA",
+        "Movement": 5,
+        "WeaponSkill": 3,
+        "BallisticSkill": 4,
+        "Strength": 5,
+        "Toughness": 4,
+        "Wounds": 2,
+        "Attacks": "3",
+        "Leadership": 6,
+        "Save": 4,
+        "MaximumNumber": 1,
+        "Cost": 24,
+        "NameEn": "Kaptin",
+        "NameFr": "Kaptin",
+        "NameDe": "Kaptin",
+        "IsCommander": false,
+        "NumberOfKnownPsychics": 0,
+        "NumberOfPsychicsManifestationPerRound": 0,
+        "NumberOfPsychicsDenialPerRound": 0,
+        "WarGearOptions": [],
+        "Specialists": [
+          {
+            "SpecialistId": "AL"
+          },
+          {
+            "SpecialistId": "CB"
+          },
+          {
+            "SpecialistId": "CO"
+          },
+          {
+            "SpecialistId": "D"
+          },
+          {
+            "SpecialistId": "L"
+          },
+          {
+            "SpecialistId": "V"
+          }
+        ],
+        "ModelProfileWeapons": [],
+        "CostOverrides": [],
+        "LevelCosts": []
+      }
+    ],
+    "ModelWeapons": [
+      {
+        "WeaponId": "FRM"
+      },
+      {
+        "WeaponId": "ORSG"
+      }
+    ],
+    "WarGearOptions": [
+      {
+        "Id": "334",
+        "MaximumPerTeam": 1,
+        "Operation": "KK",
+        "Exclusion": "ORFG"
+      },
+      {
+        "Id": "335",
+        "MaximumPerTeam": 1,
+        "Operation": "KAL",
+        "Exclusion": "ORFG"
+      },
+      {
+        "Id": "336",
+        "MaximumPerTeam": 1,
+        "Operation": "ORGS",
+        "Exclusion": null
+      }
+    ]
+  },
+  {
+    "Id": "ORG",
+    "NameEn": "Gretchin",
+    "NameFr": "Gretchin",
+    "NameDe": "Gretchin",
+    "KeywordsEn": "INFANTRY, GRETCHIN",
+    "KeywordsFr": "INFANTERIE, GRETCHIN",
+    "KeywordsDe": "INFANTERIE, GRETCHIN",
+    "ModelProfiles": [
+      {
+        "Id": "ORG",
+        "Movement": 5,
+        "WeaponSkill": 5,
+        "BallisticSkill": 4,
+        "Strength": 2,
+        "Toughness": 2,
+        "Wounds": 1,
+        "Attacks": "1",
+        "Leadership": 4,
+        "Save": 6,
+        "MaximumNumber": 0,
+        "Cost": 3,
+        "NameEn": "Gretchin",
+        "NameFr": "Gretchin",
+        "NameDe": "Gretchin",
+        "IsCommander": false,
+        "NumberOfKnownPsychics": 0,
+        "NumberOfPsychicsManifestationPerRound": 0,
+        "NumberOfPsychicsDenialPerRound": 0,
+        "WarGearOptions": [],
+        "Specialists": [
+          {
+            "SpecialistId": "L"
+          },
+          {
+            "SpecialistId": "SC"
+          }
+        ],
+        "ModelProfileWeapons": [],
+        "CostOverrides": [],
+        "LevelCosts": []
+      }
+    ],
+    "ModelWeapons": [
+      {
+        "WeaponId": "PET"
+      }
+    ],
+    "WarGearOptions": []
+  },
+  {
+    "Id": "ORK",
+    "NameEn": "Kommando",
+    "NameFr": "Kommando",
+    "NameDe": "Kommando",
+    "KeywordsEn": "INFANTRY, KOMMANDO",
+    "KeywordsFr": "INFANTERIE, KOMMANDO",
+    "KeywordsDe": "INFANTERIE, KOMMANDO",
+    "ModelProfiles": [
+      {
+        "Id": "ORK1",
+        "Movement": 6,
+        "WeaponSkill": 3,
+        "BallisticSkill": 5,
+        "Strength": 4,
+        "Toughness": 4,
+        "Wounds": 1,
+        "Attacks": "2",
+        "Leadership": 6,
+        "Save": 6,
+        "MaximumNumber": 0,
+        "Cost": 8,
+        "NameEn": "Kommando",
+        "NameFr": "Kommando",
+        "NameDe": "Kommando",
+        "IsCommander": false,
+        "NumberOfKnownPsychics": 0,
+        "NumberOfPsychicsManifestationPerRound": 0,
+        "NumberOfPsychicsDenialPerRound": 0,
+        "WarGearOptions": [],
+        "Specialists": [
+          {
+            "SpecialistId": "CB"
+          },
+          {
+            "SpecialistId": "D"
+          },
+          {
+            "SpecialistId": "SC"
+          },
+          {
+            "SpecialistId": "V"
+          }
+        ],
+        "ModelProfileWeapons": [],
+        "CostOverrides": [],
+        "LevelCosts": []
+      },
+      {
+        "Id": "ORK2",
+        "Movement": 6,
+        "WeaponSkill": 3,
+        "BallisticSkill": 5,
+        "Strength": 5,
+        "Toughness": 4,
+        "Wounds": 2,
+        "Attacks": "3",
+        "Leadership": 7,
+        "Save": 6,
+        "MaximumNumber": 1,
+        "Cost": 12,
+        "NameEn": "Kommando Boss Nob",
+        "NameFr": "Kommando Boss Nob",
+        "NameDe": "Kommando Boss Nob",
+        "IsCommander": false,
+        "NumberOfKnownPsychics": 0,
+        "NumberOfPsychicsManifestationPerRound": 0,
+        "NumberOfPsychicsDenialPerRound": 0,
+        "WarGearOptions": [
+          {
+            "Id": "84",
+            "MaximumPerTeam": 0,
+            "Operation": "KK:PEK",
+            "Exclusion": null
+          }
+        ],
+        "Specialists": [
+          {
+            "SpecialistId": "CB"
+          },
+          {
+            "SpecialistId": "D"
+          },
+          {
+            "SpecialistId": "L"
+          },
+          {
+            "SpecialistId": "SC"
+          },
+          {
+            "SpecialistId": "V"
+          }
+        ],
+        "ModelProfileWeapons": [],
+        "CostOverrides": [],
+        "LevelCosts": []
+      }
+    ],
+    "ModelWeapons": [
+      {
+        "WeaponId": "FRM"
+      },
+      {
+        "WeaponId": "KAL"
+      },
+      {
+        "WeaponId": "KK"
+      }
+    ],
+    "WarGearOptions": []
+  },
+  {
+    "Id": "ORL",
+    "NameEn": "Loota",
+    "NameFr": "Loota",
+    "NameDe": "Loota",
+    "KeywordsEn": "INFANTRY, LOOTA",
+    "KeywordsFr": "INFANTERIE, LOOTA",
+    "KeywordsDe": "INFANTERIE, LOOTA",
+    "ModelProfiles": [
+      {
+        "Id": "ORL1",
+        "Movement": 5,
+        "WeaponSkill": 3,
+        "BallisticSkill": 5,
+        "Strength": 4,
+        "Toughness": 4,
+        "Wounds": 1,
+        "Attacks": "2",
+        "Leadership": 6,
+        "Save": 6,
+        "MaximumNumber": 0,
+        "Cost": 12,
+        "NameEn": "Loota",
+        "NameFr": "Loota",
+        "NameDe": "Loota",
+        "IsCommander": false,
+        "NumberOfKnownPsychics": 0,
+        "NumberOfPsychicsManifestationPerRound": 0,
+        "NumberOfPsychicsDenialPerRound": 0,
+        "WarGearOptions": [],
+        "Specialists": [
+          {
+            "SpecialistId": "AL"
+          },
+          {
+            "SpecialistId": "CB"
+          },
+          {
+            "SpecialistId": "D"
+          },
+          {
+            "SpecialistId": "L"
+          },
+          {
+            "SpecialistId": "V"
+          }
+        ],
+        "ModelProfileWeapons": [],
+        "CostOverrides": [],
+        "LevelCosts": []
+      },
+      {
+        "Id": "ORL2",
+        "Movement": 5,
+        "WeaponSkill": 3,
+        "BallisticSkill": 5,
+        "Strength": 4,
+        "Toughness": 4,
+        "Wounds": 1,
+        "Attacks": "2",
+        "Leadership": 6,
+        "Save": 6,
+        "MaximumNumber": 3,
+        "Cost": 10,
+        "NameEn": "Loota Spanner",
+        "NameFr": "Loota Spanner",
+        "NameDe": "Loota Spanner",
+        "IsCommander": false,
+        "NumberOfKnownPsychics": 0,
+        "NumberOfPsychicsManifestationPerRound": 0,
+        "NumberOfPsychicsDenialPerRound": 0,
+        "WarGearOptions": [
+          {
+            "Id": "86",
+            "MaximumPerTeam": 0,
+            "Operation": "GRF:MKK|LRO",
+            "Exclusion": null
+          }
+        ],
+        "Specialists": [
+          {
+            "SpecialistId": "AL"
+          },
+          {
+            "SpecialistId": "CB"
+          },
+          {
+            "SpecialistId": "CO"
+          },
+          {
+            "SpecialistId": "D"
+          },
+          {
+            "SpecialistId": "L"
+          },
+          {
+            "SpecialistId": "V"
+          }
+        ],
+        "ModelProfileWeapons": [
+          {
+            "WeaponId": "FRM"
+          },
+          {
+            "WeaponId": "GRF"
+          }
+        ],
+        "CostOverrides": [],
+        "LevelCosts": []
+      }
+    ],
+    "ModelWeapons": [
+      {
+        "WeaponId": "FLM"
+      },
+      {
+        "WeaponId": "FRM"
+      }
+    ],
+    "WarGearOptions": []
+  },
+  {
+    "Id": "ORMN",
+    "NameEn": "Meganob",
+    "NameFr": "Meganob",
+    "NameDe": "Meganob",
+    "KeywordsEn": "INFANTRY, MEGA ARMOUR, NOB, MEGANOB",
+    "KeywordsFr": "INFANTERIE, MÉGA-ARMURE, NOB, MEGANOB",
+    "KeywordsDe": "INFANTRY, MEGARÜSTUNG, NOB, MEGANOB",
+    "ModelProfiles": [
+      {
+        "Id": "ORBOM",
+        "Movement": 4,
+        "WeaponSkill": 3,
+        "BallisticSkill": 5,
+        "Strength": 5,
+        "Toughness": 4,
+        "Wounds": 3,
+        "Attacks": "3",
+        "Leadership": 7,
+        "Save": 2,
+        "MaximumNumber": 1,
+        "Cost": 41,
+        "NameEn": "Boss Meganob",
+        "NameFr": "Boss Meganob",
+        "NameDe": "Boss Meganob",
+        "IsCommander": false,
+        "NumberOfKnownPsychics": 0,
+        "NumberOfPsychicsManifestationPerRound": 0,
+        "NumberOfPsychicsDenialPerRound": 0,
+        "WarGearOptions": [],
+        "Specialists": [],
+        "ModelProfileWeapons": [],
+        "CostOverrides": [
+          {
+            "WeaponId": "PEK",
+            "Cost": 4
+          },
+          {
+            "WeaponId": "ARK",
+            "Cost": 7
+          }
+        ],
+        "LevelCosts": []
+      },
+      {
+        "Id": "ORMN",
+        "Movement": 4,
+        "WeaponSkill": 3,
+        "BallisticSkill": 5,
+        "Strength": 5,
+        "Toughness": 4,
+        "Wounds": 3,
+        "Attacks": "3",
+        "Leadership": 6,
+        "Save": 2,
+        "MaximumNumber": 0,
+        "Cost": 37,
+        "NameEn": "Meganob",
+        "NameFr": "Meganob",
+        "NameDe": "Meganob",
+        "IsCommander": false,
+        "NumberOfKnownPsychics": 0,
+        "NumberOfPsychicsManifestationPerRound": 0,
+        "NumberOfPsychicsDenialPerRound": 0,
+        "WarGearOptions": [
+          {
+            "Id": "333",
+            "MaximumPerTeam": 0,
+            "Operation": "KS&PEK:ORKS2",
+            "Exclusion": null
+          },
+          {
+            "Id": "353",
+            "MaximumPerTeam": 0,
+            "Operation": "KS:ARK|ARL",
+            "Exclusion": null
+          }
+        ],
+        "Specialists": [
+          {
+            "SpecialistId": "CB"
+          },
+          {
+            "SpecialistId": "CO"
+          },
+          {
+            "SpecialistId": "D"
+          },
+          {
+            "SpecialistId": "V"
+          }
+        ],
+        "ModelProfileWeapons": [],
+        "CostOverrides": [
+          {
+            "WeaponId": "PEK",
+            "Cost": 4
+          },
+          {
+            "WeaponId": "ARK",
+            "Cost": 7
+          }
+        ],
+        "LevelCosts": []
+      }
+    ],
+    "ModelWeapons": [
+      {
+        "WeaponId": "FRM"
+      },
+      {
+        "WeaponId": "KS"
+      },
+      {
+        "WeaponId": "PEK"
+      }
+    ],
+    "WarGearOptions": []
+  },
+  {
+    "Id": "ORNO",
+    "NameEn": "Nob",
+    "NameFr": "Nob",
+    "NameDe": "Nob",
+    "KeywordsEn": "INFANTRY, NOB (Ammo Runt is INFANTRY, GRETCHIN)",
+    "KeywordsFr": "INFANTERIE, NOB (Un Ammo Runt est INFANTERIE, GRETCHIN)",
+    "KeywordsDe": "INFANTERIE, NOB (Ammo Runt: INFANTERIE, GRETCHIN)",
+    "ModelProfiles": [
+      {
+        "Id": "ORAR",
+        "Movement": 5,
+        "WeaponSkill": 5,
+        "BallisticSkill": 4,
+        "Strength": 3,
+        "Toughness": 3,
+        "Wounds": 1,
+        "Attacks": "1",
+        "Leadership": 4,
+        "Save": 6,
+        "MaximumNumber": 2,
+        "Cost": 3,
+        "NameEn": "Ammo Runt",
+        "NameFr": "Ammo Runt",
+        "NameDe": "Ammo Runt",
+        "IsCommander": false,
+        "NumberOfKnownPsychics": 0,
+        "NumberOfPsychicsManifestationPerRound": 0,
+        "NumberOfPsychicsDenialPerRound": 0,
+        "WarGearOptions": [],
+        "Specialists": [],
+        "ModelProfileWeapons": [],
+        "CostOverrides": [],
+        "LevelCosts": []
+      },
+      {
+        "Id": "ORBN",
+        "Movement": 5,
+        "WeaponSkill": 3,
+        "BallisticSkill": 5,
+        "Strength": 5,
+        "Toughness": 4,
+        "Wounds": 2,
+        "Attacks": "3",
+        "Leadership": 7,
+        "Save": 4,
+        "MaximumNumber": 1,
+        "Cost": 16,
+        "NameEn": "Boss Nob",
+        "NameFr": "Boss Nob",
+        "NameDe": "Boss Nob",
+        "IsCommander": false,
+        "NumberOfKnownPsychics": 0,
+        "NumberOfPsychicsManifestationPerRound": 0,
+        "NumberOfPsychicsDenialPerRound": 0,
+        "WarGearOptions": [
+          {
+            "Id": "328",
+            "MaximumPerTeam": 0,
+            "Operation": "KAL&KK:(GKK&KK)|(GKK&ORKS1)|(GKK&PEK)|(GKK&ORPS)|(GKK&KAL)|(KK&ORKS1)|(KK&PEK)|(KK&ORPS)|(KK&KAL)|(ORKS1&PEK)|(ORKS1&ORPS)|(ORKS1&KAL)|(PEK&ORPS)|(PEK&KAL)|(ORPS&KAL)",
+            "Exclusion": null
+          },
+          {
+            "Id": "330",
+            "MaximumPerTeam": 0,
+            "Operation": "ARK|ARL",
+            "Exclusion": null
+          },
+          {
+            "Id": "332",
+            "MaximumPerTeam": 1,
+            "Operation": "ORCB",
+            "Exclusion": null
+          }
+        ],
+        "Specialists": [
+          {
+            "SpecialistId": "CB"
+          },
+          {
+            "SpecialistId": "CO"
+          },
+          {
+            "SpecialistId": "D"
+          },
+          {
+            "SpecialistId": "L"
+          },
+          {
+            "SpecialistId": "V"
+          }
+        ],
+        "ModelProfileWeapons": [],
+        "CostOverrides": [
+          {
+            "WeaponId": "ARK",
+            "Cost": 7
+          },
+          {
+            "WeaponId": "GKK",
+            "Cost": 3
+          },
+          {
+            "WeaponId": "ARL",
+            "Cost": 3
+          },
+          {
+            "WeaponId": "KAL",
+            "Cost": 0
+          },
+          {
+            "WeaponId": "ORKS1",
+            "Cost": 5
+          },
+          {
+            "WeaponId": "ORKS2",
+            "Cost": 7
+          },
+          {
+            "WeaponId": "ORPS",
+            "Cost": 1
+          },
+          {
+            "WeaponId": "KK",
+            "Cost": 0
+          }
+        ],
+        "LevelCosts": []
+      },
+      {
+        "Id": "ORNO",
+        "Movement": 5,
+        "WeaponSkill": 3,
+        "BallisticSkill": 5,
+        "Strength": 5,
+        "Toughness": 4,
+        "Wounds": 2,
+        "Attacks": "3",
+        "Leadership": 6,
+        "Save": 4,
+        "MaximumNumber": 0,
+        "Cost": 15,
+        "NameEn": "Nob",
+        "NameFr": "Nob",
+        "NameDe": "Nob",
+        "IsCommander": false,
+        "NumberOfKnownPsychics": 0,
+        "NumberOfPsychicsManifestationPerRound": 0,
+        "NumberOfPsychicsDenialPerRound": 0,
+        "WarGearOptions": [
+          {
+            "Id": "327",
+            "MaximumPerTeam": 0,
+            "Operation": "KAL&KK:(GKK&KK)|(GKK&ORKS1)|(GKK&PEK)|(GKK&ORPS)|(GKK&KAL)|(KK&ORKS1)|(KK&PEK)|(KK&ORPS)|(KK&KAL)|(ORKS1&PEK)|(ORKS1&ORPS)|(ORKS1&KAL)|(PEK&ORPS)|(PEK&KAL)|(ORPS&KAL)|ORKS2",
+            "Exclusion": null
+          },
+          {
+            "Id": "329",
+            "MaximumPerTeam": 0,
+            "Operation": "ARK|ARL",
+            "Exclusion": null
+          },
+          {
+            "Id": "331",
+            "MaximumPerTeam": 2,
+            "Operation": "ORCB",
+            "Exclusion": null
+          }
+        ],
+        "Specialists": [
+          {
+            "SpecialistId": "CB"
+          },
+          {
+            "SpecialistId": "CO"
+          },
+          {
+            "SpecialistId": "D"
+          },
+          {
+            "SpecialistId": "V"
+          }
+        ],
+        "ModelProfileWeapons": [],
+        "CostOverrides": [
+          {
+            "WeaponId": "ARK",
+            "Cost": 7
+          },
+          {
+            "WeaponId": "GKK",
+            "Cost": 3
+          },
+          {
+            "WeaponId": "ARL",
+            "Cost": 3
+          },
+          {
+            "WeaponId": "KAL",
+            "Cost": 0
+          },
+          {
+            "WeaponId": "ORKS1",
+            "Cost": 5
+          },
+          {
+            "WeaponId": "ORKS2",
+            "Cost": 7
+          },
+          {
+            "WeaponId": "ORPS",
+            "Cost": 1
+          },
+          {
+            "WeaponId": "KK",
+            "Cost": 0
+          }
+        ],
+        "LevelCosts": []
+      }
+    ],
+    "ModelWeapons": [
+      {
+        "WeaponId": "FRM"
+      }
+    ],
+    "WarGearOptions": []
+  },
+  {
+    "Id": "ORO",
+    "NameEn": "Ork Boy",
+    "NameFr": "Ork Boy",
+    "NameDe": "Ork Boy",
+    "KeywordsEn": "INFANTRY, ORK BOY",
+    "KeywordsFr": "INFANTERIE, ORK BOY",
+    "KeywordsDe": "INFANTERIE, ORK BOY",
+    "ModelProfiles": [
+      {
+        "Id": "ORO1",
+        "Movement": 5,
+        "WeaponSkill": 3,
+        "BallisticSkill": 5,
+        "Strength": 4,
+        "Toughness": 4,
+        "Wounds": 1,
+        "Attacks": "2",
+        "Leadership": 6,
+        "Save": 6,
+        "MaximumNumber": 0,
+        "Cost": 6,
+        "NameEn": "Ork Boy",
+        "NameFr": "Ork Boy",
+        "NameDe": "Ork Boy",
+        "IsCommander": false,
+        "NumberOfKnownPsychics": 0,
+        "NumberOfPsychicsManifestationPerRound": 0,
+        "NumberOfPsychicsDenialPerRound": 0,
+        "WarGearOptions": [],
+        "Specialists": [
+          {
+            "SpecialistId": "CB"
+          },
+          {
+            "SpecialistId": "D"
+          },
+          {
+            "SpecialistId": "V"
+          }
+        ],
+        "ModelProfileWeapons": [],
+        "CostOverrides": [],
+        "LevelCosts": []
+      },
+      {
+        "Id": "ORO2",
+        "Movement": 5,
+        "WeaponSkill": 3,
+        "BallisticSkill": 5,
+        "Strength": 4,
+        "Toughness": 4,
+        "Wounds": 1,
+        "Attacks": "2",
+        "Leadership": 6,
+        "Save": 6,
+        "MaximumNumber": 2,
+        "Cost": 7,
+        "NameEn": "Ork Boy Gunner",
+        "NameFr": "Ork Boy Gunner",
+        "NameDe": "Ork Boy Gunner",
+        "IsCommander": false,
+        "NumberOfKnownPsychics": 0,
+        "NumberOfPsychicsManifestationPerRound": 0,
+        "NumberOfPsychicsDenialPerRound": 0,
+        "WarGearOptions": [
+          {
+            "Id": "81",
+            "MaximumPerTeam": 0,
+            "Operation": "KAL&KK:GRF|LRO",
+            "Exclusion": null
+          }
+        ],
+        "Specialists": [
+          {
+            "SpecialistId": "AL"
+          },
+          {
+            "SpecialistId": "CB"
+          },
+          {
+            "SpecialistId": "D"
+          },
+          {
+            "SpecialistId": "V"
+          }
+        ],
+        "ModelProfileWeapons": [],
+        "CostOverrides": [],
+        "LevelCosts": []
+      },
+      {
+        "Id": "ORO3",
+        "Movement": 5,
+        "WeaponSkill": 3,
+        "BallisticSkill": 5,
+        "Strength": 5,
+        "Toughness": 4,
+        "Wounds": 2,
+        "Attacks": "3",
+        "Leadership": 7,
+        "Save": 6,
+        "MaximumNumber": 1,
+        "Cost": 10,
+        "NameEn": "Boss Nob",
+        "NameFr": "Boss Nob",
+        "NameDe": "Boss Nob",
+        "IsCommander": false,
+        "NumberOfKnownPsychics": 0,
+        "NumberOfPsychicsManifestationPerRound": 0,
+        "NumberOfPsychicsDenialPerRound": 0,
+        "WarGearOptions": [
+          {
+            "Id": "82",
+            "MaximumPerTeam": 0,
+            "Operation": "KAL:ARL|ARK",
+            "Exclusion": null
+          },
+          {
+            "Id": "83",
+            "MaximumPerTeam": 0,
+            "Operation": "KK:GKK|PEK",
+            "Exclusion": null
+          }
+        ],
+        "Specialists": [
+          {
+            "SpecialistId": "CB"
+          },
+          {
+            "SpecialistId": "D"
+          },
+          {
+            "SpecialistId": "L"
+          },
+          {
+            "SpecialistId": "V"
+          }
+        ],
+        "ModelProfileWeapons": [],
+        "CostOverrides": [],
+        "LevelCosts": []
+      }
+    ],
+    "ModelWeapons": [
+      {
+        "WeaponId": "FRM"
+      },
+      {
+        "WeaponId": "KAL"
+      },
+      {
+        "WeaponId": "KK"
+      }
+    ],
+    "WarGearOptions": [
+      {
+        "Id": "80",
+        "MaximumPerTeam": 0,
+        "Operation": "KAL&KK:FLI",
+        "Exclusion": null
+      }
+    ]
+  },
+  {
+    "Id": "ORP",
+    "NameEn": "Painboy",
+    "NameFr": "Painboy",
+    "NameDe": "Painboy",
+    "KeywordsEn": "COMMANDER, INFANTRY, PAINBOY",
+    "KeywordsFr": "COMMANDANT, INFANTERIE, PAINBOY",
+    "KeywordsDe": "KOMMANDEUR, INFANTERIE, PAINBOY",
+    "ModelProfiles": [
+      {
+        "Id": "ORP",
+        "Movement": 5,
+        "WeaponSkill": 3,
+        "BallisticSkill": 5,
+        "Strength": 5,
+        "Toughness": 4,
+        "Wounds": 4,
+        "Attacks": "4",
+        "Leadership": 6,
+        "Save": 6,
+        "MaximumNumber": 1,
+        "Cost": 20,
+        "NameEn": "Painboy",
+        "NameFr": "Painboy",
+        "NameDe": "Painboy",
+        "IsCommander": true,
+        "NumberOfKnownPsychics": 0,
+        "NumberOfPsychicsManifestationPerRound": 0,
+        "NumberOfPsychicsDenialPerRound": 0,
+        "WarGearOptions": [],
+        "Specialists": [
+          {
+            "SpecialistId": "FE"
+          },
+          {
+            "SpecialistId": "FR"
+          },
+          {
+            "SpecialistId": "LH"
+          },
+          {
+            "SpecialistId": "LO"
+          },
+          {
+            "SpecialistId": "ME"
+          }
+        ],
+        "ModelProfileWeapons": [
+          {
+            "WeaponId": "PEK"
+          },
+          {
+            "WeaponId": "US"
+          }
+        ],
+        "CostOverrides": [
+          {
+            "WeaponId": "PEK",
+            "Cost": 0
+          }
+        ],
+        "LevelCosts": [
+          {
+            "Level": 1,
+            "Cost": 20
+          },
+          {
+            "Level": 2,
+            "Cost": 25
+          },
+          {
+            "Level": 3,
+            "Cost": 40
+          },
+          {
+            "Level": 4,
+            "Cost": 60
+          }
+        ]
+      }
+    ],
+    "ModelWeapons": [],
+    "WarGearOptions": []
+  },
+  {
+    "Id": "ORW",
+    "NameEn": "Warboss",
+    "NameFr": "Warboss",
+    "NameDe": "Warboss",
+    "KeywordsEn": "COMMANDER, INFANTRY, WARBOSS",
+    "KeywordsFr": "COMMANDANT, INFANTERIE, WARBOSS",
+    "KeywordsDe": "KOMMANDEUR, INFANTERIE, WARBOSS",
+    "ModelProfiles": [
+      {
+        "Id": "ORW",
+        "Movement": 5,
+        "WeaponSkill": 2,
+        "BallisticSkill": 5,
+        "Strength": 6,
+        "Toughness": 5,
+        "Wounds": 6,
+        "Attacks": "4",
+        "Leadership": 8,
+        "Save": 4,
+        "MaximumNumber": 1,
+        "Cost": 62,
+        "NameEn": "Warboss",
+        "NameFr": "Warboss",
+        "NameDe": "Warboss",
+        "IsCommander": true,
+        "NumberOfKnownPsychics": 0,
+        "NumberOfPsychicsManifestationPerRound": 0,
+        "NumberOfPsychicsDenialPerRound": 0,
+        "WarGearOptions": [
+          {
+            "Id": "230",
+            "MaximumPerTeam": 0,
+            "Operation": "KS:ARK|ARL",
+            "Exclusion": null
+          },
+          {
+            "Id": "231",
+            "MaximumPerTeam": 0,
+            "Operation": "GKK:PEK",
+            "Exclusion": null
+          },
+          {
+            "Id": "232",
+            "MaximumPerTeam": 0,
+            "Operation": "AS",
+            "Exclusion": null
+          }
+        ],
+        "Specialists": [
+          {
+            "SpecialistId": "F"
+          },
+          {
+            "SpecialistId": "FE"
+          },
+          {
+            "SpecialistId": "FR"
+          },
+          {
+            "SpecialistId": "LE"
+          },
+          {
+            "SpecialistId": "LH"
+          },
+          {
+            "SpecialistId": "ME"
+          },
+          {
+            "SpecialistId": "ST"
+          }
+        ],
+        "ModelProfileWeapons": [
+          {
+            "WeaponId": "FRM"
+          },
+          {
+            "WeaponId": "GKK"
+          },
+          {
+            "WeaponId": "KS"
+          }
+        ],
+        "CostOverrides": [
+          {
+            "WeaponId": "ARK",
+            "Cost": 8
+          },
+          {
+            "WeaponId": "ARL",
+            "Cost": 5
+          },
+          {
+            "WeaponId": "GKK",
+            "Cost": 0
+          },
+          {
+            "WeaponId": "PEK",
+            "Cost": 13
+          },
+          {
+            "WeaponId": "AS",
+            "Cost": 6
+          }
+        ],
+        "LevelCosts": [
+          {
+            "Level": 1,
+            "Cost": 62
+          },
+          {
+            "Level": 2,
+            "Cost": 82
+          },
+          {
+            "Level": 3,
+            "Cost": 102
+          },
+          {
+            "Level": 4,
+            "Cost": 127
+          }
+        ]
+      }
+    ],
+    "ModelWeapons": [],
+    "WarGearOptions": []
+  }
+]

@@ -1,0 +1,1293 @@
+[
+  {
+    "Id": "ASA",
+    "NameEn": "Autarch",
+    "NameFr": "Autarch",
+    "NameDe": "Autarch",
+    "KeywordsEn": "AELDARI, WARHOST, COMMANDER, INFANTRY, AUTARCH",
+    "KeywordsFr": "AELDARI, WARHOST, COMMANDANT, INFANTERIE, AUTARCH",
+    "KeywordsDe": "AELDARI, WARHOST, KOMMANDEUR, INFANTERIE, AUTARCH",
+    "ModelProfiles": [
+      {
+        "Id": "ASA",
+        "Movement": 7,
+        "WeaponSkill": 2,
+        "BallisticSkill": 2,
+        "Strength": 3,
+        "Toughness": 3,
+        "Wounds": 5,
+        "Attacks": "4",
+        "Leadership": 9,
+        "Save": 3,
+        "MaximumNumber": 1,
+        "Cost": 55,
+        "NameEn": "Autarch",
+        "NameFr": "Autarch",
+        "NameDe": "Autarch",
+        "IsCommander": true,
+        "NumberOfKnownPsychics": 0,
+        "NumberOfPsychicsManifestationPerRound": 0,
+        "NumberOfPsychicsDenialPerRound": 0,
+        "WarGearOptions": [
+          {
+            "Id": "219",
+            "MaximumPerTeam": 0,
+            "Operation": "SG:EPE2&PFU&ASW",
+            "Exclusion": null
+          }
+        ],
+        "Specialists": [
+          {
+            "SpecialistId": "FR"
+          },
+          {
+            "SpecialistId": "LE"
+          },
+          {
+            "SpecialistId": "LH"
+          },
+          {
+            "SpecialistId": "LO"
+          },
+          {
+            "SpecialistId": "ME"
+          },
+          {
+            "SpecialistId": "SE"
+          },
+          {
+            "SpecialistId": "SH"
+          },
+          {
+            "SpecialistId": "ST"
+          }
+        ],
+        "ModelProfileWeapons": [
+          {
+            "WeaponId": "GPL"
+          },
+          {
+            "WeaponId": "SG"
+          }
+        ],
+        "CostOverrides": [
+          {
+            "WeaponId": "PFU",
+            "Cost": 10
+          },
+          {
+            "WeaponId": "ASFS",
+            "Cost": 0
+          }
+        ],
+        "LevelCosts": [
+          {
+            "Level": 1,
+            "Cost": 55
+          },
+          {
+            "Level": 2,
+            "Cost": 70
+          },
+          {
+            "Level": 3,
+            "Cost": 85
+          },
+          {
+            "Level": 4,
+            "Cost": 110
+          }
+        ]
+      }
+    ],
+    "ModelWeapons": [],
+    "WarGearOptions": []
+  },
+  {
+    "Id": "ASAS",
+    "NameEn": "Amallyn Shadowguide",
+    "NameFr": "Amallyn Shadowguide",
+    "NameDe": "Amallyn Shadowguide",
+    "KeywordsEn": "Aeldari, Warhost, Commander, Infantry, Ranger, Amallyn Shadowguide",
+    "KeywordsFr": "Aeldari, Warhost, Commander, Infantry, Ranger, Amallyn Shadowguide",
+    "KeywordsDe": "Aeldari, Warhost, Commander, Infantry, Ranger, Amallyn Shadowguide",
+    "ModelProfiles": [
+      {
+        "Id": "ASAS",
+        "Movement": 7,
+        "WeaponSkill": 3,
+        "BallisticSkill": 2,
+        "Strength": 3,
+        "Toughness": 3,
+        "Wounds": 3,
+        "Attacks": "2",
+        "Leadership": 7,
+        "Save": 5,
+        "MaximumNumber": 1,
+        "Cost": 30,
+        "NameEn": "Amallyn Shadowguide",
+        "NameFr": "Amallyn Shadowguide",
+        "NameDe": "Amallyn Shadowguide",
+        "IsCommander": true,
+        "NumberOfKnownPsychics": 0,
+        "NumberOfPsychicsManifestationPerRound": 0,
+        "NumberOfPsychicsDenialPerRound": 0,
+        "WarGearOptions": [],
+        "Specialists": [
+          {
+            "SpecialistId": "LH"
+          },
+          {
+            "SpecialistId": "SE"
+          }
+        ],
+        "ModelProfileWeapons": [
+          {
+            "WeaponId": "GPL"
+          },
+          {
+            "WeaponId": "LFR"
+          },
+          {
+            "WeaponId": "PWB"
+          }
+        ],
+        "CostOverrides": [],
+        "LevelCosts": [
+          {
+            "Level": 4,
+            "Cost": 60
+          },
+          {
+            "Level": 3,
+            "Cost": 50
+          },
+          {
+            "Level": 2,
+            "Cost": 35
+          },
+          {
+            "Level": 1,
+            "Cost": 30
+          }
+        ]
+      }
+    ],
+    "ModelWeapons": [],
+    "WarGearOptions": []
+  },
+  {
+    "Id": "ASD",
+    "NameEn": "Dire Avenger",
+    "NameFr": "Dire Avenger",
+    "NameDe": "Dire Avenger",
+    "KeywordsEn": "AELDARI, ASPECT WARRIOR, INFANTRY, DIRE AVENGER",
+    "KeywordsFr": "AELDARI, ASPECT WARRIOR, INFANTERIE, DIRE AVENGER",
+    "KeywordsDe": "AELDARI, ASPECT WARRIOR, INFANTERIE, DIRE AVENGER",
+    "ModelProfiles": [
+      {
+        "Id": "ASD1",
+        "Movement": 7,
+        "WeaponSkill": 3,
+        "BallisticSkill": 3,
+        "Strength": 3,
+        "Toughness": 3,
+        "Wounds": 1,
+        "Attacks": "1",
+        "Leadership": 8,
+        "Save": 4,
+        "MaximumNumber": 0,
+        "Cost": 10,
+        "NameEn": "Dire Avenger",
+        "NameFr": "Dire Avenger",
+        "NameDe": "Dire Avenger",
+        "IsCommander": false,
+        "NumberOfKnownPsychics": 0,
+        "NumberOfPsychicsManifestationPerRound": 0,
+        "NumberOfPsychicsDenialPerRound": 0,
+        "WarGearOptions": [],
+        "Specialists": [
+          {
+            "SpecialistId": "CB"
+          },
+          {
+            "SpecialistId": "CO"
+          },
+          {
+            "SpecialistId": "M"
+          },
+          {
+            "SpecialistId": "SC"
+          },
+          {
+            "SpecialistId": "V"
+          }
+        ],
+        "ModelProfileWeapons": [],
+        "CostOverrides": [],
+        "LevelCosts": []
+      },
+      {
+        "Id": "ASD2",
+        "Movement": 7,
+        "WeaponSkill": 3,
+        "BallisticSkill": 3,
+        "Strength": 3,
+        "Toughness": 3,
+        "Wounds": 2,
+        "Attacks": "2",
+        "Leadership": 8,
+        "Save": 4,
+        "MaximumNumber": 1,
+        "Cost": 11,
+        "NameEn": "Dire Avenger Exarch",
+        "NameFr": "Dire Avenger Exarch",
+        "NameDe": "Dire Avenger Exarch",
+        "IsCommander": false,
+        "NumberOfKnownPsychics": 0,
+        "NumberOfPsychicsManifestationPerRound": 0,
+        "NumberOfPsychicsDenialPerRound": 0,
+        "WarGearOptions": [
+          {
+            "Id": "67",
+            "MaximumPerTeam": 0,
+            "Operation": "CASA:(CASA&CASA)|(PSH&VEN)|(PSH&LFU)|(BMI&VEN)",
+            "Exclusion": null
+          }
+        ],
+        "Specialists": [
+          {
+            "SpecialistId": "CB"
+          },
+          {
+            "SpecialistId": "CO"
+          },
+          {
+            "SpecialistId": "L"
+          },
+          {
+            "SpecialistId": "M"
+          },
+          {
+            "SpecialistId": "SC"
+          },
+          {
+            "SpecialistId": "V"
+          }
+        ],
+        "ModelProfileWeapons": [],
+        "CostOverrides": [],
+        "LevelCosts": []
+      }
+    ],
+    "ModelWeapons": [
+      {
+        "WeaponId": "CASA"
+      },
+      {
+        "WeaponId": "GPL"
+      }
+    ],
+    "WarGearOptions": []
+  },
+  {
+    "Id": "ASF",
+    "NameEn": "Farseer",
+    "NameFr": "Farseer",
+    "NameDe": "Farseer",
+    "KeywordsEn": "AELDARI, WARHOST, COMMANDER, INFANTRY, PSYKER, FARSEER",
+    "KeywordsFr": "AELDARI, WARHOST, COMMANDANT, INFANTERIE, PSYKER, FARSEER",
+    "KeywordsDe": "AELDARI, WARHOST, KOMMANDEUR, INFANTERIE, PSIONIKER, FARSEER",
+    "ModelProfiles": [
+      {
+        "Id": "ASF",
+        "Movement": 7,
+        "WeaponSkill": 2,
+        "BallisticSkill": 2,
+        "Strength": 3,
+        "Toughness": 3,
+        "Wounds": 5,
+        "Attacks": "2",
+        "Leadership": 9,
+        "Save": 6,
+        "MaximumNumber": 1,
+        "Cost": 55,
+        "NameEn": "Farseer",
+        "NameFr": "Farseer",
+        "NameDe": "Farseer",
+        "IsCommander": true,
+        "NumberOfKnownPsychics": 2,
+        "NumberOfPsychicsManifestationPerRound": 2,
+        "NumberOfPsychicsDenialPerRound": 2,
+        "WarGearOptions": [
+          {
+            "Id": "221",
+            "MaximumPerTeam": 0,
+            "Operation": "W:SS",
+            "Exclusion": null
+          }
+        ],
+        "Specialists": [
+          {
+            "SpecialistId": "LE"
+          },
+          {
+            "SpecialistId": "LH"
+          },
+          {
+            "SpecialistId": "LO"
+          },
+          {
+            "SpecialistId": "P"
+          },
+          {
+            "SpecialistId": "ST"
+          }
+        ],
+        "ModelProfileWeapons": [
+          {
+            "WeaponId": "PSH"
+          },
+          {
+            "WeaponId": "W"
+          }
+        ],
+        "CostOverrides": [
+          {
+            "WeaponId": "SS",
+            "Cost": 5
+          }
+        ],
+        "LevelCosts": [
+          {
+            "Level": 1,
+            "Cost": 55
+          },
+          {
+            "Level": 2,
+            "Cost": 70
+          },
+          {
+            "Level": 3,
+            "Cost": 85
+          },
+          {
+            "Level": 4,
+            "Cost": 110
+          }
+        ]
+      }
+    ],
+    "ModelWeapons": [],
+    "WarGearOptions": []
+  },
+  {
+    "Id": "ASG",
+    "NameEn": "Guardian Defender",
+    "NameFr": "Guardian Defender",
+    "NameDe": "Guardian Defender",
+    "KeywordsEn": "AELDARI, WARHOST, INFANTRY, GUARDIAN, GUARDIAN DEFENDER, OR HEAVY WEAPON PLATFORM & ARTILLERIE",
+    "KeywordsFr": "AELDARI, WARHOST, INFANTERIE, GUARDIAN, GUARDIAN DEFENDER, OU HEAVY WEAPON PLATFORM & ARTILLERIE",
+    "KeywordsDe": "AELDARI, WARHOST, INFANTERIE, ARTILLERIE (nur Heavy Weapon Platform), GUARDIAN, GUARDIAN DEFENDER (nur Guardian Defender) or HEAVY WEAPON PLATFORM (nur Heavy Weapon Platform)",
+    "ModelProfiles": [
+      {
+        "Id": "ASG1",
+        "Movement": 7,
+        "WeaponSkill": 3,
+        "BallisticSkill": 3,
+        "Strength": 3,
+        "Toughness": 3,
+        "Wounds": 1,
+        "Attacks": "1",
+        "Leadership": 7,
+        "Save": 5,
+        "MaximumNumber": 0,
+        "Cost": 7,
+        "NameEn": "Guardian Defender",
+        "NameFr": "Guardian Defender",
+        "NameDe": "Guardian Defender",
+        "IsCommander": false,
+        "NumberOfKnownPsychics": 0,
+        "NumberOfPsychicsManifestationPerRound": 0,
+        "NumberOfPsychicsDenialPerRound": 0,
+        "WarGearOptions": [],
+        "Specialists": [
+          {
+            "SpecialistId": "CO"
+          },
+          {
+            "SpecialistId": "L"
+          },
+          {
+            "SpecialistId": "M"
+          },
+          {
+            "SpecialistId": "SC"
+          },
+          {
+            "SpecialistId": "V"
+          }
+        ],
+        "ModelProfileWeapons": [],
+        "CostOverrides": [],
+        "LevelCosts": []
+      },
+      {
+        "Id": "ASG2",
+        "Movement": 7,
+        "WeaponSkill": 6,
+        "BallisticSkill": 3,
+        "Strength": 3,
+        "Toughness": 3,
+        "Wounds": 2,
+        "Attacks": "1",
+        "Leadership": 7,
+        "Save": 3,
+        "MaximumNumber": 1,
+        "Cost": 8,
+        "NameEn": "Heavy Weapon Platform",
+        "NameFr": "Heavy Weapon Platform",
+        "NameDe": "Heavy Weapon Platform",
+        "IsCommander": false,
+        "NumberOfKnownPsychics": 0,
+        "NumberOfPsychicsManifestationPerRound": 0,
+        "NumberOfPsychicsDenialPerRound": 0,
+        "WarGearOptions": [
+          {
+            "Id": "64",
+            "MaximumPerTeam": 0,
+            "Operation": "CSH:LMA|LAR|RLA|CST",
+            "Exclusion": null
+          }
+        ],
+        "Specialists": [
+          {
+            "SpecialistId": "CO"
+          },
+          {
+            "SpecialistId": "L"
+          },
+          {
+            "SpecialistId": "M"
+          },
+          {
+            "SpecialistId": "SC"
+          },
+          {
+            "SpecialistId": "V"
+          }
+        ],
+        "ModelProfileWeapons": [
+          {
+            "WeaponId": "CSH"
+          }
+        ],
+        "CostOverrides": [],
+        "LevelCosts": []
+      }
+    ],
+    "ModelWeapons": [
+      {
+        "WeaponId": "CASH"
+      },
+      {
+        "WeaponId": "GPL"
+      }
+    ],
+    "WarGearOptions": []
+  },
+  {
+    "Id": "ASIN",
+    "NameEn": "Illic Nightspear",
+    "NameFr": "Illic Nightspear",
+    "NameDe": "Illic Nightspear",
+    "KeywordsEn": "AELDARI, WARHOST, ALAITOC, COMMANDER, INFANTRY, RANGER, ILLIC NIGHTSPEAR",
+    "KeywordsFr": "AELDARI,WARHOST, ALAITOC, COMMANDANT,  INFANTERIE, RANGER, ILLIC NIGHTSPEAR",
+    "KeywordsDe": "AELDARI, WARHOST, ALAITOC, KOMMANDEUR, INFANTERIE, RANGER, ILLIC NIGHTSPEAR",
+    "ModelProfiles": [
+      {
+        "Id": "ASIN",
+        "Movement": 7,
+        "WeaponSkill": 2,
+        "BallisticSkill": 2,
+        "Strength": 3,
+        "Toughness": 3,
+        "Wounds": 5,
+        "Attacks": "4",
+        "Leadership": 9,
+        "Save": 5,
+        "MaximumNumber": 1,
+        "Cost": 79,
+        "NameEn": "Illic Nightspear",
+        "NameFr": "Illic Nightspear",
+        "NameDe": "Illic Nightspear",
+        "IsCommander": true,
+        "NumberOfKnownPsychics": 0,
+        "NumberOfPsychicsManifestationPerRound": 0,
+        "NumberOfPsychicsDenialPerRound": 0,
+        "WarGearOptions": [],
+        "Specialists": [
+          {
+            "SpecialistId": "LH"
+          }
+        ],
+        "ModelProfileWeapons": [],
+        "CostOverrides": [],
+        "LevelCosts": [
+          {
+            "Level": 1,
+            "Cost": 79
+          },
+          {
+            "Level": 2,
+            "Cost": 79
+          },
+          {
+            "Level": 3,
+            "Cost": 79
+          }
+        ]
+      }
+    ],
+    "ModelWeapons": [
+      {
+        "WeaponId": "ASVB"
+      },
+      {
+        "WeaponId": "EPE2"
+      },
+      {
+        "WeaponId": "PSH"
+      }
+    ],
+    "WarGearOptions": []
+  },
+  {
+    "Id": "ASR",
+    "NameEn": "Ranger",
+    "NameFr": "Ranger",
+    "NameDe": "Ranger",
+    "KeywordsEn": "AELDARI, WARHOST, INFANTRY, RANGER",
+    "KeywordsFr": "AELDARI, WARHOST, INFANTERIE, RANGER",
+    "KeywordsDe": "AELDARI, WARHOST, INFANTERIE, RANGER",
+    "ModelProfiles": [
+      {
+        "Id": "ASR",
+        "Movement": 7,
+        "WeaponSkill": 3,
+        "BallisticSkill": 3,
+        "Strength": 3,
+        "Toughness": 3,
+        "Wounds": 1,
+        "Attacks": "1",
+        "Leadership": 7,
+        "Save": 5,
+        "MaximumNumber": 0,
+        "Cost": 11,
+        "NameEn": "Ranger",
+        "NameFr": "Ranger",
+        "NameDe": "Ranger",
+        "IsCommander": false,
+        "NumberOfKnownPsychics": 0,
+        "NumberOfPsychicsManifestationPerRound": 0,
+        "NumberOfPsychicsDenialPerRound": 0,
+        "WarGearOptions": [],
+        "Specialists": [
+          {
+            "SpecialistId": "CO"
+          },
+          {
+            "SpecialistId": "L"
+          },
+          {
+            "SpecialistId": "M"
+          },
+          {
+            "SpecialistId": "SC"
+          },
+          {
+            "SpecialistId": "SN"
+          },
+          {
+            "SpecialistId": "V"
+          }
+        ],
+        "ModelProfileWeapons": [],
+        "CostOverrides": [],
+        "LevelCosts": []
+      }
+    ],
+    "ModelWeapons": [
+      {
+        "WeaponId": "LFR"
+      },
+      {
+        "WeaponId": "PSH"
+      }
+    ],
+    "WarGearOptions": []
+  },
+  {
+    "Id": "ASS",
+    "NameEn": "Storm Guardian",
+    "NameFr": "Storm Guardian",
+    "NameDe": "Storm Guardian",
+    "KeywordsEn": "AELDARI, WARHOST, INFANTRY, GUARDIAN, STORM GUARDIAN",
+    "KeywordsFr": "AELDARI, WARHOST, INFANTERIE, GUARDIAN, STORM GUARDIAN",
+    "KeywordsDe": "AELDARI, WARHOST, INFANTERIE, GUARDIAN, STORM GUARDIAN",
+    "ModelProfiles": [
+      {
+        "Id": "ASS1",
+        "Movement": 7,
+        "WeaponSkill": 3,
+        "BallisticSkill": 3,
+        "Strength": 3,
+        "Toughness": 3,
+        "Wounds": 1,
+        "Attacks": "1",
+        "Leadership": 7,
+        "Save": 5,
+        "MaximumNumber": 0,
+        "Cost": 6,
+        "NameEn": "Storm Guardian",
+        "NameFr": "Storm Guardian",
+        "NameDe": "Storm Guardian",
+        "IsCommander": false,
+        "NumberOfKnownPsychics": 0,
+        "NumberOfPsychicsManifestationPerRound": 0,
+        "NumberOfPsychicsDenialPerRound": 0,
+        "WarGearOptions": [],
+        "Specialists": [
+          {
+            "SpecialistId": "CB"
+          },
+          {
+            "SpecialistId": "CO"
+          },
+          {
+            "SpecialistId": "L"
+          },
+          {
+            "SpecialistId": "M"
+          },
+          {
+            "SpecialistId": "SC"
+          },
+          {
+            "SpecialistId": "V"
+          }
+        ],
+        "ModelProfileWeapons": [],
+        "CostOverrides": [],
+        "LevelCosts": []
+      },
+      {
+        "Id": "ASS2",
+        "Movement": 7,
+        "WeaponSkill": 3,
+        "BallisticSkill": 3,
+        "Strength": 3,
+        "Toughness": 3,
+        "Wounds": 1,
+        "Attacks": "1",
+        "Leadership": 7,
+        "Save": 5,
+        "MaximumNumber": 2,
+        "Cost": 7,
+        "NameEn": "Storm Guardian Gunner",
+        "NameFr": "Storm Guardian Gunner",
+        "NameDe": "Storm Guardian Gunner",
+        "IsCommander": false,
+        "NumberOfKnownPsychics": 0,
+        "NumberOfPsychicsManifestationPerRound": 0,
+        "NumberOfPsychicsDenialPerRound": 0,
+        "WarGearOptions": [
+          {
+            "Id": "66",
+            "MaximumPerTeam": 0,
+            "Operation": "PSH&LAE:LF|FUF",
+            "Exclusion": null
+          }
+        ],
+        "Specialists": [
+          {
+            "SpecialistId": "CB"
+          },
+          {
+            "SpecialistId": "CO"
+          },
+          {
+            "SpecialistId": "L"
+          },
+          {
+            "SpecialistId": "M"
+          },
+          {
+            "SpecialistId": "SC"
+          },
+          {
+            "SpecialistId": "V"
+          }
+        ],
+        "ModelProfileWeapons": [],
+        "CostOverrides": [],
+        "LevelCosts": []
+      }
+    ],
+    "ModelWeapons": [
+      {
+        "WeaponId": "GPL"
+      },
+      {
+        "WeaponId": "LAE"
+      },
+      {
+        "WeaponId": "PSH"
+      }
+    ],
+    "WarGearOptions": [
+      {
+        "Id": "65",
+        "MaximumPerTeam": 0,
+        "Operation": "LAE:EPT",
+        "Exclusion": null
+      }
+    ]
+  },
+  {
+    "Id": "ASSHB",
+    "NameEn": "Howling Banshee",
+    "NameFr": "Howling Banshee",
+    "NameDe": "Howling Banshee",
+    "KeywordsEn": "AELDARI, ASPECT WARRIOR, INFANTRY, HOWLING BANSHEE",
+    "KeywordsFr": "AELDARI, GUERRIER ASPECT, INFANTERIE, HOWLING BANSHEE",
+    "KeywordsDe": "AELDARI, ASPECT WARRIOR, INFANTERIE, HOWLING BANSHEE",
+    "ModelProfiles": [
+      {
+        "Id": "ASSHB",
+        "Movement": 8,
+        "WeaponSkill": 3,
+        "BallisticSkill": 3,
+        "Strength": 3,
+        "Toughness": 3,
+        "Wounds": 1,
+        "Attacks": "2",
+        "Leadership": 8,
+        "Save": 4,
+        "MaximumNumber": 0,
+        "Cost": 11,
+        "NameEn": "Howling Banshee",
+        "NameFr": "Howling Banshee",
+        "NameDe": "Howling Banshee",
+        "IsCommander": false,
+        "NumberOfKnownPsychics": 0,
+        "NumberOfPsychicsManifestationPerRound": 0,
+        "NumberOfPsychicsDenialPerRound": 0,
+        "WarGearOptions": [],
+        "Specialists": [
+          {
+            "SpecialistId": "CB"
+          },
+          {
+            "SpecialistId": "CO"
+          },
+          {
+            "SpecialistId": "V"
+          },
+          {
+            "SpecialistId": "Z"
+          }
+        ],
+        "ModelProfileWeapons": [],
+        "CostOverrides": [],
+        "LevelCosts": []
+      },
+      {
+        "Id": "ASSHBE",
+        "Movement": 8,
+        "WeaponSkill": 3,
+        "BallisticSkill": 3,
+        "Strength": 3,
+        "Toughness": 3,
+        "Wounds": 2,
+        "Attacks": "3",
+        "Leadership": 8,
+        "Save": 4,
+        "MaximumNumber": 1,
+        "Cost": 14,
+        "NameEn": "Howling Banshee Exarch",
+        "NameFr": "Howling Banshee Exarch",
+        "NameDe": "Howling Banshee Exarch",
+        "IsCommander": false,
+        "NumberOfKnownPsychics": 0,
+        "NumberOfPsychicsManifestationPerRound": 0,
+        "NumberOfPsychicsDenialPerRound": 0,
+        "WarGearOptions": [
+          {
+            "Id": "365",
+            "MaximumPerTeam": 0,
+            "Operation": "EPE2:ASEXER",
+            "Exclusion": null
+          },
+          {
+            "Id": "366",
+            "MaximumPerTeam": 0,
+            "Operation": "PSH&EPE2:ASMISS",
+            "Exclusion": null
+          }
+        ],
+        "Specialists": [
+          {
+            "SpecialistId": "CB"
+          },
+          {
+            "SpecialistId": "CO"
+          },
+          {
+            "SpecialistId": "L"
+          },
+          {
+            "SpecialistId": "V"
+          },
+          {
+            "SpecialistId": "Z"
+          }
+        ],
+        "ModelProfileWeapons": [],
+        "CostOverrides": [],
+        "LevelCosts": []
+      }
+    ],
+    "ModelWeapons": [
+      {
+        "WeaponId": "EPE2"
+      },
+      {
+        "WeaponId": "PSH"
+      }
+    ],
+    "WarGearOptions": []
+  },
+  {
+    "Id": "ASSP",
+    "NameEn": "Spiritseer",
+    "NameFr": "Spiritseer",
+    "NameDe": "Spiritseer",
+    "KeywordsEn": "AELDARI, SPIRIT HOST, COMMANDER, INFANTRY, PSYKER, SPIRITSEER",
+    "KeywordsFr": "AELDARI, SPIRIT HOST, COMMANDANT, INFANTERIE, PSYKER, SPIRITSEER",
+    "KeywordsDe": "AELDARI, SPIRIT HOST, KOMMANDEUR, INFANTERIE, PSIONIKER, SPIRITSEER",
+    "ModelProfiles": [
+      {
+        "Id": "ASSP",
+        "Movement": 7,
+        "WeaponSkill": 2,
+        "BallisticSkill": 2,
+        "Strength": 3,
+        "Toughness": 3,
+        "Wounds": 4,
+        "Attacks": "2",
+        "Leadership": 8,
+        "Save": 6,
+        "MaximumNumber": 1,
+        "Cost": 61,
+        "NameEn": "Spiritseer",
+        "NameFr": "Spiritseer",
+        "NameDe": "Spiritseer",
+        "IsCommander": true,
+        "NumberOfKnownPsychics": 1,
+        "NumberOfPsychicsManifestationPerRound": 1,
+        "NumberOfPsychicsDenialPerRound": 1,
+        "WarGearOptions": [],
+        "Specialists": [
+          {
+            "SpecialistId": "LE"
+          },
+          {
+            "SpecialistId": "ME"
+          },
+          {
+            "SpecialistId": "P"
+          },
+          {
+            "SpecialistId": "SE"
+          },
+          {
+            "SpecialistId": "ST"
+          }
+        ],
+        "ModelProfileWeapons": [],
+        "CostOverrides": [],
+        "LevelCosts": [
+          {
+            "Level": 1,
+            "Cost": 61
+          },
+          {
+            "Level": 2,
+            "Cost": 76
+          },
+          {
+            "Level": 3,
+            "Cost": 91
+          },
+          {
+            "Level": 4,
+            "Cost": 116
+          }
+        ]
+      }
+    ],
+    "ModelWeapons": [
+      {
+        "WeaponId": "ASWS"
+      },
+      {
+        "WeaponId": "PSH"
+      }
+    ],
+    "WarGearOptions": []
+  },
+  {
+    "Id": "ASSS",
+    "NameEn": "Striking Scorpion",
+    "NameFr": "Striking Scorpion",
+    "NameDe": "Striking Scorpion",
+    "KeywordsEn": "AELDARI, ASPECT WARRIOR, INFANTRY, STRIKING SCORPION",
+    "KeywordsFr": "AELDARI, GUERRIER ASPECT, INFANTERIE, STRIKING SCORPION",
+    "KeywordsDe": "AELDARI, ASPECT WARRIOR, INFANTERIE, STRIKING SCORPION",
+    "ModelProfiles": [
+      {
+        "Id": "ASSS",
+        "Movement": 7,
+        "WeaponSkill": 3,
+        "BallisticSkill": 3,
+        "Strength": 3,
+        "Toughness": 3,
+        "Wounds": 1,
+        "Attacks": "2",
+        "Leadership": 8,
+        "Save": 3,
+        "MaximumNumber": 0,
+        "Cost": 12,
+        "NameEn": "Striking Scorpion",
+        "NameFr": "Striking Scorpion",
+        "NameDe": "Striking Scorpion",
+        "IsCommander": false,
+        "NumberOfKnownPsychics": 0,
+        "NumberOfPsychicsManifestationPerRound": 0,
+        "NumberOfPsychicsDenialPerRound": 0,
+        "WarGearOptions": [],
+        "Specialists": [
+          {
+            "SpecialistId": "CB"
+          },
+          {
+            "SpecialistId": "D"
+          },
+          {
+            "SpecialistId": "SC"
+          },
+          {
+            "SpecialistId": "SE"
+          },
+          {
+            "SpecialistId": "V"
+          },
+          {
+            "SpecialistId": "Z"
+          }
+        ],
+        "ModelProfileWeapons": [],
+        "CostOverrides": [],
+        "LevelCosts": []
+      },
+      {
+        "Id": "ASSSE",
+        "Movement": 7,
+        "WeaponSkill": 3,
+        "BallisticSkill": 3,
+        "Strength": 3,
+        "Toughness": 3,
+        "Wounds": 2,
+        "Attacks": "3",
+        "Leadership": 8,
+        "Save": 3,
+        "MaximumNumber": 1,
+        "Cost": 14,
+        "NameEn": "Striking Scorpion Exarch",
+        "NameFr": "Striking Scorpion Exarch",
+        "NameDe": "Striking Scorpion Exarch",
+        "IsCommander": false,
+        "NumberOfKnownPsychics": 0,
+        "NumberOfPsychicsManifestationPerRound": 0,
+        "NumberOfPsychicsDenialPerRound": 0,
+        "WarGearOptions": [
+          {
+            "Id": "367",
+            "MaximumPerTeam": 0,
+            "Operation": "PSH:ASSCLW",
+            "Exclusion": null
+          },
+          {
+            "Id": "368",
+            "MaximumPerTeam": 0,
+            "Operation": "ASSCSD:ASBIBL",
+            "Exclusion": null
+          }
+        ],
+        "Specialists": [
+          {
+            "SpecialistId": "CB"
+          },
+          {
+            "SpecialistId": "D"
+          },
+          {
+            "SpecialistId": "L"
+          },
+          {
+            "SpecialistId": "SC"
+          },
+          {
+            "SpecialistId": "SE"
+          },
+          {
+            "SpecialistId": "V"
+          },
+          {
+            "SpecialistId": "Z"
+          }
+        ],
+        "ModelProfileWeapons": [],
+        "CostOverrides": [],
+        "LevelCosts": []
+      }
+    ],
+    "ModelWeapons": [
+      {
+        "WeaponId": "ASSCSD"
+      },
+      {
+        "WeaponId": "GPL"
+      },
+      {
+        "WeaponId": "PSH"
+      }
+    ],
+    "WarGearOptions": []
+  },
+  {
+    "Id": "ASW",
+    "NameEn": "Warlock",
+    "NameFr": "Warlock",
+    "NameDe": "Warlock",
+    "KeywordsEn": "AE LDARI, WARHOST, COMMANDER, INFANTRY, PSYKER, WARLOCK",
+    "KeywordsFr": "AE LDARI, WARHOST, COMMANDANT, INFANTERIE, PSYKER, WARLOCK",
+    "KeywordsDe": "AE LDARI, WARHOST, KOMMANDEUR, INFANTERIE, PSIONIKER, WARLOCK",
+    "ModelProfiles": [
+      {
+        "Id": "ASW",
+        "Movement": 7,
+        "WeaponSkill": 3,
+        "BallisticSkill": 3,
+        "Strength": 3,
+        "Toughness": 3,
+        "Wounds": 2,
+        "Attacks": "2",
+        "Leadership": 8,
+        "Save": 6,
+        "MaximumNumber": 1,
+        "Cost": 20,
+        "NameEn": "Warlock",
+        "NameFr": "Warlock",
+        "NameDe": "Warlock",
+        "IsCommander": true,
+        "NumberOfKnownPsychics": 1,
+        "NumberOfPsychicsManifestationPerRound": 1,
+        "NumberOfPsychicsDenialPerRound": 1,
+        "WarGearOptions": [
+          {
+            "Id": "220",
+            "MaximumPerTeam": 0,
+            "Operation": "W:SS",
+            "Exclusion": null
+          }
+        ],
+        "Specialists": [
+          {
+            "SpecialistId": "LH"
+          },
+          {
+            "SpecialistId": "LO"
+          },
+          {
+            "SpecialistId": "ME"
+          },
+          {
+            "SpecialistId": "P"
+          },
+          {
+            "SpecialistId": "SH"
+          }
+        ],
+        "ModelProfileWeapons": [
+          {
+            "WeaponId": "PSH"
+          },
+          {
+            "WeaponId": "W"
+          }
+        ],
+        "CostOverrides": [
+          {
+            "WeaponId": "SS",
+            "Cost": 3
+          }
+        ],
+        "LevelCosts": [
+          {
+            "Level": 1,
+            "Cost": 20
+          },
+          {
+            "Level": 2,
+            "Cost": 25
+          },
+          {
+            "Level": 3,
+            "Cost": 40
+          },
+          {
+            "Level": 4,
+            "Cost": 60
+          }
+        ]
+      }
+    ],
+    "ModelWeapons": [],
+    "WarGearOptions": []
+  },
+  {
+    "Id": "ASWB",
+    "NameEn": "Wraithblade",
+    "NameFr": "Wraithblade",
+    "NameDe": "Wraithblade",
+    "KeywordsEn": "AELDARI, SPIRIT HOST, INFANTRY, WRAITH CONSTRUCT, WRAITHBLADE",
+    "KeywordsFr": "AELDARI, SPIRIT HOST, INFANTERIE, WRAITH CONSTRUCT, WRAITHBLADE",
+    "KeywordsDe": "AELDARI, SPIRIT HOST, INFANTERIE, WRAITH-KONSTRUKT, WRAITHBLADE",
+    "ModelProfiles": [
+      {
+        "Id": "ASWB",
+        "Movement": 5,
+        "WeaponSkill": 3,
+        "BallisticSkill": 3,
+        "Strength": 5,
+        "Toughness": 6,
+        "Wounds": 3,
+        "Attacks": "2",
+        "Leadership": 9,
+        "Save": 3,
+        "MaximumNumber": 0,
+        "Cost": 36,
+        "NameEn": "Wraithblade",
+        "NameFr": "Wraithblade",
+        "NameDe": "Wraithblade",
+        "IsCommander": false,
+        "NumberOfKnownPsychics": 0,
+        "NumberOfPsychicsManifestationPerRound": 0,
+        "NumberOfPsychicsDenialPerRound": 0,
+        "WarGearOptions": [],
+        "Specialists": [
+          {
+            "SpecialistId": "CB"
+          },
+          {
+            "SpecialistId": "V"
+          },
+          {
+            "SpecialistId": "Z"
+          }
+        ],
+        "ModelProfileWeapons": [],
+        "CostOverrides": [],
+        "LevelCosts": []
+      }
+    ],
+    "ModelWeapons": [
+      {
+        "WeaponId": "ASCHSD"
+      }
+    ],
+    "WarGearOptions": [
+      {
+        "Id": "369",
+        "MaximumPerTeam": 0,
+        "Operation": "ASCHSD:ASGHBE&ASFS",
+        "Exclusion": null
+      }
+    ]
+  },
+  {
+    "Id": "ASWG",
+    "NameEn": "Wraithguard",
+    "NameFr": "Wraithguard",
+    "NameDe": "Wraithguard",
+    "KeywordsEn": "AELDARI, SPIRIT HOST, INFANTRY, WRAITH CONSTRUCT, WRAITHGUARD",
+    "KeywordsFr": "AELDARI, SPIRIT HOST, INFANTERIE, WRAITH CONSTRUCT, WRAITHGUARD",
+    "KeywordsDe": "AELDARI, SPIRIT HOST, INFANTERIE, WRAITH-kONSTRUKT, WRAITHGUARD",
+    "ModelProfiles": [
+      {
+        "Id": "ASWG",
+        "Movement": 5,
+        "WeaponSkill": 3,
+        "BallisticSkill": 3,
+        "Strength": 5,
+        "Toughness": 6,
+        "Wounds": 3,
+        "Attacks": "1",
+        "Leadership": 9,
+        "Save": 3,
+        "MaximumNumber": 0,
+        "Cost": 41,
+        "NameEn": "Wraithguard",
+        "NameFr": "Wraithguard",
+        "NameDe": "Wraithguard",
+        "IsCommander": false,
+        "NumberOfKnownPsychics": 0,
+        "NumberOfPsychicsManifestationPerRound": 0,
+        "NumberOfPsychicsDenialPerRound": 0,
+        "WarGearOptions": [],
+        "Specialists": [
+          {
+            "SpecialistId": "AL"
+          },
+          {
+            "SpecialistId": "D"
+          },
+          {
+            "SpecialistId": "V"
+          }
+        ],
+        "ModelProfileWeapons": [],
+        "CostOverrides": [],
+        "LevelCosts": []
+      }
+    ],
+    "ModelWeapons": [
+      {
+        "WeaponId": "ASWRCN"
+      },
+      {
+        "WeaponId": "ASWRFS"
+      }
+    ],
+    "WarGearOptions": [
+      {
+        "Id": "370",
+        "MaximumPerTeam": 0,
+        "Operation": "ASWRCN:ASDSCY",
+        "Exclusion": null
+      }
+    ]
+  }
+]

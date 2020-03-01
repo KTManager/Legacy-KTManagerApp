@@ -1,0 +1,80 @@
+[
+  {
+    "Id": "32",
+    "ModelProfileId": "GCZ",
+    "WarpCharge": 6,
+    "Dices": 1,
+    "NameEn": "Paralysing hypnosis",
+    "NameFr": "Hypnose",
+    "NameDe": "Paralysierende Hypnose",
+    "DescriptionEn": "If manifested; select a visible enemy model within 18\" of the psyker. Until the start of\r\nthe next Psychic phase, the target cannot fire Overwatch, cannot be chosen to fight until\r\nall other models able to do so have fought in the Fight phase (even if it charged), and must subtract 1 from its hit rolls.",
+    "DescriptionFr": "S'il est manifesté, choisissez une figurine ennemie visible à 18\" du psyker. Jusqu'au début de la prochaine phase psychique, la cible ne peut pas tirer en état d'alerte, ne peut être choisie pour combattre tant que toutes les figurines en mesure de le faire aient combattu à la phase de combat (même si elle a chargée), et doit soustraire 1 à ses jets de touche.",
+    "DescriptionDe": "Wird sie erfolgreich manifestiert, wähle ein feindliches Modell innerhalb von 18'' um den Psioniker, das er sehen kann. Bis zum Beginn der nächsten Psiphase darf das Modell kein Abwehrfeuer geben und darf in der Nahkampfphase erst zum kämpfen gewählt werden, nachdem alle anderen Modelle, die dazu in der Lage sind, gekämpft haben (selbst wenn dieses Modell angegriffen hat), und es muss 1 von seinen Trefferwürfen abziehen.",
+    "Commander": true
+  },
+  {
+    "Id": "33",
+    "ModelProfileId": "GCZ",
+    "WarpCharge": 6,
+    "Dices": 2,
+    "NameEn": "Mind control",
+    "NameFr": "Contrôle nerveux",
+    "NameDe": "Gedankenkontrolle",
+    "DescriptionEn": "If manifested, pick an enemy model within 12\" of the psyker and roll 3D6. If the score is less than that model's Leadership characteristic nothing happens. If it is equal to or greater, that model immediately shoots another enemy model of your choice as if it were the Shooting phase, \r\nor makes a single close combat attack against another enemy model within 1\" as if it were the Fight phase, as if it were part of your kill team.",
+    "DescriptionFr": "S'il est manifesté, choisissez une figurine ennemie à 12\" du psyker et jetez 3D6. Si le résultat est inférieur à la caractéristique de Commandement de la figurine, rine ne se produit. S'il est égal ou supérieur, cette figurine tire immédiatement une autre figurine ennemie de votre choix comme si c'était la phase de Tir.",
+    "DescriptionDe": "Wird sie erfolgreich manifestiert, wähle ein feindliches Modell innerhalb von 12'' um den Psioniker und wirf 3W6. Liegt das Ergebnis unter dem Moralwert des Ziels, geschieht nichts. Ist es gleich oder höher, schießt das Modell sofort wie in der Fernkampfphase auf ein anderes feindliches Modell deiner Wahl oder führt wie in der Nahkampfphase eine einzelne Nahkampfattacke gegen ein feindliches Modell deiner Wahl innerhalb von 1'' durch, als würde es zu deinem Kill Team gehören.",
+    "Commander": true
+  },
+  {
+    "Id": "34",
+    "ModelProfileId": "GCZ",
+    "WarpCharge": 6,
+    "Dices": 3,
+    "NameEn": "Might from beyond",
+    "NameFr": "Force occulte",
+    "NameDe": "Extragalaktische Macht",
+    "DescriptionEn": "If manifested, select a friendly model within 18\" of the psyker. Add 1 to the Strength and Attacks characteristics of that model until the start of the next Psychic phase.",
+    "DescriptionFr": "S'il est manifesté, choisissez une figurine amie à 18\" du psyker. Ajoutez 1 aux caractéristiques de Force et d'Attaque de cette figurine jusqu'au début de la prochaine phase psychique.",
+    "DescriptionDe": "Wird sie erfolgreich manifestiert, wähle ein befreundetes Modell innerhalb von 18'' um den Psioniker. Bis zum Beginn der nächsten Psiphase erhöhen sich die Profilwerte Stärke und Attacken des Modells um je 1.",
+    "Commander": true
+  },
+  {
+    "Id": "35",
+    "ModelProfileId": "GCH",
+    "WarpCharge": 4,
+    "Dices": 1,
+    "NameEn": "Dominion",
+    "NameFr": "Domination",
+    "NameDe": "Herrschaft",
+    "DescriptionEn": "If manifested, select a friendly model within 18\" of the psyker that has the Instinctive Behaviour ability. Until the start of the next Psychic phase, that model ignores its Instinctive Behaviour ability and automatically passes Nerve tests.",
+    "DescriptionFr": "S'il est manifesté, choisissez une figurine amie à 18\" du psyker avec l'aptitude Comportement instinctif. Jusqu'au début de la prochaine phase psychique, cette figurine ignore son aptitude comportement instinctif et réussit automatiquement ses test de sang froid.",
+    "DescriptionDe": "Wenn sie erfolgreich manifestiert wird, wähle ein befreundetes Modell innerhalb von 18'' um den Psioniker, das die Fähigkeit Instinktives Verhalten hat. Bis zum Beginn der nächsten Psiphase ignoriert dieses Modell die Effekte von Instinktives Verhalten und besteht automatisch sämtliche Nerventests.",
+    "Commander": true
+  },
+  {
+    "Id": "36",
+    "ModelProfileId": "GCH",
+    "WarpCharge": 5,
+    "Dices": 2,
+    "NameEn": "Catalyst",
+    "NameFr": "Catalyseur",
+    "NameDe": "Katalyst",
+    "DescriptionEn": "If manifested, select a friendly model within \r\n18\" of the psyker. Until the start of the next Psychic phase, roll a D6 each time that model loses a wound. On a 5+ that wound is not lost. If a model already has an ability with a similar effect, you can choose which effect applies, and re-roll ls when making these rolls.",
+    "DescriptionFr": "S'il est manifesté, choisissez une figurine amie à 18\" du psyker. Jusqu'au début de la prochaine phase psychique, jetez un D6 lorsqu'une figurne amie à 6\" du psyker perd un PV; sur 5+ ce PV n'est pas perdu. Si la figurine dispose d'une aptitude similaire, vous pouvez choisir quel effet s'applique, et relancer les 1 obtenus sur le jet de dé.",
+    "DescriptionDe": "Wenn die Psikraft erfolgreich manifestiert wird, wähle ein befreundetes Modell innerhalb von 18'' um den Psioniker. Bis zum Beginn der nächsten Psiphase wirfst du jedes Mal, wenn das Modell einen Lebenspunkt verliert, einen W6. Bei 5+ verliert es den Lebenspunkt nicht. Hat das Modell bereits eine Fähigkeit mit ähnlichem Effekt, entscheidest du, welcher Effekt angewendet wird, und wiederholst eine gewürfelte 1.",
+    "Commander": true
+  },
+  {
+    "Id": "37",
+    "ModelProfileId": "GCH",
+    "WarpCharge": 5,
+    "Dices": 3,
+    "NameEn": "The horror",
+    "NameFr": "L'horreur",
+    "NameDe": "Das Grauen",
+    "DescriptionEn": "If manifested, select an enemy model within \r\n18\" of and visible to the psyker. Until the \r\nstart of the next Psychic phase, that model must subtract 1 from their hit rolls and Leadership characteristic.",
+    "DescriptionFr": "S'il est manifesté, choisissez une figurine ennemie visible du psyker et à 18\" de celui-ci. Jusqu'au début de la prochaine phase psychique, cette figurine doit soustraire 1 à ses jets de touche et à sa caractéristique de Commandement.",
+    "DescriptionDe": "Wenn es erfolgreich manifestiert wurde, wähle ein feindliches Modell innerhalb von 18'' um den Psioniker, das er sehen kann. Bis zum Beginn der nächsten Psiphase muss das gewählte Modell 1 von seinen Trefferwürfen und 1 von seinem Moralwert abziehen.",
+    "Commander": true
+  }
+]

@@ -1,0 +1,25 @@
+name: msbuild
+
+on: [push, pull_request]
+
+jobs:
+  android:
+
+    runs-on: windows-latest
+
+    steps:
+    - uses: actions/checkout@v2
+
+    - name: Setup MSBuild
+      uses: microsoft/setup-msbuild@v1
+      with:
+        vs-version: 16.4
+    
+    - name: Setup Nuget
+      uses: warrenbuckley/Setup-Nuget@v1
+
+    - name: Nuget restore
+      run: nuget restore
+
+    - name: Build with msbuild
+      run: msbuild KillTeam.Android\KillTeam.Android.csproj /t:Rebuild /p:Configuration=Debug

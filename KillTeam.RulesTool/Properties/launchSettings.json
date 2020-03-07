@@ -2,7 +2,7 @@
   "profiles": {
     "KillTeam.RulesTool": {
       "commandName": "Project",
-      "commandLineArgs": "cost GK"
+      "commandLineArgs": "dump"
     }
   }
 }

@@ -123,14 +123,32 @@ namespace KillTeam.RulesTool
                     Faction = faction,
                 };
 
-                var result = await RunCost(cost_opts);
+                int result;
+                try
+                {
+                    result = await RunCost(cost_opts);
+                }
+                catch (Exception e)
+                {
+                    Console.WriteLine(e.ToString());
+                    result = 1;
+                }
                 if (result != 0)
                 {
                     final_result = result;
                 }
 
                 cost_opts.All = true;
-                result = await RunCost(cost_opts);
+
+                try
+                {
+                    result = await RunCost(cost_opts);
+                }
+                catch (Exception e)
+                {
+                    Console.WriteLine(e.ToString());
+                    result = 1;
+                }
                 if (result != 0)
                 {
                     final_result = result;

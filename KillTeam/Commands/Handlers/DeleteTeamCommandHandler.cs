@@ -52,11 +52,5 @@ namespace KillTeam.Commands.Handlers
             KTContext.Db.Set<Team>().Remove(team);
             KTContext.Db.SaveChanges();
         }
-
-        private void Delete<T>(string id) where T : class
-        {
-            var entity = KTContext.Db.Set<T>().Find(id);
-            KTContext.Db.Set<T>().Remove(entity);
-        }
     }
 }

@@ -20,6 +20,24 @@
                     x:Name="loadingMessage"
                     VerticalOptions="Center" 
                     HorizontalOptions="CenterAndExpand" />
+
+                <ProgressBar Progress="{Binding Percent}">
+                    <ProgressBar.Triggers>
+                        <DataTrigger TargetType="ProgressBar" Binding="{Binding IsPercentNull}" Value="True">
+                            <Setter Property="IsVisible" Value="False" />
+                        </DataTrigger>
+                    </ProgressBar.Triggers>
+                </ProgressBar>
+
+                <Label Text="{Binding SubMessage}"
+                       VerticalOptions="Center"
+                       HorizontalOptions="CenterAndExpand">
+                    <Label.Triggers>
+                        <DataTrigger TargetType="Label" Binding="{Binding SubMessage}" Value="{x:Null}">
+                            <Setter Property="IsVisible" Value="False" />
+                        </DataTrigger>
+                    </Label.Triggers>
+                </Label>
             </StackLayout>
         </StackLayout>
     </ContentPage.Content>

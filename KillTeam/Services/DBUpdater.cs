@@ -8,14 +8,31 @@ using System.Text;
 
 namespace KillTeam.Services
 {
+    public class UpdateEventArgs : EventArgs
+    {
+        private string message;
+        private float? percent;
+        private string submessage;
+        public UpdateEventArgs(string message, float? percent = null, string submessage = null)
+        {
+            this.message = message;
+            this.percent = percent;
+            this.submessage = submessage;
+        }
+
+        public string Message => message;
+        public float? Percent => percent;
+        public string SubMessage => submessage;
+    }
+
     public class DBUpdater
     {
         private readonly string DBPath;
         private readonly RulesProviders.RulesProvider Provider;
-        private readonly EventHandler<string> Callback;
+        private readonly EventHandler<UpdateEventArgs> Callback;
         private readonly KTUserContext OldUdb;
 
-        public DBUpdater(string dbpath, RulesProviders.RulesProvider provider, EventHandler<string> callback = null)
+        public DBUpdater(string dbpath, RulesProviders.RulesProvider provider, EventHandler<UpdateEventArgs> callback = null)
         {
             DBPath = dbpath;
             Provider = provider;
@@ -27,11 +44,11 @@ namespace KillTeam.Services
             }
         }
 
-        private void Log(string msg)
+        private void Log(string msg, float? percent = null, string submessage = null)
         {
             if (this.Callback != null)
             {
-                Callback(this, msg);
+                Callback(this, new UpdateEventArgs(msg, percent, submessage));
             }
         }
 
@@ -75,7 +92,13 @@ namespace KillTeam.Services
                     Log($"Backing up old Database");
                     var replacements = JsonConvert.DeserializeObject<Dictionary<string, Dictionary<string, string>>>(Provider.GetReplacementsJSON());
                     Log($"Applying backup to new Databse");
-                    Sauvegarde.SetSerializedData(newUdb, Sauvegarde.GetSerializedData(backup), false, replacements);
+                    Sauvegarde.SetSerializedData(
+                        newUdb,
+                        Sauvegarde.GetSerializedData(backup),
+                        false,
+                        replacements,
+                        (float? p, string s) => Log(null, p, s)
+                    );
                 }
 
                 Log($"Applying New Database");

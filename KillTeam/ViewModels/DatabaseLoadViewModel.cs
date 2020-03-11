@@ -28,9 +28,16 @@ namespace KillTeam.ViewModels
             });
         }
 
-        private void OnUpdate(object _sender, string msg)
+        private void OnUpdate(object _sender, UpdateEventArgs e)
         {
-            Device.BeginInvokeOnMainThread(() => this.Message = msg);
+            Device.BeginInvokeOnMainThread(() => {
+                if (e.Message != null)
+                {
+                    this.Message = e.Message;
+                }
+                this.Percent = e.Percent;
+                this.SubMessage = e.SubMessage;
+            });
         }
 
         string message;
@@ -40,17 +47,38 @@ namespace KillTeam.ViewModels
                 if (message != value)
                 {
                     message = value;
-
-                    if (PropertyChanged != null)
-                    {
-                        PropertyChanged(this, new PropertyChangedEventArgs(nameof(Message)));
-                    }
+                    PropertyChanged?.Invoke(this, new PropertyChangedEventArgs(nameof(Message)));
                 }
             }
 
-            get {
-                return message;
+            get => message;
+        }
+
+        float? percent;
+        public float? Percent {
+            set {
+                if (percent != value)
+                {
+                    percent = value;
+                    PropertyChanged?.Invoke(this, new PropertyChangedEventArgs(nameof(Percent)));
+                    PropertyChanged?.Invoke(this, new PropertyChangedEventArgs(nameof(IsPercentNull)));
+                }
             }
+            get => percent != null ? percent : 0;
+        }
+
+        public bool IsPercentNull => percent == null;
+
+        string submessage;
+        public string SubMessage {
+            set {
+                if (submessage != value)
+                {
+                    submessage = value;
+                    PropertyChanged?.Invoke(this, new PropertyChangedEventArgs(nameof(SubMessage)));
+                }
+            }
+            get => submessage;
         }
     }
 }

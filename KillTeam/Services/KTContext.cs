@@ -14,9 +14,11 @@ namespace KillTeam.Services
         public static IKTContext Db => _Db.Value;
         private static readonly Lazy<KTUserContext> _Db;
 
+        public static event EventHandler<string> UpdateEvent;
+
         static KTContext()
         {
-            _Db = new Lazy<KTUserContext>(() => new DBUpdater(DBPath, Provider).GetUpdatedContext());
+            _Db = new Lazy<KTUserContext>(() => new DBUpdater(DBPath, Provider, UpdateEvent).GetUpdatedContext());
             Debug.WriteLine("Successfully created the global db");
         }
 

@@ -14,7 +14,7 @@ namespace KillTeam.Services
         public static IKTContext Db => _Db.Value;
         private static readonly Lazy<KTUserContext> _Db;
 
-        public static event EventHandler<string> UpdateEvent;
+        public static event EventHandler<UpdateEventArgs> UpdateEvent;
 
         static KTContext()
         {

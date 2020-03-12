@@ -1,4 +1,5 @@
-﻿using KillTeam.ViewModels;
+﻿using KillTeam.Commands.Handlers;
+using KillTeam.ViewModels;
 using Xamarin.Forms;
 using Xamarin.Forms.PlatformConfiguration.iOSSpecific;
 using Xamarin.Forms.Xaml;
@@ -13,7 +14,9 @@ namespace KillTeam.Views
             InitializeComponent();
             On<Xamarin.Forms.PlatformConfiguration.iOS>().SetUseSafeArea(true);
 
-            var vm = new ListEquipesViewModel(ToolbarItems);
+            var deleteTeamCommandHandler = new DeleteTeamCommandHandler();
+            
+            var vm = new ListEquipesViewModel(ToolbarItems, deleteTeamCommandHandler);
             BindingContext = vm;
         }
 

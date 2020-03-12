@@ -1,10 +1,10 @@
-﻿using System;
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
 using System.Collections.ObjectModel;
-using System.ComponentModel;
 using System.Linq;
 using System.Threading.Tasks;
 using System.Windows.Input;
+using KillTeam.Commands;
+using KillTeam.Commands.Handlers;
 using KillTeam.Models;
 using KillTeam.Resx;
 using KillTeam.Services;
@@ -31,7 +31,7 @@ namespace KillTeam.ViewModels
         public ToolbarItem ButtonLang;
         public ToolbarItem ButtonCredits;
 
-        public ListEquipesViewModel(IList<ToolbarItem> toolbarItems)
+        public ListEquipesViewModel(IList<ToolbarItem> toolbarItems, IHandleCommands<DeleteTeamCommand> deleteTeamCommandHandler)
         {
             ListItems = new ObservableCollection<Team>();
             AddTeam = new Command(() => AddTeamExecuted());
@@ -75,6 +75,8 @@ namespace KillTeam.ViewModels
             ToolbarItems.Add(ButtonDeco);
             ToolbarItems.Add(ButtonLang);
             ToolbarItems.Add(ButtonCredits);
+
+            _deleteTeamCommandHandler = deleteTeamCommandHandler;
         }
 
         public async Task OpenTeamExecuted(Team equipe)
@@ -161,40 +163,11 @@ namespace KillTeam.ViewModels
 
         public async Task DeleteExecuted(Team team)
         {
-            FindAllForTeam<MemberTrait>(m => m.Member.TeamId == team.Id)
-                .ForEach(mt => SetEntityToDeleted<MemberTrait>(mt.Id));
-            
-            FindAllForTeam<MemberPower>(p => p.Member.TeamId == team.Id)
-                .ForEach(mp => SetEntityToDeleted<MemberPower>(mp.Id));
-            
-            FindAllForTeam<MemberWeapon>(a => a.Member.TeamId == team.Id)
-                .ForEach(ma => SetEntityToDeleted<MemberWeapon>(ma.Id));
+            _deleteTeamCommandHandler.Handle(new DeleteTeamCommand(team.Id));   
 
-            FindAllForTeam<MemberPsychic>(p => p.Member.TeamId == team.Id)
-                .ForEach(mp => SetEntityToDeleted<MemberPsychic>(mp.Id));
-            
-            FindAllForTeam<MemberWarGearOption>(r => r.Member.TeamId == team.Id)
-                .ForEach(mr => SetEntityToDeleted<MemberWarGearOption>(mr.Id));
-            
-            FindAllForTeam<Member>(m => m.TeamId == team.Id)
-                .ForEach(m => SetEntityToDeleted<Member>(m.Id));
-
-            SetEntityToDeleted<Team>(team.Id);
-            
-            KTContext.Db.SaveChanges();
-            
             await UpdateListItems();
         }
 
-        private static List<T> FindAllForTeam<T>(Func<T, bool> predicate) where T : class
-        {
-            return KTContext.Db.Set<T>().AsNoTracking().AsEnumerable().Where(predicate).ToList();
-        }
-
-        public void SetEntityToDeleted<T>(string id) where T : class
-        {
-            var entity = KTContext.Db.Set<T>().Find(id);
-            KTContext.Db.Entry(entity).State = EntityState.Deleted;
-        }
+        private readonly IHandleCommands<DeleteTeamCommand> _deleteTeamCommandHandler;
     }
 }

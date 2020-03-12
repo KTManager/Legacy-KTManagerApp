@@ -382,7 +382,23 @@
             "Exclusion": null
           }
         ],
-        "Specialists": [],
+        "Specialists": [
+          {
+            "SpecialistId": "LE"
+          },
+          {
+            "SpecialistId": "CB"
+          },
+          {
+            "SpecialistId": "D"
+          },
+          {
+            "SpecialistId": "V"
+          },
+          {
+            "SpecialistId": "Z"
+          }
+        ],
         "ModelProfileWeapons": [
           {
             "WeaponId": "COB"

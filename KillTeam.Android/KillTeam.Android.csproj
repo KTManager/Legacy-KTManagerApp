@@ -20,11 +20,7 @@
     <AndroidHttpClientHandlerType>Xamarin.Android.Net.AndroidClientHandler</AndroidHttpClientHandlerType>
     <NuGetPackageImportStamp>
     </NuGetPackageImportStamp>
-    <AndroidKeyStore>true</AndroidKeyStore>
-    <AndroidSigningKeyStore>$([System.IO.Path]::Combine($(MSBuildProjectDirectory), `KillTeam.keystore`))</AndroidSigningKeyStore>
-    <AndroidSigningStorePass>KillTeamManager</AndroidSigningStorePass>
-    <AndroidSigningKeyPass>KillTeamManager</AndroidSigningKeyPass>
-    <AndroidSigningKeyAlias>KillTeam</AndroidSigningKeyAlias>
+    <AndroidKeyStore>false</AndroidKeyStore>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -45,6 +41,10 @@
     <AndroidDexTool>d8</AndroidDexTool>
     <AndroidEnableSGenConcurrent>true</AndroidEnableSGenConcurrent>
     <AndroidSigningKeyStore>$([System.IO.Path]::Combine($(MSBuildProjectDirectory), `..`, `..`, `keys`, `KillTeam.keystore`))</AndroidSigningKeyStore>
+    <AndroidSigningStorePass>KillTeamManager</AndroidSigningStorePass>
+    <AndroidSigningKeyPass>KillTeamManager</AndroidSigningKeyPass>
+    <AndroidSigningKeyAlias>KillTeam</AndroidSigningKeyAlias>
+    <AndroidKeyStore>true</AndroidKeyStore>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
     <DebugSymbols>false</DebugSymbols>

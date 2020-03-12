@@ -1014,7 +1014,7 @@
           {
             "Id": "49",
             "MaximumPerTeam": 1,
-            "Operation": "BO:BOL",
+            "Operation": "BO:BOL|LM|AC",
             "Exclusion": null
           }
         ],
@@ -1072,7 +1072,7 @@
           {
             "Id": "51",
             "MaximumPerTeam": 0,
-            "Operation": "BO:EPT|EPE|GEN",
+            "Operation": "BO:EPT|HACHAX|EPE|MAE|PAX|GEN",
             "Exclusion": null
           }
         ],

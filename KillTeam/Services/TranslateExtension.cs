@@ -2,6 +2,7 @@
 using System.Globalization;
 using System.Reflection;
 using System.Resources;
+using KillTeam.Properties;
 using Microsoft.AppCenter.Crashes;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
@@ -12,9 +13,9 @@ namespace KillTeam.Services
     [ContentProperty("Text")]
     public class TranslateExtension : IMarkupExtension
     {
-        const string ResourceId = "KillTeam.Resx.Translate";
+        const string RESOURCE_ID = "KillTeam.Properties.Resources";
 
-        static readonly Lazy<ResourceManager> ResMgr = new Lazy<ResourceManager>(() => new ResourceManager(ResourceId, IntrospectionExtensions.GetTypeInfo(typeof(TranslateExtension)).Assembly));
+        static readonly Lazy<ResourceManager> _resMgr = new Lazy<ResourceManager>(() => new ResourceManager(RESOURCE_ID, typeof(TranslateExtension).GetTypeInfo().Assembly));
 
         public string Text { get; set; }
 
@@ -30,14 +31,14 @@ namespace KillTeam.Services
                 }
                 try
                 {
-                    ResMgr.Value.GetString("AddEquipeButton", Ci);
+                    _resMgr.Value.GetString("AddEquipeButton", Ci);
                 }
                 catch (MissingManifestResourceException  ex)
                 {
                     Crashes.TrackError(ex);
                     Ci = DependencyService.Get<ILocalize>().GetDefaultCultureInfo(); ;
                 }
-                Resx.Translate.Culture = Ci;
+                Resources.Culture = Ci;
             }
             /*IServiceProvider serviceProvider;
             ProvideValue(serviceProvider);*/
@@ -48,12 +49,12 @@ namespace KillTeam.Services
             if (Text == null)
                 return string.Empty;
 
-            string translation = ResMgr.Value.GetString(Text, Ci);
+            string translation = _resMgr.Value.GetString(Text, Ci);
             if (translation == null)
             {
 #if DEBUG
                 throw new ArgumentException(
-                    string.Format("Key '{0}' was not found in resources '{1}' for culture '{2}'.", Text, ResourceId, Ci.Name),
+                    string.Format("Key '{0}' was not found in resources '{1}' for culture '{2}'.", Text, RESOURCE_ID, Ci.Name),
                     "Text");
 #else
 				translation = Text; // HACK: returns the key, which GETS DISPLAYED TO THE USER

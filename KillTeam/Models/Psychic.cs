@@ -69,7 +69,7 @@ namespace KillTeam.Models
         {
             get
             {
-                return ModelProfileId == null ? "" : Resx.Translate.Discipline;
+                return ModelProfileId == null ? "" : Properties.Resources.Discipline;
             }
         }
 

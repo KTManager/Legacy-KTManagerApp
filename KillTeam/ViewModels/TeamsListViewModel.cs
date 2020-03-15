@@ -6,9 +6,8 @@ using System.Windows.Input;
 using KillTeam.Commands;
 using KillTeam.Commands.Handlers;
 using KillTeam.Models;
-using KillTeam.Resx;
+using KillTeam.Properties;
 using KillTeam.Services;
-using KillTeam.Views;
 using Microsoft.EntityFrameworkCore;
 using Xamarin.Forms;
 
@@ -16,7 +15,7 @@ namespace KillTeam.ViewModels
 {
     public class TeamsListViewModel
     {
-        public ObservableCollection<Team> ListItems { get; set; }
+        public ObservableCollection<TeamsListTeamViewModel> ListItems { get; set; }
         public IList<ToolbarItem> ToolbarItems { get; set; }
         public ICommand Sync { get; set; }
         public ICommand Logout { get; set; }
@@ -39,39 +38,39 @@ namespace KillTeam.ViewModels
 
         public TeamsListViewModel(IList<ToolbarItem> toolbarItems, IHandleCommands<DeleteTeamCommand> deleteTeamCommandHandler)
         {
-            ListItems = new ObservableCollection<Team>();
+            ListItems = new ObservableCollection<TeamsListTeamViewModel>();
             AddTeam = new Command(() => AddTeamExecuted());
             Credits = new Command(async () => await CreditsExecuted());
             Language = new Command(async () => await LanguageExecuted());
             Logout = new Command(() => LogoutExecuted());
             Sync = new Command(async () => await SyncExecuted());
             OpenTeam = new Command(async e => await OpenTeamExecuted(e as Team));
-            Delete = new Command(async e => await DeleteExecuted(e as Team));
+            Delete = new Command(async e => await DeleteExecuted(e as TeamsListTeamViewModel));
 
             ButtonSync = new ToolbarItem
             {
-                Text = Translate.Synchro,
+                Text = Resources.Synchro,
                 Order = ToolbarItemOrder.Secondary,
                 Command = Sync
             };
             
             ButtonDeco = new ToolbarItem
             {
-                Text = Translate.Deconnection,
+                Text = Resources.Deconnection,
                 Order = ToolbarItemOrder.Secondary,
                 Command = Logout
             };
             
             ButtonLang = new ToolbarItem
             {
-                Text = Translate.Language,
+                Text = Resources.Language,
                 Order = ToolbarItemOrder.Secondary,
                 Command = Language
             };
             
             ButtonCredits = new ToolbarItem
             {
-                Text = Translate.Remerciement,
+                Text = Resources.Remerciement,
                 Order = ToolbarItemOrder.Secondary,
                 Command = Credits
             };
@@ -133,7 +132,7 @@ namespace KillTeam.ViewModels
                                     .AsNoTracking()
                                     .OrderBy(post => post.Position)
                                     .ToListAsync();
-            teams.ForEach(i => ListItems.Add(i));
+            teams.ForEach(i => ListItems.Add(new TeamsListTeamViewModel(i.Id, i.Name, i.Cost, i.FactionNameAndMembersCount)));
         }
 
         public void AddTeamExecuted()
@@ -167,7 +166,7 @@ namespace KillTeam.ViewModels
             //await KTApp.Navigation.PushAsync(new RemerciementPage());
         }
 
-        public async Task DeleteExecuted(Team team)
+        public async Task DeleteExecuted(TeamsListTeamViewModel team)
         {
             _deleteTeamCommandHandler.Handle(new DeleteTeamCommand(team.Id));   
 

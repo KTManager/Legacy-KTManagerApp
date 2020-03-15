@@ -109,7 +109,7 @@ namespace KillTeam.Models
         {
             get
             {
-                return Cost + " " + Resx.Translate.Points;
+                return Cost + " " + Properties.Resources.Points;
             }
         }
 

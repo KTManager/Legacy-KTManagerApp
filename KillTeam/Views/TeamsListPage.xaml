@@ -1,71 +1,74 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             xmlns:i18N="clr-namespace:KillTeam.Services;assembly=KillTeam"
              xmlns:vm="clr-namespace:KillTeam.ViewModels"
-             xmlns:models="clr-namespace:KillTeam.Models"
+             xmlns:properties="clr-namespace:KillTeam.Properties"
              xmlns:d="http://xamarin.com/schemas/2014/forms/design"
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
              mc:Ignorable="d"
              x:Class="KillTeam.Views.TeamsListPage"
              Title="Kill Team Manager"
-             x:Name="ListEquipes">
-    <StackLayout>
-        <ListView  x:Name="EquipesListView" VerticalOptions="FillAndExpand" SelectionMode="None">
-            <d:ListView.ItemsSource>
-                <x:Array Type="{x:Type models:Team}">
-                    <vm:TeamsListViewModel>
-                        <vm:TeamsListViewModel.ListItems>
-                            <models:Team Name="Team 1" Faction="Thousand Sons" Position="0" Roster="false">
-                                <models:Team.Members>
-                                    <models:Member Name="Member 1" Position="0" Cost="20"/>
-                                    <models:Member Name="Member 2" Position="0" Cost="17"/>
-                                </models:Team.Members>
-                            </models:Team>
-                        </vm:TeamsListViewModel.ListItems>
-                    </vm:TeamsListViewModel>
-                    <vm:TeamsListViewModel>
-                        <vm:TeamsListViewModel.ListItems>
-                            <models:Team Name="Team 2" Faction="Death Guard" Position="1" Roster="false">
-                                <models:Team.Members>
-                                    <models:Member Name="Member 1" Position="0" Cost="20"/>
-                                    <models:Member Name="Member 2" Position="0" Cost="17"/>
-                                </models:Team.Members>
-                            </models:Team>
-                        </vm:TeamsListViewModel.ListItems>
-                    </vm:TeamsListViewModel>
-                </x:Array>
-            </d:ListView.ItemsSource>
+             x:Name="TeamsList">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*" />
+            <RowDefinition Height="Auto" />
+        </Grid.RowDefinitions>
+
+        <ListView ItemsSource="{Binding ListItems}"
+                  VerticalOptions="FillAndExpand" 
+                  SelectionMode="None"
+                  RowHeight="80" Margin="0,5">
             <ListView.ItemTemplate>
-                <DataTemplate x:DataType="{x:Type models:Team}">
+                <DataTemplate x:DataType="{x:Type vm:TeamsListTeamViewModel}">
                     <ViewCell>
-                        <Grid>
-                            <Grid.RowDefinitions>
-                                <RowDefinition Height="*"/>
-                                <RowDefinition Height="*"/>
-                            </Grid.RowDefinitions>
-                            <Grid.ColumnDefinitions>
-                                <ColumnDefinition Width="*"/>
-                                <ColumnDefinition Width="Auto"/>
-                            </Grid.ColumnDefinitions>
+                        <Frame CornerRadius="8" Margin="5,2" BackgroundColor="White" Padding="10,5" HasShadow="True" BorderColor="#efefef">
+                            <Frame.GestureRecognizers>
+                                <SwipeGestureRecognizer Direction="Left,Right" Command="{Binding Source={x:Reference TeamsList}, Path=BindingContext.Delete}" CommandParameter="{Binding .}" />
+                            </Frame.GestureRecognizers>
+                            <Grid Margin="5">
+                                <Grid.RowDefinitions>
+                                    <RowDefinition Height="*"/>
+                                    <RowDefinition Height="*"/>
+                                </Grid.RowDefinitions>
+                                <Grid.ColumnDefinitions>
+                                    <ColumnDefinition Width="*"/>
+                                    <ColumnDefinition Width="Auto"/>
+                                </Grid.ColumnDefinitions>
 
-                            <StackLayout Grid.Row="0" Grid.Column="0" Orientation="Horizontal">
-                                <Label Text="{Binding Name}" FontSize="Large" Grid.Row="0" Grid.Column="1" />
-                            </StackLayout>
+                                <Label Text="{Binding Name}"
+                                   Grid.Row="0" Grid.Column="0" 
+                                   HorizontalOptions="Start" VerticalOptions="Center"
+                                   FontSize="Large" />
 
-                            <Label Text="{Binding Cost}" HorizontalOptions="Start" FontSize="Large" VerticalOptions="Center" Grid.Row="0" Grid.Column="1" Grid.RowSpan="2" />
+                                <Label Text="{Binding Cost}" 
+                                   Grid.Row="0" Grid.Column="1" Grid.RowSpan="2"
+                                   HorizontalOptions="Center" VerticalOptions="Center"
+                                   FontSize="Large"/>
 
-                            <Label Text="{Binding FactionNameAndMembersCount}" HorizontalOptions="Start" FontSize="Small" VerticalOptions="Center" Grid.Row="1" Grid.Column="0" />
-                        </Grid>
+                                <Label Text="{Binding FactionAndMembersCount}" 
+                                   Grid.Row="1" Grid.Column="0"
+                                   HorizontalOptions="Start" VerticalOptions="Center"
+                                   FontSize="Small" />
+                            </Grid>
+                        </Frame>
                     </ViewCell>
                 </DataTemplate>
             </ListView.ItemTemplate>
+
+            <d:ListView.ItemsSource>
+                <x:Array Type="{x:Type vm:TeamsListTeamViewModel}">
+                    <vm:TeamsListTeamViewModel Name="Team 1" Cost="98" FactionAndMembersCount="Thousand Sons - 6 Members" />
+                    <vm:TeamsListTeamViewModel Name="Team 2" Cost="100" FactionAndMembersCount="Death Guard - 7 Members" />
+                </x:Array>
+            </d:ListView.ItemsSource>
         </ListView>
 
-        <Button Text="{i18N:Translate AddEquipeButton}"
+        <Button Text="{x:Static properties:Resources.AddEquipeButton}"
+                Grid.Row="1"
                 WidthRequest="200"
-                VerticalOptions="CenterAndExpand"
+                VerticalOptions="Center"
                 HorizontalOptions="Center"
                 Command="{Binding AddTeam}" />
-    </StackLayout>
+    </Grid>
 </ContentPage>

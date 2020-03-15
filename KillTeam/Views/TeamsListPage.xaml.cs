@@ -16,14 +16,13 @@ namespace KillTeam.Views
 
             var deleteTeamCommandHandler = new DeleteTeamCommandHandler();
             
-            var vm = new TeamsListViewModel(ToolbarItems, deleteTeamCommandHandler);
-            BindingContext = vm;
+            var ctr = new TeamsListViewModel(ToolbarItems, deleteTeamCommandHandler);
+            BindingContext = ctr;
         }
 
         protected async override void OnAppearing()
         {
-            var binding = this.BindingContext as TeamsListViewModel;
-            if (binding != null)
+            if (this.BindingContext is TeamsListViewModel binding)
             {
                 await binding.Refresh();
             }

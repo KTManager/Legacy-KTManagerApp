@@ -1,5 +1,5 @@
 ﻿using System.Collections.Generic;
-using KillTeam.Resx;
+using KillTeam.Properties;
 using KillTeam.Services;
 using Newtonsoft.Json;
 

@@ -1,41 +1,41 @@
-﻿using System;
-using Xamarin.Forms;
+﻿using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
 using KillTeam.Views;
 using KillTeam.Services;
+
+#if !DEBUG
 using Microsoft.AppCenter;
 using Microsoft.AppCenter.Analytics;
 using Microsoft.AppCenter.Crashes;
+#endif
 
 [assembly: XamlCompilation(XamlCompilationOptions.Compile)]
 namespace KillTeam
 {
     public partial class KTApp : Application
     {
-        private const string SYNCFUSION_LICENSE = "MzIzNzhAMzEzNjJlMzMyZTMwS2VQY1lYdkNubDdzY09ySURNenlFK0hDQklsT0pNdmxPNXhsY0FPakFCbz0=";
+
+#if !DEBUG
         private const string ANDROID_SECRET = "6d5c2bed-d805-4345-904d-37da46738451";
         private const string IOS_SECRET = "656a7e6a-4297-44af-bb5e-3672dc169434";
-
-        public static INavigation Navigation {
-            get {
-                return KTApp.Current.MainPage.Navigation;
-            }
-        }
+#endif
+        public static INavigation Navigation => Current.MainPage.Navigation;
 
         public KTApp()
         {
             InitializeComponent();
-            Syncfusion.Licensing.SyncfusionLicenseProvider.RegisterLicense(SYNCFUSION_LICENSE);
-            if (Xamarin.Forms.Application.Current.Properties.ContainsKey("Language"))
+
+            if (Current.Properties.ContainsKey("Language"))
             {
-                string langue = (string)Xamarin.Forms.Application.Current.Properties["Language"];
-                if (!string.IsNullOrEmpty(langue))
+                var language = (string)Current.Properties["Language"];
+                if (!string.IsNullOrEmpty(language))
                 {
-                    TranslateExtension.Ci = new System.Globalization.CultureInfo(langue);
-                    StringExtensions.Ci = new System.Globalization.CultureInfo(langue);
+                    TranslateExtension.Ci = new System.Globalization.CultureInfo(language);
+                    StringExtensions.Ci = new System.Globalization.CultureInfo(language);
                 }
             }
-            MainPage = new NavigationPage(new DatabaseLoadPage());
+
+            MainPage = new NavigationPage(new TeamsListPage()); // new DatabaseLoadPage());
         }
 
         protected override void OnStart()

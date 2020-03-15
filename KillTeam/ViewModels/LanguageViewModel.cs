@@ -83,7 +83,7 @@ namespace KillTeam.ViewModels
                 Xamarin.Forms.Application.Current.Properties["Language"] = langue;
                 TranslateExtension.Ci = new System.Globalization.CultureInfo(langue);
                 StringExtensions.Ci = new System.Globalization.CultureInfo(langue);
-                Page mainPage = new NavigationPage(new ListEquipesPage());
+                Page mainPage = new NavigationPage(new TeamsListPage());
                 Application.Current.MainPage = mainPage;
             }
         }

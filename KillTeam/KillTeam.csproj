@@ -18,6 +18,58 @@
   </ItemGroup>
 
   <ItemGroup>
+    <Compile Remove="Services\IndexToColorConverter.cs" />
+    <Compile Remove="Services\PdfGeneration.cs" />
+    <Compile Remove="Views\AptitudeCell.xaml.cs" />
+    <Compile Remove="Views\AptitudeView.xaml.cs" />
+    <Compile Remove="Views\ChangeLevelPage.xaml.cs" />
+    <Compile Remove="Views\ChoixImpression.xaml.cs" />
+    <Compile Remove="Views\ConfigurationView.xaml.cs" />
+    <Compile Remove="Views\DatabaseLoadPage.xaml.cs" />
+    <Compile Remove="Views\EquipePage.xaml.cs" />
+    <Compile Remove="Views\FactionsPage.xaml.cs" />
+    <Compile Remove="Views\InGamePage.xaml.cs" />
+    <Compile Remove="Views\KickStarter.xaml.cs" />
+    <Compile Remove="Views\LanguagePage.xaml.cs" />
+    <Compile Remove="Views\ListAptitudePage.xaml.cs" />
+    <Compile Remove="Views\ListConfigsArmes.xaml.cs" />
+    <Compile Remove="Views\ListDeclinaisonPage.xaml.cs" />
+    <Compile Remove="Views\ListErreurPage.xaml.cs" />
+    <Compile Remove="Views\ListPsychiquePage.xaml.cs" />
+    <Compile Remove="Views\ListSpecialitesPage.xaml.cs" />
+    <Compile Remove="Views\ListTactiquePage.xaml.cs" />
+    <Compile Remove="Views\ListTraitPage.xaml.cs" />
+    <Compile Remove="Views\MembrePage.xaml.cs" />
+    <Compile Remove="Views\PsychiqueView.xaml.cs" />
+    <Compile Remove="Views\RemerciementPage.xaml.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Remove="Views\AptitudeCell.xaml" />
+    <EmbeddedResource Remove="Views\AptitudeView.xaml" />
+    <EmbeddedResource Remove="Views\ChangeLevelPage.xaml" />
+    <EmbeddedResource Remove="Views\ChoixImpression.xaml" />
+    <EmbeddedResource Remove="Views\ConfigurationView.xaml" />
+    <EmbeddedResource Remove="Views\DatabaseLoadPage.xaml" />
+    <EmbeddedResource Remove="Views\EquipePage.xaml" />
+    <EmbeddedResource Remove="Views\FactionsPage.xaml" />
+    <EmbeddedResource Remove="Views\InGamePage.xaml" />
+    <EmbeddedResource Remove="Views\KickStarter.xaml" />
+    <EmbeddedResource Remove="Views\LanguagePage.xaml" />
+    <EmbeddedResource Remove="Views\ListAptitudePage.xaml" />
+    <EmbeddedResource Remove="Views\ListConfigsArmes.xaml" />
+    <EmbeddedResource Remove="Views\ListDeclinaisonPage.xaml" />
+    <EmbeddedResource Remove="Views\ListErreurPage.xaml" />
+    <EmbeddedResource Remove="Views\ListPsychiquePage.xaml" />
+    <EmbeddedResource Remove="Views\ListSpecialitesPage.xaml" />
+    <EmbeddedResource Remove="Views\ListTactiquePage.xaml" />
+    <EmbeddedResource Remove="Views\ListTraitPage.xaml" />
+    <EmbeddedResource Remove="Views\MembrePage.xaml" />
+    <EmbeddedResource Remove="Views\PsychiqueView.xaml" />
+    <EmbeddedResource Remove="Views\RemerciementPage.xaml" />
+  </ItemGroup>
+
+  <ItemGroup>
     <None Remove="SharedAssets\Rules\abilities.json" />
     <None Remove="SharedAssets\Rules\factions\AdeptusAstartes\abilities.json" />
     <None Remove="SharedAssets\Rules\factions\AdeptusAstartes\faction.json" />
@@ -259,23 +311,16 @@
 
   <ItemGroup>
     <PackageReference Include="CarouselView.FormsPlugin" Version="5.2.0" />
-    <PackageReference Include="Microsoft.AppCenter" Version="2.1.1" />
-    <PackageReference Include="Microsoft.AppCenter.Analytics" Version="2.1.1" />
-    <PackageReference Include="Microsoft.AppCenter.Crashes" Version="2.1.1" />
-    <PackageReference Include="Microsoft.AppCenter.Distribute" Version="2.1.1" />
-    <PackageReference Include="Microsoft.AppCenter.Push" Version="2.1.1" />
-    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="2.1.3" />
-    <PackageReference Include="Microsoft.EntityFrameworkCore.Sqlite" Version="2.1.3" />
-    <PackageReference Include="Newtonsoft.Json" Version="11.0.2" />
+    <PackageReference Include="Microsoft.AppCenter" Version="3.0.0" />
+    <PackageReference Include="Microsoft.AppCenter.Analytics" Version="3.0.0" />
+    <PackageReference Include="Microsoft.AppCenter.Crashes" Version="3.0.0" />
+    <PackageReference Include="Microsoft.AppCenter.Distribute" Version="3.0.0" />
+    <PackageReference Include="Microsoft.AppCenter.Push" Version="3.0.0" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="3.1.2" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Sqlite" Version="3.1.2" />
+    <PackageReference Include="Newtonsoft.Json" Version="12.0.3" />
     <PackageReference Include="Plugin.Share" Version="7.1.1" />
-    <PackageReference Include="Syncfusion.Xamarin.DocIO" Version="16.3.0.21" />
-    <PackageReference Include="Syncfusion.Xamarin.DocIORenderer" Version="16.3.0.21" />
-    <PackageReference Include="Syncfusion.Xamarin.Pdf" Version="16.3.0.21" />
-    <PackageReference Include="Syncfusion.Xamarin.SfBusyIndicator" Version="16.3.0.21" />
-    <PackageReference Include="Syncfusion.Xamarin.SfListView" Version="16.3.0.21" />
-    <PackageReference Include="Syncfusion.Xamarin.SfNavigationDrawer" Version="16.3.0.29" />
-    <PackageReference Include="Syncfusion.Xamarin.SfNumericUpDown" Version="16.3.0.29" />
-    <PackageReference Include="Xamarin.Forms" Version="3.1.0.697729" />
+    <PackageReference Include="Xamarin.Forms" Version="4.5.0.356" />
     <PackageReference Include="Xamarin.Plugins.Clipboard" Version="2.2.1" />  
   </ItemGroup>
 
@@ -283,29 +328,8 @@
     <Compile Update="KTApp.xaml.cs">
       <DependentUpon>KTApp.xaml</DependentUpon>
     </Compile>
-    <Compile Update="Views\PsychiqueView.xaml.cs">
-      <DependentUpon>PsychiqueView.xaml</DependentUpon>
-    </Compile>
-    <Compile Update="Views\InGamePage.xaml.cs">
-      <DependentUpon>InGamePage.xaml</DependentUpon>
-    </Compile>
-    <Compile Update="Views\EquipePage.xaml.cs">
-      <DependentUpon>EquipePage.xaml</DependentUpon>
-    </Compile>
-    <Compile Update="Views\ListTactiquePage.xaml.cs">
-      <DependentUpon>ListTactiquePage.xaml</DependentUpon>
-    </Compile>
-    <Compile Update="Views\ListEquipesPage.xaml.cs">
-      <DependentUpon>ListEquipesPage.xaml</DependentUpon>
-    </Compile>
-    <Compile Update="Views\ListDeclinaisonPage.xaml.cs">
-      <DependentUpon>ListDeclinaisonPage.xaml</DependentUpon>
-    </Compile>
-    <Compile Update="Views\AptitudeCell.xaml.cs">
-      <DependentUpon>AptitudeCell.xaml</DependentUpon>
-    </Compile>
-    <Compile Update="Views\ListPsychiquePage.xaml.cs">
-      <DependentUpon>ListPsychiquePage.xaml</DependentUpon>
+    <Compile Update="Views\TeamsListPage.xaml.cs">
+      <DependentUpon>TeamsListPage.xaml</DependentUpon>
     </Compile>
     <Compile Update="Resx\Translate.de.Designer.cs">
       <DependentUpon>Translate.de.resx</DependentUpon>
@@ -323,61 +347,10 @@
     <EmbeddedResource Update="Resx\Translate.fr.resx">
       <Generator>ResXFileCodeGenerator</Generator>
     </EmbeddedResource>
-    <EmbeddedResource Update="Views\AptitudeView.xaml">
-      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
-    </EmbeddedResource>
-    <EmbeddedResource Update="Views\DatabaseLoadPage.xaml">
-      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
-    </EmbeddedResource>
-    <EmbeddedResource Update="Views\InGamePage.xaml">
-      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
-    </EmbeddedResource>
-    <EmbeddedResource Update="Views\ChangeLevelPage.xaml">
-      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
-    </EmbeddedResource>
-    <EmbeddedResource Update="Views\ChoixImpression.xaml">
-      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
-    </EmbeddedResource>
     <EmbeddedResource Update="Views\ConfigurationCell.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
-    <EmbeddedResource Update="Views\FactionsPage.xaml">
-      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
-    </EmbeddedResource>
-    <EmbeddedResource Update="Views\KickStarter.xaml">
-      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
-    </EmbeddedResource>
-    <EmbeddedResource Update="Views\LanguagePage.xaml">
-      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
-    </EmbeddedResource>
-    <EmbeddedResource Update="Views\ListAptitudePage.xaml">
-      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
-    </EmbeddedResource>
-    <EmbeddedResource Update="Views\ListConfigsArmes.xaml">
-      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
-    </EmbeddedResource>
-    <EmbeddedResource Update="Views\ListEquipesPage.xaml">
-      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
-    </EmbeddedResource>
-    <EmbeddedResource Update="Views\ListDeclinaisonPage.xaml">
-      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
-    </EmbeddedResource>
-    <EmbeddedResource Update="Views\ListErreurPage.xaml">
-      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
-    </EmbeddedResource>
-    <EmbeddedResource Update="Views\ListSpecialitesPage.xaml">
-      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
-    </EmbeddedResource>
-    <EmbeddedResource Update="Views\ListTraitPage.xaml">
-      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
-    </EmbeddedResource>
-    <EmbeddedResource Update="Views\MembrePage.xaml">
-      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
-    </EmbeddedResource>
-    <EmbeddedResource Update="Views\AptitudeCell.xaml">
-      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
-    </EmbeddedResource>
-    <EmbeddedResource Update="Views\RemerciementPage.xaml">
+    <EmbeddedResource Update="Views\TeamsListPage.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
   </ItemGroup>

@@ -42,7 +42,9 @@ namespace KillTeam
         {
             // Handle when your app starts
 
+#if !DEBUG
             AppCenter.Start($"android={ANDROID_SECRET};ios={IOS_SECRET}", typeof(Analytics), typeof(Crashes));
+#endif
         }
 
         protected override void OnSleep()

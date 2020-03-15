@@ -5,6 +5,8 @@ using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
 using System.Linq;
+using KillTeam.Commands;
+using KillTeam.Commands.Handlers;
 using Xamarin.Forms;
 using Xamarin.Forms.PlatformConfiguration.iOSSpecific;
 using Xamarin.Forms.Xaml;
@@ -198,34 +200,9 @@ namespace KillTeam.Views
 
         private void DeleteMembre()
         {
-            foreach (MemberPsychic MembrePsychique in KTContext.Db.MemberPsychics.Where(m => m.MemberId == membreId).AsNoTracking().ToList())
-            {
-                KTContext.Db.Entry(MembrePsychique).State = EntityState.Deleted;
-            }
-            foreach (MemberTrait ma in KTContext.Db.MemberTraits.Where(m => m.MemberId == membreId).AsNoTracking().ToList())
-            {
-                MemberTrait mad = KTContext.Db.MemberTraits.Find(ma.Id);
-                KTContext.Db.Entry(mad).State = EntityState.Deleted;
-            }
-            foreach (MemberPower ma in KTContext.Db.MemberPowers.Where(m => m.MembrerId == membreId).AsNoTracking().ToList())
-            {
-                MemberPower mad = KTContext.Db.MemberPowers.Find(ma.Id);
-                KTContext.Db.Entry(mad).State = EntityState.Deleted;
-            }
-            foreach (MemberWeapon ma in KTContext.Db.MemberWeapons.Where(m => m.MemberId == membreId).AsNoTracking().ToList())
-            {
-                MemberWeapon mad = KTContext.Db.MemberWeapons.Find(ma.Id);
-                KTContext.Db.Entry(mad).State = EntityState.Deleted;
-            }
-            foreach (MemberWarGearOption ma in KTContext.Db.MemberWarGearOptions.Where(m => m.MemberId == membreId).AsNoTracking().ToList())
-            {
-                MemberWarGearOption mad = KTContext.Db.MemberWarGearOptions.Find(ma.Id);
-                KTContext.Db.Entry(mad).State = EntityState.Deleted;
-            }
+            var deleteMemberCommandHandler = new DeleteMemberCommandHandler();
+            deleteMemberCommandHandler.Handle(new DeleteMemberCommand(membreId));
 
-            var membre = KTContext.Db.Members.Find(membreId);
-            KTContext.Db.Entry(membre).State = EntityState.Deleted;
-            KTContext.Db.SaveChanges();
         }
 
         async void ButtonChangeTraitClicked(object sender, EventArgs e)

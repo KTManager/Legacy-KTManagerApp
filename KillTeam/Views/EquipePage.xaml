@@ -17,7 +17,7 @@
         <!--   <ToolbarItem Text="{i18n:Translate Partager}" Order="Secondary" Clicked="OnButtonShareClicked"/>-->
     </ContentPage.ToolbarItems>
     <StackLayout Padding="10">
-        <Entry Placeholder="Nom" 
+        <Entry Placeholder="{i18n:Translate Nom}" 
                Text="{Binding Name}"
                ReturnType="Done" 
                IsSpellCheckEnabled="false" 

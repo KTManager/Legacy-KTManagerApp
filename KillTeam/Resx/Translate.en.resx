@@ -421,4 +421,7 @@ Do you like Kill Team Manager? Help us to create MyMiniReport.</value>
   <data name="KickStarterTitle" xml:space="preserve">
     <value>Our new app on KickStarter !</value>
   </data>
+  <data name="Nom" xml:space="preserve">
+    <value>Name</value>
+  </data>
 </root>

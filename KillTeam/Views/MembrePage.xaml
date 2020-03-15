@@ -9,7 +9,7 @@
     </ContentPage.ToolbarItems>
     <ScrollView>
         <StackLayout Padding="10">
-            <Entry Placeholder="Nom" 
+            <Entry Placeholder="{i18n:Translate Nom}" 
                    Text="{Binding Name}"
                    ReturnType="Done" 
                    IsSpellCheckEnabled="false" 

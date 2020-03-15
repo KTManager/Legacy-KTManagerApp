@@ -35,7 +35,7 @@ namespace KillTeam
                     StringExtensions.Ci = new System.Globalization.CultureInfo(langue);
                 }
             }
-            MainPage = new NavigationPage(new ListEquipesPage());
+            MainPage = new NavigationPage(new DatabaseLoadPage());
         }
 
         protected override void OnStart()

@@ -53,15 +53,19 @@ namespace KillTeam.RulesTool
 
         }
 
+        [Verb("dump", HelpText = "Dump all factions and units, like the cost command but with EVERYTHING")]
+        public class DumpOptions : Options {}
+
         private const string ROOT = "../../../Rules";
 
         static async Task<int> Main(string[] args)
         {
-            return await Parser.Default.ParseArguments<ImportOptions, ExportOptions, CostOptions>(args)
+            return await Parser.Default.ParseArguments<ImportOptions, ExportOptions, CostOptions, DumpOptions>(args)
                 .MapResult(
                     async (ImportOptions opts) => await RunImport(opts),
                     async (ExportOptions opts) => await RunExport(opts),
                     async (CostOptions opts) => await RunCost(opts),
+                    async (DumpOptions opts) => await RunDump(opts),
                     async errs => 1
                 );
         }
@@ -101,6 +105,57 @@ namespace KillTeam.RulesTool
             db.Database.CloseConnection();
             db = new DBUpdater(db.DBPath, provider).GetUpdatedContext();
             return 0;
+        }
+
+        static async Task<int> RunDump(DumpOptions opts)
+        {
+            var db = await GetKTContextAsync(opts);
+            List<string> factions = await db.Factions.Select(faction => faction.Id).ToListAsync();
+
+            var final_result = 0;
+
+            foreach (string faction in factions)
+            {
+                var cost_opts = new CostOptions
+                {
+                    DBPath = opts.DBPath,
+                    LegacyDB = opts.LegacyDB,
+                    Faction = faction,
+                };
+
+                int result;
+                try
+                {
+                    result = await RunCost(cost_opts);
+                }
+                catch (Exception e)
+                {
+                    Console.WriteLine(e.ToString());
+                    result = 1;
+                }
+                if (result != 0)
+                {
+                    final_result = result;
+                }
+
+                cost_opts.All = true;
+
+                try
+                {
+                    result = await RunCost(cost_opts);
+                }
+                catch (Exception e)
+                {
+                    Console.WriteLine(e.ToString());
+                    result = 1;
+                }
+                if (result != 0)
+                {
+                    final_result = result;
+                }
+            }
+
+            return final_result;
         }
 
 

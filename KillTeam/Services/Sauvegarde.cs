@@ -134,16 +134,25 @@ namespace KillTeam.Services
             return saveModel;
         }
 
-        public static void SetSerializedData(IKTContext db, string data, bool deleteFirst = true, Dictionary<string, Dictionary<string, string>> replacements = default)
+        public static void SetSerializedData(
+            IKTContext db,
+            string data,
+            bool deleteFirst = true,
+            Dictionary<string, Dictionary<string, string>> replacements = default,
+            Action<float?, string> callback = null
+        )
         {
-            
+
+            callback?.Invoke(0, "Reading backup");
             SaveModel saveModel = JsonConvert.DeserializeObject<SaveModel>(DecompressString(data));
+            int size = saveModel.Size;
 
             if (deleteFirst)
             {
                 DeleteUserData(db);
             }
 
+            callback?.Invoke(0, "Cleaning up old data");
             if (replacements != null && replacements.Count != 0)
             {
                 saveModel = ReplaceData(saveModel, replacements);
@@ -160,12 +169,17 @@ namespace KillTeam.Services
                 .ToList();
 
             // import everything
+            int progress = 0;
             List<Team> equipes = saveModel.Teams;
             foreach (Team equipe in equipes)
             {
                 db.Entry(equipe).State = EntityState.Added;
                 foreach (Member membre in equipe.Members)
                 {
+                    float percent = (float)progress / size;
+                    callback?.Invoke(percent, $"Adding {membre.Name} from {equipe.Name}");
+                    progress += 1;
+
                     db.Entry(membre).State = EntityState.Added;
                     foreach (MemberTrait MembreTrait in membre.MemberTraits)
                     {

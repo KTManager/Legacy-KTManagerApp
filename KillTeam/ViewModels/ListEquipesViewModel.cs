@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Collections.ObjectModel;
 using System.ComponentModel;
+using System.Diagnostics;
 using System.Linq;
 using System.Threading.Tasks;
 using System.Windows.Input;
@@ -161,28 +162,71 @@ namespace KillTeam.ViewModels
 
         public async Task DeleteExecuted(Team team)
         {
-            FindAllForTeam<MemberTrait>(m => m.Member.TeamId == team.Id)
-                .ForEach(mt => SetEntityToDeleted<MemberTrait>(mt.Id));
-            
-            FindAllForTeam<MemberPower>(p => p.Member.TeamId == team.Id)
-                .ForEach(mp => SetEntityToDeleted<MemberPower>(mp.Id));
-            
-            FindAllForTeam<MemberWeapon>(a => a.Member.TeamId == team.Id)
-                .ForEach(ma => SetEntityToDeleted<MemberWeapon>(ma.Id));
+            //FindAllForTeam<MemberTrait>(m => m.Member.TeamId == team.Id)
+            //    .ForEach(mt => SetEntityToDeleted<MemberTrait>(mt.Id));
 
-            FindAllForTeam<MemberPsychic>(p => p.Member.TeamId == team.Id)
-                .ForEach(mp => SetEntityToDeleted<MemberPsychic>(mp.Id));
-            
-            FindAllForTeam<MemberWarGearOption>(r => r.Member.TeamId == team.Id)
-                .ForEach(mr => SetEntityToDeleted<MemberWarGearOption>(mr.Id));
-            
-            FindAllForTeam<Member>(m => m.TeamId == team.Id)
-                .ForEach(m => SetEntityToDeleted<Member>(m.Id));
+            //FindAllForTeam<MemberPsychic>(p => p.Member?.TeamId == team.Id)
+            //    .ForEach(mp => SetEntityToDeleted<MemberPsychic>(mp.Id));
+
+            //FindAllForTeam<MemberPower>(p => p.Member?.TeamId == team.Id)
+            //    .ForEach(mp => SetEntityToDeleted<MemberPower>(mp.Id));
+
+            //FindAllForTeam<MemberWeapon>(a => a.Member?.TeamId == team.Id)
+            //    .ForEach(ma => SetEntityToDeleted<MemberWeapon>(ma.Id));
+
+            //FindAllForTeam<MemberWarGearOption>(r => r.Member?.TeamId == team.Id)
+            //    .ForEach(mr => SetEntityToDeleted<MemberWarGearOption>(mr.Id));
+
+            //FindAllForTeam<Member>(m => m.TeamId == team.Id)
+            //    .ForEach(m => SetEntityToDeleted<Member>(m.Id));
+
+            foreach (MemberTrait ma in KTContext.Db.MemberTraits.Where(m => m.Member.TeamId == team.Id).AsNoTracking().ToList())
+            {
+                MemberTrait mad = KTContext.Db.MemberTraits.Find(ma.Id);
+                KTContext.Db.Entry(mad).State = EntityState.Deleted;
+            }
+
+            foreach (MemberPsychic ma in KTContext.Db.MemberPsychics.Where(m => m.Member.TeamId == team.Id).AsNoTracking().ToList())
+            {
+                MemberPsychic mad = KTContext.Db.MemberPsychics.Find(ma.Id);
+                KTContext.Db.Entry(mad).State = EntityState.Deleted;
+            }
+
+            foreach (MemberPower ma in KTContext.Db.MemberPowers.Where(m => m.Member.TeamId == team.Id).AsNoTracking().ToList())
+            {
+                MemberPower mad = KTContext.Db.MemberPowers.Find(ma.Id);
+                KTContext.Db.Entry(mad).State = EntityState.Deleted;
+            }
+
+            foreach (MemberWeapon ma in KTContext.Db.MemberWeapons.Where(m => m.Member.TeamId == team.Id).AsNoTracking().ToList())
+            {
+                MemberWeapon mad = KTContext.Db.MemberWeapons.Find(ma.Id);
+                KTContext.Db.Entry(mad).State = EntityState.Deleted;
+            }
+
+            foreach (MemberWarGearOption ma in KTContext.Db.MemberWarGearOptions.Where(m => m.Member.TeamId == team.Id).AsNoTracking().ToList())
+            {
+                MemberWarGearOption mad = KTContext.Db.MemberWarGearOptions.Find(ma.Id);
+                KTContext.Db.Entry(mad).State = EntityState.Deleted;
+            }
+
+            foreach (Member ma in KTContext.Db.Members.Where(m => m.TeamId == team.Id).AsNoTracking().ToList())
+            {
+                Member mad = KTContext.Db.Members.Find(ma.Id);
+                KTContext.Db.Entry(mad).State = EntityState.Deleted;
+            }
 
             SetEntityToDeleted<Team>(team.Id);
-            
-            KTContext.Db.SaveChanges();
-            
+
+            try
+            {
+                KTContext.Db.SaveChanges();
+            }
+            catch (DbUpdateException e)
+            {
+                Debug.Write(e.InnerException);
+            }
+
             await UpdateListItems();
         }
 

@@ -91,7 +91,7 @@ namespace KillTeam.Services
                 {
                     Log($"Backing up old Database");
                     var replacements = JsonConvert.DeserializeObject<Dictionary<string, Dictionary<string, string>>>(Provider.GetReplacementsJSON());
-                    Log($"Applying backup to new Databse");
+                    Log($"Applying backup to new Database");
                     Sauvegarde.SetSerializedData(
                         newUdb,
                         Sauvegarde.GetSerializedData(backup),
@@ -109,7 +109,7 @@ namespace KillTeam.Services
                 File.Delete(newUdbPath);
             }
 
-            Log($"Loading Databse");
+            Log($"Loading Database");
             return new KTUserContext(DBPath);
         }
 

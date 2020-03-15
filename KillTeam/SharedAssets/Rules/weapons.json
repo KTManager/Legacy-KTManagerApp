@@ -11745,5 +11745,32 @@
             "WeaponTypeId": "M"
          }
       ]
+   },
+   {
+      "Cost": 3,
+      "DescriptionDe": "",
+      "DescriptionEn": "",
+      "DescriptionFr": "",
+      "Id": "AC",
+      "NameDe": "Maschinenkanone",
+      "NameEn": "Autocannon",
+      "NameFr": "Autocanon",
+      "WeaponProfiles": [
+         {
+            "ArmourPenetration": "-1",
+            "Damages": "2",
+            "DescriptionDe": "",
+            "DescriptionEn": "",
+            "DescriptionFr": "",
+            "Id": "AC",
+            "NameDe": "Maschinenkanone",
+            "NameEn": "Autocannon",
+            "NameFr": "Autocanon",
+            "Range": 48,
+            "ShotNumber": "2",
+            "Strength": "7",
+            "WeaponType": "L"
+         }
+      ]
    }
 ]

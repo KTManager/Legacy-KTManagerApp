@@ -13,4 +13,7 @@ see.
 We've since done a bunch of translating and moved the hard-coded db out of
 the repo in favor of rules in json (see the KTRules repo).
 
+## Working Together
+Join us on our official Discord : https://discord.gg/G9myjRx We are there to discuss the project and anwser all your technical (or non technical) questions.
+
 TODO: fill this in

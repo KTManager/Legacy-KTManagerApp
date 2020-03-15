@@ -33,8 +33,8 @@
 	<key>XSAppIconAssets</key>
 	<string>Assets.xcassets/AppIcon.appiconset</string>
 	<key>CFBundleShortVersionString</key>
-	<string>2.1.3</string>
+	<string>2.1.4</string>
 	<key>CFBundleVersion</key>
-	<string>020103</string>
+	<string>020104</string>
 </dict>
 </plist>

@@ -8,6 +8,8 @@ using Syncfusion.ListView.XForms;
 using System;
 using System.Linq;
 using System.Threading.Tasks;
+using KillTeam.Commands;
+using KillTeam.Commands.Handlers;
 using Xamarin.Forms;
 using Xamarin.Forms.PlatformConfiguration.iOSSpecific;
 using Xamarin.Forms.Xaml;
@@ -287,40 +289,9 @@ namespace KillTeam.Views
             bool reponse = await DisplayAlert(Translate.Supprimer, Translate.EtesVousSur + " \"" + NomEquipe + "\" ?", Translate.Oui, Translate.Non);
             if (reponse)
             {
-                foreach (MemberTrait ma in KTContext.Db.MemberTraits.Where(m => m.Member.TeamId == equipeId).AsNoTracking().ToList())
-                {
-                    MemberTrait mad = KTContext.Db.MemberTraits.Find(ma.Id);
-                    KTContext.Db.Entry(mad).State = EntityState.Deleted;
-                }
-                foreach (MemberPsychic ma in KTContext.Db.MemberPsychics.Where(m => m.Member.TeamId == equipeId).AsNoTracking().ToList())
-                {
-                    MemberPsychic mad = KTContext.Db.MemberPsychics.Find(ma.Id);
-                    KTContext.Db.Entry(mad).State = EntityState.Deleted;
-                }
-                foreach (MemberPower ma in KTContext.Db.MemberPowers.Where(m => m.Member.TeamId == equipeId).AsNoTracking().ToList())
-                {
-                    MemberPower mad = KTContext.Db.MemberPowers.Find(ma.Id);
-                    KTContext.Db.Entry(mad).State = EntityState.Deleted;
-                }
-                foreach (MemberWeapon ma in KTContext.Db.MemberWeapons.Where(m => m.Member.TeamId == equipeId).AsNoTracking().ToList())
-                {
-                    MemberWeapon mad = KTContext.Db.MemberWeapons.Find(ma.Id);
-                    KTContext.Db.Entry(mad).State = EntityState.Deleted;
-                }
-                foreach (MemberWarGearOption ma in KTContext.Db.MemberWarGearOptions.Where(m => m.Member.TeamId == equipeId).AsNoTracking().ToList())
-                {
-                    MemberWarGearOption mad = KTContext.Db.MemberWarGearOptions.Find(ma.Id);
-                    KTContext.Db.Entry(mad).State = EntityState.Deleted;
-                }
-                foreach (Member ma in KTContext.Db.Members.Where(m => m.TeamId == equipeId).AsNoTracking().ToList())
-                {
-                    Member mad = KTContext.Db.Members.Find(ma.Id);
-                    KTContext.Db.Entry(mad).State = EntityState.Deleted;
-                }
-
-                var equipe = KTContext.Db.Teams.Find(equipeId);
-                KTContext.Db.Entry(equipe).State = EntityState.Deleted;
-                KTContext.Db.SaveChanges();
+                var handler = new DeleteTeamCommandHandler();
+                handler.Handle(new DeleteTeamCommand(equipeId));
+                
                 await Navigation.PopAsync();
             }
         }

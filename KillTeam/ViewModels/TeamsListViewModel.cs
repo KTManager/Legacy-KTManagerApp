@@ -8,6 +8,7 @@ using KillTeam.Commands.Handlers;
 using KillTeam.Models;
 using KillTeam.Properties;
 using KillTeam.Services;
+using KillTeam.Views;
 using Microsoft.EntityFrameworkCore;
 using Xamarin.Forms;
 
@@ -15,7 +16,7 @@ namespace KillTeam.ViewModels
 {
     public class TeamsListViewModel
     {
-        public ObservableCollection<TeamsListTeamViewModel> ListItems { get; set; }
+        public ObservableCollection<TeamsListTeamViewModel> Items { get; set; }
         public IList<ToolbarItem> ToolbarItems { get; set; }
         public ICommand Sync { get; set; }
         public ICommand Logout { get; set; }
@@ -38,7 +39,7 @@ namespace KillTeam.ViewModels
 
         public TeamsListViewModel(IList<ToolbarItem> toolbarItems, IHandleCommands<DeleteTeamCommand> deleteTeamCommandHandler)
         {
-            ListItems = new ObservableCollection<TeamsListTeamViewModel>();
+            Items = new ObservableCollection<TeamsListTeamViewModel>();
             AddTeam = new Command(() => AddTeamExecuted());
             Credits = new Command(async () => await CreditsExecuted());
             Language = new Command(async () => await LanguageExecuted());
@@ -125,19 +126,19 @@ namespace KillTeam.ViewModels
 
         public async Task UpdateListItems()
         {
-            ListItems.Clear();
+            Items.Clear();
             var teams = await KTContext.Db.Teams
                                     .Include(e => e.Faction)
                                     .Include(e => e.Members)
                                     .AsNoTracking()
                                     .OrderBy(post => post.Position)
                                     .ToListAsync();
-            teams.ForEach(i => ListItems.Add(new TeamsListTeamViewModel(i.Id, i.Name, i.Cost, i.FactionNameAndMembersCount)));
+            teams.ForEach(i => Items.Add(new TeamsListTeamViewModel(i.Id, i.Name, i.Cost, i.FactionNameAndMembersCount)));
         }
 
         public void AddTeamExecuted()
         {
-            //KTApp.Navigation.PushModalAsync(new FactionsPage());
+            KTApp.Navigation.PushModalAsync(new FactionsPage());
         }
 
         public void LogoutExecuted()

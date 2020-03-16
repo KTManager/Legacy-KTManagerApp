@@ -15,7 +15,7 @@
             <RowDefinition Height="Auto" />
         </Grid.RowDefinitions>
 
-        <ListView ItemsSource="{Binding ListItems}"
+        <ListView ItemsSource="{Binding Items}"
                   VerticalOptions="FillAndExpand" 
                   SelectionMode="None"
                   RowHeight="80" Margin="0,5">
@@ -60,6 +60,7 @@
                 <x:Array Type="{x:Type vm:TeamsListTeamViewModel}">
                     <vm:TeamsListTeamViewModel Name="Team 1" Cost="98" FactionAndMembersCount="Thousand Sons - 6 Members" />
                     <vm:TeamsListTeamViewModel Name="Team 2" Cost="100" FactionAndMembersCount="Death Guard - 7 Members" />
+                    <vm:TeamsListTeamViewModel Name="Team 3" Cost="0" FactionAndMembersCount="Death Guard - 0 Member" />
                 </x:Array>
             </d:ListView.ItemsSource>
         </ListView>

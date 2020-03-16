@@ -28,7 +28,6 @@
     <Compile Remove="Views\ConfigurationView.xaml.cs" />
     <Compile Remove="Views\DatabaseLoadPage.xaml.cs" />
     <Compile Remove="Views\EquipePage.xaml.cs" />
-    <Compile Remove="Views\FactionsPage.xaml.cs" />
     <Compile Remove="Views\InGamePage.xaml.cs" />
     <Compile Remove="Views\KickStarter.xaml.cs" />
     <Compile Remove="Views\LanguagePage.xaml.cs" />
@@ -53,7 +52,6 @@
     <EmbeddedResource Remove="Views\ConfigurationView.xaml" />
     <EmbeddedResource Remove="Views\DatabaseLoadPage.xaml" />
     <EmbeddedResource Remove="Views\EquipePage.xaml" />
-    <EmbeddedResource Remove="Views\FactionsPage.xaml" />
     <EmbeddedResource Remove="Views\InGamePage.xaml" />
     <EmbeddedResource Remove="Views\KickStarter.xaml" />
     <EmbeddedResource Remove="Views\LanguagePage.xaml" />

@@ -1,28 +1,25 @@
 ﻿using KillTeam.Commands.Handlers;
 using KillTeam.ViewModels;
-using Xamarin.Forms;
 using Xamarin.Forms.PlatformConfiguration.iOSSpecific;
 using Xamarin.Forms.Xaml;
 
 namespace KillTeam.Views
 {
     [XamlCompilation(XamlCompilationOptions.Compile)]
-    public partial class TeamsListPage : ContentPage
+    public partial class TeamsListPage
     {
         public TeamsListPage()
         {
             InitializeComponent();
             On<Xamarin.Forms.PlatformConfiguration.iOS>().SetUseSafeArea(true);
 
-            var deleteTeamCommandHandler = new DeleteTeamCommandHandler();
-            
-            var ctr = new TeamsListViewModel(ToolbarItems, deleteTeamCommandHandler);
-            BindingContext = ctr;
+            var vm = new TeamsListViewModel(ToolbarItems, new DeleteTeamCommandHandler());
+            BindingContext = vm;
         }
 
-        protected async override void OnAppearing()
+        protected override async void OnAppearing()
         {
-            if (this.BindingContext is TeamsListViewModel binding)
+            if (BindingContext is TeamsListViewModel binding)
             {
                 await binding.Refresh();
             }

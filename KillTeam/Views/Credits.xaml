@@ -1,0 +1,122 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:properties="clr-namespace:KillTeam.Properties"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="KillTeam.Views.Credits"
+             Title="{x:Static properties:Resources.Remerciement}">
+    <ContentPage.Content>
+        <Grid Margin="5">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+            </Grid.RowDefinitions>
+
+            <Label HorizontalOptions="Center" 
+                   d:Text="Owners"
+                   Text="{x:Static properties:Resources.Owners}" FontSize="Title"/>
+
+            <Grid Grid.Row="1">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="*"/>
+                </Grid.ColumnDefinitions>
+
+                <Frame Grid.Column="0" 
+                       CornerRadius="8"
+                       Padding="10,5" Margin="5,2" 
+                       BackgroundColor="White" HasShadow="True" BorderColor="#efefef"
+                       VerticalOptions="Start">
+                    <Label Text="Thomas Lacombe" HorizontalOptions="CenterAndExpand" />
+                </Frame>
+
+                <Frame Grid.Column="1" 
+                       CornerRadius="8"
+                       Padding="10,5" Margin="5,2" 
+                       BackgroundColor="White" HasShadow="True" BorderColor="#efefef"
+                       VerticalOptions="Start">
+                    <Label Text="Scott Holmes" HorizontalOptions="CenterAndExpand" />
+                </Frame>
+
+                <Frame Grid.Column="2" 
+                       CornerRadius="8"
+                       Padding="10,5" Margin="5,2" 
+                       BackgroundColor="White" HasShadow="True" BorderColor="#efefef"
+                       VerticalOptions="Start">
+                    <Label Text="Jonny Olliff-Lee" HorizontalOptions="CenterAndExpand" />
+                </Frame>
+
+                <Frame Grid.Column="3" 
+                       CornerRadius="8"
+                       Padding="10,5" Margin="5,2" 
+                       BackgroundColor="White" HasShadow="True" BorderColor="#efefef"
+                       VerticalOptions="Start">
+                    <Label Text="Jake Cordero" HorizontalOptions="CenterAndExpand" />
+                </Frame>
+            </Grid>
+
+            <Label Grid.Row="2" 
+                   HorizontalOptions="Center" 
+                   d:Text="Special Thanks"
+                   Text="{x:Static properties:Resources.SpecialThanks}" FontSize="Title"/>
+
+            <Grid Grid.Row="3">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                </Grid.RowDefinitions>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="*"/>
+                </Grid.ColumnDefinitions>
+
+                <Frame Grid.Row="0" Grid.Column="0" 
+                       CornerRadius="8"
+                       Padding="10,5" Margin="5,2" 
+                       BackgroundColor="White" HasShadow="True" BorderColor="#efefef"
+                       VerticalOptions="Start">
+                    <Label Text="Dean Raspa" HorizontalOptions="CenterAndExpand" />
+                </Frame>
+
+                <Frame Grid.Row="0" Grid.Column="1" 
+                       CornerRadius="8"
+                       Padding="10,5" Margin="5,2" 
+                       BackgroundColor="White" HasShadow="True" BorderColor="#efefef"
+                       VerticalOptions="Start">
+                    <Label Text="Frank Gerlach" HorizontalOptions="CenterAndExpand" />
+                </Frame>
+
+                <Frame Grid.Row="1" Grid.Column="0" 
+                       CornerRadius="8"
+                       Padding="10,5" Margin="5,2" 
+                       BackgroundColor="White" HasShadow="True" BorderColor="#efefef"
+                       VerticalOptions="Start">
+                    <Label Text="Scott Micklethwaite" HorizontalOptions="CenterAndExpand" />
+                </Frame>
+
+                <Frame Grid.Row="1" Grid.Column="1" 
+                       CornerRadius="8"
+                       Padding="10,5" Margin="5,2" 
+                       BackgroundColor="White" HasShadow="True" BorderColor="#efefef"
+                       VerticalOptions="Start">
+                    <Label Text="Gustavo Pereira" HorizontalOptions="CenterAndExpand" />
+                </Frame>
+
+                <Frame Grid.Row="2" Grid.Column="0" 
+                       CornerRadius="8"
+                       Padding="10,5" Margin="5,2" 
+                       BackgroundColor="White" HasShadow="True" BorderColor="#efefef"
+                       VerticalOptions="Start">
+                    <Label Text="Damien Coppola" HorizontalOptions="CenterAndExpand" />
+                </Frame>
+            </Grid>
+        </Grid>
+    </ContentPage.Content>
+</ContentPage>

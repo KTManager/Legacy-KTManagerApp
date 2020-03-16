@@ -656,6 +656,15 @@ namespace KillTeam.Properties {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Owners.
+        /// </summary>
+        internal static string Owners {
+            get {
+                return ResourceManager.GetString("Owners", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to AP.
         /// </summary>
         internal static string PA {
@@ -886,6 +895,15 @@ namespace KillTeam.Properties {
         internal static string Specialite {
             get {
                 return ResourceManager.GetString("Specialite", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Special Thanks.
+        /// </summary>
+        internal static string SpecialThanks {
+            get {
+                return ResourceManager.GetString("SpecialThanks", resourceCulture);
             }
         }
         

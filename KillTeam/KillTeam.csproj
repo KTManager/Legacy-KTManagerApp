@@ -29,7 +29,6 @@
     <Compile Remove="Views\DatabaseLoadPage.xaml.cs" />
     <Compile Remove="Views\InGamePage.xaml.cs" />
     <Compile Remove="Views\KickStarter.xaml.cs" />
-    <Compile Remove="Views\LanguagePage.xaml.cs" />
     <Compile Remove="Views\ListAptitudePage.xaml.cs" />
     <Compile Remove="Views\ListConfigsArmes.xaml.cs" />
     <Compile Remove="Views\ListDeclinaisonPage.xaml.cs" />
@@ -40,7 +39,6 @@
     <Compile Remove="Views\ListTraitPage.xaml.cs" />
     <Compile Remove="Views\MembrePage.xaml.cs" />
     <Compile Remove="Views\PsychiqueView.xaml.cs" />
-    <Compile Remove="Views\RemerciementPage.xaml.cs" />
   </ItemGroup>
 
   <ItemGroup>
@@ -52,7 +50,6 @@
     <EmbeddedResource Remove="Views\DatabaseLoadPage.xaml" />
     <EmbeddedResource Remove="Views\InGamePage.xaml" />
     <EmbeddedResource Remove="Views\KickStarter.xaml" />
-    <EmbeddedResource Remove="Views\LanguagePage.xaml" />
     <EmbeddedResource Remove="Views\ListAptitudePage.xaml" />
     <EmbeddedResource Remove="Views\ListConfigsArmes.xaml" />
     <EmbeddedResource Remove="Views\ListDeclinaisonPage.xaml" />
@@ -63,7 +60,6 @@
     <EmbeddedResource Remove="Views\ListTraitPage.xaml" />
     <EmbeddedResource Remove="Views\MembrePage.xaml" />
     <EmbeddedResource Remove="Views\PsychiqueView.xaml" />
-    <EmbeddedResource Remove="Views\RemerciementPage.xaml" />
   </ItemGroup>
 
   <ItemGroup>
@@ -329,6 +325,12 @@
       <DesignTime>True</DesignTime>
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Update="Views\Credits.xaml.cs">
+      <DependentUpon>Credits.xaml</DependentUpon>
+    </Compile>
+    <Compile Update="Views\Language.xaml.cs">
+      <DependentUpon>Language.xaml</DependentUpon>
     </Compile>
     <Compile Update="Views\TeamDetail.xaml.cs">
       <DependentUpon>TeamDetail.xaml</DependentUpon>

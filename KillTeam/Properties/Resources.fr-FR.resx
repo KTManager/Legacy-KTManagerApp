@@ -316,6 +316,9 @@ Aimez-vous Kill Team Manager? Aidez-nous à créer MyMiniReport.</value>
   <data name="Ouvrir" xml:space="preserve">
     <value>Ouvrir</value>
   </data>
+  <data name="Owners" xml:space="preserve">
+    <value>Propriétaires</value>
+  </data>
   <data name="PA" xml:space="preserve">
     <value>PA</value>
   </data>
@@ -393,6 +396,9 @@ Aimez-vous Kill Team Manager? Aidez-nous à créer MyMiniReport.</value>
   </data>
   <data name="Specialite" xml:space="preserve">
     <value>Spécialité</value>
+  </data>
+  <data name="SpecialThanks" xml:space="preserve">
+    <value>Remerciements</value>
   </data>
   <data name="Supprimer" xml:space="preserve">
     <value>Supprimer</value>

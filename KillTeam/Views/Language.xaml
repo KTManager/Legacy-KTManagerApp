@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             xmlns:viewModels="clr-namespace:KillTeam.ViewModels"
+             mc:Ignorable="d"
+             x:Class="KillTeam.Views.Language"
+             Title="{Binding Title}">
+
+    <ListView ItemsSource="{Binding Items}"
+                  VerticalOptions="FillAndExpand" 
+                  SelectionMode="None" SeparatorVisibility="None"
+                  RowHeight="50" Margin="0,5">
+        <ListView.ItemTemplate>
+            <DataTemplate x:DataType="{x:Type viewModels:LanguageViewModel}">
+                <ViewCell>
+                    <Frame CornerRadius="8" Margin="5,2" BackgroundColor="White" Padding="10,5" HasShadow="True" BorderColor="#efefef">
+                        <Frame.GestureRecognizers>
+                            <TapGestureRecognizer Command="{Binding Source={RelativeSource AncestorType={x:Type ContentPage}}, Path=BindingContext.ChangeLanguage}" CommandParameter="{Binding .}" />
+                        </Frame.GestureRecognizers>
+
+                        <Label Text="{Binding Name}"
+                               HorizontalOptions="Start" VerticalOptions="Center"
+                               FontSize="Large" />
+                    </Frame>
+                </ViewCell>
+            </DataTemplate>
+        </ListView.ItemTemplate>
+
+        <d:ListView.ItemsSource>
+            <x:Array Type="{x:Type viewModels:LanguageViewModel}">
+                <viewModels:LanguageViewModel Name="English" />
+                <viewModels:LanguageViewModel Name="French" />
+                <viewModels:LanguageViewModel Name="German" />
+            </x:Array>
+        </d:ListView.ItemsSource>
+    </ListView>
+</ContentPage>

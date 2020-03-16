@@ -95,19 +95,19 @@ namespace KillTeam.Controllers
                 ToolbarItems.Remove(ButtonDeco);
                 ToolbarItems.Remove(ButtonSync);
                 
-                await UpdateListItems();
+                await UpdateItems();
 
                 return;
             }
 
             if (Sauvegarde.IsConnected() && await Sauvegarde.Synchro(KTContext.Db))
             {
-                await UpdateListItems();
+                await UpdateItems();
             }
 
             DecoUpdate();
 
-            await UpdateListItems();
+            await UpdateItems();
         }
 
         private void DecoUpdate()
@@ -122,7 +122,7 @@ namespace KillTeam.Controllers
             }
         }
 
-        public async Task UpdateListItems()
+        public async Task UpdateItems()
         {
             Items.Clear();
             var teams = await KTContext.Db.Teams
@@ -150,26 +150,26 @@ namespace KillTeam.Controllers
             Sauvegarde.Login();
             if (await Sauvegarde.Synchro(KTContext.Db))
             {
-                await UpdateListItems();
+                await UpdateItems();
             }
             DecoUpdate();
         }
 
         public async Task LanguageExecuted()
         {
-            //await KTApp.Navigation.PushAsync(new LanguagePage());
+            await KTApp.Navigation.PushAsync(new Views.Language());
         }
 
         public async Task CreditsExecuted()
         {
-            //await KTApp.Navigation.PushAsync(new RemerciementPage());
+            await KTApp.Navigation.PushAsync(new Views.Credits());
         }
 
         public async Task DeleteExecuted(TeamsListTeamViewModel team)
         {
             _deleteTeamCommandHandler.Handle(new DeleteTeamCommand(team.Id));   
 
-            await UpdateListItems();
+            await UpdateItems();
         }
 
         private readonly IHandleCommands<DeleteTeamCommand> _deleteTeamCommandHandler;

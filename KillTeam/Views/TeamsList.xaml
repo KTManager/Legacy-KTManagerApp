@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             xmlns:vm="clr-namespace:KillTeam.ViewModels"
+             xmlns:viewModels="clr-namespace:KillTeam.ViewModels"
              xmlns:properties="clr-namespace:KillTeam.Properties"
              xmlns:d="http://xamarin.com/schemas/2014/forms/design"
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
@@ -19,7 +19,7 @@
                   SelectionMode="None" SeparatorVisibility="None"
                   RowHeight="80" Margin="0,5">
             <ListView.ItemTemplate>
-                <DataTemplate x:DataType="{x:Type vm:TeamsListTeamViewModel}">
+                <DataTemplate x:DataType="{x:Type viewModels:TeamsListTeamViewModel}">
                     <ViewCell>
                         <Frame CornerRadius="8" Margin="5,2" BackgroundColor="White" Padding="10,5" HasShadow="True" BorderColor="#efefef">
                             <Frame.GestureRecognizers>
@@ -58,10 +58,10 @@
             </ListView.ItemTemplate>
 
             <d:ListView.ItemsSource>
-                <x:Array Type="{x:Type vm:TeamsListTeamViewModel}">
-                    <vm:TeamsListTeamViewModel Name="Team 1" Cost="98" FactionAndMembersCount="Thousand Sons - 6 Members" />
-                    <vm:TeamsListTeamViewModel Name="Team 2" Cost="100" FactionAndMembersCount="Death Guard - 7 Members" />
-                    <vm:TeamsListTeamViewModel Name="Team 3" Cost="0" FactionAndMembersCount="Death Guard - 0 Member" />
+                <x:Array Type="{x:Type viewModels:TeamsListTeamViewModel}">
+                    <viewModels:TeamsListTeamViewModel Name="Team 1" Cost="98" FactionAndMembersCount="Thousand Sons - 6 Members" />
+                    <viewModels:TeamsListTeamViewModel Name="Team 2" Cost="100" FactionAndMembersCount="Death Guard - 7 Members" />
+                    <viewModels:TeamsListTeamViewModel Name="Team 3" Cost="0" FactionAndMembersCount="Death Guard - 0 Member" />
                 </x:Array>
             </d:ListView.ItemsSource>
         </ListView>

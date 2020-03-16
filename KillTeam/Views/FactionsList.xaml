@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             xmlns:vm="clr-namespace:KillTeam.ViewModels;assembly=KillTeam"
+             mc:Ignorable="d"
+             x:Class="KillTeam.Views.FactionsList"
+             Title="{Binding Title}">
+    <StackLayout>
+        <ListView ItemsSource="{Binding Items}"
+                  VerticalOptions="FillAndExpand" 
+                  SelectionMode="None" SeparatorVisibility="None"
+                  RowHeight="50" Margin="0,5">
+            <ListView.ItemTemplate>
+                <DataTemplate x:DataType="{x:Type vm:FactionsListFactionViewModel}">
+                    <ViewCell>
+                        <Frame CornerRadius="8" Margin="5,2" BackgroundColor="White" Padding="10,5" HasShadow="True" BorderColor="#efefef">
+                            <Frame.GestureRecognizers>
+                                <TapGestureRecognizer Command="{Binding Source={RelativeSource AncestorType={x:Type ContentPage}}, Path=BindingContext.Selected}" CommandParameter="{Binding .}" />
+                            </Frame.GestureRecognizers>
+                            <Label Text="{Binding Name}"
+                                   HorizontalOptions="Start" VerticalOptions="Center"
+                                   FontSize="Large"
+                                   LineBreakMode="NoWrap"  />
+                        </Frame>
+                    </ViewCell>
+                </DataTemplate>
+            </ListView.ItemTemplate>
+
+            <d:ListView.ItemsSource>
+                <x:Array Type="{x:Type vm:FactionsListFactionViewModel}">
+                    <vm:FactionsListFactionViewModel Id="0" Name="Adeptus Astartes" />
+                    <vm:FactionsListFactionViewModel Id="1" Name="Adeptus Custodes" />
+                    <vm:FactionsListFactionViewModel Id="2" Name="Adeptus Mechanicus" />
+                    <vm:FactionsListFactionViewModel Id="3" Name="Astra Militarum" />
+                    <vm:FactionsListFactionViewModel Id="4" Name="Asuryani" />
+                    <vm:FactionsListFactionViewModel Id="5" Name="Death Guard" />
+                    <vm:FactionsListFactionViewModel Id="6" Name="Deathwatch" />
+                    <vm:FactionsListFactionViewModel Id="7" Name="Drukhari" />
+                    <vm:FactionsListFactionViewModel Id="8" Name="Elucidian Starstriders" />
+                </x:Array>
+            </d:ListView.ItemsSource>
+        </ListView>
+    </StackLayout>
+</ContentPage>

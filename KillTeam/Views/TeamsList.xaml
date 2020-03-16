@@ -6,9 +6,8 @@
              xmlns:d="http://xamarin.com/schemas/2014/forms/design"
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
              mc:Ignorable="d"
-             x:Class="KillTeam.Views.TeamsListPage"
-             Title="Kill Team Manager"
-             x:Name="TeamsList">
+             x:Class="KillTeam.Views.TeamsList"
+             Title="Kill Team Manager">
     <Grid>
         <Grid.RowDefinitions>
             <RowDefinition Height="*" />
@@ -17,15 +16,17 @@
 
         <ListView ItemsSource="{Binding Items}"
                   VerticalOptions="FillAndExpand" 
-                  SelectionMode="None"
+                  SelectionMode="None" SeparatorVisibility="None"
                   RowHeight="80" Margin="0,5">
             <ListView.ItemTemplate>
                 <DataTemplate x:DataType="{x:Type vm:TeamsListTeamViewModel}">
                     <ViewCell>
                         <Frame CornerRadius="8" Margin="5,2" BackgroundColor="White" Padding="10,5" HasShadow="True" BorderColor="#efefef">
                             <Frame.GestureRecognizers>
-                                <SwipeGestureRecognizer Direction="Left,Right" Command="{Binding Source={x:Reference TeamsList}, Path=BindingContext.Delete}" CommandParameter="{Binding .}" />
+                                <SwipeGestureRecognizer Direction="Left,Right" Command="{Binding Source={RelativeSource AncestorType={x:Type ContentPage}}, Path=BindingContext.Delete}" CommandParameter="{Binding .}" />
+                                <TapGestureRecognizer Command="{Binding Source={RelativeSource AncestorType={x:Type ContentPage}}, Path=BindingContext.OpenTeam}" CommandParameter="{Binding .}" />
                             </Frame.GestureRecognizers>
+
                             <Grid Margin="5">
                                 <Grid.RowDefinitions>
                                     <RowDefinition Height="*"/>
@@ -68,8 +69,8 @@
         <Button Text="{x:Static properties:Resources.AddEquipeButton}"
                 Grid.Row="1"
                 WidthRequest="200"
-                VerticalOptions="Center"
-                HorizontalOptions="Center"
+                VerticalOptions="Center" HorizontalOptions="Center"
+                Margin="0,0,0,5"
                 Command="{Binding AddTeam}" />
     </Grid>
 </ContentPage>

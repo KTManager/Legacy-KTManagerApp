@@ -35,7 +35,7 @@ namespace KillTeam
                 }
             }
 
-            MainPage = new NavigationPage(new TeamsListPage()); // new DatabaseLoadPage());
+            MainPage = new NavigationPage(new TeamsList()); // new DatabaseLoadPage());
         }
 
         protected override void OnStart()

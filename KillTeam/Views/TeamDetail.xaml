@@ -1,0 +1,277 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:viewModels="clr-namespace:KillTeam.ViewModels;assembly=KillTeam"
+             xmlns:properties="clr-namespace:KillTeam.Properties;assembly=KillTeam"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="KillTeam.Views.TeamDetail"
+             Title="{Binding Title}">
+
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="*" />
+            <RowDefinition Height="Auto" />
+        </Grid.RowDefinitions>
+
+        <Grid Margin="5">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="Auto" />
+                <RowDefinition Height="Auto" />
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="Auto"/>
+            </Grid.ColumnDefinitions>
+
+            <Entry Placeholder="{x:Static properties:Resources.Nom}"
+                   VerticalOptions="Center"
+                   Text="{Binding Item.Name}"
+                   ReturnType="Done" 
+                   IsSpellCheckEnabled="false" 
+                   IsTextPredictionEnabled="false" 
+                   Grid.Row="0" Grid.ColumnSpan="2"
+                   ReturnCommand="{Binding EditName}" ReturnCommandParameter="{Binding .}">
+            </Entry>
+            <Label Margin="5,0"
+                   VerticalOptions="Center"
+                   FontSize="Medium"
+                   Grid.Row="1" Grid.Column="0">
+                <Label.FormattedText>
+                    <FormattedString>
+                        <Span Text="{Binding Item.Faction}" d:Text="Thousand Sons" />
+                        <Span Text=" : " />
+                        <Span Text="{Binding Item.Cost}" d:Text="61" />
+                    </FormattedString>
+                </Label.FormattedText>
+            </Label>
+            <StackLayout Orientation="Horizontal"
+                         Grid.Row="1" Grid.Column="1"
+                         VerticalOptions="Center">
+                <Label Text="{x:Static properties:Resources.Roster}" 
+                       LineBreakMode="NoWrap" 
+                       VerticalOptions="Center"
+                       Style="{DynamicResource ListItemTextStyle}" 
+                       FontSize="Medium" />
+                <Switch IsToggled="{Binding Roster}"
+                        VerticalOptions="Center"
+                        Toggled="RosterSwitchToggled"
+                        IsEnabled="True"
+                        x:Name="SwitchRoster" 
+                        HorizontalOptions="EndAndExpand"></Switch>
+            </StackLayout>
+        </Grid>
+
+        <ListView ItemsSource="{Binding Item.Members}"
+                  Grid.Row="1"
+                  VerticalOptions="FillAndExpand" 
+                  SelectionMode="None" SeparatorVisibility="None"
+                  RowHeight="80" Margin="0,5">
+            <ListView.ItemTemplate>
+                <DataTemplate x:DataType="{x:Type viewModels:TeamDetailMemberViewModel}">
+                    <ViewCell>
+                        <Frame CornerRadius="8" Margin="5,2" BackgroundColor="White" Padding="10,5" HasShadow="True" BorderColor="#efefef">
+                            <Frame.GestureRecognizers>
+                                <SwipeGestureRecognizer Direction="Left,Right" Command="{Binding Source={RelativeSource AncestorType={x:Type ContentPage}}, Path=BindingContext.Delete}" CommandParameter="{Binding .}" />
+                            </Frame.GestureRecognizers>
+                            <Grid Margin="5">
+                                <Grid.RowDefinitions>
+                                    <RowDefinition Height="*"/>
+                                    <RowDefinition Height="*"/>
+                                </Grid.RowDefinitions>
+                                <Grid.ColumnDefinitions>
+                                    <ColumnDefinition Width="*"/>
+                                    <ColumnDefinition Width="Auto"/>
+                                </Grid.ColumnDefinitions>
+
+                                <Label Text="{Binding Name}"
+                                   Grid.Row="0" Grid.Column="0" 
+                                   HorizontalOptions="Start" VerticalOptions="Center"
+                                   FontSize="Large" />
+
+                                <Label Text="{Binding Cost}" 
+                                   Grid.Row="0" Grid.Column="1" Grid.RowSpan="2"
+                                   HorizontalOptions="Center" VerticalOptions="Center"
+                                   FontSize="Large"/>
+
+                                <Label Text="{Binding Description}" 
+                                   Grid.Row="1" Grid.Column="0"
+                                   HorizontalOptions="Start" VerticalOptions="Center"
+                                   FontSize="Small" />
+                            </Grid>
+                        </Frame>
+                    </ViewCell>
+                </DataTemplate>
+            </ListView.ItemTemplate>
+
+            <d:ListView.ItemsSource>
+                <x:Array Type="{x:Type viewModels:TeamDetailMemberViewModel}">
+                    <viewModels:TeamDetailMemberViewModel Name="Twistbray" Cost="21" Description="Twistbray, Leader" />
+                    <viewModels:TeamDetailMemberViewModel Name="Rubric Marine" Cost="20" Description="Rubric Marine, Combat, Warpflamer, Icon of Flame" />
+                    <viewModels:TeamDetailMemberViewModel Name="Rubric Marine Gunner" Cost="20" Description="Rubric Marine Gunner, Veteran, Soulreaper cannon" />
+                </x:Array>
+            </d:ListView.ItemsSource>
+        </ListView>
+
+        <StackLayout Orientation="Vertical"
+                     Grid.Row="2"
+                     Margin="0,0,0,5">
+            <Button Text="{x:Static properties:Resources.AddMembreButton}"
+                    WidthRequest="200"
+                    VerticalOptions="Center" HorizontalOptions="Center"
+                    Command="{Binding AddMember}" />
+
+            <Button Text="{x:Static properties:Resources.Supprimer}"
+                    WidthRequest="200"
+                    VerticalOptions="Center" HorizontalOptions="Center"
+                    Command="{Binding Delete}" />
+        </StackLayout>
+    </Grid>
+    <!--<ContentPage.ToolbarItems>
+        <ToolbarItem x:Name="Erreurs" Text="{i18n:Translate Erreurs}" Icon="Ressources/drawable/danger.png" Order="Primary" Clicked="OnButtonDangerClicked"/>
+        <ToolbarItem Text="{i18n:Translate PDF}" Order="Secondary" Clicked="OnButtonChoixImpressionClicked" />
+        <ToolbarItem Text="{i18n:Translate InGame}" Order="Secondary" Clicked="OnButtonInGameClicked" />
+        <ToolbarItem Text="{i18n:Translate Tactiques}"  Order="Secondary" Clicked="OnButtonTacticalClicked"/>
+        <ToolbarItem Text="{i18n:Translate Partager}" Order="Secondary" Clicked="OnButtonShareClicked"/>
+        <ToolbarItem Text="{i18n:Translate Dupliquer}" Order="Secondary" Clicked="OnButtonDuplicateClicked"/>
+        <ToolbarItem Text="{i18n:Translate Partager}" Order="Secondary" Clicked="OnButtonShareClicked"/>
+    </ContentPage.ToolbarItems>-->
+
+    <!--<StackLayout Padding="10">
+        <Entry Placeholder="{i18n:Translate Nom}" 
+               Text="{Binding Name}"
+               ReturnType="Done" 
+               IsSpellCheckEnabled="false" 
+               IsTextPredictionEnabled="false" 
+               TextChanged="NameChanged">
+        </Entry>
+
+        <StackLayout Orientation="Horizontal" VerticalOptions="Start">
+            <Label>
+                <Label.FormattedText>
+                    <FormattedString>
+                        <Span Text="{i18n:Translate Faction}" />
+                        <Span Text=" : " />
+                        <Span Text="{Binding FactionNameAndMembersCount}" />
+                    </FormattedString>
+                </Label.FormattedText>
+            </Label>
+            <Label HorizontalOptions="EndAndExpand">
+                <Label.FormattedText>
+                    <FormattedString>
+                        <Span Text="{Binding Cost, Mode=OneWay}" />
+                        <Span Text=" " />
+                        <Span Text="{i18n:Translate Points}" />
+                    </FormattedString>
+                </Label.FormattedText>
+            </Label>
+        </StackLayout>
+
+        <StackLayout Orientation="Horizontal"
+                         VerticalOptions="Start">
+            <Label Text="{i18n:Translate Roster}" 
+                       LineBreakMode="NoWrap" 
+                       Style="{DynamicResource ListItemTextStyle}" 
+                       FontSize="16" />
+            <Switch IsToggled="{Binding Roster}"
+                    Toggled="RosterSwitchToggled"
+                        IsEnabled="True"
+                        x:Name="SwitchRoster"
+                        HorizontalOptions="EndAndExpand"></Switch>
+        </StackLayout>
+        <syncfusion:SfListView  x:Name="MembresListView"
+                                ItemsSource="{Binding Members}"
+                                VerticalOptions="FillAndExpand"
+                                AutoFitMode="Height"
+                                DragStartMode="OnHold"
+                                ItemDragging="MembresListView_ItemDragging"
+                                AllowSwiping="True"
+                                SelectionMode="None">
+            <syncfusion:SfListView.DataSource>
+                <data:DataSource>
+                    <data:DataSource.SortDescriptors>
+                        <data:SortDescriptor PropertyName="Position" Direction="Ascending"/>
+                    </data:DataSource.SortDescriptors>
+                </data:DataSource>
+            </syncfusion:SfListView.DataSource>
+            <syncfusion:SfListView.ItemTemplate>
+                <DataTemplate>
+                    <ViewCell>
+                        <Grid Margin="0,0,0,10">
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="*" />
+                                <ColumnDefinition Width="Auto" />
+                            </Grid.ColumnDefinitions>
+                            <StackLayout Padding="5" BindingContext="{Binding}">
+                                <StackLayout.GestureRecognizers>
+                                    <TapGestureRecognizer Tapped="MembresListView_ItemTapped"
+                                                  NumberOfTapsRequired="1" />
+                                </StackLayout.GestureRecognizers>
+                                <StackLayout Orientation="Horizontal"
+                                             VerticalOptions="Start">
+                                    <Label Text="{Binding Name}"                                        
+                                           FontSize="Medium" />
+                                    <Label Text="{Binding Cost}" 
+                                           FontSize="Medium" 
+                                           HorizontalOptions="EndAndExpand" />
+                                </StackLayout>
+                                <Label Text="{Binding ShortWeaponLevel}"                                        
+                                           FontSize="Small" />
+                            </StackLayout>
+                            <Switch Toggled="SelectedSwitchToggled" IsToggled="{Binding Selected}" Grid.Column="1" IsVisible="{Binding Team.Roster}"></Switch>
+                        </Grid>
+                    </ViewCell>
+                </DataTemplate>
+            </syncfusion:SfListView.ItemTemplate>
+            <syncfusion:SfListView.LeftSwipeTemplate>
+                <DataTemplate x:Name="LeftSwipeTemplate">
+                    <Grid BindingContext="{Binding}">
+                        <Grid.GestureRecognizers>
+                            <TapGestureRecognizer Tapped="TapGestureRecognizer_Tapped"
+                                                  NumberOfTapsRequired="1" />
+                        </Grid.GestureRecognizers>
+                        <Grid BackgroundColor="LightGray" HorizontalOptions="Fill" VerticalOptions="Fill" Grid.Column="0">
+                            <Grid VerticalOptions="Center" HorizontalOptions="Center">
+                                <Image Grid.Column="0"
+                                        Grid.Row="0"
+                                        BackgroundColor="Transparent"
+                                        HeightRequest="35"
+                                        WidthRequest="35"
+                                        Source="delete.png" />
+                            </Grid>
+                        </Grid>
+                    </Grid>
+                </DataTemplate>
+            </syncfusion:SfListView.LeftSwipeTemplate>
+            <syncfusion:SfListView.RightSwipeTemplate>
+                <DataTemplate x:Name="RightSwipeTemplate">
+                    <Grid BindingContext="{Binding}">
+                        <Grid.GestureRecognizers>
+                            <TapGestureRecognizer Tapped="TapGestureRecognizer_Tapped"
+                                                  NumberOfTapsRequired="1" />
+                        </Grid.GestureRecognizers>
+                        <Grid BackgroundColor="LightGray" HorizontalOptions="Fill" VerticalOptions="Fill" Grid.Column="0">
+                            <Grid VerticalOptions="Center" HorizontalOptions="Center">
+                                <Image Grid.Column="0"
+                                        Grid.Row="0"
+                                        BackgroundColor="Transparent"
+                                        HeightRequest="35"
+                                        WidthRequest="35"
+                                        Source="delete.png" />
+                            </Grid>
+                        </Grid>
+                    </Grid>
+                </DataTemplate>
+            </syncfusion:SfListView.RightSwipeTemplate>
+        </syncfusion:SfListView>
+
+        <Button Text="{i18n:Translate AddMembreButton}"
+                VerticalOptions="End"
+                Clicked="OnButtonAddCliked" />
+        <Button Text="{i18n:Translate Supprimer}"
+                VerticalOptions="End"
+                Clicked="ButtonSupprimerClicked" />
+    </StackLayout>-->
+</ContentPage>

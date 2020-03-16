@@ -10,9 +10,9 @@
 
         public string FactionAndMembersCount { get; set; }
 
-        public TeamsListTeamViewModel()
-        {
-        }
+#if DEBUG
+        public TeamsListTeamViewModel() { }
+#endif
 
         public TeamsListTeamViewModel(string id, string name, int cost, string factionAndMembersCount)
         {

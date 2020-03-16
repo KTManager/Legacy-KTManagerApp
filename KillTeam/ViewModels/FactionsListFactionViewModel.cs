@@ -1,16 +1,16 @@
 ﻿namespace KillTeam.ViewModels
 {
-    public class FactionsFactionViewModel
+    public class FactionsListFactionViewModel
     {
         public string Id { get; set; }
 
         public string Name { get; set; }
 
-        public FactionsFactionViewModel()
-        {
-        }
+#if DEBUG
+        public FactionsListFactionViewModel() { }
+#endif
 
-        public FactionsFactionViewModel(string id, string name)
+        public FactionsListFactionViewModel(string id, string name)
         {
             Id = id;
             Name = name;

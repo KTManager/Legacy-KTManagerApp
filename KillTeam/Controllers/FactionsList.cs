@@ -1,37 +1,32 @@
-﻿using System.Collections.Generic;
-using System.Collections.ObjectModel;
+﻿using System.Collections.ObjectModel;
 using System.Linq;
 using System.Threading.Tasks;
 using System.Windows.Input;
 using KillTeam.Commands;
 using KillTeam.Commands.Handlers;
-using KillTeam.Models;
-using KillTeam.Properties;
 using KillTeam.Services;
-using KillTeam.Views;
+using KillTeam.ViewModels;
 using Microsoft.EntityFrameworkCore;
 using Xamarin.Forms;
 
-namespace KillTeam.ViewModels
+namespace KillTeam.Controllers
 {
-    public class FactionsViewModel
+    public class FactionsList
     {
-        public ObservableCollection<FactionsFactionViewModel> Items { get; set; }
+        public ObservableCollection<FactionsListFactionViewModel> Items { get; set; }
         
         public ICommand Selected { get; set; }
-       
 
-        /// <summary>To use only on desgin time to build views.</summary>
-        public FactionsViewModel()
+
+#if DEBUG
+        public FactionsList() { }
+#endif
+
+        public FactionsList(IHandleCommands<CreateTeamCommand> createTeamCommandHandler)
         {
+            Items = new ObservableCollection<FactionsListFactionViewModel>();
 
-        }
-
-        public FactionsViewModel(IHandleCommands<CreateTeamCommand> createTeamCommandHandler)
-        {
-            Items = new ObservableCollection<FactionsFactionViewModel>();
-
-            Selected = new Command(async e => await SelectedExecuted(e as FactionsFactionViewModel));
+            Selected = new Command(async e => await SelectedExecuted(e as FactionsListFactionViewModel));
 
             _createTeamCommandHandler = createTeamCommandHandler;
         }
@@ -50,10 +45,10 @@ namespace KillTeam.ViewModels
 
             fations.OrderBy(post => post.Name)
                 .ToList()
-                .ForEach(i => Items.Add(new FactionsFactionViewModel(i.Id, i.Name)));
+                .ForEach(i => Items.Add(new FactionsListFactionViewModel(i.Id, i.Name)));
         }
         
-        public async Task SelectedExecuted(FactionsFactionViewModel faction)
+        public async Task SelectedExecuted(FactionsListFactionViewModel faction)
         {
             _createTeamCommandHandler.Handle(new CreateTeamCommand(faction.Id));
 

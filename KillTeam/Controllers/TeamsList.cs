@@ -8,13 +8,13 @@ using KillTeam.Commands.Handlers;
 using KillTeam.Models;
 using KillTeam.Properties;
 using KillTeam.Services;
-using KillTeam.Views;
+using KillTeam.ViewModels;
 using Microsoft.EntityFrameworkCore;
 using Xamarin.Forms;
 
-namespace KillTeam.ViewModels
+namespace KillTeam.Controllers
 {
-    public class TeamsListViewModel
+    public class TeamsList
     {
         public ObservableCollection<TeamsListTeamViewModel> Items { get; set; }
         public IList<ToolbarItem> ToolbarItems { get; set; }
@@ -31,13 +31,11 @@ namespace KillTeam.ViewModels
         public ToolbarItem ButtonLang;
         public ToolbarItem ButtonCredits;
 
-        /// <summary>To use only on desgin time to build views.</summary>
-        public TeamsListViewModel()
-        {
+#if DEBUG
+        public TeamsList() { }
+#endif
 
-        }
-
-        public TeamsListViewModel(IList<ToolbarItem> toolbarItems, IHandleCommands<DeleteTeamCommand> deleteTeamCommandHandler)
+        public TeamsList(IList<ToolbarItem> toolbarItems, IHandleCommands<DeleteTeamCommand> deleteTeamCommandHandler)
         {
             Items = new ObservableCollection<TeamsListTeamViewModel>();
             AddTeam = new Command(() => AddTeamExecuted());
@@ -45,7 +43,7 @@ namespace KillTeam.ViewModels
             Language = new Command(async () => await LanguageExecuted());
             Logout = new Command(() => LogoutExecuted());
             Sync = new Command(async () => await SyncExecuted());
-            OpenTeam = new Command(async e => await OpenTeamExecuted(e as Team));
+            OpenTeam = new Command(async e => await OpenTeamExecuted(e as TeamsListTeamViewModel));
             Delete = new Command(async e => await DeleteExecuted(e as TeamsListTeamViewModel));
 
             ButtonSync = new ToolbarItem
@@ -85,9 +83,9 @@ namespace KillTeam.ViewModels
             _deleteTeamCommandHandler = deleteTeamCommandHandler;
         }
 
-        public async Task OpenTeamExecuted(Team equipe)
+        public async Task OpenTeamExecuted(TeamsListTeamViewModel team)
         {
-            //await KTApp.Navigation.PushAsync(new EquipePage(equipe.Id));
+            await KTApp.Navigation.PushAsync(new Views.TeamDetail(team.Id));
         }
 
         public async Task Refresh()
@@ -138,7 +136,7 @@ namespace KillTeam.ViewModels
 
         public void AddTeamExecuted()
         {
-            KTApp.Navigation.PushModalAsync(new FactionsPage());
+            KTApp.Navigation.PushModalAsync(new Views.FactionsList());
         }
 
         public void LogoutExecuted()

@@ -677,7 +677,7 @@ namespace KillTeam.Migrations
                     b.Property<string>("Id")
                         .ValueGeneratedOnAdd();
 
-                    b.Property<int>("Index");
+                    b.Property<int>("FactionsList");
 
                     b.Property<string>("NameDe");
 

@@ -13,7 +13,7 @@ namespace KillTeam.Views
             InitializeComponent();
             On<Xamarin.Forms.PlatformConfiguration.iOS>().SetUseSafeArea(true);
 
-            var vm = new Controllers.TeamDetail(ToolbarItems, teamId, new DeleteTeamCommandHandler(), new RenameTeamCommandHandler());
+            var vm = new Controllers.TeamDetail(ToolbarItems, teamId, new DeleteTeamCommandHandler(), new RenameTeamCommandHandler(), new DeleteMemberCommandHandler());
             BindingContext = vm;
         }
 

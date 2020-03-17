@@ -6,16 +6,10 @@
              xmlns:d="http://xamarin.com/schemas/2014/forms/design"
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
              xmlns:renderedViews="clr-namespace:Sharpnado.Presentation.Forms.RenderedViews;assembly=Sharpnado.Presentation.Forms"
-             xmlns:controllers="clr-namespace:KillTeam.Controllers;assembly=KillTeam"
              mc:Ignorable="d"
              x:Class="KillTeam.Views.TeamsList"
              Title="Kill Team Manager"
              x:Name="This">
-
-    <d:ContentPage.BindingContext>
-        <controllers:TeamsList />
-    </d:ContentPage.BindingContext>
-
     <ContentPage.Resources>
         <ResourceDictionary>
             <DataTemplate x:Key="TeamDataTemplate" x:DataType="{x:Type viewModels:TeamsListTeamViewModel}">
@@ -23,7 +17,6 @@
                     <SwipeView>
                         <renderedViews:MaterialFrame Margin="4" Padding="{StaticResource StandardThickness}" Elevation="4">
                             <renderedViews:MaterialFrame.GestureRecognizers>
-                                <!--<SwipeGestureRecognizer Direction="Left, Right" Command="{Binding Source={RelativeSource AncestorType={x:Type ContentPage}}, Path=BindingContext.Delete}" CommandParameter="{Binding .}" />-->
                                 <TapGestureRecognizer Command="{Binding Source={RelativeSource AncestorType={x:Type ContentPage}}, Path=BindingContext.OpenTeam}" CommandParameter="{Binding .}" />
                             </renderedViews:MaterialFrame.GestureRecognizers>
                             <Grid>

@@ -31,6 +31,7 @@ namespace KillTeam.Controllers
         public IList<ToolbarItem> ToolbarItems { get; set; }
 
         public ICommand AddMember { get; set; }
+        public ICommand DeleteMember { get; set; }
         public ICommand EditName { get; set; }
         public ICommand Delete { get; set; }
         public ICommand Pdf { get; set; }
@@ -50,11 +51,15 @@ namespace KillTeam.Controllers
         public TeamDetail() { }
 #endif
 
-        public TeamDetail(IList<ToolbarItem> toolbarItems, string teamId, IHandleCommands<DeleteTeamCommand> deleteTeamCommandHandler, IHandleCommands<RenameTeamCommand> renameTeamCommandHandler)
+        public TeamDetail(IList<ToolbarItem> toolbarItems, string teamId, 
+            IHandleCommands<DeleteTeamCommand> deleteTeamCommandHandler, 
+            IHandleCommands<RenameTeamCommand> renameTeamCommandHandler,
+            IHandleCommands<DeleteMemberCommand> deleteMemberCommandHandler)
         {
             _itemId = teamId;
 
             AddMember = new Command(AddMemberExecuted);
+            DeleteMember = new Command(async e => await DeleteMemberExecuted(e as TeamDetailMemberViewModel));
             EditName = new Command(async () => await EditNameExecuted());
             Delete = new Command(async () => await DeleteExecuted());
 
@@ -95,6 +100,7 @@ namespace KillTeam.Controllers
             ToolbarItems.Add(ButtonShare);
             ToolbarItems.Add(ButtonDuplicates);
 
+            _deleteMemberCommandHandler = deleteMemberCommandHandler;
             _deleteTeamCommandHandler = deleteTeamCommandHandler;
             _renameTeamCommandHandler = renameTeamCommandHandler;
         }
@@ -136,6 +142,12 @@ namespace KillTeam.Controllers
             KTApp.Navigation.PushModalAsync(new Views.ModelsList(Item.Id));
         }
 
+        public async Task DeleteMemberExecuted(TeamDetailMemberViewModel member)
+        {
+            _deleteMemberCommandHandler.Handle(new DeleteMemberCommand(member.Id));
+            await Refresh();
+        }
+
         public async Task EditNameExecuted()
         {
             _renameTeamCommandHandler.Handle(new RenameTeamCommand(Item.Id, Item.Name));
@@ -149,6 +161,7 @@ namespace KillTeam.Controllers
         }
 
         private string _itemId;
+        private readonly IHandleCommands<DeleteMemberCommand> _deleteMemberCommandHandler;
         private readonly IHandleCommands<DeleteTeamCommand> _deleteTeamCommandHandler;
         private readonly IHandleCommands<RenameTeamCommand> _renameTeamCommandHandler;
         private TeamDetailTeamViewModel _item;

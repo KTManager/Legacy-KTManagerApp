@@ -5,9 +5,63 @@
              xmlns:properties="clr-namespace:KillTeam.Properties;assembly=KillTeam"
              xmlns:d="http://xamarin.com/schemas/2014/forms/design"
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             xmlns:renderedViews="clr-namespace:Sharpnado.Presentation.Forms.RenderedViews;assembly=Sharpnado.Presentation.Forms"
              mc:Ignorable="d"
              x:Class="KillTeam.Views.TeamDetail"
-             Title="{Binding Item.FormattedNameCost}">
+             Title="{Binding Item.FormattedNameCost}"
+             x:Name="This">
+    <ContentPage.Resources>
+        <ResourceDictionary>
+            <DataTemplate x:Key="MemberDataTemplate" x:DataType="{x:Type viewModels:TeamDetailMemberViewModel}">
+                <ViewCell>
+                    <SwipeView>
+                        <renderedViews:MaterialFrame Margin="4" Padding="{StaticResource StandardThickness}" Elevation="4">
+                            <renderedViews:MaterialFrame.GestureRecognizers>
+                                <!--<TapGestureRecognizer Command="{Binding Source={RelativeSource AncestorType={x:Type ContentPage}}, Path=BindingContext.OpenTeam}" CommandParameter="{Binding .}" />-->
+                            </renderedViews:MaterialFrame.GestureRecognizers>
+                            <Grid Margin="5">
+                                <Grid.RowDefinitions>
+                                    <RowDefinition Height="*"/>
+                                    <RowDefinition Height="*"/>
+                                </Grid.RowDefinitions>
+                                <Grid.ColumnDefinitions>
+                                    <ColumnDefinition Width="*"/>
+                                    <ColumnDefinition Width="Auto"/>
+                                </Grid.ColumnDefinitions>
+
+                                <Label Text="{Binding Name}"
+                                       Grid.Row="0" Grid.Column="0" 
+                                       HorizontalOptions="Start" VerticalOptions="Center"
+                                       FontSize="Medium" />
+
+                                <Label Text="{Binding Cost}" 
+                                       Grid.Row="0" Grid.Column="1" Grid.RowSpan="2"
+                                       HorizontalOptions="Center" VerticalOptions="Center"
+                                       FontSize="Medium"/>
+
+                                <Label Text="{Binding Description}" 
+                                       Grid.Row="1" Grid.Column="0"
+                                       HorizontalOptions="Start" VerticalOptions="Center"
+                                       FontSize="Small" />
+                            </Grid>
+                        </renderedViews:MaterialFrame>
+
+                        <SwipeView.RightItems>
+                            <SwipeItems>
+                                <SwipeItemView>
+                                    <ImageButton BackgroundColor="LightPink"
+                                                 Source="delete.png"
+                                                 Padding="0,25"
+                                                 Command="{Binding Source={x:Reference This}, Path=BindingContext.DeleteMember}" CommandParameter="{Binding .}"/>
+                                </SwipeItemView>
+                            </SwipeItems>
+                        </SwipeView.RightItems>
+                    </SwipeView>
+                </ViewCell>
+            </DataTemplate>
+        </ResourceDictionary>
+    </ContentPage.Resources>
+
     <Grid>
         <Grid.RowDefinitions>
             <RowDefinition Height="Auto" />
@@ -62,56 +116,13 @@
             </StackLayout>
         </Grid>
 
-        <ListView ItemsSource="{Binding Item.Members}"
-                  Grid.Row="1"
-                  VerticalOptions="FillAndExpand" 
-                  SelectionMode="None" SeparatorVisibility="None"
-                  RowHeight="80" Margin="0,5">
-            <ListView.ItemTemplate>
-                <DataTemplate x:DataType="{x:Type viewModels:TeamDetailMemberViewModel}">
-                    <ViewCell>
-                        <Frame CornerRadius="8" Margin="5,2" BackgroundColor="White" Padding="10,5" HasShadow="True" BorderColor="#efefef">
-                            <Frame.GestureRecognizers>
-                                <SwipeGestureRecognizer Direction="Left,Right" Command="{Binding Source={RelativeSource AncestorType={x:Type ContentPage}}, Path=BindingContext.Delete}" CommandParameter="{Binding .}" />
-                            </Frame.GestureRecognizers>
-                            <Grid Margin="5">
-                                <Grid.RowDefinitions>
-                                    <RowDefinition Height="*"/>
-                                    <RowDefinition Height="*"/>
-                                </Grid.RowDefinitions>
-                                <Grid.ColumnDefinitions>
-                                    <ColumnDefinition Width="*"/>
-                                    <ColumnDefinition Width="Auto"/>
-                                </Grid.ColumnDefinitions>
+        <renderedViews:HorizontalListView ItemTemplate="{StaticResource MemberDataTemplate}"
+                                          ItemsSource="{Binding Item.Members}"
+                                          EnableDragAndDrop="True"
+                                          ColumnCount="1"
+                                          Grid.Row="1"
+                                          DragAndDropEndedCommand="{Binding ReorderMembers}"/>
 
-                                <Label Text="{Binding Name}"
-                                   Grid.Row="0" Grid.Column="0" 
-                                   HorizontalOptions="Start" VerticalOptions="Center"
-                                   FontSize="Medium" />
-
-                                <Label Text="{Binding Cost}" 
-                                   Grid.Row="0" Grid.Column="1" Grid.RowSpan="2"
-                                   HorizontalOptions="Center" VerticalOptions="Center"
-                                   FontSize="Medium"/>
-
-                                <Label Text="{Binding Description}" 
-                                   Grid.Row="1" Grid.Column="0"
-                                   HorizontalOptions="Start" VerticalOptions="Center"
-                                   FontSize="Small" />
-                            </Grid>
-                        </Frame>
-                    </ViewCell>
-                </DataTemplate>
-            </ListView.ItemTemplate>
-
-            <d:ListView.ItemsSource>
-                <x:Array Type="{x:Type viewModels:TeamDetailMemberViewModel}">
-                    <viewModels:TeamDetailMemberViewModel Name="Twistbray" Cost="21" Description="Twistbray, Leader" />
-                    <viewModels:TeamDetailMemberViewModel Name="Rubric Marine" Cost="20" Description="Rubric Marine, Combat, Warpflamer, Icon of Flame" />
-                    <viewModels:TeamDetailMemberViewModel Name="Rubric Marine Gunner" Cost="20" Description="Rubric Marine Gunner, Veteran, Soulreaper cannon" />
-                </x:Array>
-            </d:ListView.ItemsSource>
-        </ListView>
 
         <StackLayout Orientation="Vertical"
                      Grid.Row="2"

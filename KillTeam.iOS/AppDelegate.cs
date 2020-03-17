@@ -2,6 +2,7 @@
 using System.IO;
 using CarouselView.FormsPlugin.iOS;
 using Foundation;
+using Sharpnado.Presentation.Forms.iOS;
 using UIKit;
 using Xamarin.Forms.Platform.iOS;
 
@@ -26,7 +27,9 @@ namespace KillTeam.iOS
         {
             SQLitePCL.Batteries_V2.Init(); // TODO(jakemco): do we even need this?
             global::Xamarin.Forms.Forms.Init();
-           
+
+            SharpnadoInitializer.Initialize();
+
             // Old verions of the app stored the DB in a different spot, fix it up here
             MoveLegacyDB();
 

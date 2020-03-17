@@ -7,6 +7,7 @@ using Android.OS;
 using AuditApp.Android;
 using Xamarin.Forms;
 using Android.Content;
+using Sharpnado.Presentation.Forms.Droid;
 
 namespace KillTeam.Droid
 {
@@ -26,6 +27,8 @@ namespace KillTeam.Droid
             base.OnCreate(savedInstanceState);
 
             global::Xamarin.Forms.Forms.Init(this, savedInstanceState);
+
+            SharpnadoInitializer.Initialize();
 
             LoadApplication(new KTApp());
             var ci = DependencyService.Get<Localize>().GetCurrentCultureInfo();            

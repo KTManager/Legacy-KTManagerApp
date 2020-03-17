@@ -25,6 +25,7 @@ namespace KillTeam.Controllers
         public ICommand AddTeam { get; set; }
         public ICommand Delete { get; set; }
         public ICommand OpenTeam { get; set; }
+        public ICommand ReorderTeam { get; set; }
 
         public ToolbarItem ButtonSync;
         public ToolbarItem ButtonDeco;
@@ -35,7 +36,9 @@ namespace KillTeam.Controllers
         public TeamsList() { }
 #endif
 
-        public TeamsList(IList<ToolbarItem> toolbarItems, IHandleCommands<DeleteTeamCommand> deleteTeamCommandHandler)
+        public TeamsList(IList<ToolbarItem> toolbarItems, 
+            IHandleCommands<DeleteTeamCommand> deleteTeamCommandHandler,
+            IHandleCommands<ReorderTeamsCommand> reorderTeamsCommandHandler)
         {
             Items = new ObservableCollection<TeamsListTeamViewModel>();
             AddTeam = new Command(() => AddTeamExecuted());
@@ -44,6 +47,7 @@ namespace KillTeam.Controllers
             Logout = new Command(() => LogoutExecuted());
             Sync = new Command(async () => await SyncExecuted());
             OpenTeam = new Command(async e => await OpenTeamExecuted(e as TeamsListTeamViewModel));
+            ReorderTeam = new Command(async () => await ReorderTeamExecuted());
             Delete = new Command(async e => await DeleteExecuted(e as TeamsListTeamViewModel));
 
             ButtonSync = new ToolbarItem
@@ -52,21 +56,21 @@ namespace KillTeam.Controllers
                 Order = ToolbarItemOrder.Secondary,
                 Command = Sync
             };
-            
+
             ButtonDeco = new ToolbarItem
             {
                 Text = Resources.Deconnection,
                 Order = ToolbarItemOrder.Secondary,
                 Command = Logout
             };
-            
+
             ButtonLang = new ToolbarItem
             {
                 Text = Resources.Language,
                 Order = ToolbarItemOrder.Secondary,
                 Command = Language
             };
-            
+
             ButtonCredits = new ToolbarItem
             {
                 Text = Resources.Remerciement,
@@ -80,6 +84,7 @@ namespace KillTeam.Controllers
             ToolbarItems.Add(ButtonLang);
             ToolbarItems.Add(ButtonCredits);
 
+            _reorderTeamsCommandHandler = reorderTeamsCommandHandler;
             _deleteTeamCommandHandler = deleteTeamCommandHandler;
         }
 
@@ -94,7 +99,7 @@ namespace KillTeam.Controllers
             {
                 ToolbarItems.Remove(ButtonDeco);
                 ToolbarItems.Remove(ButtonSync);
-                
+
                 await UpdateItems();
 
                 return;
@@ -167,11 +172,16 @@ namespace KillTeam.Controllers
 
         public async Task DeleteExecuted(TeamsListTeamViewModel team)
         {
-            _deleteTeamCommandHandler.Handle(new DeleteTeamCommand(team.Id));   
+            _deleteTeamCommandHandler.Handle(new DeleteTeamCommand(team.Id));
 
             await UpdateItems();
         }
+        public async Task ReorderTeamExecuted()
+        {
+            _reorderTeamsCommandHandler.Handle(new ReorderTeamsCommand(Items.Select(x => x.Id).ToList()));
+        }
 
+        private readonly IHandleCommands<ReorderTeamsCommand> _reorderTeamsCommandHandler;
         private readonly IHandleCommands<DeleteTeamCommand> _deleteTeamCommandHandler;
     }
 }

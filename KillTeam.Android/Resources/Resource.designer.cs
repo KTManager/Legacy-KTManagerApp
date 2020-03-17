@@ -2377,6 +2377,2231 @@ namespace KillTeam.Droid
 			global::Microsoft.AppCenter.Push.Android.Resource.Styleable.GradientColorItem = global::KillTeam.Droid.Resource.Styleable.GradientColorItem;
 			global::Microsoft.AppCenter.Push.Android.Resource.Styleable.GradientColorItem_android_color = global::KillTeam.Droid.Resource.Styleable.GradientColorItem_android_color;
 			global::Microsoft.AppCenter.Push.Android.Resource.Styleable.GradientColorItem_android_offset = global::KillTeam.Droid.Resource.Styleable.GradientColorItem_android_offset;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Animation.abc_fade_in = global::KillTeam.Droid.Resource.Animation.abc_fade_in;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Animation.abc_fade_out = global::KillTeam.Droid.Resource.Animation.abc_fade_out;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Animation.abc_grow_fade_in_from_bottom = global::KillTeam.Droid.Resource.Animation.abc_grow_fade_in_from_bottom;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Animation.abc_popup_enter = global::KillTeam.Droid.Resource.Animation.abc_popup_enter;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Animation.abc_popup_exit = global::KillTeam.Droid.Resource.Animation.abc_popup_exit;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Animation.abc_shrink_fade_out_from_bottom = global::KillTeam.Droid.Resource.Animation.abc_shrink_fade_out_from_bottom;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Animation.abc_slide_in_bottom = global::KillTeam.Droid.Resource.Animation.abc_slide_in_bottom;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Animation.abc_slide_in_top = global::KillTeam.Droid.Resource.Animation.abc_slide_in_top;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Animation.abc_slide_out_bottom = global::KillTeam.Droid.Resource.Animation.abc_slide_out_bottom;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Animation.abc_slide_out_top = global::KillTeam.Droid.Resource.Animation.abc_slide_out_top;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Animation.design_bottom_sheet_slide_in = global::KillTeam.Droid.Resource.Animation.design_bottom_sheet_slide_in;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Animation.design_bottom_sheet_slide_out = global::KillTeam.Droid.Resource.Animation.design_bottom_sheet_slide_out;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Animation.design_snackbar_in = global::KillTeam.Droid.Resource.Animation.design_snackbar_in;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Animation.design_snackbar_out = global::KillTeam.Droid.Resource.Animation.design_snackbar_out;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Animator.design_appbar_state_list_animator = global::KillTeam.Droid.Resource.Animator.design_appbar_state_list_animator;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.actionBarDivider = global::KillTeam.Droid.Resource.Attribute.actionBarDivider;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.actionBarItemBackground = global::KillTeam.Droid.Resource.Attribute.actionBarItemBackground;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.actionBarPopupTheme = global::KillTeam.Droid.Resource.Attribute.actionBarPopupTheme;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.actionBarSize = global::KillTeam.Droid.Resource.Attribute.actionBarSize;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.actionBarSplitStyle = global::KillTeam.Droid.Resource.Attribute.actionBarSplitStyle;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.actionBarStyle = global::KillTeam.Droid.Resource.Attribute.actionBarStyle;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.actionBarTabBarStyle = global::KillTeam.Droid.Resource.Attribute.actionBarTabBarStyle;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.actionBarTabStyle = global::KillTeam.Droid.Resource.Attribute.actionBarTabStyle;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.actionBarTabTextStyle = global::KillTeam.Droid.Resource.Attribute.actionBarTabTextStyle;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.actionBarTheme = global::KillTeam.Droid.Resource.Attribute.actionBarTheme;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.actionBarWidgetTheme = global::KillTeam.Droid.Resource.Attribute.actionBarWidgetTheme;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.actionButtonStyle = global::KillTeam.Droid.Resource.Attribute.actionButtonStyle;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.actionDropDownStyle = global::KillTeam.Droid.Resource.Attribute.actionDropDownStyle;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.actionLayout = global::KillTeam.Droid.Resource.Attribute.actionLayout;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.actionMenuTextAppearance = global::KillTeam.Droid.Resource.Attribute.actionMenuTextAppearance;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.actionMenuTextColor = global::KillTeam.Droid.Resource.Attribute.actionMenuTextColor;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.actionModeBackground = global::KillTeam.Droid.Resource.Attribute.actionModeBackground;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.actionModeCloseButtonStyle = global::KillTeam.Droid.Resource.Attribute.actionModeCloseButtonStyle;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.actionModeCloseDrawable = global::KillTeam.Droid.Resource.Attribute.actionModeCloseDrawable;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.actionModeCopyDrawable = global::KillTeam.Droid.Resource.Attribute.actionModeCopyDrawable;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.actionModeCutDrawable = global::KillTeam.Droid.Resource.Attribute.actionModeCutDrawable;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.actionModeFindDrawable = global::KillTeam.Droid.Resource.Attribute.actionModeFindDrawable;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.actionModePasteDrawable = global::KillTeam.Droid.Resource.Attribute.actionModePasteDrawable;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.actionModePopupWindowStyle = global::KillTeam.Droid.Resource.Attribute.actionModePopupWindowStyle;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.actionModeSelectAllDrawable = global::KillTeam.Droid.Resource.Attribute.actionModeSelectAllDrawable;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.actionModeShareDrawable = global::KillTeam.Droid.Resource.Attribute.actionModeShareDrawable;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.actionModeSplitBackground = global::KillTeam.Droid.Resource.Attribute.actionModeSplitBackground;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.actionModeStyle = global::KillTeam.Droid.Resource.Attribute.actionModeStyle;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.actionModeWebSearchDrawable = global::KillTeam.Droid.Resource.Attribute.actionModeWebSearchDrawable;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.actionOverflowButtonStyle = global::KillTeam.Droid.Resource.Attribute.actionOverflowButtonStyle;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.actionOverflowMenuStyle = global::KillTeam.Droid.Resource.Attribute.actionOverflowMenuStyle;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.actionProviderClass = global::KillTeam.Droid.Resource.Attribute.actionProviderClass;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.actionViewClass = global::KillTeam.Droid.Resource.Attribute.actionViewClass;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.activityChooserViewStyle = global::KillTeam.Droid.Resource.Attribute.activityChooserViewStyle;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.alertDialogButtonGroupStyle = global::KillTeam.Droid.Resource.Attribute.alertDialogButtonGroupStyle;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.alertDialogCenterButtons = global::KillTeam.Droid.Resource.Attribute.alertDialogCenterButtons;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.alertDialogStyle = global::KillTeam.Droid.Resource.Attribute.alertDialogStyle;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.alertDialogTheme = global::KillTeam.Droid.Resource.Attribute.alertDialogTheme;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.allowStacking = global::KillTeam.Droid.Resource.Attribute.allowStacking;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.alpha = global::KillTeam.Droid.Resource.Attribute.alpha;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.alphabeticModifiers = global::KillTeam.Droid.Resource.Attribute.alphabeticModifiers;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.arrowHeadLength = global::KillTeam.Droid.Resource.Attribute.arrowHeadLength;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.arrowShaftLength = global::KillTeam.Droid.Resource.Attribute.arrowShaftLength;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.autoCompleteTextViewStyle = global::KillTeam.Droid.Resource.Attribute.autoCompleteTextViewStyle;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.autoSizeMaxTextSize = global::KillTeam.Droid.Resource.Attribute.autoSizeMaxTextSize;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.autoSizeMinTextSize = global::KillTeam.Droid.Resource.Attribute.autoSizeMinTextSize;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.autoSizePresetSizes = global::KillTeam.Droid.Resource.Attribute.autoSizePresetSizes;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.autoSizeStepGranularity = global::KillTeam.Droid.Resource.Attribute.autoSizeStepGranularity;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.autoSizeTextType = global::KillTeam.Droid.Resource.Attribute.autoSizeTextType;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.background = global::KillTeam.Droid.Resource.Attribute.background;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.backgroundSplit = global::KillTeam.Droid.Resource.Attribute.backgroundSplit;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.backgroundStacked = global::KillTeam.Droid.Resource.Attribute.backgroundStacked;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.backgroundTint = global::KillTeam.Droid.Resource.Attribute.backgroundTint;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.backgroundTintMode = global::KillTeam.Droid.Resource.Attribute.backgroundTintMode;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.barLength = global::KillTeam.Droid.Resource.Attribute.barLength;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.behavior_autoHide = global::KillTeam.Droid.Resource.Attribute.behavior_autoHide;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.behavior_hideable = global::KillTeam.Droid.Resource.Attribute.behavior_hideable;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.behavior_overlapTop = global::KillTeam.Droid.Resource.Attribute.behavior_overlapTop;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.behavior_peekHeight = global::KillTeam.Droid.Resource.Attribute.behavior_peekHeight;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.behavior_skipCollapsed = global::KillTeam.Droid.Resource.Attribute.behavior_skipCollapsed;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.borderlessButtonStyle = global::KillTeam.Droid.Resource.Attribute.borderlessButtonStyle;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.borderWidth = global::KillTeam.Droid.Resource.Attribute.borderWidth;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.bottomSheetDialogTheme = global::KillTeam.Droid.Resource.Attribute.bottomSheetDialogTheme;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.bottomSheetStyle = global::KillTeam.Droid.Resource.Attribute.bottomSheetStyle;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.buttonBarButtonStyle = global::KillTeam.Droid.Resource.Attribute.buttonBarButtonStyle;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.buttonBarNegativeButtonStyle = global::KillTeam.Droid.Resource.Attribute.buttonBarNegativeButtonStyle;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.buttonBarNeutralButtonStyle = global::KillTeam.Droid.Resource.Attribute.buttonBarNeutralButtonStyle;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.buttonBarPositiveButtonStyle = global::KillTeam.Droid.Resource.Attribute.buttonBarPositiveButtonStyle;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.buttonBarStyle = global::KillTeam.Droid.Resource.Attribute.buttonBarStyle;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.buttonGravity = global::KillTeam.Droid.Resource.Attribute.buttonGravity;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.buttonPanelSideLayout = global::KillTeam.Droid.Resource.Attribute.buttonPanelSideLayout;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.buttonStyle = global::KillTeam.Droid.Resource.Attribute.buttonStyle;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.buttonStyleSmall = global::KillTeam.Droid.Resource.Attribute.buttonStyleSmall;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.buttonTint = global::KillTeam.Droid.Resource.Attribute.buttonTint;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.buttonTintMode = global::KillTeam.Droid.Resource.Attribute.buttonTintMode;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.cardBackgroundColor = global::KillTeam.Droid.Resource.Attribute.cardBackgroundColor;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.cardCornerRadius = global::KillTeam.Droid.Resource.Attribute.cardCornerRadius;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.cardElevation = global::KillTeam.Droid.Resource.Attribute.cardElevation;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.cardMaxElevation = global::KillTeam.Droid.Resource.Attribute.cardMaxElevation;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.cardPreventCornerOverlap = global::KillTeam.Droid.Resource.Attribute.cardPreventCornerOverlap;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.cardUseCompatPadding = global::KillTeam.Droid.Resource.Attribute.cardUseCompatPadding;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.checkboxStyle = global::KillTeam.Droid.Resource.Attribute.checkboxStyle;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.checkedTextViewStyle = global::KillTeam.Droid.Resource.Attribute.checkedTextViewStyle;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.closeIcon = global::KillTeam.Droid.Resource.Attribute.closeIcon;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.closeItemLayout = global::KillTeam.Droid.Resource.Attribute.closeItemLayout;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.collapseContentDescription = global::KillTeam.Droid.Resource.Attribute.collapseContentDescription;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.collapsedTitleGravity = global::KillTeam.Droid.Resource.Attribute.collapsedTitleGravity;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.collapsedTitleTextAppearance = global::KillTeam.Droid.Resource.Attribute.collapsedTitleTextAppearance;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.collapseIcon = global::KillTeam.Droid.Resource.Attribute.collapseIcon;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.color = global::KillTeam.Droid.Resource.Attribute.color;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.colorAccent = global::KillTeam.Droid.Resource.Attribute.colorAccent;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.colorBackgroundFloating = global::KillTeam.Droid.Resource.Attribute.colorBackgroundFloating;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.colorButtonNormal = global::KillTeam.Droid.Resource.Attribute.colorButtonNormal;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.colorControlActivated = global::KillTeam.Droid.Resource.Attribute.colorControlActivated;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.colorControlHighlight = global::KillTeam.Droid.Resource.Attribute.colorControlHighlight;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.colorControlNormal = global::KillTeam.Droid.Resource.Attribute.colorControlNormal;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.colorError = global::KillTeam.Droid.Resource.Attribute.colorError;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.colorPrimary = global::KillTeam.Droid.Resource.Attribute.colorPrimary;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.colorPrimaryDark = global::KillTeam.Droid.Resource.Attribute.colorPrimaryDark;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.colorSwitchThumbNormal = global::KillTeam.Droid.Resource.Attribute.colorSwitchThumbNormal;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.commitIcon = global::KillTeam.Droid.Resource.Attribute.commitIcon;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.contentDescription = global::KillTeam.Droid.Resource.Attribute.contentDescription;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.contentInsetEnd = global::KillTeam.Droid.Resource.Attribute.contentInsetEnd;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.contentInsetEndWithActions = global::KillTeam.Droid.Resource.Attribute.contentInsetEndWithActions;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.contentInsetLeft = global::KillTeam.Droid.Resource.Attribute.contentInsetLeft;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.contentInsetRight = global::KillTeam.Droid.Resource.Attribute.contentInsetRight;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.contentInsetStart = global::KillTeam.Droid.Resource.Attribute.contentInsetStart;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.contentInsetStartWithNavigation = global::KillTeam.Droid.Resource.Attribute.contentInsetStartWithNavigation;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.contentPadding = global::KillTeam.Droid.Resource.Attribute.contentPadding;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.contentPaddingBottom = global::KillTeam.Droid.Resource.Attribute.contentPaddingBottom;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.contentPaddingLeft = global::KillTeam.Droid.Resource.Attribute.contentPaddingLeft;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.contentPaddingRight = global::KillTeam.Droid.Resource.Attribute.contentPaddingRight;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.contentPaddingTop = global::KillTeam.Droid.Resource.Attribute.contentPaddingTop;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.contentScrim = global::KillTeam.Droid.Resource.Attribute.contentScrim;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.controlBackground = global::KillTeam.Droid.Resource.Attribute.controlBackground;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.counterEnabled = global::KillTeam.Droid.Resource.Attribute.counterEnabled;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.counterMaxLength = global::KillTeam.Droid.Resource.Attribute.counterMaxLength;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.counterOverflowTextAppearance = global::KillTeam.Droid.Resource.Attribute.counterOverflowTextAppearance;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.counterTextAppearance = global::KillTeam.Droid.Resource.Attribute.counterTextAppearance;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.customNavigationLayout = global::KillTeam.Droid.Resource.Attribute.customNavigationLayout;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.defaultQueryHint = global::KillTeam.Droid.Resource.Attribute.defaultQueryHint;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.dialogPreferredPadding = global::KillTeam.Droid.Resource.Attribute.dialogPreferredPadding;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.dialogTheme = global::KillTeam.Droid.Resource.Attribute.dialogTheme;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.displayOptions = global::KillTeam.Droid.Resource.Attribute.displayOptions;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.divider = global::KillTeam.Droid.Resource.Attribute.divider;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.dividerHorizontal = global::KillTeam.Droid.Resource.Attribute.dividerHorizontal;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.dividerPadding = global::KillTeam.Droid.Resource.Attribute.dividerPadding;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.dividerVertical = global::KillTeam.Droid.Resource.Attribute.dividerVertical;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.drawableSize = global::KillTeam.Droid.Resource.Attribute.drawableSize;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.drawerArrowStyle = global::KillTeam.Droid.Resource.Attribute.drawerArrowStyle;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.dropdownListPreferredItemHeight = global::KillTeam.Droid.Resource.Attribute.dropdownListPreferredItemHeight;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.dropDownListViewStyle = global::KillTeam.Droid.Resource.Attribute.dropDownListViewStyle;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.editTextBackground = global::KillTeam.Droid.Resource.Attribute.editTextBackground;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.editTextColor = global::KillTeam.Droid.Resource.Attribute.editTextColor;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.editTextStyle = global::KillTeam.Droid.Resource.Attribute.editTextStyle;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.elevation = global::KillTeam.Droid.Resource.Attribute.elevation;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.errorEnabled = global::KillTeam.Droid.Resource.Attribute.errorEnabled;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.errorTextAppearance = global::KillTeam.Droid.Resource.Attribute.errorTextAppearance;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.expandActivityOverflowButtonDrawable = global::KillTeam.Droid.Resource.Attribute.expandActivityOverflowButtonDrawable;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.expanded = global::KillTeam.Droid.Resource.Attribute.expanded;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.expandedTitleGravity = global::KillTeam.Droid.Resource.Attribute.expandedTitleGravity;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.expandedTitleMargin = global::KillTeam.Droid.Resource.Attribute.expandedTitleMargin;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.expandedTitleMarginBottom = global::KillTeam.Droid.Resource.Attribute.expandedTitleMarginBottom;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.expandedTitleMarginEnd = global::KillTeam.Droid.Resource.Attribute.expandedTitleMarginEnd;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.expandedTitleMarginStart = global::KillTeam.Droid.Resource.Attribute.expandedTitleMarginStart;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.expandedTitleMarginTop = global::KillTeam.Droid.Resource.Attribute.expandedTitleMarginTop;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.expandedTitleTextAppearance = global::KillTeam.Droid.Resource.Attribute.expandedTitleTextAppearance;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.externalRouteEnabledDrawable = global::KillTeam.Droid.Resource.Attribute.externalRouteEnabledDrawable;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.fabSize = global::KillTeam.Droid.Resource.Attribute.fabSize;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.fastScrollEnabled = global::KillTeam.Droid.Resource.Attribute.fastScrollEnabled;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.fastScrollHorizontalThumbDrawable = global::KillTeam.Droid.Resource.Attribute.fastScrollHorizontalThumbDrawable;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.fastScrollHorizontalTrackDrawable = global::KillTeam.Droid.Resource.Attribute.fastScrollHorizontalTrackDrawable;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.fastScrollVerticalThumbDrawable = global::KillTeam.Droid.Resource.Attribute.fastScrollVerticalThumbDrawable;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.fastScrollVerticalTrackDrawable = global::KillTeam.Droid.Resource.Attribute.fastScrollVerticalTrackDrawable;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.font = global::KillTeam.Droid.Resource.Attribute.font;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.fontFamily = global::KillTeam.Droid.Resource.Attribute.fontFamily;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.fontProviderAuthority = global::KillTeam.Droid.Resource.Attribute.fontProviderAuthority;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.fontProviderCerts = global::KillTeam.Droid.Resource.Attribute.fontProviderCerts;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.fontProviderFetchStrategy = global::KillTeam.Droid.Resource.Attribute.fontProviderFetchStrategy;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.fontProviderFetchTimeout = global::KillTeam.Droid.Resource.Attribute.fontProviderFetchTimeout;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.fontProviderPackage = global::KillTeam.Droid.Resource.Attribute.fontProviderPackage;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.fontProviderQuery = global::KillTeam.Droid.Resource.Attribute.fontProviderQuery;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.fontStyle = global::KillTeam.Droid.Resource.Attribute.fontStyle;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.fontWeight = global::KillTeam.Droid.Resource.Attribute.fontWeight;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.foregroundInsidePadding = global::KillTeam.Droid.Resource.Attribute.foregroundInsidePadding;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.gapBetweenBars = global::KillTeam.Droid.Resource.Attribute.gapBetweenBars;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.goIcon = global::KillTeam.Droid.Resource.Attribute.goIcon;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.headerLayout = global::KillTeam.Droid.Resource.Attribute.headerLayout;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.height = global::KillTeam.Droid.Resource.Attribute.height;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.hideOnContentScroll = global::KillTeam.Droid.Resource.Attribute.hideOnContentScroll;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.hintAnimationEnabled = global::KillTeam.Droid.Resource.Attribute.hintAnimationEnabled;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.hintEnabled = global::KillTeam.Droid.Resource.Attribute.hintEnabled;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.hintTextAppearance = global::KillTeam.Droid.Resource.Attribute.hintTextAppearance;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.homeAsUpIndicator = global::KillTeam.Droid.Resource.Attribute.homeAsUpIndicator;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.homeLayout = global::KillTeam.Droid.Resource.Attribute.homeLayout;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.icon = global::KillTeam.Droid.Resource.Attribute.icon;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.iconifiedByDefault = global::KillTeam.Droid.Resource.Attribute.iconifiedByDefault;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.iconTint = global::KillTeam.Droid.Resource.Attribute.iconTint;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.iconTintMode = global::KillTeam.Droid.Resource.Attribute.iconTintMode;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.imageButtonStyle = global::KillTeam.Droid.Resource.Attribute.imageButtonStyle;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.indeterminateProgressStyle = global::KillTeam.Droid.Resource.Attribute.indeterminateProgressStyle;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.initialActivityCount = global::KillTeam.Droid.Resource.Attribute.initialActivityCount;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.insetForeground = global::KillTeam.Droid.Resource.Attribute.insetForeground;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.isLightTheme = global::KillTeam.Droid.Resource.Attribute.isLightTheme;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.itemBackground = global::KillTeam.Droid.Resource.Attribute.itemBackground;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.itemIconTint = global::KillTeam.Droid.Resource.Attribute.itemIconTint;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.itemPadding = global::KillTeam.Droid.Resource.Attribute.itemPadding;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.itemTextAppearance = global::KillTeam.Droid.Resource.Attribute.itemTextAppearance;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.itemTextColor = global::KillTeam.Droid.Resource.Attribute.itemTextColor;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.keylines = global::KillTeam.Droid.Resource.Attribute.keylines;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.layout = global::KillTeam.Droid.Resource.Attribute.layout;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.layoutManager = global::KillTeam.Droid.Resource.Attribute.layoutManager;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.layout_anchor = global::KillTeam.Droid.Resource.Attribute.layout_anchor;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.layout_anchorGravity = global::KillTeam.Droid.Resource.Attribute.layout_anchorGravity;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.layout_behavior = global::KillTeam.Droid.Resource.Attribute.layout_behavior;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.layout_collapseMode = global::KillTeam.Droid.Resource.Attribute.layout_collapseMode;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.layout_collapseParallaxMultiplier = global::KillTeam.Droid.Resource.Attribute.layout_collapseParallaxMultiplier;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.layout_dodgeInsetEdges = global::KillTeam.Droid.Resource.Attribute.layout_dodgeInsetEdges;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.layout_insetEdge = global::KillTeam.Droid.Resource.Attribute.layout_insetEdge;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.layout_keyline = global::KillTeam.Droid.Resource.Attribute.layout_keyline;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.layout_scrollFlags = global::KillTeam.Droid.Resource.Attribute.layout_scrollFlags;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.layout_scrollInterpolator = global::KillTeam.Droid.Resource.Attribute.layout_scrollInterpolator;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.listChoiceBackgroundIndicator = global::KillTeam.Droid.Resource.Attribute.listChoiceBackgroundIndicator;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.listDividerAlertDialog = global::KillTeam.Droid.Resource.Attribute.listDividerAlertDialog;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.listItemLayout = global::KillTeam.Droid.Resource.Attribute.listItemLayout;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.listLayout = global::KillTeam.Droid.Resource.Attribute.listLayout;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.listMenuViewStyle = global::KillTeam.Droid.Resource.Attribute.listMenuViewStyle;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.listPopupWindowStyle = global::KillTeam.Droid.Resource.Attribute.listPopupWindowStyle;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.listPreferredItemHeight = global::KillTeam.Droid.Resource.Attribute.listPreferredItemHeight;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.listPreferredItemHeightLarge = global::KillTeam.Droid.Resource.Attribute.listPreferredItemHeightLarge;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.listPreferredItemHeightSmall = global::KillTeam.Droid.Resource.Attribute.listPreferredItemHeightSmall;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.listPreferredItemPaddingLeft = global::KillTeam.Droid.Resource.Attribute.listPreferredItemPaddingLeft;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.listPreferredItemPaddingRight = global::KillTeam.Droid.Resource.Attribute.listPreferredItemPaddingRight;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.logo = global::KillTeam.Droid.Resource.Attribute.logo;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.logoDescription = global::KillTeam.Droid.Resource.Attribute.logoDescription;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.maxActionInlineWidth = global::KillTeam.Droid.Resource.Attribute.maxActionInlineWidth;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.maxButtonHeight = global::KillTeam.Droid.Resource.Attribute.maxButtonHeight;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.measureWithLargestChild = global::KillTeam.Droid.Resource.Attribute.measureWithLargestChild;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.mediaRouteAudioTrackDrawable = global::KillTeam.Droid.Resource.Attribute.mediaRouteAudioTrackDrawable;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.mediaRouteButtonStyle = global::KillTeam.Droid.Resource.Attribute.mediaRouteButtonStyle;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.mediaRouteButtonTint = global::KillTeam.Droid.Resource.Attribute.mediaRouteButtonTint;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.mediaRouteCloseDrawable = global::KillTeam.Droid.Resource.Attribute.mediaRouteCloseDrawable;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.mediaRouteControlPanelThemeOverlay = global::KillTeam.Droid.Resource.Attribute.mediaRouteControlPanelThemeOverlay;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.mediaRouteDefaultIconDrawable = global::KillTeam.Droid.Resource.Attribute.mediaRouteDefaultIconDrawable;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.mediaRoutePauseDrawable = global::KillTeam.Droid.Resource.Attribute.mediaRoutePauseDrawable;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.mediaRoutePlayDrawable = global::KillTeam.Droid.Resource.Attribute.mediaRoutePlayDrawable;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.mediaRouteSpeakerGroupIconDrawable = global::KillTeam.Droid.Resource.Attribute.mediaRouteSpeakerGroupIconDrawable;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.mediaRouteSpeakerIconDrawable = global::KillTeam.Droid.Resource.Attribute.mediaRouteSpeakerIconDrawable;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.mediaRouteStopDrawable = global::KillTeam.Droid.Resource.Attribute.mediaRouteStopDrawable;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.mediaRouteTheme = global::KillTeam.Droid.Resource.Attribute.mediaRouteTheme;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.mediaRouteTvIconDrawable = global::KillTeam.Droid.Resource.Attribute.mediaRouteTvIconDrawable;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.menu = global::KillTeam.Droid.Resource.Attribute.menu;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.multiChoiceItemLayout = global::KillTeam.Droid.Resource.Attribute.multiChoiceItemLayout;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.navigationContentDescription = global::KillTeam.Droid.Resource.Attribute.navigationContentDescription;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.navigationIcon = global::KillTeam.Droid.Resource.Attribute.navigationIcon;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.navigationMode = global::KillTeam.Droid.Resource.Attribute.navigationMode;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.numericModifiers = global::KillTeam.Droid.Resource.Attribute.numericModifiers;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.overlapAnchor = global::KillTeam.Droid.Resource.Attribute.overlapAnchor;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.paddingBottomNoButtons = global::KillTeam.Droid.Resource.Attribute.paddingBottomNoButtons;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.paddingEnd = global::KillTeam.Droid.Resource.Attribute.paddingEnd;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.paddingStart = global::KillTeam.Droid.Resource.Attribute.paddingStart;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.paddingTopNoTitle = global::KillTeam.Droid.Resource.Attribute.paddingTopNoTitle;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.panelBackground = global::KillTeam.Droid.Resource.Attribute.panelBackground;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.panelMenuListTheme = global::KillTeam.Droid.Resource.Attribute.panelMenuListTheme;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.panelMenuListWidth = global::KillTeam.Droid.Resource.Attribute.panelMenuListWidth;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.passwordToggleContentDescription = global::KillTeam.Droid.Resource.Attribute.passwordToggleContentDescription;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.passwordToggleDrawable = global::KillTeam.Droid.Resource.Attribute.passwordToggleDrawable;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.passwordToggleEnabled = global::KillTeam.Droid.Resource.Attribute.passwordToggleEnabled;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.passwordToggleTint = global::KillTeam.Droid.Resource.Attribute.passwordToggleTint;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.passwordToggleTintMode = global::KillTeam.Droid.Resource.Attribute.passwordToggleTintMode;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.popupMenuStyle = global::KillTeam.Droid.Resource.Attribute.popupMenuStyle;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.popupTheme = global::KillTeam.Droid.Resource.Attribute.popupTheme;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.popupWindowStyle = global::KillTeam.Droid.Resource.Attribute.popupWindowStyle;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.preserveIconSpacing = global::KillTeam.Droid.Resource.Attribute.preserveIconSpacing;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.pressedTranslationZ = global::KillTeam.Droid.Resource.Attribute.pressedTranslationZ;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.progressBarPadding = global::KillTeam.Droid.Resource.Attribute.progressBarPadding;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.progressBarStyle = global::KillTeam.Droid.Resource.Attribute.progressBarStyle;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.queryBackground = global::KillTeam.Droid.Resource.Attribute.queryBackground;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.queryHint = global::KillTeam.Droid.Resource.Attribute.queryHint;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.radioButtonStyle = global::KillTeam.Droid.Resource.Attribute.radioButtonStyle;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.ratingBarStyle = global::KillTeam.Droid.Resource.Attribute.ratingBarStyle;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.ratingBarStyleIndicator = global::KillTeam.Droid.Resource.Attribute.ratingBarStyleIndicator;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.ratingBarStyleSmall = global::KillTeam.Droid.Resource.Attribute.ratingBarStyleSmall;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.reverseLayout = global::KillTeam.Droid.Resource.Attribute.reverseLayout;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.rippleColor = global::KillTeam.Droid.Resource.Attribute.rippleColor;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.scrimAnimationDuration = global::KillTeam.Droid.Resource.Attribute.scrimAnimationDuration;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.scrimVisibleHeightTrigger = global::KillTeam.Droid.Resource.Attribute.scrimVisibleHeightTrigger;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.searchHintIcon = global::KillTeam.Droid.Resource.Attribute.searchHintIcon;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.searchIcon = global::KillTeam.Droid.Resource.Attribute.searchIcon;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.searchViewStyle = global::KillTeam.Droid.Resource.Attribute.searchViewStyle;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.seekBarStyle = global::KillTeam.Droid.Resource.Attribute.seekBarStyle;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.selectableItemBackground = global::KillTeam.Droid.Resource.Attribute.selectableItemBackground;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.selectableItemBackgroundBorderless = global::KillTeam.Droid.Resource.Attribute.selectableItemBackgroundBorderless;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.showAsAction = global::KillTeam.Droid.Resource.Attribute.showAsAction;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.showDividers = global::KillTeam.Droid.Resource.Attribute.showDividers;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.showText = global::KillTeam.Droid.Resource.Attribute.showText;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.showTitle = global::KillTeam.Droid.Resource.Attribute.showTitle;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.singleChoiceItemLayout = global::KillTeam.Droid.Resource.Attribute.singleChoiceItemLayout;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.spanCount = global::KillTeam.Droid.Resource.Attribute.spanCount;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.spinBars = global::KillTeam.Droid.Resource.Attribute.spinBars;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.spinnerDropDownItemStyle = global::KillTeam.Droid.Resource.Attribute.spinnerDropDownItemStyle;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.spinnerStyle = global::KillTeam.Droid.Resource.Attribute.spinnerStyle;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.splitTrack = global::KillTeam.Droid.Resource.Attribute.splitTrack;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.srcCompat = global::KillTeam.Droid.Resource.Attribute.srcCompat;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.stackFromEnd = global::KillTeam.Droid.Resource.Attribute.stackFromEnd;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.state_above_anchor = global::KillTeam.Droid.Resource.Attribute.state_above_anchor;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.state_collapsed = global::KillTeam.Droid.Resource.Attribute.state_collapsed;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.state_collapsible = global::KillTeam.Droid.Resource.Attribute.state_collapsible;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.statusBarBackground = global::KillTeam.Droid.Resource.Attribute.statusBarBackground;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.statusBarScrim = global::KillTeam.Droid.Resource.Attribute.statusBarScrim;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.subMenuArrow = global::KillTeam.Droid.Resource.Attribute.subMenuArrow;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.submitBackground = global::KillTeam.Droid.Resource.Attribute.submitBackground;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.subtitle = global::KillTeam.Droid.Resource.Attribute.subtitle;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.subtitleTextAppearance = global::KillTeam.Droid.Resource.Attribute.subtitleTextAppearance;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.subtitleTextColor = global::KillTeam.Droid.Resource.Attribute.subtitleTextColor;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.subtitleTextStyle = global::KillTeam.Droid.Resource.Attribute.subtitleTextStyle;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.suggestionRowLayout = global::KillTeam.Droid.Resource.Attribute.suggestionRowLayout;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.switchMinWidth = global::KillTeam.Droid.Resource.Attribute.switchMinWidth;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.switchPadding = global::KillTeam.Droid.Resource.Attribute.switchPadding;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.switchStyle = global::KillTeam.Droid.Resource.Attribute.switchStyle;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.switchTextAppearance = global::KillTeam.Droid.Resource.Attribute.switchTextAppearance;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.tabBackground = global::KillTeam.Droid.Resource.Attribute.tabBackground;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.tabContentStart = global::KillTeam.Droid.Resource.Attribute.tabContentStart;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.tabGravity = global::KillTeam.Droid.Resource.Attribute.tabGravity;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.tabIndicatorColor = global::KillTeam.Droid.Resource.Attribute.tabIndicatorColor;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.tabIndicatorHeight = global::KillTeam.Droid.Resource.Attribute.tabIndicatorHeight;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.tabMaxWidth = global::KillTeam.Droid.Resource.Attribute.tabMaxWidth;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.tabMinWidth = global::KillTeam.Droid.Resource.Attribute.tabMinWidth;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.tabMode = global::KillTeam.Droid.Resource.Attribute.tabMode;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.tabPadding = global::KillTeam.Droid.Resource.Attribute.tabPadding;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.tabPaddingBottom = global::KillTeam.Droid.Resource.Attribute.tabPaddingBottom;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.tabPaddingEnd = global::KillTeam.Droid.Resource.Attribute.tabPaddingEnd;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.tabPaddingStart = global::KillTeam.Droid.Resource.Attribute.tabPaddingStart;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.tabPaddingTop = global::KillTeam.Droid.Resource.Attribute.tabPaddingTop;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.tabSelectedTextColor = global::KillTeam.Droid.Resource.Attribute.tabSelectedTextColor;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.tabTextAppearance = global::KillTeam.Droid.Resource.Attribute.tabTextAppearance;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.tabTextColor = global::KillTeam.Droid.Resource.Attribute.tabTextColor;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.textAllCaps = global::KillTeam.Droid.Resource.Attribute.textAllCaps;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.textAppearanceLargePopupMenu = global::KillTeam.Droid.Resource.Attribute.textAppearanceLargePopupMenu;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.textAppearanceListItem = global::KillTeam.Droid.Resource.Attribute.textAppearanceListItem;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.textAppearanceListItemSecondary = global::KillTeam.Droid.Resource.Attribute.textAppearanceListItemSecondary;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.textAppearanceListItemSmall = global::KillTeam.Droid.Resource.Attribute.textAppearanceListItemSmall;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.textAppearancePopupMenuHeader = global::KillTeam.Droid.Resource.Attribute.textAppearancePopupMenuHeader;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.textAppearanceSearchResultSubtitle = global::KillTeam.Droid.Resource.Attribute.textAppearanceSearchResultSubtitle;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.textAppearanceSearchResultTitle = global::KillTeam.Droid.Resource.Attribute.textAppearanceSearchResultTitle;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.textAppearanceSmallPopupMenu = global::KillTeam.Droid.Resource.Attribute.textAppearanceSmallPopupMenu;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.textColorAlertDialogListItem = global::KillTeam.Droid.Resource.Attribute.textColorAlertDialogListItem;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.textColorSearchUrl = global::KillTeam.Droid.Resource.Attribute.textColorSearchUrl;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.theme = global::KillTeam.Droid.Resource.Attribute.theme;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.thickness = global::KillTeam.Droid.Resource.Attribute.thickness;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.thumbTextPadding = global::KillTeam.Droid.Resource.Attribute.thumbTextPadding;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.thumbTint = global::KillTeam.Droid.Resource.Attribute.thumbTint;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.thumbTintMode = global::KillTeam.Droid.Resource.Attribute.thumbTintMode;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.tickMark = global::KillTeam.Droid.Resource.Attribute.tickMark;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.tickMarkTint = global::KillTeam.Droid.Resource.Attribute.tickMarkTint;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.tickMarkTintMode = global::KillTeam.Droid.Resource.Attribute.tickMarkTintMode;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.tint = global::KillTeam.Droid.Resource.Attribute.tint;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.tintMode = global::KillTeam.Droid.Resource.Attribute.tintMode;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.title = global::KillTeam.Droid.Resource.Attribute.title;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.titleEnabled = global::KillTeam.Droid.Resource.Attribute.titleEnabled;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.titleMargin = global::KillTeam.Droid.Resource.Attribute.titleMargin;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.titleMarginBottom = global::KillTeam.Droid.Resource.Attribute.titleMarginBottom;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.titleMarginEnd = global::KillTeam.Droid.Resource.Attribute.titleMarginEnd;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.titleMargins = global::KillTeam.Droid.Resource.Attribute.titleMargins;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.titleMarginStart = global::KillTeam.Droid.Resource.Attribute.titleMarginStart;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.titleMarginTop = global::KillTeam.Droid.Resource.Attribute.titleMarginTop;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.titleTextAppearance = global::KillTeam.Droid.Resource.Attribute.titleTextAppearance;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.titleTextColor = global::KillTeam.Droid.Resource.Attribute.titleTextColor;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.titleTextStyle = global::KillTeam.Droid.Resource.Attribute.titleTextStyle;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.toolbarId = global::KillTeam.Droid.Resource.Attribute.toolbarId;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.toolbarNavigationButtonStyle = global::KillTeam.Droid.Resource.Attribute.toolbarNavigationButtonStyle;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.toolbarStyle = global::KillTeam.Droid.Resource.Attribute.toolbarStyle;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.tooltipForegroundColor = global::KillTeam.Droid.Resource.Attribute.tooltipForegroundColor;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.tooltipFrameBackground = global::KillTeam.Droid.Resource.Attribute.tooltipFrameBackground;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.tooltipText = global::KillTeam.Droid.Resource.Attribute.tooltipText;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.track = global::KillTeam.Droid.Resource.Attribute.track;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.trackTint = global::KillTeam.Droid.Resource.Attribute.trackTint;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.trackTintMode = global::KillTeam.Droid.Resource.Attribute.trackTintMode;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.useCompatPadding = global::KillTeam.Droid.Resource.Attribute.useCompatPadding;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.voiceIcon = global::KillTeam.Droid.Resource.Attribute.voiceIcon;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.windowActionBar = global::KillTeam.Droid.Resource.Attribute.windowActionBar;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.windowActionBarOverlay = global::KillTeam.Droid.Resource.Attribute.windowActionBarOverlay;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.windowActionModeOverlay = global::KillTeam.Droid.Resource.Attribute.windowActionModeOverlay;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.windowFixedHeightMajor = global::KillTeam.Droid.Resource.Attribute.windowFixedHeightMajor;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.windowFixedHeightMinor = global::KillTeam.Droid.Resource.Attribute.windowFixedHeightMinor;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.windowFixedWidthMajor = global::KillTeam.Droid.Resource.Attribute.windowFixedWidthMajor;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.windowFixedWidthMinor = global::KillTeam.Droid.Resource.Attribute.windowFixedWidthMinor;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.windowMinWidthMajor = global::KillTeam.Droid.Resource.Attribute.windowMinWidthMajor;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.windowMinWidthMinor = global::KillTeam.Droid.Resource.Attribute.windowMinWidthMinor;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Attribute.windowNoTitle = global::KillTeam.Droid.Resource.Attribute.windowNoTitle;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Boolean.abc_action_bar_embed_tabs = global::KillTeam.Droid.Resource.Boolean.abc_action_bar_embed_tabs;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Boolean.abc_allow_stacked_button_bar = global::KillTeam.Droid.Resource.Boolean.abc_allow_stacked_button_bar;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Boolean.abc_config_actionMenuItemAllCaps = global::KillTeam.Droid.Resource.Boolean.abc_config_actionMenuItemAllCaps;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Color.abc_background_cache_hint_selector_material_dark = global::KillTeam.Droid.Resource.Color.abc_background_cache_hint_selector_material_dark;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Color.abc_background_cache_hint_selector_material_light = global::KillTeam.Droid.Resource.Color.abc_background_cache_hint_selector_material_light;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Color.abc_btn_colored_borderless_text_material = global::KillTeam.Droid.Resource.Color.abc_btn_colored_borderless_text_material;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Color.abc_btn_colored_text_material = global::KillTeam.Droid.Resource.Color.abc_btn_colored_text_material;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Color.abc_color_highlight_material = global::KillTeam.Droid.Resource.Color.abc_color_highlight_material;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Color.abc_hint_foreground_material_dark = global::KillTeam.Droid.Resource.Color.abc_hint_foreground_material_dark;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Color.abc_hint_foreground_material_light = global::KillTeam.Droid.Resource.Color.abc_hint_foreground_material_light;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Color.abc_input_method_navigation_guard = global::KillTeam.Droid.Resource.Color.abc_input_method_navigation_guard;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Color.abc_primary_text_disable_only_material_dark = global::KillTeam.Droid.Resource.Color.abc_primary_text_disable_only_material_dark;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Color.abc_primary_text_disable_only_material_light = global::KillTeam.Droid.Resource.Color.abc_primary_text_disable_only_material_light;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Color.abc_primary_text_material_dark = global::KillTeam.Droid.Resource.Color.abc_primary_text_material_dark;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Color.abc_primary_text_material_light = global::KillTeam.Droid.Resource.Color.abc_primary_text_material_light;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Color.abc_search_url_text = global::KillTeam.Droid.Resource.Color.abc_search_url_text;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Color.abc_search_url_text_normal = global::KillTeam.Droid.Resource.Color.abc_search_url_text_normal;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Color.abc_search_url_text_pressed = global::KillTeam.Droid.Resource.Color.abc_search_url_text_pressed;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Color.abc_search_url_text_selected = global::KillTeam.Droid.Resource.Color.abc_search_url_text_selected;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Color.abc_secondary_text_material_dark = global::KillTeam.Droid.Resource.Color.abc_secondary_text_material_dark;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Color.abc_secondary_text_material_light = global::KillTeam.Droid.Resource.Color.abc_secondary_text_material_light;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Color.abc_tint_btn_checkable = global::KillTeam.Droid.Resource.Color.abc_tint_btn_checkable;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Color.abc_tint_default = global::KillTeam.Droid.Resource.Color.abc_tint_default;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Color.abc_tint_edittext = global::KillTeam.Droid.Resource.Color.abc_tint_edittext;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Color.abc_tint_seek_thumb = global::KillTeam.Droid.Resource.Color.abc_tint_seek_thumb;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Color.abc_tint_spinner = global::KillTeam.Droid.Resource.Color.abc_tint_spinner;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Color.abc_tint_switch_track = global::KillTeam.Droid.Resource.Color.abc_tint_switch_track;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Color.accent_material_dark = global::KillTeam.Droid.Resource.Color.accent_material_dark;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Color.accent_material_light = global::KillTeam.Droid.Resource.Color.accent_material_light;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Color.background_floating_material_dark = global::KillTeam.Droid.Resource.Color.background_floating_material_dark;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Color.background_floating_material_light = global::KillTeam.Droid.Resource.Color.background_floating_material_light;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Color.background_material_dark = global::KillTeam.Droid.Resource.Color.background_material_dark;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Color.background_material_light = global::KillTeam.Droid.Resource.Color.background_material_light;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Color.bright_foreground_disabled_material_dark = global::KillTeam.Droid.Resource.Color.bright_foreground_disabled_material_dark;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Color.bright_foreground_disabled_material_light = global::KillTeam.Droid.Resource.Color.bright_foreground_disabled_material_light;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Color.bright_foreground_inverse_material_dark = global::KillTeam.Droid.Resource.Color.bright_foreground_inverse_material_dark;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Color.bright_foreground_inverse_material_light = global::KillTeam.Droid.Resource.Color.bright_foreground_inverse_material_light;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Color.bright_foreground_material_dark = global::KillTeam.Droid.Resource.Color.bright_foreground_material_dark;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Color.bright_foreground_material_light = global::KillTeam.Droid.Resource.Color.bright_foreground_material_light;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Color.button_material_dark = global::KillTeam.Droid.Resource.Color.button_material_dark;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Color.button_material_light = global::KillTeam.Droid.Resource.Color.button_material_light;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Color.cardview_dark_background = global::KillTeam.Droid.Resource.Color.cardview_dark_background;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Color.cardview_light_background = global::KillTeam.Droid.Resource.Color.cardview_light_background;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Color.cardview_shadow_end_color = global::KillTeam.Droid.Resource.Color.cardview_shadow_end_color;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Color.cardview_shadow_start_color = global::KillTeam.Droid.Resource.Color.cardview_shadow_start_color;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Color.design_bottom_navigation_shadow_color = global::KillTeam.Droid.Resource.Color.design_bottom_navigation_shadow_color;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Color.design_error = global::KillTeam.Droid.Resource.Color.design_error;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Color.design_fab_shadow_end_color = global::KillTeam.Droid.Resource.Color.design_fab_shadow_end_color;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Color.design_fab_shadow_mid_color = global::KillTeam.Droid.Resource.Color.design_fab_shadow_mid_color;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Color.design_fab_shadow_start_color = global::KillTeam.Droid.Resource.Color.design_fab_shadow_start_color;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Color.design_fab_stroke_end_inner_color = global::KillTeam.Droid.Resource.Color.design_fab_stroke_end_inner_color;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Color.design_fab_stroke_end_outer_color = global::KillTeam.Droid.Resource.Color.design_fab_stroke_end_outer_color;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Color.design_fab_stroke_top_inner_color = global::KillTeam.Droid.Resource.Color.design_fab_stroke_top_inner_color;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Color.design_fab_stroke_top_outer_color = global::KillTeam.Droid.Resource.Color.design_fab_stroke_top_outer_color;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Color.design_snackbar_background_color = global::KillTeam.Droid.Resource.Color.design_snackbar_background_color;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Color.design_tint_password_toggle = global::KillTeam.Droid.Resource.Color.design_tint_password_toggle;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Color.dim_foreground_disabled_material_dark = global::KillTeam.Droid.Resource.Color.dim_foreground_disabled_material_dark;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Color.dim_foreground_disabled_material_light = global::KillTeam.Droid.Resource.Color.dim_foreground_disabled_material_light;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Color.dim_foreground_material_dark = global::KillTeam.Droid.Resource.Color.dim_foreground_material_dark;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Color.dim_foreground_material_light = global::KillTeam.Droid.Resource.Color.dim_foreground_material_light;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Color.foreground_material_dark = global::KillTeam.Droid.Resource.Color.foreground_material_dark;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Color.foreground_material_light = global::KillTeam.Droid.Resource.Color.foreground_material_light;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Color.highlighted_text_material_dark = global::KillTeam.Droid.Resource.Color.highlighted_text_material_dark;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Color.highlighted_text_material_light = global::KillTeam.Droid.Resource.Color.highlighted_text_material_light;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Color.material_blue_grey_800 = global::KillTeam.Droid.Resource.Color.material_blue_grey_800;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Color.material_blue_grey_900 = global::KillTeam.Droid.Resource.Color.material_blue_grey_900;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Color.material_blue_grey_950 = global::KillTeam.Droid.Resource.Color.material_blue_grey_950;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Color.material_deep_teal_200 = global::KillTeam.Droid.Resource.Color.material_deep_teal_200;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Color.material_deep_teal_500 = global::KillTeam.Droid.Resource.Color.material_deep_teal_500;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Color.material_grey_100 = global::KillTeam.Droid.Resource.Color.material_grey_100;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Color.material_grey_300 = global::KillTeam.Droid.Resource.Color.material_grey_300;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Color.material_grey_50 = global::KillTeam.Droid.Resource.Color.material_grey_50;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Color.material_grey_600 = global::KillTeam.Droid.Resource.Color.material_grey_600;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Color.material_grey_800 = global::KillTeam.Droid.Resource.Color.material_grey_800;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Color.material_grey_850 = global::KillTeam.Droid.Resource.Color.material_grey_850;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Color.material_grey_900 = global::KillTeam.Droid.Resource.Color.material_grey_900;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Color.notification_action_color_filter = global::KillTeam.Droid.Resource.Color.notification_action_color_filter;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Color.notification_icon_bg_color = global::KillTeam.Droid.Resource.Color.notification_icon_bg_color;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Color.notification_material_background_media_default_color = global::KillTeam.Droid.Resource.Color.notification_material_background_media_default_color;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Color.primary_dark_material_dark = global::KillTeam.Droid.Resource.Color.primary_dark_material_dark;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Color.primary_dark_material_light = global::KillTeam.Droid.Resource.Color.primary_dark_material_light;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Color.primary_material_dark = global::KillTeam.Droid.Resource.Color.primary_material_dark;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Color.primary_material_light = global::KillTeam.Droid.Resource.Color.primary_material_light;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Color.primary_text_default_material_dark = global::KillTeam.Droid.Resource.Color.primary_text_default_material_dark;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Color.primary_text_default_material_light = global::KillTeam.Droid.Resource.Color.primary_text_default_material_light;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Color.primary_text_disabled_material_dark = global::KillTeam.Droid.Resource.Color.primary_text_disabled_material_dark;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Color.primary_text_disabled_material_light = global::KillTeam.Droid.Resource.Color.primary_text_disabled_material_light;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Color.ripple_material_dark = global::KillTeam.Droid.Resource.Color.ripple_material_dark;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Color.ripple_material_light = global::KillTeam.Droid.Resource.Color.ripple_material_light;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Color.secondary_text_default_material_dark = global::KillTeam.Droid.Resource.Color.secondary_text_default_material_dark;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Color.secondary_text_default_material_light = global::KillTeam.Droid.Resource.Color.secondary_text_default_material_light;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Color.secondary_text_disabled_material_dark = global::KillTeam.Droid.Resource.Color.secondary_text_disabled_material_dark;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Color.secondary_text_disabled_material_light = global::KillTeam.Droid.Resource.Color.secondary_text_disabled_material_light;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Color.switch_thumb_disabled_material_dark = global::KillTeam.Droid.Resource.Color.switch_thumb_disabled_material_dark;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Color.switch_thumb_disabled_material_light = global::KillTeam.Droid.Resource.Color.switch_thumb_disabled_material_light;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Color.switch_thumb_material_dark = global::KillTeam.Droid.Resource.Color.switch_thumb_material_dark;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Color.switch_thumb_material_light = global::KillTeam.Droid.Resource.Color.switch_thumb_material_light;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Color.switch_thumb_normal_material_dark = global::KillTeam.Droid.Resource.Color.switch_thumb_normal_material_dark;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Color.switch_thumb_normal_material_light = global::KillTeam.Droid.Resource.Color.switch_thumb_normal_material_light;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Color.tooltip_background_dark = global::KillTeam.Droid.Resource.Color.tooltip_background_dark;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Color.tooltip_background_light = global::KillTeam.Droid.Resource.Color.tooltip_background_light;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Dimension.abc_action_bar_content_inset_material = global::KillTeam.Droid.Resource.Dimension.abc_action_bar_content_inset_material;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Dimension.abc_action_bar_content_inset_with_nav = global::KillTeam.Droid.Resource.Dimension.abc_action_bar_content_inset_with_nav;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Dimension.abc_action_bar_default_height_material = global::KillTeam.Droid.Resource.Dimension.abc_action_bar_default_height_material;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Dimension.abc_action_bar_default_padding_end_material = global::KillTeam.Droid.Resource.Dimension.abc_action_bar_default_padding_end_material;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Dimension.abc_action_bar_default_padding_start_material = global::KillTeam.Droid.Resource.Dimension.abc_action_bar_default_padding_start_material;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Dimension.abc_action_bar_elevation_material = global::KillTeam.Droid.Resource.Dimension.abc_action_bar_elevation_material;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Dimension.abc_action_bar_icon_vertical_padding_material = global::KillTeam.Droid.Resource.Dimension.abc_action_bar_icon_vertical_padding_material;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Dimension.abc_action_bar_overflow_padding_end_material = global::KillTeam.Droid.Resource.Dimension.abc_action_bar_overflow_padding_end_material;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Dimension.abc_action_bar_overflow_padding_start_material = global::KillTeam.Droid.Resource.Dimension.abc_action_bar_overflow_padding_start_material;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Dimension.abc_action_bar_stacked_max_height = global::KillTeam.Droid.Resource.Dimension.abc_action_bar_stacked_max_height;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Dimension.abc_action_bar_stacked_tab_max_width = global::KillTeam.Droid.Resource.Dimension.abc_action_bar_stacked_tab_max_width;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Dimension.abc_action_bar_subtitle_bottom_margin_material = global::KillTeam.Droid.Resource.Dimension.abc_action_bar_subtitle_bottom_margin_material;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Dimension.abc_action_bar_subtitle_top_margin_material = global::KillTeam.Droid.Resource.Dimension.abc_action_bar_subtitle_top_margin_material;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Dimension.abc_action_button_min_height_material = global::KillTeam.Droid.Resource.Dimension.abc_action_button_min_height_material;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Dimension.abc_action_button_min_width_material = global::KillTeam.Droid.Resource.Dimension.abc_action_button_min_width_material;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Dimension.abc_action_button_min_width_overflow_material = global::KillTeam.Droid.Resource.Dimension.abc_action_button_min_width_overflow_material;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Dimension.abc_alert_dialog_button_bar_height = global::KillTeam.Droid.Resource.Dimension.abc_alert_dialog_button_bar_height;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Dimension.abc_button_inset_horizontal_material = global::KillTeam.Droid.Resource.Dimension.abc_button_inset_horizontal_material;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Dimension.abc_button_inset_vertical_material = global::KillTeam.Droid.Resource.Dimension.abc_button_inset_vertical_material;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Dimension.abc_button_padding_horizontal_material = global::KillTeam.Droid.Resource.Dimension.abc_button_padding_horizontal_material;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Dimension.abc_button_padding_vertical_material = global::KillTeam.Droid.Resource.Dimension.abc_button_padding_vertical_material;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Dimension.abc_cascading_menus_min_smallest_width = global::KillTeam.Droid.Resource.Dimension.abc_cascading_menus_min_smallest_width;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Dimension.abc_config_prefDialogWidth = global::KillTeam.Droid.Resource.Dimension.abc_config_prefDialogWidth;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Dimension.abc_control_corner_material = global::KillTeam.Droid.Resource.Dimension.abc_control_corner_material;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Dimension.abc_control_inset_material = global::KillTeam.Droid.Resource.Dimension.abc_control_inset_material;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Dimension.abc_control_padding_material = global::KillTeam.Droid.Resource.Dimension.abc_control_padding_material;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Dimension.abc_dialog_fixed_height_major = global::KillTeam.Droid.Resource.Dimension.abc_dialog_fixed_height_major;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Dimension.abc_dialog_fixed_height_minor = global::KillTeam.Droid.Resource.Dimension.abc_dialog_fixed_height_minor;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Dimension.abc_dialog_fixed_width_major = global::KillTeam.Droid.Resource.Dimension.abc_dialog_fixed_width_major;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Dimension.abc_dialog_fixed_width_minor = global::KillTeam.Droid.Resource.Dimension.abc_dialog_fixed_width_minor;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Dimension.abc_dialog_list_padding_bottom_no_buttons = global::KillTeam.Droid.Resource.Dimension.abc_dialog_list_padding_bottom_no_buttons;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Dimension.abc_dialog_list_padding_top_no_title = global::KillTeam.Droid.Resource.Dimension.abc_dialog_list_padding_top_no_title;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Dimension.abc_dialog_min_width_major = global::KillTeam.Droid.Resource.Dimension.abc_dialog_min_width_major;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Dimension.abc_dialog_min_width_minor = global::KillTeam.Droid.Resource.Dimension.abc_dialog_min_width_minor;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Dimension.abc_dialog_padding_material = global::KillTeam.Droid.Resource.Dimension.abc_dialog_padding_material;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Dimension.abc_dialog_padding_top_material = global::KillTeam.Droid.Resource.Dimension.abc_dialog_padding_top_material;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Dimension.abc_dialog_title_divider_material = global::KillTeam.Droid.Resource.Dimension.abc_dialog_title_divider_material;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Dimension.abc_disabled_alpha_material_dark = global::KillTeam.Droid.Resource.Dimension.abc_disabled_alpha_material_dark;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Dimension.abc_disabled_alpha_material_light = global::KillTeam.Droid.Resource.Dimension.abc_disabled_alpha_material_light;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Dimension.abc_dropdownitem_icon_width = global::KillTeam.Droid.Resource.Dimension.abc_dropdownitem_icon_width;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Dimension.abc_dropdownitem_text_padding_left = global::KillTeam.Droid.Resource.Dimension.abc_dropdownitem_text_padding_left;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Dimension.abc_dropdownitem_text_padding_right = global::KillTeam.Droid.Resource.Dimension.abc_dropdownitem_text_padding_right;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Dimension.abc_edit_text_inset_bottom_material = global::KillTeam.Droid.Resource.Dimension.abc_edit_text_inset_bottom_material;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Dimension.abc_edit_text_inset_horizontal_material = global::KillTeam.Droid.Resource.Dimension.abc_edit_text_inset_horizontal_material;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Dimension.abc_edit_text_inset_top_material = global::KillTeam.Droid.Resource.Dimension.abc_edit_text_inset_top_material;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Dimension.abc_floating_window_z = global::KillTeam.Droid.Resource.Dimension.abc_floating_window_z;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Dimension.abc_list_item_padding_horizontal_material = global::KillTeam.Droid.Resource.Dimension.abc_list_item_padding_horizontal_material;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Dimension.abc_panel_menu_list_width = global::KillTeam.Droid.Resource.Dimension.abc_panel_menu_list_width;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Dimension.abc_progress_bar_height_material = global::KillTeam.Droid.Resource.Dimension.abc_progress_bar_height_material;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Dimension.abc_search_view_preferred_height = global::KillTeam.Droid.Resource.Dimension.abc_search_view_preferred_height;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Dimension.abc_search_view_preferred_width = global::KillTeam.Droid.Resource.Dimension.abc_search_view_preferred_width;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Dimension.abc_seekbar_track_background_height_material = global::KillTeam.Droid.Resource.Dimension.abc_seekbar_track_background_height_material;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Dimension.abc_seekbar_track_progress_height_material = global::KillTeam.Droid.Resource.Dimension.abc_seekbar_track_progress_height_material;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Dimension.abc_select_dialog_padding_start_material = global::KillTeam.Droid.Resource.Dimension.abc_select_dialog_padding_start_material;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Dimension.abc_switch_padding = global::KillTeam.Droid.Resource.Dimension.abc_switch_padding;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Dimension.abc_text_size_body_1_material = global::KillTeam.Droid.Resource.Dimension.abc_text_size_body_1_material;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Dimension.abc_text_size_body_2_material = global::KillTeam.Droid.Resource.Dimension.abc_text_size_body_2_material;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Dimension.abc_text_size_button_material = global::KillTeam.Droid.Resource.Dimension.abc_text_size_button_material;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Dimension.abc_text_size_caption_material = global::KillTeam.Droid.Resource.Dimension.abc_text_size_caption_material;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Dimension.abc_text_size_display_1_material = global::KillTeam.Droid.Resource.Dimension.abc_text_size_display_1_material;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Dimension.abc_text_size_display_2_material = global::KillTeam.Droid.Resource.Dimension.abc_text_size_display_2_material;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Dimension.abc_text_size_display_3_material = global::KillTeam.Droid.Resource.Dimension.abc_text_size_display_3_material;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Dimension.abc_text_size_display_4_material = global::KillTeam.Droid.Resource.Dimension.abc_text_size_display_4_material;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Dimension.abc_text_size_headline_material = global::KillTeam.Droid.Resource.Dimension.abc_text_size_headline_material;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Dimension.abc_text_size_large_material = global::KillTeam.Droid.Resource.Dimension.abc_text_size_large_material;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Dimension.abc_text_size_medium_material = global::KillTeam.Droid.Resource.Dimension.abc_text_size_medium_material;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Dimension.abc_text_size_menu_header_material = global::KillTeam.Droid.Resource.Dimension.abc_text_size_menu_header_material;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Dimension.abc_text_size_menu_material = global::KillTeam.Droid.Resource.Dimension.abc_text_size_menu_material;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Dimension.abc_text_size_small_material = global::KillTeam.Droid.Resource.Dimension.abc_text_size_small_material;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Dimension.abc_text_size_subhead_material = global::KillTeam.Droid.Resource.Dimension.abc_text_size_subhead_material;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Dimension.abc_text_size_subtitle_material_toolbar = global::KillTeam.Droid.Resource.Dimension.abc_text_size_subtitle_material_toolbar;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Dimension.abc_text_size_title_material = global::KillTeam.Droid.Resource.Dimension.abc_text_size_title_material;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Dimension.abc_text_size_title_material_toolbar = global::KillTeam.Droid.Resource.Dimension.abc_text_size_title_material_toolbar;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Dimension.cardview_compat_inset_shadow = global::KillTeam.Droid.Resource.Dimension.cardview_compat_inset_shadow;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Dimension.cardview_default_elevation = global::KillTeam.Droid.Resource.Dimension.cardview_default_elevation;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Dimension.cardview_default_radius = global::KillTeam.Droid.Resource.Dimension.cardview_default_radius;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Dimension.compat_button_inset_horizontal_material = global::KillTeam.Droid.Resource.Dimension.compat_button_inset_horizontal_material;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Dimension.compat_button_inset_vertical_material = global::KillTeam.Droid.Resource.Dimension.compat_button_inset_vertical_material;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Dimension.compat_button_padding_horizontal_material = global::KillTeam.Droid.Resource.Dimension.compat_button_padding_horizontal_material;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Dimension.compat_button_padding_vertical_material = global::KillTeam.Droid.Resource.Dimension.compat_button_padding_vertical_material;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Dimension.compat_control_corner_material = global::KillTeam.Droid.Resource.Dimension.compat_control_corner_material;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Dimension.design_appbar_elevation = global::KillTeam.Droid.Resource.Dimension.design_appbar_elevation;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Dimension.design_bottom_navigation_active_item_max_width = global::KillTeam.Droid.Resource.Dimension.design_bottom_navigation_active_item_max_width;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Dimension.design_bottom_navigation_active_text_size = global::KillTeam.Droid.Resource.Dimension.design_bottom_navigation_active_text_size;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Dimension.design_bottom_navigation_elevation = global::KillTeam.Droid.Resource.Dimension.design_bottom_navigation_elevation;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Dimension.design_bottom_navigation_height = global::KillTeam.Droid.Resource.Dimension.design_bottom_navigation_height;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Dimension.design_bottom_navigation_item_max_width = global::KillTeam.Droid.Resource.Dimension.design_bottom_navigation_item_max_width;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Dimension.design_bottom_navigation_item_min_width = global::KillTeam.Droid.Resource.Dimension.design_bottom_navigation_item_min_width;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Dimension.design_bottom_navigation_margin = global::KillTeam.Droid.Resource.Dimension.design_bottom_navigation_margin;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Dimension.design_bottom_navigation_shadow_height = global::KillTeam.Droid.Resource.Dimension.design_bottom_navigation_shadow_height;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Dimension.design_bottom_navigation_text_size = global::KillTeam.Droid.Resource.Dimension.design_bottom_navigation_text_size;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Dimension.design_bottom_sheet_modal_elevation = global::KillTeam.Droid.Resource.Dimension.design_bottom_sheet_modal_elevation;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Dimension.design_bottom_sheet_peek_height_min = global::KillTeam.Droid.Resource.Dimension.design_bottom_sheet_peek_height_min;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Dimension.design_fab_border_width = global::KillTeam.Droid.Resource.Dimension.design_fab_border_width;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Dimension.design_fab_elevation = global::KillTeam.Droid.Resource.Dimension.design_fab_elevation;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Dimension.design_fab_image_size = global::KillTeam.Droid.Resource.Dimension.design_fab_image_size;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Dimension.design_fab_size_mini = global::KillTeam.Droid.Resource.Dimension.design_fab_size_mini;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Dimension.design_fab_size_normal = global::KillTeam.Droid.Resource.Dimension.design_fab_size_normal;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Dimension.design_fab_translation_z_pressed = global::KillTeam.Droid.Resource.Dimension.design_fab_translation_z_pressed;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Dimension.design_navigation_elevation = global::KillTeam.Droid.Resource.Dimension.design_navigation_elevation;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Dimension.design_navigation_icon_padding = global::KillTeam.Droid.Resource.Dimension.design_navigation_icon_padding;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Dimension.design_navigation_icon_size = global::KillTeam.Droid.Resource.Dimension.design_navigation_icon_size;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Dimension.design_navigation_max_width = global::KillTeam.Droid.Resource.Dimension.design_navigation_max_width;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Dimension.design_navigation_padding_bottom = global::KillTeam.Droid.Resource.Dimension.design_navigation_padding_bottom;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Dimension.design_navigation_separator_vertical_padding = global::KillTeam.Droid.Resource.Dimension.design_navigation_separator_vertical_padding;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Dimension.design_snackbar_action_inline_max_width = global::KillTeam.Droid.Resource.Dimension.design_snackbar_action_inline_max_width;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Dimension.design_snackbar_background_corner_radius = global::KillTeam.Droid.Resource.Dimension.design_snackbar_background_corner_radius;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Dimension.design_snackbar_elevation = global::KillTeam.Droid.Resource.Dimension.design_snackbar_elevation;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Dimension.design_snackbar_extra_spacing_horizontal = global::KillTeam.Droid.Resource.Dimension.design_snackbar_extra_spacing_horizontal;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Dimension.design_snackbar_max_width = global::KillTeam.Droid.Resource.Dimension.design_snackbar_max_width;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Dimension.design_snackbar_min_width = global::KillTeam.Droid.Resource.Dimension.design_snackbar_min_width;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Dimension.design_snackbar_padding_horizontal = global::KillTeam.Droid.Resource.Dimension.design_snackbar_padding_horizontal;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Dimension.design_snackbar_padding_vertical = global::KillTeam.Droid.Resource.Dimension.design_snackbar_padding_vertical;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Dimension.design_snackbar_padding_vertical_2lines = global::KillTeam.Droid.Resource.Dimension.design_snackbar_padding_vertical_2lines;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Dimension.design_snackbar_text_size = global::KillTeam.Droid.Resource.Dimension.design_snackbar_text_size;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Dimension.design_tab_max_width = global::KillTeam.Droid.Resource.Dimension.design_tab_max_width;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Dimension.design_tab_scrollable_min_width = global::KillTeam.Droid.Resource.Dimension.design_tab_scrollable_min_width;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Dimension.design_tab_text_size = global::KillTeam.Droid.Resource.Dimension.design_tab_text_size;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Dimension.design_tab_text_size_2line = global::KillTeam.Droid.Resource.Dimension.design_tab_text_size_2line;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Dimension.disabled_alpha_material_dark = global::KillTeam.Droid.Resource.Dimension.disabled_alpha_material_dark;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Dimension.disabled_alpha_material_light = global::KillTeam.Droid.Resource.Dimension.disabled_alpha_material_light;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Dimension.fastscroll_default_thickness = global::KillTeam.Droid.Resource.Dimension.fastscroll_default_thickness;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Dimension.fastscroll_margin = global::KillTeam.Droid.Resource.Dimension.fastscroll_margin;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Dimension.fastscroll_minimum_range = global::KillTeam.Droid.Resource.Dimension.fastscroll_minimum_range;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Dimension.highlight_alpha_material_colored = global::KillTeam.Droid.Resource.Dimension.highlight_alpha_material_colored;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Dimension.highlight_alpha_material_dark = global::KillTeam.Droid.Resource.Dimension.highlight_alpha_material_dark;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Dimension.highlight_alpha_material_light = global::KillTeam.Droid.Resource.Dimension.highlight_alpha_material_light;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Dimension.hint_alpha_material_dark = global::KillTeam.Droid.Resource.Dimension.hint_alpha_material_dark;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Dimension.hint_alpha_material_light = global::KillTeam.Droid.Resource.Dimension.hint_alpha_material_light;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Dimension.hint_pressed_alpha_material_dark = global::KillTeam.Droid.Resource.Dimension.hint_pressed_alpha_material_dark;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Dimension.hint_pressed_alpha_material_light = global::KillTeam.Droid.Resource.Dimension.hint_pressed_alpha_material_light;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Dimension.item_touch_helper_max_drag_scroll_per_frame = global::KillTeam.Droid.Resource.Dimension.item_touch_helper_max_drag_scroll_per_frame;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Dimension.item_touch_helper_swipe_escape_max_velocity = global::KillTeam.Droid.Resource.Dimension.item_touch_helper_swipe_escape_max_velocity;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Dimension.item_touch_helper_swipe_escape_velocity = global::KillTeam.Droid.Resource.Dimension.item_touch_helper_swipe_escape_velocity;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Dimension.mr_controller_volume_group_list_item_height = global::KillTeam.Droid.Resource.Dimension.mr_controller_volume_group_list_item_height;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Dimension.mr_controller_volume_group_list_item_icon_size = global::KillTeam.Droid.Resource.Dimension.mr_controller_volume_group_list_item_icon_size;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Dimension.mr_controller_volume_group_list_max_height = global::KillTeam.Droid.Resource.Dimension.mr_controller_volume_group_list_max_height;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Dimension.mr_controller_volume_group_list_padding_top = global::KillTeam.Droid.Resource.Dimension.mr_controller_volume_group_list_padding_top;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Dimension.mr_dialog_fixed_width_major = global::KillTeam.Droid.Resource.Dimension.mr_dialog_fixed_width_major;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Dimension.mr_dialog_fixed_width_minor = global::KillTeam.Droid.Resource.Dimension.mr_dialog_fixed_width_minor;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Dimension.notification_action_icon_size = global::KillTeam.Droid.Resource.Dimension.notification_action_icon_size;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Dimension.notification_action_text_size = global::KillTeam.Droid.Resource.Dimension.notification_action_text_size;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Dimension.notification_big_circle_margin = global::KillTeam.Droid.Resource.Dimension.notification_big_circle_margin;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Dimension.notification_content_margin_start = global::KillTeam.Droid.Resource.Dimension.notification_content_margin_start;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Dimension.notification_large_icon_height = global::KillTeam.Droid.Resource.Dimension.notification_large_icon_height;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Dimension.notification_large_icon_width = global::KillTeam.Droid.Resource.Dimension.notification_large_icon_width;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Dimension.notification_main_column_padding_top = global::KillTeam.Droid.Resource.Dimension.notification_main_column_padding_top;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Dimension.notification_media_narrow_margin = global::KillTeam.Droid.Resource.Dimension.notification_media_narrow_margin;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Dimension.notification_right_icon_size = global::KillTeam.Droid.Resource.Dimension.notification_right_icon_size;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Dimension.notification_right_side_padding_top = global::KillTeam.Droid.Resource.Dimension.notification_right_side_padding_top;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Dimension.notification_small_icon_background_padding = global::KillTeam.Droid.Resource.Dimension.notification_small_icon_background_padding;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Dimension.notification_small_icon_size_as_large = global::KillTeam.Droid.Resource.Dimension.notification_small_icon_size_as_large;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Dimension.notification_subtext_size = global::KillTeam.Droid.Resource.Dimension.notification_subtext_size;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Dimension.notification_top_pad = global::KillTeam.Droid.Resource.Dimension.notification_top_pad;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Dimension.notification_top_pad_large_text = global::KillTeam.Droid.Resource.Dimension.notification_top_pad_large_text;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Dimension.tooltip_corner_radius = global::KillTeam.Droid.Resource.Dimension.tooltip_corner_radius;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Dimension.tooltip_horizontal_padding = global::KillTeam.Droid.Resource.Dimension.tooltip_horizontal_padding;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Dimension.tooltip_margin = global::KillTeam.Droid.Resource.Dimension.tooltip_margin;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Dimension.tooltip_precise_anchor_extra_offset = global::KillTeam.Droid.Resource.Dimension.tooltip_precise_anchor_extra_offset;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Dimension.tooltip_precise_anchor_threshold = global::KillTeam.Droid.Resource.Dimension.tooltip_precise_anchor_threshold;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Dimension.tooltip_vertical_padding = global::KillTeam.Droid.Resource.Dimension.tooltip_vertical_padding;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Dimension.tooltip_y_offset_non_touch = global::KillTeam.Droid.Resource.Dimension.tooltip_y_offset_non_touch;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Dimension.tooltip_y_offset_touch = global::KillTeam.Droid.Resource.Dimension.tooltip_y_offset_touch;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.abc_ab_share_pack_mtrl_alpha = global::KillTeam.Droid.Resource.Drawable.abc_ab_share_pack_mtrl_alpha;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.abc_action_bar_item_background_material = global::KillTeam.Droid.Resource.Drawable.abc_action_bar_item_background_material;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.abc_btn_borderless_material = global::KillTeam.Droid.Resource.Drawable.abc_btn_borderless_material;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.abc_btn_check_material = global::KillTeam.Droid.Resource.Drawable.abc_btn_check_material;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.abc_btn_check_to_on_mtrl_000 = global::KillTeam.Droid.Resource.Drawable.abc_btn_check_to_on_mtrl_000;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.abc_btn_check_to_on_mtrl_015 = global::KillTeam.Droid.Resource.Drawable.abc_btn_check_to_on_mtrl_015;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.abc_btn_colored_material = global::KillTeam.Droid.Resource.Drawable.abc_btn_colored_material;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.abc_btn_default_mtrl_shape = global::KillTeam.Droid.Resource.Drawable.abc_btn_default_mtrl_shape;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.abc_btn_radio_material = global::KillTeam.Droid.Resource.Drawable.abc_btn_radio_material;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.abc_btn_radio_to_on_mtrl_000 = global::KillTeam.Droid.Resource.Drawable.abc_btn_radio_to_on_mtrl_000;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.abc_btn_radio_to_on_mtrl_015 = global::KillTeam.Droid.Resource.Drawable.abc_btn_radio_to_on_mtrl_015;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.abc_btn_switch_to_on_mtrl_00001 = global::KillTeam.Droid.Resource.Drawable.abc_btn_switch_to_on_mtrl_00001;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.abc_btn_switch_to_on_mtrl_00012 = global::KillTeam.Droid.Resource.Drawable.abc_btn_switch_to_on_mtrl_00012;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.abc_cab_background_internal_bg = global::KillTeam.Droid.Resource.Drawable.abc_cab_background_internal_bg;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.abc_cab_background_top_material = global::KillTeam.Droid.Resource.Drawable.abc_cab_background_top_material;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.abc_cab_background_top_mtrl_alpha = global::KillTeam.Droid.Resource.Drawable.abc_cab_background_top_mtrl_alpha;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.abc_control_background_material = global::KillTeam.Droid.Resource.Drawable.abc_control_background_material;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.abc_dialog_material_background = global::KillTeam.Droid.Resource.Drawable.abc_dialog_material_background;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.abc_edit_text_material = global::KillTeam.Droid.Resource.Drawable.abc_edit_text_material;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.abc_ic_ab_back_material = global::KillTeam.Droid.Resource.Drawable.abc_ic_ab_back_material;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.abc_ic_arrow_drop_right_black_24dp = global::KillTeam.Droid.Resource.Drawable.abc_ic_arrow_drop_right_black_24dp;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.abc_ic_clear_material = global::KillTeam.Droid.Resource.Drawable.abc_ic_clear_material;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.abc_ic_commit_search_api_mtrl_alpha = global::KillTeam.Droid.Resource.Drawable.abc_ic_commit_search_api_mtrl_alpha;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.abc_ic_go_search_api_material = global::KillTeam.Droid.Resource.Drawable.abc_ic_go_search_api_material;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.abc_ic_menu_copy_mtrl_am_alpha = global::KillTeam.Droid.Resource.Drawable.abc_ic_menu_copy_mtrl_am_alpha;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.abc_ic_menu_cut_mtrl_alpha = global::KillTeam.Droid.Resource.Drawable.abc_ic_menu_cut_mtrl_alpha;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.abc_ic_menu_overflow_material = global::KillTeam.Droid.Resource.Drawable.abc_ic_menu_overflow_material;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.abc_ic_menu_paste_mtrl_am_alpha = global::KillTeam.Droid.Resource.Drawable.abc_ic_menu_paste_mtrl_am_alpha;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.abc_ic_menu_selectall_mtrl_alpha = global::KillTeam.Droid.Resource.Drawable.abc_ic_menu_selectall_mtrl_alpha;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.abc_ic_menu_share_mtrl_alpha = global::KillTeam.Droid.Resource.Drawable.abc_ic_menu_share_mtrl_alpha;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.abc_ic_search_api_material = global::KillTeam.Droid.Resource.Drawable.abc_ic_search_api_material;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.abc_ic_star_black_16dp = global::KillTeam.Droid.Resource.Drawable.abc_ic_star_black_16dp;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.abc_ic_star_black_36dp = global::KillTeam.Droid.Resource.Drawable.abc_ic_star_black_36dp;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.abc_ic_star_black_48dp = global::KillTeam.Droid.Resource.Drawable.abc_ic_star_black_48dp;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.abc_ic_star_half_black_16dp = global::KillTeam.Droid.Resource.Drawable.abc_ic_star_half_black_16dp;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.abc_ic_star_half_black_36dp = global::KillTeam.Droid.Resource.Drawable.abc_ic_star_half_black_36dp;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.abc_ic_star_half_black_48dp = global::KillTeam.Droid.Resource.Drawable.abc_ic_star_half_black_48dp;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.abc_ic_voice_search_api_material = global::KillTeam.Droid.Resource.Drawable.abc_ic_voice_search_api_material;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.abc_item_background_holo_dark = global::KillTeam.Droid.Resource.Drawable.abc_item_background_holo_dark;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.abc_item_background_holo_light = global::KillTeam.Droid.Resource.Drawable.abc_item_background_holo_light;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.abc_list_divider_mtrl_alpha = global::KillTeam.Droid.Resource.Drawable.abc_list_divider_mtrl_alpha;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.abc_list_focused_holo = global::KillTeam.Droid.Resource.Drawable.abc_list_focused_holo;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.abc_list_longpressed_holo = global::KillTeam.Droid.Resource.Drawable.abc_list_longpressed_holo;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.abc_list_pressed_holo_dark = global::KillTeam.Droid.Resource.Drawable.abc_list_pressed_holo_dark;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.abc_list_pressed_holo_light = global::KillTeam.Droid.Resource.Drawable.abc_list_pressed_holo_light;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.abc_list_selector_background_transition_holo_dark = global::KillTeam.Droid.Resource.Drawable.abc_list_selector_background_transition_holo_dark;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.abc_list_selector_background_transition_holo_light = global::KillTeam.Droid.Resource.Drawable.abc_list_selector_background_transition_holo_light;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.abc_list_selector_disabled_holo_dark = global::KillTeam.Droid.Resource.Drawable.abc_list_selector_disabled_holo_dark;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.abc_list_selector_disabled_holo_light = global::KillTeam.Droid.Resource.Drawable.abc_list_selector_disabled_holo_light;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.abc_list_selector_holo_dark = global::KillTeam.Droid.Resource.Drawable.abc_list_selector_holo_dark;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.abc_list_selector_holo_light = global::KillTeam.Droid.Resource.Drawable.abc_list_selector_holo_light;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.abc_menu_hardkey_panel_mtrl_mult = global::KillTeam.Droid.Resource.Drawable.abc_menu_hardkey_panel_mtrl_mult;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.abc_popup_background_mtrl_mult = global::KillTeam.Droid.Resource.Drawable.abc_popup_background_mtrl_mult;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.abc_ratingbar_indicator_material = global::KillTeam.Droid.Resource.Drawable.abc_ratingbar_indicator_material;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.abc_ratingbar_material = global::KillTeam.Droid.Resource.Drawable.abc_ratingbar_material;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.abc_ratingbar_small_material = global::KillTeam.Droid.Resource.Drawable.abc_ratingbar_small_material;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.abc_scrubber_control_off_mtrl_alpha = global::KillTeam.Droid.Resource.Drawable.abc_scrubber_control_off_mtrl_alpha;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.abc_scrubber_control_to_pressed_mtrl_000 = global::KillTeam.Droid.Resource.Drawable.abc_scrubber_control_to_pressed_mtrl_000;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.abc_scrubber_control_to_pressed_mtrl_005 = global::KillTeam.Droid.Resource.Drawable.abc_scrubber_control_to_pressed_mtrl_005;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.abc_scrubber_primary_mtrl_alpha = global::KillTeam.Droid.Resource.Drawable.abc_scrubber_primary_mtrl_alpha;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.abc_scrubber_track_mtrl_alpha = global::KillTeam.Droid.Resource.Drawable.abc_scrubber_track_mtrl_alpha;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.abc_seekbar_thumb_material = global::KillTeam.Droid.Resource.Drawable.abc_seekbar_thumb_material;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.abc_seekbar_tick_mark_material = global::KillTeam.Droid.Resource.Drawable.abc_seekbar_tick_mark_material;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.abc_seekbar_track_material = global::KillTeam.Droid.Resource.Drawable.abc_seekbar_track_material;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.abc_spinner_mtrl_am_alpha = global::KillTeam.Droid.Resource.Drawable.abc_spinner_mtrl_am_alpha;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.abc_spinner_textfield_background_material = global::KillTeam.Droid.Resource.Drawable.abc_spinner_textfield_background_material;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.abc_switch_thumb_material = global::KillTeam.Droid.Resource.Drawable.abc_switch_thumb_material;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.abc_switch_track_mtrl_alpha = global::KillTeam.Droid.Resource.Drawable.abc_switch_track_mtrl_alpha;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.abc_tab_indicator_material = global::KillTeam.Droid.Resource.Drawable.abc_tab_indicator_material;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.abc_tab_indicator_mtrl_alpha = global::KillTeam.Droid.Resource.Drawable.abc_tab_indicator_mtrl_alpha;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.abc_textfield_activated_mtrl_alpha = global::KillTeam.Droid.Resource.Drawable.abc_textfield_activated_mtrl_alpha;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.abc_textfield_default_mtrl_alpha = global::KillTeam.Droid.Resource.Drawable.abc_textfield_default_mtrl_alpha;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.abc_textfield_search_activated_mtrl_alpha = global::KillTeam.Droid.Resource.Drawable.abc_textfield_search_activated_mtrl_alpha;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.abc_textfield_search_default_mtrl_alpha = global::KillTeam.Droid.Resource.Drawable.abc_textfield_search_default_mtrl_alpha;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.abc_textfield_search_material = global::KillTeam.Droid.Resource.Drawable.abc_textfield_search_material;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.abc_text_cursor_material = global::KillTeam.Droid.Resource.Drawable.abc_text_cursor_material;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.abc_text_select_handle_left_mtrl_dark = global::KillTeam.Droid.Resource.Drawable.abc_text_select_handle_left_mtrl_dark;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.abc_text_select_handle_left_mtrl_light = global::KillTeam.Droid.Resource.Drawable.abc_text_select_handle_left_mtrl_light;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.abc_text_select_handle_middle_mtrl_dark = global::KillTeam.Droid.Resource.Drawable.abc_text_select_handle_middle_mtrl_dark;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.abc_text_select_handle_middle_mtrl_light = global::KillTeam.Droid.Resource.Drawable.abc_text_select_handle_middle_mtrl_light;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.abc_text_select_handle_right_mtrl_dark = global::KillTeam.Droid.Resource.Drawable.abc_text_select_handle_right_mtrl_dark;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.abc_text_select_handle_right_mtrl_light = global::KillTeam.Droid.Resource.Drawable.abc_text_select_handle_right_mtrl_light;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.abc_vector_test = global::KillTeam.Droid.Resource.Drawable.abc_vector_test;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.avd_hide_password = global::KillTeam.Droid.Resource.Drawable.avd_hide_password;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.avd_show_password = global::KillTeam.Droid.Resource.Drawable.avd_show_password;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.bottom_shadow = global::KillTeam.Droid.Resource.Drawable.bottom_shadow;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.design_bottom_navigation_item_background = global::KillTeam.Droid.Resource.Drawable.design_bottom_navigation_item_background;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.design_fab_background = global::KillTeam.Droid.Resource.Drawable.design_fab_background;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.design_ic_visibility = global::KillTeam.Droid.Resource.Drawable.design_ic_visibility;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.design_ic_visibility_off = global::KillTeam.Droid.Resource.Drawable.design_ic_visibility_off;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.design_password_eye = global::KillTeam.Droid.Resource.Drawable.design_password_eye;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.design_snackbar_background = global::KillTeam.Droid.Resource.Drawable.design_snackbar_background;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.ic_audiotrack_dark = global::KillTeam.Droid.Resource.Drawable.ic_audiotrack_dark;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.ic_audiotrack_light = global::KillTeam.Droid.Resource.Drawable.ic_audiotrack_light;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.ic_dialog_close_dark = global::KillTeam.Droid.Resource.Drawable.ic_dialog_close_dark;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.ic_dialog_close_light = global::KillTeam.Droid.Resource.Drawable.ic_dialog_close_light;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.ic_group_collapse_00 = global::KillTeam.Droid.Resource.Drawable.ic_group_collapse_00;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.ic_group_collapse_01 = global::KillTeam.Droid.Resource.Drawable.ic_group_collapse_01;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.ic_group_collapse_02 = global::KillTeam.Droid.Resource.Drawable.ic_group_collapse_02;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.ic_group_collapse_03 = global::KillTeam.Droid.Resource.Drawable.ic_group_collapse_03;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.ic_group_collapse_04 = global::KillTeam.Droid.Resource.Drawable.ic_group_collapse_04;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.ic_group_collapse_05 = global::KillTeam.Droid.Resource.Drawable.ic_group_collapse_05;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.ic_group_collapse_06 = global::KillTeam.Droid.Resource.Drawable.ic_group_collapse_06;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.ic_group_collapse_07 = global::KillTeam.Droid.Resource.Drawable.ic_group_collapse_07;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.ic_group_collapse_08 = global::KillTeam.Droid.Resource.Drawable.ic_group_collapse_08;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.ic_group_collapse_09 = global::KillTeam.Droid.Resource.Drawable.ic_group_collapse_09;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.ic_group_collapse_10 = global::KillTeam.Droid.Resource.Drawable.ic_group_collapse_10;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.ic_group_collapse_11 = global::KillTeam.Droid.Resource.Drawable.ic_group_collapse_11;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.ic_group_collapse_12 = global::KillTeam.Droid.Resource.Drawable.ic_group_collapse_12;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.ic_group_collapse_13 = global::KillTeam.Droid.Resource.Drawable.ic_group_collapse_13;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.ic_group_collapse_14 = global::KillTeam.Droid.Resource.Drawable.ic_group_collapse_14;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.ic_group_collapse_15 = global::KillTeam.Droid.Resource.Drawable.ic_group_collapse_15;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.ic_group_expand_00 = global::KillTeam.Droid.Resource.Drawable.ic_group_expand_00;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.ic_group_expand_01 = global::KillTeam.Droid.Resource.Drawable.ic_group_expand_01;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.ic_group_expand_02 = global::KillTeam.Droid.Resource.Drawable.ic_group_expand_02;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.ic_group_expand_03 = global::KillTeam.Droid.Resource.Drawable.ic_group_expand_03;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.ic_group_expand_04 = global::KillTeam.Droid.Resource.Drawable.ic_group_expand_04;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.ic_group_expand_05 = global::KillTeam.Droid.Resource.Drawable.ic_group_expand_05;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.ic_group_expand_06 = global::KillTeam.Droid.Resource.Drawable.ic_group_expand_06;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.ic_group_expand_07 = global::KillTeam.Droid.Resource.Drawable.ic_group_expand_07;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.ic_group_expand_08 = global::KillTeam.Droid.Resource.Drawable.ic_group_expand_08;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.ic_group_expand_09 = global::KillTeam.Droid.Resource.Drawable.ic_group_expand_09;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.ic_group_expand_10 = global::KillTeam.Droid.Resource.Drawable.ic_group_expand_10;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.ic_group_expand_11 = global::KillTeam.Droid.Resource.Drawable.ic_group_expand_11;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.ic_group_expand_12 = global::KillTeam.Droid.Resource.Drawable.ic_group_expand_12;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.ic_group_expand_13 = global::KillTeam.Droid.Resource.Drawable.ic_group_expand_13;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.ic_group_expand_14 = global::KillTeam.Droid.Resource.Drawable.ic_group_expand_14;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.ic_group_expand_15 = global::KillTeam.Droid.Resource.Drawable.ic_group_expand_15;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.ic_media_pause_dark = global::KillTeam.Droid.Resource.Drawable.ic_media_pause_dark;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.ic_media_pause_light = global::KillTeam.Droid.Resource.Drawable.ic_media_pause_light;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.ic_media_play_dark = global::KillTeam.Droid.Resource.Drawable.ic_media_play_dark;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.ic_media_play_light = global::KillTeam.Droid.Resource.Drawable.ic_media_play_light;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.ic_media_stop_dark = global::KillTeam.Droid.Resource.Drawable.ic_media_stop_dark;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.ic_media_stop_light = global::KillTeam.Droid.Resource.Drawable.ic_media_stop_light;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.ic_mr_button_connected_00_dark = global::KillTeam.Droid.Resource.Drawable.ic_mr_button_connected_00_dark;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.ic_mr_button_connected_00_light = global::KillTeam.Droid.Resource.Drawable.ic_mr_button_connected_00_light;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.ic_mr_button_connected_01_dark = global::KillTeam.Droid.Resource.Drawable.ic_mr_button_connected_01_dark;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.ic_mr_button_connected_01_light = global::KillTeam.Droid.Resource.Drawable.ic_mr_button_connected_01_light;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.ic_mr_button_connected_02_dark = global::KillTeam.Droid.Resource.Drawable.ic_mr_button_connected_02_dark;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.ic_mr_button_connected_02_light = global::KillTeam.Droid.Resource.Drawable.ic_mr_button_connected_02_light;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.ic_mr_button_connected_03_dark = global::KillTeam.Droid.Resource.Drawable.ic_mr_button_connected_03_dark;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.ic_mr_button_connected_03_light = global::KillTeam.Droid.Resource.Drawable.ic_mr_button_connected_03_light;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.ic_mr_button_connected_04_dark = global::KillTeam.Droid.Resource.Drawable.ic_mr_button_connected_04_dark;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.ic_mr_button_connected_04_light = global::KillTeam.Droid.Resource.Drawable.ic_mr_button_connected_04_light;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.ic_mr_button_connected_05_dark = global::KillTeam.Droid.Resource.Drawable.ic_mr_button_connected_05_dark;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.ic_mr_button_connected_05_light = global::KillTeam.Droid.Resource.Drawable.ic_mr_button_connected_05_light;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.ic_mr_button_connected_06_dark = global::KillTeam.Droid.Resource.Drawable.ic_mr_button_connected_06_dark;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.ic_mr_button_connected_06_light = global::KillTeam.Droid.Resource.Drawable.ic_mr_button_connected_06_light;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.ic_mr_button_connected_07_dark = global::KillTeam.Droid.Resource.Drawable.ic_mr_button_connected_07_dark;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.ic_mr_button_connected_07_light = global::KillTeam.Droid.Resource.Drawable.ic_mr_button_connected_07_light;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.ic_mr_button_connected_08_dark = global::KillTeam.Droid.Resource.Drawable.ic_mr_button_connected_08_dark;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.ic_mr_button_connected_08_light = global::KillTeam.Droid.Resource.Drawable.ic_mr_button_connected_08_light;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.ic_mr_button_connected_09_dark = global::KillTeam.Droid.Resource.Drawable.ic_mr_button_connected_09_dark;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.ic_mr_button_connected_09_light = global::KillTeam.Droid.Resource.Drawable.ic_mr_button_connected_09_light;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.ic_mr_button_connected_10_dark = global::KillTeam.Droid.Resource.Drawable.ic_mr_button_connected_10_dark;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.ic_mr_button_connected_10_light = global::KillTeam.Droid.Resource.Drawable.ic_mr_button_connected_10_light;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.ic_mr_button_connected_11_dark = global::KillTeam.Droid.Resource.Drawable.ic_mr_button_connected_11_dark;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.ic_mr_button_connected_11_light = global::KillTeam.Droid.Resource.Drawable.ic_mr_button_connected_11_light;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.ic_mr_button_connected_12_dark = global::KillTeam.Droid.Resource.Drawable.ic_mr_button_connected_12_dark;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.ic_mr_button_connected_12_light = global::KillTeam.Droid.Resource.Drawable.ic_mr_button_connected_12_light;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.ic_mr_button_connected_13_dark = global::KillTeam.Droid.Resource.Drawable.ic_mr_button_connected_13_dark;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.ic_mr_button_connected_13_light = global::KillTeam.Droid.Resource.Drawable.ic_mr_button_connected_13_light;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.ic_mr_button_connected_14_dark = global::KillTeam.Droid.Resource.Drawable.ic_mr_button_connected_14_dark;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.ic_mr_button_connected_14_light = global::KillTeam.Droid.Resource.Drawable.ic_mr_button_connected_14_light;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.ic_mr_button_connected_15_dark = global::KillTeam.Droid.Resource.Drawable.ic_mr_button_connected_15_dark;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.ic_mr_button_connected_15_light = global::KillTeam.Droid.Resource.Drawable.ic_mr_button_connected_15_light;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.ic_mr_button_connected_16_dark = global::KillTeam.Droid.Resource.Drawable.ic_mr_button_connected_16_dark;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.ic_mr_button_connected_16_light = global::KillTeam.Droid.Resource.Drawable.ic_mr_button_connected_16_light;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.ic_mr_button_connected_17_dark = global::KillTeam.Droid.Resource.Drawable.ic_mr_button_connected_17_dark;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.ic_mr_button_connected_17_light = global::KillTeam.Droid.Resource.Drawable.ic_mr_button_connected_17_light;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.ic_mr_button_connected_18_dark = global::KillTeam.Droid.Resource.Drawable.ic_mr_button_connected_18_dark;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.ic_mr_button_connected_18_light = global::KillTeam.Droid.Resource.Drawable.ic_mr_button_connected_18_light;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.ic_mr_button_connected_19_dark = global::KillTeam.Droid.Resource.Drawable.ic_mr_button_connected_19_dark;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.ic_mr_button_connected_19_light = global::KillTeam.Droid.Resource.Drawable.ic_mr_button_connected_19_light;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.ic_mr_button_connected_20_dark = global::KillTeam.Droid.Resource.Drawable.ic_mr_button_connected_20_dark;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.ic_mr_button_connected_20_light = global::KillTeam.Droid.Resource.Drawable.ic_mr_button_connected_20_light;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.ic_mr_button_connected_21_dark = global::KillTeam.Droid.Resource.Drawable.ic_mr_button_connected_21_dark;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.ic_mr_button_connected_21_light = global::KillTeam.Droid.Resource.Drawable.ic_mr_button_connected_21_light;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.ic_mr_button_connected_22_dark = global::KillTeam.Droid.Resource.Drawable.ic_mr_button_connected_22_dark;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.ic_mr_button_connected_22_light = global::KillTeam.Droid.Resource.Drawable.ic_mr_button_connected_22_light;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.ic_mr_button_connected_23_dark = global::KillTeam.Droid.Resource.Drawable.ic_mr_button_connected_23_dark;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.ic_mr_button_connected_23_light = global::KillTeam.Droid.Resource.Drawable.ic_mr_button_connected_23_light;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.ic_mr_button_connected_24_dark = global::KillTeam.Droid.Resource.Drawable.ic_mr_button_connected_24_dark;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.ic_mr_button_connected_24_light = global::KillTeam.Droid.Resource.Drawable.ic_mr_button_connected_24_light;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.ic_mr_button_connected_25_dark = global::KillTeam.Droid.Resource.Drawable.ic_mr_button_connected_25_dark;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.ic_mr_button_connected_25_light = global::KillTeam.Droid.Resource.Drawable.ic_mr_button_connected_25_light;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.ic_mr_button_connected_26_dark = global::KillTeam.Droid.Resource.Drawable.ic_mr_button_connected_26_dark;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.ic_mr_button_connected_26_light = global::KillTeam.Droid.Resource.Drawable.ic_mr_button_connected_26_light;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.ic_mr_button_connected_27_dark = global::KillTeam.Droid.Resource.Drawable.ic_mr_button_connected_27_dark;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.ic_mr_button_connected_27_light = global::KillTeam.Droid.Resource.Drawable.ic_mr_button_connected_27_light;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.ic_mr_button_connected_28_dark = global::KillTeam.Droid.Resource.Drawable.ic_mr_button_connected_28_dark;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.ic_mr_button_connected_28_light = global::KillTeam.Droid.Resource.Drawable.ic_mr_button_connected_28_light;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.ic_mr_button_connected_29_dark = global::KillTeam.Droid.Resource.Drawable.ic_mr_button_connected_29_dark;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.ic_mr_button_connected_29_light = global::KillTeam.Droid.Resource.Drawable.ic_mr_button_connected_29_light;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.ic_mr_button_connected_30_dark = global::KillTeam.Droid.Resource.Drawable.ic_mr_button_connected_30_dark;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.ic_mr_button_connected_30_light = global::KillTeam.Droid.Resource.Drawable.ic_mr_button_connected_30_light;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.ic_mr_button_connecting_00_dark = global::KillTeam.Droid.Resource.Drawable.ic_mr_button_connecting_00_dark;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.ic_mr_button_connecting_00_light = global::KillTeam.Droid.Resource.Drawable.ic_mr_button_connecting_00_light;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.ic_mr_button_connecting_01_dark = global::KillTeam.Droid.Resource.Drawable.ic_mr_button_connecting_01_dark;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.ic_mr_button_connecting_01_light = global::KillTeam.Droid.Resource.Drawable.ic_mr_button_connecting_01_light;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.ic_mr_button_connecting_02_dark = global::KillTeam.Droid.Resource.Drawable.ic_mr_button_connecting_02_dark;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.ic_mr_button_connecting_02_light = global::KillTeam.Droid.Resource.Drawable.ic_mr_button_connecting_02_light;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.ic_mr_button_connecting_03_dark = global::KillTeam.Droid.Resource.Drawable.ic_mr_button_connecting_03_dark;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.ic_mr_button_connecting_03_light = global::KillTeam.Droid.Resource.Drawable.ic_mr_button_connecting_03_light;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.ic_mr_button_connecting_04_dark = global::KillTeam.Droid.Resource.Drawable.ic_mr_button_connecting_04_dark;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.ic_mr_button_connecting_04_light = global::KillTeam.Droid.Resource.Drawable.ic_mr_button_connecting_04_light;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.ic_mr_button_connecting_05_dark = global::KillTeam.Droid.Resource.Drawable.ic_mr_button_connecting_05_dark;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.ic_mr_button_connecting_05_light = global::KillTeam.Droid.Resource.Drawable.ic_mr_button_connecting_05_light;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.ic_mr_button_connecting_06_dark = global::KillTeam.Droid.Resource.Drawable.ic_mr_button_connecting_06_dark;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.ic_mr_button_connecting_06_light = global::KillTeam.Droid.Resource.Drawable.ic_mr_button_connecting_06_light;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.ic_mr_button_connecting_07_dark = global::KillTeam.Droid.Resource.Drawable.ic_mr_button_connecting_07_dark;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.ic_mr_button_connecting_07_light = global::KillTeam.Droid.Resource.Drawable.ic_mr_button_connecting_07_light;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.ic_mr_button_connecting_08_dark = global::KillTeam.Droid.Resource.Drawable.ic_mr_button_connecting_08_dark;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.ic_mr_button_connecting_08_light = global::KillTeam.Droid.Resource.Drawable.ic_mr_button_connecting_08_light;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.ic_mr_button_connecting_09_dark = global::KillTeam.Droid.Resource.Drawable.ic_mr_button_connecting_09_dark;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.ic_mr_button_connecting_09_light = global::KillTeam.Droid.Resource.Drawable.ic_mr_button_connecting_09_light;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.ic_mr_button_connecting_10_dark = global::KillTeam.Droid.Resource.Drawable.ic_mr_button_connecting_10_dark;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.ic_mr_button_connecting_10_light = global::KillTeam.Droid.Resource.Drawable.ic_mr_button_connecting_10_light;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.ic_mr_button_connecting_11_dark = global::KillTeam.Droid.Resource.Drawable.ic_mr_button_connecting_11_dark;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.ic_mr_button_connecting_11_light = global::KillTeam.Droid.Resource.Drawable.ic_mr_button_connecting_11_light;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.ic_mr_button_connecting_12_dark = global::KillTeam.Droid.Resource.Drawable.ic_mr_button_connecting_12_dark;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.ic_mr_button_connecting_12_light = global::KillTeam.Droid.Resource.Drawable.ic_mr_button_connecting_12_light;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.ic_mr_button_connecting_13_dark = global::KillTeam.Droid.Resource.Drawable.ic_mr_button_connecting_13_dark;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.ic_mr_button_connecting_13_light = global::KillTeam.Droid.Resource.Drawable.ic_mr_button_connecting_13_light;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.ic_mr_button_connecting_14_dark = global::KillTeam.Droid.Resource.Drawable.ic_mr_button_connecting_14_dark;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.ic_mr_button_connecting_14_light = global::KillTeam.Droid.Resource.Drawable.ic_mr_button_connecting_14_light;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.ic_mr_button_connecting_15_dark = global::KillTeam.Droid.Resource.Drawable.ic_mr_button_connecting_15_dark;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.ic_mr_button_connecting_15_light = global::KillTeam.Droid.Resource.Drawable.ic_mr_button_connecting_15_light;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.ic_mr_button_connecting_16_dark = global::KillTeam.Droid.Resource.Drawable.ic_mr_button_connecting_16_dark;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.ic_mr_button_connecting_16_light = global::KillTeam.Droid.Resource.Drawable.ic_mr_button_connecting_16_light;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.ic_mr_button_connecting_17_dark = global::KillTeam.Droid.Resource.Drawable.ic_mr_button_connecting_17_dark;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.ic_mr_button_connecting_17_light = global::KillTeam.Droid.Resource.Drawable.ic_mr_button_connecting_17_light;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.ic_mr_button_connecting_18_dark = global::KillTeam.Droid.Resource.Drawable.ic_mr_button_connecting_18_dark;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.ic_mr_button_connecting_18_light = global::KillTeam.Droid.Resource.Drawable.ic_mr_button_connecting_18_light;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.ic_mr_button_connecting_19_dark = global::KillTeam.Droid.Resource.Drawable.ic_mr_button_connecting_19_dark;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.ic_mr_button_connecting_19_light = global::KillTeam.Droid.Resource.Drawable.ic_mr_button_connecting_19_light;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.ic_mr_button_connecting_20_dark = global::KillTeam.Droid.Resource.Drawable.ic_mr_button_connecting_20_dark;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.ic_mr_button_connecting_20_light = global::KillTeam.Droid.Resource.Drawable.ic_mr_button_connecting_20_light;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.ic_mr_button_connecting_21_dark = global::KillTeam.Droid.Resource.Drawable.ic_mr_button_connecting_21_dark;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.ic_mr_button_connecting_21_light = global::KillTeam.Droid.Resource.Drawable.ic_mr_button_connecting_21_light;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.ic_mr_button_connecting_22_dark = global::KillTeam.Droid.Resource.Drawable.ic_mr_button_connecting_22_dark;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.ic_mr_button_connecting_22_light = global::KillTeam.Droid.Resource.Drawable.ic_mr_button_connecting_22_light;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.ic_mr_button_connecting_23_dark = global::KillTeam.Droid.Resource.Drawable.ic_mr_button_connecting_23_dark;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.ic_mr_button_connecting_23_light = global::KillTeam.Droid.Resource.Drawable.ic_mr_button_connecting_23_light;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.ic_mr_button_connecting_24_dark = global::KillTeam.Droid.Resource.Drawable.ic_mr_button_connecting_24_dark;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.ic_mr_button_connecting_24_light = global::KillTeam.Droid.Resource.Drawable.ic_mr_button_connecting_24_light;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.ic_mr_button_connecting_25_dark = global::KillTeam.Droid.Resource.Drawable.ic_mr_button_connecting_25_dark;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.ic_mr_button_connecting_25_light = global::KillTeam.Droid.Resource.Drawable.ic_mr_button_connecting_25_light;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.ic_mr_button_connecting_26_dark = global::KillTeam.Droid.Resource.Drawable.ic_mr_button_connecting_26_dark;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.ic_mr_button_connecting_26_light = global::KillTeam.Droid.Resource.Drawable.ic_mr_button_connecting_26_light;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.ic_mr_button_connecting_27_dark = global::KillTeam.Droid.Resource.Drawable.ic_mr_button_connecting_27_dark;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.ic_mr_button_connecting_27_light = global::KillTeam.Droid.Resource.Drawable.ic_mr_button_connecting_27_light;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.ic_mr_button_connecting_28_dark = global::KillTeam.Droid.Resource.Drawable.ic_mr_button_connecting_28_dark;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.ic_mr_button_connecting_28_light = global::KillTeam.Droid.Resource.Drawable.ic_mr_button_connecting_28_light;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.ic_mr_button_connecting_29_dark = global::KillTeam.Droid.Resource.Drawable.ic_mr_button_connecting_29_dark;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.ic_mr_button_connecting_29_light = global::KillTeam.Droid.Resource.Drawable.ic_mr_button_connecting_29_light;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.ic_mr_button_connecting_30_dark = global::KillTeam.Droid.Resource.Drawable.ic_mr_button_connecting_30_dark;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.ic_mr_button_connecting_30_light = global::KillTeam.Droid.Resource.Drawable.ic_mr_button_connecting_30_light;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.ic_mr_button_disabled_dark = global::KillTeam.Droid.Resource.Drawable.ic_mr_button_disabled_dark;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.ic_mr_button_disabled_light = global::KillTeam.Droid.Resource.Drawable.ic_mr_button_disabled_light;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.ic_mr_button_disconnected_dark = global::KillTeam.Droid.Resource.Drawable.ic_mr_button_disconnected_dark;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.ic_mr_button_disconnected_light = global::KillTeam.Droid.Resource.Drawable.ic_mr_button_disconnected_light;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.ic_mr_button_grey = global::KillTeam.Droid.Resource.Drawable.ic_mr_button_grey;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.ic_vol_type_speaker_dark = global::KillTeam.Droid.Resource.Drawable.ic_vol_type_speaker_dark;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.ic_vol_type_speaker_group_dark = global::KillTeam.Droid.Resource.Drawable.ic_vol_type_speaker_group_dark;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.ic_vol_type_speaker_group_light = global::KillTeam.Droid.Resource.Drawable.ic_vol_type_speaker_group_light;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.ic_vol_type_speaker_light = global::KillTeam.Droid.Resource.Drawable.ic_vol_type_speaker_light;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.ic_vol_type_tv_dark = global::KillTeam.Droid.Resource.Drawable.ic_vol_type_tv_dark;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.ic_vol_type_tv_light = global::KillTeam.Droid.Resource.Drawable.ic_vol_type_tv_light;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.mr_button_connected_dark = global::KillTeam.Droid.Resource.Drawable.mr_button_connected_dark;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.mr_button_connected_light = global::KillTeam.Droid.Resource.Drawable.mr_button_connected_light;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.mr_button_connecting_dark = global::KillTeam.Droid.Resource.Drawable.mr_button_connecting_dark;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.mr_button_connecting_light = global::KillTeam.Droid.Resource.Drawable.mr_button_connecting_light;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.mr_button_dark = global::KillTeam.Droid.Resource.Drawable.mr_button_dark;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.mr_button_light = global::KillTeam.Droid.Resource.Drawable.mr_button_light;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.mr_dialog_close_dark = global::KillTeam.Droid.Resource.Drawable.mr_dialog_close_dark;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.mr_dialog_close_light = global::KillTeam.Droid.Resource.Drawable.mr_dialog_close_light;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.mr_dialog_material_background_dark = global::KillTeam.Droid.Resource.Drawable.mr_dialog_material_background_dark;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.mr_dialog_material_background_light = global::KillTeam.Droid.Resource.Drawable.mr_dialog_material_background_light;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.mr_group_collapse = global::KillTeam.Droid.Resource.Drawable.mr_group_collapse;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.mr_group_expand = global::KillTeam.Droid.Resource.Drawable.mr_group_expand;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.mr_media_pause_dark = global::KillTeam.Droid.Resource.Drawable.mr_media_pause_dark;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.mr_media_pause_light = global::KillTeam.Droid.Resource.Drawable.mr_media_pause_light;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.mr_media_play_dark = global::KillTeam.Droid.Resource.Drawable.mr_media_play_dark;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.mr_media_play_light = global::KillTeam.Droid.Resource.Drawable.mr_media_play_light;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.mr_media_stop_dark = global::KillTeam.Droid.Resource.Drawable.mr_media_stop_dark;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.mr_media_stop_light = global::KillTeam.Droid.Resource.Drawable.mr_media_stop_light;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.mr_vol_type_audiotrack_dark = global::KillTeam.Droid.Resource.Drawable.mr_vol_type_audiotrack_dark;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.mr_vol_type_audiotrack_light = global::KillTeam.Droid.Resource.Drawable.mr_vol_type_audiotrack_light;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.navigation_empty_icon = global::KillTeam.Droid.Resource.Drawable.navigation_empty_icon;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.notification_action_background = global::KillTeam.Droid.Resource.Drawable.notification_action_background;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.notification_bg = global::KillTeam.Droid.Resource.Drawable.notification_bg;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.notification_bg_low = global::KillTeam.Droid.Resource.Drawable.notification_bg_low;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.notification_bg_low_normal = global::KillTeam.Droid.Resource.Drawable.notification_bg_low_normal;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.notification_bg_low_pressed = global::KillTeam.Droid.Resource.Drawable.notification_bg_low_pressed;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.notification_bg_normal = global::KillTeam.Droid.Resource.Drawable.notification_bg_normal;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.notification_bg_normal_pressed = global::KillTeam.Droid.Resource.Drawable.notification_bg_normal_pressed;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.notification_icon_background = global::KillTeam.Droid.Resource.Drawable.notification_icon_background;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.notification_template_icon_bg = global::KillTeam.Droid.Resource.Drawable.notification_template_icon_bg;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.notification_template_icon_low_bg = global::KillTeam.Droid.Resource.Drawable.notification_template_icon_low_bg;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.notification_tile_bg = global::KillTeam.Droid.Resource.Drawable.notification_tile_bg;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.notify_panel_notification_icon_bg = global::KillTeam.Droid.Resource.Drawable.notify_panel_notification_icon_bg;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.tooltip_frame_dark = global::KillTeam.Droid.Resource.Drawable.tooltip_frame_dark;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.tooltip_frame_light = global::KillTeam.Droid.Resource.Drawable.tooltip_frame_light;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Drawable.top_shadow = global::KillTeam.Droid.Resource.Drawable.top_shadow;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Id.action0 = global::KillTeam.Droid.Resource.Id.action0;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Id.actions = global::KillTeam.Droid.Resource.Id.actions;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Id.action_bar = global::KillTeam.Droid.Resource.Id.action_bar;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Id.action_bar_activity_content = global::KillTeam.Droid.Resource.Id.action_bar_activity_content;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Id.action_bar_container = global::KillTeam.Droid.Resource.Id.action_bar_container;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Id.action_bar_root = global::KillTeam.Droid.Resource.Id.action_bar_root;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Id.action_bar_spinner = global::KillTeam.Droid.Resource.Id.action_bar_spinner;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Id.action_bar_subtitle = global::KillTeam.Droid.Resource.Id.action_bar_subtitle;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Id.action_bar_title = global::KillTeam.Droid.Resource.Id.action_bar_title;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Id.action_container = global::KillTeam.Droid.Resource.Id.action_container;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Id.action_context_bar = global::KillTeam.Droid.Resource.Id.action_context_bar;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Id.action_divider = global::KillTeam.Droid.Resource.Id.action_divider;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Id.action_image = global::KillTeam.Droid.Resource.Id.action_image;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Id.action_menu_divider = global::KillTeam.Droid.Resource.Id.action_menu_divider;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Id.action_menu_presenter = global::KillTeam.Droid.Resource.Id.action_menu_presenter;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Id.action_mode_bar = global::KillTeam.Droid.Resource.Id.action_mode_bar;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Id.action_mode_bar_stub = global::KillTeam.Droid.Resource.Id.action_mode_bar_stub;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Id.action_mode_close_button = global::KillTeam.Droid.Resource.Id.action_mode_close_button;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Id.action_text = global::KillTeam.Droid.Resource.Id.action_text;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Id.activity_chooser_view_content = global::KillTeam.Droid.Resource.Id.activity_chooser_view_content;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Id.add = global::KillTeam.Droid.Resource.Id.add;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Id.alertTitle = global::KillTeam.Droid.Resource.Id.alertTitle;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Id.all = global::KillTeam.Droid.Resource.Id.all;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Id.ALT = global::KillTeam.Droid.Resource.Id.ALT;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Id.always = global::KillTeam.Droid.Resource.Id.always;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Id.async = global::KillTeam.Droid.Resource.Id.async;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Id.auto = global::KillTeam.Droid.Resource.Id.auto;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Id.beginning = global::KillTeam.Droid.Resource.Id.beginning;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Id.blocking = global::KillTeam.Droid.Resource.Id.blocking;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Id.bottom = global::KillTeam.Droid.Resource.Id.bottom;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Id.buttonPanel = global::KillTeam.Droid.Resource.Id.buttonPanel;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Id.cancel_action = global::KillTeam.Droid.Resource.Id.cancel_action;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Id.center = global::KillTeam.Droid.Resource.Id.center;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Id.center_horizontal = global::KillTeam.Droid.Resource.Id.center_horizontal;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Id.center_vertical = global::KillTeam.Droid.Resource.Id.center_vertical;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Id.checkbox = global::KillTeam.Droid.Resource.Id.checkbox;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Id.chronometer = global::KillTeam.Droid.Resource.Id.chronometer;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Id.clip_horizontal = global::KillTeam.Droid.Resource.Id.clip_horizontal;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Id.clip_vertical = global::KillTeam.Droid.Resource.Id.clip_vertical;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Id.collapseActionView = global::KillTeam.Droid.Resource.Id.collapseActionView;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Id.container = global::KillTeam.Droid.Resource.Id.container;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Id.contentPanel = global::KillTeam.Droid.Resource.Id.contentPanel;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Id.coordinator = global::KillTeam.Droid.Resource.Id.coordinator;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Id.CTRL = global::KillTeam.Droid.Resource.Id.CTRL;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Id.custom = global::KillTeam.Droid.Resource.Id.custom;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Id.customPanel = global::KillTeam.Droid.Resource.Id.customPanel;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Id.decor_content_parent = global::KillTeam.Droid.Resource.Id.decor_content_parent;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Id.default_activity_button = global::KillTeam.Droid.Resource.Id.default_activity_button;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Id.design_bottom_sheet = global::KillTeam.Droid.Resource.Id.design_bottom_sheet;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Id.design_menu_item_action_area = global::KillTeam.Droid.Resource.Id.design_menu_item_action_area;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Id.design_menu_item_action_area_stub = global::KillTeam.Droid.Resource.Id.design_menu_item_action_area_stub;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Id.design_menu_item_text = global::KillTeam.Droid.Resource.Id.design_menu_item_text;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Id.design_navigation_view = global::KillTeam.Droid.Resource.Id.design_navigation_view;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Id.disableHome = global::KillTeam.Droid.Resource.Id.disableHome;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Id.edit_query = global::KillTeam.Droid.Resource.Id.edit_query;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Id.end = global::KillTeam.Droid.Resource.Id.end;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Id.end_padder = global::KillTeam.Droid.Resource.Id.end_padder;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Id.enterAlways = global::KillTeam.Droid.Resource.Id.enterAlways;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Id.enterAlwaysCollapsed = global::KillTeam.Droid.Resource.Id.enterAlwaysCollapsed;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Id.exitUntilCollapsed = global::KillTeam.Droid.Resource.Id.exitUntilCollapsed;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Id.expanded_menu = global::KillTeam.Droid.Resource.Id.expanded_menu;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Id.expand_activities_button = global::KillTeam.Droid.Resource.Id.expand_activities_button;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Id.fill = global::KillTeam.Droid.Resource.Id.fill;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Id.fill_horizontal = global::KillTeam.Droid.Resource.Id.fill_horizontal;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Id.fill_vertical = global::KillTeam.Droid.Resource.Id.fill_vertical;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Id.@fixed = global::KillTeam.Droid.Resource.Id.@fixed;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Id.forever = global::KillTeam.Droid.Resource.Id.forever;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Id.FUNCTION = global::KillTeam.Droid.Resource.Id.FUNCTION;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Id.ghost_view = global::KillTeam.Droid.Resource.Id.ghost_view;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Id.home = global::KillTeam.Droid.Resource.Id.home;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Id.homeAsUp = global::KillTeam.Droid.Resource.Id.homeAsUp;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Id.icon = global::KillTeam.Droid.Resource.Id.icon;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Id.icon_group = global::KillTeam.Droid.Resource.Id.icon_group;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Id.ifRoom = global::KillTeam.Droid.Resource.Id.ifRoom;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Id.image = global::KillTeam.Droid.Resource.Id.image;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Id.info = global::KillTeam.Droid.Resource.Id.info;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Id.italic = global::KillTeam.Droid.Resource.Id.italic;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Id.item_touch_helper_previous_elevation = global::KillTeam.Droid.Resource.Id.item_touch_helper_previous_elevation;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Id.largeLabel = global::KillTeam.Droid.Resource.Id.largeLabel;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Id.left = global::KillTeam.Droid.Resource.Id.left;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Id.line1 = global::KillTeam.Droid.Resource.Id.line1;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Id.line3 = global::KillTeam.Droid.Resource.Id.line3;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Id.listMode = global::KillTeam.Droid.Resource.Id.listMode;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Id.list_item = global::KillTeam.Droid.Resource.Id.list_item;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Id.masked = global::KillTeam.Droid.Resource.Id.masked;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Id.media_actions = global::KillTeam.Droid.Resource.Id.media_actions;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Id.message = global::KillTeam.Droid.Resource.Id.message;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Id.META = global::KillTeam.Droid.Resource.Id.META;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Id.middle = global::KillTeam.Droid.Resource.Id.middle;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Id.mini = global::KillTeam.Droid.Resource.Id.mini;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Id.mr_art = global::KillTeam.Droid.Resource.Id.mr_art;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Id.mr_chooser_list = global::KillTeam.Droid.Resource.Id.mr_chooser_list;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Id.mr_chooser_route_desc = global::KillTeam.Droid.Resource.Id.mr_chooser_route_desc;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Id.mr_chooser_route_icon = global::KillTeam.Droid.Resource.Id.mr_chooser_route_icon;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Id.mr_chooser_route_name = global::KillTeam.Droid.Resource.Id.mr_chooser_route_name;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Id.mr_chooser_title = global::KillTeam.Droid.Resource.Id.mr_chooser_title;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Id.mr_close = global::KillTeam.Droid.Resource.Id.mr_close;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Id.mr_control_divider = global::KillTeam.Droid.Resource.Id.mr_control_divider;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Id.mr_control_playback_ctrl = global::KillTeam.Droid.Resource.Id.mr_control_playback_ctrl;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Id.mr_control_subtitle = global::KillTeam.Droid.Resource.Id.mr_control_subtitle;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Id.mr_control_title = global::KillTeam.Droid.Resource.Id.mr_control_title;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Id.mr_control_title_container = global::KillTeam.Droid.Resource.Id.mr_control_title_container;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Id.mr_custom_control = global::KillTeam.Droid.Resource.Id.mr_custom_control;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Id.mr_default_control = global::KillTeam.Droid.Resource.Id.mr_default_control;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Id.mr_dialog_area = global::KillTeam.Droid.Resource.Id.mr_dialog_area;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Id.mr_expandable_area = global::KillTeam.Droid.Resource.Id.mr_expandable_area;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Id.mr_group_expand_collapse = global::KillTeam.Droid.Resource.Id.mr_group_expand_collapse;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Id.mr_media_main_control = global::KillTeam.Droid.Resource.Id.mr_media_main_control;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Id.mr_name = global::KillTeam.Droid.Resource.Id.mr_name;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Id.mr_playback_control = global::KillTeam.Droid.Resource.Id.mr_playback_control;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Id.mr_title_bar = global::KillTeam.Droid.Resource.Id.mr_title_bar;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Id.mr_volume_control = global::KillTeam.Droid.Resource.Id.mr_volume_control;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Id.mr_volume_group_list = global::KillTeam.Droid.Resource.Id.mr_volume_group_list;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Id.mr_volume_item_icon = global::KillTeam.Droid.Resource.Id.mr_volume_item_icon;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Id.mr_volume_slider = global::KillTeam.Droid.Resource.Id.mr_volume_slider;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Id.multiply = global::KillTeam.Droid.Resource.Id.multiply;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Id.navigation_header_container = global::KillTeam.Droid.Resource.Id.navigation_header_container;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Id.never = global::KillTeam.Droid.Resource.Id.never;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Id.none = global::KillTeam.Droid.Resource.Id.none;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Id.normal = global::KillTeam.Droid.Resource.Id.normal;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Id.notification_background = global::KillTeam.Droid.Resource.Id.notification_background;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Id.notification_main_column = global::KillTeam.Droid.Resource.Id.notification_main_column;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Id.notification_main_column_container = global::KillTeam.Droid.Resource.Id.notification_main_column_container;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Id.parallax = global::KillTeam.Droid.Resource.Id.parallax;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Id.parentPanel = global::KillTeam.Droid.Resource.Id.parentPanel;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Id.parent_matrix = global::KillTeam.Droid.Resource.Id.parent_matrix;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Id.pin = global::KillTeam.Droid.Resource.Id.pin;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Id.progress_circular = global::KillTeam.Droid.Resource.Id.progress_circular;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Id.progress_horizontal = global::KillTeam.Droid.Resource.Id.progress_horizontal;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Id.radio = global::KillTeam.Droid.Resource.Id.radio;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Id.right = global::KillTeam.Droid.Resource.Id.right;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Id.right_icon = global::KillTeam.Droid.Resource.Id.right_icon;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Id.right_side = global::KillTeam.Droid.Resource.Id.right_side;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Id.save_non_transition_alpha = global::KillTeam.Droid.Resource.Id.save_non_transition_alpha;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Id.screen = global::KillTeam.Droid.Resource.Id.screen;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Id.scroll = global::KillTeam.Droid.Resource.Id.scroll;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Id.scrollable = global::KillTeam.Droid.Resource.Id.scrollable;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Id.scrollIndicatorDown = global::KillTeam.Droid.Resource.Id.scrollIndicatorDown;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Id.scrollIndicatorUp = global::KillTeam.Droid.Resource.Id.scrollIndicatorUp;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Id.scrollView = global::KillTeam.Droid.Resource.Id.scrollView;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Id.search_badge = global::KillTeam.Droid.Resource.Id.search_badge;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Id.search_bar = global::KillTeam.Droid.Resource.Id.search_bar;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Id.search_button = global::KillTeam.Droid.Resource.Id.search_button;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Id.search_close_btn = global::KillTeam.Droid.Resource.Id.search_close_btn;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Id.search_edit_frame = global::KillTeam.Droid.Resource.Id.search_edit_frame;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Id.search_go_btn = global::KillTeam.Droid.Resource.Id.search_go_btn;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Id.search_mag_icon = global::KillTeam.Droid.Resource.Id.search_mag_icon;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Id.search_plate = global::KillTeam.Droid.Resource.Id.search_plate;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Id.search_src_text = global::KillTeam.Droid.Resource.Id.search_src_text;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Id.search_voice_btn = global::KillTeam.Droid.Resource.Id.search_voice_btn;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Id.select_dialog_listview = global::KillTeam.Droid.Resource.Id.select_dialog_listview;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Id.SHIFT = global::KillTeam.Droid.Resource.Id.SHIFT;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Id.shortcut = global::KillTeam.Droid.Resource.Id.shortcut;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Id.showCustom = global::KillTeam.Droid.Resource.Id.showCustom;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Id.showHome = global::KillTeam.Droid.Resource.Id.showHome;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Id.showTitle = global::KillTeam.Droid.Resource.Id.showTitle;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Id.smallLabel = global::KillTeam.Droid.Resource.Id.smallLabel;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Id.snackbar_action = global::KillTeam.Droid.Resource.Id.snackbar_action;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Id.snackbar_text = global::KillTeam.Droid.Resource.Id.snackbar_text;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Id.snap = global::KillTeam.Droid.Resource.Id.snap;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Id.spacer = global::KillTeam.Droid.Resource.Id.spacer;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Id.split_action_bar = global::KillTeam.Droid.Resource.Id.split_action_bar;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Id.src_atop = global::KillTeam.Droid.Resource.Id.src_atop;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Id.src_in = global::KillTeam.Droid.Resource.Id.src_in;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Id.src_over = global::KillTeam.Droid.Resource.Id.src_over;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Id.start = global::KillTeam.Droid.Resource.Id.start;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Id.status_bar_latest_event_content = global::KillTeam.Droid.Resource.Id.status_bar_latest_event_content;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Id.submenuarrow = global::KillTeam.Droid.Resource.Id.submenuarrow;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Id.submit_area = global::KillTeam.Droid.Resource.Id.submit_area;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Id.SYM = global::KillTeam.Droid.Resource.Id.SYM;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Id.tabMode = global::KillTeam.Droid.Resource.Id.tabMode;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Id.tag_transition_group = global::KillTeam.Droid.Resource.Id.tag_transition_group;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Id.text = global::KillTeam.Droid.Resource.Id.text;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Id.text2 = global::KillTeam.Droid.Resource.Id.text2;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Id.textinput_counter = global::KillTeam.Droid.Resource.Id.textinput_counter;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Id.textinput_error = global::KillTeam.Droid.Resource.Id.textinput_error;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Id.textSpacerNoButtons = global::KillTeam.Droid.Resource.Id.textSpacerNoButtons;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Id.textSpacerNoTitle = global::KillTeam.Droid.Resource.Id.textSpacerNoTitle;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Id.text_input_password_toggle = global::KillTeam.Droid.Resource.Id.text_input_password_toggle;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Id.time = global::KillTeam.Droid.Resource.Id.time;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Id.title = global::KillTeam.Droid.Resource.Id.title;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Id.titleDividerNoCustom = global::KillTeam.Droid.Resource.Id.titleDividerNoCustom;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Id.title_template = global::KillTeam.Droid.Resource.Id.title_template;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Id.top = global::KillTeam.Droid.Resource.Id.top;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Id.topPanel = global::KillTeam.Droid.Resource.Id.topPanel;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Id.touch_outside = global::KillTeam.Droid.Resource.Id.touch_outside;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Id.transition_current_scene = global::KillTeam.Droid.Resource.Id.transition_current_scene;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Id.transition_layout_save = global::KillTeam.Droid.Resource.Id.transition_layout_save;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Id.transition_position = global::KillTeam.Droid.Resource.Id.transition_position;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Id.transition_scene_layoutid_cache = global::KillTeam.Droid.Resource.Id.transition_scene_layoutid_cache;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Id.transition_transform = global::KillTeam.Droid.Resource.Id.transition_transform;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Id.uniform = global::KillTeam.Droid.Resource.Id.uniform;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Id.up = global::KillTeam.Droid.Resource.Id.up;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Id.useLogo = global::KillTeam.Droid.Resource.Id.useLogo;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Id.view_offset_helper = global::KillTeam.Droid.Resource.Id.view_offset_helper;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Id.visible = global::KillTeam.Droid.Resource.Id.visible;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Id.volume_item_container = global::KillTeam.Droid.Resource.Id.volume_item_container;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Id.withText = global::KillTeam.Droid.Resource.Id.withText;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Id.wrap_content = global::KillTeam.Droid.Resource.Id.wrap_content;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Integer.abc_config_activityDefaultDur = global::KillTeam.Droid.Resource.Integer.abc_config_activityDefaultDur;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Integer.abc_config_activityShortDur = global::KillTeam.Droid.Resource.Integer.abc_config_activityShortDur;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Integer.app_bar_elevation_anim_duration = global::KillTeam.Droid.Resource.Integer.app_bar_elevation_anim_duration;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Integer.bottom_sheet_slide_duration = global::KillTeam.Droid.Resource.Integer.bottom_sheet_slide_duration;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Integer.cancel_button_image_alpha = global::KillTeam.Droid.Resource.Integer.cancel_button_image_alpha;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Integer.config_tooltipAnimTime = global::KillTeam.Droid.Resource.Integer.config_tooltipAnimTime;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Integer.design_snackbar_text_max_lines = global::KillTeam.Droid.Resource.Integer.design_snackbar_text_max_lines;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Integer.hide_password_duration = global::KillTeam.Droid.Resource.Integer.hide_password_duration;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Integer.mr_controller_volume_group_list_animation_duration_ms = global::KillTeam.Droid.Resource.Integer.mr_controller_volume_group_list_animation_duration_ms;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Integer.mr_controller_volume_group_list_fade_in_duration_ms = global::KillTeam.Droid.Resource.Integer.mr_controller_volume_group_list_fade_in_duration_ms;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Integer.mr_controller_volume_group_list_fade_out_duration_ms = global::KillTeam.Droid.Resource.Integer.mr_controller_volume_group_list_fade_out_duration_ms;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Integer.show_password_duration = global::KillTeam.Droid.Resource.Integer.show_password_duration;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Integer.status_bar_notification_info_maxnum = global::KillTeam.Droid.Resource.Integer.status_bar_notification_info_maxnum;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Interpolator.mr_fast_out_slow_in = global::KillTeam.Droid.Resource.Interpolator.mr_fast_out_slow_in;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Interpolator.mr_linear_out_slow_in = global::KillTeam.Droid.Resource.Interpolator.mr_linear_out_slow_in;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Layout.abc_action_bar_title_item = global::KillTeam.Droid.Resource.Layout.abc_action_bar_title_item;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Layout.abc_action_bar_up_container = global::KillTeam.Droid.Resource.Layout.abc_action_bar_up_container;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Layout.abc_action_menu_item_layout = global::KillTeam.Droid.Resource.Layout.abc_action_menu_item_layout;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Layout.abc_action_menu_layout = global::KillTeam.Droid.Resource.Layout.abc_action_menu_layout;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Layout.abc_action_mode_bar = global::KillTeam.Droid.Resource.Layout.abc_action_mode_bar;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Layout.abc_action_mode_close_item_material = global::KillTeam.Droid.Resource.Layout.abc_action_mode_close_item_material;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Layout.abc_activity_chooser_view = global::KillTeam.Droid.Resource.Layout.abc_activity_chooser_view;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Layout.abc_activity_chooser_view_list_item = global::KillTeam.Droid.Resource.Layout.abc_activity_chooser_view_list_item;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Layout.abc_alert_dialog_button_bar_material = global::KillTeam.Droid.Resource.Layout.abc_alert_dialog_button_bar_material;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Layout.abc_alert_dialog_material = global::KillTeam.Droid.Resource.Layout.abc_alert_dialog_material;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Layout.abc_alert_dialog_title_material = global::KillTeam.Droid.Resource.Layout.abc_alert_dialog_title_material;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Layout.abc_dialog_title_material = global::KillTeam.Droid.Resource.Layout.abc_dialog_title_material;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Layout.abc_expanded_menu_layout = global::KillTeam.Droid.Resource.Layout.abc_expanded_menu_layout;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Layout.abc_list_menu_item_checkbox = global::KillTeam.Droid.Resource.Layout.abc_list_menu_item_checkbox;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Layout.abc_list_menu_item_icon = global::KillTeam.Droid.Resource.Layout.abc_list_menu_item_icon;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Layout.abc_list_menu_item_layout = global::KillTeam.Droid.Resource.Layout.abc_list_menu_item_layout;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Layout.abc_list_menu_item_radio = global::KillTeam.Droid.Resource.Layout.abc_list_menu_item_radio;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Layout.abc_popup_menu_header_item_layout = global::KillTeam.Droid.Resource.Layout.abc_popup_menu_header_item_layout;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Layout.abc_popup_menu_item_layout = global::KillTeam.Droid.Resource.Layout.abc_popup_menu_item_layout;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Layout.abc_screen_content_include = global::KillTeam.Droid.Resource.Layout.abc_screen_content_include;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Layout.abc_screen_simple = global::KillTeam.Droid.Resource.Layout.abc_screen_simple;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Layout.abc_screen_simple_overlay_action_mode = global::KillTeam.Droid.Resource.Layout.abc_screen_simple_overlay_action_mode;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Layout.abc_screen_toolbar = global::KillTeam.Droid.Resource.Layout.abc_screen_toolbar;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Layout.abc_search_dropdown_item_icons_2line = global::KillTeam.Droid.Resource.Layout.abc_search_dropdown_item_icons_2line;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Layout.abc_search_view = global::KillTeam.Droid.Resource.Layout.abc_search_view;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Layout.abc_select_dialog_material = global::KillTeam.Droid.Resource.Layout.abc_select_dialog_material;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Layout.design_bottom_navigation_item = global::KillTeam.Droid.Resource.Layout.design_bottom_navigation_item;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Layout.design_bottom_sheet_dialog = global::KillTeam.Droid.Resource.Layout.design_bottom_sheet_dialog;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Layout.design_layout_snackbar = global::KillTeam.Droid.Resource.Layout.design_layout_snackbar;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Layout.design_layout_snackbar_include = global::KillTeam.Droid.Resource.Layout.design_layout_snackbar_include;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Layout.design_layout_tab_icon = global::KillTeam.Droid.Resource.Layout.design_layout_tab_icon;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Layout.design_layout_tab_text = global::KillTeam.Droid.Resource.Layout.design_layout_tab_text;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Layout.design_menu_item_action_area = global::KillTeam.Droid.Resource.Layout.design_menu_item_action_area;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Layout.design_navigation_item = global::KillTeam.Droid.Resource.Layout.design_navigation_item;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Layout.design_navigation_item_header = global::KillTeam.Droid.Resource.Layout.design_navigation_item_header;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Layout.design_navigation_item_separator = global::KillTeam.Droid.Resource.Layout.design_navigation_item_separator;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Layout.design_navigation_item_subheader = global::KillTeam.Droid.Resource.Layout.design_navigation_item_subheader;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Layout.design_navigation_menu = global::KillTeam.Droid.Resource.Layout.design_navigation_menu;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Layout.design_navigation_menu_item = global::KillTeam.Droid.Resource.Layout.design_navigation_menu_item;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Layout.design_text_input_password_icon = global::KillTeam.Droid.Resource.Layout.design_text_input_password_icon;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Layout.mr_chooser_dialog = global::KillTeam.Droid.Resource.Layout.mr_chooser_dialog;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Layout.mr_chooser_list_item = global::KillTeam.Droid.Resource.Layout.mr_chooser_list_item;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Layout.mr_controller_material_dialog_b = global::KillTeam.Droid.Resource.Layout.mr_controller_material_dialog_b;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Layout.mr_controller_volume_item = global::KillTeam.Droid.Resource.Layout.mr_controller_volume_item;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Layout.mr_playback_control = global::KillTeam.Droid.Resource.Layout.mr_playback_control;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Layout.mr_volume_control = global::KillTeam.Droid.Resource.Layout.mr_volume_control;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Layout.notification_action = global::KillTeam.Droid.Resource.Layout.notification_action;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Layout.notification_action_tombstone = global::KillTeam.Droid.Resource.Layout.notification_action_tombstone;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Layout.notification_media_action = global::KillTeam.Droid.Resource.Layout.notification_media_action;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Layout.notification_media_cancel_action = global::KillTeam.Droid.Resource.Layout.notification_media_cancel_action;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Layout.notification_template_big_media = global::KillTeam.Droid.Resource.Layout.notification_template_big_media;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Layout.notification_template_big_media_custom = global::KillTeam.Droid.Resource.Layout.notification_template_big_media_custom;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Layout.notification_template_big_media_narrow = global::KillTeam.Droid.Resource.Layout.notification_template_big_media_narrow;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Layout.notification_template_big_media_narrow_custom = global::KillTeam.Droid.Resource.Layout.notification_template_big_media_narrow_custom;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Layout.notification_template_custom_big = global::KillTeam.Droid.Resource.Layout.notification_template_custom_big;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Layout.notification_template_icon_group = global::KillTeam.Droid.Resource.Layout.notification_template_icon_group;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Layout.notification_template_lines_media = global::KillTeam.Droid.Resource.Layout.notification_template_lines_media;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Layout.notification_template_media = global::KillTeam.Droid.Resource.Layout.notification_template_media;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Layout.notification_template_media_custom = global::KillTeam.Droid.Resource.Layout.notification_template_media_custom;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Layout.notification_template_part_chronometer = global::KillTeam.Droid.Resource.Layout.notification_template_part_chronometer;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Layout.notification_template_part_time = global::KillTeam.Droid.Resource.Layout.notification_template_part_time;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Layout.select_dialog_item_material = global::KillTeam.Droid.Resource.Layout.select_dialog_item_material;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Layout.select_dialog_multichoice_material = global::KillTeam.Droid.Resource.Layout.select_dialog_multichoice_material;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Layout.select_dialog_singlechoice_material = global::KillTeam.Droid.Resource.Layout.select_dialog_singlechoice_material;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Layout.support_simple_spinner_dropdown_item = global::KillTeam.Droid.Resource.Layout.support_simple_spinner_dropdown_item;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.String.abc_action_bar_home_description = global::KillTeam.Droid.Resource.String.abc_action_bar_home_description;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.String.abc_action_bar_up_description = global::KillTeam.Droid.Resource.String.abc_action_bar_up_description;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.String.abc_action_menu_overflow_description = global::KillTeam.Droid.Resource.String.abc_action_menu_overflow_description;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.String.abc_action_mode_done = global::KillTeam.Droid.Resource.String.abc_action_mode_done;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.String.abc_activitychooserview_choose_application = global::KillTeam.Droid.Resource.String.abc_activitychooserview_choose_application;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.String.abc_activity_chooser_view_see_all = global::KillTeam.Droid.Resource.String.abc_activity_chooser_view_see_all;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.String.abc_capital_off = global::KillTeam.Droid.Resource.String.abc_capital_off;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.String.abc_capital_on = global::KillTeam.Droid.Resource.String.abc_capital_on;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.String.abc_searchview_description_clear = global::KillTeam.Droid.Resource.String.abc_searchview_description_clear;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.String.abc_searchview_description_query = global::KillTeam.Droid.Resource.String.abc_searchview_description_query;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.String.abc_searchview_description_search = global::KillTeam.Droid.Resource.String.abc_searchview_description_search;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.String.abc_searchview_description_submit = global::KillTeam.Droid.Resource.String.abc_searchview_description_submit;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.String.abc_searchview_description_voice = global::KillTeam.Droid.Resource.String.abc_searchview_description_voice;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.String.abc_search_hint = global::KillTeam.Droid.Resource.String.abc_search_hint;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.String.abc_shareactionprovider_share_with = global::KillTeam.Droid.Resource.String.abc_shareactionprovider_share_with;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.String.abc_shareactionprovider_share_with_application = global::KillTeam.Droid.Resource.String.abc_shareactionprovider_share_with_application;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.String.abc_toolbar_collapse_description = global::KillTeam.Droid.Resource.String.abc_toolbar_collapse_description;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.String.appbar_scrolling_view_behavior = global::KillTeam.Droid.Resource.String.appbar_scrolling_view_behavior;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.String.app_name = global::KillTeam.Droid.Resource.String.app_name;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.String.bottom_sheet_behavior = global::KillTeam.Droid.Resource.String.bottom_sheet_behavior;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.String.character_counter_pattern = global::KillTeam.Droid.Resource.String.character_counter_pattern;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.String.hello = global::KillTeam.Droid.Resource.String.hello;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.String.mr_button_content_description = global::KillTeam.Droid.Resource.String.mr_button_content_description;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.String.mr_cast_button_connected = global::KillTeam.Droid.Resource.String.mr_cast_button_connected;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.String.mr_cast_button_connecting = global::KillTeam.Droid.Resource.String.mr_cast_button_connecting;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.String.mr_cast_button_disconnected = global::KillTeam.Droid.Resource.String.mr_cast_button_disconnected;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.String.mr_chooser_searching = global::KillTeam.Droid.Resource.String.mr_chooser_searching;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.String.mr_chooser_title = global::KillTeam.Droid.Resource.String.mr_chooser_title;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.String.mr_controller_album_art = global::KillTeam.Droid.Resource.String.mr_controller_album_art;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.String.mr_controller_casting_screen = global::KillTeam.Droid.Resource.String.mr_controller_casting_screen;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.String.mr_controller_close_description = global::KillTeam.Droid.Resource.String.mr_controller_close_description;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.String.mr_controller_collapse_group = global::KillTeam.Droid.Resource.String.mr_controller_collapse_group;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.String.mr_controller_disconnect = global::KillTeam.Droid.Resource.String.mr_controller_disconnect;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.String.mr_controller_expand_group = global::KillTeam.Droid.Resource.String.mr_controller_expand_group;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.String.mr_controller_no_info_available = global::KillTeam.Droid.Resource.String.mr_controller_no_info_available;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.String.mr_controller_no_media_selected = global::KillTeam.Droid.Resource.String.mr_controller_no_media_selected;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.String.mr_controller_pause = global::KillTeam.Droid.Resource.String.mr_controller_pause;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.String.mr_controller_play = global::KillTeam.Droid.Resource.String.mr_controller_play;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.String.mr_controller_stop = global::KillTeam.Droid.Resource.String.mr_controller_stop;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.String.mr_controller_stop_casting = global::KillTeam.Droid.Resource.String.mr_controller_stop_casting;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.String.mr_controller_volume_slider = global::KillTeam.Droid.Resource.String.mr_controller_volume_slider;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.String.mr_system_route_name = global::KillTeam.Droid.Resource.String.mr_system_route_name;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.String.mr_user_route_category_name = global::KillTeam.Droid.Resource.String.mr_user_route_category_name;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.String.password_toggle_content_description = global::KillTeam.Droid.Resource.String.password_toggle_content_description;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.String.path_password_eye = global::KillTeam.Droid.Resource.String.path_password_eye;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.String.path_password_eye_mask_strike_through = global::KillTeam.Droid.Resource.String.path_password_eye_mask_strike_through;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.String.path_password_eye_mask_visible = global::KillTeam.Droid.Resource.String.path_password_eye_mask_visible;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.String.path_password_strike_through = global::KillTeam.Droid.Resource.String.path_password_strike_through;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.String.search_menu_title = global::KillTeam.Droid.Resource.String.search_menu_title;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.String.status_bar_notification_info_overflow = global::KillTeam.Droid.Resource.String.status_bar_notification_info_overflow;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.AlertDialog_AppCompat = global::KillTeam.Droid.Resource.Style.AlertDialog_AppCompat;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.AlertDialog_AppCompat_Light = global::KillTeam.Droid.Resource.Style.AlertDialog_AppCompat_Light;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Animation_AppCompat_Dialog = global::KillTeam.Droid.Resource.Style.Animation_AppCompat_Dialog;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Animation_AppCompat_DropDownUp = global::KillTeam.Droid.Resource.Style.Animation_AppCompat_DropDownUp;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Animation_AppCompat_Tooltip = global::KillTeam.Droid.Resource.Style.Animation_AppCompat_Tooltip;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Animation_Design_BottomSheetDialog = global::KillTeam.Droid.Resource.Style.Animation_Design_BottomSheetDialog;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Base_AlertDialog_AppCompat = global::KillTeam.Droid.Resource.Style.Base_AlertDialog_AppCompat;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Base_AlertDialog_AppCompat_Light = global::KillTeam.Droid.Resource.Style.Base_AlertDialog_AppCompat_Light;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Base_Animation_AppCompat_Dialog = global::KillTeam.Droid.Resource.Style.Base_Animation_AppCompat_Dialog;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Base_Animation_AppCompat_DropDownUp = global::KillTeam.Droid.Resource.Style.Base_Animation_AppCompat_DropDownUp;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Base_Animation_AppCompat_Tooltip = global::KillTeam.Droid.Resource.Style.Base_Animation_AppCompat_Tooltip;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Base_CardView = global::KillTeam.Droid.Resource.Style.Base_CardView;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Base_DialogWindowTitleBackground_AppCompat = global::KillTeam.Droid.Resource.Style.Base_DialogWindowTitleBackground_AppCompat;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Base_DialogWindowTitle_AppCompat = global::KillTeam.Droid.Resource.Style.Base_DialogWindowTitle_AppCompat;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Base_TextAppearance_AppCompat = global::KillTeam.Droid.Resource.Style.Base_TextAppearance_AppCompat;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Base_TextAppearance_AppCompat_Body1 = global::KillTeam.Droid.Resource.Style.Base_TextAppearance_AppCompat_Body1;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Base_TextAppearance_AppCompat_Body2 = global::KillTeam.Droid.Resource.Style.Base_TextAppearance_AppCompat_Body2;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Base_TextAppearance_AppCompat_Button = global::KillTeam.Droid.Resource.Style.Base_TextAppearance_AppCompat_Button;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Base_TextAppearance_AppCompat_Caption = global::KillTeam.Droid.Resource.Style.Base_TextAppearance_AppCompat_Caption;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Base_TextAppearance_AppCompat_Display1 = global::KillTeam.Droid.Resource.Style.Base_TextAppearance_AppCompat_Display1;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Base_TextAppearance_AppCompat_Display2 = global::KillTeam.Droid.Resource.Style.Base_TextAppearance_AppCompat_Display2;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Base_TextAppearance_AppCompat_Display3 = global::KillTeam.Droid.Resource.Style.Base_TextAppearance_AppCompat_Display3;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Base_TextAppearance_AppCompat_Display4 = global::KillTeam.Droid.Resource.Style.Base_TextAppearance_AppCompat_Display4;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Base_TextAppearance_AppCompat_Headline = global::KillTeam.Droid.Resource.Style.Base_TextAppearance_AppCompat_Headline;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Base_TextAppearance_AppCompat_Inverse = global::KillTeam.Droid.Resource.Style.Base_TextAppearance_AppCompat_Inverse;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Base_TextAppearance_AppCompat_Large = global::KillTeam.Droid.Resource.Style.Base_TextAppearance_AppCompat_Large;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Base_TextAppearance_AppCompat_Large_Inverse = global::KillTeam.Droid.Resource.Style.Base_TextAppearance_AppCompat_Large_Inverse;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Base_TextAppearance_AppCompat_Light_Widget_PopupMenu_Large = global::KillTeam.Droid.Resource.Style.Base_TextAppearance_AppCompat_Light_Widget_PopupMenu_Large;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Base_TextAppearance_AppCompat_Light_Widget_PopupMenu_Small = global::KillTeam.Droid.Resource.Style.Base_TextAppearance_AppCompat_Light_Widget_PopupMenu_Small;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Base_TextAppearance_AppCompat_Medium = global::KillTeam.Droid.Resource.Style.Base_TextAppearance_AppCompat_Medium;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Base_TextAppearance_AppCompat_Medium_Inverse = global::KillTeam.Droid.Resource.Style.Base_TextAppearance_AppCompat_Medium_Inverse;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Base_TextAppearance_AppCompat_Menu = global::KillTeam.Droid.Resource.Style.Base_TextAppearance_AppCompat_Menu;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Base_TextAppearance_AppCompat_SearchResult = global::KillTeam.Droid.Resource.Style.Base_TextAppearance_AppCompat_SearchResult;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Base_TextAppearance_AppCompat_SearchResult_Subtitle = global::KillTeam.Droid.Resource.Style.Base_TextAppearance_AppCompat_SearchResult_Subtitle;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Base_TextAppearance_AppCompat_SearchResult_Title = global::KillTeam.Droid.Resource.Style.Base_TextAppearance_AppCompat_SearchResult_Title;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Base_TextAppearance_AppCompat_Small = global::KillTeam.Droid.Resource.Style.Base_TextAppearance_AppCompat_Small;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Base_TextAppearance_AppCompat_Small_Inverse = global::KillTeam.Droid.Resource.Style.Base_TextAppearance_AppCompat_Small_Inverse;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Base_TextAppearance_AppCompat_Subhead = global::KillTeam.Droid.Resource.Style.Base_TextAppearance_AppCompat_Subhead;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Base_TextAppearance_AppCompat_Subhead_Inverse = global::KillTeam.Droid.Resource.Style.Base_TextAppearance_AppCompat_Subhead_Inverse;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Base_TextAppearance_AppCompat_Title = global::KillTeam.Droid.Resource.Style.Base_TextAppearance_AppCompat_Title;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Base_TextAppearance_AppCompat_Title_Inverse = global::KillTeam.Droid.Resource.Style.Base_TextAppearance_AppCompat_Title_Inverse;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Base_TextAppearance_AppCompat_Tooltip = global::KillTeam.Droid.Resource.Style.Base_TextAppearance_AppCompat_Tooltip;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Menu = global::KillTeam.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Menu;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Subtitle = global::KillTeam.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Subtitle;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Subtitle_Inverse = global::KillTeam.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Subtitle_Inverse;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Title = global::KillTeam.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Title;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Title_Inverse = global::KillTeam.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Title_Inverse;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionMode_Subtitle = global::KillTeam.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionMode_Subtitle;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionMode_Title = global::KillTeam.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionMode_Title;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button = global::KillTeam.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button_Borderless_Colored = global::KillTeam.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button_Borderless_Colored;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button_Colored = global::KillTeam.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button_Colored;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button_Inverse = global::KillTeam.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button_Inverse;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_DropDownItem = global::KillTeam.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_DropDownItem;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Header = global::KillTeam.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Header;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Large = global::KillTeam.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Large;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Small = global::KillTeam.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Small;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_Switch = global::KillTeam.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_Switch;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_TextView_SpinnerItem = global::KillTeam.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_TextView_SpinnerItem;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Base_TextAppearance_Widget_AppCompat_ExpandedMenu_Item = global::KillTeam.Droid.Resource.Style.Base_TextAppearance_Widget_AppCompat_ExpandedMenu_Item;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Base_TextAppearance_Widget_AppCompat_Toolbar_Subtitle = global::KillTeam.Droid.Resource.Style.Base_TextAppearance_Widget_AppCompat_Toolbar_Subtitle;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Base_TextAppearance_Widget_AppCompat_Toolbar_Title = global::KillTeam.Droid.Resource.Style.Base_TextAppearance_Widget_AppCompat_Toolbar_Title;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Base_ThemeOverlay_AppCompat = global::KillTeam.Droid.Resource.Style.Base_ThemeOverlay_AppCompat;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_ActionBar = global::KillTeam.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_ActionBar;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_Dark = global::KillTeam.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_Dark;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_Dark_ActionBar = global::KillTeam.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_Dark_ActionBar;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_Dialog = global::KillTeam.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_Dialog;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_Dialog_Alert = global::KillTeam.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_Dialog_Alert;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_Light = global::KillTeam.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_Light;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Base_Theme_AppCompat = global::KillTeam.Droid.Resource.Style.Base_Theme_AppCompat;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Base_Theme_AppCompat_CompactMenu = global::KillTeam.Droid.Resource.Style.Base_Theme_AppCompat_CompactMenu;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Base_Theme_AppCompat_Dialog = global::KillTeam.Droid.Resource.Style.Base_Theme_AppCompat_Dialog;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Base_Theme_AppCompat_DialogWhenLarge = global::KillTeam.Droid.Resource.Style.Base_Theme_AppCompat_DialogWhenLarge;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Base_Theme_AppCompat_Dialog_Alert = global::KillTeam.Droid.Resource.Style.Base_Theme_AppCompat_Dialog_Alert;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Base_Theme_AppCompat_Dialog_FixedSize = global::KillTeam.Droid.Resource.Style.Base_Theme_AppCompat_Dialog_FixedSize;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Base_Theme_AppCompat_Dialog_MinWidth = global::KillTeam.Droid.Resource.Style.Base_Theme_AppCompat_Dialog_MinWidth;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Base_Theme_AppCompat_Light = global::KillTeam.Droid.Resource.Style.Base_Theme_AppCompat_Light;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Base_Theme_AppCompat_Light_DarkActionBar = global::KillTeam.Droid.Resource.Style.Base_Theme_AppCompat_Light_DarkActionBar;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Base_Theme_AppCompat_Light_Dialog = global::KillTeam.Droid.Resource.Style.Base_Theme_AppCompat_Light_Dialog;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Base_Theme_AppCompat_Light_DialogWhenLarge = global::KillTeam.Droid.Resource.Style.Base_Theme_AppCompat_Light_DialogWhenLarge;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Base_Theme_AppCompat_Light_Dialog_Alert = global::KillTeam.Droid.Resource.Style.Base_Theme_AppCompat_Light_Dialog_Alert;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Base_Theme_AppCompat_Light_Dialog_FixedSize = global::KillTeam.Droid.Resource.Style.Base_Theme_AppCompat_Light_Dialog_FixedSize;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Base_Theme_AppCompat_Light_Dialog_MinWidth = global::KillTeam.Droid.Resource.Style.Base_Theme_AppCompat_Light_Dialog_MinWidth;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Base_V21_ThemeOverlay_AppCompat_Dialog = global::KillTeam.Droid.Resource.Style.Base_V21_ThemeOverlay_AppCompat_Dialog;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Base_V21_Theme_AppCompat = global::KillTeam.Droid.Resource.Style.Base_V21_Theme_AppCompat;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Base_V21_Theme_AppCompat_Dialog = global::KillTeam.Droid.Resource.Style.Base_V21_Theme_AppCompat_Dialog;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Base_V21_Theme_AppCompat_Light = global::KillTeam.Droid.Resource.Style.Base_V21_Theme_AppCompat_Light;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Base_V21_Theme_AppCompat_Light_Dialog = global::KillTeam.Droid.Resource.Style.Base_V21_Theme_AppCompat_Light_Dialog;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Base_V22_Theme_AppCompat = global::KillTeam.Droid.Resource.Style.Base_V22_Theme_AppCompat;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Base_V22_Theme_AppCompat_Light = global::KillTeam.Droid.Resource.Style.Base_V22_Theme_AppCompat_Light;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Base_V23_Theme_AppCompat = global::KillTeam.Droid.Resource.Style.Base_V23_Theme_AppCompat;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Base_V23_Theme_AppCompat_Light = global::KillTeam.Droid.Resource.Style.Base_V23_Theme_AppCompat_Light;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Base_V26_Theme_AppCompat = global::KillTeam.Droid.Resource.Style.Base_V26_Theme_AppCompat;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Base_V26_Theme_AppCompat_Light = global::KillTeam.Droid.Resource.Style.Base_V26_Theme_AppCompat_Light;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Base_V26_Widget_AppCompat_Toolbar = global::KillTeam.Droid.Resource.Style.Base_V26_Widget_AppCompat_Toolbar;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Base_V7_ThemeOverlay_AppCompat_Dialog = global::KillTeam.Droid.Resource.Style.Base_V7_ThemeOverlay_AppCompat_Dialog;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Base_V7_Theme_AppCompat = global::KillTeam.Droid.Resource.Style.Base_V7_Theme_AppCompat;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Base_V7_Theme_AppCompat_Dialog = global::KillTeam.Droid.Resource.Style.Base_V7_Theme_AppCompat_Dialog;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Base_V7_Theme_AppCompat_Light = global::KillTeam.Droid.Resource.Style.Base_V7_Theme_AppCompat_Light;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Base_V7_Theme_AppCompat_Light_Dialog = global::KillTeam.Droid.Resource.Style.Base_V7_Theme_AppCompat_Light_Dialog;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Base_V7_Widget_AppCompat_AutoCompleteTextView = global::KillTeam.Droid.Resource.Style.Base_V7_Widget_AppCompat_AutoCompleteTextView;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Base_V7_Widget_AppCompat_EditText = global::KillTeam.Droid.Resource.Style.Base_V7_Widget_AppCompat_EditText;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Base_V7_Widget_AppCompat_Toolbar = global::KillTeam.Droid.Resource.Style.Base_V7_Widget_AppCompat_Toolbar;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Base_Widget_AppCompat_ActionBar = global::KillTeam.Droid.Resource.Style.Base_Widget_AppCompat_ActionBar;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Base_Widget_AppCompat_ActionBar_Solid = global::KillTeam.Droid.Resource.Style.Base_Widget_AppCompat_ActionBar_Solid;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Base_Widget_AppCompat_ActionBar_TabBar = global::KillTeam.Droid.Resource.Style.Base_Widget_AppCompat_ActionBar_TabBar;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Base_Widget_AppCompat_ActionBar_TabText = global::KillTeam.Droid.Resource.Style.Base_Widget_AppCompat_ActionBar_TabText;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Base_Widget_AppCompat_ActionBar_TabView = global::KillTeam.Droid.Resource.Style.Base_Widget_AppCompat_ActionBar_TabView;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Base_Widget_AppCompat_ActionButton = global::KillTeam.Droid.Resource.Style.Base_Widget_AppCompat_ActionButton;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Base_Widget_AppCompat_ActionButton_CloseMode = global::KillTeam.Droid.Resource.Style.Base_Widget_AppCompat_ActionButton_CloseMode;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Base_Widget_AppCompat_ActionButton_Overflow = global::KillTeam.Droid.Resource.Style.Base_Widget_AppCompat_ActionButton_Overflow;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Base_Widget_AppCompat_ActionMode = global::KillTeam.Droid.Resource.Style.Base_Widget_AppCompat_ActionMode;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Base_Widget_AppCompat_ActivityChooserView = global::KillTeam.Droid.Resource.Style.Base_Widget_AppCompat_ActivityChooserView;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Base_Widget_AppCompat_AutoCompleteTextView = global::KillTeam.Droid.Resource.Style.Base_Widget_AppCompat_AutoCompleteTextView;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Base_Widget_AppCompat_Button = global::KillTeam.Droid.Resource.Style.Base_Widget_AppCompat_Button;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Base_Widget_AppCompat_ButtonBar = global::KillTeam.Droid.Resource.Style.Base_Widget_AppCompat_ButtonBar;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Base_Widget_AppCompat_ButtonBar_AlertDialog = global::KillTeam.Droid.Resource.Style.Base_Widget_AppCompat_ButtonBar_AlertDialog;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Base_Widget_AppCompat_Button_Borderless = global::KillTeam.Droid.Resource.Style.Base_Widget_AppCompat_Button_Borderless;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Base_Widget_AppCompat_Button_Borderless_Colored = global::KillTeam.Droid.Resource.Style.Base_Widget_AppCompat_Button_Borderless_Colored;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Base_Widget_AppCompat_Button_ButtonBar_AlertDialog = global::KillTeam.Droid.Resource.Style.Base_Widget_AppCompat_Button_ButtonBar_AlertDialog;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Base_Widget_AppCompat_Button_Colored = global::KillTeam.Droid.Resource.Style.Base_Widget_AppCompat_Button_Colored;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Base_Widget_AppCompat_Button_Small = global::KillTeam.Droid.Resource.Style.Base_Widget_AppCompat_Button_Small;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Base_Widget_AppCompat_CompoundButton_CheckBox = global::KillTeam.Droid.Resource.Style.Base_Widget_AppCompat_CompoundButton_CheckBox;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Base_Widget_AppCompat_CompoundButton_RadioButton = global::KillTeam.Droid.Resource.Style.Base_Widget_AppCompat_CompoundButton_RadioButton;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Base_Widget_AppCompat_CompoundButton_Switch = global::KillTeam.Droid.Resource.Style.Base_Widget_AppCompat_CompoundButton_Switch;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Base_Widget_AppCompat_DrawerArrowToggle = global::KillTeam.Droid.Resource.Style.Base_Widget_AppCompat_DrawerArrowToggle;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Base_Widget_AppCompat_DrawerArrowToggle_Common = global::KillTeam.Droid.Resource.Style.Base_Widget_AppCompat_DrawerArrowToggle_Common;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Base_Widget_AppCompat_DropDownItem_Spinner = global::KillTeam.Droid.Resource.Style.Base_Widget_AppCompat_DropDownItem_Spinner;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Base_Widget_AppCompat_EditText = global::KillTeam.Droid.Resource.Style.Base_Widget_AppCompat_EditText;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Base_Widget_AppCompat_ImageButton = global::KillTeam.Droid.Resource.Style.Base_Widget_AppCompat_ImageButton;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar = global::KillTeam.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_Solid = global::KillTeam.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_Solid;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabBar = global::KillTeam.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabBar;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabText = global::KillTeam.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabText;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabText_Inverse = global::KillTeam.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabText_Inverse;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabView = global::KillTeam.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabView;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Base_Widget_AppCompat_Light_PopupMenu = global::KillTeam.Droid.Resource.Style.Base_Widget_AppCompat_Light_PopupMenu;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Base_Widget_AppCompat_Light_PopupMenu_Overflow = global::KillTeam.Droid.Resource.Style.Base_Widget_AppCompat_Light_PopupMenu_Overflow;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Base_Widget_AppCompat_ListMenuView = global::KillTeam.Droid.Resource.Style.Base_Widget_AppCompat_ListMenuView;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Base_Widget_AppCompat_ListPopupWindow = global::KillTeam.Droid.Resource.Style.Base_Widget_AppCompat_ListPopupWindow;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Base_Widget_AppCompat_ListView = global::KillTeam.Droid.Resource.Style.Base_Widget_AppCompat_ListView;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Base_Widget_AppCompat_ListView_DropDown = global::KillTeam.Droid.Resource.Style.Base_Widget_AppCompat_ListView_DropDown;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Base_Widget_AppCompat_ListView_Menu = global::KillTeam.Droid.Resource.Style.Base_Widget_AppCompat_ListView_Menu;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Base_Widget_AppCompat_PopupMenu = global::KillTeam.Droid.Resource.Style.Base_Widget_AppCompat_PopupMenu;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Base_Widget_AppCompat_PopupMenu_Overflow = global::KillTeam.Droid.Resource.Style.Base_Widget_AppCompat_PopupMenu_Overflow;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Base_Widget_AppCompat_PopupWindow = global::KillTeam.Droid.Resource.Style.Base_Widget_AppCompat_PopupWindow;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Base_Widget_AppCompat_ProgressBar = global::KillTeam.Droid.Resource.Style.Base_Widget_AppCompat_ProgressBar;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Base_Widget_AppCompat_ProgressBar_Horizontal = global::KillTeam.Droid.Resource.Style.Base_Widget_AppCompat_ProgressBar_Horizontal;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Base_Widget_AppCompat_RatingBar = global::KillTeam.Droid.Resource.Style.Base_Widget_AppCompat_RatingBar;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Base_Widget_AppCompat_RatingBar_Indicator = global::KillTeam.Droid.Resource.Style.Base_Widget_AppCompat_RatingBar_Indicator;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Base_Widget_AppCompat_RatingBar_Small = global::KillTeam.Droid.Resource.Style.Base_Widget_AppCompat_RatingBar_Small;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Base_Widget_AppCompat_SearchView = global::KillTeam.Droid.Resource.Style.Base_Widget_AppCompat_SearchView;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Base_Widget_AppCompat_SearchView_ActionBar = global::KillTeam.Droid.Resource.Style.Base_Widget_AppCompat_SearchView_ActionBar;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Base_Widget_AppCompat_SeekBar = global::KillTeam.Droid.Resource.Style.Base_Widget_AppCompat_SeekBar;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Base_Widget_AppCompat_SeekBar_Discrete = global::KillTeam.Droid.Resource.Style.Base_Widget_AppCompat_SeekBar_Discrete;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Base_Widget_AppCompat_Spinner = global::KillTeam.Droid.Resource.Style.Base_Widget_AppCompat_Spinner;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Base_Widget_AppCompat_Spinner_Underlined = global::KillTeam.Droid.Resource.Style.Base_Widget_AppCompat_Spinner_Underlined;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Base_Widget_AppCompat_TextView_SpinnerItem = global::KillTeam.Droid.Resource.Style.Base_Widget_AppCompat_TextView_SpinnerItem;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Base_Widget_AppCompat_Toolbar = global::KillTeam.Droid.Resource.Style.Base_Widget_AppCompat_Toolbar;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Base_Widget_AppCompat_Toolbar_Button_Navigation = global::KillTeam.Droid.Resource.Style.Base_Widget_AppCompat_Toolbar_Button_Navigation;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Base_Widget_Design_TabLayout = global::KillTeam.Droid.Resource.Style.Base_Widget_Design_TabLayout;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.CardView = global::KillTeam.Droid.Resource.Style.CardView;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.CardView_Dark = global::KillTeam.Droid.Resource.Style.CardView_Dark;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.CardView_Light = global::KillTeam.Droid.Resource.Style.CardView_Light;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Platform_AppCompat = global::KillTeam.Droid.Resource.Style.Platform_AppCompat;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Platform_AppCompat_Light = global::KillTeam.Droid.Resource.Style.Platform_AppCompat_Light;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Platform_ThemeOverlay_AppCompat = global::KillTeam.Droid.Resource.Style.Platform_ThemeOverlay_AppCompat;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Platform_ThemeOverlay_AppCompat_Dark = global::KillTeam.Droid.Resource.Style.Platform_ThemeOverlay_AppCompat_Dark;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Platform_ThemeOverlay_AppCompat_Light = global::KillTeam.Droid.Resource.Style.Platform_ThemeOverlay_AppCompat_Light;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Platform_V21_AppCompat = global::KillTeam.Droid.Resource.Style.Platform_V21_AppCompat;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Platform_V21_AppCompat_Light = global::KillTeam.Droid.Resource.Style.Platform_V21_AppCompat_Light;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Platform_V25_AppCompat = global::KillTeam.Droid.Resource.Style.Platform_V25_AppCompat;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Platform_V25_AppCompat_Light = global::KillTeam.Droid.Resource.Style.Platform_V25_AppCompat_Light;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Platform_Widget_AppCompat_Spinner = global::KillTeam.Droid.Resource.Style.Platform_Widget_AppCompat_Spinner;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.RtlOverlay_DialogWindowTitle_AppCompat = global::KillTeam.Droid.Resource.Style.RtlOverlay_DialogWindowTitle_AppCompat;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_ActionBar_TitleItem = global::KillTeam.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_ActionBar_TitleItem;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_DialogTitle_Icon = global::KillTeam.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_DialogTitle_Icon;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem = global::KillTeam.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_InternalGroup = global::KillTeam.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_InternalGroup;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_Text = global::KillTeam.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_Text;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_SearchView_MagIcon = global::KillTeam.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_SearchView_MagIcon;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown = global::KillTeam.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Icon1 = global::KillTeam.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Icon1;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Icon2 = global::KillTeam.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Icon2;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Query = global::KillTeam.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Query;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Text = global::KillTeam.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Text;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.RtlUnderlay_Widget_AppCompat_ActionButton = global::KillTeam.Droid.Resource.Style.RtlUnderlay_Widget_AppCompat_ActionButton;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.RtlUnderlay_Widget_AppCompat_ActionButton_Overflow = global::KillTeam.Droid.Resource.Style.RtlUnderlay_Widget_AppCompat_ActionButton_Overflow;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.TextAppearance_AppCompat = global::KillTeam.Droid.Resource.Style.TextAppearance_AppCompat;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.TextAppearance_AppCompat_Body1 = global::KillTeam.Droid.Resource.Style.TextAppearance_AppCompat_Body1;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.TextAppearance_AppCompat_Body2 = global::KillTeam.Droid.Resource.Style.TextAppearance_AppCompat_Body2;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.TextAppearance_AppCompat_Button = global::KillTeam.Droid.Resource.Style.TextAppearance_AppCompat_Button;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.TextAppearance_AppCompat_Caption = global::KillTeam.Droid.Resource.Style.TextAppearance_AppCompat_Caption;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.TextAppearance_AppCompat_Display1 = global::KillTeam.Droid.Resource.Style.TextAppearance_AppCompat_Display1;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.TextAppearance_AppCompat_Display2 = global::KillTeam.Droid.Resource.Style.TextAppearance_AppCompat_Display2;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.TextAppearance_AppCompat_Display3 = global::KillTeam.Droid.Resource.Style.TextAppearance_AppCompat_Display3;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.TextAppearance_AppCompat_Display4 = global::KillTeam.Droid.Resource.Style.TextAppearance_AppCompat_Display4;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.TextAppearance_AppCompat_Headline = global::KillTeam.Droid.Resource.Style.TextAppearance_AppCompat_Headline;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.TextAppearance_AppCompat_Inverse = global::KillTeam.Droid.Resource.Style.TextAppearance_AppCompat_Inverse;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.TextAppearance_AppCompat_Large = global::KillTeam.Droid.Resource.Style.TextAppearance_AppCompat_Large;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.TextAppearance_AppCompat_Large_Inverse = global::KillTeam.Droid.Resource.Style.TextAppearance_AppCompat_Large_Inverse;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.TextAppearance_AppCompat_Light_SearchResult_Subtitle = global::KillTeam.Droid.Resource.Style.TextAppearance_AppCompat_Light_SearchResult_Subtitle;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.TextAppearance_AppCompat_Light_SearchResult_Title = global::KillTeam.Droid.Resource.Style.TextAppearance_AppCompat_Light_SearchResult_Title;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.TextAppearance_AppCompat_Light_Widget_PopupMenu_Large = global::KillTeam.Droid.Resource.Style.TextAppearance_AppCompat_Light_Widget_PopupMenu_Large;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.TextAppearance_AppCompat_Light_Widget_PopupMenu_Small = global::KillTeam.Droid.Resource.Style.TextAppearance_AppCompat_Light_Widget_PopupMenu_Small;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.TextAppearance_AppCompat_Medium = global::KillTeam.Droid.Resource.Style.TextAppearance_AppCompat_Medium;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.TextAppearance_AppCompat_Medium_Inverse = global::KillTeam.Droid.Resource.Style.TextAppearance_AppCompat_Medium_Inverse;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.TextAppearance_AppCompat_Menu = global::KillTeam.Droid.Resource.Style.TextAppearance_AppCompat_Menu;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.TextAppearance_AppCompat_SearchResult_Subtitle = global::KillTeam.Droid.Resource.Style.TextAppearance_AppCompat_SearchResult_Subtitle;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.TextAppearance_AppCompat_SearchResult_Title = global::KillTeam.Droid.Resource.Style.TextAppearance_AppCompat_SearchResult_Title;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.TextAppearance_AppCompat_Small = global::KillTeam.Droid.Resource.Style.TextAppearance_AppCompat_Small;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.TextAppearance_AppCompat_Small_Inverse = global::KillTeam.Droid.Resource.Style.TextAppearance_AppCompat_Small_Inverse;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.TextAppearance_AppCompat_Subhead = global::KillTeam.Droid.Resource.Style.TextAppearance_AppCompat_Subhead;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.TextAppearance_AppCompat_Subhead_Inverse = global::KillTeam.Droid.Resource.Style.TextAppearance_AppCompat_Subhead_Inverse;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.TextAppearance_AppCompat_Title = global::KillTeam.Droid.Resource.Style.TextAppearance_AppCompat_Title;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.TextAppearance_AppCompat_Title_Inverse = global::KillTeam.Droid.Resource.Style.TextAppearance_AppCompat_Title_Inverse;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.TextAppearance_AppCompat_Tooltip = global::KillTeam.Droid.Resource.Style.TextAppearance_AppCompat_Tooltip;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Menu = global::KillTeam.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Menu;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Subtitle = global::KillTeam.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Subtitle;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Subtitle_Inverse = global::KillTeam.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Subtitle_Inverse;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Title = global::KillTeam.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Title;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Title_Inverse = global::KillTeam.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Title_Inverse;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Subtitle = global::KillTeam.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Subtitle;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Subtitle_Inverse = global::KillTeam.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Subtitle_Inverse;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Title = global::KillTeam.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Title;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Title_Inverse = global::KillTeam.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Title_Inverse;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.TextAppearance_AppCompat_Widget_Button = global::KillTeam.Droid.Resource.Style.TextAppearance_AppCompat_Widget_Button;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.TextAppearance_AppCompat_Widget_Button_Borderless_Colored = global::KillTeam.Droid.Resource.Style.TextAppearance_AppCompat_Widget_Button_Borderless_Colored;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.TextAppearance_AppCompat_Widget_Button_Colored = global::KillTeam.Droid.Resource.Style.TextAppearance_AppCompat_Widget_Button_Colored;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.TextAppearance_AppCompat_Widget_Button_Inverse = global::KillTeam.Droid.Resource.Style.TextAppearance_AppCompat_Widget_Button_Inverse;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.TextAppearance_AppCompat_Widget_DropDownItem = global::KillTeam.Droid.Resource.Style.TextAppearance_AppCompat_Widget_DropDownItem;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.TextAppearance_AppCompat_Widget_PopupMenu_Header = global::KillTeam.Droid.Resource.Style.TextAppearance_AppCompat_Widget_PopupMenu_Header;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.TextAppearance_AppCompat_Widget_PopupMenu_Large = global::KillTeam.Droid.Resource.Style.TextAppearance_AppCompat_Widget_PopupMenu_Large;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.TextAppearance_AppCompat_Widget_PopupMenu_Small = global::KillTeam.Droid.Resource.Style.TextAppearance_AppCompat_Widget_PopupMenu_Small;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.TextAppearance_AppCompat_Widget_Switch = global::KillTeam.Droid.Resource.Style.TextAppearance_AppCompat_Widget_Switch;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.TextAppearance_AppCompat_Widget_TextView_SpinnerItem = global::KillTeam.Droid.Resource.Style.TextAppearance_AppCompat_Widget_TextView_SpinnerItem;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.TextAppearance_Compat_Notification = global::KillTeam.Droid.Resource.Style.TextAppearance_Compat_Notification;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.TextAppearance_Compat_Notification_Info = global::KillTeam.Droid.Resource.Style.TextAppearance_Compat_Notification_Info;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.TextAppearance_Compat_Notification_Info_Media = global::KillTeam.Droid.Resource.Style.TextAppearance_Compat_Notification_Info_Media;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.TextAppearance_Compat_Notification_Line2 = global::KillTeam.Droid.Resource.Style.TextAppearance_Compat_Notification_Line2;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.TextAppearance_Compat_Notification_Line2_Media = global::KillTeam.Droid.Resource.Style.TextAppearance_Compat_Notification_Line2_Media;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.TextAppearance_Compat_Notification_Media = global::KillTeam.Droid.Resource.Style.TextAppearance_Compat_Notification_Media;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.TextAppearance_Compat_Notification_Time = global::KillTeam.Droid.Resource.Style.TextAppearance_Compat_Notification_Time;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.TextAppearance_Compat_Notification_Time_Media = global::KillTeam.Droid.Resource.Style.TextAppearance_Compat_Notification_Time_Media;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.TextAppearance_Compat_Notification_Title = global::KillTeam.Droid.Resource.Style.TextAppearance_Compat_Notification_Title;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.TextAppearance_Compat_Notification_Title_Media = global::KillTeam.Droid.Resource.Style.TextAppearance_Compat_Notification_Title_Media;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.TextAppearance_Design_CollapsingToolbar_Expanded = global::KillTeam.Droid.Resource.Style.TextAppearance_Design_CollapsingToolbar_Expanded;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.TextAppearance_Design_Counter = global::KillTeam.Droid.Resource.Style.TextAppearance_Design_Counter;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.TextAppearance_Design_Counter_Overflow = global::KillTeam.Droid.Resource.Style.TextAppearance_Design_Counter_Overflow;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.TextAppearance_Design_Error = global::KillTeam.Droid.Resource.Style.TextAppearance_Design_Error;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.TextAppearance_Design_Hint = global::KillTeam.Droid.Resource.Style.TextAppearance_Design_Hint;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.TextAppearance_Design_Snackbar_Message = global::KillTeam.Droid.Resource.Style.TextAppearance_Design_Snackbar_Message;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.TextAppearance_Design_Tab = global::KillTeam.Droid.Resource.Style.TextAppearance_Design_Tab;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.TextAppearance_MediaRouter_PrimaryText = global::KillTeam.Droid.Resource.Style.TextAppearance_MediaRouter_PrimaryText;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.TextAppearance_MediaRouter_SecondaryText = global::KillTeam.Droid.Resource.Style.TextAppearance_MediaRouter_SecondaryText;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.TextAppearance_MediaRouter_Title = global::KillTeam.Droid.Resource.Style.TextAppearance_MediaRouter_Title;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.TextAppearance_Widget_AppCompat_ExpandedMenu_Item = global::KillTeam.Droid.Resource.Style.TextAppearance_Widget_AppCompat_ExpandedMenu_Item;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.TextAppearance_Widget_AppCompat_Toolbar_Subtitle = global::KillTeam.Droid.Resource.Style.TextAppearance_Widget_AppCompat_Toolbar_Subtitle;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.TextAppearance_Widget_AppCompat_Toolbar_Title = global::KillTeam.Droid.Resource.Style.TextAppearance_Widget_AppCompat_Toolbar_Title;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.ThemeOverlay_AppCompat = global::KillTeam.Droid.Resource.Style.ThemeOverlay_AppCompat;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.ThemeOverlay_AppCompat_ActionBar = global::KillTeam.Droid.Resource.Style.ThemeOverlay_AppCompat_ActionBar;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.ThemeOverlay_AppCompat_Dark = global::KillTeam.Droid.Resource.Style.ThemeOverlay_AppCompat_Dark;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.ThemeOverlay_AppCompat_Dark_ActionBar = global::KillTeam.Droid.Resource.Style.ThemeOverlay_AppCompat_Dark_ActionBar;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.ThemeOverlay_AppCompat_Dialog = global::KillTeam.Droid.Resource.Style.ThemeOverlay_AppCompat_Dialog;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.ThemeOverlay_AppCompat_Dialog_Alert = global::KillTeam.Droid.Resource.Style.ThemeOverlay_AppCompat_Dialog_Alert;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.ThemeOverlay_AppCompat_Light = global::KillTeam.Droid.Resource.Style.ThemeOverlay_AppCompat_Light;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.ThemeOverlay_MediaRouter_Dark = global::KillTeam.Droid.Resource.Style.ThemeOverlay_MediaRouter_Dark;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.ThemeOverlay_MediaRouter_Light = global::KillTeam.Droid.Resource.Style.ThemeOverlay_MediaRouter_Light;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Theme_AppCompat = global::KillTeam.Droid.Resource.Style.Theme_AppCompat;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Theme_AppCompat_CompactMenu = global::KillTeam.Droid.Resource.Style.Theme_AppCompat_CompactMenu;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Theme_AppCompat_DayNight = global::KillTeam.Droid.Resource.Style.Theme_AppCompat_DayNight;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Theme_AppCompat_DayNight_DarkActionBar = global::KillTeam.Droid.Resource.Style.Theme_AppCompat_DayNight_DarkActionBar;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Theme_AppCompat_DayNight_Dialog = global::KillTeam.Droid.Resource.Style.Theme_AppCompat_DayNight_Dialog;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Theme_AppCompat_DayNight_DialogWhenLarge = global::KillTeam.Droid.Resource.Style.Theme_AppCompat_DayNight_DialogWhenLarge;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Theme_AppCompat_DayNight_Dialog_Alert = global::KillTeam.Droid.Resource.Style.Theme_AppCompat_DayNight_Dialog_Alert;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Theme_AppCompat_DayNight_Dialog_MinWidth = global::KillTeam.Droid.Resource.Style.Theme_AppCompat_DayNight_Dialog_MinWidth;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Theme_AppCompat_DayNight_NoActionBar = global::KillTeam.Droid.Resource.Style.Theme_AppCompat_DayNight_NoActionBar;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Theme_AppCompat_Dialog = global::KillTeam.Droid.Resource.Style.Theme_AppCompat_Dialog;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Theme_AppCompat_DialogWhenLarge = global::KillTeam.Droid.Resource.Style.Theme_AppCompat_DialogWhenLarge;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Theme_AppCompat_Dialog_Alert = global::KillTeam.Droid.Resource.Style.Theme_AppCompat_Dialog_Alert;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Theme_AppCompat_Dialog_MinWidth = global::KillTeam.Droid.Resource.Style.Theme_AppCompat_Dialog_MinWidth;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Theme_AppCompat_Light = global::KillTeam.Droid.Resource.Style.Theme_AppCompat_Light;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Theme_AppCompat_Light_DarkActionBar = global::KillTeam.Droid.Resource.Style.Theme_AppCompat_Light_DarkActionBar;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Theme_AppCompat_Light_Dialog = global::KillTeam.Droid.Resource.Style.Theme_AppCompat_Light_Dialog;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Theme_AppCompat_Light_DialogWhenLarge = global::KillTeam.Droid.Resource.Style.Theme_AppCompat_Light_DialogWhenLarge;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Theme_AppCompat_Light_Dialog_Alert = global::KillTeam.Droid.Resource.Style.Theme_AppCompat_Light_Dialog_Alert;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Theme_AppCompat_Light_Dialog_MinWidth = global::KillTeam.Droid.Resource.Style.Theme_AppCompat_Light_Dialog_MinWidth;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Theme_AppCompat_Light_NoActionBar = global::KillTeam.Droid.Resource.Style.Theme_AppCompat_Light_NoActionBar;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Theme_AppCompat_NoActionBar = global::KillTeam.Droid.Resource.Style.Theme_AppCompat_NoActionBar;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Theme_Design = global::KillTeam.Droid.Resource.Style.Theme_Design;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Theme_Design_BottomSheetDialog = global::KillTeam.Droid.Resource.Style.Theme_Design_BottomSheetDialog;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Theme_Design_Light = global::KillTeam.Droid.Resource.Style.Theme_Design_Light;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Theme_Design_Light_BottomSheetDialog = global::KillTeam.Droid.Resource.Style.Theme_Design_Light_BottomSheetDialog;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Theme_Design_Light_NoActionBar = global::KillTeam.Droid.Resource.Style.Theme_Design_Light_NoActionBar;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Theme_Design_NoActionBar = global::KillTeam.Droid.Resource.Style.Theme_Design_NoActionBar;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Theme_MediaRouter = global::KillTeam.Droid.Resource.Style.Theme_MediaRouter;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Theme_MediaRouter_Light = global::KillTeam.Droid.Resource.Style.Theme_MediaRouter_Light;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Theme_MediaRouter_LightControlPanel = global::KillTeam.Droid.Resource.Style.Theme_MediaRouter_LightControlPanel;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Theme_MediaRouter_Light_DarkControlPanel = global::KillTeam.Droid.Resource.Style.Theme_MediaRouter_Light_DarkControlPanel;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Widget_AppCompat_ActionBar = global::KillTeam.Droid.Resource.Style.Widget_AppCompat_ActionBar;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Widget_AppCompat_ActionBar_Solid = global::KillTeam.Droid.Resource.Style.Widget_AppCompat_ActionBar_Solid;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Widget_AppCompat_ActionBar_TabBar = global::KillTeam.Droid.Resource.Style.Widget_AppCompat_ActionBar_TabBar;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Widget_AppCompat_ActionBar_TabText = global::KillTeam.Droid.Resource.Style.Widget_AppCompat_ActionBar_TabText;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Widget_AppCompat_ActionBar_TabView = global::KillTeam.Droid.Resource.Style.Widget_AppCompat_ActionBar_TabView;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Widget_AppCompat_ActionButton = global::KillTeam.Droid.Resource.Style.Widget_AppCompat_ActionButton;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Widget_AppCompat_ActionButton_CloseMode = global::KillTeam.Droid.Resource.Style.Widget_AppCompat_ActionButton_CloseMode;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Widget_AppCompat_ActionButton_Overflow = global::KillTeam.Droid.Resource.Style.Widget_AppCompat_ActionButton_Overflow;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Widget_AppCompat_ActionMode = global::KillTeam.Droid.Resource.Style.Widget_AppCompat_ActionMode;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Widget_AppCompat_ActivityChooserView = global::KillTeam.Droid.Resource.Style.Widget_AppCompat_ActivityChooserView;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Widget_AppCompat_AutoCompleteTextView = global::KillTeam.Droid.Resource.Style.Widget_AppCompat_AutoCompleteTextView;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Widget_AppCompat_Button = global::KillTeam.Droid.Resource.Style.Widget_AppCompat_Button;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Widget_AppCompat_ButtonBar = global::KillTeam.Droid.Resource.Style.Widget_AppCompat_ButtonBar;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Widget_AppCompat_ButtonBar_AlertDialog = global::KillTeam.Droid.Resource.Style.Widget_AppCompat_ButtonBar_AlertDialog;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Widget_AppCompat_Button_Borderless = global::KillTeam.Droid.Resource.Style.Widget_AppCompat_Button_Borderless;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Widget_AppCompat_Button_Borderless_Colored = global::KillTeam.Droid.Resource.Style.Widget_AppCompat_Button_Borderless_Colored;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Widget_AppCompat_Button_ButtonBar_AlertDialog = global::KillTeam.Droid.Resource.Style.Widget_AppCompat_Button_ButtonBar_AlertDialog;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Widget_AppCompat_Button_Colored = global::KillTeam.Droid.Resource.Style.Widget_AppCompat_Button_Colored;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Widget_AppCompat_Button_Small = global::KillTeam.Droid.Resource.Style.Widget_AppCompat_Button_Small;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Widget_AppCompat_CompoundButton_CheckBox = global::KillTeam.Droid.Resource.Style.Widget_AppCompat_CompoundButton_CheckBox;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Widget_AppCompat_CompoundButton_RadioButton = global::KillTeam.Droid.Resource.Style.Widget_AppCompat_CompoundButton_RadioButton;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Widget_AppCompat_CompoundButton_Switch = global::KillTeam.Droid.Resource.Style.Widget_AppCompat_CompoundButton_Switch;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Widget_AppCompat_DrawerArrowToggle = global::KillTeam.Droid.Resource.Style.Widget_AppCompat_DrawerArrowToggle;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Widget_AppCompat_DropDownItem_Spinner = global::KillTeam.Droid.Resource.Style.Widget_AppCompat_DropDownItem_Spinner;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Widget_AppCompat_EditText = global::KillTeam.Droid.Resource.Style.Widget_AppCompat_EditText;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Widget_AppCompat_ImageButton = global::KillTeam.Droid.Resource.Style.Widget_AppCompat_ImageButton;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar = global::KillTeam.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_Solid = global::KillTeam.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_Solid;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_Solid_Inverse = global::KillTeam.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_Solid_Inverse;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabBar = global::KillTeam.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabBar;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabBar_Inverse = global::KillTeam.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabBar_Inverse;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabText = global::KillTeam.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabText;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabText_Inverse = global::KillTeam.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabText_Inverse;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabView = global::KillTeam.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabView;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabView_Inverse = global::KillTeam.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabView_Inverse;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Widget_AppCompat_Light_ActionButton = global::KillTeam.Droid.Resource.Style.Widget_AppCompat_Light_ActionButton;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Widget_AppCompat_Light_ActionButton_CloseMode = global::KillTeam.Droid.Resource.Style.Widget_AppCompat_Light_ActionButton_CloseMode;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Widget_AppCompat_Light_ActionButton_Overflow = global::KillTeam.Droid.Resource.Style.Widget_AppCompat_Light_ActionButton_Overflow;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Widget_AppCompat_Light_ActionMode_Inverse = global::KillTeam.Droid.Resource.Style.Widget_AppCompat_Light_ActionMode_Inverse;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Widget_AppCompat_Light_ActivityChooserView = global::KillTeam.Droid.Resource.Style.Widget_AppCompat_Light_ActivityChooserView;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Widget_AppCompat_Light_AutoCompleteTextView = global::KillTeam.Droid.Resource.Style.Widget_AppCompat_Light_AutoCompleteTextView;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Widget_AppCompat_Light_DropDownItem_Spinner = global::KillTeam.Droid.Resource.Style.Widget_AppCompat_Light_DropDownItem_Spinner;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Widget_AppCompat_Light_ListPopupWindow = global::KillTeam.Droid.Resource.Style.Widget_AppCompat_Light_ListPopupWindow;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Widget_AppCompat_Light_ListView_DropDown = global::KillTeam.Droid.Resource.Style.Widget_AppCompat_Light_ListView_DropDown;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Widget_AppCompat_Light_PopupMenu = global::KillTeam.Droid.Resource.Style.Widget_AppCompat_Light_PopupMenu;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Widget_AppCompat_Light_PopupMenu_Overflow = global::KillTeam.Droid.Resource.Style.Widget_AppCompat_Light_PopupMenu_Overflow;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Widget_AppCompat_Light_SearchView = global::KillTeam.Droid.Resource.Style.Widget_AppCompat_Light_SearchView;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Widget_AppCompat_Light_Spinner_DropDown_ActionBar = global::KillTeam.Droid.Resource.Style.Widget_AppCompat_Light_Spinner_DropDown_ActionBar;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Widget_AppCompat_ListMenuView = global::KillTeam.Droid.Resource.Style.Widget_AppCompat_ListMenuView;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Widget_AppCompat_ListPopupWindow = global::KillTeam.Droid.Resource.Style.Widget_AppCompat_ListPopupWindow;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Widget_AppCompat_ListView = global::KillTeam.Droid.Resource.Style.Widget_AppCompat_ListView;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Widget_AppCompat_ListView_DropDown = global::KillTeam.Droid.Resource.Style.Widget_AppCompat_ListView_DropDown;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Widget_AppCompat_ListView_Menu = global::KillTeam.Droid.Resource.Style.Widget_AppCompat_ListView_Menu;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Widget_AppCompat_PopupMenu = global::KillTeam.Droid.Resource.Style.Widget_AppCompat_PopupMenu;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Widget_AppCompat_PopupMenu_Overflow = global::KillTeam.Droid.Resource.Style.Widget_AppCompat_PopupMenu_Overflow;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Widget_AppCompat_PopupWindow = global::KillTeam.Droid.Resource.Style.Widget_AppCompat_PopupWindow;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Widget_AppCompat_ProgressBar = global::KillTeam.Droid.Resource.Style.Widget_AppCompat_ProgressBar;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Widget_AppCompat_ProgressBar_Horizontal = global::KillTeam.Droid.Resource.Style.Widget_AppCompat_ProgressBar_Horizontal;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Widget_AppCompat_RatingBar = global::KillTeam.Droid.Resource.Style.Widget_AppCompat_RatingBar;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Widget_AppCompat_RatingBar_Indicator = global::KillTeam.Droid.Resource.Style.Widget_AppCompat_RatingBar_Indicator;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Widget_AppCompat_RatingBar_Small = global::KillTeam.Droid.Resource.Style.Widget_AppCompat_RatingBar_Small;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Widget_AppCompat_SearchView = global::KillTeam.Droid.Resource.Style.Widget_AppCompat_SearchView;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Widget_AppCompat_SearchView_ActionBar = global::KillTeam.Droid.Resource.Style.Widget_AppCompat_SearchView_ActionBar;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Widget_AppCompat_SeekBar = global::KillTeam.Droid.Resource.Style.Widget_AppCompat_SeekBar;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Widget_AppCompat_SeekBar_Discrete = global::KillTeam.Droid.Resource.Style.Widget_AppCompat_SeekBar_Discrete;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Widget_AppCompat_Spinner = global::KillTeam.Droid.Resource.Style.Widget_AppCompat_Spinner;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Widget_AppCompat_Spinner_DropDown = global::KillTeam.Droid.Resource.Style.Widget_AppCompat_Spinner_DropDown;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Widget_AppCompat_Spinner_DropDown_ActionBar = global::KillTeam.Droid.Resource.Style.Widget_AppCompat_Spinner_DropDown_ActionBar;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Widget_AppCompat_Spinner_Underlined = global::KillTeam.Droid.Resource.Style.Widget_AppCompat_Spinner_Underlined;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Widget_AppCompat_TextView_SpinnerItem = global::KillTeam.Droid.Resource.Style.Widget_AppCompat_TextView_SpinnerItem;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Widget_AppCompat_Toolbar = global::KillTeam.Droid.Resource.Style.Widget_AppCompat_Toolbar;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Widget_AppCompat_Toolbar_Button_Navigation = global::KillTeam.Droid.Resource.Style.Widget_AppCompat_Toolbar_Button_Navigation;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Widget_Compat_NotificationActionContainer = global::KillTeam.Droid.Resource.Style.Widget_Compat_NotificationActionContainer;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Widget_Compat_NotificationActionText = global::KillTeam.Droid.Resource.Style.Widget_Compat_NotificationActionText;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Widget_Design_AppBarLayout = global::KillTeam.Droid.Resource.Style.Widget_Design_AppBarLayout;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Widget_Design_BottomNavigationView = global::KillTeam.Droid.Resource.Style.Widget_Design_BottomNavigationView;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Widget_Design_BottomSheet_Modal = global::KillTeam.Droid.Resource.Style.Widget_Design_BottomSheet_Modal;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Widget_Design_CollapsingToolbar = global::KillTeam.Droid.Resource.Style.Widget_Design_CollapsingToolbar;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Widget_Design_FloatingActionButton = global::KillTeam.Droid.Resource.Style.Widget_Design_FloatingActionButton;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Widget_Design_NavigationView = global::KillTeam.Droid.Resource.Style.Widget_Design_NavigationView;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Widget_Design_ScrimInsetsFrameLayout = global::KillTeam.Droid.Resource.Style.Widget_Design_ScrimInsetsFrameLayout;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Widget_Design_Snackbar = global::KillTeam.Droid.Resource.Style.Widget_Design_Snackbar;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Widget_Design_TabLayout = global::KillTeam.Droid.Resource.Style.Widget_Design_TabLayout;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Widget_Design_TextInputLayout = global::KillTeam.Droid.Resource.Style.Widget_Design_TextInputLayout;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Widget_MediaRouter_Light_MediaRouteButton = global::KillTeam.Droid.Resource.Style.Widget_MediaRouter_Light_MediaRouteButton;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Style.Widget_MediaRouter_MediaRouteButton = global::KillTeam.Droid.Resource.Style.Widget_MediaRouter_MediaRouteButton;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.ActionBar = global::KillTeam.Droid.Resource.Styleable.ActionBar;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.ActionBarLayout = global::KillTeam.Droid.Resource.Styleable.ActionBarLayout;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.ActionBarLayout_android_layout_gravity = global::KillTeam.Droid.Resource.Styleable.ActionBarLayout_android_layout_gravity;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.ActionBar_background = global::KillTeam.Droid.Resource.Styleable.ActionBar_background;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.ActionBar_backgroundSplit = global::KillTeam.Droid.Resource.Styleable.ActionBar_backgroundSplit;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.ActionBar_backgroundStacked = global::KillTeam.Droid.Resource.Styleable.ActionBar_backgroundStacked;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.ActionBar_contentInsetEnd = global::KillTeam.Droid.Resource.Styleable.ActionBar_contentInsetEnd;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.ActionBar_contentInsetEndWithActions = global::KillTeam.Droid.Resource.Styleable.ActionBar_contentInsetEndWithActions;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.ActionBar_contentInsetLeft = global::KillTeam.Droid.Resource.Styleable.ActionBar_contentInsetLeft;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.ActionBar_contentInsetRight = global::KillTeam.Droid.Resource.Styleable.ActionBar_contentInsetRight;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.ActionBar_contentInsetStart = global::KillTeam.Droid.Resource.Styleable.ActionBar_contentInsetStart;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.ActionBar_contentInsetStartWithNavigation = global::KillTeam.Droid.Resource.Styleable.ActionBar_contentInsetStartWithNavigation;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.ActionBar_customNavigationLayout = global::KillTeam.Droid.Resource.Styleable.ActionBar_customNavigationLayout;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.ActionBar_displayOptions = global::KillTeam.Droid.Resource.Styleable.ActionBar_displayOptions;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.ActionBar_divider = global::KillTeam.Droid.Resource.Styleable.ActionBar_divider;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.ActionBar_elevation = global::KillTeam.Droid.Resource.Styleable.ActionBar_elevation;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.ActionBar_height = global::KillTeam.Droid.Resource.Styleable.ActionBar_height;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.ActionBar_hideOnContentScroll = global::KillTeam.Droid.Resource.Styleable.ActionBar_hideOnContentScroll;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.ActionBar_homeAsUpIndicator = global::KillTeam.Droid.Resource.Styleable.ActionBar_homeAsUpIndicator;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.ActionBar_homeLayout = global::KillTeam.Droid.Resource.Styleable.ActionBar_homeLayout;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.ActionBar_icon = global::KillTeam.Droid.Resource.Styleable.ActionBar_icon;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.ActionBar_indeterminateProgressStyle = global::KillTeam.Droid.Resource.Styleable.ActionBar_indeterminateProgressStyle;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.ActionBar_itemPadding = global::KillTeam.Droid.Resource.Styleable.ActionBar_itemPadding;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.ActionBar_logo = global::KillTeam.Droid.Resource.Styleable.ActionBar_logo;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.ActionBar_navigationMode = global::KillTeam.Droid.Resource.Styleable.ActionBar_navigationMode;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.ActionBar_popupTheme = global::KillTeam.Droid.Resource.Styleable.ActionBar_popupTheme;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.ActionBar_progressBarPadding = global::KillTeam.Droid.Resource.Styleable.ActionBar_progressBarPadding;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.ActionBar_progressBarStyle = global::KillTeam.Droid.Resource.Styleable.ActionBar_progressBarStyle;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.ActionBar_subtitle = global::KillTeam.Droid.Resource.Styleable.ActionBar_subtitle;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.ActionBar_subtitleTextStyle = global::KillTeam.Droid.Resource.Styleable.ActionBar_subtitleTextStyle;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.ActionBar_title = global::KillTeam.Droid.Resource.Styleable.ActionBar_title;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.ActionBar_titleTextStyle = global::KillTeam.Droid.Resource.Styleable.ActionBar_titleTextStyle;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.ActionMenuItemView = global::KillTeam.Droid.Resource.Styleable.ActionMenuItemView;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.ActionMenuItemView_android_minWidth = global::KillTeam.Droid.Resource.Styleable.ActionMenuItemView_android_minWidth;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.ActionMenuView = global::KillTeam.Droid.Resource.Styleable.ActionMenuView;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.ActionMode = global::KillTeam.Droid.Resource.Styleable.ActionMode;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.ActionMode_background = global::KillTeam.Droid.Resource.Styleable.ActionMode_background;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.ActionMode_backgroundSplit = global::KillTeam.Droid.Resource.Styleable.ActionMode_backgroundSplit;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.ActionMode_closeItemLayout = global::KillTeam.Droid.Resource.Styleable.ActionMode_closeItemLayout;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.ActionMode_height = global::KillTeam.Droid.Resource.Styleable.ActionMode_height;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.ActionMode_subtitleTextStyle = global::KillTeam.Droid.Resource.Styleable.ActionMode_subtitleTextStyle;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.ActionMode_titleTextStyle = global::KillTeam.Droid.Resource.Styleable.ActionMode_titleTextStyle;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.ActivityChooserView = global::KillTeam.Droid.Resource.Styleable.ActivityChooserView;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.ActivityChooserView_expandActivityOverflowButtonDrawable = global::KillTeam.Droid.Resource.Styleable.ActivityChooserView_expandActivityOverflowButtonDrawable;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.ActivityChooserView_initialActivityCount = global::KillTeam.Droid.Resource.Styleable.ActivityChooserView_initialActivityCount;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.AlertDialog = global::KillTeam.Droid.Resource.Styleable.AlertDialog;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.AlertDialog_android_layout = global::KillTeam.Droid.Resource.Styleable.AlertDialog_android_layout;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.AlertDialog_buttonPanelSideLayout = global::KillTeam.Droid.Resource.Styleable.AlertDialog_buttonPanelSideLayout;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.AlertDialog_listItemLayout = global::KillTeam.Droid.Resource.Styleable.AlertDialog_listItemLayout;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.AlertDialog_listLayout = global::KillTeam.Droid.Resource.Styleable.AlertDialog_listLayout;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.AlertDialog_multiChoiceItemLayout = global::KillTeam.Droid.Resource.Styleable.AlertDialog_multiChoiceItemLayout;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.AlertDialog_showTitle = global::KillTeam.Droid.Resource.Styleable.AlertDialog_showTitle;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.AlertDialog_singleChoiceItemLayout = global::KillTeam.Droid.Resource.Styleable.AlertDialog_singleChoiceItemLayout;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.AppBarLayout = global::KillTeam.Droid.Resource.Styleable.AppBarLayout;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.AppBarLayoutStates = global::KillTeam.Droid.Resource.Styleable.AppBarLayoutStates;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.AppBarLayoutStates_state_collapsed = global::KillTeam.Droid.Resource.Styleable.AppBarLayoutStates_state_collapsed;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.AppBarLayoutStates_state_collapsible = global::KillTeam.Droid.Resource.Styleable.AppBarLayoutStates_state_collapsible;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.AppBarLayout_android_background = global::KillTeam.Droid.Resource.Styleable.AppBarLayout_android_background;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.AppBarLayout_android_keyboardNavigationCluster = global::KillTeam.Droid.Resource.Styleable.AppBarLayout_android_keyboardNavigationCluster;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.AppBarLayout_android_touchscreenBlocksFocus = global::KillTeam.Droid.Resource.Styleable.AppBarLayout_android_touchscreenBlocksFocus;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.AppBarLayout_elevation = global::KillTeam.Droid.Resource.Styleable.AppBarLayout_elevation;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.AppBarLayout_expanded = global::KillTeam.Droid.Resource.Styleable.AppBarLayout_expanded;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.AppBarLayout_Layout = global::KillTeam.Droid.Resource.Styleable.AppBarLayout_Layout;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.AppBarLayout_Layout_layout_scrollFlags = global::KillTeam.Droid.Resource.Styleable.AppBarLayout_Layout_layout_scrollFlags;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.AppBarLayout_Layout_layout_scrollInterpolator = global::KillTeam.Droid.Resource.Styleable.AppBarLayout_Layout_layout_scrollInterpolator;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.AppCompatImageView = global::KillTeam.Droid.Resource.Styleable.AppCompatImageView;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.AppCompatImageView_android_src = global::KillTeam.Droid.Resource.Styleable.AppCompatImageView_android_src;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.AppCompatImageView_srcCompat = global::KillTeam.Droid.Resource.Styleable.AppCompatImageView_srcCompat;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.AppCompatImageView_tint = global::KillTeam.Droid.Resource.Styleable.AppCompatImageView_tint;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.AppCompatImageView_tintMode = global::KillTeam.Droid.Resource.Styleable.AppCompatImageView_tintMode;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.AppCompatSeekBar = global::KillTeam.Droid.Resource.Styleable.AppCompatSeekBar;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.AppCompatSeekBar_android_thumb = global::KillTeam.Droid.Resource.Styleable.AppCompatSeekBar_android_thumb;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.AppCompatSeekBar_tickMark = global::KillTeam.Droid.Resource.Styleable.AppCompatSeekBar_tickMark;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.AppCompatSeekBar_tickMarkTint = global::KillTeam.Droid.Resource.Styleable.AppCompatSeekBar_tickMarkTint;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.AppCompatSeekBar_tickMarkTintMode = global::KillTeam.Droid.Resource.Styleable.AppCompatSeekBar_tickMarkTintMode;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.AppCompatTextHelper = global::KillTeam.Droid.Resource.Styleable.AppCompatTextHelper;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.AppCompatTextHelper_android_drawableBottom = global::KillTeam.Droid.Resource.Styleable.AppCompatTextHelper_android_drawableBottom;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.AppCompatTextHelper_android_drawableEnd = global::KillTeam.Droid.Resource.Styleable.AppCompatTextHelper_android_drawableEnd;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.AppCompatTextHelper_android_drawableLeft = global::KillTeam.Droid.Resource.Styleable.AppCompatTextHelper_android_drawableLeft;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.AppCompatTextHelper_android_drawableRight = global::KillTeam.Droid.Resource.Styleable.AppCompatTextHelper_android_drawableRight;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.AppCompatTextHelper_android_drawableStart = global::KillTeam.Droid.Resource.Styleable.AppCompatTextHelper_android_drawableStart;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.AppCompatTextHelper_android_drawableTop = global::KillTeam.Droid.Resource.Styleable.AppCompatTextHelper_android_drawableTop;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.AppCompatTextHelper_android_textAppearance = global::KillTeam.Droid.Resource.Styleable.AppCompatTextHelper_android_textAppearance;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.AppCompatTextView = global::KillTeam.Droid.Resource.Styleable.AppCompatTextView;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.AppCompatTextView_android_textAppearance = global::KillTeam.Droid.Resource.Styleable.AppCompatTextView_android_textAppearance;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.AppCompatTextView_autoSizeMaxTextSize = global::KillTeam.Droid.Resource.Styleable.AppCompatTextView_autoSizeMaxTextSize;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.AppCompatTextView_autoSizeMinTextSize = global::KillTeam.Droid.Resource.Styleable.AppCompatTextView_autoSizeMinTextSize;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.AppCompatTextView_autoSizePresetSizes = global::KillTeam.Droid.Resource.Styleable.AppCompatTextView_autoSizePresetSizes;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.AppCompatTextView_autoSizeStepGranularity = global::KillTeam.Droid.Resource.Styleable.AppCompatTextView_autoSizeStepGranularity;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.AppCompatTextView_autoSizeTextType = global::KillTeam.Droid.Resource.Styleable.AppCompatTextView_autoSizeTextType;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.AppCompatTextView_fontFamily = global::KillTeam.Droid.Resource.Styleable.AppCompatTextView_fontFamily;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.AppCompatTextView_textAllCaps = global::KillTeam.Droid.Resource.Styleable.AppCompatTextView_textAllCaps;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.AppCompatTheme = global::KillTeam.Droid.Resource.Styleable.AppCompatTheme;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.AppCompatTheme_actionBarDivider = global::KillTeam.Droid.Resource.Styleable.AppCompatTheme_actionBarDivider;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.AppCompatTheme_actionBarItemBackground = global::KillTeam.Droid.Resource.Styleable.AppCompatTheme_actionBarItemBackground;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.AppCompatTheme_actionBarPopupTheme = global::KillTeam.Droid.Resource.Styleable.AppCompatTheme_actionBarPopupTheme;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.AppCompatTheme_actionBarSize = global::KillTeam.Droid.Resource.Styleable.AppCompatTheme_actionBarSize;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.AppCompatTheme_actionBarSplitStyle = global::KillTeam.Droid.Resource.Styleable.AppCompatTheme_actionBarSplitStyle;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.AppCompatTheme_actionBarStyle = global::KillTeam.Droid.Resource.Styleable.AppCompatTheme_actionBarStyle;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.AppCompatTheme_actionBarTabBarStyle = global::KillTeam.Droid.Resource.Styleable.AppCompatTheme_actionBarTabBarStyle;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.AppCompatTheme_actionBarTabStyle = global::KillTeam.Droid.Resource.Styleable.AppCompatTheme_actionBarTabStyle;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.AppCompatTheme_actionBarTabTextStyle = global::KillTeam.Droid.Resource.Styleable.AppCompatTheme_actionBarTabTextStyle;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.AppCompatTheme_actionBarTheme = global::KillTeam.Droid.Resource.Styleable.AppCompatTheme_actionBarTheme;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.AppCompatTheme_actionBarWidgetTheme = global::KillTeam.Droid.Resource.Styleable.AppCompatTheme_actionBarWidgetTheme;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.AppCompatTheme_actionButtonStyle = global::KillTeam.Droid.Resource.Styleable.AppCompatTheme_actionButtonStyle;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.AppCompatTheme_actionDropDownStyle = global::KillTeam.Droid.Resource.Styleable.AppCompatTheme_actionDropDownStyle;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.AppCompatTheme_actionMenuTextAppearance = global::KillTeam.Droid.Resource.Styleable.AppCompatTheme_actionMenuTextAppearance;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.AppCompatTheme_actionMenuTextColor = global::KillTeam.Droid.Resource.Styleable.AppCompatTheme_actionMenuTextColor;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.AppCompatTheme_actionModeBackground = global::KillTeam.Droid.Resource.Styleable.AppCompatTheme_actionModeBackground;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.AppCompatTheme_actionModeCloseButtonStyle = global::KillTeam.Droid.Resource.Styleable.AppCompatTheme_actionModeCloseButtonStyle;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.AppCompatTheme_actionModeCloseDrawable = global::KillTeam.Droid.Resource.Styleable.AppCompatTheme_actionModeCloseDrawable;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.AppCompatTheme_actionModeCopyDrawable = global::KillTeam.Droid.Resource.Styleable.AppCompatTheme_actionModeCopyDrawable;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.AppCompatTheme_actionModeCutDrawable = global::KillTeam.Droid.Resource.Styleable.AppCompatTheme_actionModeCutDrawable;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.AppCompatTheme_actionModeFindDrawable = global::KillTeam.Droid.Resource.Styleable.AppCompatTheme_actionModeFindDrawable;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.AppCompatTheme_actionModePasteDrawable = global::KillTeam.Droid.Resource.Styleable.AppCompatTheme_actionModePasteDrawable;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.AppCompatTheme_actionModePopupWindowStyle = global::KillTeam.Droid.Resource.Styleable.AppCompatTheme_actionModePopupWindowStyle;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.AppCompatTheme_actionModeSelectAllDrawable = global::KillTeam.Droid.Resource.Styleable.AppCompatTheme_actionModeSelectAllDrawable;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.AppCompatTheme_actionModeShareDrawable = global::KillTeam.Droid.Resource.Styleable.AppCompatTheme_actionModeShareDrawable;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.AppCompatTheme_actionModeSplitBackground = global::KillTeam.Droid.Resource.Styleable.AppCompatTheme_actionModeSplitBackground;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.AppCompatTheme_actionModeStyle = global::KillTeam.Droid.Resource.Styleable.AppCompatTheme_actionModeStyle;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.AppCompatTheme_actionModeWebSearchDrawable = global::KillTeam.Droid.Resource.Styleable.AppCompatTheme_actionModeWebSearchDrawable;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.AppCompatTheme_actionOverflowButtonStyle = global::KillTeam.Droid.Resource.Styleable.AppCompatTheme_actionOverflowButtonStyle;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.AppCompatTheme_actionOverflowMenuStyle = global::KillTeam.Droid.Resource.Styleable.AppCompatTheme_actionOverflowMenuStyle;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.AppCompatTheme_activityChooserViewStyle = global::KillTeam.Droid.Resource.Styleable.AppCompatTheme_activityChooserViewStyle;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.AppCompatTheme_alertDialogButtonGroupStyle = global::KillTeam.Droid.Resource.Styleable.AppCompatTheme_alertDialogButtonGroupStyle;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.AppCompatTheme_alertDialogCenterButtons = global::KillTeam.Droid.Resource.Styleable.AppCompatTheme_alertDialogCenterButtons;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.AppCompatTheme_alertDialogStyle = global::KillTeam.Droid.Resource.Styleable.AppCompatTheme_alertDialogStyle;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.AppCompatTheme_alertDialogTheme = global::KillTeam.Droid.Resource.Styleable.AppCompatTheme_alertDialogTheme;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.AppCompatTheme_android_windowAnimationStyle = global::KillTeam.Droid.Resource.Styleable.AppCompatTheme_android_windowAnimationStyle;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.AppCompatTheme_android_windowIsFloating = global::KillTeam.Droid.Resource.Styleable.AppCompatTheme_android_windowIsFloating;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.AppCompatTheme_autoCompleteTextViewStyle = global::KillTeam.Droid.Resource.Styleable.AppCompatTheme_autoCompleteTextViewStyle;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.AppCompatTheme_borderlessButtonStyle = global::KillTeam.Droid.Resource.Styleable.AppCompatTheme_borderlessButtonStyle;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.AppCompatTheme_buttonBarButtonStyle = global::KillTeam.Droid.Resource.Styleable.AppCompatTheme_buttonBarButtonStyle;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.AppCompatTheme_buttonBarNegativeButtonStyle = global::KillTeam.Droid.Resource.Styleable.AppCompatTheme_buttonBarNegativeButtonStyle;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.AppCompatTheme_buttonBarNeutralButtonStyle = global::KillTeam.Droid.Resource.Styleable.AppCompatTheme_buttonBarNeutralButtonStyle;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.AppCompatTheme_buttonBarPositiveButtonStyle = global::KillTeam.Droid.Resource.Styleable.AppCompatTheme_buttonBarPositiveButtonStyle;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.AppCompatTheme_buttonBarStyle = global::KillTeam.Droid.Resource.Styleable.AppCompatTheme_buttonBarStyle;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.AppCompatTheme_buttonStyle = global::KillTeam.Droid.Resource.Styleable.AppCompatTheme_buttonStyle;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.AppCompatTheme_buttonStyleSmall = global::KillTeam.Droid.Resource.Styleable.AppCompatTheme_buttonStyleSmall;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.AppCompatTheme_checkboxStyle = global::KillTeam.Droid.Resource.Styleable.AppCompatTheme_checkboxStyle;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.AppCompatTheme_checkedTextViewStyle = global::KillTeam.Droid.Resource.Styleable.AppCompatTheme_checkedTextViewStyle;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.AppCompatTheme_colorAccent = global::KillTeam.Droid.Resource.Styleable.AppCompatTheme_colorAccent;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.AppCompatTheme_colorBackgroundFloating = global::KillTeam.Droid.Resource.Styleable.AppCompatTheme_colorBackgroundFloating;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.AppCompatTheme_colorButtonNormal = global::KillTeam.Droid.Resource.Styleable.AppCompatTheme_colorButtonNormal;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.AppCompatTheme_colorControlActivated = global::KillTeam.Droid.Resource.Styleable.AppCompatTheme_colorControlActivated;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.AppCompatTheme_colorControlHighlight = global::KillTeam.Droid.Resource.Styleable.AppCompatTheme_colorControlHighlight;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.AppCompatTheme_colorControlNormal = global::KillTeam.Droid.Resource.Styleable.AppCompatTheme_colorControlNormal;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.AppCompatTheme_colorError = global::KillTeam.Droid.Resource.Styleable.AppCompatTheme_colorError;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.AppCompatTheme_colorPrimary = global::KillTeam.Droid.Resource.Styleable.AppCompatTheme_colorPrimary;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.AppCompatTheme_colorPrimaryDark = global::KillTeam.Droid.Resource.Styleable.AppCompatTheme_colorPrimaryDark;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.AppCompatTheme_colorSwitchThumbNormal = global::KillTeam.Droid.Resource.Styleable.AppCompatTheme_colorSwitchThumbNormal;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.AppCompatTheme_controlBackground = global::KillTeam.Droid.Resource.Styleable.AppCompatTheme_controlBackground;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.AppCompatTheme_dialogPreferredPadding = global::KillTeam.Droid.Resource.Styleable.AppCompatTheme_dialogPreferredPadding;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.AppCompatTheme_dialogTheme = global::KillTeam.Droid.Resource.Styleable.AppCompatTheme_dialogTheme;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.AppCompatTheme_dividerHorizontal = global::KillTeam.Droid.Resource.Styleable.AppCompatTheme_dividerHorizontal;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.AppCompatTheme_dividerVertical = global::KillTeam.Droid.Resource.Styleable.AppCompatTheme_dividerVertical;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.AppCompatTheme_dropdownListPreferredItemHeight = global::KillTeam.Droid.Resource.Styleable.AppCompatTheme_dropdownListPreferredItemHeight;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.AppCompatTheme_dropDownListViewStyle = global::KillTeam.Droid.Resource.Styleable.AppCompatTheme_dropDownListViewStyle;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.AppCompatTheme_editTextBackground = global::KillTeam.Droid.Resource.Styleable.AppCompatTheme_editTextBackground;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.AppCompatTheme_editTextColor = global::KillTeam.Droid.Resource.Styleable.AppCompatTheme_editTextColor;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.AppCompatTheme_editTextStyle = global::KillTeam.Droid.Resource.Styleable.AppCompatTheme_editTextStyle;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.AppCompatTheme_homeAsUpIndicator = global::KillTeam.Droid.Resource.Styleable.AppCompatTheme_homeAsUpIndicator;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.AppCompatTheme_imageButtonStyle = global::KillTeam.Droid.Resource.Styleable.AppCompatTheme_imageButtonStyle;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.AppCompatTheme_listChoiceBackgroundIndicator = global::KillTeam.Droid.Resource.Styleable.AppCompatTheme_listChoiceBackgroundIndicator;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.AppCompatTheme_listDividerAlertDialog = global::KillTeam.Droid.Resource.Styleable.AppCompatTheme_listDividerAlertDialog;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.AppCompatTheme_listMenuViewStyle = global::KillTeam.Droid.Resource.Styleable.AppCompatTheme_listMenuViewStyle;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.AppCompatTheme_listPopupWindowStyle = global::KillTeam.Droid.Resource.Styleable.AppCompatTheme_listPopupWindowStyle;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemHeight = global::KillTeam.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemHeight;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemHeightLarge = global::KillTeam.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemHeightLarge;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemHeightSmall = global::KillTeam.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemHeightSmall;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemPaddingLeft = global::KillTeam.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemPaddingLeft;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemPaddingRight = global::KillTeam.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemPaddingRight;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.AppCompatTheme_panelBackground = global::KillTeam.Droid.Resource.Styleable.AppCompatTheme_panelBackground;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.AppCompatTheme_panelMenuListTheme = global::KillTeam.Droid.Resource.Styleable.AppCompatTheme_panelMenuListTheme;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.AppCompatTheme_panelMenuListWidth = global::KillTeam.Droid.Resource.Styleable.AppCompatTheme_panelMenuListWidth;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.AppCompatTheme_popupMenuStyle = global::KillTeam.Droid.Resource.Styleable.AppCompatTheme_popupMenuStyle;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.AppCompatTheme_popupWindowStyle = global::KillTeam.Droid.Resource.Styleable.AppCompatTheme_popupWindowStyle;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.AppCompatTheme_radioButtonStyle = global::KillTeam.Droid.Resource.Styleable.AppCompatTheme_radioButtonStyle;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.AppCompatTheme_ratingBarStyle = global::KillTeam.Droid.Resource.Styleable.AppCompatTheme_ratingBarStyle;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.AppCompatTheme_ratingBarStyleIndicator = global::KillTeam.Droid.Resource.Styleable.AppCompatTheme_ratingBarStyleIndicator;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.AppCompatTheme_ratingBarStyleSmall = global::KillTeam.Droid.Resource.Styleable.AppCompatTheme_ratingBarStyleSmall;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.AppCompatTheme_searchViewStyle = global::KillTeam.Droid.Resource.Styleable.AppCompatTheme_searchViewStyle;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.AppCompatTheme_seekBarStyle = global::KillTeam.Droid.Resource.Styleable.AppCompatTheme_seekBarStyle;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.AppCompatTheme_selectableItemBackground = global::KillTeam.Droid.Resource.Styleable.AppCompatTheme_selectableItemBackground;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.AppCompatTheme_selectableItemBackgroundBorderless = global::KillTeam.Droid.Resource.Styleable.AppCompatTheme_selectableItemBackgroundBorderless;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.AppCompatTheme_spinnerDropDownItemStyle = global::KillTeam.Droid.Resource.Styleable.AppCompatTheme_spinnerDropDownItemStyle;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.AppCompatTheme_spinnerStyle = global::KillTeam.Droid.Resource.Styleable.AppCompatTheme_spinnerStyle;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.AppCompatTheme_switchStyle = global::KillTeam.Droid.Resource.Styleable.AppCompatTheme_switchStyle;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.AppCompatTheme_textAppearanceLargePopupMenu = global::KillTeam.Droid.Resource.Styleable.AppCompatTheme_textAppearanceLargePopupMenu;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.AppCompatTheme_textAppearanceListItem = global::KillTeam.Droid.Resource.Styleable.AppCompatTheme_textAppearanceListItem;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.AppCompatTheme_textAppearanceListItemSecondary = global::KillTeam.Droid.Resource.Styleable.AppCompatTheme_textAppearanceListItemSecondary;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.AppCompatTheme_textAppearanceListItemSmall = global::KillTeam.Droid.Resource.Styleable.AppCompatTheme_textAppearanceListItemSmall;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.AppCompatTheme_textAppearancePopupMenuHeader = global::KillTeam.Droid.Resource.Styleable.AppCompatTheme_textAppearancePopupMenuHeader;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.AppCompatTheme_textAppearanceSearchResultSubtitle = global::KillTeam.Droid.Resource.Styleable.AppCompatTheme_textAppearanceSearchResultSubtitle;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.AppCompatTheme_textAppearanceSearchResultTitle = global::KillTeam.Droid.Resource.Styleable.AppCompatTheme_textAppearanceSearchResultTitle;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.AppCompatTheme_textAppearanceSmallPopupMenu = global::KillTeam.Droid.Resource.Styleable.AppCompatTheme_textAppearanceSmallPopupMenu;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.AppCompatTheme_textColorAlertDialogListItem = global::KillTeam.Droid.Resource.Styleable.AppCompatTheme_textColorAlertDialogListItem;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.AppCompatTheme_textColorSearchUrl = global::KillTeam.Droid.Resource.Styleable.AppCompatTheme_textColorSearchUrl;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.AppCompatTheme_toolbarNavigationButtonStyle = global::KillTeam.Droid.Resource.Styleable.AppCompatTheme_toolbarNavigationButtonStyle;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.AppCompatTheme_toolbarStyle = global::KillTeam.Droid.Resource.Styleable.AppCompatTheme_toolbarStyle;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.AppCompatTheme_tooltipForegroundColor = global::KillTeam.Droid.Resource.Styleable.AppCompatTheme_tooltipForegroundColor;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.AppCompatTheme_tooltipFrameBackground = global::KillTeam.Droid.Resource.Styleable.AppCompatTheme_tooltipFrameBackground;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.AppCompatTheme_windowActionBar = global::KillTeam.Droid.Resource.Styleable.AppCompatTheme_windowActionBar;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.AppCompatTheme_windowActionBarOverlay = global::KillTeam.Droid.Resource.Styleable.AppCompatTheme_windowActionBarOverlay;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.AppCompatTheme_windowActionModeOverlay = global::KillTeam.Droid.Resource.Styleable.AppCompatTheme_windowActionModeOverlay;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.AppCompatTheme_windowFixedHeightMajor = global::KillTeam.Droid.Resource.Styleable.AppCompatTheme_windowFixedHeightMajor;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.AppCompatTheme_windowFixedHeightMinor = global::KillTeam.Droid.Resource.Styleable.AppCompatTheme_windowFixedHeightMinor;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.AppCompatTheme_windowFixedWidthMajor = global::KillTeam.Droid.Resource.Styleable.AppCompatTheme_windowFixedWidthMajor;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.AppCompatTheme_windowFixedWidthMinor = global::KillTeam.Droid.Resource.Styleable.AppCompatTheme_windowFixedWidthMinor;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.AppCompatTheme_windowMinWidthMajor = global::KillTeam.Droid.Resource.Styleable.AppCompatTheme_windowMinWidthMajor;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.AppCompatTheme_windowMinWidthMinor = global::KillTeam.Droid.Resource.Styleable.AppCompatTheme_windowMinWidthMinor;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.AppCompatTheme_windowNoTitle = global::KillTeam.Droid.Resource.Styleable.AppCompatTheme_windowNoTitle;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.BottomNavigationView = global::KillTeam.Droid.Resource.Styleable.BottomNavigationView;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.BottomNavigationView_elevation = global::KillTeam.Droid.Resource.Styleable.BottomNavigationView_elevation;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.BottomNavigationView_itemBackground = global::KillTeam.Droid.Resource.Styleable.BottomNavigationView_itemBackground;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.BottomNavigationView_itemIconTint = global::KillTeam.Droid.Resource.Styleable.BottomNavigationView_itemIconTint;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.BottomNavigationView_itemTextColor = global::KillTeam.Droid.Resource.Styleable.BottomNavigationView_itemTextColor;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.BottomNavigationView_menu = global::KillTeam.Droid.Resource.Styleable.BottomNavigationView_menu;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.BottomSheetBehavior_Layout = global::KillTeam.Droid.Resource.Styleable.BottomSheetBehavior_Layout;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.BottomSheetBehavior_Layout_behavior_hideable = global::KillTeam.Droid.Resource.Styleable.BottomSheetBehavior_Layout_behavior_hideable;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.BottomSheetBehavior_Layout_behavior_peekHeight = global::KillTeam.Droid.Resource.Styleable.BottomSheetBehavior_Layout_behavior_peekHeight;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.BottomSheetBehavior_Layout_behavior_skipCollapsed = global::KillTeam.Droid.Resource.Styleable.BottomSheetBehavior_Layout_behavior_skipCollapsed;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.ButtonBarLayout = global::KillTeam.Droid.Resource.Styleable.ButtonBarLayout;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.ButtonBarLayout_allowStacking = global::KillTeam.Droid.Resource.Styleable.ButtonBarLayout_allowStacking;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.CardView = global::KillTeam.Droid.Resource.Styleable.CardView;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.CardView_android_minHeight = global::KillTeam.Droid.Resource.Styleable.CardView_android_minHeight;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.CardView_android_minWidth = global::KillTeam.Droid.Resource.Styleable.CardView_android_minWidth;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.CardView_cardBackgroundColor = global::KillTeam.Droid.Resource.Styleable.CardView_cardBackgroundColor;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.CardView_cardCornerRadius = global::KillTeam.Droid.Resource.Styleable.CardView_cardCornerRadius;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.CardView_cardElevation = global::KillTeam.Droid.Resource.Styleable.CardView_cardElevation;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.CardView_cardMaxElevation = global::KillTeam.Droid.Resource.Styleable.CardView_cardMaxElevation;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.CardView_cardPreventCornerOverlap = global::KillTeam.Droid.Resource.Styleable.CardView_cardPreventCornerOverlap;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.CardView_cardUseCompatPadding = global::KillTeam.Droid.Resource.Styleable.CardView_cardUseCompatPadding;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.CardView_contentPadding = global::KillTeam.Droid.Resource.Styleable.CardView_contentPadding;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.CardView_contentPaddingBottom = global::KillTeam.Droid.Resource.Styleable.CardView_contentPaddingBottom;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.CardView_contentPaddingLeft = global::KillTeam.Droid.Resource.Styleable.CardView_contentPaddingLeft;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.CardView_contentPaddingRight = global::KillTeam.Droid.Resource.Styleable.CardView_contentPaddingRight;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.CardView_contentPaddingTop = global::KillTeam.Droid.Resource.Styleable.CardView_contentPaddingTop;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.CollapsingToolbarLayout = global::KillTeam.Droid.Resource.Styleable.CollapsingToolbarLayout;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.CollapsingToolbarLayout_collapsedTitleGravity = global::KillTeam.Droid.Resource.Styleable.CollapsingToolbarLayout_collapsedTitleGravity;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.CollapsingToolbarLayout_collapsedTitleTextAppearance = global::KillTeam.Droid.Resource.Styleable.CollapsingToolbarLayout_collapsedTitleTextAppearance;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.CollapsingToolbarLayout_contentScrim = global::KillTeam.Droid.Resource.Styleable.CollapsingToolbarLayout_contentScrim;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleGravity = global::KillTeam.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleGravity;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMargin = global::KillTeam.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMargin;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginBottom = global::KillTeam.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginBottom;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginEnd = global::KillTeam.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginEnd;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginStart = global::KillTeam.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginStart;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginTop = global::KillTeam.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginTop;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleTextAppearance = global::KillTeam.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleTextAppearance;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.CollapsingToolbarLayout_Layout = global::KillTeam.Droid.Resource.Styleable.CollapsingToolbarLayout_Layout;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.CollapsingToolbarLayout_Layout_layout_collapseMode = global::KillTeam.Droid.Resource.Styleable.CollapsingToolbarLayout_Layout_layout_collapseMode;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.CollapsingToolbarLayout_Layout_layout_collapseParallaxMultiplier = global::KillTeam.Droid.Resource.Styleable.CollapsingToolbarLayout_Layout_layout_collapseParallaxMultiplier;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.CollapsingToolbarLayout_scrimAnimationDuration = global::KillTeam.Droid.Resource.Styleable.CollapsingToolbarLayout_scrimAnimationDuration;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.CollapsingToolbarLayout_scrimVisibleHeightTrigger = global::KillTeam.Droid.Resource.Styleable.CollapsingToolbarLayout_scrimVisibleHeightTrigger;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.CollapsingToolbarLayout_statusBarScrim = global::KillTeam.Droid.Resource.Styleable.CollapsingToolbarLayout_statusBarScrim;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.CollapsingToolbarLayout_title = global::KillTeam.Droid.Resource.Styleable.CollapsingToolbarLayout_title;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.CollapsingToolbarLayout_titleEnabled = global::KillTeam.Droid.Resource.Styleable.CollapsingToolbarLayout_titleEnabled;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.CollapsingToolbarLayout_toolbarId = global::KillTeam.Droid.Resource.Styleable.CollapsingToolbarLayout_toolbarId;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.ColorStateListItem = global::KillTeam.Droid.Resource.Styleable.ColorStateListItem;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.ColorStateListItem_alpha = global::KillTeam.Droid.Resource.Styleable.ColorStateListItem_alpha;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.ColorStateListItem_android_alpha = global::KillTeam.Droid.Resource.Styleable.ColorStateListItem_android_alpha;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.ColorStateListItem_android_color = global::KillTeam.Droid.Resource.Styleable.ColorStateListItem_android_color;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.CompoundButton = global::KillTeam.Droid.Resource.Styleable.CompoundButton;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.CompoundButton_android_button = global::KillTeam.Droid.Resource.Styleable.CompoundButton_android_button;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.CompoundButton_buttonTint = global::KillTeam.Droid.Resource.Styleable.CompoundButton_buttonTint;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.CompoundButton_buttonTintMode = global::KillTeam.Droid.Resource.Styleable.CompoundButton_buttonTintMode;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.CoordinatorLayout = global::KillTeam.Droid.Resource.Styleable.CoordinatorLayout;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.CoordinatorLayout_keylines = global::KillTeam.Droid.Resource.Styleable.CoordinatorLayout_keylines;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.CoordinatorLayout_Layout = global::KillTeam.Droid.Resource.Styleable.CoordinatorLayout_Layout;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.CoordinatorLayout_Layout_android_layout_gravity = global::KillTeam.Droid.Resource.Styleable.CoordinatorLayout_Layout_android_layout_gravity;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.CoordinatorLayout_Layout_layout_anchor = global::KillTeam.Droid.Resource.Styleable.CoordinatorLayout_Layout_layout_anchor;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.CoordinatorLayout_Layout_layout_anchorGravity = global::KillTeam.Droid.Resource.Styleable.CoordinatorLayout_Layout_layout_anchorGravity;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.CoordinatorLayout_Layout_layout_behavior = global::KillTeam.Droid.Resource.Styleable.CoordinatorLayout_Layout_layout_behavior;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.CoordinatorLayout_Layout_layout_dodgeInsetEdges = global::KillTeam.Droid.Resource.Styleable.CoordinatorLayout_Layout_layout_dodgeInsetEdges;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.CoordinatorLayout_Layout_layout_insetEdge = global::KillTeam.Droid.Resource.Styleable.CoordinatorLayout_Layout_layout_insetEdge;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.CoordinatorLayout_Layout_layout_keyline = global::KillTeam.Droid.Resource.Styleable.CoordinatorLayout_Layout_layout_keyline;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.CoordinatorLayout_statusBarBackground = global::KillTeam.Droid.Resource.Styleable.CoordinatorLayout_statusBarBackground;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.DesignTheme = global::KillTeam.Droid.Resource.Styleable.DesignTheme;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.DesignTheme_bottomSheetDialogTheme = global::KillTeam.Droid.Resource.Styleable.DesignTheme_bottomSheetDialogTheme;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.DesignTheme_bottomSheetStyle = global::KillTeam.Droid.Resource.Styleable.DesignTheme_bottomSheetStyle;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.DrawerArrowToggle = global::KillTeam.Droid.Resource.Styleable.DrawerArrowToggle;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.DrawerArrowToggle_arrowHeadLength = global::KillTeam.Droid.Resource.Styleable.DrawerArrowToggle_arrowHeadLength;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.DrawerArrowToggle_arrowShaftLength = global::KillTeam.Droid.Resource.Styleable.DrawerArrowToggle_arrowShaftLength;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.DrawerArrowToggle_barLength = global::KillTeam.Droid.Resource.Styleable.DrawerArrowToggle_barLength;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.DrawerArrowToggle_color = global::KillTeam.Droid.Resource.Styleable.DrawerArrowToggle_color;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.DrawerArrowToggle_drawableSize = global::KillTeam.Droid.Resource.Styleable.DrawerArrowToggle_drawableSize;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.DrawerArrowToggle_gapBetweenBars = global::KillTeam.Droid.Resource.Styleable.DrawerArrowToggle_gapBetweenBars;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.DrawerArrowToggle_spinBars = global::KillTeam.Droid.Resource.Styleable.DrawerArrowToggle_spinBars;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.DrawerArrowToggle_thickness = global::KillTeam.Droid.Resource.Styleable.DrawerArrowToggle_thickness;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.FloatingActionButton = global::KillTeam.Droid.Resource.Styleable.FloatingActionButton;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.FloatingActionButton_backgroundTint = global::KillTeam.Droid.Resource.Styleable.FloatingActionButton_backgroundTint;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.FloatingActionButton_backgroundTintMode = global::KillTeam.Droid.Resource.Styleable.FloatingActionButton_backgroundTintMode;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.FloatingActionButton_Behavior_Layout = global::KillTeam.Droid.Resource.Styleable.FloatingActionButton_Behavior_Layout;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.FloatingActionButton_Behavior_Layout_behavior_autoHide = global::KillTeam.Droid.Resource.Styleable.FloatingActionButton_Behavior_Layout_behavior_autoHide;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.FloatingActionButton_borderWidth = global::KillTeam.Droid.Resource.Styleable.FloatingActionButton_borderWidth;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.FloatingActionButton_elevation = global::KillTeam.Droid.Resource.Styleable.FloatingActionButton_elevation;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.FloatingActionButton_fabSize = global::KillTeam.Droid.Resource.Styleable.FloatingActionButton_fabSize;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.FloatingActionButton_pressedTranslationZ = global::KillTeam.Droid.Resource.Styleable.FloatingActionButton_pressedTranslationZ;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.FloatingActionButton_rippleColor = global::KillTeam.Droid.Resource.Styleable.FloatingActionButton_rippleColor;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.FloatingActionButton_useCompatPadding = global::KillTeam.Droid.Resource.Styleable.FloatingActionButton_useCompatPadding;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.FontFamily = global::KillTeam.Droid.Resource.Styleable.FontFamily;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.FontFamilyFont = global::KillTeam.Droid.Resource.Styleable.FontFamilyFont;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.FontFamilyFont_android_font = global::KillTeam.Droid.Resource.Styleable.FontFamilyFont_android_font;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.FontFamilyFont_android_fontStyle = global::KillTeam.Droid.Resource.Styleable.FontFamilyFont_android_fontStyle;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.FontFamilyFont_android_fontWeight = global::KillTeam.Droid.Resource.Styleable.FontFamilyFont_android_fontWeight;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.FontFamilyFont_font = global::KillTeam.Droid.Resource.Styleable.FontFamilyFont_font;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.FontFamilyFont_fontStyle = global::KillTeam.Droid.Resource.Styleable.FontFamilyFont_fontStyle;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.FontFamilyFont_fontWeight = global::KillTeam.Droid.Resource.Styleable.FontFamilyFont_fontWeight;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.FontFamily_fontProviderAuthority = global::KillTeam.Droid.Resource.Styleable.FontFamily_fontProviderAuthority;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.FontFamily_fontProviderCerts = global::KillTeam.Droid.Resource.Styleable.FontFamily_fontProviderCerts;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.FontFamily_fontProviderFetchStrategy = global::KillTeam.Droid.Resource.Styleable.FontFamily_fontProviderFetchStrategy;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.FontFamily_fontProviderFetchTimeout = global::KillTeam.Droid.Resource.Styleable.FontFamily_fontProviderFetchTimeout;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.FontFamily_fontProviderPackage = global::KillTeam.Droid.Resource.Styleable.FontFamily_fontProviderPackage;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.FontFamily_fontProviderQuery = global::KillTeam.Droid.Resource.Styleable.FontFamily_fontProviderQuery;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.ForegroundLinearLayout = global::KillTeam.Droid.Resource.Styleable.ForegroundLinearLayout;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.ForegroundLinearLayout_android_foreground = global::KillTeam.Droid.Resource.Styleable.ForegroundLinearLayout_android_foreground;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.ForegroundLinearLayout_android_foregroundGravity = global::KillTeam.Droid.Resource.Styleable.ForegroundLinearLayout_android_foregroundGravity;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.ForegroundLinearLayout_foregroundInsidePadding = global::KillTeam.Droid.Resource.Styleable.ForegroundLinearLayout_foregroundInsidePadding;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.LinearLayoutCompat = global::KillTeam.Droid.Resource.Styleable.LinearLayoutCompat;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.LinearLayoutCompat_android_baselineAligned = global::KillTeam.Droid.Resource.Styleable.LinearLayoutCompat_android_baselineAligned;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.LinearLayoutCompat_android_baselineAlignedChildIndex = global::KillTeam.Droid.Resource.Styleable.LinearLayoutCompat_android_baselineAlignedChildIndex;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.LinearLayoutCompat_android_gravity = global::KillTeam.Droid.Resource.Styleable.LinearLayoutCompat_android_gravity;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.LinearLayoutCompat_android_orientation = global::KillTeam.Droid.Resource.Styleable.LinearLayoutCompat_android_orientation;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.LinearLayoutCompat_android_weightSum = global::KillTeam.Droid.Resource.Styleable.LinearLayoutCompat_android_weightSum;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.LinearLayoutCompat_divider = global::KillTeam.Droid.Resource.Styleable.LinearLayoutCompat_divider;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.LinearLayoutCompat_dividerPadding = global::KillTeam.Droid.Resource.Styleable.LinearLayoutCompat_dividerPadding;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.LinearLayoutCompat_Layout = global::KillTeam.Droid.Resource.Styleable.LinearLayoutCompat_Layout;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_gravity = global::KillTeam.Droid.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_gravity;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_height = global::KillTeam.Droid.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_height;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_weight = global::KillTeam.Droid.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_weight;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_width = global::KillTeam.Droid.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_width;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.LinearLayoutCompat_measureWithLargestChild = global::KillTeam.Droid.Resource.Styleable.LinearLayoutCompat_measureWithLargestChild;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.LinearLayoutCompat_showDividers = global::KillTeam.Droid.Resource.Styleable.LinearLayoutCompat_showDividers;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.ListPopupWindow = global::KillTeam.Droid.Resource.Styleable.ListPopupWindow;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.ListPopupWindow_android_dropDownHorizontalOffset = global::KillTeam.Droid.Resource.Styleable.ListPopupWindow_android_dropDownHorizontalOffset;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.ListPopupWindow_android_dropDownVerticalOffset = global::KillTeam.Droid.Resource.Styleable.ListPopupWindow_android_dropDownVerticalOffset;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.MediaRouteButton = global::KillTeam.Droid.Resource.Styleable.MediaRouteButton;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.MediaRouteButton_android_minHeight = global::KillTeam.Droid.Resource.Styleable.MediaRouteButton_android_minHeight;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.MediaRouteButton_android_minWidth = global::KillTeam.Droid.Resource.Styleable.MediaRouteButton_android_minWidth;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.MediaRouteButton_externalRouteEnabledDrawable = global::KillTeam.Droid.Resource.Styleable.MediaRouteButton_externalRouteEnabledDrawable;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.MediaRouteButton_mediaRouteButtonTint = global::KillTeam.Droid.Resource.Styleable.MediaRouteButton_mediaRouteButtonTint;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.MenuGroup = global::KillTeam.Droid.Resource.Styleable.MenuGroup;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.MenuGroup_android_checkableBehavior = global::KillTeam.Droid.Resource.Styleable.MenuGroup_android_checkableBehavior;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.MenuGroup_android_enabled = global::KillTeam.Droid.Resource.Styleable.MenuGroup_android_enabled;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.MenuGroup_android_id = global::KillTeam.Droid.Resource.Styleable.MenuGroup_android_id;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.MenuGroup_android_menuCategory = global::KillTeam.Droid.Resource.Styleable.MenuGroup_android_menuCategory;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.MenuGroup_android_orderInCategory = global::KillTeam.Droid.Resource.Styleable.MenuGroup_android_orderInCategory;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.MenuGroup_android_visible = global::KillTeam.Droid.Resource.Styleable.MenuGroup_android_visible;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.MenuItem = global::KillTeam.Droid.Resource.Styleable.MenuItem;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.MenuItem_actionLayout = global::KillTeam.Droid.Resource.Styleable.MenuItem_actionLayout;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.MenuItem_actionProviderClass = global::KillTeam.Droid.Resource.Styleable.MenuItem_actionProviderClass;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.MenuItem_actionViewClass = global::KillTeam.Droid.Resource.Styleable.MenuItem_actionViewClass;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.MenuItem_alphabeticModifiers = global::KillTeam.Droid.Resource.Styleable.MenuItem_alphabeticModifiers;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.MenuItem_android_alphabeticShortcut = global::KillTeam.Droid.Resource.Styleable.MenuItem_android_alphabeticShortcut;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.MenuItem_android_checkable = global::KillTeam.Droid.Resource.Styleable.MenuItem_android_checkable;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.MenuItem_android_checked = global::KillTeam.Droid.Resource.Styleable.MenuItem_android_checked;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.MenuItem_android_enabled = global::KillTeam.Droid.Resource.Styleable.MenuItem_android_enabled;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.MenuItem_android_icon = global::KillTeam.Droid.Resource.Styleable.MenuItem_android_icon;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.MenuItem_android_id = global::KillTeam.Droid.Resource.Styleable.MenuItem_android_id;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.MenuItem_android_menuCategory = global::KillTeam.Droid.Resource.Styleable.MenuItem_android_menuCategory;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.MenuItem_android_numericShortcut = global::KillTeam.Droid.Resource.Styleable.MenuItem_android_numericShortcut;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.MenuItem_android_onClick = global::KillTeam.Droid.Resource.Styleable.MenuItem_android_onClick;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.MenuItem_android_orderInCategory = global::KillTeam.Droid.Resource.Styleable.MenuItem_android_orderInCategory;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.MenuItem_android_title = global::KillTeam.Droid.Resource.Styleable.MenuItem_android_title;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.MenuItem_android_titleCondensed = global::KillTeam.Droid.Resource.Styleable.MenuItem_android_titleCondensed;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.MenuItem_android_visible = global::KillTeam.Droid.Resource.Styleable.MenuItem_android_visible;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.MenuItem_contentDescription = global::KillTeam.Droid.Resource.Styleable.MenuItem_contentDescription;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.MenuItem_iconTint = global::KillTeam.Droid.Resource.Styleable.MenuItem_iconTint;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.MenuItem_iconTintMode = global::KillTeam.Droid.Resource.Styleable.MenuItem_iconTintMode;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.MenuItem_numericModifiers = global::KillTeam.Droid.Resource.Styleable.MenuItem_numericModifiers;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.MenuItem_showAsAction = global::KillTeam.Droid.Resource.Styleable.MenuItem_showAsAction;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.MenuItem_tooltipText = global::KillTeam.Droid.Resource.Styleable.MenuItem_tooltipText;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.MenuView = global::KillTeam.Droid.Resource.Styleable.MenuView;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.MenuView_android_headerBackground = global::KillTeam.Droid.Resource.Styleable.MenuView_android_headerBackground;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.MenuView_android_horizontalDivider = global::KillTeam.Droid.Resource.Styleable.MenuView_android_horizontalDivider;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.MenuView_android_itemBackground = global::KillTeam.Droid.Resource.Styleable.MenuView_android_itemBackground;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.MenuView_android_itemIconDisabledAlpha = global::KillTeam.Droid.Resource.Styleable.MenuView_android_itemIconDisabledAlpha;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.MenuView_android_itemTextAppearance = global::KillTeam.Droid.Resource.Styleable.MenuView_android_itemTextAppearance;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.MenuView_android_verticalDivider = global::KillTeam.Droid.Resource.Styleable.MenuView_android_verticalDivider;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.MenuView_android_windowAnimationStyle = global::KillTeam.Droid.Resource.Styleable.MenuView_android_windowAnimationStyle;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.MenuView_preserveIconSpacing = global::KillTeam.Droid.Resource.Styleable.MenuView_preserveIconSpacing;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.MenuView_subMenuArrow = global::KillTeam.Droid.Resource.Styleable.MenuView_subMenuArrow;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.NavigationView = global::KillTeam.Droid.Resource.Styleable.NavigationView;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.NavigationView_android_background = global::KillTeam.Droid.Resource.Styleable.NavigationView_android_background;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.NavigationView_android_fitsSystemWindows = global::KillTeam.Droid.Resource.Styleable.NavigationView_android_fitsSystemWindows;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.NavigationView_android_maxWidth = global::KillTeam.Droid.Resource.Styleable.NavigationView_android_maxWidth;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.NavigationView_elevation = global::KillTeam.Droid.Resource.Styleable.NavigationView_elevation;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.NavigationView_headerLayout = global::KillTeam.Droid.Resource.Styleable.NavigationView_headerLayout;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.NavigationView_itemBackground = global::KillTeam.Droid.Resource.Styleable.NavigationView_itemBackground;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.NavigationView_itemIconTint = global::KillTeam.Droid.Resource.Styleable.NavigationView_itemIconTint;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.NavigationView_itemTextAppearance = global::KillTeam.Droid.Resource.Styleable.NavigationView_itemTextAppearance;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.NavigationView_itemTextColor = global::KillTeam.Droid.Resource.Styleable.NavigationView_itemTextColor;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.NavigationView_menu = global::KillTeam.Droid.Resource.Styleable.NavigationView_menu;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.PopupWindow = global::KillTeam.Droid.Resource.Styleable.PopupWindow;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.PopupWindowBackgroundState = global::KillTeam.Droid.Resource.Styleable.PopupWindowBackgroundState;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.PopupWindowBackgroundState_state_above_anchor = global::KillTeam.Droid.Resource.Styleable.PopupWindowBackgroundState_state_above_anchor;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.PopupWindow_android_popupAnimationStyle = global::KillTeam.Droid.Resource.Styleable.PopupWindow_android_popupAnimationStyle;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.PopupWindow_android_popupBackground = global::KillTeam.Droid.Resource.Styleable.PopupWindow_android_popupBackground;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.PopupWindow_overlapAnchor = global::KillTeam.Droid.Resource.Styleable.PopupWindow_overlapAnchor;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.RecycleListView = global::KillTeam.Droid.Resource.Styleable.RecycleListView;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.RecycleListView_paddingBottomNoButtons = global::KillTeam.Droid.Resource.Styleable.RecycleListView_paddingBottomNoButtons;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.RecycleListView_paddingTopNoTitle = global::KillTeam.Droid.Resource.Styleable.RecycleListView_paddingTopNoTitle;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.RecyclerView = global::KillTeam.Droid.Resource.Styleable.RecyclerView;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.RecyclerView_android_descendantFocusability = global::KillTeam.Droid.Resource.Styleable.RecyclerView_android_descendantFocusability;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.RecyclerView_android_orientation = global::KillTeam.Droid.Resource.Styleable.RecyclerView_android_orientation;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.RecyclerView_fastScrollEnabled = global::KillTeam.Droid.Resource.Styleable.RecyclerView_fastScrollEnabled;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.RecyclerView_fastScrollHorizontalThumbDrawable = global::KillTeam.Droid.Resource.Styleable.RecyclerView_fastScrollHorizontalThumbDrawable;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.RecyclerView_fastScrollHorizontalTrackDrawable = global::KillTeam.Droid.Resource.Styleable.RecyclerView_fastScrollHorizontalTrackDrawable;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.RecyclerView_fastScrollVerticalThumbDrawable = global::KillTeam.Droid.Resource.Styleable.RecyclerView_fastScrollVerticalThumbDrawable;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.RecyclerView_fastScrollVerticalTrackDrawable = global::KillTeam.Droid.Resource.Styleable.RecyclerView_fastScrollVerticalTrackDrawable;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.RecyclerView_layoutManager = global::KillTeam.Droid.Resource.Styleable.RecyclerView_layoutManager;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.RecyclerView_reverseLayout = global::KillTeam.Droid.Resource.Styleable.RecyclerView_reverseLayout;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.RecyclerView_spanCount = global::KillTeam.Droid.Resource.Styleable.RecyclerView_spanCount;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.RecyclerView_stackFromEnd = global::KillTeam.Droid.Resource.Styleable.RecyclerView_stackFromEnd;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.ScrimInsetsFrameLayout = global::KillTeam.Droid.Resource.Styleable.ScrimInsetsFrameLayout;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.ScrimInsetsFrameLayout_insetForeground = global::KillTeam.Droid.Resource.Styleable.ScrimInsetsFrameLayout_insetForeground;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.ScrollingViewBehavior_Layout = global::KillTeam.Droid.Resource.Styleable.ScrollingViewBehavior_Layout;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.ScrollingViewBehavior_Layout_behavior_overlapTop = global::KillTeam.Droid.Resource.Styleable.ScrollingViewBehavior_Layout_behavior_overlapTop;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.SearchView = global::KillTeam.Droid.Resource.Styleable.SearchView;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.SearchView_android_focusable = global::KillTeam.Droid.Resource.Styleable.SearchView_android_focusable;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.SearchView_android_imeOptions = global::KillTeam.Droid.Resource.Styleable.SearchView_android_imeOptions;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.SearchView_android_inputType = global::KillTeam.Droid.Resource.Styleable.SearchView_android_inputType;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.SearchView_android_maxWidth = global::KillTeam.Droid.Resource.Styleable.SearchView_android_maxWidth;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.SearchView_closeIcon = global::KillTeam.Droid.Resource.Styleable.SearchView_closeIcon;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.SearchView_commitIcon = global::KillTeam.Droid.Resource.Styleable.SearchView_commitIcon;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.SearchView_defaultQueryHint = global::KillTeam.Droid.Resource.Styleable.SearchView_defaultQueryHint;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.SearchView_goIcon = global::KillTeam.Droid.Resource.Styleable.SearchView_goIcon;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.SearchView_iconifiedByDefault = global::KillTeam.Droid.Resource.Styleable.SearchView_iconifiedByDefault;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.SearchView_layout = global::KillTeam.Droid.Resource.Styleable.SearchView_layout;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.SearchView_queryBackground = global::KillTeam.Droid.Resource.Styleable.SearchView_queryBackground;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.SearchView_queryHint = global::KillTeam.Droid.Resource.Styleable.SearchView_queryHint;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.SearchView_searchHintIcon = global::KillTeam.Droid.Resource.Styleable.SearchView_searchHintIcon;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.SearchView_searchIcon = global::KillTeam.Droid.Resource.Styleable.SearchView_searchIcon;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.SearchView_submitBackground = global::KillTeam.Droid.Resource.Styleable.SearchView_submitBackground;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.SearchView_suggestionRowLayout = global::KillTeam.Droid.Resource.Styleable.SearchView_suggestionRowLayout;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.SearchView_voiceIcon = global::KillTeam.Droid.Resource.Styleable.SearchView_voiceIcon;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.SnackbarLayout = global::KillTeam.Droid.Resource.Styleable.SnackbarLayout;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.SnackbarLayout_android_maxWidth = global::KillTeam.Droid.Resource.Styleable.SnackbarLayout_android_maxWidth;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.SnackbarLayout_elevation = global::KillTeam.Droid.Resource.Styleable.SnackbarLayout_elevation;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.SnackbarLayout_maxActionInlineWidth = global::KillTeam.Droid.Resource.Styleable.SnackbarLayout_maxActionInlineWidth;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.Spinner = global::KillTeam.Droid.Resource.Styleable.Spinner;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.Spinner_android_dropDownWidth = global::KillTeam.Droid.Resource.Styleable.Spinner_android_dropDownWidth;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.Spinner_android_entries = global::KillTeam.Droid.Resource.Styleable.Spinner_android_entries;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.Spinner_android_popupBackground = global::KillTeam.Droid.Resource.Styleable.Spinner_android_popupBackground;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.Spinner_android_prompt = global::KillTeam.Droid.Resource.Styleable.Spinner_android_prompt;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.Spinner_popupTheme = global::KillTeam.Droid.Resource.Styleable.Spinner_popupTheme;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.SwitchCompat = global::KillTeam.Droid.Resource.Styleable.SwitchCompat;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.SwitchCompat_android_textOff = global::KillTeam.Droid.Resource.Styleable.SwitchCompat_android_textOff;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.SwitchCompat_android_textOn = global::KillTeam.Droid.Resource.Styleable.SwitchCompat_android_textOn;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.SwitchCompat_android_thumb = global::KillTeam.Droid.Resource.Styleable.SwitchCompat_android_thumb;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.SwitchCompat_showText = global::KillTeam.Droid.Resource.Styleable.SwitchCompat_showText;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.SwitchCompat_splitTrack = global::KillTeam.Droid.Resource.Styleable.SwitchCompat_splitTrack;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.SwitchCompat_switchMinWidth = global::KillTeam.Droid.Resource.Styleable.SwitchCompat_switchMinWidth;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.SwitchCompat_switchPadding = global::KillTeam.Droid.Resource.Styleable.SwitchCompat_switchPadding;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.SwitchCompat_switchTextAppearance = global::KillTeam.Droid.Resource.Styleable.SwitchCompat_switchTextAppearance;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.SwitchCompat_thumbTextPadding = global::KillTeam.Droid.Resource.Styleable.SwitchCompat_thumbTextPadding;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.SwitchCompat_thumbTint = global::KillTeam.Droid.Resource.Styleable.SwitchCompat_thumbTint;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.SwitchCompat_thumbTintMode = global::KillTeam.Droid.Resource.Styleable.SwitchCompat_thumbTintMode;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.SwitchCompat_track = global::KillTeam.Droid.Resource.Styleable.SwitchCompat_track;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.SwitchCompat_trackTint = global::KillTeam.Droid.Resource.Styleable.SwitchCompat_trackTint;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.SwitchCompat_trackTintMode = global::KillTeam.Droid.Resource.Styleable.SwitchCompat_trackTintMode;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.TabItem = global::KillTeam.Droid.Resource.Styleable.TabItem;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.TabItem_android_icon = global::KillTeam.Droid.Resource.Styleable.TabItem_android_icon;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.TabItem_android_layout = global::KillTeam.Droid.Resource.Styleable.TabItem_android_layout;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.TabItem_android_text = global::KillTeam.Droid.Resource.Styleable.TabItem_android_text;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.TabLayout = global::KillTeam.Droid.Resource.Styleable.TabLayout;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.TabLayout_tabBackground = global::KillTeam.Droid.Resource.Styleable.TabLayout_tabBackground;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.TabLayout_tabContentStart = global::KillTeam.Droid.Resource.Styleable.TabLayout_tabContentStart;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.TabLayout_tabGravity = global::KillTeam.Droid.Resource.Styleable.TabLayout_tabGravity;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.TabLayout_tabIndicatorColor = global::KillTeam.Droid.Resource.Styleable.TabLayout_tabIndicatorColor;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.TabLayout_tabIndicatorHeight = global::KillTeam.Droid.Resource.Styleable.TabLayout_tabIndicatorHeight;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.TabLayout_tabMaxWidth = global::KillTeam.Droid.Resource.Styleable.TabLayout_tabMaxWidth;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.TabLayout_tabMinWidth = global::KillTeam.Droid.Resource.Styleable.TabLayout_tabMinWidth;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.TabLayout_tabMode = global::KillTeam.Droid.Resource.Styleable.TabLayout_tabMode;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.TabLayout_tabPadding = global::KillTeam.Droid.Resource.Styleable.TabLayout_tabPadding;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.TabLayout_tabPaddingBottom = global::KillTeam.Droid.Resource.Styleable.TabLayout_tabPaddingBottom;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.TabLayout_tabPaddingEnd = global::KillTeam.Droid.Resource.Styleable.TabLayout_tabPaddingEnd;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.TabLayout_tabPaddingStart = global::KillTeam.Droid.Resource.Styleable.TabLayout_tabPaddingStart;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.TabLayout_tabPaddingTop = global::KillTeam.Droid.Resource.Styleable.TabLayout_tabPaddingTop;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.TabLayout_tabSelectedTextColor = global::KillTeam.Droid.Resource.Styleable.TabLayout_tabSelectedTextColor;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.TabLayout_tabTextAppearance = global::KillTeam.Droid.Resource.Styleable.TabLayout_tabTextAppearance;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.TabLayout_tabTextColor = global::KillTeam.Droid.Resource.Styleable.TabLayout_tabTextColor;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.TextAppearance = global::KillTeam.Droid.Resource.Styleable.TextAppearance;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.TextAppearance_android_fontFamily = global::KillTeam.Droid.Resource.Styleable.TextAppearance_android_fontFamily;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.TextAppearance_android_shadowColor = global::KillTeam.Droid.Resource.Styleable.TextAppearance_android_shadowColor;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.TextAppearance_android_shadowDx = global::KillTeam.Droid.Resource.Styleable.TextAppearance_android_shadowDx;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.TextAppearance_android_shadowDy = global::KillTeam.Droid.Resource.Styleable.TextAppearance_android_shadowDy;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.TextAppearance_android_shadowRadius = global::KillTeam.Droid.Resource.Styleable.TextAppearance_android_shadowRadius;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.TextAppearance_android_textColor = global::KillTeam.Droid.Resource.Styleable.TextAppearance_android_textColor;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.TextAppearance_android_textColorHint = global::KillTeam.Droid.Resource.Styleable.TextAppearance_android_textColorHint;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.TextAppearance_android_textColorLink = global::KillTeam.Droid.Resource.Styleable.TextAppearance_android_textColorLink;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.TextAppearance_android_textSize = global::KillTeam.Droid.Resource.Styleable.TextAppearance_android_textSize;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.TextAppearance_android_textStyle = global::KillTeam.Droid.Resource.Styleable.TextAppearance_android_textStyle;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.TextAppearance_android_typeface = global::KillTeam.Droid.Resource.Styleable.TextAppearance_android_typeface;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.TextAppearance_fontFamily = global::KillTeam.Droid.Resource.Styleable.TextAppearance_fontFamily;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.TextAppearance_textAllCaps = global::KillTeam.Droid.Resource.Styleable.TextAppearance_textAllCaps;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.TextInputLayout = global::KillTeam.Droid.Resource.Styleable.TextInputLayout;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.TextInputLayout_android_hint = global::KillTeam.Droid.Resource.Styleable.TextInputLayout_android_hint;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.TextInputLayout_android_textColorHint = global::KillTeam.Droid.Resource.Styleable.TextInputLayout_android_textColorHint;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.TextInputLayout_counterEnabled = global::KillTeam.Droid.Resource.Styleable.TextInputLayout_counterEnabled;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.TextInputLayout_counterMaxLength = global::KillTeam.Droid.Resource.Styleable.TextInputLayout_counterMaxLength;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.TextInputLayout_counterOverflowTextAppearance = global::KillTeam.Droid.Resource.Styleable.TextInputLayout_counterOverflowTextAppearance;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.TextInputLayout_counterTextAppearance = global::KillTeam.Droid.Resource.Styleable.TextInputLayout_counterTextAppearance;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.TextInputLayout_errorEnabled = global::KillTeam.Droid.Resource.Styleable.TextInputLayout_errorEnabled;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.TextInputLayout_errorTextAppearance = global::KillTeam.Droid.Resource.Styleable.TextInputLayout_errorTextAppearance;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.TextInputLayout_hintAnimationEnabled = global::KillTeam.Droid.Resource.Styleable.TextInputLayout_hintAnimationEnabled;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.TextInputLayout_hintEnabled = global::KillTeam.Droid.Resource.Styleable.TextInputLayout_hintEnabled;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.TextInputLayout_hintTextAppearance = global::KillTeam.Droid.Resource.Styleable.TextInputLayout_hintTextAppearance;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.TextInputLayout_passwordToggleContentDescription = global::KillTeam.Droid.Resource.Styleable.TextInputLayout_passwordToggleContentDescription;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.TextInputLayout_passwordToggleDrawable = global::KillTeam.Droid.Resource.Styleable.TextInputLayout_passwordToggleDrawable;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.TextInputLayout_passwordToggleEnabled = global::KillTeam.Droid.Resource.Styleable.TextInputLayout_passwordToggleEnabled;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.TextInputLayout_passwordToggleTint = global::KillTeam.Droid.Resource.Styleable.TextInputLayout_passwordToggleTint;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.TextInputLayout_passwordToggleTintMode = global::KillTeam.Droid.Resource.Styleable.TextInputLayout_passwordToggleTintMode;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.Toolbar = global::KillTeam.Droid.Resource.Styleable.Toolbar;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.Toolbar_android_gravity = global::KillTeam.Droid.Resource.Styleable.Toolbar_android_gravity;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.Toolbar_android_minHeight = global::KillTeam.Droid.Resource.Styleable.Toolbar_android_minHeight;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.Toolbar_buttonGravity = global::KillTeam.Droid.Resource.Styleable.Toolbar_buttonGravity;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.Toolbar_collapseContentDescription = global::KillTeam.Droid.Resource.Styleable.Toolbar_collapseContentDescription;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.Toolbar_collapseIcon = global::KillTeam.Droid.Resource.Styleable.Toolbar_collapseIcon;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.Toolbar_contentInsetEnd = global::KillTeam.Droid.Resource.Styleable.Toolbar_contentInsetEnd;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.Toolbar_contentInsetEndWithActions = global::KillTeam.Droid.Resource.Styleable.Toolbar_contentInsetEndWithActions;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.Toolbar_contentInsetLeft = global::KillTeam.Droid.Resource.Styleable.Toolbar_contentInsetLeft;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.Toolbar_contentInsetRight = global::KillTeam.Droid.Resource.Styleable.Toolbar_contentInsetRight;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.Toolbar_contentInsetStart = global::KillTeam.Droid.Resource.Styleable.Toolbar_contentInsetStart;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.Toolbar_contentInsetStartWithNavigation = global::KillTeam.Droid.Resource.Styleable.Toolbar_contentInsetStartWithNavigation;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.Toolbar_logo = global::KillTeam.Droid.Resource.Styleable.Toolbar_logo;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.Toolbar_logoDescription = global::KillTeam.Droid.Resource.Styleable.Toolbar_logoDescription;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.Toolbar_maxButtonHeight = global::KillTeam.Droid.Resource.Styleable.Toolbar_maxButtonHeight;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.Toolbar_navigationContentDescription = global::KillTeam.Droid.Resource.Styleable.Toolbar_navigationContentDescription;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.Toolbar_navigationIcon = global::KillTeam.Droid.Resource.Styleable.Toolbar_navigationIcon;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.Toolbar_popupTheme = global::KillTeam.Droid.Resource.Styleable.Toolbar_popupTheme;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.Toolbar_subtitle = global::KillTeam.Droid.Resource.Styleable.Toolbar_subtitle;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.Toolbar_subtitleTextAppearance = global::KillTeam.Droid.Resource.Styleable.Toolbar_subtitleTextAppearance;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.Toolbar_subtitleTextColor = global::KillTeam.Droid.Resource.Styleable.Toolbar_subtitleTextColor;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.Toolbar_title = global::KillTeam.Droid.Resource.Styleable.Toolbar_title;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.Toolbar_titleMargin = global::KillTeam.Droid.Resource.Styleable.Toolbar_titleMargin;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.Toolbar_titleMarginBottom = global::KillTeam.Droid.Resource.Styleable.Toolbar_titleMarginBottom;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.Toolbar_titleMarginEnd = global::KillTeam.Droid.Resource.Styleable.Toolbar_titleMarginEnd;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.Toolbar_titleMargins = global::KillTeam.Droid.Resource.Styleable.Toolbar_titleMargins;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.Toolbar_titleMarginStart = global::KillTeam.Droid.Resource.Styleable.Toolbar_titleMarginStart;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.Toolbar_titleMarginTop = global::KillTeam.Droid.Resource.Styleable.Toolbar_titleMarginTop;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.Toolbar_titleTextAppearance = global::KillTeam.Droid.Resource.Styleable.Toolbar_titleTextAppearance;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.Toolbar_titleTextColor = global::KillTeam.Droid.Resource.Styleable.Toolbar_titleTextColor;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.View = global::KillTeam.Droid.Resource.Styleable.View;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.ViewBackgroundHelper = global::KillTeam.Droid.Resource.Styleable.ViewBackgroundHelper;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.ViewBackgroundHelper_android_background = global::KillTeam.Droid.Resource.Styleable.ViewBackgroundHelper_android_background;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.ViewBackgroundHelper_backgroundTint = global::KillTeam.Droid.Resource.Styleable.ViewBackgroundHelper_backgroundTint;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.ViewBackgroundHelper_backgroundTintMode = global::KillTeam.Droid.Resource.Styleable.ViewBackgroundHelper_backgroundTintMode;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.ViewStubCompat = global::KillTeam.Droid.Resource.Styleable.ViewStubCompat;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.ViewStubCompat_android_id = global::KillTeam.Droid.Resource.Styleable.ViewStubCompat_android_id;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.ViewStubCompat_android_inflatedId = global::KillTeam.Droid.Resource.Styleable.ViewStubCompat_android_inflatedId;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.ViewStubCompat_android_layout = global::KillTeam.Droid.Resource.Styleable.ViewStubCompat_android_layout;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.View_android_focusable = global::KillTeam.Droid.Resource.Styleable.View_android_focusable;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.View_android_theme = global::KillTeam.Droid.Resource.Styleable.View_android_theme;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.View_paddingEnd = global::KillTeam.Droid.Resource.Styleable.View_paddingEnd;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.View_paddingStart = global::KillTeam.Droid.Resource.Styleable.View_paddingStart;
+			global::Sharpnado.Presentation.Forms.Droid.Resource.Styleable.View_theme = global::KillTeam.Droid.Resource.Styleable.View_theme;
 			global::Xamarin.Forms.Platform.Android.Resource.Animation.abc_fade_in = global::KillTeam.Droid.Resource.Animation.abc_fade_in;
 			global::Xamarin.Forms.Platform.Android.Resource.Animation.abc_fade_out = global::KillTeam.Droid.Resource.Animation.abc_fade_out;
 			global::Xamarin.Forms.Platform.Android.Resource.Animation.abc_grow_fade_in_from_bottom = global::KillTeam.Droid.Resource.Animation.abc_grow_fade_in_from_bottom;
@@ -11042,838 +13267,844 @@ namespace KillTeam.Droid
 			public const int avd_show_password = 2131165277;
 			
 			// aapt resource value: 0x7F07005E
-			public const int btn_checkbox_checked_mtrl = 2131165278;
+			public const int bottom_shadow = 2131165278;
 			
 			// aapt resource value: 0x7F07005F
-			public const int btn_checkbox_checked_to_unchecked_mtrl_animation = 2131165279;
+			public const int btn_checkbox_checked_mtrl = 2131165279;
 			
 			// aapt resource value: 0x7F070060
-			public const int btn_checkbox_unchecked_mtrl = 2131165280;
+			public const int btn_checkbox_checked_to_unchecked_mtrl_animation = 2131165280;
 			
 			// aapt resource value: 0x7F070061
-			public const int btn_checkbox_unchecked_to_checked_mtrl_animation = 2131165281;
+			public const int btn_checkbox_unchecked_mtrl = 2131165281;
 			
 			// aapt resource value: 0x7F070062
-			public const int btn_radio_off_mtrl = 2131165282;
+			public const int btn_checkbox_unchecked_to_checked_mtrl_animation = 2131165282;
 			
 			// aapt resource value: 0x7F070063
-			public const int btn_radio_off_to_on_mtrl_animation = 2131165283;
+			public const int btn_radio_off_mtrl = 2131165283;
 			
 			// aapt resource value: 0x7F070064
-			public const int btn_radio_on_mtrl = 2131165284;
+			public const int btn_radio_off_to_on_mtrl_animation = 2131165284;
 			
 			// aapt resource value: 0x7F070065
-			public const int btn_radio_on_to_off_mtrl_animation = 2131165285;
+			public const int btn_radio_on_mtrl = 2131165285;
 			
 			// aapt resource value: 0x7F070066
-			public const int cible = 2131165286;
+			public const int btn_radio_on_to_off_mtrl_animation = 2131165286;
 			
 			// aapt resource value: 0x7F070067
-			public const int common_full_open_on_phone = 2131165287;
+			public const int cible = 2131165287;
 			
 			// aapt resource value: 0x7F070068
-			public const int common_google_signin_btn_icon_dark = 2131165288;
+			public const int common_full_open_on_phone = 2131165288;
 			
 			// aapt resource value: 0x7F070069
-			public const int common_google_signin_btn_icon_dark_focused = 2131165289;
+			public const int common_google_signin_btn_icon_dark = 2131165289;
 			
 			// aapt resource value: 0x7F07006A
-			public const int common_google_signin_btn_icon_dark_normal = 2131165290;
+			public const int common_google_signin_btn_icon_dark_focused = 2131165290;
 			
 			// aapt resource value: 0x7F07006B
-			public const int common_google_signin_btn_icon_dark_normal_background = 2131165291;
+			public const int common_google_signin_btn_icon_dark_normal = 2131165291;
 			
 			// aapt resource value: 0x7F07006C
-			public const int common_google_signin_btn_icon_disabled = 2131165292;
+			public const int common_google_signin_btn_icon_dark_normal_background = 2131165292;
 			
 			// aapt resource value: 0x7F07006D
-			public const int common_google_signin_btn_icon_light = 2131165293;
+			public const int common_google_signin_btn_icon_disabled = 2131165293;
 			
 			// aapt resource value: 0x7F07006E
-			public const int common_google_signin_btn_icon_light_focused = 2131165294;
+			public const int common_google_signin_btn_icon_light = 2131165294;
 			
 			// aapt resource value: 0x7F07006F
-			public const int common_google_signin_btn_icon_light_normal = 2131165295;
+			public const int common_google_signin_btn_icon_light_focused = 2131165295;
 			
 			// aapt resource value: 0x7F070070
-			public const int common_google_signin_btn_icon_light_normal_background = 2131165296;
+			public const int common_google_signin_btn_icon_light_normal = 2131165296;
 			
 			// aapt resource value: 0x7F070071
-			public const int common_google_signin_btn_text_dark = 2131165297;
+			public const int common_google_signin_btn_icon_light_normal_background = 2131165297;
 			
 			// aapt resource value: 0x7F070072
-			public const int common_google_signin_btn_text_dark_focused = 2131165298;
+			public const int common_google_signin_btn_text_dark = 2131165298;
 			
 			// aapt resource value: 0x7F070073
-			public const int common_google_signin_btn_text_dark_normal = 2131165299;
+			public const int common_google_signin_btn_text_dark_focused = 2131165299;
 			
 			// aapt resource value: 0x7F070074
-			public const int common_google_signin_btn_text_dark_normal_background = 2131165300;
+			public const int common_google_signin_btn_text_dark_normal = 2131165300;
 			
 			// aapt resource value: 0x7F070075
-			public const int common_google_signin_btn_text_disabled = 2131165301;
+			public const int common_google_signin_btn_text_dark_normal_background = 2131165301;
 			
 			// aapt resource value: 0x7F070076
-			public const int common_google_signin_btn_text_light = 2131165302;
+			public const int common_google_signin_btn_text_disabled = 2131165302;
 			
 			// aapt resource value: 0x7F070077
-			public const int common_google_signin_btn_text_light_focused = 2131165303;
+			public const int common_google_signin_btn_text_light = 2131165303;
 			
 			// aapt resource value: 0x7F070078
-			public const int common_google_signin_btn_text_light_normal = 2131165304;
+			public const int common_google_signin_btn_text_light_focused = 2131165304;
 			
 			// aapt resource value: 0x7F070079
-			public const int common_google_signin_btn_text_light_normal_background = 2131165305;
+			public const int common_google_signin_btn_text_light_normal = 2131165305;
 			
 			// aapt resource value: 0x7F07007A
-			public const int danger = 2131165306;
+			public const int common_google_signin_btn_text_light_normal_background = 2131165306;
 			
 			// aapt resource value: 0x7F07007B
-			public const int delete = 2131165307;
+			public const int danger = 2131165307;
 			
 			// aapt resource value: 0x7F07007C
-			public const int design_bottom_navigation_item_background = 2131165308;
+			public const int delete = 2131165308;
 			
 			// aapt resource value: 0x7F07007D
-			public const int design_fab_background = 2131165309;
+			public const int design_bottom_navigation_item_background = 2131165309;
 			
 			// aapt resource value: 0x7F07007E
-			public const int design_ic_visibility = 2131165310;
+			public const int design_fab_background = 2131165310;
 			
 			// aapt resource value: 0x7F07007F
-			public const int design_ic_visibility_off = 2131165311;
+			public const int design_ic_visibility = 2131165311;
 			
 			// aapt resource value: 0x7F070080
-			public const int design_password_eye = 2131165312;
+			public const int design_ic_visibility_off = 2131165312;
 			
 			// aapt resource value: 0x7F070081
-			public const int design_snackbar_background = 2131165313;
+			public const int design_password_eye = 2131165313;
 			
 			// aapt resource value: 0x7F070082
-			public const int Down = 2131165314;
+			public const int design_snackbar_background = 2131165314;
 			
 			// aapt resource value: 0x7F070083
-			public const int eye = 2131165315;
+			public const int Down = 2131165315;
 			
 			// aapt resource value: 0x7F070084
-			public const int googleg_disabled_color_18 = 2131165316;
+			public const int eye = 2131165316;
 			
 			// aapt resource value: 0x7F070085
-			public const int googleg_standard_color_18 = 2131165317;
+			public const int googleg_disabled_color_18 = 2131165317;
 			
 			// aapt resource value: 0x7F070086
-			public const int ic_audiotrack_dark = 2131165318;
+			public const int googleg_standard_color_18 = 2131165318;
 			
 			// aapt resource value: 0x7F070087
-			public const int ic_audiotrack_light = 2131165319;
+			public const int ic_audiotrack_dark = 2131165319;
 			
 			// aapt resource value: 0x7F070088
-			public const int ic_checked_checkbox = 2131165320;
+			public const int ic_audiotrack_light = 2131165320;
 			
 			// aapt resource value: 0x7F070089
-			public const int ic_dialog_close_dark = 2131165321;
+			public const int ic_checked_checkbox = 2131165321;
 			
 			// aapt resource value: 0x7F07008A
-			public const int ic_dialog_close_light = 2131165322;
+			public const int ic_dialog_close_dark = 2131165322;
 			
 			// aapt resource value: 0x7F07008B
-			public const int ic_group_collapse_00 = 2131165323;
+			public const int ic_dialog_close_light = 2131165323;
 			
 			// aapt resource value: 0x7F07008C
-			public const int ic_group_collapse_01 = 2131165324;
+			public const int ic_group_collapse_00 = 2131165324;
 			
 			// aapt resource value: 0x7F07008D
-			public const int ic_group_collapse_02 = 2131165325;
+			public const int ic_group_collapse_01 = 2131165325;
 			
 			// aapt resource value: 0x7F07008E
-			public const int ic_group_collapse_03 = 2131165326;
+			public const int ic_group_collapse_02 = 2131165326;
 			
 			// aapt resource value: 0x7F07008F
-			public const int ic_group_collapse_04 = 2131165327;
+			public const int ic_group_collapse_03 = 2131165327;
 			
 			// aapt resource value: 0x7F070090
-			public const int ic_group_collapse_05 = 2131165328;
+			public const int ic_group_collapse_04 = 2131165328;
 			
 			// aapt resource value: 0x7F070091
-			public const int ic_group_collapse_06 = 2131165329;
+			public const int ic_group_collapse_05 = 2131165329;
 			
 			// aapt resource value: 0x7F070092
-			public const int ic_group_collapse_07 = 2131165330;
+			public const int ic_group_collapse_06 = 2131165330;
 			
 			// aapt resource value: 0x7F070093
-			public const int ic_group_collapse_08 = 2131165331;
+			public const int ic_group_collapse_07 = 2131165331;
 			
 			// aapt resource value: 0x7F070094
-			public const int ic_group_collapse_09 = 2131165332;
+			public const int ic_group_collapse_08 = 2131165332;
 			
 			// aapt resource value: 0x7F070095
-			public const int ic_group_collapse_10 = 2131165333;
+			public const int ic_group_collapse_09 = 2131165333;
 			
 			// aapt resource value: 0x7F070096
-			public const int ic_group_collapse_11 = 2131165334;
+			public const int ic_group_collapse_10 = 2131165334;
 			
 			// aapt resource value: 0x7F070097
-			public const int ic_group_collapse_12 = 2131165335;
+			public const int ic_group_collapse_11 = 2131165335;
 			
 			// aapt resource value: 0x7F070098
-			public const int ic_group_collapse_13 = 2131165336;
+			public const int ic_group_collapse_12 = 2131165336;
 			
 			// aapt resource value: 0x7F070099
-			public const int ic_group_collapse_14 = 2131165337;
+			public const int ic_group_collapse_13 = 2131165337;
 			
 			// aapt resource value: 0x7F07009A
-			public const int ic_group_collapse_15 = 2131165338;
+			public const int ic_group_collapse_14 = 2131165338;
 			
 			// aapt resource value: 0x7F07009B
-			public const int ic_group_expand_00 = 2131165339;
+			public const int ic_group_collapse_15 = 2131165339;
 			
 			// aapt resource value: 0x7F07009C
-			public const int ic_group_expand_01 = 2131165340;
+			public const int ic_group_expand_00 = 2131165340;
 			
 			// aapt resource value: 0x7F07009D
-			public const int ic_group_expand_02 = 2131165341;
+			public const int ic_group_expand_01 = 2131165341;
 			
 			// aapt resource value: 0x7F07009E
-			public const int ic_group_expand_03 = 2131165342;
+			public const int ic_group_expand_02 = 2131165342;
 			
 			// aapt resource value: 0x7F07009F
-			public const int ic_group_expand_04 = 2131165343;
+			public const int ic_group_expand_03 = 2131165343;
 			
 			// aapt resource value: 0x7F0700A0
-			public const int ic_group_expand_05 = 2131165344;
+			public const int ic_group_expand_04 = 2131165344;
 			
 			// aapt resource value: 0x7F0700A1
-			public const int ic_group_expand_06 = 2131165345;
+			public const int ic_group_expand_05 = 2131165345;
 			
 			// aapt resource value: 0x7F0700A2
-			public const int ic_group_expand_07 = 2131165346;
+			public const int ic_group_expand_06 = 2131165346;
 			
 			// aapt resource value: 0x7F0700A3
-			public const int ic_group_expand_08 = 2131165347;
+			public const int ic_group_expand_07 = 2131165347;
 			
 			// aapt resource value: 0x7F0700A4
-			public const int ic_group_expand_09 = 2131165348;
+			public const int ic_group_expand_08 = 2131165348;
 			
 			// aapt resource value: 0x7F0700A5
-			public const int ic_group_expand_10 = 2131165349;
+			public const int ic_group_expand_09 = 2131165349;
 			
 			// aapt resource value: 0x7F0700A6
-			public const int ic_group_expand_11 = 2131165350;
+			public const int ic_group_expand_10 = 2131165350;
 			
 			// aapt resource value: 0x7F0700A7
-			public const int ic_group_expand_12 = 2131165351;
+			public const int ic_group_expand_11 = 2131165351;
 			
 			// aapt resource value: 0x7F0700A8
-			public const int ic_group_expand_13 = 2131165352;
+			public const int ic_group_expand_12 = 2131165352;
 			
 			// aapt resource value: 0x7F0700A9
-			public const int ic_group_expand_14 = 2131165353;
+			public const int ic_group_expand_13 = 2131165353;
 			
 			// aapt resource value: 0x7F0700AA
-			public const int ic_group_expand_15 = 2131165354;
+			public const int ic_group_expand_14 = 2131165354;
 			
 			// aapt resource value: 0x7F0700AB
-			public const int ic_media_pause_dark = 2131165355;
+			public const int ic_group_expand_15 = 2131165355;
 			
 			// aapt resource value: 0x7F0700AC
-			public const int ic_media_pause_light = 2131165356;
+			public const int ic_media_pause_dark = 2131165356;
 			
 			// aapt resource value: 0x7F0700AD
-			public const int ic_media_play_dark = 2131165357;
+			public const int ic_media_pause_light = 2131165357;
 			
 			// aapt resource value: 0x7F0700AE
-			public const int ic_media_play_light = 2131165358;
+			public const int ic_media_play_dark = 2131165358;
 			
 			// aapt resource value: 0x7F0700AF
-			public const int ic_media_stop_dark = 2131165359;
+			public const int ic_media_play_light = 2131165359;
 			
 			// aapt resource value: 0x7F0700B0
-			public const int ic_media_stop_light = 2131165360;
+			public const int ic_media_stop_dark = 2131165360;
 			
 			// aapt resource value: 0x7F0700B1
-			public const int ic_mr_button_connected_00_dark = 2131165361;
+			public const int ic_media_stop_light = 2131165361;
 			
 			// aapt resource value: 0x7F0700B2
-			public const int ic_mr_button_connected_00_light = 2131165362;
+			public const int ic_mr_button_connected_00_dark = 2131165362;
 			
 			// aapt resource value: 0x7F0700B3
-			public const int ic_mr_button_connected_01_dark = 2131165363;
+			public const int ic_mr_button_connected_00_light = 2131165363;
 			
 			// aapt resource value: 0x7F0700B4
-			public const int ic_mr_button_connected_01_light = 2131165364;
+			public const int ic_mr_button_connected_01_dark = 2131165364;
 			
 			// aapt resource value: 0x7F0700B5
-			public const int ic_mr_button_connected_02_dark = 2131165365;
+			public const int ic_mr_button_connected_01_light = 2131165365;
 			
 			// aapt resource value: 0x7F0700B6
-			public const int ic_mr_button_connected_02_light = 2131165366;
+			public const int ic_mr_button_connected_02_dark = 2131165366;
 			
 			// aapt resource value: 0x7F0700B7
-			public const int ic_mr_button_connected_03_dark = 2131165367;
+			public const int ic_mr_button_connected_02_light = 2131165367;
 			
 			// aapt resource value: 0x7F0700B8
-			public const int ic_mr_button_connected_03_light = 2131165368;
+			public const int ic_mr_button_connected_03_dark = 2131165368;
 			
 			// aapt resource value: 0x7F0700B9
-			public const int ic_mr_button_connected_04_dark = 2131165369;
+			public const int ic_mr_button_connected_03_light = 2131165369;
 			
 			// aapt resource value: 0x7F0700BA
-			public const int ic_mr_button_connected_04_light = 2131165370;
+			public const int ic_mr_button_connected_04_dark = 2131165370;
 			
 			// aapt resource value: 0x7F0700BB
-			public const int ic_mr_button_connected_05_dark = 2131165371;
+			public const int ic_mr_button_connected_04_light = 2131165371;
 			
 			// aapt resource value: 0x7F0700BC
-			public const int ic_mr_button_connected_05_light = 2131165372;
+			public const int ic_mr_button_connected_05_dark = 2131165372;
 			
 			// aapt resource value: 0x7F0700BD
-			public const int ic_mr_button_connected_06_dark = 2131165373;
+			public const int ic_mr_button_connected_05_light = 2131165373;
 			
 			// aapt resource value: 0x7F0700BE
-			public const int ic_mr_button_connected_06_light = 2131165374;
+			public const int ic_mr_button_connected_06_dark = 2131165374;
 			
 			// aapt resource value: 0x7F0700BF
-			public const int ic_mr_button_connected_07_dark = 2131165375;
+			public const int ic_mr_button_connected_06_light = 2131165375;
 			
 			// aapt resource value: 0x7F0700C0
-			public const int ic_mr_button_connected_07_light = 2131165376;
+			public const int ic_mr_button_connected_07_dark = 2131165376;
 			
 			// aapt resource value: 0x7F0700C1
-			public const int ic_mr_button_connected_08_dark = 2131165377;
+			public const int ic_mr_button_connected_07_light = 2131165377;
 			
 			// aapt resource value: 0x7F0700C2
-			public const int ic_mr_button_connected_08_light = 2131165378;
+			public const int ic_mr_button_connected_08_dark = 2131165378;
 			
 			// aapt resource value: 0x7F0700C3
-			public const int ic_mr_button_connected_09_dark = 2131165379;
+			public const int ic_mr_button_connected_08_light = 2131165379;
 			
 			// aapt resource value: 0x7F0700C4
-			public const int ic_mr_button_connected_09_light = 2131165380;
+			public const int ic_mr_button_connected_09_dark = 2131165380;
 			
 			// aapt resource value: 0x7F0700C5
-			public const int ic_mr_button_connected_10_dark = 2131165381;
+			public const int ic_mr_button_connected_09_light = 2131165381;
 			
 			// aapt resource value: 0x7F0700C6
-			public const int ic_mr_button_connected_10_light = 2131165382;
+			public const int ic_mr_button_connected_10_dark = 2131165382;
 			
 			// aapt resource value: 0x7F0700C7
-			public const int ic_mr_button_connected_11_dark = 2131165383;
+			public const int ic_mr_button_connected_10_light = 2131165383;
 			
 			// aapt resource value: 0x7F0700C8
-			public const int ic_mr_button_connected_11_light = 2131165384;
+			public const int ic_mr_button_connected_11_dark = 2131165384;
 			
 			// aapt resource value: 0x7F0700C9
-			public const int ic_mr_button_connected_12_dark = 2131165385;
+			public const int ic_mr_button_connected_11_light = 2131165385;
 			
 			// aapt resource value: 0x7F0700CA
-			public const int ic_mr_button_connected_12_light = 2131165386;
+			public const int ic_mr_button_connected_12_dark = 2131165386;
 			
 			// aapt resource value: 0x7F0700CB
-			public const int ic_mr_button_connected_13_dark = 2131165387;
+			public const int ic_mr_button_connected_12_light = 2131165387;
 			
 			// aapt resource value: 0x7F0700CC
-			public const int ic_mr_button_connected_13_light = 2131165388;
+			public const int ic_mr_button_connected_13_dark = 2131165388;
 			
 			// aapt resource value: 0x7F0700CD
-			public const int ic_mr_button_connected_14_dark = 2131165389;
+			public const int ic_mr_button_connected_13_light = 2131165389;
 			
 			// aapt resource value: 0x7F0700CE
-			public const int ic_mr_button_connected_14_light = 2131165390;
+			public const int ic_mr_button_connected_14_dark = 2131165390;
 			
 			// aapt resource value: 0x7F0700CF
-			public const int ic_mr_button_connected_15_dark = 2131165391;
+			public const int ic_mr_button_connected_14_light = 2131165391;
 			
 			// aapt resource value: 0x7F0700D0
-			public const int ic_mr_button_connected_15_light = 2131165392;
+			public const int ic_mr_button_connected_15_dark = 2131165392;
 			
 			// aapt resource value: 0x7F0700D1
-			public const int ic_mr_button_connected_16_dark = 2131165393;
+			public const int ic_mr_button_connected_15_light = 2131165393;
 			
 			// aapt resource value: 0x7F0700D2
-			public const int ic_mr_button_connected_16_light = 2131165394;
+			public const int ic_mr_button_connected_16_dark = 2131165394;
 			
 			// aapt resource value: 0x7F0700D3
-			public const int ic_mr_button_connected_17_dark = 2131165395;
+			public const int ic_mr_button_connected_16_light = 2131165395;
 			
 			// aapt resource value: 0x7F0700D4
-			public const int ic_mr_button_connected_17_light = 2131165396;
+			public const int ic_mr_button_connected_17_dark = 2131165396;
 			
 			// aapt resource value: 0x7F0700D5
-			public const int ic_mr_button_connected_18_dark = 2131165397;
+			public const int ic_mr_button_connected_17_light = 2131165397;
 			
 			// aapt resource value: 0x7F0700D6
-			public const int ic_mr_button_connected_18_light = 2131165398;
+			public const int ic_mr_button_connected_18_dark = 2131165398;
 			
 			// aapt resource value: 0x7F0700D7
-			public const int ic_mr_button_connected_19_dark = 2131165399;
+			public const int ic_mr_button_connected_18_light = 2131165399;
 			
 			// aapt resource value: 0x7F0700D8
-			public const int ic_mr_button_connected_19_light = 2131165400;
+			public const int ic_mr_button_connected_19_dark = 2131165400;
 			
 			// aapt resource value: 0x7F0700D9
-			public const int ic_mr_button_connected_20_dark = 2131165401;
+			public const int ic_mr_button_connected_19_light = 2131165401;
 			
 			// aapt resource value: 0x7F0700DA
-			public const int ic_mr_button_connected_20_light = 2131165402;
+			public const int ic_mr_button_connected_20_dark = 2131165402;
 			
 			// aapt resource value: 0x7F0700DB
-			public const int ic_mr_button_connected_21_dark = 2131165403;
+			public const int ic_mr_button_connected_20_light = 2131165403;
 			
 			// aapt resource value: 0x7F0700DC
-			public const int ic_mr_button_connected_21_light = 2131165404;
+			public const int ic_mr_button_connected_21_dark = 2131165404;
 			
 			// aapt resource value: 0x7F0700DD
-			public const int ic_mr_button_connected_22_dark = 2131165405;
+			public const int ic_mr_button_connected_21_light = 2131165405;
 			
 			// aapt resource value: 0x7F0700DE
-			public const int ic_mr_button_connected_22_light = 2131165406;
+			public const int ic_mr_button_connected_22_dark = 2131165406;
 			
 			// aapt resource value: 0x7F0700DF
-			public const int ic_mr_button_connected_23_dark = 2131165407;
+			public const int ic_mr_button_connected_22_light = 2131165407;
 			
 			// aapt resource value: 0x7F0700E0
-			public const int ic_mr_button_connected_23_light = 2131165408;
+			public const int ic_mr_button_connected_23_dark = 2131165408;
 			
 			// aapt resource value: 0x7F0700E1
-			public const int ic_mr_button_connected_24_dark = 2131165409;
+			public const int ic_mr_button_connected_23_light = 2131165409;
 			
 			// aapt resource value: 0x7F0700E2
-			public const int ic_mr_button_connected_24_light = 2131165410;
+			public const int ic_mr_button_connected_24_dark = 2131165410;
 			
 			// aapt resource value: 0x7F0700E3
-			public const int ic_mr_button_connected_25_dark = 2131165411;
+			public const int ic_mr_button_connected_24_light = 2131165411;
 			
 			// aapt resource value: 0x7F0700E4
-			public const int ic_mr_button_connected_25_light = 2131165412;
+			public const int ic_mr_button_connected_25_dark = 2131165412;
 			
 			// aapt resource value: 0x7F0700E5
-			public const int ic_mr_button_connected_26_dark = 2131165413;
+			public const int ic_mr_button_connected_25_light = 2131165413;
 			
 			// aapt resource value: 0x7F0700E6
-			public const int ic_mr_button_connected_26_light = 2131165414;
+			public const int ic_mr_button_connected_26_dark = 2131165414;
 			
 			// aapt resource value: 0x7F0700E7
-			public const int ic_mr_button_connected_27_dark = 2131165415;
+			public const int ic_mr_button_connected_26_light = 2131165415;
 			
 			// aapt resource value: 0x7F0700E8
-			public const int ic_mr_button_connected_27_light = 2131165416;
+			public const int ic_mr_button_connected_27_dark = 2131165416;
 			
 			// aapt resource value: 0x7F0700E9
-			public const int ic_mr_button_connected_28_dark = 2131165417;
+			public const int ic_mr_button_connected_27_light = 2131165417;
 			
 			// aapt resource value: 0x7F0700EA
-			public const int ic_mr_button_connected_28_light = 2131165418;
+			public const int ic_mr_button_connected_28_dark = 2131165418;
 			
 			// aapt resource value: 0x7F0700EB
-			public const int ic_mr_button_connected_29_dark = 2131165419;
+			public const int ic_mr_button_connected_28_light = 2131165419;
 			
 			// aapt resource value: 0x7F0700EC
-			public const int ic_mr_button_connected_29_light = 2131165420;
+			public const int ic_mr_button_connected_29_dark = 2131165420;
 			
 			// aapt resource value: 0x7F0700ED
-			public const int ic_mr_button_connected_30_dark = 2131165421;
+			public const int ic_mr_button_connected_29_light = 2131165421;
 			
 			// aapt resource value: 0x7F0700EE
-			public const int ic_mr_button_connected_30_light = 2131165422;
+			public const int ic_mr_button_connected_30_dark = 2131165422;
 			
 			// aapt resource value: 0x7F0700EF
-			public const int ic_mr_button_connecting_00_dark = 2131165423;
+			public const int ic_mr_button_connected_30_light = 2131165423;
 			
 			// aapt resource value: 0x7F0700F0
-			public const int ic_mr_button_connecting_00_light = 2131165424;
+			public const int ic_mr_button_connecting_00_dark = 2131165424;
 			
 			// aapt resource value: 0x7F0700F1
-			public const int ic_mr_button_connecting_01_dark = 2131165425;
+			public const int ic_mr_button_connecting_00_light = 2131165425;
 			
 			// aapt resource value: 0x7F0700F2
-			public const int ic_mr_button_connecting_01_light = 2131165426;
+			public const int ic_mr_button_connecting_01_dark = 2131165426;
 			
 			// aapt resource value: 0x7F0700F3
-			public const int ic_mr_button_connecting_02_dark = 2131165427;
+			public const int ic_mr_button_connecting_01_light = 2131165427;
 			
 			// aapt resource value: 0x7F0700F4
-			public const int ic_mr_button_connecting_02_light = 2131165428;
+			public const int ic_mr_button_connecting_02_dark = 2131165428;
 			
 			// aapt resource value: 0x7F0700F5
-			public const int ic_mr_button_connecting_03_dark = 2131165429;
+			public const int ic_mr_button_connecting_02_light = 2131165429;
 			
 			// aapt resource value: 0x7F0700F6
-			public const int ic_mr_button_connecting_03_light = 2131165430;
+			public const int ic_mr_button_connecting_03_dark = 2131165430;
 			
 			// aapt resource value: 0x7F0700F7
-			public const int ic_mr_button_connecting_04_dark = 2131165431;
+			public const int ic_mr_button_connecting_03_light = 2131165431;
 			
 			// aapt resource value: 0x7F0700F8
-			public const int ic_mr_button_connecting_04_light = 2131165432;
+			public const int ic_mr_button_connecting_04_dark = 2131165432;
 			
 			// aapt resource value: 0x7F0700F9
-			public const int ic_mr_button_connecting_05_dark = 2131165433;
+			public const int ic_mr_button_connecting_04_light = 2131165433;
 			
 			// aapt resource value: 0x7F0700FA
-			public const int ic_mr_button_connecting_05_light = 2131165434;
+			public const int ic_mr_button_connecting_05_dark = 2131165434;
 			
 			// aapt resource value: 0x7F0700FB
-			public const int ic_mr_button_connecting_06_dark = 2131165435;
+			public const int ic_mr_button_connecting_05_light = 2131165435;
 			
 			// aapt resource value: 0x7F0700FC
-			public const int ic_mr_button_connecting_06_light = 2131165436;
+			public const int ic_mr_button_connecting_06_dark = 2131165436;
 			
 			// aapt resource value: 0x7F0700FD
-			public const int ic_mr_button_connecting_07_dark = 2131165437;
+			public const int ic_mr_button_connecting_06_light = 2131165437;
 			
 			// aapt resource value: 0x7F0700FE
-			public const int ic_mr_button_connecting_07_light = 2131165438;
+			public const int ic_mr_button_connecting_07_dark = 2131165438;
 			
 			// aapt resource value: 0x7F0700FF
-			public const int ic_mr_button_connecting_08_dark = 2131165439;
+			public const int ic_mr_button_connecting_07_light = 2131165439;
 			
 			// aapt resource value: 0x7F070100
-			public const int ic_mr_button_connecting_08_light = 2131165440;
+			public const int ic_mr_button_connecting_08_dark = 2131165440;
 			
 			// aapt resource value: 0x7F070101
-			public const int ic_mr_button_connecting_09_dark = 2131165441;
+			public const int ic_mr_button_connecting_08_light = 2131165441;
 			
 			// aapt resource value: 0x7F070102
-			public const int ic_mr_button_connecting_09_light = 2131165442;
+			public const int ic_mr_button_connecting_09_dark = 2131165442;
 			
 			// aapt resource value: 0x7F070103
-			public const int ic_mr_button_connecting_10_dark = 2131165443;
+			public const int ic_mr_button_connecting_09_light = 2131165443;
 			
 			// aapt resource value: 0x7F070104
-			public const int ic_mr_button_connecting_10_light = 2131165444;
+			public const int ic_mr_button_connecting_10_dark = 2131165444;
 			
 			// aapt resource value: 0x7F070105
-			public const int ic_mr_button_connecting_11_dark = 2131165445;
+			public const int ic_mr_button_connecting_10_light = 2131165445;
 			
 			// aapt resource value: 0x7F070106
-			public const int ic_mr_button_connecting_11_light = 2131165446;
+			public const int ic_mr_button_connecting_11_dark = 2131165446;
 			
 			// aapt resource value: 0x7F070107
-			public const int ic_mr_button_connecting_12_dark = 2131165447;
+			public const int ic_mr_button_connecting_11_light = 2131165447;
 			
 			// aapt resource value: 0x7F070108
-			public const int ic_mr_button_connecting_12_light = 2131165448;
+			public const int ic_mr_button_connecting_12_dark = 2131165448;
 			
 			// aapt resource value: 0x7F070109
-			public const int ic_mr_button_connecting_13_dark = 2131165449;
+			public const int ic_mr_button_connecting_12_light = 2131165449;
 			
 			// aapt resource value: 0x7F07010A
-			public const int ic_mr_button_connecting_13_light = 2131165450;
+			public const int ic_mr_button_connecting_13_dark = 2131165450;
 			
 			// aapt resource value: 0x7F07010B
-			public const int ic_mr_button_connecting_14_dark = 2131165451;
+			public const int ic_mr_button_connecting_13_light = 2131165451;
 			
 			// aapt resource value: 0x7F07010C
-			public const int ic_mr_button_connecting_14_light = 2131165452;
+			public const int ic_mr_button_connecting_14_dark = 2131165452;
 			
 			// aapt resource value: 0x7F07010D
-			public const int ic_mr_button_connecting_15_dark = 2131165453;
+			public const int ic_mr_button_connecting_14_light = 2131165453;
 			
 			// aapt resource value: 0x7F07010E
-			public const int ic_mr_button_connecting_15_light = 2131165454;
+			public const int ic_mr_button_connecting_15_dark = 2131165454;
 			
 			// aapt resource value: 0x7F07010F
-			public const int ic_mr_button_connecting_16_dark = 2131165455;
+			public const int ic_mr_button_connecting_15_light = 2131165455;
 			
 			// aapt resource value: 0x7F070110
-			public const int ic_mr_button_connecting_16_light = 2131165456;
+			public const int ic_mr_button_connecting_16_dark = 2131165456;
 			
 			// aapt resource value: 0x7F070111
-			public const int ic_mr_button_connecting_17_dark = 2131165457;
+			public const int ic_mr_button_connecting_16_light = 2131165457;
 			
 			// aapt resource value: 0x7F070112
-			public const int ic_mr_button_connecting_17_light = 2131165458;
+			public const int ic_mr_button_connecting_17_dark = 2131165458;
 			
 			// aapt resource value: 0x7F070113
-			public const int ic_mr_button_connecting_18_dark = 2131165459;
+			public const int ic_mr_button_connecting_17_light = 2131165459;
 			
 			// aapt resource value: 0x7F070114
-			public const int ic_mr_button_connecting_18_light = 2131165460;
+			public const int ic_mr_button_connecting_18_dark = 2131165460;
 			
 			// aapt resource value: 0x7F070115
-			public const int ic_mr_button_connecting_19_dark = 2131165461;
+			public const int ic_mr_button_connecting_18_light = 2131165461;
 			
 			// aapt resource value: 0x7F070116
-			public const int ic_mr_button_connecting_19_light = 2131165462;
+			public const int ic_mr_button_connecting_19_dark = 2131165462;
 			
 			// aapt resource value: 0x7F070117
-			public const int ic_mr_button_connecting_20_dark = 2131165463;
+			public const int ic_mr_button_connecting_19_light = 2131165463;
 			
 			// aapt resource value: 0x7F070118
-			public const int ic_mr_button_connecting_20_light = 2131165464;
+			public const int ic_mr_button_connecting_20_dark = 2131165464;
 			
 			// aapt resource value: 0x7F070119
-			public const int ic_mr_button_connecting_21_dark = 2131165465;
+			public const int ic_mr_button_connecting_20_light = 2131165465;
 			
 			// aapt resource value: 0x7F07011A
-			public const int ic_mr_button_connecting_21_light = 2131165466;
+			public const int ic_mr_button_connecting_21_dark = 2131165466;
 			
 			// aapt resource value: 0x7F07011B
-			public const int ic_mr_button_connecting_22_dark = 2131165467;
+			public const int ic_mr_button_connecting_21_light = 2131165467;
 			
 			// aapt resource value: 0x7F07011C
-			public const int ic_mr_button_connecting_22_light = 2131165468;
+			public const int ic_mr_button_connecting_22_dark = 2131165468;
 			
 			// aapt resource value: 0x7F07011D
-			public const int ic_mr_button_connecting_23_dark = 2131165469;
+			public const int ic_mr_button_connecting_22_light = 2131165469;
 			
 			// aapt resource value: 0x7F07011E
-			public const int ic_mr_button_connecting_23_light = 2131165470;
+			public const int ic_mr_button_connecting_23_dark = 2131165470;
 			
 			// aapt resource value: 0x7F07011F
-			public const int ic_mr_button_connecting_24_dark = 2131165471;
+			public const int ic_mr_button_connecting_23_light = 2131165471;
 			
 			// aapt resource value: 0x7F070120
-			public const int ic_mr_button_connecting_24_light = 2131165472;
+			public const int ic_mr_button_connecting_24_dark = 2131165472;
 			
 			// aapt resource value: 0x7F070121
-			public const int ic_mr_button_connecting_25_dark = 2131165473;
+			public const int ic_mr_button_connecting_24_light = 2131165473;
 			
 			// aapt resource value: 0x7F070122
-			public const int ic_mr_button_connecting_25_light = 2131165474;
+			public const int ic_mr_button_connecting_25_dark = 2131165474;
 			
 			// aapt resource value: 0x7F070123
-			public const int ic_mr_button_connecting_26_dark = 2131165475;
+			public const int ic_mr_button_connecting_25_light = 2131165475;
 			
 			// aapt resource value: 0x7F070124
-			public const int ic_mr_button_connecting_26_light = 2131165476;
+			public const int ic_mr_button_connecting_26_dark = 2131165476;
 			
 			// aapt resource value: 0x7F070125
-			public const int ic_mr_button_connecting_27_dark = 2131165477;
+			public const int ic_mr_button_connecting_26_light = 2131165477;
 			
 			// aapt resource value: 0x7F070126
-			public const int ic_mr_button_connecting_27_light = 2131165478;
+			public const int ic_mr_button_connecting_27_dark = 2131165478;
 			
 			// aapt resource value: 0x7F070127
-			public const int ic_mr_button_connecting_28_dark = 2131165479;
+			public const int ic_mr_button_connecting_27_light = 2131165479;
 			
 			// aapt resource value: 0x7F070128
-			public const int ic_mr_button_connecting_28_light = 2131165480;
+			public const int ic_mr_button_connecting_28_dark = 2131165480;
 			
 			// aapt resource value: 0x7F070129
-			public const int ic_mr_button_connecting_29_dark = 2131165481;
+			public const int ic_mr_button_connecting_28_light = 2131165481;
 			
 			// aapt resource value: 0x7F07012A
-			public const int ic_mr_button_connecting_29_light = 2131165482;
+			public const int ic_mr_button_connecting_29_dark = 2131165482;
 			
 			// aapt resource value: 0x7F07012B
-			public const int ic_mr_button_connecting_30_dark = 2131165483;
+			public const int ic_mr_button_connecting_29_light = 2131165483;
 			
 			// aapt resource value: 0x7F07012C
-			public const int ic_mr_button_connecting_30_light = 2131165484;
+			public const int ic_mr_button_connecting_30_dark = 2131165484;
 			
 			// aapt resource value: 0x7F07012D
-			public const int ic_mr_button_disabled_dark = 2131165485;
+			public const int ic_mr_button_connecting_30_light = 2131165485;
 			
 			// aapt resource value: 0x7F07012E
-			public const int ic_mr_button_disabled_light = 2131165486;
+			public const int ic_mr_button_disabled_dark = 2131165486;
 			
 			// aapt resource value: 0x7F07012F
-			public const int ic_mr_button_disconnected_dark = 2131165487;
+			public const int ic_mr_button_disabled_light = 2131165487;
 			
 			// aapt resource value: 0x7F070130
-			public const int ic_mr_button_disconnected_light = 2131165488;
+			public const int ic_mr_button_disconnected_dark = 2131165488;
 			
 			// aapt resource value: 0x7F070131
-			public const int ic_mr_button_grey = 2131165489;
+			public const int ic_mr_button_disconnected_light = 2131165489;
 			
 			// aapt resource value: 0x7F070132
-			public const int ic_mtrl_chip_checked_black = 2131165490;
+			public const int ic_mr_button_grey = 2131165490;
 			
 			// aapt resource value: 0x7F070133
-			public const int ic_mtrl_chip_checked_circle = 2131165491;
+			public const int ic_mtrl_chip_checked_black = 2131165491;
 			
 			// aapt resource value: 0x7F070134
-			public const int ic_mtrl_chip_close_circle = 2131165492;
+			public const int ic_mtrl_chip_checked_circle = 2131165492;
 			
 			// aapt resource value: 0x7F070135
-			public const int ic_stat_notify_dot = 2131165493;
+			public const int ic_mtrl_chip_close_circle = 2131165493;
 			
 			// aapt resource value: 0x7F070136
-			public const int ic_unchecked_checkbox = 2131165494;
+			public const int ic_stat_notify_dot = 2131165494;
 			
 			// aapt resource value: 0x7F070137
-			public const int ic_vol_mute = 2131165495;
+			public const int ic_unchecked_checkbox = 2131165495;
 			
 			// aapt resource value: 0x7F070138
-			public const int ic_vol_type_speaker_dark = 2131165496;
+			public const int ic_vol_mute = 2131165496;
 			
 			// aapt resource value: 0x7F070139
-			public const int ic_vol_type_speaker_group_dark = 2131165497;
+			public const int ic_vol_type_speaker_dark = 2131165497;
 			
 			// aapt resource value: 0x7F07013A
-			public const int ic_vol_type_speaker_group_light = 2131165498;
+			public const int ic_vol_type_speaker_group_dark = 2131165498;
 			
 			// aapt resource value: 0x7F07013B
-			public const int ic_vol_type_speaker_light = 2131165499;
+			public const int ic_vol_type_speaker_group_light = 2131165499;
 			
 			// aapt resource value: 0x7F07013C
-			public const int ic_vol_type_tv_dark = 2131165500;
+			public const int ic_vol_type_speaker_light = 2131165500;
 			
 			// aapt resource value: 0x7F07013D
-			public const int ic_vol_type_tv_light = 2131165501;
+			public const int ic_vol_type_tv_dark = 2131165501;
 			
 			// aapt resource value: 0x7F07013E
-			public const int ic_vol_unmute = 2131165502;
+			public const int ic_vol_type_tv_light = 2131165502;
 			
 			// aapt resource value: 0x7F07013F
-			public const int kickstarter = 2131165503;
+			public const int ic_vol_unmute = 2131165503;
 			
 			// aapt resource value: 0x7F070140
-			public const int mr_button_connected_dark = 2131165504;
+			public const int kickstarter = 2131165504;
 			
 			// aapt resource value: 0x7F070141
-			public const int mr_button_connected_light = 2131165505;
+			public const int mr_button_connected_dark = 2131165505;
 			
 			// aapt resource value: 0x7F070142
-			public const int mr_button_connecting_dark = 2131165506;
+			public const int mr_button_connected_light = 2131165506;
 			
 			// aapt resource value: 0x7F070143
-			public const int mr_button_connecting_light = 2131165507;
+			public const int mr_button_connecting_dark = 2131165507;
 			
 			// aapt resource value: 0x7F070144
-			public const int mr_button_dark = 2131165508;
+			public const int mr_button_connecting_light = 2131165508;
 			
 			// aapt resource value: 0x7F070145
-			public const int mr_button_dark_static = 2131165509;
+			public const int mr_button_dark = 2131165509;
 			
 			// aapt resource value: 0x7F070146
-			public const int mr_button_light = 2131165510;
+			public const int mr_button_dark_static = 2131165510;
 			
 			// aapt resource value: 0x7F070147
-			public const int mr_button_light_static = 2131165511;
+			public const int mr_button_light = 2131165511;
 			
 			// aapt resource value: 0x7F070148
-			public const int mr_cast_checkbox = 2131165512;
+			public const int mr_button_light_static = 2131165512;
 			
 			// aapt resource value: 0x7F070149
-			public const int mr_cast_group_seekbar_track = 2131165513;
+			public const int mr_cast_checkbox = 2131165513;
 			
 			// aapt resource value: 0x7F07014A
-			public const int mr_cast_mute_button = 2131165514;
+			public const int mr_cast_group_seekbar_track = 2131165514;
 			
 			// aapt resource value: 0x7F07014B
-			public const int mr_cast_route_seekbar_track = 2131165515;
+			public const int mr_cast_mute_button = 2131165515;
 			
 			// aapt resource value: 0x7F07014C
-			public const int mr_cast_stop = 2131165516;
+			public const int mr_cast_route_seekbar_track = 2131165516;
 			
 			// aapt resource value: 0x7F07014D
-			public const int mr_cast_thumb = 2131165517;
+			public const int mr_cast_stop = 2131165517;
 			
 			// aapt resource value: 0x7F07014E
-			public const int mr_dialog_close_dark = 2131165518;
+			public const int mr_cast_thumb = 2131165518;
 			
 			// aapt resource value: 0x7F07014F
-			public const int mr_dialog_close_light = 2131165519;
+			public const int mr_dialog_close_dark = 2131165519;
 			
 			// aapt resource value: 0x7F070150
-			public const int mr_dialog_material_background_dark = 2131165520;
+			public const int mr_dialog_close_light = 2131165520;
 			
 			// aapt resource value: 0x7F070151
-			public const int mr_dialog_material_background_light = 2131165521;
+			public const int mr_dialog_material_background_dark = 2131165521;
 			
 			// aapt resource value: 0x7F070152
-			public const int mr_group_collapse = 2131165522;
+			public const int mr_dialog_material_background_light = 2131165522;
 			
 			// aapt resource value: 0x7F070153
-			public const int mr_group_expand = 2131165523;
+			public const int mr_group_collapse = 2131165523;
 			
 			// aapt resource value: 0x7F070154
-			public const int mr_media_pause_dark = 2131165524;
+			public const int mr_group_expand = 2131165524;
 			
 			// aapt resource value: 0x7F070155
-			public const int mr_media_pause_light = 2131165525;
+			public const int mr_media_pause_dark = 2131165525;
 			
 			// aapt resource value: 0x7F070156
-			public const int mr_media_play_dark = 2131165526;
+			public const int mr_media_pause_light = 2131165526;
 			
 			// aapt resource value: 0x7F070157
-			public const int mr_media_play_light = 2131165527;
+			public const int mr_media_play_dark = 2131165527;
 			
 			// aapt resource value: 0x7F070158
-			public const int mr_media_stop_dark = 2131165528;
+			public const int mr_media_play_light = 2131165528;
 			
 			// aapt resource value: 0x7F070159
-			public const int mr_media_stop_light = 2131165529;
+			public const int mr_media_stop_dark = 2131165529;
 			
 			// aapt resource value: 0x7F07015A
-			public const int mr_vol_type_audiotrack_dark = 2131165530;
+			public const int mr_media_stop_light = 2131165530;
 			
 			// aapt resource value: 0x7F07015B
-			public const int mr_vol_type_audiotrack_light = 2131165531;
+			public const int mr_vol_type_audiotrack_dark = 2131165531;
 			
 			// aapt resource value: 0x7F07015C
-			public const int mtrl_snackbar_background = 2131165532;
+			public const int mr_vol_type_audiotrack_light = 2131165532;
 			
 			// aapt resource value: 0x7F07015D
-			public const int mtrl_tabs_default_indicator = 2131165533;
+			public const int mtrl_snackbar_background = 2131165533;
 			
 			// aapt resource value: 0x7F07015E
-			public const int navigation_empty_icon = 2131165534;
+			public const int mtrl_tabs_default_indicator = 2131165534;
 			
 			// aapt resource value: 0x7F07015F
-			public const int Next = 2131165535;
+			public const int navigation_empty_icon = 2131165535;
 			
 			// aapt resource value: 0x7F070160
-			public const int notification_action_background = 2131165536;
+			public const int Next = 2131165536;
 			
 			// aapt resource value: 0x7F070161
-			public const int notification_bg = 2131165537;
+			public const int notification_action_background = 2131165537;
 			
 			// aapt resource value: 0x7F070162
-			public const int notification_bg_low = 2131165538;
+			public const int notification_bg = 2131165538;
 			
 			// aapt resource value: 0x7F070163
-			public const int notification_bg_low_normal = 2131165539;
+			public const int notification_bg_low = 2131165539;
 			
 			// aapt resource value: 0x7F070164
-			public const int notification_bg_low_pressed = 2131165540;
+			public const int notification_bg_low_normal = 2131165540;
 			
 			// aapt resource value: 0x7F070165
-			public const int notification_bg_normal = 2131165541;
+			public const int notification_bg_low_pressed = 2131165541;
 			
 			// aapt resource value: 0x7F070166
-			public const int notification_bg_normal_pressed = 2131165542;
+			public const int notification_bg_normal = 2131165542;
 			
 			// aapt resource value: 0x7F070167
-			public const int notification_icon_background = 2131165543;
+			public const int notification_bg_normal_pressed = 2131165543;
 			
 			// aapt resource value: 0x7F070168
-			public const int notification_template_icon_bg = 2131165544;
+			public const int notification_icon_background = 2131165544;
 			
 			// aapt resource value: 0x7F070169
-			public const int notification_template_icon_low_bg = 2131165545;
+			public const int notification_template_icon_bg = 2131165545;
 			
 			// aapt resource value: 0x7F07016A
-			public const int notification_tile_bg = 2131165546;
+			public const int notification_template_icon_low_bg = 2131165546;
 			
 			// aapt resource value: 0x7F07016B
-			public const int notify_panel_notification_icon_bg = 2131165547;
+			public const int notification_tile_bg = 2131165547;
 			
 			// aapt resource value: 0x7F07016C
-			public const int pdf = 2131165548;
+			public const int notify_panel_notification_icon_bg = 2131165548;
 			
 			// aapt resource value: 0x7F07016D
-			public const int Prev = 2131165549;
+			public const int pdf = 2131165549;
 			
 			// aapt resource value: 0x7F07016E
-			public const int splash_logo = 2131165550;
+			public const int Prev = 2131165550;
 			
 			// aapt resource value: 0x7F07016F
-			public const int splash_screen = 2131165551;
+			public const int splash_logo = 2131165551;
 			
 			// aapt resource value: 0x7F070170
-			public const int tooltip_frame_dark = 2131165552;
+			public const int splash_screen = 2131165552;
 			
 			// aapt resource value: 0x7F070171
-			public const int tooltip_frame_light = 2131165553;
+			public const int tooltip_frame_dark = 2131165553;
 			
 			// aapt resource value: 0x7F070172
-			public const int Up = 2131165554;
+			public const int tooltip_frame_light = 2131165554;
 			
 			// aapt resource value: 0x7F070173
-			public const int xamarin_logo = 2131165555;
+			public const int top_shadow = 2131165555;
+			
+			// aapt resource value: 0x7F070174
+			public const int Up = 2131165556;
+			
+			// aapt resource value: 0x7F070175
+			public const int xamarin_logo = 2131165557;
 			
 			static Drawable()
 			{
@@ -13390,248 +15621,254 @@ namespace KillTeam.Droid
 			// aapt resource value: 0x7F0D001A
 			public const int abc_toolbar_collapse_description = 2131558426;
 			
-			// aapt resource value: 0x7F0D001C
-			public const int appbar_scrolling_view_behavior = 2131558428;
-			
 			// aapt resource value: 0x7F0D001D
-			public const int appcenter_distribute_dialog_actioned_on_disabled_toast = 2131558429;
-			
-			// aapt resource value: 0x7F0D001F
-			public const int appcenter_distribute_downloading_error = 2131558431;
-			
-			// aapt resource value: 0x7F0D0020
-			public const int appcenter_distribute_downloading_mandatory_update = 2131558432;
-			
-			// aapt resource value: 0x7F0D0021
-			public const int appcenter_distribute_downloading_update = 2131558433;
+			public const int appbar_scrolling_view_behavior = 2131558429;
 			
 			// aapt resource value: 0x7F0D001E
-			public const int appcenter_distribute_download_progress_number_format = 2131558430;
+			public const int appcenter_distribute_dialog_actioned_on_disabled_toast = 2131558430;
+			
+			// aapt resource value: 0x7F0D0020
+			public const int appcenter_distribute_downloading_error = 2131558432;
+			
+			// aapt resource value: 0x7F0D0021
+			public const int appcenter_distribute_downloading_mandatory_update = 2131558433;
 			
 			// aapt resource value: 0x7F0D0022
-			public const int appcenter_distribute_install = 2131558434;
+			public const int appcenter_distribute_downloading_update = 2131558434;
+			
+			// aapt resource value: 0x7F0D001F
+			public const int appcenter_distribute_download_progress_number_format = 2131558431;
 			
 			// aapt resource value: 0x7F0D0023
-			public const int appcenter_distribute_install_ready_message = 2131558435;
+			public const int appcenter_distribute_install = 2131558435;
 			
 			// aapt resource value: 0x7F0D0024
-			public const int appcenter_distribute_install_ready_title = 2131558436;
+			public const int appcenter_distribute_install_ready_message = 2131558436;
 			
 			// aapt resource value: 0x7F0D0025
-			public const int appcenter_distribute_notification_category = 2131558437;
+			public const int appcenter_distribute_install_ready_title = 2131558437;
 			
 			// aapt resource value: 0x7F0D0026
-			public const int appcenter_distribute_unknown_sources_dialog_message = 2131558438;
+			public const int appcenter_distribute_notification_category = 2131558438;
 			
 			// aapt resource value: 0x7F0D0027
-			public const int appcenter_distribute_unknown_sources_dialog_settings = 2131558439;
+			public const int appcenter_distribute_unknown_sources_dialog_message = 2131558439;
 			
 			// aapt resource value: 0x7F0D0028
-			public const int appcenter_distribute_update_dialog_download = 2131558440;
+			public const int appcenter_distribute_unknown_sources_dialog_settings = 2131558440;
 			
 			// aapt resource value: 0x7F0D0029
-			public const int appcenter_distribute_update_dialog_message_mandatory = 2131558441;
+			public const int appcenter_distribute_update_dialog_download = 2131558441;
 			
 			// aapt resource value: 0x7F0D002A
-			public const int appcenter_distribute_update_dialog_message_optional = 2131558442;
+			public const int appcenter_distribute_update_dialog_message_mandatory = 2131558442;
 			
 			// aapt resource value: 0x7F0D002B
-			public const int appcenter_distribute_update_dialog_postpone = 2131558443;
+			public const int appcenter_distribute_update_dialog_message_optional = 2131558443;
 			
 			// aapt resource value: 0x7F0D002C
-			public const int appcenter_distribute_update_dialog_title = 2131558444;
+			public const int appcenter_distribute_update_dialog_postpone = 2131558444;
 			
 			// aapt resource value: 0x7F0D002D
-			public const int appcenter_distribute_update_dialog_view_release_notes = 2131558445;
+			public const int appcenter_distribute_update_dialog_title = 2131558445;
 			
 			// aapt resource value: 0x7F0D002E
-			public const int appcenter_distribute_update_failed_dialog_ignore = 2131558446;
+			public const int appcenter_distribute_update_dialog_view_release_notes = 2131558446;
 			
 			// aapt resource value: 0x7F0D002F
-			public const int appcenter_distribute_update_failed_dialog_message = 2131558447;
+			public const int appcenter_distribute_update_failed_dialog_ignore = 2131558447;
 			
 			// aapt resource value: 0x7F0D0030
-			public const int appcenter_distribute_update_failed_dialog_reinstall = 2131558448;
+			public const int appcenter_distribute_update_failed_dialog_message = 2131558448;
 			
 			// aapt resource value: 0x7F0D0031
-			public const int appcenter_distribute_update_failed_dialog_title = 2131558449;
+			public const int appcenter_distribute_update_failed_dialog_reinstall = 2131558449;
+			
+			// aapt resource value: 0x7F0D0032
+			public const int appcenter_distribute_update_failed_dialog_title = 2131558450;
 			
 			// aapt resource value: 0x7F0D001B
 			public const int app_id = 2131558427;
 			
-			// aapt resource value: 0x7F0D0032
-			public const int bottom_sheet_behavior = 2131558450;
+			// aapt resource value: 0x7F0D001C
+			public const int app_name = 2131558428;
 			
 			// aapt resource value: 0x7F0D0033
-			public const int character_counter_content_description = 2131558451;
+			public const int bottom_sheet_behavior = 2131558451;
 			
 			// aapt resource value: 0x7F0D0034
-			public const int character_counter_pattern = 2131558452;
+			public const int character_counter_content_description = 2131558452;
 			
 			// aapt resource value: 0x7F0D0035
-			public const int common_google_play_services_enable_button = 2131558453;
+			public const int character_counter_pattern = 2131558453;
 			
 			// aapt resource value: 0x7F0D0036
-			public const int common_google_play_services_enable_text = 2131558454;
+			public const int common_google_play_services_enable_button = 2131558454;
 			
 			// aapt resource value: 0x7F0D0037
-			public const int common_google_play_services_enable_title = 2131558455;
+			public const int common_google_play_services_enable_text = 2131558455;
 			
 			// aapt resource value: 0x7F0D0038
-			public const int common_google_play_services_install_button = 2131558456;
+			public const int common_google_play_services_enable_title = 2131558456;
 			
 			// aapt resource value: 0x7F0D0039
-			public const int common_google_play_services_install_text = 2131558457;
+			public const int common_google_play_services_install_button = 2131558457;
 			
 			// aapt resource value: 0x7F0D003A
-			public const int common_google_play_services_install_title = 2131558458;
+			public const int common_google_play_services_install_text = 2131558458;
 			
 			// aapt resource value: 0x7F0D003B
-			public const int common_google_play_services_notification_channel_name = 2131558459;
+			public const int common_google_play_services_install_title = 2131558459;
 			
 			// aapt resource value: 0x7F0D003C
-			public const int common_google_play_services_notification_ticker = 2131558460;
+			public const int common_google_play_services_notification_channel_name = 2131558460;
 			
 			// aapt resource value: 0x7F0D003D
-			public const int common_google_play_services_unknown_issue = 2131558461;
+			public const int common_google_play_services_notification_ticker = 2131558461;
 			
 			// aapt resource value: 0x7F0D003E
-			public const int common_google_play_services_unsupported_text = 2131558462;
+			public const int common_google_play_services_unknown_issue = 2131558462;
 			
 			// aapt resource value: 0x7F0D003F
-			public const int common_google_play_services_update_button = 2131558463;
+			public const int common_google_play_services_unsupported_text = 2131558463;
 			
 			// aapt resource value: 0x7F0D0040
-			public const int common_google_play_services_update_text = 2131558464;
+			public const int common_google_play_services_update_button = 2131558464;
 			
 			// aapt resource value: 0x7F0D0041
-			public const int common_google_play_services_update_title = 2131558465;
+			public const int common_google_play_services_update_text = 2131558465;
 			
 			// aapt resource value: 0x7F0D0042
-			public const int common_google_play_services_updating_text = 2131558466;
+			public const int common_google_play_services_update_title = 2131558466;
 			
 			// aapt resource value: 0x7F0D0043
-			public const int common_google_play_services_wear_update_text = 2131558467;
+			public const int common_google_play_services_updating_text = 2131558467;
 			
 			// aapt resource value: 0x7F0D0044
-			public const int common_open_on_phone = 2131558468;
+			public const int common_google_play_services_wear_update_text = 2131558468;
 			
 			// aapt resource value: 0x7F0D0045
-			public const int common_signin_button_text = 2131558469;
+			public const int common_open_on_phone = 2131558469;
 			
 			// aapt resource value: 0x7F0D0046
-			public const int common_signin_button_text_long = 2131558470;
+			public const int common_signin_button_text = 2131558470;
 			
 			// aapt resource value: 0x7F0D0047
-			public const int fab_transformation_scrim_behavior = 2131558471;
+			public const int common_signin_button_text_long = 2131558471;
 			
 			// aapt resource value: 0x7F0D0048
-			public const int fab_transformation_sheet_behavior = 2131558472;
+			public const int fab_transformation_scrim_behavior = 2131558472;
 			
 			// aapt resource value: 0x7F0D0049
-			public const int fcm_fallback_notification_channel_label = 2131558473;
+			public const int fab_transformation_sheet_behavior = 2131558473;
 			
 			// aapt resource value: 0x7F0D004A
-			public const int hide_bottom_view_on_scroll_behavior = 2131558474;
+			public const int fcm_fallback_notification_channel_label = 2131558474;
 			
 			// aapt resource value: 0x7F0D004B
-			public const int library_name = 2131558475;
+			public const int hello = 2131558475;
 			
 			// aapt resource value: 0x7F0D004C
-			public const int mr_button_content_description = 2131558476;
+			public const int hide_bottom_view_on_scroll_behavior = 2131558476;
 			
 			// aapt resource value: 0x7F0D004D
-			public const int mr_cast_button_connected = 2131558477;
+			public const int library_name = 2131558477;
 			
 			// aapt resource value: 0x7F0D004E
-			public const int mr_cast_button_connecting = 2131558478;
+			public const int mr_button_content_description = 2131558478;
 			
 			// aapt resource value: 0x7F0D004F
-			public const int mr_cast_button_disconnected = 2131558479;
+			public const int mr_cast_button_connected = 2131558479;
 			
 			// aapt resource value: 0x7F0D0050
-			public const int mr_cast_dialog_title_view_placeholder = 2131558480;
+			public const int mr_cast_button_connecting = 2131558480;
 			
 			// aapt resource value: 0x7F0D0051
-			public const int mr_chooser_searching = 2131558481;
+			public const int mr_cast_button_disconnected = 2131558481;
 			
 			// aapt resource value: 0x7F0D0052
-			public const int mr_chooser_title = 2131558482;
+			public const int mr_cast_dialog_title_view_placeholder = 2131558482;
 			
 			// aapt resource value: 0x7F0D0053
-			public const int mr_controller_album_art = 2131558483;
+			public const int mr_chooser_searching = 2131558483;
 			
 			// aapt resource value: 0x7F0D0054
-			public const int mr_controller_casting_screen = 2131558484;
+			public const int mr_chooser_title = 2131558484;
 			
 			// aapt resource value: 0x7F0D0055
-			public const int mr_controller_close_description = 2131558485;
+			public const int mr_controller_album_art = 2131558485;
 			
 			// aapt resource value: 0x7F0D0056
-			public const int mr_controller_collapse_group = 2131558486;
+			public const int mr_controller_casting_screen = 2131558486;
 			
 			// aapt resource value: 0x7F0D0057
-			public const int mr_controller_disconnect = 2131558487;
+			public const int mr_controller_close_description = 2131558487;
 			
 			// aapt resource value: 0x7F0D0058
-			public const int mr_controller_expand_group = 2131558488;
+			public const int mr_controller_collapse_group = 2131558488;
 			
 			// aapt resource value: 0x7F0D0059
-			public const int mr_controller_no_info_available = 2131558489;
+			public const int mr_controller_disconnect = 2131558489;
 			
 			// aapt resource value: 0x7F0D005A
-			public const int mr_controller_no_media_selected = 2131558490;
+			public const int mr_controller_expand_group = 2131558490;
 			
 			// aapt resource value: 0x7F0D005B
-			public const int mr_controller_pause = 2131558491;
+			public const int mr_controller_no_info_available = 2131558491;
 			
 			// aapt resource value: 0x7F0D005C
-			public const int mr_controller_play = 2131558492;
+			public const int mr_controller_no_media_selected = 2131558492;
 			
 			// aapt resource value: 0x7F0D005D
-			public const int mr_controller_stop = 2131558493;
+			public const int mr_controller_pause = 2131558493;
 			
 			// aapt resource value: 0x7F0D005E
-			public const int mr_controller_stop_casting = 2131558494;
+			public const int mr_controller_play = 2131558494;
 			
 			// aapt resource value: 0x7F0D005F
-			public const int mr_controller_volume_slider = 2131558495;
+			public const int mr_controller_stop = 2131558495;
 			
 			// aapt resource value: 0x7F0D0060
-			public const int mr_dialog_groupable_header = 2131558496;
+			public const int mr_controller_stop_casting = 2131558496;
 			
 			// aapt resource value: 0x7F0D0061
-			public const int mr_dialog_transferable_header = 2131558497;
+			public const int mr_controller_volume_slider = 2131558497;
 			
 			// aapt resource value: 0x7F0D0062
-			public const int mr_system_route_name = 2131558498;
+			public const int mr_dialog_groupable_header = 2131558498;
 			
 			// aapt resource value: 0x7F0D0063
-			public const int mr_user_route_category_name = 2131558499;
+			public const int mr_dialog_transferable_header = 2131558499;
 			
 			// aapt resource value: 0x7F0D0064
-			public const int mtrl_chip_close_icon_content_description = 2131558500;
+			public const int mr_system_route_name = 2131558500;
 			
 			// aapt resource value: 0x7F0D0065
-			public const int password_toggle_content_description = 2131558501;
+			public const int mr_user_route_category_name = 2131558501;
 			
 			// aapt resource value: 0x7F0D0066
-			public const int path_password_eye = 2131558502;
+			public const int mtrl_chip_close_icon_content_description = 2131558502;
 			
 			// aapt resource value: 0x7F0D0067
-			public const int path_password_eye_mask_strike_through = 2131558503;
+			public const int password_toggle_content_description = 2131558503;
 			
 			// aapt resource value: 0x7F0D0068
-			public const int path_password_eye_mask_visible = 2131558504;
+			public const int path_password_eye = 2131558504;
 			
 			// aapt resource value: 0x7F0D0069
-			public const int path_password_strike_through = 2131558505;
+			public const int path_password_eye_mask_strike_through = 2131558505;
 			
 			// aapt resource value: 0x7F0D006A
-			public const int search_menu_title = 2131558506;
+			public const int path_password_eye_mask_visible = 2131558506;
 			
 			// aapt resource value: 0x7F0D006B
-			public const int status_bar_notification_info_overflow = 2131558507;
+			public const int path_password_strike_through = 2131558507;
+			
+			// aapt resource value: 0x7F0D006C
+			public const int search_menu_title = 2131558508;
+			
+			// aapt resource value: 0x7F0D006D
+			public const int status_bar_notification_info_overflow = 2131558509;
 			
 			static String()
 			{

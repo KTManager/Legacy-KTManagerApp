@@ -5,72 +5,74 @@
              xmlns:properties="clr-namespace:KillTeam.Properties"
              xmlns:d="http://xamarin.com/schemas/2014/forms/design"
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             xmlns:renderedViews="clr-namespace:Sharpnado.Presentation.Forms.RenderedViews;assembly=Sharpnado.Presentation.Forms"
+             xmlns:controllers="clr-namespace:KillTeam.Controllers;assembly=KillTeam"
              mc:Ignorable="d"
              x:Class="KillTeam.Views.TeamsList"
              Title="Kill Team Manager">
-    <Grid>
-        <Grid.RowDefinitions>
-            <RowDefinition Height="*" />
-            <RowDefinition Height="Auto" />
-        </Grid.RowDefinitions>
 
-        <ListView ItemsSource="{Binding Items}"
-                  VerticalOptions="FillAndExpand" 
-                  SelectionMode="None" SeparatorVisibility="None"
-                  RowHeight="80" Margin="0,5">
-            <ListView.ItemTemplate>
-                <DataTemplate x:DataType="{x:Type viewModels:TeamsListTeamViewModel}">
-                    <ViewCell>
-                        <Frame CornerRadius="8" Margin="5,2" BackgroundColor="White" Padding="10,5" HasShadow="True" BorderColor="#efefef">
-                            <Frame.GestureRecognizers>
-                                <SwipeGestureRecognizer Direction="Left,Right" Command="{Binding Source={RelativeSource AncestorType={x:Type ContentPage}}, Path=BindingContext.Delete}" CommandParameter="{Binding .}" />
-                                <TapGestureRecognizer Command="{Binding Source={RelativeSource AncestorType={x:Type ContentPage}}, Path=BindingContext.OpenTeam}" CommandParameter="{Binding .}" />
-                            </Frame.GestureRecognizers>
+    <d:ContentPage.BindingContext>
+        <controllers:TeamsList />
+    </d:ContentPage.BindingContext>
 
-                            <Grid Margin="5">
-                                <Grid.RowDefinitions>
-                                    <RowDefinition Height="*"/>
-                                    <RowDefinition Height="*"/>
-                                </Grid.RowDefinitions>
-                                <Grid.ColumnDefinitions>
-                                    <ColumnDefinition Width="*"/>
-                                    <ColumnDefinition Width="Auto"/>
-                                </Grid.ColumnDefinitions>
+    <ContentPage.Resources>
+        <ResourceDictionary>
+            <DataTemplate x:Key="TeamDataTemplate" x:DataType="{x:Type viewModels:TeamsListTeamViewModel}">
+                <ViewCell>
+                    <renderedViews:MaterialFrame Margin="4" Padding="{StaticResource StandardThickness}" Elevation="4">
+                        <renderedViews:MaterialFrame.GestureRecognizers>
+                            <SwipeGestureRecognizer Direction="Left, Right" Command="{Binding Source={RelativeSource AncestorType={x:Type ContentPage}}, Path=BindingContext.Delete}" CommandParameter="{Binding .}" />
+                            <TapGestureRecognizer Command="{Binding Source={RelativeSource AncestorType={x:Type ContentPage}}, Path=BindingContext.OpenTeam}" CommandParameter="{Binding .}" />
+                        </renderedViews:MaterialFrame.GestureRecognizers>
+                        <Grid>
+                            <Grid.RowDefinitions>
+                                <RowDefinition Height="*"/>
+                                <RowDefinition Height="*"/>
+                            </Grid.RowDefinitions>
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="*"/>
+                                <ColumnDefinition Width="Auto"/>
+                            </Grid.ColumnDefinitions>
 
-                                <Label Text="{Binding Name}"
+                            <Label Text="{Binding Name}"
                                    Grid.Row="0" Grid.Column="0" 
                                    HorizontalOptions="Start" VerticalOptions="Center"
                                    FontSize="Large" />
 
-                                <Label Text="{Binding Cost}" 
+                            <Label Text="{Binding Cost}" 
                                    Grid.Row="0" Grid.Column="1" Grid.RowSpan="2"
                                    HorizontalOptions="Center" VerticalOptions="Center"
                                    FontSize="Large"/>
 
-                                <Label Text="{Binding FactionAndMembersCount}" 
+                            <Label Text="{Binding FactionAndMembersCount}" 
                                    Grid.Row="1" Grid.Column="0"
                                    HorizontalOptions="Start" VerticalOptions="Center"
                                    FontSize="Small" />
-                            </Grid>
-                        </Frame>
-                    </ViewCell>
-                </DataTemplate>
-            </ListView.ItemTemplate>
+                        </Grid>
+                    </renderedViews:MaterialFrame>
+                </ViewCell>
+            </DataTemplate>
+        </ResourceDictionary>
+    </ContentPage.Resources>
 
-            <d:ListView.ItemsSource>
-                <x:Array Type="{x:Type viewModels:TeamsListTeamViewModel}">
-                    <viewModels:TeamsListTeamViewModel Name="Team 1" Cost="98" FactionAndMembersCount="Thousand Sons - 6 Members" />
-                    <viewModels:TeamsListTeamViewModel Name="Team 2" Cost="100" FactionAndMembersCount="Death Guard - 7 Members" />
-                    <viewModels:TeamsListTeamViewModel Name="Team 3" Cost="0" FactionAndMembersCount="Death Guard - 0 Member" />
-                </x:Array>
-            </d:ListView.ItemsSource>
-        </ListView>
+    <ContentPage.Content>
+        <Grid>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="*" />
+                <RowDefinition Height="Auto" />
+            </Grid.RowDefinitions>
+            <renderedViews:HorizontalListView ItemTemplate="{StaticResource TeamDataTemplate}"
+                                              ItemsSource="{Binding Items}"
+                                              EnableDragAndDrop="True"
+                                              ColumnCount="1"
+                                              DragAndDropEndedCommand="{Binding ReorderTeam}" />
 
-        <Button Text="{x:Static properties:Resources.AddEquipeButton}"
-                Grid.Row="1"
-                WidthRequest="200"
-                VerticalOptions="Center" HorizontalOptions="Center"
-                Margin="0,0,0,5"
-                Command="{Binding AddTeam}" />
-    </Grid>
+            <Button Text="{x:Static properties:Resources.AddEquipeButton}"
+                    Grid.Row="1"
+                    WidthRequest="200"
+                    VerticalOptions="Center" HorizontalOptions="Center"
+                    Margin="0,0,0,5"
+                    Command="{Binding AddTeam}" />
+        </Grid>
+    </ContentPage.Content>
 </ContentPage>

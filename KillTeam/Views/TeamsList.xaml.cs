@@ -14,7 +14,7 @@ namespace KillTeam.Views
             InitializeComponent();
             On<Xamarin.Forms.PlatformConfiguration.iOS>().SetUseSafeArea(true);
 
-            var vm = new Controllers.TeamsList(ToolbarItems, new DeleteTeamCommandHandler());
+            var vm = new Controllers.TeamsList(ToolbarItems, new DeleteTeamCommandHandler(), new ReorderTeamsCommandHandler());
             BindingContext = vm;
         }
 

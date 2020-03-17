@@ -1,8 +1,11 @@
 ﻿using System.Collections.Generic;
 using System.Collections.ObjectModel;
+using System.ComponentModel;
 using System.Linq;
+using System.Runtime.CompilerServices;
 using System.Threading.Tasks;
 using System.Windows.Input;
+using KillTeam.Annotations;
 using KillTeam.Commands;
 using KillTeam.Commands.Handlers;
 using KillTeam.Properties;
@@ -13,9 +16,17 @@ using Xamarin.Forms;
 
 namespace KillTeam.Controllers
 {
-    public class TeamDetail
+    public class TeamDetail : INotifyPropertyChanged
     {
-        public TeamDetailTeamViewModel Item { get; set; }
+        public TeamDetailTeamViewModel Item
+        {
+            get => _item;
+            set
+            {
+                _item = value;
+                OnPropertyChanged();
+            }
+        }
 
         public IList<ToolbarItem> ToolbarItems { get; set; }
 
@@ -140,5 +151,14 @@ namespace KillTeam.Controllers
         private string _itemId;
         private readonly IHandleCommands<DeleteTeamCommand> _deleteTeamCommandHandler;
         private readonly IHandleCommands<RenameTeamCommand> _renameTeamCommandHandler;
+        private TeamDetailTeamViewModel _item;
+        public event PropertyChangedEventHandler PropertyChanged;
+
+
+        [NotifyPropertyChangedInvocator]
+        protected virtual void OnPropertyChanged([CallerMemberName] string propertyName = null)
+        {
+            PropertyChanged?.Invoke(this, new PropertyChangedEventArgs(propertyName));
+        }
     }
 }

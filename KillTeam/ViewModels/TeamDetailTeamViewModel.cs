@@ -14,7 +14,10 @@ namespace KillTeam.ViewModels
 
         public bool IsRoster { get; set; }
 
+        public string FormattedNameCost => $"{Name} ({Cost})";
+
         public string FormattedFactionCost => $"{Faction} : {Cost} {Properties.Resources.Points}";
+
         public string FormattedCost => $"{Cost} {Properties.Resources.Points}";
 
         public bool ShowFaction => Name != Faction;

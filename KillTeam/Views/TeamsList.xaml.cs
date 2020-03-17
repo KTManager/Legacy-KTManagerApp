@@ -1,4 +1,6 @@
-﻿using KillTeam.Commands.Handlers;
+﻿using System;
+using KillTeam.Commands.Handlers;
+using Xamarin.Forms;
 using Xamarin.Forms.PlatformConfiguration.iOSSpecific;
 using Xamarin.Forms.Xaml;
 

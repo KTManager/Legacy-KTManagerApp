@@ -110,18 +110,6 @@ namespace KillTeam.Controllers
             await UpdateItems();
         }
 
-        private void DecoUpdate()
-        {
-            if (!Sauvegarde.IsConnected())
-            {
-                ToolbarItems.Remove(ButtonDeco);
-            }
-            else if (!ToolbarItems.Contains(ButtonDeco))
-            {
-                ToolbarItems.Add(ButtonDeco);
-            }
-        }
-
         public async Task UpdateItems()
         {
             Items.Clear();
@@ -132,6 +120,18 @@ namespace KillTeam.Controllers
                                     .OrderBy(post => post.Position)
                                     .ToListAsync();
             teams.ForEach(i => Items.Add(new TeamsListTeamViewModel(i.Id, i.Name, i.Cost, i.FactionNameAndMembersCount)));
+        }
+
+        private void DecoUpdate()
+        {
+            if (!Sauvegarde.IsConnected())
+            {
+                ToolbarItems.Remove(ButtonDeco);
+            }
+            else if (!ToolbarItems.Contains(ButtonDeco))
+            {
+                ToolbarItems.Add(ButtonDeco);
+            }
         }
 
         public void AddTeamExecuted()

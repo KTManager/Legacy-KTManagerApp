@@ -546,7 +546,7 @@ namespace KillTeam.Models
         }
 
 
-        public static async Task<Member> CreateFrom(string teamId, string modelProfileId)
+        public static Member CreateFrom(string teamId, string modelProfileId)
         {
 
             ModelProfile declinaison = KTContext.Db.ModelProfiles
@@ -584,11 +584,7 @@ namespace KillTeam.Models
             membre.ModelProfile = declinaison;
             membre.Level = 1;
             membre.TeamId = teamId;
-            membre.Position = KTContext.Db.Members
-            .Where(m => m.TeamId == teamId)
-            .Select(a => a.Position)
-            .DefaultIfEmpty(0)
-            .Max() + 1;
+            membre.Position = KTContext.Db.Members.Where(m => m.TeamId == teamId).Select(a => a.Position).ToList().DefaultIfEmpty(0).Max() + 1;
 
             KTContext.Db.Entry(membre).State = EntityState.Added;
 
@@ -615,8 +611,6 @@ namespace KillTeam.Models
                     KTContext.Db.Entry(mp2).State = EntityState.Added;
                 }
             }
-
-            await KTContext.Db.SaveChangesAsync();
 
             return membre;
 

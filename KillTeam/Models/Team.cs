@@ -224,7 +224,7 @@ namespace KillTeam.Models
             foreach (Model figurine in faction.Models)
                 foreach (ModelProfile declinaison in figurine.ModelProfiles)
                 {
-                    Member mb = Member.CreateFrom(equipe.Id, declinaison.Id).Result;
+                    Member mb = Member.CreateFrom(equipe.Id, declinaison.Id);
                     equipe.Members.Add(mb);
                 }
 

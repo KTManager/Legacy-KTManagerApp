@@ -1,0 +1,74 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:viewModels="clr-namespace:KillTeam.ViewModels;assembly=KillTeam"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="KillTeam.Views.ModelsList"
+             Title="{Binding Title}">
+    <StackLayout  Padding="10">
+
+        <ListView ItemsSource="{Binding Items}" 
+                  IsGroupingEnabled="True"
+                  GroupDisplayBinding="{Binding Name}"
+                  RowHeight="50" SeparatorVisibility="None">
+            <ListView.GroupHeaderTemplate>
+                <DataTemplate x:DataType="{x:Type viewModels:ModelsListGroupViewModel}">
+                    <ViewCell>
+                        <StackLayout Orientation="Vertical" VerticalOptions="Center">
+                            <Label Text="{Binding Name}"
+                                       FontSize="Large"/>
+                        </StackLayout>
+                    </ViewCell>
+                </DataTemplate>
+            </ListView.GroupHeaderTemplate>
+            <ListView.ItemTemplate>
+                <DataTemplate x:DataType="{x:Type viewModels:ModelsListProfileViewModel}">
+                    <ViewCell>
+                        <Frame CornerRadius="8" Margin="5,2" BackgroundColor="White" Padding="10,5" HasShadow="True" BorderColor="#efefef">
+                            <Frame.GestureRecognizers>
+                                <TapGestureRecognizer Command="{Binding Source={RelativeSource AncestorType={x:Type ContentPage}}, Path=BindingContext.Selected}" CommandParameter="{Binding .}" />
+                            </Frame.GestureRecognizers>
+
+                            <Grid>
+                                <Grid.ColumnDefinitions>
+                                    <ColumnDefinition Width="*" />
+                                    <ColumnDefinition Width="Auto" />
+                                    <ColumnDefinition Width="Auto" />
+                                </Grid.ColumnDefinitions>
+
+                                <Label Text="{Binding Name}" 
+                                       FontSize="Medium" VerticalOptions="Center"  Grid.Column="0"/>
+                                <Label Text="{Binding MaximumNumber}" 
+                                       FontSize="Small" VerticalOptions="Center" Grid.Column="1"/>
+                                <Label Text="{Binding Cost}" 
+                                       FontSize="Small" VerticalOptions="Center"  Grid.Column="2"/>
+                            </Grid>
+                        </Frame>
+                    </ViewCell>
+                </DataTemplate>
+            </ListView.ItemTemplate>
+            <d:ListView.ItemsSource>
+                <x:Array Type="{x:Type viewModels:ModelsListGroupViewModel}">
+                    <viewModels:ModelsListGroupViewModel Name="Rubric Marine">
+                        <viewModels:ModelsListProfileViewModel Name="Rubric Marine" Cost="16 Point(s)" />
+                    </viewModels:ModelsListGroupViewModel>
+                    <viewModels:ModelsListGroupViewModel Name="Scarab Occult Terminator">
+                        <viewModels:ModelsListProfileViewModel Name="Scarab Occult Terminator" Cost="32 Point(s)" />
+                        <viewModels:ModelsListProfileViewModel Name="Scarab Occult Gunner" Cost="33 Point(s)" MaximumNumber="2 Max." />
+                        <viewModels:ModelsListProfileViewModel Name="Scarab Occult Sorcerer" Cost="38 Point(s)" MaximumNumber="1 Max." />
+                    </viewModels:ModelsListGroupViewModel>
+                    <viewModels:ModelsListGroupViewModel Name="Tzaangor">
+                        <viewModels:ModelsListProfileViewModel Name="Tzaangor" Cost="7 Point(s)" />
+                        <viewModels:ModelsListProfileViewModel Name="Twistbray" Cost="8 Point(s)" />
+                    </viewModels:ModelsListGroupViewModel>
+                    <viewModels:ModelsListGroupViewModel Name="Commander">
+                        <viewModels:ModelsListProfileViewModel Name="Exalted Sorcerer" Cost="81 Point(s)" MaximumNumber="1 Max." />
+                        <viewModels:ModelsListProfileViewModel Name="Tzaangor Shaman" Cost="40 Point(s)" MaximumNumber="1 Max." />
+                    </viewModels:ModelsListGroupViewModel>
+                </x:Array>
+            </d:ListView.ItemsSource>
+        </ListView>
+    </StackLayout>
+</ContentPage>

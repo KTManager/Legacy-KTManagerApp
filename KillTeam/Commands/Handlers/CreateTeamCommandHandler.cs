@@ -7,9 +7,9 @@ using Microsoft.EntityFrameworkCore;
 
 namespace KillTeam.Commands.Handlers
 {
-    public class CreateTeamCommandHandler : IHandleCommands<CreateTeamCommand>
+    public class CreateTeamCommandHandler : IHandleCommands<string, CreateTeamCommand>
     {
-        public void Handle(CreateTeamCommand command)
+        public string Handle(CreateTeamCommand command)
         {
             var factionId = command.FactionId;
             var faction = KTContext.Db.Factions.Find(factionId);
@@ -26,6 +26,8 @@ namespace KillTeam.Commands.Handlers
 
             KTContext.Db.Entry(team).State = EntityState.Added;
             KTContext.Db.SaveChanges();
+
+            return team.Id;
         }
     }
 }

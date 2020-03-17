@@ -31,7 +31,6 @@
     <Compile Remove="Views\KickStarter.xaml.cs" />
     <Compile Remove="Views\ListAptitudePage.xaml.cs" />
     <Compile Remove="Views\ListConfigsArmes.xaml.cs" />
-    <Compile Remove="Views\ListDeclinaisonPage.xaml.cs" />
     <Compile Remove="Views\ListErreurPage.xaml.cs" />
     <Compile Remove="Views\ListPsychiquePage.xaml.cs" />
     <Compile Remove="Views\ListSpecialitesPage.xaml.cs" />
@@ -52,7 +51,6 @@
     <EmbeddedResource Remove="Views\KickStarter.xaml" />
     <EmbeddedResource Remove="Views\ListAptitudePage.xaml" />
     <EmbeddedResource Remove="Views\ListConfigsArmes.xaml" />
-    <EmbeddedResource Remove="Views\ListDeclinaisonPage.xaml" />
     <EmbeddedResource Remove="Views\ListErreurPage.xaml" />
     <EmbeddedResource Remove="Views\ListPsychiquePage.xaml" />
     <EmbeddedResource Remove="Views\ListSpecialitesPage.xaml" />
@@ -331,6 +329,9 @@
     </Compile>
     <Compile Update="Views\Language.xaml.cs">
       <DependentUpon>Language.xaml</DependentUpon>
+    </Compile>
+    <Compile Update="Views\ModelsList.xaml.cs">
+      <DependentUpon>ModelsList.xaml</DependentUpon>
     </Compile>
     <Compile Update="Views\TeamDetail.xaml.cs">
       <DependentUpon>TeamDetail.xaml</DependentUpon>

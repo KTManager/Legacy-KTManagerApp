@@ -3,6 +3,9 @@ using System.Collections.ObjectModel;
 using System.Linq;
 using System.Threading.Tasks;
 using System.Windows.Input;
+using KillTeam.Commands;
+using KillTeam.Commands.Handlers;
+using KillTeam.Properties;
 using KillTeam.Services;
 using KillTeam.ViewModels;
 using Microsoft.EntityFrameworkCore;
@@ -18,17 +21,71 @@ namespace KillTeam.Controllers
 
         public ICommand AddMember { get; set; }
         public ICommand EditName { get; set; }
+        public ICommand Delete { get; set; }
+        public ICommand Pdf { get; set; }
+        public ICommand InGame { get; set; }
+        public ICommand Tactics { get; set; }
+        public ICommand Share { get; set; }
+        public ICommand Duplicates { get; set; }
+
+
+        public ToolbarItem ButtonPdf;
+        public ToolbarItem ButtonInGame;
+        public ToolbarItem ButtonTactics;
+        public ToolbarItem ButtonShare;
+        public ToolbarItem ButtonDuplicates;
 
 #if DEBUG
         public TeamDetail() { }
 #endif
 
-        public TeamDetail(IList<ToolbarItem> toolbarItems, string teamId)
+        public TeamDetail(IList<ToolbarItem> toolbarItems, string teamId, IHandleCommands<DeleteTeamCommand> deleteTeamCommandHandler, IHandleCommands<RenameTeamCommand> renameTeamCommandHandler)
         {
             _itemId = teamId;
 
-            AddMember = new Command(() => AddMemberExecuted());
+            AddMember = new Command(AddMemberExecuted);
             EditName = new Command(async () => await EditNameExecuted());
+            Delete = new Command(async () => await DeleteExecuted());
+
+            ButtonPdf = new ToolbarItem
+            {
+                Text = Resources.PDF,
+                Order = ToolbarItemOrder.Secondary
+            };
+
+            ButtonInGame = new ToolbarItem
+            {
+                Text = Resources.InGame,
+                Order = ToolbarItemOrder.Secondary,
+            };
+
+            ButtonTactics = new ToolbarItem
+            {
+                Text = Resources.Tactiques,
+                Order = ToolbarItemOrder.Secondary
+            };
+
+            ButtonShare = new ToolbarItem
+            {
+                Text = Resources.Partager,
+                Order = ToolbarItemOrder.Secondary
+            };
+
+            ButtonDuplicates = new ToolbarItem
+            {
+                Text = Resources.Dupliquer,
+                Order = ToolbarItemOrder.Secondary
+            };
+
+            ToolbarItems = toolbarItems;
+            ToolbarItems.Add(ButtonPdf);
+            ToolbarItems.Add(ButtonInGame);
+            ToolbarItems.Add(ButtonTactics);
+            ToolbarItems.Add(ButtonShare);
+            ToolbarItems.Add(ButtonDuplicates);
+
+            _deleteTeamCommandHandler = deleteTeamCommandHandler;
+            _renameTeamCommandHandler = renameTeamCommandHandler;
         }
 
         public async Task Refresh()
@@ -38,7 +95,7 @@ namespace KillTeam.Controllers
 
         public async Task UpdateItem()
         {
-            var team = KTContext.Db.Teams
+            var team = await KTContext.Db.Teams
                 .Where(e => e.Id == _itemId)
                 .Include(e => e.Members)
                 .ThenInclude(m => m.Specialist)
@@ -57,7 +114,7 @@ namespace KillTeam.Controllers
                 .ThenInclude(m => m.MemberWarGearOptions)
                 .ThenInclude(mr => mr.WarGearOption)
                 .Include(e => e.Faction)
-                .First();
+                .FirstAsync();
 
             Item = new TeamDetailTeamViewModel(team.Id, team.Name, team.Cost, team.Faction.Name, team.Roster);
             team.Members.OrderBy(o => o.Name).ToList().ForEach(y => Item.Members.Add(new TeamDetailMemberViewModel(y.Id, y.Name, y.Cost, y.ShortWeaponLevel)));
@@ -65,14 +122,23 @@ namespace KillTeam.Controllers
 
         private void AddMemberExecuted()
         {
-            //KTApp.Navigation.PushModalAsync(new Views.FactionsList());
+            KTApp.Navigation.PushModalAsync(new Views.ModelsList(Item.Id));
         }
 
         public async Task EditNameExecuted()
         {
-            //await KTApp.Navigation.PushAsync(new RemerciementPage());
+            _renameTeamCommandHandler.Handle(new RenameTeamCommand(Item.Id, Item.Name));
+            await Refresh();
+        }
+
+        public async Task DeleteExecuted()
+        {
+            _deleteTeamCommandHandler.Handle(new DeleteTeamCommand(Item.Id));
+            await KTApp.Navigation.PushAsync(new Views.TeamsList());
         }
 
         private string _itemId;
+        private readonly IHandleCommands<DeleteTeamCommand> _deleteTeamCommandHandler;
+        private readonly IHandleCommands<RenameTeamCommand> _renameTeamCommandHandler;
     }
 }

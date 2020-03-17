@@ -22,7 +22,7 @@ namespace KillTeam.Controllers
         public FactionsList() { }
 #endif
 
-        public FactionsList(IHandleCommands<CreateTeamCommand> createTeamCommandHandler)
+        public FactionsList(IHandleCommands<string, CreateTeamCommand> createTeamCommandHandler)
         {
             Items = new ObservableCollection<FactionsListFactionViewModel>();
 
@@ -50,12 +50,12 @@ namespace KillTeam.Controllers
         
         public async Task SelectedExecuted(FactionsListFactionViewModel faction)
         {
-            _createTeamCommandHandler.Handle(new CreateTeamCommand(faction.Id));
+            var teamId = _createTeamCommandHandler.Handle(new CreateTeamCommand(faction.Id));
 
             await KTApp.Navigation.PopModalAsync(true);
-
+            await KTApp.Navigation.PushAsync(new Views.TeamDetail(teamId));
         }
 
-        private readonly IHandleCommands<CreateTeamCommand> _createTeamCommandHandler;
+        private readonly IHandleCommands<string, CreateTeamCommand> _createTeamCommandHandler;
     }
 }

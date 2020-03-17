@@ -26,7 +26,8 @@ namespace KillTeam.Droid
 
             base.OnCreate(savedInstanceState);
 
-            global::Xamarin.Forms.Forms.Init(this, savedInstanceState);
+            Forms.SetFlags("SwipeView_Experimental");
+            Forms.Init(this, savedInstanceState);
 
             SharpnadoInitializer.Initialize();
 

@@ -18,8 +18,6 @@ namespace KillTeam.Controllers
     {
         public ObservableCollection<TeamsListTeamViewModel> Items { get; set; }
         public IList<ToolbarItem> ToolbarItems { get; set; }
-        public ICommand Sync { get; set; }
-        public ICommand Logout { get; set; }
         public ICommand Language { get; set; }
         public ICommand Credits { get; set; }
         public ICommand AddTeam { get; set; }
@@ -27,8 +25,6 @@ namespace KillTeam.Controllers
         public ICommand OpenTeam { get; set; }
         public ICommand ReorderTeam { get; set; }
 
-        public ToolbarItem ButtonSync;
-        public ToolbarItem ButtonDeco;
         public ToolbarItem ButtonLang;
         public ToolbarItem ButtonCredits;
 
@@ -44,26 +40,10 @@ namespace KillTeam.Controllers
             AddTeam = new Command(() => AddTeamExecuted());
             Credits = new Command(async () => await CreditsExecuted());
             Language = new Command(async () => await LanguageExecuted());
-            Logout = new Command(() => LogoutExecuted());
-            Sync = new Command(async () => await SyncExecuted());
             OpenTeam = new Command(async e => await OpenTeamExecuted(e as TeamsListTeamViewModel));
             ReorderTeam = new Command(async () => await ReorderTeamExecuted());
             Delete = new Command(async e => await DeleteExecuted(e as TeamsListTeamViewModel));
-
-            ButtonSync = new ToolbarItem
-            {
-                Text = Resources.Synchro,
-                Order = ToolbarItemOrder.Secondary,
-                Command = Sync
-            };
-
-            ButtonDeco = new ToolbarItem
-            {
-                Text = Resources.Deconnection,
-                Order = ToolbarItemOrder.Secondary,
-                Command = Logout
-            };
-
+            
             ButtonLang = new ToolbarItem
             {
                 Text = Resources.Language,
@@ -79,8 +59,6 @@ namespace KillTeam.Controllers
             };
 
             ToolbarItems = toolbarItems;
-            ToolbarItems.Add(ButtonSync);
-            ToolbarItems.Add(ButtonDeco);
             ToolbarItems.Add(ButtonLang);
             ToolbarItems.Add(ButtonCredits);
 
@@ -95,23 +73,6 @@ namespace KillTeam.Controllers
 
         public async Task Refresh()
         {
-            if (Device.RuntimePlatform != Device.Android)
-            {
-                ToolbarItems.Remove(ButtonDeco);
-                ToolbarItems.Remove(ButtonSync);
-
-                await UpdateItems();
-
-                return;
-            }
-
-            if (Sauvegarde.IsConnected() && await Sauvegarde.Synchro(KTContext.Db))
-            {
-                await UpdateItems();
-            }
-
-            DecoUpdate();
-
             await UpdateItems();
         }
 
@@ -127,37 +88,9 @@ namespace KillTeam.Controllers
             teams.ForEach(i => Items.Add(new TeamsListTeamViewModel(i.Id, i.Name, i.Cost, i.FactionNameAndMembersCount)));
         }
 
-        private void DecoUpdate()
-        {
-            if (!Sauvegarde.IsConnected())
-            {
-                ToolbarItems.Remove(ButtonDeco);
-            }
-            else if (!ToolbarItems.Contains(ButtonDeco))
-            {
-                ToolbarItems.Add(ButtonDeco);
-            }
-        }
-
         public void AddTeamExecuted()
         {
             KTApp.Navigation.PushModalAsync(new Views.FactionsList());
-        }
-
-        public void LogoutExecuted()
-        {
-            Sauvegarde.Logout();
-            DecoUpdate();
-        }
-
-        public async Task SyncExecuted()
-        {
-            Sauvegarde.Login();
-            if (await Sauvegarde.Synchro(KTContext.Db))
-            {
-                await UpdateItems();
-            }
-            DecoUpdate();
         }
 
         public async Task LanguageExecuted()
@@ -174,7 +107,7 @@ namespace KillTeam.Controllers
         {
             _deleteTeamCommandHandler.Handle(new DeleteTeamCommand(team.Id));
 
-            await UpdateItems();
+            await Refresh();
         }
         public async Task ReorderTeamExecuted()
         {

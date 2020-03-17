@@ -4,6 +4,7 @@ using CarouselView.FormsPlugin.iOS;
 using Foundation;
 using Sharpnado.Presentation.Forms.iOS;
 using UIKit;
+using Xamarin.Forms;
 using Xamarin.Forms.Platform.iOS;
 
 namespace KillTeam.iOS
@@ -26,7 +27,9 @@ namespace KillTeam.iOS
         public override bool FinishedLaunching(UIApplication app, NSDictionary options)
         {
             SQLitePCL.Batteries_V2.Init(); // TODO(jakemco): do we even need this?
-            global::Xamarin.Forms.Forms.Init();
+
+            Forms.SetFlags("SwipeView_Experimental");
+            Forms.Init();
 
             SharpnadoInitializer.Initialize();
 

@@ -9,7 +9,8 @@
              xmlns:controllers="clr-namespace:KillTeam.Controllers;assembly=KillTeam"
              mc:Ignorable="d"
              x:Class="KillTeam.Views.TeamsList"
-             Title="Kill Team Manager">
+             Title="Kill Team Manager"
+             x:Name="This">
 
     <d:ContentPage.BindingContext>
         <controllers:TeamsList />
@@ -19,37 +20,50 @@
         <ResourceDictionary>
             <DataTemplate x:Key="TeamDataTemplate" x:DataType="{x:Type viewModels:TeamsListTeamViewModel}">
                 <ViewCell>
-                    <renderedViews:MaterialFrame Margin="4" Padding="{StaticResource StandardThickness}" Elevation="4">
-                        <renderedViews:MaterialFrame.GestureRecognizers>
-                            <SwipeGestureRecognizer Direction="Left, Right" Command="{Binding Source={RelativeSource AncestorType={x:Type ContentPage}}, Path=BindingContext.Delete}" CommandParameter="{Binding .}" />
-                            <TapGestureRecognizer Command="{Binding Source={RelativeSource AncestorType={x:Type ContentPage}}, Path=BindingContext.OpenTeam}" CommandParameter="{Binding .}" />
-                        </renderedViews:MaterialFrame.GestureRecognizers>
-                        <Grid>
-                            <Grid.RowDefinitions>
-                                <RowDefinition Height="*"/>
-                                <RowDefinition Height="*"/>
-                            </Grid.RowDefinitions>
-                            <Grid.ColumnDefinitions>
-                                <ColumnDefinition Width="*"/>
-                                <ColumnDefinition Width="Auto"/>
-                            </Grid.ColumnDefinitions>
+                    <SwipeView>
+                        <renderedViews:MaterialFrame Margin="4" Padding="{StaticResource StandardThickness}" Elevation="4">
+                            <renderedViews:MaterialFrame.GestureRecognizers>
+                                <!--<SwipeGestureRecognizer Direction="Left, Right" Command="{Binding Source={RelativeSource AncestorType={x:Type ContentPage}}, Path=BindingContext.Delete}" CommandParameter="{Binding .}" />-->
+                                <TapGestureRecognizer Command="{Binding Source={RelativeSource AncestorType={x:Type ContentPage}}, Path=BindingContext.OpenTeam}" CommandParameter="{Binding .}" />
+                            </renderedViews:MaterialFrame.GestureRecognizers>
+                            <Grid>
+                                <Grid.RowDefinitions>
+                                    <RowDefinition Height="*"/>
+                                    <RowDefinition Height="*"/>
+                                </Grid.RowDefinitions>
+                                <Grid.ColumnDefinitions>
+                                    <ColumnDefinition Width="*"/>
+                                    <ColumnDefinition Width="Auto"/>
+                                </Grid.ColumnDefinitions>
 
-                            <Label Text="{Binding Name}"
+                                <Label Text="{Binding Name}"
                                    Grid.Row="0" Grid.Column="0" 
                                    HorizontalOptions="Start" VerticalOptions="Center"
                                    FontSize="Large" />
 
-                            <Label Text="{Binding Cost}" 
+                                <Label Text="{Binding Cost}" 
                                    Grid.Row="0" Grid.Column="1" Grid.RowSpan="2"
                                    HorizontalOptions="Center" VerticalOptions="Center"
                                    FontSize="Large"/>
 
-                            <Label Text="{Binding FactionAndMembersCount}" 
+                                <Label Text="{Binding FactionAndMembersCount}" 
                                    Grid.Row="1" Grid.Column="0"
                                    HorizontalOptions="Start" VerticalOptions="Center"
                                    FontSize="Small" />
-                        </Grid>
-                    </renderedViews:MaterialFrame>
+                            </Grid>
+                        </renderedViews:MaterialFrame>
+
+                        <SwipeView.RightItems>
+                            <SwipeItems>
+                                <SwipeItemView>
+                                    <ImageButton BackgroundColor="LightPink"
+                                                 Source="delete.png"
+                                                 Padding="0,25"
+                                                 Command="{Binding Source={x:Reference This}, Path=BindingContext.Delete}" CommandParameter="{Binding .}"/>
+                                </SwipeItemView>
+                            </SwipeItems>
+                        </SwipeView.RightItems>
+                    </SwipeView>
                 </ViewCell>
             </DataTemplate>
         </ResourceDictionary>
@@ -65,7 +79,7 @@
                                               ItemsSource="{Binding Items}"
                                               EnableDragAndDrop="True"
                                               ColumnCount="1"
-                                              DragAndDropEndedCommand="{Binding ReorderTeam}" />
+                                              DragAndDropEndedCommand="{Binding ReorderTeam}"/>
 
             <Button Text="{x:Static properties:Resources.AddEquipeButton}"
                     Grid.Row="1"

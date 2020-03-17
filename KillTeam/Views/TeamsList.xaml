@@ -15,14 +15,14 @@
             <DataTemplate x:Key="TeamDataTemplate" x:DataType="{x:Type viewModels:TeamsListTeamViewModel}">
                 <ViewCell>
                     <SwipeView>
-                        <renderedViews:MaterialFrame Margin="4" Padding="{StaticResource StandardThickness}" Elevation="4">
+                        <renderedViews:MaterialFrame>
                             <renderedViews:MaterialFrame.GestureRecognizers>
                                 <TapGestureRecognizer Command="{Binding Source={RelativeSource AncestorType={x:Type ContentPage}}, Path=BindingContext.OpenTeam}" CommandParameter="{Binding .}" />
                             </renderedViews:MaterialFrame.GestureRecognizers>
                             <Grid>
                                 <Grid.RowDefinitions>
-                                    <RowDefinition Height="*"/>
-                                    <RowDefinition Height="*"/>
+                                    <RowDefinition Height="Auto"/>
+                                    <RowDefinition Height="Auto"/>
                                 </Grid.RowDefinitions>
                                 <Grid.ColumnDefinitions>
                                     <ColumnDefinition Width="*"/>

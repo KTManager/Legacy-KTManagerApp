@@ -68,6 +68,12 @@
                 <Setter Property="CollectionPadding" Value="8" />
                 <Setter Property="ListLayout" Value="Grid" />
             </Style>
+            <Style TargetType="renderedViews:MaterialFrame">
+                <Setter Property="Margin" Value="4" />
+                <Setter Property="Padding" Value="{StaticResource StandardThickness}" />
+                <Setter Property="Elevation" Value="4" />
+                <Setter Property="BorderColor" Value="LightGray" />
+            </Style>
         </ResourceDictionary>
     </Application.Resources>
 </Application>

@@ -1,5 +1,7 @@
 ﻿using System;
 using KillTeam.Commands.Handlers;
+using KillTeam.ViewModels;
+using Xamarin.Forms;
 using Xamarin.Forms.PlatformConfiguration.iOSSpecific;
 using Xamarin.Forms.Xaml;
 
@@ -13,7 +15,13 @@ namespace KillTeam.Views
             InitializeComponent();
             On<Xamarin.Forms.PlatformConfiguration.iOS>().SetUseSafeArea(true);
 
-            var vm = new Controllers.TeamDetail(ToolbarItems, teamId, new DeleteTeamCommandHandler(), new RenameTeamCommandHandler(), new DeleteMemberCommandHandler());
+            var vm = new Controllers.TeamDetail(ToolbarItems, teamId,
+                new DeleteTeamCommandHandler(),
+                new RenameTeamCommandHandler(),
+                new DeleteMemberCommandHandler(),
+                new ReorderMembersCommandHandler(),
+                new ToggleRosterCommandHandler(),
+                new ToggleMemberSelectedCommandHandler());
             BindingContext = vm;
         }
 
@@ -37,6 +45,19 @@ namespace KillTeam.Views
             {
                 binding.Delete.Execute(null);
             }
+        }
+
+        private void SwitchRoster_Toggled(object sender, ToggledEventArgs e)
+        {
+            if (!(BindingContext is Controllers.TeamDetail binding)) return;
+            binding.ToggleRoster.Execute(binding.Item);
+        }
+
+        private void SwitchSelected_Toggled(object sender, Xamarin.Forms.ToggledEventArgs e)
+        {
+            if (!(BindingContext is Controllers.TeamDetail binding)) return;
+            if (!(((Switch)sender).BindingContext is TeamDetailMemberViewModel member)) return;
+            binding.ToggleSelected.Execute(member);
         }
     }
 }

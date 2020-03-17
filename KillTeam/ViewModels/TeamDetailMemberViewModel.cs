@@ -10,16 +10,15 @@
 
         public string Description { get; set; }
 
-#if DEBUG
-        public TeamDetailMemberViewModel() { }
-#endif
-
-        public TeamDetailMemberViewModel(string id, string name, int cost, string description)
+        public bool IsSelected { get; set; }
+        
+        public TeamDetailMemberViewModel(string id, string name, int cost, string description, bool isSelected)
         {
             Id = id;
             Name = name;
             Cost = cost;
             Description = description;
+            IsSelected = isSelected;
         }
     }
 }

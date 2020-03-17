@@ -1,11 +1,7 @@
 ﻿using System.Collections.Generic;
-using System.Collections.ObjectModel;
-using System.ComponentModel;
 using System.Linq;
-using System.Runtime.CompilerServices;
 using System.Threading.Tasks;
 using System.Windows.Input;
-using KillTeam.Annotations;
 using KillTeam.Commands;
 using KillTeam.Commands.Handlers;
 using KillTeam.Properties;
@@ -16,23 +12,23 @@ using Xamarin.Forms;
 
 namespace KillTeam.Controllers
 {
-    public class TeamDetail : INotifyPropertyChanged
+    public class TeamDetail : BindableObject
     {
+        public BindableProperty ItemProperty = BindableProperty.Create(nameof(Item), typeof(TeamDetailTeamViewModel), typeof(TeamDetail));
         public TeamDetailTeamViewModel Item
         {
-            get => _item;
-            set
-            {
-                _item = value;
-                OnPropertyChanged();
-            }
+            get => (TeamDetailTeamViewModel)GetValue(ItemProperty);
+            set => SetValue(ItemProperty, value);
         }
 
         public IList<ToolbarItem> ToolbarItems { get; set; }
 
         public ICommand AddMember { get; set; }
         public ICommand DeleteMember { get; set; }
+        public ICommand ToggleSelected { get; set; }
+        public ICommand ReorderMembers { get; set; }
         public ICommand EditName { get; set; }
+        public ICommand ToggleRoster { get; set; }
         public ICommand Delete { get; set; }
         public ICommand Pdf { get; set; }
         public ICommand InGame { get; set; }
@@ -54,13 +50,19 @@ namespace KillTeam.Controllers
         public TeamDetail(IList<ToolbarItem> toolbarItems, string teamId, 
             IHandleCommands<DeleteTeamCommand> deleteTeamCommandHandler, 
             IHandleCommands<RenameTeamCommand> renameTeamCommandHandler,
-            IHandleCommands<DeleteMemberCommand> deleteMemberCommandHandler)
+            IHandleCommands<DeleteMemberCommand> deleteMemberCommandHandler,
+            IHandleCommands<ReorderMembersCommand> reorderMembersCommandHandler,
+            IHandleCommands<ToggleRosterCommand> toggleRosterCommandHandler,
+            IHandleCommands<ToggleMemberSelectedCommand> toggleSelectedCommandHandler)
         {
             _itemId = teamId;
 
             AddMember = new Command(AddMemberExecuted);
             DeleteMember = new Command(async e => await DeleteMemberExecuted(e as TeamDetailMemberViewModel));
+            ReorderMembers = new Command(ReorderMembersExecuted);
             EditName = new Command(async () => await EditNameExecuted());
+            ToggleRoster = new Command(async () => await ToggleRosterExecuted());
+            ToggleSelected = new Command(async e => await ToggleSelectedExecuted(e as TeamDetailMemberViewModel));
             Delete = new Command(async () => await DeleteExecuted());
 
             ButtonPdf = new ToolbarItem
@@ -101,6 +103,9 @@ namespace KillTeam.Controllers
             ToolbarItems.Add(ButtonDuplicates);
 
             _deleteMemberCommandHandler = deleteMemberCommandHandler;
+            _toggleSelectedCommandHandler = toggleSelectedCommandHandler;
+            _reorderMembersCommandHandler = reorderMembersCommandHandler;
+            _toggleRosterCommandHandler = toggleRosterCommandHandler;
             _deleteTeamCommandHandler = deleteTeamCommandHandler;
             _renameTeamCommandHandler = renameTeamCommandHandler;
         }
@@ -134,7 +139,7 @@ namespace KillTeam.Controllers
                 .FirstAsync();
 
             Item = new TeamDetailTeamViewModel(team.Id, team.Name, team.Cost, team.Faction.Name, team.Roster);
-            team.Members.OrderBy(o => o.Name).ToList().ForEach(y => Item.Members.Add(new TeamDetailMemberViewModel(y.Id, y.Name, y.Cost, y.ShortWeaponLevel)));
+            team.Members.OrderBy(o => o.Position).ToList().ForEach(y => Item.Members.Add(new TeamDetailMemberViewModel(y.Id, y.Name, y.Cost, y.ShortWeaponLevel, y.Selected)));
         }
 
         private void AddMemberExecuted()
@@ -148,10 +153,37 @@ namespace KillTeam.Controllers
             await Refresh();
         }
 
+        public async Task ToggleSelectedExecuted(TeamDetailMemberViewModel member)
+        {
+            _toggleSelectedCommandHandler.Handle(new ToggleMemberSelectedCommand(member.Id, member.IsSelected));
+            await UpdateTeamCost();
+        }
+
+        public void ReorderMembersExecuted()
+        {
+            _reorderMembersCommandHandler.Handle(new ReorderMembersCommand(Item.Members.Select(x => x.Id).ToList()));
+        }
+
         public async Task EditNameExecuted()
         {
             _renameTeamCommandHandler.Handle(new RenameTeamCommand(Item.Id, Item.Name));
             await Refresh();
+        }
+
+        public async Task ToggleRosterExecuted()
+        {
+            _toggleRosterCommandHandler.Handle(new ToggleRosterCommand(Item.Id, Item.IsRoster));
+            await UpdateTeamCost();
+        }
+
+        private async Task UpdateTeamCost()
+        {
+            var team = await KTContext.Db.Teams
+                .Where(e => e.Id == _itemId)
+                .Include(e => e.Members)
+                .FirstAsync();
+
+            Item.Cost = team.Cost;
         }
 
         public async Task DeleteExecuted()
@@ -162,16 +194,11 @@ namespace KillTeam.Controllers
 
         private string _itemId;
         private readonly IHandleCommands<DeleteMemberCommand> _deleteMemberCommandHandler;
+        private readonly IHandleCommands<ToggleMemberSelectedCommand> _toggleSelectedCommandHandler;
+        private readonly IHandleCommands<ReorderMembersCommand> _reorderMembersCommandHandler;
+        private readonly IHandleCommands<ToggleRosterCommand> _toggleRosterCommandHandler;
         private readonly IHandleCommands<DeleteTeamCommand> _deleteTeamCommandHandler;
         private readonly IHandleCommands<RenameTeamCommand> _renameTeamCommandHandler;
         private TeamDetailTeamViewModel _item;
-        public event PropertyChangedEventHandler PropertyChanged;
-
-
-        [NotifyPropertyChangedInvocator]
-        protected virtual void OnPropertyChanged([CallerMemberName] string propertyName = null)
-        {
-            PropertyChanged?.Invoke(this, new PropertyChangedEventArgs(propertyName));
-        }
     }
 }

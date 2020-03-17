@@ -6,6 +6,7 @@
              xmlns:d="http://xamarin.com/schemas/2014/forms/design"
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
              xmlns:renderedViews="clr-namespace:Sharpnado.Presentation.Forms.RenderedViews;assembly=Sharpnado.Presentation.Forms"
+             xmlns:behaviors="clr-namespace:KillTeam.Behaviors;assembly=KillTeam"
              mc:Ignorable="d"
              x:Class="KillTeam.Views.TeamDetail"
              Title="{Binding Item.FormattedNameCost}"
@@ -15,11 +16,11 @@
             <DataTemplate x:Key="MemberDataTemplate" x:DataType="{x:Type viewModels:TeamDetailMemberViewModel}">
                 <ViewCell>
                     <SwipeView>
-                        <renderedViews:MaterialFrame Margin="4" Padding="{StaticResource StandardThickness}" Elevation="4">
+                        <renderedViews:MaterialFrame>
                             <renderedViews:MaterialFrame.GestureRecognizers>
                                 <!--<TapGestureRecognizer Command="{Binding Source={RelativeSource AncestorType={x:Type ContentPage}}, Path=BindingContext.OpenTeam}" CommandParameter="{Binding .}" />-->
                             </renderedViews:MaterialFrame.GestureRecognizers>
-                            <Grid Margin="5">
+                            <Grid>
                                 <Grid.RowDefinitions>
                                     <RowDefinition Height="*"/>
                                     <RowDefinition Height="*"/>
@@ -27,22 +28,31 @@
                                 <Grid.ColumnDefinitions>
                                     <ColumnDefinition Width="*"/>
                                     <ColumnDefinition Width="Auto"/>
+                                    <ColumnDefinition Width="Auto"/>
                                 </Grid.ColumnDefinitions>
 
                                 <Label Text="{Binding Name}"
                                        Grid.Row="0" Grid.Column="0" 
                                        HorizontalOptions="Start" VerticalOptions="Center"
-                                       FontSize="Medium" />
+                                       FontSize="Large" />
 
                                 <Label Text="{Binding Cost}" 
                                        Grid.Row="0" Grid.Column="1" Grid.RowSpan="2"
                                        HorizontalOptions="Center" VerticalOptions="Center"
-                                       FontSize="Medium"/>
+                                       FontSize="Large"/>
 
                                 <Label Text="{Binding Description}" 
                                        Grid.Row="1" Grid.Column="0"
                                        HorizontalOptions="Start" VerticalOptions="Center"
                                        FontSize="Small" />
+
+                                <Switch Grid.Row="0" Grid.Column="2" Grid.RowSpan="2"
+                                        IsVisible="{Binding Source={x:Reference This}, Path=BindingContext.Item.IsRoster}"
+                                        IsToggled="{Binding IsSelected}"
+                                        VerticalOptions="Center"
+                                        IsEnabled="True"
+                                        HorizontalOptions="End"
+                                        Toggled="SwitchSelected_Toggled"/>
                             </Grid>
                         </renderedViews:MaterialFrame>
 
@@ -93,12 +103,12 @@
                    FontSize="Medium"
                    Grid.Row="1" Grid.Column="0"
                    IsVisible="{Binding Item.ShowFaction}"
-                   Text="{Binding Item.FormattedFactionCost}" d:Text="Thousand Sons : 61 Point(s)" />
+                   Text="{Binding Item.FormattedFactionCost}" />
             <Label Margin="5,0"
                    VerticalOptions="Center"
                    FontSize="Medium"
                    Grid.Row="1" Grid.Column="0"
-                   IsVisible="{Binding Item.ShowCostOnly}" d:IsVisible="False"
+                   IsVisible="{Binding Item.ShowCostOnly}"
                    Text="{Binding Item.FormattedCost}"/>
             <StackLayout Orientation="Horizontal"
                          Grid.Row="1" Grid.Column="1"
@@ -108,11 +118,15 @@
                        VerticalOptions="Center"
                        Style="{DynamicResource ListItemTextStyle}" 
                        FontSize="Medium" />
-                <Switch IsToggled="{Binding Roster}"
+                <Switch x:Name="TglRoster"
+                        IsToggled="{Binding Item.IsRoster}"
                         VerticalOptions="Center"
                         IsEnabled="True"
-                        x:Name="SwitchRoster" 
-                        HorizontalOptions="EndAndExpand"></Switch>
+                        HorizontalOptions="EndAndExpand">
+                    <Switch.Behaviors>
+                        <behaviors:SwitchBehavior Command="{Binding ToggleRoster}" />
+                    </Switch.Behaviors>
+                </Switch>
             </StackLayout>
         </Grid>
 

@@ -109,6 +109,7 @@ namespace KillTeam.Controllers
 
             await Refresh();
         }
+
         public async Task ReorderTeamExecuted()
         {
             _reorderTeamsCommandHandler.Handle(new ReorderTeamsCommand(Items.Select(x => x.Id).ToList()));

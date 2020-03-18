@@ -47,12 +47,6 @@ namespace KillTeam.Views
             }
         }
 
-        private void SwitchRoster_Toggled(object sender, ToggledEventArgs e)
-        {
-            if (!(BindingContext is Controllers.TeamDetail binding)) return;
-            binding.ToggleRoster.Execute(binding.Item);
-        }
-
         private void SwitchSelected_Toggled(object sender, Xamarin.Forms.ToggledEventArgs e)
         {
             if (!(BindingContext is Controllers.TeamDetail binding)) return;

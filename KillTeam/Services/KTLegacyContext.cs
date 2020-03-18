@@ -6,6 +6,7 @@ using System.Diagnostics;
 using System.IO;
 using System.Linq;
 using Microsoft.AppCenter.Crashes;
+using Xamarin.Forms;
 
 namespace KillTeam.Services
 {
@@ -24,7 +25,18 @@ namespace KillTeam.Services
             }
         }
 
-        private const string DBName = "KTDatabase.db";
+        private static string DBName {
+            get {
+                switch (Device.RuntimePlatform)
+                {
+                    case Device.iOS:
+                        return "KTDatabaseProd.db";
+                    case Device.Android:
+                    default:
+                        return "KTDatabase.db";
+                }
+            }
+        }
 
         public static string DBPath
         {

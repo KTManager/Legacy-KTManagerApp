@@ -5,35 +5,5 @@
              x:Class="KillTeam.KTApp">
     <Application.Resources>
         <ResourceDictionary Source="Themes/LightTheme.xaml" />
-
-        <Style TargetType="{x:Type ContentPage}">
-            <Setter Property="BackgroundColor" Value="{DynamicResource PageBackgroundColor}"/>
-        </Style>
-
-        <Style TargetType="NavigationPage">
-            <Setter Property="BarBackgroundColor" Value="{DynamicResource PrimaryColor}" />
-            <Setter Property="BarTextColor" Value="{DynamicResource PrimaryTextColor}" />
-        </Style>
-
-        <Style TargetType="{x:Type syncfusion:SfListView}">
-            <Setter Property="BackgroundColor" Value="{DynamicResource PageBackgroundColor}"/>
-        </Style>
-
-        <Style TargetType="{x:Type StackLayout}">
-            <Setter Property="BackgroundColor" Value="{DynamicResource PageBackgroundColor}"/>
-        </Style>
-
-        <Style x:Key="Frame" TargetType="{x:Type StackLayout}">
-            <Setter Property="BackgroundColor" Value="{DynamicResource SecondaryColor}"/>
-        </Style>
-
-        <Style x:Key="FrameLabel" TargetType="{x:Type Label}">
-            <Setter Property="TextColor" Value="{DynamicResource SecondaryTextColor}"/>
-        </Style>
-
-        <Style TargetType="{x:Type Button}">
-            <Setter Property="BackgroundColor" Value="{DynamicResource TertiaryColor}"/>
-            <Setter Property="TextColor" Value="{DynamicResource TertiaryTextColor}"/>
-        </Style>
     </Application.Resources>
 </Application>

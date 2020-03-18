@@ -1,17 +1,51 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <ResourceDictionary xmlns="http://xamarin.com/schemas/2014/forms"
                     xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+                    xmlns:syncfusion="clr-namespace:Syncfusion.ListView.XForms;assembly=Syncfusion.SfListView.XForms"
                     x:Class="KillTeam.Themes.LightTheme">
 
-    <Color x:Key="PageBackgroundColor">#f5f5f5</Color>
-
     <Color x:Key="PrimaryColor">#0f4c81</Color>
-    <Color x:Key="PrimaryTextColor">#f5f5f5</Color>
-
-    <Color x:Key="SecondaryColor">#ffffff</Color>
-    <Color x:Key="SecondaryTextColor">#222831</Color>
-
+    <Color x:Key="SecondaryColor">#222831</Color>
     <Color x:Key="TertiaryColor">#393e46</Color>
-    <Color x:Key="TertiaryTextColor">#f5f5f5</Color>
+    <Color x:Key="QuaternaryColor">#ffffff</Color>
+    <Color x:Key="QuinaryColor">#f5f5f5</Color>
 
+    <Style TargetType="{x:Type ContentPage}">
+        <Setter Property="BackgroundColor" Value="{DynamicResource QuinaryColor}"/>
+    </Style>
+
+    <Style TargetType="NavigationPage">
+        <Setter Property="BarBackgroundColor" Value="{DynamicResource PrimaryColor}" />
+        <Setter Property="BarTextColor" Value="{DynamicResource QuinaryColor}" />
+    </Style>
+
+    <Style TargetType="{x:Type syncfusion:SfListView}">
+        <Setter Property="BackgroundColor" Value="{DynamicResource QuinaryColor}"/>
+    </Style>
+
+    <Style TargetType="{x:Type StackLayout}">
+        <Setter Property="BackgroundColor" Value="{DynamicResource QuinaryColor}"/>
+    </Style>
+
+    <Style x:Key="Frame" TargetType="{x:Type StackLayout}">
+        <Setter Property="BackgroundColor" Value="{DynamicResource QuaternaryColor}"/>
+    </Style>
+
+    <Style TargetType="{x:Type ActivityIndicator}">
+        <Setter Property="Color" Value="{DynamicResource PrimaryColor}"/>
+    </Style>
+
+    <Style TargetType="{x:Type Label}">
+        <Setter Property="TextColor" Value="{DynamicResource SecondaryColor}"/>
+    </Style>
+
+    <Style TargetType="{x:Type Button}">
+        <Setter Property="BackgroundColor" Value="{DynamicResource PrimaryColor}"/>
+        <Setter Property="TextColor" Value="{DynamicResource QuinaryColor}"/>
+    </Style>
+
+    <Style TargetType="{x:Type Entry}">
+        <Setter Property="BackgroundColor" Value="{DynamicResource QuinaryColor}"/>
+        <Setter Property="TextColor" Value="{DynamicResource SecondaryColor}"/>
+    </Style>
 </ResourceDictionary>

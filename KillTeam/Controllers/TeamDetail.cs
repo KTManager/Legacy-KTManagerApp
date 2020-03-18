@@ -8,6 +8,8 @@ using KillTeam.Properties;
 using KillTeam.Services;
 using KillTeam.ViewModels;
 using Microsoft.EntityFrameworkCore;
+using Plugin.Share;
+using Plugin.Share.Abstractions;
 using Xamarin.Forms;
 
 namespace KillTeam.Controllers
@@ -65,6 +67,8 @@ namespace KillTeam.Controllers
             ToggleSelected = new Command(async e => await ToggleSelectedExecuted(e as TeamDetailMemberViewModel));
             Delete = new Command(async () => await DeleteExecuted());
 
+            Share = new Command(async () => await ShareExecuted());
+
             ButtonPdf = new ToolbarItem
             {
                 Text = Resources.PDF,
@@ -86,7 +90,8 @@ namespace KillTeam.Controllers
             ButtonShare = new ToolbarItem
             {
                 Text = Resources.Partager,
-                Order = ToolbarItemOrder.Secondary
+                Order = ToolbarItemOrder.Secondary,
+                Command = Share
             };
 
             ButtonDuplicates = new ToolbarItem
@@ -174,6 +179,26 @@ namespace KillTeam.Controllers
         {
             _toggleRosterCommandHandler.Handle(new ToggleRosterCommand(Item.Id, Item.IsRoster));
             await UpdateTeamCost();
+        }
+
+        public async Task ShareExecuted()
+        {
+            var team = KTContext.Db.Teams
+                .Where(e => e.Id == Item.Id)
+                .Include(e => e.Members)
+                .ThenInclude(m => m.Specialist)
+                .Include(e => e.Members)
+                .ThenInclude(m => m.ModelProfile)
+                .Include(e => e.Members)
+                .ThenInclude(m => m.MemberWeapons)
+                .ThenInclude(m => m.Weapon)
+                .Include(e => e.Faction).First();
+
+            await CrossShare.Current.Share(new ShareMessage
+            {
+                Text = $"{team.GetSummary()}\n{Resources.PartageDepuis}",
+                Url = "https://www.facebook.com/KillTeamManager"
+            });
         }
 
         private async Task UpdateTeamCost()

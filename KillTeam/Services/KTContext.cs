@@ -6,6 +6,7 @@ using System.Diagnostics;
 using System.IO;
 using System.Linq;
 using Microsoft.AppCenter.Crashes;
+using Xamarin.Forms;
 
 namespace KillTeam.Services
 {
@@ -34,6 +35,22 @@ namespace KillTeam.Services
                     typeof(KTContext).Assembly,
                     RulesProviders.ManifestRulesProvider.MANIFEST_RULES_PREFIX);
             }
+        }
+
+        public static bool ShouldShowLegacyImportModal()
+        {
+            if (Device.RuntimePlatform != Device.iOS)
+            {
+                return false;
+            }
+
+            if (!File.Exists(DBPath) || !File.Exists(KTLegacyContext.DBPath))
+            {
+                return false;
+            }
+
+            var oldDB = new KTUserContext(DBPath);
+            return (oldDB.GetCurrentVersion().RulesVersion == "1.1.1-c3a06fceb2f395c3f188ecd9bbfcd86781b8face5e29032b969b3a97b72c84c7");
         }
 
     }

@@ -62,6 +62,7 @@ namespace KillTeam.Services
         {
             if (OldUdb == null && File.Exists(KTLegacyContext.DBPath))
             {
+                Console.WriteLine("Using Legacy Context");
                 return new KTLegacyContext();
             }
 
@@ -89,9 +90,10 @@ namespace KillTeam.Services
                 newUdb.ImportRules(Provider);
                 if (backup != null)
                 {
-                    Log($"Backing up old Database");
+                    string legacy = (backup is KTLegacyContext ? "legacy " : "");
+                    Log($"Backing up old {legacy}Database");
                     var replacements = JsonConvert.DeserializeObject<Dictionary<string, Dictionary<string, string>>>(Provider.GetReplacementsJSON());
-                    Log($"Applying backup to new Database");
+                    Log($"Applying {legacy}backup to new Database");
                     Sauvegarde.SetSerializedData(
                         newUdb,
                         Sauvegarde.GetSerializedData(backup),

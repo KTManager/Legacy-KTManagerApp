@@ -34,7 +34,7 @@
                                 <Label Text="{Binding Name}"
                                        Grid.Row="0" Grid.Column="0" 
                                        HorizontalOptions="Start" VerticalOptions="Center"
-                                       FontSize="Large" />
+                                       FontSize="Medium" />
 
                                 <Label Text="{Binding Cost}" 
                                        Grid.Row="0" Grid.Column="1" Grid.RowSpan="2"

@@ -35,25 +35,17 @@
                        Top="{StaticResource MediumPadding}" />
 
             <Thickness x:Key="StandardThickness"
-                       Bottom="{StaticResource StandardPadding}"
+                       Bottom="{StaticResource MediumPadding}"
                        Left="{StaticResource StandardPadding}"
                        Right="{StaticResource StandardPadding}"
-                       Top="{StaticResource StandardPadding}" />
+                       Top="{StaticResource MediumPadding}" />
 
             <Style TargetType="renderedViews:HorizontalListView">
                 <Setter Property="ItemHeight">
                     <Setter.Value>
                         <OnPlatform x:TypeArguments="x:Double">
-                            <On Platform="iOS">90</On>
-                            <On Platform="Android">90</On>
-                        </OnPlatform>
-                    </Setter.Value>
-                </Setter>
-                <Setter Property="ItemWidth">
-                    <Setter.Value>
-                        <OnPlatform x:TypeArguments="x:Double">
-                            <On Platform="iOS">100</On>
-                            <On Platform="Android">110</On>
+                            <On Platform="iOS">70</On>
+                            <On Platform="Android">70</On>
                         </OnPlatform>
                     </Setter.Value>
                 </Setter>
@@ -68,6 +60,11 @@
                 <Setter Property="CollectionPadding" Value="8" />
                 <Setter Property="ListLayout" Value="Grid" />
             </Style>
+
+            <Style TargetType="ListView">
+                <Setter Property="RowHeight" Value="50"/>
+            </Style>
+
             <Style TargetType="renderedViews:MaterialFrame">
                 <Setter Property="Margin" Value="4" />
                 <Setter Property="Padding" Value="{StaticResource StandardThickness}" />

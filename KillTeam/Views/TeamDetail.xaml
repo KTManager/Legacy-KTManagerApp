@@ -132,6 +132,7 @@
 
         <renderedViews:HorizontalListView ItemTemplate="{StaticResource MemberDataTemplate}"
                                           ItemsSource="{Binding Item.Members}"
+                                          Style="{StaticResource ThreeLineRows}"
                                           EnableDragAndDrop="True"
                                           ColumnCount="1"
                                           Grid.Row="1"

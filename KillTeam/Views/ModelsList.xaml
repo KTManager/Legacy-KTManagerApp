@@ -41,7 +41,7 @@
         <ListView ItemsSource="{Binding Items}" 
                   IsGroupingEnabled="True"
                   GroupDisplayBinding="{Binding Name}"
-                  SeparatorVisibility="None" Margin="10"
+                  SeparatorVisibility="None" Margin="4"
                   ItemTemplate="{StaticResource ProfileDataTemplate}">
             <ListView.GroupHeaderTemplate>
                 <DataTemplate x:DataType="{x:Type viewModels:ModelsListGroupViewModel}">

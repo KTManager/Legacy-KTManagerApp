@@ -49,6 +49,6 @@
     <ContentPage.Content>
         <ListView ItemTemplate="{StaticResource TacticDataTemplate}" 
                   ItemsSource="{Binding Items}" HasUnevenRows="True"
-                  SeparatorVisibility="None" Margin="10" />
+                  SeparatorVisibility="None" Margin="4" />
     </ContentPage.Content>
 </ContentPage>

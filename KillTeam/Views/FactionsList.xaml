@@ -19,8 +19,7 @@
 
                         <Label Text="{Binding Name}"
                                HorizontalOptions="Start" VerticalOptions="Center"
-                               FontSize="Medium"
-                               LineBreakMode="NoWrap"  />
+                               FontSize="Medium" />
                     </renderedViews:MaterialFrame>
                 </ViewCell>
             </DataTemplate>
@@ -28,8 +27,10 @@
     </ContentPage.Resources>
 
     <ContentPage.Content>
-        <ListView ItemTemplate="{StaticResource FactionDataTemplate}"
-                  ItemsSource="{Binding Items}"
-                  SeparatorVisibility="None" Margin="10"/>
+        <renderedViews:HorizontalListView ItemTemplate="{StaticResource FactionDataTemplate}"
+                                          ItemsSource="{Binding Items}"
+                                          Style="{StaticResource OneLineRows}"
+                                          EnableDragAndDrop="False"
+                                          ColumnCount="1" />
     </ContentPage.Content>
 </ContentPage>

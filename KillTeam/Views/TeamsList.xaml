@@ -70,6 +70,7 @@
             </Grid.RowDefinitions>
             <renderedViews:HorizontalListView ItemTemplate="{StaticResource TeamDataTemplate}"
                                               ItemsSource="{Binding Items}"
+                                              Style="{StaticResource ThreeLineRows}"
                                               EnableDragAndDrop="True"
                                               ColumnCount="1"
                                               DragAndDropEndedCommand="{Binding ReorderTeam}"/>

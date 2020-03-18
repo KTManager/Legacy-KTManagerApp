@@ -24,8 +24,8 @@
 
             <Thickness x:Key="SmallThickness"
                        Bottom="{StaticResource SmallPadding}"
-                       Left="{StaticResource SmallPadding}"
-                       Right="{StaticResource SmallPadding}"
+                       Left="{StaticResource StandardPadding}"
+                       Right="{StaticResource StandardPadding}"
                        Top="{StaticResource SmallPadding}" />
 
             <Thickness x:Key="MediumThickness"
@@ -40,7 +40,18 @@
                        Right="{StaticResource StandardPadding}"
                        Top="{StaticResource MediumPadding}" />
 
-            <Style TargetType="renderedViews:HorizontalListView">
+            <Style x:Key="OneLineRows" TargetType="renderedViews:HorizontalListView">
+                <Setter Property="ItemHeight">
+                    <Setter.Value>
+                        <OnPlatform x:TypeArguments="x:Double">
+                            <On Platform="iOS">40</On>
+                            <On Platform="Android">40</On>
+                        </OnPlatform>
+                    </Setter.Value>
+                </Setter>
+            </Style>
+
+            <Style x:Key="ThreeLineRows" TargetType="renderedViews:HorizontalListView">
                 <Setter Property="ItemHeight">
                     <Setter.Value>
                         <OnPlatform x:TypeArguments="x:Double">
@@ -49,6 +60,9 @@
                         </OnPlatform>
                     </Setter.Value>
                 </Setter>
+            </Style>
+
+            <Style TargetType="renderedViews:HorizontalListView">
                 <Setter Property="ItemSpacing">
                     <Setter.Value>
                         <OnPlatform x:TypeArguments="x:Int32">
@@ -59,10 +73,6 @@
                 </Setter>
                 <Setter Property="CollectionPadding" Value="8" />
                 <Setter Property="ListLayout" Value="Grid" />
-            </Style>
-
-            <Style TargetType="ListView">
-                <Setter Property="RowHeight" Value="50"/>
             </Style>
 
             <Style TargetType="renderedViews:MaterialFrame">

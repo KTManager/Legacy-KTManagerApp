@@ -6,6 +6,7 @@ using KillTeam.Services;
 using Microsoft.AppCenter;
 using Microsoft.AppCenter.Analytics;
 using Microsoft.AppCenter.Crashes;
+using Xamarin.Essentials;
 
 [assembly: XamlCompilation(XamlCompilationOptions.Compile)]
 namespace KillTeam
@@ -16,11 +17,7 @@ namespace KillTeam
         private const string ANDROID_SECRET = "6d5c2bed-d805-4345-904d-37da46738451";
         private const string IOS_SECRET = "656a7e6a-4297-44af-bb5e-3672dc169434";
 
-        public static INavigation Navigation {
-            get {
-                return KTApp.Current.MainPage.Navigation;
-            }
-        }
+        public static INavigation Navigation => Current.MainPage.Navigation;
 
         public KTApp()
         {
@@ -35,6 +32,16 @@ namespace KillTeam
                     StringExtensions.Ci = new System.Globalization.CultureInfo(langue);
                 }
             }
+
+            if (AppInfo.RequestedTheme == AppTheme.Dark)
+            {
+                Current.Resources = new Themes.DarkTheme();
+            }
+            else
+            {
+                Current.Resources = new Themes.LightTheme();
+            }
+
             MainPage = new NavigationPage(new DatabaseLoadPage());
         }
 

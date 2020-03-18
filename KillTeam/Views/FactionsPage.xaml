@@ -14,11 +14,8 @@
             <ListView.ItemTemplate>
                 <DataTemplate>
                     <ViewCell>
-                        <StackLayout Padding="10">
-                            <Label Text="{Binding Name}" 
-                                LineBreakMode="NoWrap" 
-                                Style="{DynamicResource ListItemTextStyle}" 
-                                FontSize="16" />
+                        <StackLayout Margin="5,5,5,0" Padding="10" Style="{DynamicResource Frame}">
+                            <Label Text="{Binding Name}" LineBreakMode="NoWrap" FontSize="16" Style="{DynamicResource FrameLabel}"/>
                         </StackLayout>
                     </ViewCell>
                 </DataTemplate>

@@ -14,7 +14,7 @@
                                 AutoFitMode="Height"
                                 DragStartMode="OnHold"
                                 AllowSwiping="True"
-                                SelectionMode="None" >
+                                SelectionMode="None">
             <!-- ItemDragging="EquipesListView_ItemDragging" -->
             <syncfusion:SfListView.DataSource>
                 <data:DataSource>
@@ -26,19 +26,19 @@
             <syncfusion:SfListView.ItemTemplate>
                 <DataTemplate>
                     <ViewCell>
-                        <StackLayout Padding="10">
+                        <StackLayout Margin="5,5,5,0" Padding="10" Style="{DynamicResource Frame}">
                             <StackLayout.GestureRecognizers>
                                 <TapGestureRecognizer Command="{Binding Source={x:Reference ListEquipes}, Path=BindingContext.OpenTeam}" 
                                     CommandParameter="{Binding .}"/>
                             </StackLayout.GestureRecognizers>
                             <StackLayout Orientation="Horizontal"
-                                         VerticalOptions="Start">
-                                <Label Text="{Binding Name}"                                        
+                                         VerticalOptions="Start" Style="{DynamicResource Frame}">
+                                <Label Text="{Binding Name}" Style="{DynamicResource FrameLabel}"                                       
                                        FontSize="Medium" />
-                                <Label Text="{Binding Cost}"                                        
+                                <Label Text="{Binding Cost}" Style="{DynamicResource FrameLabel}"                                        
                                        HorizontalOptions="EndAndExpand" />
                             </StackLayout>
-                            <Label Text="{Binding FactionNameAndMembersCount}" 
+                            <Label Text="{Binding FactionNameAndMembersCount}" Style="{DynamicResource FrameLabel}" 
                                    FontSize="10" 
                                    VerticalOptions="CenterAndExpand" />
                         </StackLayout>

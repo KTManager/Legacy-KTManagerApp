@@ -275,6 +275,7 @@
     <PackageReference Include="Syncfusion.Xamarin.SfListView" Version="16.3.0.21" />
     <PackageReference Include="Syncfusion.Xamarin.SfNavigationDrawer" Version="16.3.0.29" />
     <PackageReference Include="Syncfusion.Xamarin.SfNumericUpDown" Version="16.3.0.29" />
+    <PackageReference Include="Xamarin.Essentials" Version="1.5.1" />
     <PackageReference Include="Xamarin.Forms" Version="3.1.0.697729" />
     <PackageReference Include="Xamarin.Plugins.Clipboard" Version="2.2.1" />  
   </ItemGroup>
@@ -282,6 +283,9 @@
   <ItemGroup>
     <Compile Update="KTApp.xaml.cs">
       <DependentUpon>KTApp.xaml</DependentUpon>
+    </Compile>
+    <Compile Update="Themes\LightTheme.xaml.cs">
+      <DependentUpon>LightTheme.xaml</DependentUpon>
     </Compile>
     <Compile Update="Views\PsychiqueView.xaml.cs">
       <DependentUpon>PsychiqueView.xaml</DependentUpon>
@@ -322,6 +326,9 @@
     </EmbeddedResource>
     <EmbeddedResource Update="Resx\Translate.fr.resx">
       <Generator>ResXFileCodeGenerator</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Themes\DarkTheme.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
     <EmbeddedResource Update="Views\AptitudeView.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>

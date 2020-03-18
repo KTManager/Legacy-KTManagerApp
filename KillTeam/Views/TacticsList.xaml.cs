@@ -1,24 +1,24 @@
-﻿using KillTeam.Commands.Handlers;
+﻿using Xamarin.Forms;
 using Xamarin.Forms.PlatformConfiguration.iOSSpecific;
 using Xamarin.Forms.Xaml;
 
 namespace KillTeam.Views
 {
     [XamlCompilation(XamlCompilationOptions.Compile)]
-    public partial class TeamsList
+    public partial class TacticsList : ContentPage
     {
-        public TeamsList()
+        public TacticsList(string teamId)
         {
             InitializeComponent();
             On<Xamarin.Forms.PlatformConfiguration.iOS>().SetUseSafeArea(true);
 
-            var vm = new Controllers.TeamsList(ToolbarItems, new DeleteTeamCommandHandler(), new ReorderTeamsCommandHandler());
+            var vm = new Controllers.TacticsList(teamId);
             BindingContext = vm;
         }
 
         protected override async void OnAppearing()
         {
-            if (BindingContext is Controllers.TeamsList binding)
+            if (BindingContext is Controllers.TacticsList binding)
             {
                 await binding.Refresh();
             }

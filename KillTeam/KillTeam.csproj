@@ -34,7 +34,6 @@
     <Compile Remove="Views\ListErreurPage.xaml.cs" />
     <Compile Remove="Views\ListPsychiquePage.xaml.cs" />
     <Compile Remove="Views\ListSpecialitesPage.xaml.cs" />
-    <Compile Remove="Views\ListTactiquePage.xaml.cs" />
     <Compile Remove="Views\ListTraitPage.xaml.cs" />
     <Compile Remove="Views\MembrePage.xaml.cs" />
     <Compile Remove="Views\PsychiqueView.xaml.cs" />
@@ -54,7 +53,6 @@
     <EmbeddedResource Remove="Views\ListErreurPage.xaml" />
     <EmbeddedResource Remove="Views\ListPsychiquePage.xaml" />
     <EmbeddedResource Remove="Views\ListSpecialitesPage.xaml" />
-    <EmbeddedResource Remove="Views\ListTactiquePage.xaml" />
     <EmbeddedResource Remove="Views\ListTraitPage.xaml" />
     <EmbeddedResource Remove="Views\MembrePage.xaml" />
     <EmbeddedResource Remove="Views\PsychiqueView.xaml" />
@@ -330,6 +328,9 @@
     </Compile>
     <Compile Update="Views\Language.xaml.cs">
       <DependentUpon>Language.xaml</DependentUpon>
+    </Compile>
+    <Compile Update="Views\TacticsList.xaml.cs">
+      <DependentUpon>TacticsList.xaml</DependentUpon>
     </Compile>
     <Compile Update="Views\ModelsList.xaml.cs">
       <DependentUpon>ModelsList.xaml</DependentUpon>

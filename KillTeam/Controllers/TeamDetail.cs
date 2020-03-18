@@ -68,6 +68,7 @@ namespace KillTeam.Controllers
             Delete = new Command(async () => await DeleteExecuted());
 
             Share = new Command(async () => await ShareExecuted());
+            Tactics = new Command(TacticsExecuted);
 
             ButtonPdf = new ToolbarItem
             {
@@ -84,7 +85,8 @@ namespace KillTeam.Controllers
             ButtonTactics = new ToolbarItem
             {
                 Text = Resources.Tactiques,
-                Order = ToolbarItemOrder.Secondary
+                Order = ToolbarItemOrder.Secondary,
+                Command = Tactics
             };
 
             ButtonShare = new ToolbarItem
@@ -199,6 +201,10 @@ namespace KillTeam.Controllers
                 Text = $"{team.GetSummary()}\n{Resources.PartageDepuis}",
                 Url = "https://www.facebook.com/KillTeamManager"
             });
+        }
+        private void TacticsExecuted()
+        {
+            KTApp.Navigation.PushAsync(new Views.TacticsList(Item.Id));
         }
 
         private async Task UpdateTeamCost()

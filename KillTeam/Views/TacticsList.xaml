@@ -1,0 +1,54 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="KillTeam.Views.TacticsList"
+             xmlns:viewModels="clr-namespace:KillTeam.ViewModels;assembly=KillTeam"
+             xmlns:renderedViews="clr-namespace:Sharpnado.Presentation.Forms.RenderedViews;assembly=Sharpnado.Presentation.Forms"
+             Title="{Binding Title}">
+    <ContentPage.Resources>
+        <ResourceDictionary>
+            <DataTemplate x:Key="TacticDataTemplate" x:DataType="{x:Type viewModels:TacticsListTacticViewModel}">
+                <ViewCell>
+                    <renderedViews:MaterialFrame>
+                        <Grid>
+                            <Grid.RowDefinitions>
+                                <RowDefinition Height="Auto"/>
+                                <RowDefinition Height="*"/>
+                            </Grid.RowDefinitions>
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="Auto"/>
+                                <ColumnDefinition Width="Auto"/>
+                                <ColumnDefinition Width="*"/>
+                            </Grid.ColumnDefinitions>
+
+                            <Label Text="{Binding Name}"
+                                   Grid.Row="0" Grid.Column="0" 
+                                   HorizontalOptions="Start" VerticalOptions="Center"
+                                   FontSize="Medium" />
+
+                            <Label Text="{Binding Origin}" 
+                                   Grid.Row="0" Grid.Column="1"
+                                   HorizontalOptions="Start" VerticalOptions="Center"
+                                   FontSize="Micro"/>
+
+                            <Label Text="{Binding Cost}" 
+                                   Grid.Row="0" Grid.Column="2"
+                                   HorizontalOptions="End" VerticalOptions="Center"
+                                   FontSize="Medium" />
+
+                            <Label Text="{Binding Description}" 
+                                       Grid.Row="1" Grid.Column="0"  Grid.ColumnSpan="3"
+                                       HorizontalOptions="Start" VerticalOptions="Center"
+                                       FontSize="Small" />
+                        </Grid>
+                    </renderedViews:MaterialFrame>
+                </ViewCell>
+            </DataTemplate>
+        </ResourceDictionary>
+    </ContentPage.Resources>
+    <ContentPage.Content>
+        <ListView ItemTemplate="{StaticResource TacticDataTemplate}" 
+                  ItemsSource="{Binding Items}" HasUnevenRows="True"
+                  SeparatorVisibility="None" Margin="10" />
+    </ContentPage.Content>
+</ContentPage>

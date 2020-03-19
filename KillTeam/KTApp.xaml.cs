@@ -42,7 +42,6 @@ namespace KillTeam
         {
             // Handle when your app starts
             var theme = DependencyService.Get<IEnvironment>().GetOperatingSystemTheme();
-
             SetTheme(theme);
 
 #if !DEBUG
@@ -53,14 +52,14 @@ namespace KillTeam
         protected override void OnSleep()
         {
             // Handle when your app sleeps
-            var theme = DependencyService.Get<IEnvironment>().GetOperatingSystemTheme();
-
-            SetTheme(theme);
+            var theme = DependencyService.Get<IEnvironment>().GetOperatingSystemTheme();            
         }
 
         protected override void OnResume()
         {
             // Handle when your app resumes
+            var theme = DependencyService.Get<IEnvironment>().GetOperatingSystemTheme();
+            SetTheme(theme);
         }
         
         void SetTheme(Theme theme)

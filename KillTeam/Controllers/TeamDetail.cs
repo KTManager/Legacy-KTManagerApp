@@ -1,4 +1,6 @@
-﻿using System.Collections.Generic;
+﻿using System;
+using System.Collections.Generic;
+using System.Collections.Immutable;
 using System.Linq;
 using System.Threading.Tasks;
 using System.Windows.Input;
@@ -79,7 +81,7 @@ namespace KillTeam.Controllers
             ButtonInGame = new ToolbarItem
             {
                 Text = Resources.InGame,
-                Order = ToolbarItemOrder.Secondary,
+                Order = ToolbarItemOrder.Primary,
             };
 
             ButtonTactics = new ToolbarItem
@@ -103,11 +105,11 @@ namespace KillTeam.Controllers
             };
 
             ToolbarItems = toolbarItems;
-            ToolbarItems.Add(ButtonPdf);
-            ToolbarItems.Add(ButtonInGame);
+            //ToolbarItems.Add(ButtonPdf);
+            //ToolbarItems.Add(ButtonInGame);
             ToolbarItems.Add(ButtonTactics);
             ToolbarItems.Add(ButtonShare);
-            ToolbarItems.Add(ButtonDuplicates);
+            //ToolbarItems.Add(ButtonDuplicates);
 
             _deleteMemberCommandHandler = deleteMemberCommandHandler;
             _toggleSelectedCommandHandler = toggleSelectedCommandHandler;
@@ -230,6 +232,5 @@ namespace KillTeam.Controllers
         private readonly IHandleCommands<ToggleRosterCommand> _toggleRosterCommandHandler;
         private readonly IHandleCommands<DeleteTeamCommand> _deleteTeamCommandHandler;
         private readonly IHandleCommands<RenameTeamCommand> _renameTeamCommandHandler;
-        private TeamDetailTeamViewModel _item;
     }
 }

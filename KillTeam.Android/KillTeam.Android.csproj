@@ -44,7 +44,7 @@
     <AndroidSigningStorePass>KillTeamManager</AndroidSigningStorePass>
     <AndroidSigningKeyPass>KillTeamManager</AndroidSigningKeyPass>
     <AndroidSigningKeyAlias>KillTeam</AndroidSigningKeyAlias>
-    <AndroidKeyStore>true</AndroidKeyStore>
+    <AndroidKeyStore>false</AndroidKeyStore>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
     <DebugSymbols>false</DebugSymbols>

@@ -14,6 +14,7 @@ using Xamarin.Forms;
 using Xamarin.Forms.PlatformConfiguration.iOSSpecific;
 using Xamarin.Forms.Xaml;
 using Entry = Xamarin.Forms.Entry;
+using SwipeEndedEventArgs = Syncfusion.ListView.XForms.SwipeEndedEventArgs;
 
 namespace KillTeam.Views
 {

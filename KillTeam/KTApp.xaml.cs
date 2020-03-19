@@ -13,7 +13,7 @@ namespace KillTeam
 {
     public partial class KTApp : Application
     {
-        private const string SYNCFUSION_LICENSE = "MzIzNzhAMzEzNjJlMzMyZTMwS2VQY1lYdkNubDdzY09ySURNenlFK0hDQklsT0pNdmxPNXhsY0FPakFCbz0=";
+        private const string SYNCFUSION_LICENSE = "MjI1MTA1QDMxMzcyZTM0MmUzMG8xRU9zbzdXRGl4cEhMNnRRNkE1Q2Y3bTMwL2JaUEJkWnVmZTRVd2RKQnM9";
         private const string ANDROID_SECRET = "6d5c2bed-d805-4345-904d-37da46738451";
         private const string IOS_SECRET = "656a7e6a-4297-44af-bb5e-3672dc169434";
 

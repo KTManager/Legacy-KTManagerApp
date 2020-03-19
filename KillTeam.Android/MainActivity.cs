@@ -7,6 +7,7 @@ using Android.OS;
 using AuditApp.Android;
 using Xamarin.Forms;
 using Android.Content;
+using KillTeam.Services;
 
 namespace KillTeam.Droid
 {
@@ -23,9 +24,12 @@ namespace KillTeam.Droid
             TabLayoutResource = Resource.Layout.Tabbar;
             ToolbarResource = Resource.Layout.Toolbar;
 
+
             base.OnCreate(savedInstanceState);
 
             global::Xamarin.Forms.Forms.Init(this, savedInstanceState);
+
+            DependencyService.Register<Environment_Android>();
 
             LoadApplication(new KTApp());
             var ci = DependencyService.Get<Localize>().GetCurrentCultureInfo();            

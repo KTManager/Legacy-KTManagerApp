@@ -5,6 +5,7 @@ using Foundation;
 using Syncfusion.ListView.XForms.iOS;
 using Syncfusion.SfNumericUpDown.XForms.iOS;
 using UIKit;
+using Xamarin.Forms;
 
 namespace KillTeam.iOS
 {
@@ -36,6 +37,8 @@ namespace KillTeam.iOS
 
             // Old verions of the app stored the DB in a different spot, fix it up here
             MoveLegacyDB();
+            
+            DependencyService.Register<Environment_iOS>();
 
             Console.WriteLine("START");
 

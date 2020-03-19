@@ -1,8 +1,7 @@
 using System;
-using System.Threading.Tasks;
 using Android.Content.Res;
+using Android.OS;
 using Plugin.CurrentActivity;
-using Xamarin.Forms;
 using KillTeam.Services;
 
 namespace KillTeam.Droid
@@ -14,7 +13,7 @@ namespace KillTeam.Droid
             //Ensure the device is running Android Froyo or higher because UIMode was added in Android Froyo, API 8.0
             if(Build.VERSION.SdkInt >= BuildVersionCodes.Froyo)
             {
-                var uiModeFlags = CrossCurrentActivity.Current.AppContext.Resources.Configuration.UiMode & UiMode.NightMask;
+                var uiModelFlags = CrossCurrentActivity.Current.AppContext.Resources.Configuration.UiMode & UiMode.NightMask;
 
                 switch(uiModelFlags)
                 {

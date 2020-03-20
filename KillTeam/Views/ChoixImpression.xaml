@@ -90,8 +90,7 @@
             <syncfusion:SfBusyIndicator x:Name="BusyIndicator" 
                                         AnimationType="Ball" 
                                         Title="Pdf Generation"
-                                        IsVisible="{Binding BusyIndicatorVisible, Mode=TwoWay}" 
-                                        TextColor="Black" />
+                                        IsVisible="{Binding BusyIndicatorVisible, Mode=TwoWay}" />
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>

@@ -35,6 +35,8 @@ namespace KillTeam.iOS
 
             // Old verions of the app stored the DB in a different spot, fix it up here
             MoveLegacyDB();
+            
+            DependencyService.Register<Environment_iOS>();
 
             Console.WriteLine("START");
 

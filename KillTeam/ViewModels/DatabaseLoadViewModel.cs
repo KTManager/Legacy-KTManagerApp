@@ -15,7 +15,10 @@ namespace KillTeam.ViewModels
 
         public DatabaseLoadViewModel()
         {
-            // TODO
+        }
+
+        public void StartUpdate()
+        {
             ThreadPool.QueueUserWorkItem(_o => this.UpdateDB());
         }
 

@@ -10,6 +10,7 @@ using KillTeam.Commands.Handlers;
 using Xamarin.Forms;
 using Xamarin.Forms.PlatformConfiguration.iOSSpecific;
 using Xamarin.Forms.Xaml;
+using Application = Xamarin.Forms.Application;
 using Entry = Xamarin.Forms.Entry;
 
 namespace KillTeam.Views
@@ -30,7 +31,9 @@ namespace KillTeam.Views
         {
             int fontSize = 15;
             int line = 0;
-            var backgroundColor = Color.LightGray;
+            var evenStyle = Application.Current.Resources["GridRowEven"] as Style;
+            var oddStyle = Application.Current.Resources["GridRowOdd"] as Style;
+            var labelStyle = evenStyle;
             bool isGerman = TranslateExtension.Ci.TwoLetterISOLanguageName == "de";
 
             ArmeGrid.RowDefinitions.Clear();
@@ -44,14 +47,14 @@ namespace KillTeam.Views
             ArmeGrid.ColumnDefinitions.Add(new ColumnDefinition { Width = new GridLength(0.5, GridUnitType.Star) });
             ArmeGrid.ColumnDefinitions.Add(new ColumnDefinition { Width = new GridLength(0.5, GridUnitType.Star) });
             ArmeGrid.ColumnDefinitions.Add(new ColumnDefinition { Width = new GridLength(0.5, GridUnitType.Star) });
-            ArmeGrid.Children.Add(new Label { BackgroundColor = backgroundColor, FontSize = fontSize, Text = Translate.Arme }, 0, line);
-            ArmeGrid.Children.Add(new Label { BackgroundColor = backgroundColor, FontSize = fontSize, Text = Translate.Portee }, 1, line);
-            ArmeGrid.Children.Add(new Label { BackgroundColor = backgroundColor, FontSize = fontSize, Text = Translate.Type }, 2, line);
-            ArmeGrid.Children.Add(new Label { BackgroundColor = backgroundColor, FontSize = fontSize, Text = Translate.F }, 3, line);
-            ArmeGrid.Children.Add(new Label { BackgroundColor = backgroundColor, FontSize = fontSize, Text = Translate.PA }, 4, line);
-            ArmeGrid.Children.Add(new Label { BackgroundColor = backgroundColor, FontSize = fontSize, Text = Translate.D }, 5, line);
+            ArmeGrid.Children.Add(new Label {Style= labelStyle, FontSize = fontSize, Text = Translate.Arme }, 0, line);
+            ArmeGrid.Children.Add(new Label {Style= labelStyle, FontSize = fontSize, Text = Translate.Portee }, 1, line);
+            ArmeGrid.Children.Add(new Label {Style= labelStyle, FontSize = fontSize, Text = Translate.Type }, 2, line);
+            ArmeGrid.Children.Add(new Label {Style= labelStyle, FontSize = fontSize, Text = Translate.F }, 3, line);
+            ArmeGrid.Children.Add(new Label {Style= labelStyle, FontSize = fontSize, Text = Translate.PA }, 4, line);
+            ArmeGrid.Children.Add(new Label {Style= labelStyle, FontSize = fontSize, Text = Translate.D }, 5, line);
             line++;
-            backgroundColor = ArmeGrid.BackgroundColor;
+            labelStyle = oddStyle;
 
             List<MemberWeapon> armements = membre.MemberWeapons.ToList();
             armements.Sort();
@@ -61,8 +64,8 @@ namespace KillTeam.Views
                 if (arme.WeaponProfiles.Count > 1)
                 {
                     ArmeGrid.RowDefinitions.Add(new RowDefinition { Height = new GridLength(1, GridUnitType.Auto) });
-                    ArmeGrid.Children.Add(new Label { BackgroundColor = backgroundColor, FontSize = fontSize, Text = arme.Name }, 0, line);
-                    ArmeGrid.Children.Add(new Label { BackgroundColor = backgroundColor, FontSize = fontSize, Text = arme.Description }, 1, 6, line, line + 1);
+                    ArmeGrid.Children.Add(new Label { Style= labelStyle, FontSize = fontSize, Text = arme.Name }, 0, line);
+                    ArmeGrid.Children.Add(new Label { Style = labelStyle, FontSize = fontSize, Text = arme.Description }, 1, 6, line, line + 1);
                     line++;
                     prefix = " - ";
                 }
@@ -70,34 +73,28 @@ namespace KillTeam.Views
                 foreach (var pArme in arme.WeaponProfiles)
                 {
                     ArmeGrid.RowDefinitions.Add(new RowDefinition { Height = new GridLength(1, GridUnitType.Auto) });
-                    ArmeGrid.Children.Add(new Label { BackgroundColor = backgroundColor, FontSize = fontSize, Text = prefix + pArme.Name }, 0, line);
-                    ArmeGrid.Children.Add(new Label { BackgroundColor = backgroundColor, FontSize = fontSize, Text = pArme.Range.ToString() }, 1, line);
-                    ArmeGrid.Children.Add(new Label { BackgroundColor = backgroundColor, FontSize = fontSize, Text = pArme.Type }, 2, line);
-                    ArmeGrid.Children.Add(new Label { BackgroundColor = backgroundColor, FontSize = fontSize, Text = isGerman && pArme.Strength == "U" ? "T" : pArme.Strength }, 3, line);
-                    ArmeGrid.Children.Add(new Label { BackgroundColor = backgroundColor, FontSize = fontSize, Text = pArme.ArmourPenetration }, 4, line);
-                    ArmeGrid.Children.Add(new Label { BackgroundColor = backgroundColor, FontSize = fontSize, Text = pArme.Damages }, 5, line);
+                    ArmeGrid.Children.Add(new Label { Style= labelStyle, FontSize = fontSize, Text = prefix + pArme.Name }, 0, line);
+                    ArmeGrid.Children.Add(new Label { Style= labelStyle, FontSize = fontSize, Text = pArme.Range.ToString() }, 1, line);
+                    ArmeGrid.Children.Add(new Label { Style= labelStyle, FontSize = fontSize, Text = pArme.Type }, 2, line);
+                    ArmeGrid.Children.Add(new Label { Style= labelStyle, FontSize = fontSize, Text = isGerman && pArme.Strength == "U" ? "T" : pArme.Strength }, 3, line);
+                    ArmeGrid.Children.Add(new Label { Style= labelStyle, FontSize = fontSize, Text = pArme.ArmourPenetration }, 4, line);
+                    ArmeGrid.Children.Add(new Label { Style = labelStyle, FontSize = fontSize, Text = pArme.Damages }, 5, line);
                     line++;
                     ArmeGrid.RowDefinitions.Add(new RowDefinition { Height = new GridLength(1, GridUnitType.Auto) });
-                    ArmeGrid.Children.Add(new Label { BackgroundColor = backgroundColor, FontSize = fontSize, Text = pArme.Description }, 0, 6, line, line + 1);
+                    ArmeGrid.Children.Add(new Label { Style = labelStyle, FontSize = fontSize, Text = pArme.Description }, 0, 6, line, line + 1);
                     line++;
                 }
 
-                if (backgroundColor == Color.LightGray)
-                    backgroundColor = ArmeGrid.BackgroundColor;
-                else
-                    backgroundColor = Color.LightGray;
+                labelStyle = labelStyle == evenStyle ? oddStyle : evenStyle;
             }
 
             foreach (var arme in armements.Select(a => a.Weapon).Where(a => a.IsEquipement()))
             {
                 ArmeGrid.RowDefinitions.Add(new RowDefinition { Height = new GridLength(1, GridUnitType.Auto) });
-                ArmeGrid.Children.Add(new Label { BackgroundColor = backgroundColor, FontSize = fontSize, Text = arme.Name }, 0, 6, line, line + 1);
+                ArmeGrid.Children.Add(new Label { Style = labelStyle, FontSize = fontSize, Text = arme.Name }, 0, 6, line, line + 1);
                 line++;
 
-                if (backgroundColor == Color.LightGray)
-                    backgroundColor = ArmeGrid.BackgroundColor;
-                else
-                    backgroundColor = Color.LightGray;
+                labelStyle = labelStyle == evenStyle ? oddStyle : evenStyle;
             }
         }
 

@@ -13,7 +13,6 @@
                 HorizontalOptions="FillAndExpand">
                 <ActivityIndicator
                     IsRunning="True"
-                    Color="Orange"
                     VerticalOptions="Center"
                     HorizontalOptions="CenterAndExpand" />
                 <Label Text="{Binding Message}"

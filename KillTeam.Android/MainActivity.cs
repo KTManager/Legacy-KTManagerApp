@@ -8,6 +8,7 @@ using AuditApp.Android;
 using Xamarin.Forms;
 using Android.Content;
 using Sharpnado.Presentation.Forms.Droid;
+using KillTeam.Services;
 
 namespace KillTeam.Droid
 {
@@ -24,12 +25,15 @@ namespace KillTeam.Droid
             TabLayoutResource = Resource.Layout.Tabbar;
             ToolbarResource = Resource.Layout.Toolbar;
 
+
             base.OnCreate(savedInstanceState);
 
             Forms.SetFlags("SwipeView_Experimental");
             Forms.Init(this, savedInstanceState);
 
             SharpnadoInitializer.Initialize();
+
+            DependencyService.Register<Environment_Android>();
 
             LoadApplication(new KTApp());
             var ci = DependencyService.Get<Localize>().GetCurrentCultureInfo();            

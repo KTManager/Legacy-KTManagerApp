@@ -1,13 +1,17 @@
-﻿using Xamarin.Forms;
+﻿using System;
+using System.Collections.Generic;
+using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
 using KillTeam.Views;
 using KillTeam.Services;
 
 #if !DEBUG
+using KillTeam.Themes;
 using Microsoft.AppCenter;
 using Microsoft.AppCenter.Analytics;
 using Microsoft.AppCenter.Crashes;
 #endif
+using Xamarin.Essentials;
 
 [assembly: XamlCompilation(XamlCompilationOptions.Compile)]
 namespace KillTeam
@@ -35,12 +39,15 @@ namespace KillTeam
                 }
             }
 
-            MainPage = new NavigationPage(new TeamsList()); // new DatabaseLoadPage());
+            MainPage = new NavigationPage(new DatabaseLoadPage());
         }
 
         protected override void OnStart()
         {
             // Handle when your app starts
+            var theme = DependencyService.Get<IEnvironment>().GetOperatingSystemTheme();
+
+            SetTheme(theme);
 
 #if !DEBUG
             AppCenter.Start($"android={ANDROID_SECRET};ios={IOS_SECRET}", typeof(Analytics), typeof(Crashes));
@@ -50,11 +57,33 @@ namespace KillTeam
         protected override void OnSleep()
         {
             // Handle when your app sleeps
+            var theme = DependencyService.Get<IEnvironment>().GetOperatingSystemTheme();
+
+            SetTheme(theme);
         }
 
         protected override void OnResume()
         {
             // Handle when your app resumes
+        }
+        
+        void SetTheme(Theme theme)
+        {
+            var mergedDictionaries = Current.Resources.MergedDictionaries;
+            if (mergedDictionaries != null)
+            {
+                mergedDictionaries.Clear();
+
+                switch (theme)
+                {
+                    case Theme.Dark:
+                        mergedDictionaries.Add(new DarkTheme());
+                        break;
+                    default:
+                        mergedDictionaries.Add(new LightTheme());
+                        break;
+                }
+            }
         }
     }
 }

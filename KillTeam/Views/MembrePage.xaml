@@ -34,15 +34,15 @@
                     <RowDefinition Height="Auto" />
                     <RowDefinition Height="Auto" />
                 </Grid.RowDefinitions>
-                <Label Text="{i18n:Translate M}" Grid.Row="0" Grid.Column="0" BackgroundColor="LightGray"/>
-                <Label Text="{i18n:Translate CC}" Grid.Row="0" Grid.Column="1" BackgroundColor="LightGray"/>
-                <Label Text="{i18n:Translate CT}" Grid.Row="0" Grid.Column="2" BackgroundColor="LightGray"/>
-                <Label Text="{i18n:Translate F}" Grid.Row="0" Grid.Column="3" BackgroundColor="LightGray"/>
-                <Label Text="{i18n:Translate E}" Grid.Row="0" Grid.Column="4" BackgroundColor="LightGray"/>
-                <Label Text="{i18n:Translate PV}" Grid.Row="0" Grid.Column="5" BackgroundColor="LightGray"/>
-                <Label Text="{i18n:Translate A}" Grid.Row="0" Grid.Column="6" BackgroundColor="LightGray"/>
-                <Label Text="{i18n:Translate Cd}" Grid.Row="0" Grid.Column="7" BackgroundColor="LightGray"/>
-                <Label Text="{i18n:Translate Sv}" Grid.Row="0" Grid.Column="8" BackgroundColor="LightGray"/>
+                <Label Text="{i18n:Translate M}" Grid.Row="0" Grid.Column="0"/>
+                <Label Text="{i18n:Translate CC}" Grid.Row="0" Grid.Column="1"/>
+                <Label Text="{i18n:Translate CT}" Grid.Row="0" Grid.Column="2"/>
+                <Label Text="{i18n:Translate F}" Grid.Row="0" Grid.Column="3"/>
+                <Label Text="{i18n:Translate E}" Grid.Row="0" Grid.Column="4"/>
+                <Label Text="{i18n:Translate PV}" Grid.Row="0" Grid.Column="5"/>
+                <Label Text="{i18n:Translate A}" Grid.Row="0" Grid.Column="6"/>
+                <Label Text="{i18n:Translate Cd}" Grid.Row="0" Grid.Column="7"/>
+                <Label Text="{i18n:Translate Sv}" Grid.Row="0" Grid.Column="8"/>
 
                 <Label Text="{Binding ModelProfile.Movement}" Grid.Row="1" Grid.Column="0" />
                 <Label Text="{Binding ModelProfile.WeaponSkill}" Grid.Row="1" Grid.Column="1" />

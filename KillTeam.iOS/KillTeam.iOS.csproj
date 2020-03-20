@@ -80,6 +80,7 @@
     <Compile Include="Contracts\IIdentifiable.cs" />
     <Compile Include="Contracts\INamed.cs" />
     <Compile Include="Contracts\ITactic.cs" />
+    <Compile Include="Environment_iOS.cs" />
     <Compile Include="Localize.cs" />
     <Compile Include="Main.cs" />
     <Compile Include="AppDelegate.cs" />

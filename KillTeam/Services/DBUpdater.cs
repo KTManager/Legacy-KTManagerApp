@@ -69,7 +69,7 @@ namespace KillTeam.Services
             return OldUdb;
         }
 
-        public KTUserContext GetUpdatedContext()
+        public KTUserContext GetUpdatedContext(string appVersion)
         {
             Log("Checking if Database needs update");
             if (NeedsUpdate())
@@ -87,7 +87,7 @@ namespace KillTeam.Services
 
                 Log($"Importing rules to new database");
                 // import the rules and user data to the new db
-                newUdb.ImportRules(Provider);
+                newUdb.ImportRules(Provider, appVersion);
                 if (backup != null)
                 {
                     string legacy = (backup is KTLegacyContext ? "legacy " : "");

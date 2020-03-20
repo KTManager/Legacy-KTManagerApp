@@ -63,12 +63,12 @@ namespace KillTeam.Views
                 catch (Exception ex)
                 {
                     Crashes.TrackError(ex);
-                    await DisplayAlert(Resx.Translate.Erreurs, ex.ToString(), "Ok");
+                    await DisplayAlert(Properties.Resources.Erreurs, ex.ToString(), "Ok");
                 }
             }
             else
             {
-                await DisplayAlert(Resx.Translate.Erreurs, Resx.Translate.DroitFichier, "Ok");
+                await DisplayAlert(Properties.Resources.Erreurs, Properties.Resources.DroitFichier, "Ok");
             }
         }
         

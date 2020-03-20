@@ -6,7 +6,7 @@ using System.Windows.Input;
 using KillTeam.Commands;
 using KillTeam.Commands.Handlers;
 using KillTeam.Models;
-using KillTeam.Resx;
+
 using KillTeam.Services;
 using KillTeam.Views;
 using Microsoft.EntityFrameworkCore;
@@ -44,28 +44,28 @@ namespace KillTeam.ViewModels
 
             ButtonSync = new ToolbarItem
             {
-                Text = Translate.Synchro,
+                Text = Properties.Resources.Synchro,
                 Order = ToolbarItemOrder.Secondary,
                 Command = Sync
             };
             
             ButtonDeco = new ToolbarItem
             {
-                Text = Translate.Deconnection,
+                Text = Properties.Resources.Deconnection,
                 Order = ToolbarItemOrder.Secondary,
                 Command = Logout
             };
             
             ButtonLang = new ToolbarItem
             {
-                Text = Translate.Language,
+                Text = Properties.Resources.Language,
                 Order = ToolbarItemOrder.Secondary,
                 Command = Language
             };
             
             ButtonCredits = new ToolbarItem
             {
-                Text = Translate.Remerciement,
+                Text = Properties.Resources.Remerciement,
                 Order = ToolbarItemOrder.Secondary,
                 Command = Credits
             };

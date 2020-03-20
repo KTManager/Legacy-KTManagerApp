@@ -9,31 +9,30 @@ using Microsoft.AppCenter.Crashes;
 
 namespace KillTeam.iOS
 {
-	public class Localize : KillTeam.Services.ILocalize
+	public class Localize : ILocalize
 	{
-		public void SetLocale (CultureInfo ci)
-		{
-			Thread.CurrentThread.CurrentCulture = ci;
-			Thread.CurrentThread.CurrentUICulture = ci;
+        public void SetLocale(CultureInfo cultureInfo)
+        {
+            Thread.CurrentThread.CurrentCulture = cultureInfo;
+            Thread.CurrentThread.CurrentUICulture = cultureInfo;
 
-			Console.WriteLine ("CurrentCulture set: " + ci.Name);
-		}
+            Console.WriteLine($"Culture set to '{cultureInfo.Name}'");
+        }
 
 		public CultureInfo GetCurrentCultureInfo ()
 		{
-			var netLanguage = "en";
+			var netCulture = GetDefaultCultureInfo().ToString();
 			if (NSLocale.PreferredLanguages.Length > 0)
 			{
-				var pref = NSLocale.PreferredLanguages [0];
-
-				netLanguage = IOSToDotnetLanguage(pref);
+				var preferredLanguage = NSLocale.PreferredLanguages[0];
+				netCulture = IOSToDotnetLanguage(preferredLanguage);
 			}
 
 			// this gets called a lot - try/catch can be expensive so consider caching or something
-			System.Globalization.CultureInfo ci = null;
-            try
-            {
-                ci = new System.Globalization.CultureInfo(netLanguage);
+			CultureInfo cultureInfo;
+			try
+			{
+                cultureInfo = new CultureInfo(netCulture);
             }
             catch (CultureNotFoundException e1)
             {
@@ -42,39 +41,42 @@ namespace KillTeam.iOS
                 // fallback to first characters, in this case "en"
                 try
                 {
-                    var fallback = ToDotnetFallbackLanguage(new PlatformCulture(netLanguage));
-                    Console.WriteLine(netLanguage + " failed, trying " + fallback + " (" + e1.Message + ")");
-                    ci = new System.Globalization.CultureInfo(fallback);
+                    var fallback = ToDotnetFallbackLanguage(new PlatformCulture(netCulture));
+                    Console.WriteLine($"'{netCulture}' failed to load, trying '{fallback}' ({e1.Message})");
+                    cultureInfo = new CultureInfo(fallback);
                 }
                 catch (CultureNotFoundException e2)
                 {
                     Crashes.TrackError(e2);
-                    // iOS language not valid .NET culture, falling back to English
-                    Console.WriteLine(netLanguage + " couldn't be set, using 'en' (" + e2.Message + ")");
-                    ci = new System.Globalization.CultureInfo("en");
+                    var fallback = GetDefaultCultureInfo();
+                    Console.WriteLine($"{netCulture} couldn't be set, using '{fallback}' ({e2.Message})");
+                    cultureInfo = fallback;
                 }
             }
 
-            return ci;
+			return cultureInfo;
 		}
 
-		string IOSToDotnetLanguage(string iOSLanguage)
+		string IOSToDotnetLanguage(string iOsLanguage)
 		{
-			Console.WriteLine("iOS Language:" + iOSLanguage);
-			var netLanguage = iOSLanguage; 
+			Console.WriteLine("iOS Language : " + iOsLanguage);
+			var netCultureName = iOsLanguage; 
 
 			// certain languages need to be converted to CultureInfo equivalent
-			switch (iOSLanguage)
+			switch (iOsLanguage)
 			{
+                case "in-ID":  // "Indonesian (Indonesia)" has different code in  .NET 
+                    netCultureName = "id-ID"; // correct code for .NET
+                    break;
 				case "gsw-CH":  // "Schwiizertüütsch (Swiss German)" not supported .NET culture
-					netLanguage = "de-CH"; // closest supported
+					netCultureName = "de-CH"; // closest supported
 					break;
-				// add more application-specific cases here (if required)
-				// ONLY use cultures that have been tested and known to work
+					// add more application-specific cases here (if required)
+					// ONLY use cultures that have been tested and known to work
 			}
 
-			Console.WriteLine(".NET Language/Locale:" + netLanguage);
-			return netLanguage;
+            Console.WriteLine(".NET Culture : " + netCultureName);
+            return netCultureName;
 		}
 		string ToDotnetFallbackLanguage (PlatformCulture platCulture)
 		{
@@ -87,6 +89,9 @@ namespace KillTeam.iOS
                 case "pt":
 					netLanguage = "pt-PT"; // fallback to Portuguese (Portugal)
 					break;
+                case "in":  // "Indonesian (Indonesia)" has different code in  .NET 
+                    netLanguage = "id-ID"; // correct code for .NET
+                    break;
 				case "gsw":
 					netLanguage = "de-CH"; // equivalent to German (Switzerland) for this app
 					break;
@@ -100,7 +105,7 @@ namespace KillTeam.iOS
 
         public CultureInfo GetDefaultCultureInfo()
         {
-            return new System.Globalization.CultureInfo("en");
+            return new CultureInfo("en-US");
         }
-    }
+	}
 }

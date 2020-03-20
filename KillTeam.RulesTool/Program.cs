@@ -103,7 +103,7 @@ namespace KillTeam.RulesTool
                 provider = new Services.RulesProviders.FileRulesProvider(opts.RulesPath);
             }
             db.Database.CloseConnection();
-            db = new DBUpdater(db.DBPath, provider).GetUpdatedContext();
+            db = new DBUpdater(db.DBPath, provider).GetUpdatedContext("RulesTool");
             return 0;
         }
 

@@ -29,10 +29,10 @@ namespace KillTeam.Services
             return versions.First();
         }
 
-        public void ImportRules(RulesProviders.RulesProvider provider)
+        public void ImportRules(RulesProviders.RulesProvider provider, string appVersion)
         {
             RulesImporter.ImportJSON(this, provider);
-            this.Versions.Add(new Models.Version { RulesVersion = provider.GetVersion() });
+            this.Versions.Add(new Models.Version { RulesVersion = provider.GetVersion(), AppVersion = appVersion });
             this.SaveChanges();
         }
 

@@ -1,8 +1,7 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <ResourceDictionary xmlns="http://xamarin.com/schemas/2014/forms"
                     xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-                    xmlns:syncfusion="clr-namespace:Syncfusion.ListView.XForms;assembly=Syncfusion.SfListView.XForms"
-                    xmlns:xForms="clr-namespace:Syncfusion.SfBusyIndicator.XForms;assembly=Syncfusion.SfBusyIndicator.XForms"
+                    xmlns:renderedViews="clr-namespace:Sharpnado.Presentation.Forms.RenderedViews;assembly=Sharpnado.Presentation.Forms"
                     x:Class="KillTeam.Themes.DarkTheme">
 
     <Color x:Key="PrimaryColor">#e84f0b</Color>
@@ -20,28 +19,12 @@
         <Setter Property="BarTextColor" Value="{DynamicResource QuaternaryColor}" />
     </Style>
 
-    <Style TargetType="{x:Type syncfusion:SfListView}">
-        <Setter Property="BackgroundColor" Value="{DynamicResource SecondaryColor}"/>
-    </Style>
-
-    <Style TargetType="{x:Type StackLayout}">
-        <Setter Property="BackgroundColor" Value="{DynamicResource SecondaryColor}"/>
-    </Style>
-
-    <Style TargetType="{x:Type Grid}">
-        <Setter Property="BackgroundColor" Value="{DynamicResource SecondaryColor}"/>
-    </Style>
-
-    <Style x:Key="Frame" TargetType="{x:Type StackLayout}">
-        <Setter Property="BackgroundColor" Value="{DynamicResource TertiaryColor}"/>
+    <Style TargetType="{x:Type renderedViews:MaterialFrame}">
+        <Setter Property="BackgroundColor" Value="{DynamicResource QuaternaryColor}"/>
     </Style>
 
     <Style TargetType="{x:Type ActivityIndicator}">
         <Setter Property="Color" Value="{DynamicResource PrimaryColor}"/>
-    </Style>
-
-    <Style TargetType="{x:Type xForms:SfBusyIndicator}">
-        <Setter Property="TextColor" Value="{DynamicResource QuinaryColor}"/>
     </Style>
 
     <Style TargetType="{x:Type Label}">
@@ -54,7 +37,6 @@
     </Style>
 
     <Style TargetType="{x:Type Entry}">
-        <Setter Property="BackgroundColor" Value="{DynamicResource SecondaryColor}"/>
         <Setter Property="TextColor" Value="{DynamicResource QuinaryColor}"/>
     </Style>
 

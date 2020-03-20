@@ -5,8 +5,8 @@
              xmlns:properties="clr-namespace:KillTeam.Properties"
              xmlns:d="http://xamarin.com/schemas/2014/forms/design"
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
-             xmlns:renderedViews="clr-namespace:Sharpnado.Presentation.Forms.RenderedViews;assembly=Sharpnado.Presentation.Forms"
              mc:Ignorable="d"
+             xmlns:renderedViews="clr-namespace:Sharpnado.Presentation.Forms.RenderedViews;assembly=Sharpnado.Presentation.Forms"
              x:Class="KillTeam.Views.TeamsList"
              Title="Kill Team Manager"
              x:Name="This">

@@ -26,7 +26,6 @@
     <Compile Remove="Views\ChangeLevelPage.xaml.cs" />
     <Compile Remove="Views\ChoixImpression.xaml.cs" />
     <Compile Remove="Views\ConfigurationView.xaml.cs" />
-    <Compile Remove="Views\DatabaseLoadPage.xaml.cs" />
     <Compile Remove="Views\InGamePage.xaml.cs" />
     <Compile Remove="Views\KickStarter.xaml.cs" />
     <Compile Remove="Views\ListAptitudePage.xaml.cs" />
@@ -45,7 +44,6 @@
     <EmbeddedResource Remove="Views\ChangeLevelPage.xaml" />
     <EmbeddedResource Remove="Views\ChoixImpression.xaml" />
     <EmbeddedResource Remove="Views\ConfigurationView.xaml" />
-    <EmbeddedResource Remove="Views\DatabaseLoadPage.xaml" />
     <EmbeddedResource Remove="Views\InGamePage.xaml" />
     <EmbeddedResource Remove="Views\KickStarter.xaml" />
     <EmbeddedResource Remove="Views\ListAptitudePage.xaml" />
@@ -323,6 +321,7 @@
     </Compile>
     <Compile Update="Views\PsychiqueView.xaml.cs">
       <DependentUpon>PsychiqueView.xaml</DependentUpon>
+    </Compile>
     <Compile Update="Properties\Resources.Designer.cs">
       <DesignTime>True</DesignTime>
       <AutoGen>True</AutoGen>

@@ -290,12 +290,6 @@
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\iOS\Xamarin.iOS.CSharp.targets" />
   <ItemGroup>
-    <ProjectReference Include="..\KillTeam\KillTeam.csproj">
-      <Project>{F3DFE0B5-AFA9-40DE-BCBE-9F8A18C728E1}</Project>
-      <Name>KillTeam</Name>
-    </ProjectReference>
-  </ItemGroup>
-  <ItemGroup>
     <Folder Include="Assets.xcassets\Equipe_de.dataset\" />
     <Folder Include="Assets.xcassets\Equipe_en.dataset\" />
     <Folder Include="Assets.xcassets\Equipe_fr.dataset\" />
@@ -303,5 +297,11 @@
     <Folder Include="Assets.xcassets\FeuilleOrdre_en.dataset\" />
     <Folder Include="Assets.xcassets\FeuilleOrdre_fr.dataset\" />
     <Folder Include="Assets.xcassets\kickstarter.imageset\" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\KillTeam\KillTeam.csproj">
+      <Project>{A4133398-F8D1-4395-9C79-F3CF2DC687E2}</Project>
+      <Name>KillTeam</Name>
+    </ProjectReference>
   </ItemGroup>
 </Project>

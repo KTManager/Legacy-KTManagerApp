@@ -156,7 +156,6 @@
     <AndroidAsset Include="Assets\Equipe_de.pdf" />
     <AndroidAsset Include="Assets\Equipe_en.pdf" />
     <AndroidAsset Include="Assets\Equipe_fr.pdf" />
-    <None Include="KillTeam.keystore" />
     <None Include="google-services.json" />
     <None Include="google-services-dev.json" />
     <None Include="Resources\AboutResources.txt" />
@@ -183,12 +182,6 @@
     <AndroidResource Include="Resources\mipmap-xxxhdpi\Icon.png" />
     <AndroidResource Include="Resources\mipmap-xxxhdpi\launcher_foreground.png" />
     <AndroidResource Include="Resources\drawable\xamarin_logo.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="..\KillTeam\KillTeam.csproj">
-      <Project>{E66189C9-978A-4C6D-A321-FA870E729665}</Project>
-      <Name>KillTeam</Name>
-    </ProjectReference>
   </ItemGroup>
   <ItemGroup>
     <AndroidResource Include="Resources\xml\filepaths.xml" />
@@ -233,6 +226,12 @@
   </ItemGroup>
   <ItemGroup>
     <AndroidResource Include="Resources\drawable\kickstarter.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\KillTeam\KillTeam.csproj">
+      <Project>{a4133398-f8d1-4395-9c79-f3cf2dc687e2}</Project>
+      <Name>KillTeam</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\Android\Xamarin.Android.CSharp.targets" />
   <ProjectExtensions>

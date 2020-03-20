@@ -4,14 +4,13 @@ using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
 using KillTeam.Views;
 using KillTeam.Services;
+using KillTeam.Themes;
 
 #if !DEBUG
-using KillTeam.Themes;
 using Microsoft.AppCenter;
 using Microsoft.AppCenter.Analytics;
 using Microsoft.AppCenter.Crashes;
 #endif
-using Xamarin.Essentials;
 
 [assembly: XamlCompilation(XamlCompilationOptions.Compile)]
 namespace KillTeam

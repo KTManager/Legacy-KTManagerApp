@@ -56,6 +56,12 @@ namespace KillTeam.Controllers
                 Order = ToolbarItemOrder.Secondary,
                 Command = new Command(async () => await CreditsExecuted())
             });
+            ToolbarItems.Add(new ToolbarItem
+            {
+                Text = "Version",
+                Order = ToolbarItemOrder.Secondary,
+                Command = new Command(async () => await VersionExecuted())
+            });
         }
 
         private void InitializeCommands()
@@ -109,6 +115,11 @@ namespace KillTeam.Controllers
         private async Task CreditsExecuted()
         {
             await KTApp.Navigation.PushAsync(new Views.RemerciementPage());
+        }
+
+        private async Task VersionExecuted()
+        {
+            await KTApp.Navigation.PushAsync(new Views.VersionPage());
         }
 
         private readonly IHandleCommands<ReorderTeamsCommand> _reorderTeamsCommandHandler;

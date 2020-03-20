@@ -25,11 +25,13 @@ namespace KillTeam.ViewModels
         public ICommand AddTeam { get; set; }
         public ICommand Delete { get; set; }
         public ICommand OpenTeam { get; set; }
+        public ICommand Version { get; set; }
 
         public ToolbarItem ButtonSync;
         public ToolbarItem ButtonDeco;
         public ToolbarItem ButtonLang;
         public ToolbarItem ButtonCredits;
+        public ToolbarItem ButtonVersion;
 
         public ListEquipesViewModel(IList<ToolbarItem> toolbarItems, IHandleCommands<DeleteTeamCommand> deleteTeamCommandHandler)
         {
@@ -41,6 +43,7 @@ namespace KillTeam.ViewModels
             Sync = new Command(async () => await SyncExecuted());
             OpenTeam = new Command(async e => await OpenTeamExecuted(e as Team));
             Delete = new Command(async e => await DeleteExecuted(e as Team));
+            Version = new Command(async () => await VersionExecuted());
 
             ButtonSync = new ToolbarItem
             {
@@ -70,11 +73,19 @@ namespace KillTeam.ViewModels
                 Command = Credits
             };
 
+            ButtonVersion = new ToolbarItem
+            {
+                Text = "Version", // it's the same in all three languages
+                Order = ToolbarItemOrder.Secondary,
+                Command = Version
+            };
+
             ToolbarItems = toolbarItems;
             ToolbarItems.Add(ButtonSync);
             ToolbarItems.Add(ButtonDeco);
             ToolbarItems.Add(ButtonLang);
             ToolbarItems.Add(ButtonCredits);
+            ToolbarItems.Add(ButtonVersion);
 
             _deleteTeamCommandHandler = deleteTeamCommandHandler;
         }
@@ -159,6 +170,11 @@ namespace KillTeam.ViewModels
         public async Task CreditsExecuted()
         {
             await KTApp.Navigation.PushAsync(new RemerciementPage());
+        }
+
+        public async Task VersionExecuted()
+        {
+            await KTApp.Navigation.PushAsync(new VersionPage());
         }
 
         public async Task DeleteExecuted(Team team)

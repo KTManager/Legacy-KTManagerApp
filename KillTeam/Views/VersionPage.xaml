@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             Title="Version"
+             x:Class="KillTeam.Views.VersionPage">
+    <ContentPage.Content>
+        <StackLayout>
+            <StackLayout
+              VerticalOptions="CenterAndExpand"
+              HorizontalOptions="FillAndExpand">
+                <Label Text="{Binding AppVersion}" HorizontalTextAlignment="Center" />
+                <Label Text="{Binding RulesVersion}" HorizontalTextAlignment="Center"/>
+            </StackLayout>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

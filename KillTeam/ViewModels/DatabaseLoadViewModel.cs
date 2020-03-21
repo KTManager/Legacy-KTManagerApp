@@ -27,7 +27,7 @@ namespace KillTeam.ViewModels
             KTContext.UpdateEvent += OnUpdate;
             var _ = KTContext.Db; // trigger lazy load
             Device.BeginInvokeOnMainThread(() => {
-                KTApp.Current.MainPage = new NavigationPage(new ListEquipesPage());
+                KTApp.Current.MainPage = new NavigationPage(new TeamsView());
             });
         }
 

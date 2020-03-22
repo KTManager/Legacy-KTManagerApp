@@ -1,6 +1,6 @@
 ﻿namespace KillTeam.ViewModels
 {
-    public class TeamsViewModel
+    public class TeamViewModel
     {
         public string Id { get; set; }
 
@@ -10,7 +10,7 @@
 
         public string FactionAndMembersCount { get; set; }
 
-        public TeamsViewModel(string id, string name, int cost, string factionAndMembersCount)
+        public TeamViewModel(string id, string name, int cost, string factionAndMembersCount)
         {
             Id = id;
             Name = name;

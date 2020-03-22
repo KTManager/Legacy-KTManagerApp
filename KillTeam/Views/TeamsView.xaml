@@ -16,7 +16,7 @@
                                 AllowSwiping="True"
                                 SelectionMode="None">
             <syncfusion:SfListView.ItemTemplate>
-                <DataTemplate x:DataType="{x:Type viewModels:TeamsTeamViewModel}">
+                <DataTemplate x:DataType="{x:Type viewModels:TeamsViewModel}">
                     <ViewCell>
                         <StackLayout Margin="5,5,5,0" Padding="10" Style="{DynamicResource Frame}">
                             <StackLayout.GestureRecognizers>

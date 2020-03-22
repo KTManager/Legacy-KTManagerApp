@@ -15,7 +15,7 @@ namespace KillTeam.Controllers
 {
     public class TeamsController
     {
-        public ObservableCollection<TeamsTeamViewModel> Items { get; }
+        public ObservableCollection<TeamsViewModel> Items { get; }
         public IList<ToolbarItem> ToolbarItems { get; private set; }
 
         public ICommand AddTeam { get; private set; }
@@ -27,7 +27,7 @@ namespace KillTeam.Controllers
             IHandleCommands<DeleteTeamCommand> deleteTeamCommandHandler,
             IHandleCommands<ReorderTeamsCommand> reorderTeamsCommandHandler)
         {
-            Items = new ObservableCollection<TeamsTeamViewModel>();
+            Items = new ObservableCollection<TeamsViewModel>();
 
             InitializeCommands();
             InitializeToolbar(toolbarItems);
@@ -62,8 +62,8 @@ namespace KillTeam.Controllers
         {
             AddTeam = new Command(AddTeamExecuted);
             ReorderTeam = new Command(ReorderTeamExecuted);
-            OpenTeam = new Command(async e => await OpenTeamExecuted(e as TeamsTeamViewModel));
-            DeleteTeam = new Command(async e => await DeleteExecuted(e as TeamsTeamViewModel));
+            OpenTeam = new Command(async e => await OpenTeamExecuted(e as TeamsViewModel));
+            DeleteTeam = new Command(async e => await DeleteExecuted(e as TeamsViewModel));
 
         }
 
@@ -76,7 +76,7 @@ namespace KillTeam.Controllers
                                     .AsNoTracking()
                                     .OrderBy(post => post.Position)
                                     .ToListAsync();
-            teams.ForEach(i => Items.Add(new TeamsTeamViewModel(i.Id, i.Name, i.Cost, i.FactionNameAndMembersCount)));
+            teams.ForEach(i => Items.Add(new TeamsViewModel(i.Id, i.Name, i.Cost, i.FactionNameAndMembersCount)));
         }
 
         private void AddTeamExecuted()
@@ -89,12 +89,12 @@ namespace KillTeam.Controllers
             _reorderTeamsCommandHandler.Handle(new ReorderTeamsCommand(Items.Select(x => x.Id).ToList()));
         }
 
-        private async Task OpenTeamExecuted(TeamsTeamViewModel team)
+        private async Task OpenTeamExecuted(TeamsViewModel team)
         {
             await KTApp.Navigation.PushAsync(new Views.EquipePage(team.Id));
         }
 
-        private async Task DeleteExecuted(TeamsTeamViewModel team)
+        private async Task DeleteExecuted(TeamsViewModel team)
         {
             _deleteTeamCommandHandler.Handle(new DeleteTeamCommand(team.Id));
 

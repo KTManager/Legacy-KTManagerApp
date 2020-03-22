@@ -4,7 +4,7 @@ using System.Threading.Tasks;
 using System.Windows.Input;
 using KillTeam.Commands;
 using KillTeam.Commands.Handlers;
-using KillTeam.Resx;
+
 using KillTeam.Services;
 using KillTeam.ViewModels;
 using Microsoft.EntityFrameworkCore;
@@ -62,20 +62,20 @@ namespace KillTeam.Controllers
             ToolbarItems = toolbarItems;
             ToolbarItems.Add(new ToolbarItem
             {
-                Text = Translate.Tactiques,
+                Text = Properties.Resources.Tactiques,
                 Order = ToolbarItemOrder.Secondary,
                 Command = new Command(async () => await TacticsExecuted())
             });
             ToolbarItems.Add(new ToolbarItem
             {
-                Text = Translate.Partager,
+                Text = Properties.Resources.Partager,
                 Order = ToolbarItemOrder.Secondary,
                 Command = new Command(async () => await ShareExecuted())
             });
 
             _errors = new ToolbarItem
             {
-                Text = Translate.Erreurs,
+                Text = Properties.Resources.Erreurs,
                 Order = ToolbarItemOrder.Primary,
                 Icon = "Ressources/drawable/danger.png",
                 Command = new Command(async () => await ErrorsExecuted())
@@ -187,7 +187,7 @@ namespace KillTeam.Controllers
 
             await CrossShare.Current.Share(new ShareMessage
             {
-                Text = $"{team.GetSummary()}\n{Translate.PartageDepuis}",
+                Text = $"{team.GetSummary()}\n{Properties.Resources.PartageDepuis}",
                 Url = "https://www.facebook.com/KillTeamManager"
             });
         }

@@ -1,7 +1,7 @@
 ﻿using System;
 using Syncfusion.ListView.XForms;
 using KillTeam.Commands.Handlers;
-using KillTeam.Resx;
+
 using KillTeam.ViewModels;
 using Xamarin.Forms;
 using Xamarin.Forms.PlatformConfiguration.iOSSpecific;
@@ -41,7 +41,7 @@ namespace KillTeam.Views
             if (!(BindingContext is Controllers.TeamController binding)) return;
 
             var team = binding.Item;
-            var answer = await DisplayAlert(Translate.Supprimer, Translate.EtesVousSur + " \"" + team.Name + "\" ?", Translate.Oui, Translate.Non);
+            var answer = await DisplayAlert(Properties.Resources.Supprimer, Properties.Resources.EtesVousSur + " \"" + team.Name + "\" ?", Properties.Resources.Oui, Properties.Resources.Non);
             if (answer)
             {
                 binding.Delete.Execute(null);

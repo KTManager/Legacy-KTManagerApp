@@ -5,7 +5,7 @@ using System.Threading.Tasks;
 using System.Windows.Input;
 using KillTeam.Commands;
 using KillTeam.Commands.Handlers;
-using KillTeam.Resx;
+
 using KillTeam.Services;
 using KillTeam.ViewModels;
 using Microsoft.EntityFrameworkCore;
@@ -46,13 +46,13 @@ namespace KillTeam.Controllers
             ToolbarItems = toolbarItems;
             ToolbarItems.Add(new ToolbarItem
             {
-                Text = Translate.Language,
+                Text = Properties.Resources.Language,
                 Order = ToolbarItemOrder.Secondary,
                 Command = new Command(async () => await LanguageExecuted())
             });
             ToolbarItems.Add(new ToolbarItem
             {
-                Text = Translate.Remerciement,
+                Text = Properties.Resources.Remerciement,
                 Order = ToolbarItemOrder.Secondary,
                 Command = new Command(async () => await CreditsExecuted())
             });

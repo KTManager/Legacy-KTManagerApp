@@ -2,7 +2,7 @@
 using System.Collections.ObjectModel;
 using System.ComponentModel;
 using System.Runtime.CompilerServices;
-using KillTeam.Resx;
+
 
 namespace KillTeam.ViewModels
 {
@@ -65,7 +65,7 @@ namespace KillTeam.ViewModels
 
         public string FormattedFactionCost => $"{Faction} : {FormattedCost}";
 
-        public string FormattedCost => $"{Cost} {Translate.Points}";
+        public string FormattedCost => $"{Cost} {Properties.Resources.Points}";
 
         public bool ShowFaction => Name != Faction;
         public bool ShowCostOnly => !ShowFaction;

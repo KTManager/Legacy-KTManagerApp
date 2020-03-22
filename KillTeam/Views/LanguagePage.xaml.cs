@@ -1,4 +1,4 @@
-﻿using KillTeam.Resx;
+﻿
 using KillTeam.ViewModels;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
@@ -20,7 +20,7 @@ namespace KillTeam.Views
         protected override void OnAppearing()
         {
             base.OnAppearing();
-            Title = Translate.Language;
+            Title = Properties.Resources.Language;
         }
     }
 }

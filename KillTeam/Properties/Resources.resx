@@ -1,0 +1,427 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="A" xml:space="preserve">
+    <value>A</value>
+  </data>
+  <data name="AddEquipeButton" xml:space="preserve">
+    <value>New Team</value>
+  </data>
+  <data name="AddMembreButton" xml:space="preserve">
+    <value>Add Member</value>
+  </data>
+  <data name="AlerteCopier" xml:space="preserve">
+    <value>Team copied in the clipboard</value>
+  </data>
+  <data name="Aptitudes" xml:space="preserve">
+    <value>Abilities</value>
+  </data>
+  <data name="AptitudesCommunes" xml:space="preserve">
+    <value>Common abilities throughout faction</value>
+  </data>
+  <data name="Arme" xml:space="preserve">
+    <value>Weapon</value>
+  </data>
+  <data name="ArmeConfigTitle" xml:space="preserve">
+    <value>Only One Choice Possible</value>
+  </data>
+  <data name="ArmeObligatoireTitle" xml:space="preserve">
+    <value>Required weapons</value>
+  </data>
+  <data name="ArmeOptionnelleTitle" xml:space="preserve">
+    <value>Optional Weapons</value>
+  </data>
+  <data name="AucuneSpe" xml:space="preserve">
+    <value>No Specialty</value>
+  </data>
+  <data name="Blessures" xml:space="preserve">
+    <value>Flesh wounds</value>
+  </data>
+  <data name="CC" xml:space="preserve">
+    <value>WS</value>
+  </data>
+  <data name="Cd" xml:space="preserve">
+    <value>Ld</value>
+  </data>
+  <data name="ChangeArme" xml:space="preserve">
+    <value>Change Weapons</value>
+  </data>
+  <data name="ChangeNiveau" xml:space="preserve">
+    <value>Change Level/Speciality</value>
+  </data>
+  <data name="ChangeSpe" xml:space="preserve">
+    <value>Change Specialty</value>
+  </data>
+  <data name="ChangeTrait" xml:space="preserve">
+    <value>Change Trait</value>
+  </data>
+  <data name="ChoisirPsy" xml:space="preserve">
+    <value>Choice psyker</value>
+  </data>
+  <data name="ChoixImpression" xml:space="preserve">
+    <value>Print settings</value>
+  </data>
+  <data name="Commandant" xml:space="preserve">
+    <value>Commander</value>
+  </data>
+  <data name="Connection" xml:space="preserve">
+    <value>Google Connection</value>
+  </data>
+  <data name="Convalescence" xml:space="preserve">
+    <value>Convalescence</value>
+  </data>
+  <data name="Copier" xml:space="preserve">
+    <value>Copy</value>
+  </data>
+  <data name="CT" xml:space="preserve">
+    <value>BS</value>
+  </data>
+  <data name="D" xml:space="preserve">
+    <value>D</value>
+  </data>
+  <data name="Deconnection" xml:space="preserve">
+    <value>Google Deconnection</value>
+  </data>
+  <data name="DetailsAptitudes" xml:space="preserve">
+    <value>Details of abilities</value>
+  </data>
+  <data name="Discipline" xml:space="preserve">
+    <value>Discipline</value>
+  </data>
+  <data name="DroitFichier" xml:space="preserve">
+    <value>Pdf file cannot be created. Have you accepted corresponding autorisations?</value>
+  </data>
+  <data name="Dupliquer" xml:space="preserve">
+    <value>Duplicate</value>
+  </data>
+  <data name="E" xml:space="preserve">
+    <value>T</value>
+  </data>
+  <data name="English" xml:space="preserve">
+    <value>English</value>
+  </data>
+  <data name="Erreurs" xml:space="preserve">
+    <value>Errors</value>
+  </data>
+  <data name="Et" xml:space="preserve">
+    <value>and</value>
+  </data>
+  <data name="EtesVousSur" xml:space="preserve">
+    <value>Are you sure you want to delete</value>
+  </data>
+  <data name="Experience" xml:space="preserve">
+    <value>Experience</value>
+  </data>
+  <data name="F" xml:space="preserve">
+    <value>S</value>
+  </data>
+  <data name="Faction" xml:space="preserve">
+    <value>Faction</value>
+  </data>
+  <data name="Filtres" xml:space="preserve">
+    <value>Filters</value>
+  </data>
+  <data name="French" xml:space="preserve">
+    <value>French</value>
+  </data>
+  <data name="General" xml:space="preserve">
+    <value>General</value>
+  </data>
+  <data name="GeneratePDF" xml:space="preserve">
+    <value>Generate PDF</value>
+  </data>
+  <data name="German" xml:space="preserve">
+    <value>German</value>
+  </data>
+  <data name="InGame" xml:space="preserve">
+    <value>In Game</value>
+  </data>
+  <data name="KickStarterContinue" xml:space="preserve">
+    <value>Continue</value>
+  </data>
+  <data name="KickStarterDotNotShow" xml:space="preserve">
+    <value>Do not show anymore</value>
+  </data>
+  <data name="KickStarterJoinUs" xml:space="preserve">
+    <value>Join us !</value>
+  </data>
+  <data name="KickStarterText" xml:space="preserve">
+    <value>Meet our new project on Kickstarter : MyMiniReport allows you to create awesome battle report in 4 minutes while playing without interfering your games.
+Do you like Kill Team Manager? Help us to create MyMiniReport.</value>
+  </data>
+  <data name="KickStarterTitle" xml:space="preserve">
+    <value>Our new app on KickStarter !</value>
+  </data>
+  <data name="Language" xml:space="preserve">
+    <value>Language</value>
+  </data>
+  <data name="ListAptitudeButton" xml:space="preserve">
+    <value>Abilities list</value>
+  </data>
+  <data name="M" xml:space="preserve">
+    <value>M</value>
+  </data>
+  <data name="Membre" xml:space="preserve">
+    <value>member</value>
+  </data>
+  <data name="Membres" xml:space="preserve">
+    <value>members</value>
+  </data>
+  <data name="MemeSpe" xml:space="preserve">
+    <value>You have several times the same specialist</value>
+  </data>
+  <data name="Niveau" xml:space="preserve">
+    <value>Level</value>
+  </data>
+  <data name="Nom" xml:space="preserve">
+    <value>Name</value>
+  </data>
+  <data name="Non" xml:space="preserve">
+    <value>no</value>
+  </data>
+  <data name="OptionTactiquesDeclinaison" xml:space="preserve">
+    <value>Model tactics</value>
+  </data>
+  <data name="OptionTactiquesFaction" xml:space="preserve">
+    <value>Faction tactics</value>
+  </data>
+  <data name="OptionTactiquesGeneral" xml:space="preserve">
+    <value>General tactics</value>
+  </data>
+  <data name="OptionTactiquesSpecialite" xml:space="preserve">
+    <value>Specialist tactics</value>
+  </data>
+  <data name="Or" xml:space="preserve">
+    <value>or</value>
+  </data>
+  <data name="Oui" xml:space="preserve">
+    <value>Yes</value>
+  </data>
+  <data name="Ouvrir" xml:space="preserve">
+    <value>Open</value>
+  </data>
+  <data name="PA" xml:space="preserve">
+    <value>AP</value>
+  </data>
+  <data name="PartageDepuis" xml:space="preserve">
+    <value>Shared from Kill Team Manager.</value>
+  </data>
+  <data name="Partager" xml:space="preserve">
+    <value>Share</value>
+  </data>
+  <data name="PasDeLeader" xml:space="preserve">
+    <value>Your team does not have a leader</value>
+  </data>
+  <data name="PDF" xml:space="preserve">
+    <value>PDF</value>
+  </data>
+  <data name="PdfOfficiel" xml:space="preserve">
+    <value>Official pdf</value>
+  </data>
+  <data name="Phases" xml:space="preserve">
+    <value>Phases</value>
+  </data>
+  <data name="PlusDeCentPoints" xml:space="preserve">
+    <value>Your team is worth more than 100 points</value>
+  </data>
+  <data name="PlusDeQuatreSpe" xml:space="preserve">
+    <value>Your team has more than 4 specialists</value>
+  </data>
+  <data name="PlusDeVingt" xml:space="preserve">
+    <value>Your team has more than 20 members</value>
+  </data>
+  <data name="Points" xml:space="preserve">
+    <value>Point(s)</value>
+  </data>
+  <data name="Portee" xml:space="preserve">
+    <value>Range</value>
+  </data>
+  <data name="PouvoirGeneralisteTitle" xml:space="preserve">
+    <value>Trait Generalist</value>
+  </data>
+  <data name="PouvoirMaitreSpeTitle" xml:space="preserve">
+    <value>Trait Master Specialist</value>
+  </data>
+  <data name="PsyAuChoix" xml:space="preserve">
+    <value>{0} psy power(s) + 1 common in :</value>
+  </data>
+  <data name="Psyker" xml:space="preserve">
+    <value>Psyker</value>
+  </data>
+  <data name="PsykerDesc" xml:space="preserve">
+    <value>This model can attempt to manifest {0} psychic power(s) and deny {1} psychic power(s) in each Psychic phase.</value>
+  </data>
+  <data name="PV" xml:space="preserve">
+    <value>W</value>
+  </data>
+  <data name="Recrue" xml:space="preserve">
+    <value>New recruit</value>
+  </data>
+  <data name="RegroupeMembres" xml:space="preserve">
+    <value>Group identical members</value>
+  </data>
+  <data name="RegrouperAptitudes" xml:space="preserve">
+    <value>Regroup abilities</value>
+  </data>
+  <data name="Remerciement" xml:space="preserve">
+    <value>Thanks</value>
+  </data>
+  <data name="RemplacePar" xml:space="preserve">
+    <value>replaced with</value>
+  </data>
+  <data name="Roster" xml:space="preserve">
+    <value>Roster</value>
+  </data>
+  <data name="Selection" xml:space="preserve">
+    <value>Selection</value>
+  </data>
+  <data name="Specialite" xml:space="preserve">
+    <value>Speciality</value>
+  </data>
+  <data name="Supprimer" xml:space="preserve">
+    <value>Delete</value>
+  </data>
+  <data name="Sv" xml:space="preserve">
+    <value>Sv</value>
+  </data>
+  <data name="Synchro" xml:space="preserve">
+    <value>Synchronization</value>
+  </data>
+  <data name="Tactiques" xml:space="preserve">
+    <value>Tactics</value>
+  </data>
+  <data name="TitleSpe" xml:space="preserve">
+    <value>Select a speciality</value>
+  </data>
+  <data name="TropDeclinaison" xml:space="preserve">
+    <value>Too many {0}. ({1} maximum)</value>
+  </data>
+  <data name="TropRemplacement" xml:space="preserve">
+    <value>Too many option {0}. ({1} maximum)</value>
+  </data>
+  <data name="Type" xml:space="preserve">
+    <value>Type</value>
+  </data>
+  <data name="UnSeulCommandant" xml:space="preserve">
+    <value>You can only have one commander</value>
+  </data>
+  <data name="XPRecrueConvalescence" xml:space="preserve">
+    <value>XP / New recruit / Convalescence</value>
+  </data>
+</root>

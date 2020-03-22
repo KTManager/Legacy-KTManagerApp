@@ -49,7 +49,7 @@ namespace KillTeam.Views
 
             BindingContext = psychiques;
             Title = membre.Title;
-            TitlePsy.Text = String.Format(Resx.Translate.PsyAuChoix, NbPsyConnus);
+            TitlePsy.Text = String.Format(Properties.Resources.PsyAuChoix, NbPsyConnus);
         }
 
         private void UpdateDatabase()

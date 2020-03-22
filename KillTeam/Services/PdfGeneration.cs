@@ -1,5 +1,5 @@
 ﻿using KillTeam.Models;
-using KillTeam.Resx;
+
 using KillTeam.ViewModels;
 using Microsoft.EntityFrameworkCore;
 using Syncfusion.DocIO.DLS;
@@ -221,7 +221,7 @@ namespace KillTeam.Services
             }
             paragraph = table[0, 9].AddParagraph();
             paragraph.ParagraphFormat.HorizontalAlignment = HorizontalAlignment.Right;
-            textRange = paragraph.AppendText(equipe.Cost + " "+Resx.Translate.Points);
+            textRange = paragraph.AppendText(equipe.Cost + " "+Properties.Resources.Points);
 
             textRange.CharacterFormat.FontSize = 14;
             textRange.CharacterFormat.FontName = "Arial.ttf#Arial";
@@ -240,7 +240,7 @@ namespace KillTeam.Services
                 table[0, i].CellFormat.HorizontalMerge = CellMerge.Continue;
             }
             IWParagraph paragraph = table[0, 0].AddParagraph();
-            IWTextRange textRange = paragraph.AppendText(Translate.AptitudesCommunes);
+            IWTextRange textRange = paragraph.AppendText(Properties.Resources.AptitudesCommunes);
             textRange.CharacterFormat.FontSize = 8;
             textRange.CharacterFormat.FontName = "Arial.ttf#Arial";
 
@@ -326,7 +326,7 @@ namespace KillTeam.Services
                 table[0, i].CellFormat.HorizontalMerge = CellMerge.Continue;
             }
             IWParagraph paragraph = table[0, 0].AddParagraph();
-            IWTextRange textRange = paragraph.AppendText(Translate.Tactiques);
+            IWTextRange textRange = paragraph.AppendText(Properties.Resources.Tactiques);
             textRange.CharacterFormat.FontSize = 8;
             textRange.CharacterFormat.FontName = "Arial.ttf#Arial";
             // Inserting rows to the table.
@@ -339,7 +339,7 @@ namespace KillTeam.Services
                     row.Cells[i].CellFormat.HorizontalMerge = CellMerge.Continue;
                 }
                 paragraph = row.Cells[0].AddParagraph();
-                textRange = paragraph.AppendText(tactiqueViewModel.Tactique.Name + " (" + tactiqueViewModel.Origine + ": " + tactiqueViewModel.Tactique.Cost + Resx.Translate.Points + ") ");
+                textRange = paragraph.AppendText(tactiqueViewModel.Tactique.Name + " (" + tactiqueViewModel.Origine + ": " + tactiqueViewModel.Tactique.Cost + Properties.Resources.Points + ") ");
                 textRange.CharacterFormat.FontSize = 8;
                 textRange.CharacterFormat.FontName = "Arial.ttf#Arial";
                 textRange = paragraph.AppendText(tactiqueViewModel.Tactique.Description);
@@ -394,7 +394,7 @@ namespace KillTeam.Services
             row.Cells[3].CellFormat.HorizontalMerge = CellMerge.Continue;
 
             IWParagraph paragraph = row.Cells[0].AddParagraph();
-            IWTextRange textRange = paragraph.AppendText(Translate.Experience);
+            IWTextRange textRange = paragraph.AppendText(Properties.Resources.Experience);
             textRange.CharacterFormat.FontSize = 8;
             textRange.CharacterFormat.FontName = "Times New Roman";
             textRange.CharacterFormat.Bold = true;
@@ -411,7 +411,7 @@ namespace KillTeam.Services
             row.Cells[7].CellFormat.HorizontalMerge = CellMerge.Continue;
 
             paragraph = row.Cells[5].AddParagraph();
-            textRange = paragraph.AppendText(Translate.Recrue);
+            textRange = paragraph.AppendText(Properties.Resources.Recrue);
             textRange.CharacterFormat.FontSize = 8;
             textRange.CharacterFormat.FontName = "Times New Roman";
             textRange.CharacterFormat.Bold = true;
@@ -429,7 +429,7 @@ namespace KillTeam.Services
             row.Cells[12].CellFormat.HorizontalMerge = CellMerge.Continue;
 
             paragraph = row.Cells[9].AddParagraph();
-            textRange = paragraph.AppendText(Translate.Convalescence);
+            textRange = paragraph.AppendText(Properties.Resources.Convalescence);
             textRange.CharacterFormat.FontSize = 8;
             textRange.CharacterFormat.FontName = "Times New Roman";
             textRange.CharacterFormat.Bold = true;
@@ -452,7 +452,7 @@ namespace KillTeam.Services
                     row2.Cells[i].CellFormat.HorizontalMerge = CellMerge.Continue;
                 }
                 IWParagraph paragraph2 = row2.Cells[0].AddParagraph();
-                IWTextRange textRange2 = paragraph2.AppendText(Resx.Translate.Psyker + " : ");
+                IWTextRange textRange2 = paragraph2.AppendText(Properties.Resources.Psyker + " : ");
                 textRange2.CharacterFormat.FontSize = 8;
                 textRange2.CharacterFormat.FontName = "Arial.ttf#Arial";
                 textRange2 = paragraph2.AppendText(membre.PsykerDesc);
@@ -500,7 +500,7 @@ namespace KillTeam.Services
                         row.Cells[i].CellFormat.HorizontalMerge = CellMerge.Continue;
                     }
                     IWParagraph paragraph = row.Cells[0].AddParagraph();
-                    IWTextRange textRange = paragraph.AppendText("        " + Translate.Psyker + " : " + string.Join(", ", psys.Select(a => a.Name)));
+                    IWTextRange textRange = paragraph.AppendText("        " + Properties.Resources.Psyker + " : " + string.Join(", ", psys.Select(a => a.Name)));
                     textRange.CharacterFormat.FontSize = 8;
                     textRange.CharacterFormat.FontName = "Arial.ttf#Arial";
                 }
@@ -543,7 +543,7 @@ namespace KillTeam.Services
                     row.Cells[i].CellFormat.HorizontalMerge = CellMerge.Continue;
                 }
                 IWParagraph paragraph = row.Cells[0].AddParagraph();
-                IWTextRange textRange = paragraph.AppendText(Translate.Aptitudes + " : " + string.Join(", ", aptitudes.Select(a => a.Name)));
+                IWTextRange textRange = paragraph.AppendText(Properties.Resources.Aptitudes + " : " + string.Join(", ", aptitudes.Select(a => a.Name)));
                 textRange.CharacterFormat.FontSize = 8;
                 textRange.CharacterFormat.FontName = "Arial.ttf#Arial";
             }
@@ -656,30 +656,30 @@ namespace KillTeam.Services
                 table[2, i].CellFormat.HorizontalMerge = CellMerge.Continue;
             }
             IWParagraph paragraph = table[2, 0].AddParagraph();
-            IWTextRange textRange = paragraph.AppendText(Translate.Arme);
+            IWTextRange textRange = paragraph.AppendText(Properties.Resources.Arme);
             textRange.CharacterFormat.FontSize = 8;
             textRange.CharacterFormat.FontName = "Arial.ttf#Arial";
             paragraph = table[2, 3].AddParagraph();
-            textRange = paragraph.AppendText(Translate.Portee);
+            textRange = paragraph.AppendText(Properties.Resources.Portee);
             textRange.CharacterFormat.FontSize = 8;
             textRange.CharacterFormat.FontName = "Arial.ttf#Arial";
             table[2, 4].CellFormat.HorizontalMerge = CellMerge.Start;
             table[2, 5].CellFormat.HorizontalMerge = CellMerge.Continue;
             table[2, 6].CellFormat.HorizontalMerge = CellMerge.Continue;
             paragraph = table[2, 4].AddParagraph();
-            textRange = paragraph.AppendText(Translate.Type);
+            textRange = paragraph.AppendText(Properties.Resources.Type);
             textRange.CharacterFormat.FontSize = 8;
             textRange.CharacterFormat.FontName = "Arial.ttf#Arial";
             paragraph = table[2, 7].AddParagraph();
-            textRange = paragraph.AppendText(Translate.F);
+            textRange = paragraph.AppendText(Properties.Resources.F);
             textRange.CharacterFormat.FontSize = 8;
             textRange.CharacterFormat.FontName = "Arial.ttf#Arial";
             paragraph = table[2, 8].AddParagraph();
-            textRange = paragraph.AppendText(Translate.PA);
+            textRange = paragraph.AppendText(Properties.Resources.PA);
             textRange.CharacterFormat.FontSize = 8;
             textRange.CharacterFormat.FontName = "Arial.ttf#Arial";
             paragraph = table[2, 9].AddParagraph();
-            textRange = paragraph.AppendText(Translate.D);
+            textRange = paragraph.AppendText(Properties.Resources.D);
             textRange.CharacterFormat.FontSize = 8;
             textRange.CharacterFormat.FontName = "Arial.ttf#Arial";
             table[2, 10].CellFormat.HorizontalMerge = CellMerge.Start;
@@ -687,7 +687,7 @@ namespace KillTeam.Services
             table[2, 12].CellFormat.HorizontalMerge = CellMerge.Continue;
             table[2, 13].CellFormat.HorizontalMerge = CellMerge.Continue;
             paragraph = table[2, 10].AddParagraph();
-            textRange = paragraph.AppendText(Translate.Aptitudes);
+            textRange = paragraph.AppendText(Properties.Resources.Aptitudes);
             textRange.CharacterFormat.FontSize = 8;
             textRange.CharacterFormat.FontName = "Arial.ttf#Arial";
 
@@ -711,52 +711,52 @@ namespace KillTeam.Services
             table[0, 4].CellFormat.HorizontalMerge = CellMerge.Continue;
             paragraph = table[0, 3].AddParagraph();
             paragraph.ParagraphFormat.HorizontalAlignment = HorizontalAlignment.Right;
-            textRange = paragraph.AppendText(membre.Cost + " "+ Translate.Points);
+            textRange = paragraph.AppendText(membre.Cost + " "+ Properties.Resources.Points);
             textRange.CharacterFormat.FontSize = 8;
             textRange.CharacterFormat.FontName = "Arial.ttf#Arial";
             paragraph = table[0, 5].AddParagraph();
             paragraph.ParagraphFormat.HorizontalAlignment = HorizontalAlignment.Center;
-            textRange = paragraph.AppendText(Translate.M);
+            textRange = paragraph.AppendText(Properties.Resources.M);
             textRange.CharacterFormat.FontSize = 8;
             textRange.CharacterFormat.FontName = "Arial.ttf#Arial";
             paragraph = table[0, 6].AddParagraph();
             paragraph.ParagraphFormat.HorizontalAlignment = HorizontalAlignment.Center;
-            textRange = paragraph.AppendText(Translate.CC);
+            textRange = paragraph.AppendText(Properties.Resources.CC);
             textRange.CharacterFormat.FontSize = 8;
             textRange.CharacterFormat.FontName = "Arial.ttf#Arial";
             paragraph = table[0, 7].AddParagraph();
             paragraph.ParagraphFormat.HorizontalAlignment = HorizontalAlignment.Center;
-            textRange = paragraph.AppendText(Translate.CT);
+            textRange = paragraph.AppendText(Properties.Resources.CT);
             textRange.CharacterFormat.FontSize = 8;
             textRange.CharacterFormat.FontName = "Arial.ttf#Arial";
             paragraph = table[0, 8].AddParagraph();
             paragraph.ParagraphFormat.HorizontalAlignment = HorizontalAlignment.Center;
-            textRange = paragraph.AppendText(Translate.F);
+            textRange = paragraph.AppendText(Properties.Resources.F);
             textRange.CharacterFormat.FontSize = 8;
             textRange.CharacterFormat.FontName = "Arial.ttf#Arial";
             paragraph = table[0, 9].AddParagraph();
             paragraph.ParagraphFormat.HorizontalAlignment = HorizontalAlignment.Center;
-            textRange = paragraph.AppendText(Translate.E);
+            textRange = paragraph.AppendText(Properties.Resources.E);
             textRange.CharacterFormat.FontSize = 8;
             textRange.CharacterFormat.FontName = "Arial.ttf#Arial";
             paragraph = table[0, 10].AddParagraph();
             paragraph.ParagraphFormat.HorizontalAlignment = HorizontalAlignment.Center;
-            textRange = paragraph.AppendText(Translate.PV);
+            textRange = paragraph.AppendText(Properties.Resources.PV);
             textRange.CharacterFormat.FontSize = 8;
             textRange.CharacterFormat.FontName = "Arial.ttf#Arial";
             paragraph = table[0, 11].AddParagraph();
             paragraph.ParagraphFormat.HorizontalAlignment = HorizontalAlignment.Center;
-            textRange = paragraph.AppendText(Translate.A);
+            textRange = paragraph.AppendText(Properties.Resources.A);
             textRange.CharacterFormat.FontSize = 8;
             textRange.CharacterFormat.FontName = "Arial.ttf#Arial";
             paragraph = table[0, 12].AddParagraph();
             paragraph.ParagraphFormat.HorizontalAlignment = HorizontalAlignment.Center;
-            textRange = paragraph.AppendText(Translate.Cd);
+            textRange = paragraph.AppendText(Properties.Resources.Cd);
             textRange.CharacterFormat.FontSize = 8;
             textRange.CharacterFormat.FontName = "Arial.ttf#Arial";
             paragraph = table[0, 13].AddParagraph();
             paragraph.ParagraphFormat.HorizontalAlignment = HorizontalAlignment.Center;
-            textRange = paragraph.AppendText(Translate.Sv);
+            textRange = paragraph.AppendText(Properties.Resources.Sv);
             textRange.CharacterFormat.FontSize = 8;
             textRange.CharacterFormat.FontName = "Arial.ttf#Arial";
 

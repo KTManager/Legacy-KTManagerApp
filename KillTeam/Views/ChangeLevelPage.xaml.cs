@@ -1,5 +1,5 @@
 ﻿using KillTeam.Models;
-using KillTeam.Resx;
+
 using KillTeam.Services;
 using KillTeam.ViewModels;
 using Microsoft.EntityFrameworkCore;
@@ -43,7 +43,7 @@ namespace KillTeam.Views
                 .First();
 
             Title = membre.Name + " (" + membre.Cost + ")";
-            NiveauLabel.Text = Translate.Niveau + " " + membre.Level;
+            NiveauLabel.Text = Properties.Resources.Niveau + " " + membre.Level;
 
             List<Specialist> specialites = new List<Specialist>();
             specialites.Add(new Specialist() { NameEn = "None", NameFr = "Aucune", NameDe = "Keine" });
@@ -105,7 +105,7 @@ namespace KillTeam.Views
                 .First();
 
             Title = membre.Name + " (" + membre.Cost + ")";
-            NiveauLabel.Text = Translate.Niveau + " " + membre.Level;
+            NiveauLabel.Text = Properties.Resources.Niveau + " " + membre.Level;
         }
 
         private void UpdateMembre()

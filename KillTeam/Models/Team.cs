@@ -1,4 +1,4 @@
-﻿using KillTeam.Resx;
+﻿
 using KillTeam.Services;
 using KillTeam.ViewModels;
 using Microsoft.EntityFrameworkCore;
@@ -97,7 +97,7 @@ namespace KillTeam.Models
         {
             get
             {
-                return Cost + " " + Resx.Translate.Points;
+                return Cost + " " + Properties.Resources.Points;
             }
         }
 
@@ -110,30 +110,30 @@ namespace KillTeam.Models
 
                 if (Cost > 100)
                 {
-                    liste.Add(Translate.PlusDeCentPoints);
+                    liste.Add(Properties.Resources.PlusDeCentPoints);
                 }
                 if (!GetSelectedMembers().Any(m => m.SpecialistId == "L"))
                 {
-                    liste.Add(Translate.PasDeLeader);
+                    liste.Add(Properties.Resources.PasDeLeader);
                 }
                 if (!_roster && Members.Count(m => m.ModelProfile.IsCommander) > 1)
                 {
-                    liste.Add(Translate.UnSeulCommandant);
+                    liste.Add(Properties.Resources.UnSeulCommandant);
                 }
                 if (GetSelectedMembers().Where(m => !m.ModelProfile.IsCommander && m.ModelProfile.Id != "MEUR" && m.ModelProfile.Id != "AMRR1" && m.ModelProfile.Id != "AMPV" && m.ModelProfile.Id != "ESK" && m.ModelProfile.Id != "ESL" && m.ModelProfile.Id != "ESS").Count(m => m.Specialist != null) > 4)
                 {
-                    liste.Add(Translate.PlusDeQuatreSpe);
+                    liste.Add(Properties.Resources.PlusDeQuatreSpe);
                 }
                 if (GetSelectedMembers()
                     .Where(m => m.SpecialistId != null)
                     .GroupBy(m => m.SpecialistId)
                     .Any(g => g.Count() > 1))
                 {
-                    liste.Add(Translate.MemeSpe);
+                    liste.Add(Properties.Resources.MemeSpe);
                 }
                 if (GetSelectedMembers().Count() > 20)
                 {
-                    liste.Add(Translate.PlusDeQuatreSpe);
+                    liste.Add(Properties.Resources.PlusDeQuatreSpe);
                 }
 
                 //Verifier les declinaisons limités
@@ -143,7 +143,7 @@ namespace KillTeam.Models
                     if (!declinaisonTrop.Contains(membre.ModelProfile.Id) && membre.ModelProfile.MaximumNumber > 0 && membre.ModelProfile.MaximumNumber < GetSelectedMembers().Count(m => m.ModelProfile.Id == membre.ModelProfile.Id))
                     {
                         declinaisonTrop.Add(membre.ModelProfile.Id);
-                        liste.Add(String.Format(Translate.TropDeclinaison, membre.ModelProfile.Name, membre.ModelProfile.MaximumNumber));
+                        liste.Add(String.Format(Properties.Resources.TropDeclinaison, membre.ModelProfile.Name, membre.ModelProfile.MaximumNumber));
                     }
                 }
 
@@ -167,11 +167,11 @@ namespace KillTeam.Models
                             }
 
 
-                            remp = remp.Replace(":", " " + Translate.RemplacePar + " ");
-                            remp = remp.Replace("|", " " + Translate.Or + " ");
-                            remp = remp.Replace("&", " " + Translate.Et + " ");
+                            remp = remp.Replace(":", " " + Properties.Resources.RemplacePar + " ");
+                            remp = remp.Replace("|", " " + Properties.Resources.Or + " ");
+                            remp = remp.Replace("&", " " + Properties.Resources.Et + " ");
 
-                            liste.Add(String.Format(Translate.TropRemplacement, remp, remplacement.MaximumPerTeam));
+                            liste.Add(String.Format(Properties.Resources.TropRemplacement, remp, remplacement.MaximumPerTeam));
                         }
                     }
                 }
@@ -186,7 +186,7 @@ namespace KillTeam.Models
             get
             {
                 int count = GetSelectedMembers().Count();
-                return Faction.Name + " - " + count + " " + (count <= 1 ? Translate.Membre : Translate.Membres);
+                return Faction.Name + " - " + count + " " + (count <= 1 ? Properties.Resources.Membre : Properties.Resources.Membres);
             }
         }
         
@@ -255,7 +255,7 @@ namespace KillTeam.Models
                 int i = 1;
                 while (KTContext.Db.Teams.Where(e => e.Name == equipeNom).Count() >= 1)
                 {
-                    equipeNom = baseEquipe.Name + " - " + Resx.Translate.Copier + " (" + i + ")";
+                    equipeNom = baseEquipe.Name + " - " + Properties.Resources.Copier + " (" + i + ")";
                     i++;
                 }
             }
@@ -332,7 +332,7 @@ namespace KillTeam.Models
                 tactics.Add(new TactiqueViewModel
                 {
                     Tactique = t,
-                    Origine = Translate.General
+                    Origine = Properties.Resources.General
                 });
             }
         }
@@ -348,7 +348,7 @@ namespace KillTeam.Models
                 tactics.Add(new TactiqueViewModel
                 {
                     Tactique = t,
-                    Origine = Translate.Faction
+                    Origine = Properties.Resources.Faction
                 });
             }
         }
@@ -364,7 +364,7 @@ namespace KillTeam.Models
                 tactics.Add(new TactiqueViewModel
                 {
                     Tactique = t,
-                    Origine = Translate.Specialite
+                    Origine = Properties.Resources.Specialite
                 });
             }
         }

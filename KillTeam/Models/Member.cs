@@ -113,14 +113,14 @@ namespace KillTeam.Models
         {
             get
             {
-                string ret = Resx.Translate.Experience + " : " + Xp;
+                string ret = Properties.Resources.Experience + " : " + Xp;
                 if (Convalescence)
                 {
-                    ret += ", " + Resx.Translate.Convalescence;
+                    ret += ", " + Properties.Resources.Convalescence;
                 }
                 if (Recruit)
                 {
-                    ret += ", " + Resx.Translate.Recrue;
+                    ret += ", " + Properties.Resources.Recrue;
                 }
                 return ret;
             }
@@ -131,7 +131,7 @@ namespace KillTeam.Models
         {
             get
             {
-                return Resx.Translate.Experience + " : ";
+                return Properties.Resources.Experience + " : ";
             }
         }
 
@@ -140,7 +140,7 @@ namespace KillTeam.Models
         {
             get
             {
-                return Resx.Translate.Blessures + " : ";
+                return Properties.Resources.Blessures + " : ";
             }
         }
 
@@ -158,7 +158,7 @@ namespace KillTeam.Models
         {
             get
             {
-                return String.Format(Resx.Translate.PsykerDesc, ModelProfile.NumberOfPsychicsManifestationPerRound, ModelProfile.NumberOfPsychicsDenialPerRound);
+                return String.Format(Properties.Resources.PsykerDesc, ModelProfile.NumberOfPsychicsManifestationPerRound, ModelProfile.NumberOfPsychicsDenialPerRound);
             }
         }
 
@@ -179,11 +179,11 @@ namespace KillTeam.Models
                 string ret = "";
                 if (Convalescence)
                 {
-                    ret += "" + Resx.Translate.Convalescence;
+                    ret += "" + Properties.Resources.Convalescence;
                 }
                 if (Recruit)
                 {
-                    ret += ", " + Resx.Translate.Recrue;
+                    ret += ", " + Properties.Resources.Recrue;
                 }
                 return ret;
             }
@@ -209,7 +209,7 @@ namespace KillTeam.Models
                 }
                 if (_level > 1)
                 {
-                    ret += ", " + Resx.Translate.Niveau + " " + Level;
+                    ret += ", " + Properties.Resources.Niveau + " " + Level;
                 }
                 return ret;
             }
@@ -533,7 +533,7 @@ namespace KillTeam.Models
                     int i = 1;
                     while (equipe.Members.Where(m => m.Name == membreNom).Count() == 1)
                     {
-                        membreNom = membre.Name + " - " + Resx.Translate.Copier + " (" + i + ")";
+                        membreNom = membre.Name + " - " + Properties.Resources.Copier + " (" + i + ")";
                         i++;
                     }
                 }

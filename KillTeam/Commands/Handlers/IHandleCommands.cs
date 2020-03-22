@@ -4,4 +4,9 @@ namespace KillTeam.Commands.Handlers
     {
         void Handle(TCommand command);
     }
+
+    public interface IHandleCommands<TOut, TCommand>
+    {
+        TOut Handle(TCommand command);
+    }
 }

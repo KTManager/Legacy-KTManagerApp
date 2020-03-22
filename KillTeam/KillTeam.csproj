@@ -303,6 +303,9 @@
     <Compile Update="Themes\LightTheme.xaml.cs">
       <DependentUpon>LightTheme.xaml</DependentUpon>
     </Compile>
+    <Compile Update="Views\FactionsView.xaml.cs">
+      <DependentUpon>FactionsView.xaml</DependentUpon>
+    </Compile>
     <Compile Update="Views\PsychiqueView.xaml.cs">
       <DependentUpon>PsychiqueView.xaml</DependentUpon>
     </Compile>
@@ -355,7 +358,7 @@
     <EmbeddedResource Update="Views\ConfigurationCell.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
-    <EmbeddedResource Update="Views\FactionsPage.xaml">
+    <EmbeddedResource Update="Views\FactionsView.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
     <EmbeddedResource Update="Views\KickStarter.xaml">

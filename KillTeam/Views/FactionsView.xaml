@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:viewModels="clr-namespace:KillTeam.ViewModels;assembly=KillTeam"
+             x:Class="KillTeam.Views.FactionsView"
+             x:Name="CpFactions">
+    <StackLayout>
+        
+        <ListView ItemsSource="{Binding Items}"
+                  VerticalOptions="FillAndExpand"
+                  HasUnevenRows="true"
+                  CachingStrategy="RecycleElement">
+            <ListView.ItemTemplate>
+                <DataTemplate x:DataType="{x:Type viewModels:FactionsViewModel}">
+                    <ViewCell>
+                        <StackLayout Margin="5,5,5,0" Padding="10" Style="{DynamicResource Frame}">
+                            <StackLayout.GestureRecognizers>
+                                <TapGestureRecognizer Command="{Binding Source={x:Reference CpFactions}, Path=BindingContext.Selected}" CommandParameter="{Binding .}" />
+                            </StackLayout.GestureRecognizers>
+
+                            <Label Text="{Binding Name}" LineBreakMode="NoWrap" FontSize="16" Style="{DynamicResource FrameLabel}"/>
+                        </StackLayout>
+                    </ViewCell>
+                </DataTemplate>
+            </ListView.ItemTemplate>
+        </ListView>
+    </StackLayout>
+</ContentPage>

@@ -81,7 +81,7 @@ namespace KillTeam.Controllers
 
         private void AddTeamExecuted()
         {
-            KTApp.Navigation.PushModalAsync(new Views.FactionsPage());
+            KTApp.Navigation.PushModalAsync(new Views.FactionsView());
         }
 
         private void ReorderTeamExecuted()

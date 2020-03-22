@@ -870,6 +870,10 @@
           {
             "WeaponId": "DEV",
             "Cost": 0
+          },
+          {
+            "WeaponId": "CRM",
+            "Cost": 2
           }
         ],
         "LevelCosts": []

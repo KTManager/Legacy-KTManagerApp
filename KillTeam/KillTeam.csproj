@@ -19,6 +19,10 @@
 
   <ItemGroup>
     <None Remove="SharedAssets\Rules\abilities.json" />
+    <None Remove="SharedAssets\Rules\factions\AdeptaSororitas\abilities.json" />
+    <None Remove="SharedAssets\Rules\factions\AdeptaSororitas\faction.json" />
+    <None Remove="SharedAssets\Rules\factions\AdeptaSororitas\models.json" />
+    <None Remove="SharedAssets\Rules\factions\AdeptaSororitas\tactics.json" />
     <None Remove="SharedAssets\Rules\factions\AdeptusAstartes\abilities.json" />
     <None Remove="SharedAssets\Rules\factions\AdeptusAstartes\faction.json" />
     <None Remove="SharedAssets\Rules\factions\AdeptusAstartes\models.json" />
@@ -148,6 +152,10 @@
     <EmbeddedResource Include="SharedAssets\LegacyDatabaseUpdate\018.sql" />
     <EmbeddedResource Include="SharedAssets\Arial.ttf" />
     <EmbeddedResource Include="SharedAssets\Rules\abilities.json" />
+    <EmbeddedResource Include="SharedAssets\Rules\factions\AdeptaSororitas\abilities.json" />
+    <EmbeddedResource Include="SharedAssets\Rules\factions\AdeptaSororitas\faction.json" />
+    <EmbeddedResource Include="SharedAssets\Rules\factions\AdeptaSororitas\models.json" />
+    <EmbeddedResource Include="SharedAssets\Rules\factions\AdeptaSororitas\tactics.json" />
     <EmbeddedResource Include="SharedAssets\Rules\factions\AdeptusAstartes\abilities.json" />
     <EmbeddedResource Include="SharedAssets\Rules\factions\AdeptusAstartes\faction.json" />
     <EmbeddedResource Include="SharedAssets\Rules\factions\AdeptusAstartes\models.json" />

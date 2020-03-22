@@ -642,6 +642,9 @@
         ],
         "ModelProfileWeapons": [
           {
+            "WeaponId": "DST"
+          },
+          {
             "WeaponId": "SCF"
           }
         ],

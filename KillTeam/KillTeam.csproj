@@ -293,8 +293,8 @@
     <Compile Update="Views\InGamePage.xaml.cs">
       <DependentUpon>InGamePage.xaml</DependentUpon>
     </Compile>
-    <Compile Update="Views\EquipePage.xaml.cs">
-      <DependentUpon>EquipePage.xaml</DependentUpon>
+    <Compile Update="Views\TeamView.xaml.cs">
+      <DependentUpon>TeamView.xaml</DependentUpon>
     </Compile>
     <Compile Update="Views\ListTactiquePage.xaml.cs">
       <DependentUpon>ListTactiquePage.xaml</DependentUpon>

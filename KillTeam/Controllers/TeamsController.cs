@@ -91,7 +91,7 @@ namespace KillTeam.Controllers
 
         private async Task OpenTeamExecuted(TeamsViewModel team)
         {
-            await KTApp.Navigation.PushAsync(new Views.EquipePage(team.Id));
+            await KTApp.Navigation.PushAsync(new Views.TeamView(team.Id));
         }
 
         private async Task DeleteExecuted(TeamsViewModel team)

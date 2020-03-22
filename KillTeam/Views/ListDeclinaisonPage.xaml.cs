@@ -92,7 +92,7 @@ namespace KillTeam.Views
 
             await Member.CreateFrom(EquipeId, declinaisonModel.Id);
 
-            await Application.Current.MainPage.Navigation.PopAsync();
+            await KTApp.Navigation.PopModalAsync(true);
         }
     }
 }

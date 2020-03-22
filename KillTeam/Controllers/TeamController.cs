@@ -132,7 +132,7 @@ namespace KillTeam.Controllers
 
         private async Task AddMemberExecuted()
         {
-            await KTApp.Navigation.PushModalAsync(new Views.ListDeclinaisonPage(Item.Id));
+            await KTApp.Navigation.PushModalAsync(new Views.ModelsView(Item.Id));
             await Refresh();
         }
 

@@ -616,8 +616,6 @@ namespace KillTeam.Models
                 }
             }
 
-            await KTContext.Db.SaveChangesAsync();
-
             return membre;
 
         }

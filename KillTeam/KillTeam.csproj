@@ -321,8 +321,8 @@
     <Compile Update="Views\TeamsView.xaml.cs">
       <DependentUpon>TeamsView.xaml</DependentUpon>
     </Compile>
-    <Compile Update="Views\ListDeclinaisonPage.xaml.cs">
-      <DependentUpon>ListDeclinaisonPage.xaml</DependentUpon>
+    <Compile Update="Views\ModelsView.xaml.cs">
+      <DependentUpon>ModelsView.xaml</DependentUpon>
     </Compile>
     <Compile Update="Views\AptitudeCell.xaml.cs">
       <DependentUpon>AptitudeCell.xaml</DependentUpon>
@@ -376,7 +376,7 @@
     <EmbeddedResource Update="Views\TeamsView.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
-    <EmbeddedResource Update="Views\ListDeclinaisonPage.xaml">
+    <EmbeddedResource Update="Views\ModelsView.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
     <EmbeddedResource Update="Views\ListErreurPage.xaml">

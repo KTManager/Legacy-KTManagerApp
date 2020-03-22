@@ -104,7 +104,7 @@ namespace KillTeam.Models
 
             if (WeaponProfiles.Count > 0)
             {
-                ret = WeaponProfiles.First().WeaponType.Index - other.WeaponProfiles.First().WeaponType.Index;
+                ret = WeaponProfiles.First().WeaponType.Index - other.WeaponProfiles.First().WeaponType?.Index ?? Int32.MaxValue;
                 if (ret != 0) return ret;
 
                 return WeaponProfiles.First().ShotNumber.CompareTo(other.WeaponProfiles.First().ShotNumber);

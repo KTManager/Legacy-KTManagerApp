@@ -1,5 +1,5 @@
 ﻿using KillTeam.Models;
-using KillTeam.Resx;
+
 using KillTeam.Services;
 using Microsoft.EntityFrameworkCore;
 using System;
@@ -47,12 +47,12 @@ namespace KillTeam.Views
             ArmeGrid.ColumnDefinitions.Add(new ColumnDefinition { Width = new GridLength(0.5, GridUnitType.Star) });
             ArmeGrid.ColumnDefinitions.Add(new ColumnDefinition { Width = new GridLength(0.5, GridUnitType.Star) });
             ArmeGrid.ColumnDefinitions.Add(new ColumnDefinition { Width = new GridLength(0.5, GridUnitType.Star) });
-            ArmeGrid.Children.Add(new Label {Style= labelStyle, FontSize = fontSize, Text = Translate.Arme }, 0, line);
-            ArmeGrid.Children.Add(new Label {Style= labelStyle, FontSize = fontSize, Text = Translate.Portee }, 1, line);
-            ArmeGrid.Children.Add(new Label {Style= labelStyle, FontSize = fontSize, Text = Translate.Type }, 2, line);
-            ArmeGrid.Children.Add(new Label {Style= labelStyle, FontSize = fontSize, Text = Translate.F }, 3, line);
-            ArmeGrid.Children.Add(new Label {Style= labelStyle, FontSize = fontSize, Text = Translate.PA }, 4, line);
-            ArmeGrid.Children.Add(new Label {Style= labelStyle, FontSize = fontSize, Text = Translate.D }, 5, line);
+            ArmeGrid.Children.Add(new Label {Style= labelStyle, FontSize = fontSize, Text = Properties.Resources.Arme }, 0, line);
+            ArmeGrid.Children.Add(new Label {Style= labelStyle, FontSize = fontSize, Text = Properties.Resources.Portee }, 1, line);
+            ArmeGrid.Children.Add(new Label {Style= labelStyle, FontSize = fontSize, Text = Properties.Resources.Type }, 2, line);
+            ArmeGrid.Children.Add(new Label {Style= labelStyle, FontSize = fontSize, Text = Properties.Resources.F }, 3, line);
+            ArmeGrid.Children.Add(new Label {Style= labelStyle, FontSize = fontSize, Text = Properties.Resources.PA }, 4, line);
+            ArmeGrid.Children.Add(new Label {Style= labelStyle, FontSize = fontSize, Text = Properties.Resources.D }, 5, line);
             line++;
             labelStyle = oddStyle;
 
@@ -187,7 +187,7 @@ namespace KillTeam.Views
         async void ButtonSupprimerClicked(object sender, EventArgs e)
         {
             string NomMembre = KTContext.Db.Members.Where(m => m.Id == membreId).Select(m => m.Name).First();
-            bool reponse = await DisplayAlert(Translate.Supprimer, Translate.EtesVousSur + " \"" + NomMembre + "\" ?", Translate.Oui, Translate.Non);
+            bool reponse = await DisplayAlert(Properties.Resources.Supprimer, Properties.Resources.EtesVousSur + " \"" + NomMembre + "\" ?", Properties.Resources.Oui, Properties.Resources.Non);
             if (reponse)
             {
                 DeleteMembre();

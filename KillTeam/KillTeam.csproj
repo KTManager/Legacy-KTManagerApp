@@ -13,8 +13,11 @@
 
   <ItemGroup>
     <Compile Remove="DataFiles\**" />
+    <Compile Remove="Resx\**" />
     <EmbeddedResource Remove="DataFiles\**" />
+    <EmbeddedResource Remove="Resx\**" />
     <None Remove="DataFiles\**" />
+    <None Remove="Resx\**" />
   </ItemGroup>
 
   <ItemGroup>
@@ -284,6 +287,11 @@
     <Compile Update="KTApp.xaml.cs">
       <DependentUpon>KTApp.xaml</DependentUpon>
     </Compile>
+    <Compile Update="Properties\Resources.Designer.cs">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
     <Compile Update="Themes\LightTheme.xaml.cs">
       <DependentUpon>LightTheme.xaml</DependentUpon>
     </Compile>
@@ -311,21 +319,12 @@
     <Compile Update="Views\ListPsychiquePage.xaml.cs">
       <DependentUpon>ListPsychiquePage.xaml</DependentUpon>
     </Compile>
-    <Compile Update="Resx\Translate.de.Designer.cs">
-      <DependentUpon>Translate.de.resx</DependentUpon>
-    </Compile>
   </ItemGroup>
 
   <ItemGroup>
-    <EmbeddedResource Update="Resx\Translate.de.resx">
+    <EmbeddedResource Update="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
-      <LastGenOutput>Translate.de.Designer.cs</LastGenOutput>
-    </EmbeddedResource>
-    <EmbeddedResource Update="Resx\Translate.en.resx">
-      <Generator>ResXFileCodeGenerator</Generator>
-    </EmbeddedResource>
-    <EmbeddedResource Update="Resx\Translate.fr.resx">
-      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
     </EmbeddedResource>
     <EmbeddedResource Update="Themes\DarkTheme.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>

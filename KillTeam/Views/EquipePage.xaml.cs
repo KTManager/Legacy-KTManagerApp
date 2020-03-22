@@ -1,5 +1,5 @@
 ﻿using KillTeam.Models;
-using KillTeam.Resx;
+
 using KillTeam.Services;
 using Microsoft.EntityFrameworkCore;
 using Plugin.Share;
@@ -175,7 +175,7 @@ namespace KillTeam.Views
 
             CrossShare.Current.Share(new ShareMessage
             {
-                Text = equipe.GetSummary() + "\n" + Translate.PartageDepuis,
+                Text = equipe.GetSummary() + "\n" + Properties.Resources.PartageDepuis,
                 Url = "https://www.facebook.com/KillTeamManager"
             });
         }
@@ -258,7 +258,7 @@ namespace KillTeam.Views
         async void ButtonSupprimerClicked(object sender, EventArgs e)
         {
             string NomEquipe = KTContext.Db.Teams.Where(eq => eq.Id == equipeId).Select(m => m.Name).First();
-            bool reponse = await DisplayAlert(Translate.Supprimer, Translate.EtesVousSur + " \"" + NomEquipe + "\" ?", Translate.Oui, Translate.Non);
+            bool reponse = await DisplayAlert(Properties.Resources.Supprimer, Properties.Resources.EtesVousSur + " \"" + NomEquipe + "\" ?", Properties.Resources.Oui, Properties.Resources.Non);
             if (reponse)
             {
                 var handler = new DeleteTeamCommandHandler();

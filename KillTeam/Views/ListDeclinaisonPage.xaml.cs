@@ -41,7 +41,7 @@ namespace KillTeam.Views
                 .First();
 
             GroupedFigurines = new List<GroupFigurineViewModel>();
-            GroupFigurineViewModel commandantGroup = new GroupFigurineViewModel() { GroupName = Resx.Translate.Commandant };
+            GroupFigurineViewModel commandantGroup = new GroupFigurineViewModel() { GroupName = Properties.Resources.Commandant };
             foreach (var figurine in equipe.Faction.Models)
             {
 

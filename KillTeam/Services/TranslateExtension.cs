@@ -12,7 +12,7 @@ namespace KillTeam.Services
     [ContentProperty("Text")]
     public class TranslateExtension : IMarkupExtension
     {
-        const string ResourceId = "KillTeam.Resx.Translate";
+        const string ResourceId = "KillTeam.Properties.Resources";
 
         static readonly Lazy<ResourceManager> ResMgr = new Lazy<ResourceManager>(() => new ResourceManager(ResourceId, IntrospectionExtensions.GetTypeInfo(typeof(TranslateExtension)).Assembly));
 
@@ -32,15 +32,14 @@ namespace KillTeam.Services
                 {
                     ResMgr.Value.GetString("AddEquipeButton", Ci);
                 }
-                catch (MissingManifestResourceException  ex)
+                catch (MissingManifestResourceException)
                 {
-                    Crashes.TrackError(ex);
-                    Ci = DependencyService.Get<ILocalize>().GetDefaultCultureInfo(); ;
+                    Microsoft.AppCenter.Analytics.Analytics.TrackEvent($"Attempt to use an unsupported language : {Ci}");
+                    Ci = DependencyService.Get<ILocalize>().GetDefaultCultureInfo();
                 }
-                Resx.Translate.Culture = Ci;
+
+                CultureInfo.CurrentUICulture = Ci;
             }
-            /*IServiceProvider serviceProvider;
-            ProvideValue(serviceProvider);*/
         }
 
         public object ProvideValue(IServiceProvider serviceProvider)
@@ -53,7 +52,7 @@ namespace KillTeam.Services
             {
 #if DEBUG
                 throw new ArgumentException(
-                    string.Format("Key '{0}' was not found in resources '{1}' for culture '{2}'.", Text, ResourceId, Ci.Name),
+                    $"Key '{Text}' was not found in resources '{ResourceId}' for culture '{Ci.Name}'.",
                     "Text");
 #else
 				translation = Text; // HACK: returns the key, which GETS DISPLAYED TO THE USER

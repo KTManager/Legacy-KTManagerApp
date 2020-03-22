@@ -1,0 +1,123 @@
+[
+    {
+        "Id": "SOF",
+        "ModelId": "BAS",
+        "NameEn": "Shield of Faith",
+        "NameFr": "Shield of Faith",
+        "NameDe": "Shield of Faith",
+        "DescriptionEn": "Models with this ability have a 6+ invulnerable save. In addition, models with this ability can attempt to deny one psychic power in each Psychic phase in the same manner as a Psyker. When making this attempt, roll one D6 instead of 2D6; the psychic power is resisted if the roll is greater than the result of the Psychic test that manifested the power.",
+        "DescriptionFr": "Models with this ability have a 6+ invulnerable save. In addition, models with this ability can attempt to deny one psychic power in each Psychic phase in the same manner as a Psyker. When making this attempt, roll one D6 instead of 2D6; the psychic power is resisted if the roll is greater than the result of the Psychic test that manifested the power.",
+        "DescriptionDe": "Models with this ability have a 6+ invulnerable save. In addition, models with this ability can attempt to deny one psychic power in each Psychic phase in the same manner as a Psyker. When making this attempt, roll one D6 instead of 2D6; the psychic power is resisted if the roll is greater than the result of the Psychic test that manifested the power.",
+        "Details": []
+    },
+    {
+        "Id": "SOFR",
+        "ModelId": "SISR",
+        "NameEn": "Shield of Faith",
+        "NameFr": "Shield of Faith",
+        "NameDe": "Shield of Faith",
+        "DescriptionEn": "Models with this ability have a 6+ invulnerable save. In addition, models with this ability can attempt to deny one psychic power in each Psychic phase in the same manner as a Psyker. When making this attempt, roll one D6 instead of 2D6; the psychic power is resisted if the roll is greater than the result of the Psychic test that manifested the power.",
+        "DescriptionFr": "Models with this ability have a 6+ invulnerable save. In addition, models with this ability can attempt to deny one psychic power in each Psychic phase in the same manner as a Psyker. When making this attempt, roll one D6 instead of 2D6; the psychic power is resisted if the roll is greater than the result of the Psychic test that manifested the power.",
+        "DescriptionDe": "Models with this ability have a 6+ invulnerable save. In addition, models with this ability can attempt to deny one psychic power in each Psychic phase in the same manner as a Psyker. When making this attempt, roll one D6 instead of 2D6; the psychic power is resisted if the roll is greater than the result of the Psychic test that manifested the power.",
+        "Details": []
+    },
+    {
+        "Id": "SOFC",
+        "ModelId": "CANO",
+        "NameEn": "Shield of Faith",
+        "NameFr": "Shield of Faith",
+        "NameDe": "Shield of Faith",
+        "DescriptionEn": "Models with this ability have a 6+ invulnerable save. In addition, models with this ability can attempt to deny one psychic power in each Psychic phase in the same manner as a Psyker. When making this attempt, roll one D6 instead of 2D6; the psychic power is resisted if the roll is greater than the result of the Psychic test that manifested the power.",
+        "DescriptionFr": "Models with this ability have a 6+ invulnerable save. In addition, models with this ability can attempt to deny one psychic power in each Psychic phase in the same manner as a Psyker. When making this attempt, roll one D6 instead of 2D6; the psychic power is resisted if the roll is greater than the result of the Psychic test that manifested the power.",
+        "DescriptionDe": "Models with this ability have a 6+ invulnerable save. In addition, models with this ability can attempt to deny one psychic power in each Psychic phase in the same manner as a Psyker. When making this attempt, roll one D6 instead of 2D6; the psychic power is resisted if the roll is greater than the result of the Psychic test that manifested the power.",
+        "Details": []
+    },
+    {
+        "Id": "SRZ",
+        "ModelId": "SISR",
+        "NameEn": "Zealot",
+        "NameFr": "Zealot",
+        "NameDe": "Zealot",
+        "DescriptionEn": "You can re-roll hit rolls for attacks made with melee weapons by a model with this ability in any battle round in which it charged or was charged",
+        "DescriptionFr": "You can re-roll hit rolls for attacks made with melee weapons by a model with this ability in any battle round in which it charged or was charged",
+        "DescriptionDe": "You can re-roll hit rolls for attacks made with melee weapons by a model with this ability in any battle round in which it charged or was charged",
+        "Details":[] 
+    },
+    {
+        "Id": "SOLA",
+        "ModelId": "SISR",
+        "NameEn": "Solace in Anguish",
+        "NameFr": "Solace in Anguish",
+        "NameDe": "Solace in Anguish",
+        "DescriptionEn": "Each time a model with this ability loses a wound, roll a D6; on a 5+ the model does not lose that wound.",
+        "DescriptionFr": "Each time a model with this ability loses a wound, roll a D6; on a 5+ the model does not lose that wound.",
+        "DescriptionDe": "Each time a model with this ability loses a wound, roll a D6; on a 5+ the model does not lose that wound.",
+        "Details":[] 
+    },
+    {
+        "Id": "AFZ",
+        "ModelId": "ARCOF",
+        "NameEn": "Zealot",
+        "NameFr": "Zealot",
+        "NameDe": "Zealot",
+        "DescriptionEn": "You can re-roll hit rolls for attacks made with melee weapons by a model with this ability in any battle round in which it charged or was charged",
+        "DescriptionFr": "You can re-roll hit rolls for attacks made with melee weapons by a model with this ability in any battle round in which it charged or was charged",
+        "DescriptionDe": "You can re-roll hit rolls for attacks made with melee weapons by a model with this ability in any battle round in which it charged or was charged",
+        "Details":[] 
+    },
+    {
+        "Id": "BKM",
+        "ModelId": "ARCOF",
+        "NameEn": "Berzerk Killing Machine",
+        "NameFr": "Berzerk Killing Machine",
+        "NameDe": "Berzerk Killing Machine",
+        "DescriptionEn": "Each time a model with this ability loses a wound, roll a D6; on a 5+ the model does not lose that wound",
+        "DescriptionFr": "Each time a model with this ability loses a wound, roll a D6; on a 5+ the model does not lose that wound",
+        "DescriptionDe": "Each time a model with this ability loses a wound, roll a D6; on a 5+ the model does not lose that wound",
+        "Details": []
+    },
+    {
+        "Id": "ROS",
+        "ModelId": "CANO",
+        "NameEn": "Rosarius",
+        "NameFr": "Rosarius",
+        "NameDe": "Rosarius",
+        "DescriptionEn": "This model has a 4+ invulnerable save.",
+        "DescriptionFr": "This model has a 4+ invulnerable save.",
+        "DescriptionDe": "This model has a 4+ invulnerable save.",
+        "Details": []
+    },
+    {
+        "Id": "BRAZ",
+        "ModelId": "CANO",
+        "NameEn": "Brazier of Holy Fire",
+        "NameFr": "Brazier of Holy Fire",
+        "NameDe": "Brazier of Holy Fire",
+        "DescriptionEn": "Subtract 1 from the Leadership characteristic of DAEMON models whilst they are within 6\" of any models equipped with a brazier of holy fire. In addition, once per battle, when a model equipped with a brazier of holy fire shoots or fires Overwatch, that model can instead unleash holy fire. When it does, select one enemy model that is within 12\" of this model and visible to it (if firing Overwatch, this must be the charging model) and up to 2 other enemy models that are within 2\" of that model and visible to the shooting model. Each selected enemy models suffers 1 mortal wound (if the model is a DAEMON it instead suffers 2 mortal wounds).",
+        "DescriptionFr": "Subtract 1 from the Leadership characteristic of DAEMON models whilst they are within 6\" of any models equipped with a brazier of holy fire. In addition, once per battle, when a model equipped with a brazier of holy fire shoots or fires Overwatch, that model can instead unleash holy fire. When it does, select one enemy model that is within 12\" of this model and visible to it (if firing Overwatch, this must be the charging model) and up to 2 other enemy models that are within 2\" of that model and visible to the shooting model. Each selected enemy models suffers 1 mortal wound (if the model is a DAEMON it instead suffers 2 mortal wounds).",
+        "DescriptionDe": "Subtract 1 from the Leadership characteristic of DAEMON models whilst they are within 6\" of any models equipped with a brazier of holy fire. In addition, once per battle, when a model equipped with a brazier of holy fire shoots or fires Overwatch, that model can instead unleash holy fire. When it does, select one enemy model that is within 12\" of this model and visible to it (if firing Overwatch, this must be the charging model) and up to 2 other enemy models that are within 2\" of that model and visible to the shooting model. Each selected enemy models suffers 1 mortal wound (if the model is a DAEMON it instead suffers 2 mortal wounds).",
+        "Details": []
+    },
+    {
+        "Id": "NULR",
+        "ModelId": "CANO",
+        "NameEn": "Null Rod",
+        "NameFr": "Null Rod",
+        "NameDe": "Null Rod",
+        "DescriptionEn": "If this model has a null rod, it cannot be targeted or affected by psychic powers. In addition, whilst any models from you kill team that are equipped with a null rod are within 18\" of a PSYKER, subtract 1 from Psychic tests and Deny the Witch tests taken for that model.",
+        "DescriptionFr": "If this model has a null rod, it cannot be targeted or affected by psychic powers. In addition, whilst any models from you kill team that are equipped with a null rod are within 18\" of a PSYKER, subtract 1 from Psychic tests and Deny the Witch tests taken for that model.",
+        "DescriptionDe": "If this model has a null rod, it cannot be targeted or affected by psychic powers. In addition, whilst any models from you kill team that are equipped with a null rod are within 18\" of a PSYKER, subtract 1 from Psychic tests and Deny the Witch tests taken for that model.",
+        "Details": []
+    },
+    {
+        "Id": "RODO",
+        "ModelId": "CANO",
+        "NameEn": "Rod of Office",
+        "NameFr": "Rod of Office",
+        "NameDe": "Rod of Office",
+        "DescriptionEn": "If this model has a rod of office, add 3\" to the range of its aura abilities.",
+        "DescriptionFr": "If this model has a rod of office, add 3\" to the range of its aura abilities.",
+        "DescriptionDe": "If this model has a rod of office, add 3\" to the range of its aura abilities.",
+        "Details": []
+    }
+]

@@ -24,6 +24,7 @@ namespace KillTeam
         public KTApp()
         {
             InitializeComponent();
+            VersionTracking.Track();
             Syncfusion.Licensing.SyncfusionLicenseProvider.RegisterLicense(SYNCFUSION_LICENSE);
             if (Xamarin.Forms.Application.Current.Properties.ContainsKey("Language"))
             {

@@ -2,14 +2,16 @@
 using KillTeam.Services;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 
 namespace KillTeam.Migrations
 {
     [DbContext(typeof(KTUserContext))]
-    partial class KTUserContextModelSnapshot : ModelSnapshot
+    [Migration("20200320023315_AddAppVersion")]
+    partial class AddAppVersion
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder

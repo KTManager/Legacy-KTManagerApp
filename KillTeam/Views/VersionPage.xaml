@@ -8,12 +8,13 @@
              x:Class="KillTeam.Views.VersionPage">
     <ContentPage.Content>
         <StackLayout>
-            <StackLayout
-              VerticalOptions="CenterAndExpand"
-              HorizontalOptions="FillAndExpand">
-                <Label Text="{Binding AppVersion}" HorizontalTextAlignment="Center" />
-                <Label Text="{Binding RulesVersion}" HorizontalTextAlignment="Center"/>
-            </StackLayout>
+            <ListView ItemsSource="{Binding VersionList}" VerticalOptions="CenterAndExpand" HorizontalOptions="CenterAndExpand">
+                <ListView.ItemTemplate>
+                    <DataTemplate>
+                        <TextCell Text="{Binding Title}" Detail="{Binding Detail}" />
+                    </DataTemplate>
+                </ListView.ItemTemplate>
+            </ListView>
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>

@@ -1,0 +1,125 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="KillTeam.Views.TeamView"
+             xmlns:i18N="clr-namespace:KillTeam.Services;assembly=KillTeam"
+             xmlns:syncfusion="clr-namespace:Syncfusion.ListView.XForms;assembly=Syncfusion.SfListView.XForms"
+             xmlns:behaviors="clr-namespace:KillTeam.Behaviors;assembly=KillTeam"
+             Title="{Binding Title}"
+             x:Name="CpTeam">
+    <StackLayout Padding="10">
+        <Entry Placeholder="{i18N:Translate Nom}" 
+               Text="{Binding Item.Name}"
+               ReturnType="Done" 
+               IsSpellCheckEnabled="false" 
+               IsTextPredictionEnabled="false"
+               ReturnCommand="{Binding EditName}">
+        </Entry>
+
+        <StackLayout Orientation="Horizontal" VerticalOptions="Start">
+            <Label Text="{Binding Item.Faction}" />
+            <Label HorizontalOptions="EndAndExpand" Text="{Binding Item.FormattedCost}" />
+        </StackLayout>
+
+        <StackLayout Orientation="Horizontal" VerticalOptions="Start">
+            <Label Text="{i18N:Translate Roster}"  
+                   LineBreakMode="NoWrap" 
+                   Style="{DynamicResource ListItemTextStyle}" 
+                       FontSize="16" />
+            <Switch IsToggled="{Binding Item.IsRoster}"
+                    IsEnabled="True"
+                    HorizontalOptions="EndAndExpand">
+                <Switch.Behaviors>
+                    <behaviors:SwitchBehavior Command="{Binding EditRoster}" />
+                </Switch.Behaviors>
+            </Switch>
+        </StackLayout>
+        <syncfusion:SfListView  x:Name="MembresListView"
+                                ItemsSource="{Binding Item.Members}"
+                                VerticalOptions="FillAndExpand"
+                                AutoFitMode="Height"
+                                DragStartMode="OnHold"
+                                ItemDragging="MembresListView_ItemDragging"
+                                AllowSwiping="True"
+                                SelectionMode="None">
+            <syncfusion:SfListView.ItemTemplate>
+                <DataTemplate>
+                    <ViewCell>
+                        <Grid Margin="0,0,0,10">
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="*" />
+                                <ColumnDefinition Width="Auto" />
+                            </Grid.ColumnDefinitions>
+                            <StackLayout Padding="5" BindingContext="{Binding}">
+                                <StackLayout.GestureRecognizers>
+                                    <TapGestureRecognizer NumberOfTapsRequired="1"
+                                                          Command="{Binding Source={x:Reference CpTeam}, Path=BindingContext.OpenMember}" CommandParameter="{Binding .}" />
+                                </StackLayout.GestureRecognizers>
+                                <StackLayout Orientation="Horizontal"
+                                             VerticalOptions="Start">
+                                    <Label Text="{Binding Name}"                                        
+                                           FontSize="Medium" />
+                                    <Label Text="{Binding Cost}" 
+                                           FontSize="Medium" 
+                                           HorizontalOptions="EndAndExpand" />
+                                </StackLayout>
+                                <Label Text="{Binding ShortWeaponLevel}"                                        
+                                           FontSize="Small" />
+                            </StackLayout>
+                            <Switch Toggled="SelectedSwitchToggled" 
+                                    IsToggled="{Binding IsSelected}" Grid.Column="1" 
+                                    IsVisible="{Binding Source={x:Reference CpTeam}, Path=BindingContext.Item.IsRoster}"></Switch>
+                        </Grid>
+                    </ViewCell>
+                </DataTemplate>
+            </syncfusion:SfListView.ItemTemplate>
+            <syncfusion:SfListView.LeftSwipeTemplate>
+                <DataTemplate x:Name="LeftSwipeTemplate">
+                    <Grid BindingContext="{Binding}">
+                        <Grid.GestureRecognizers>
+                            <TapGestureRecognizer NumberOfTapsRequired="1"
+                                                  Command="{Binding Source={x:Reference CpTeam}, Path=BindingContext.DeleteMember}" CommandParameter="{Binding .}" />
+                        </Grid.GestureRecognizers>
+                        <Grid BackgroundColor="LightGray" HorizontalOptions="Fill" VerticalOptions="Fill" Grid.Column="0">
+                            <Grid VerticalOptions="Center" HorizontalOptions="Center">
+                                <Image Grid.Column="0"
+                                        Grid.Row="0"
+                                        BackgroundColor="Transparent"
+                                        HeightRequest="35"
+                                        WidthRequest="35"
+                                        Source="delete.png" />
+                            </Grid>
+                        </Grid>
+                    </Grid>
+                </DataTemplate>
+            </syncfusion:SfListView.LeftSwipeTemplate>
+            <syncfusion:SfListView.RightSwipeTemplate>
+                <DataTemplate x:Name="RightSwipeTemplate">
+                    <Grid BindingContext="{Binding}">
+                        <Grid.GestureRecognizers>
+                            <TapGestureRecognizer NumberOfTapsRequired="1"
+                                                  Command="{Binding Source={x:Reference CpTeam}, Path=BindingContext.DeleteMember}" CommandParameter="{Binding .}" />
+                        </Grid.GestureRecognizers>
+                        <Grid BackgroundColor="LightGray" HorizontalOptions="Fill" VerticalOptions="Fill" Grid.Column="0">
+                            <Grid VerticalOptions="Center" HorizontalOptions="Center">
+                                <Image Grid.Column="0"
+                                        Grid.Row="0"
+                                        BackgroundColor="Transparent"
+                                        HeightRequest="35"
+                                        WidthRequest="35"
+                                        Source="delete.png" />
+                            </Grid>
+                        </Grid>
+                    </Grid>
+                </DataTemplate>
+            </syncfusion:SfListView.RightSwipeTemplate>
+        </syncfusion:SfListView>
+
+        <Button Text="{i18N:Translate AddMembreButton}"
+                VerticalOptions="End"
+                Command="{Binding AddMember}" />
+        <Button Text="{i18N:Translate Supprimer}"
+                VerticalOptions="End"
+                Clicked="Button_OnClicked" />
+    </StackLayout>
+</ContentPage>

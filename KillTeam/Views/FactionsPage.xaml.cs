@@ -53,7 +53,7 @@ namespace KillTeam.Views
             KTContext.Db.Entry(equipe).State = EntityState.Added;
             await KTContext.Db.SaveChangesAsync();
             
-            Page page = new EquipePage(equipe.Id);
+            Page page = new TeamView(equipe.Id);
             var _ = Navigation.PopModalAsync();
             await Application.Current.MainPage.Navigation.PushAsync(page);
 

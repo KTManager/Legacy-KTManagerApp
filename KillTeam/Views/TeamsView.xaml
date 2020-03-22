@@ -15,13 +15,6 @@
                                 DragStartMode="OnHold"
                                 AllowSwiping="True"
                                 SelectionMode="None">
-            <syncfusion:SfListView.DataSource>
-                <data:DataSource>
-                    <data:DataSource.SortDescriptors>
-                        <data:SortDescriptor PropertyName="Position" Direction="Ascending"/>
-                    </data:DataSource.SortDescriptors>
-                </data:DataSource>
-            </syncfusion:SfListView.DataSource>
             <syncfusion:SfListView.ItemTemplate>
                 <DataTemplate x:DataType="{x:Type viewModels:TeamsTeamViewModel}">
                     <ViewCell>

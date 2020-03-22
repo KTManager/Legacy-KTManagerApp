@@ -8,8 +8,6 @@
 
         public int Cost { get; set; }
 
-        public int Position { get; set; }
-
         public string FactionAndMembersCount { get; set; }
 
         public TeamsTeamViewModel(string id, string name, int cost, string factionAndMembersCount)

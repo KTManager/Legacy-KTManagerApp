@@ -82,7 +82,7 @@ namespace KillTeam.CoreTests
             File.WriteAllText(Path.Combine(rulesDir, "weapons.json"), JsonConvert.SerializeObject(weapons));
 
             // import the rules from file into the db
-            this.udb.ImportRules(new FileRulesProvider(rulesDir), "Test");
+            this.udb.ImportRules(new FileRulesProvider(rulesDir));
 
             // pull them out and check that they imported correctly
             var version = udb.GetCurrentVersion();
@@ -102,7 +102,7 @@ namespace KillTeam.CoreTests
         public void TestUserAndRules()
         {
             udb.Database.CloseConnection();
-            udb = new DBUpdater(udb.DBPath, KTContext.Provider).GetUpdatedContext("Test");
+            udb = new DBUpdater(udb.DBPath, KTContext.Provider).GetUpdatedContext();
             udb.Teams.Add(new Models.Team { FactionId = "AA", Name = "Test Team" });
             udb.SaveChanges();
 

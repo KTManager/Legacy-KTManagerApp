@@ -7,7 +7,6 @@ using System.IO;
 using System.Linq;
 using Microsoft.AppCenter.Crashes;
 using Xamarin.Forms;
-using Xamarin.Essentials;
 
 namespace KillTeam.Services
 {
@@ -20,7 +19,7 @@ namespace KillTeam.Services
 
         static KTContext()
         {
-            _Db = new Lazy<KTUserContext>(() => new DBUpdater(DBPath, Provider, UpdateEvent).GetUpdatedContext(VersionTracking.CurrentVersion));
+            _Db = new Lazy<KTUserContext>(() => new DBUpdater(DBPath, Provider, UpdateEvent).GetUpdatedContext());
             Debug.WriteLine("Successfully created the global db");
         }
 

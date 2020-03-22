@@ -577,8 +577,6 @@ namespace KillTeam.Migrations
                     b.Property<int>("Id")
                         .ValueGeneratedOnAdd();
 
-                    b.Property<string>("AppVersion");
-
                     b.Property<string>("RulesVersion");
 
                     b.HasKey("Id");
@@ -790,7 +788,7 @@ namespace KillTeam.Migrations
                         .WithMany("MemberWarGearOptions")
                         .HasForeignKey("WarGearOptionId");
 
-                    b.HasOne("KillTeam.Models.Weapon")
+                    b.HasOne("KillTeam.Models.Weapon", "Weapon")
                         .WithMany("WarGearOptions")
                         .HasForeignKey("WeaponId");
                 });

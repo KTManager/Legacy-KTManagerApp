@@ -12,6 +12,6 @@ namespace KillTeam.Models
 
         public string RulesVersion { get; set; }
 
-        public string AppVersion { get; set; }
+        //TODO: public string AppVersion { get; set; }
     }
 }

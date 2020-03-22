@@ -299,8 +299,8 @@
     <Compile Update="Views\ListTactiquePage.xaml.cs">
       <DependentUpon>ListTactiquePage.xaml</DependentUpon>
     </Compile>
-    <Compile Update="Views\ListEquipesPage.xaml.cs">
-      <DependentUpon>ListEquipesPage.xaml</DependentUpon>
+    <Compile Update="Views\TeamsView.xaml.cs">
+      <DependentUpon>TeamsView.xaml</DependentUpon>
     </Compile>
     <Compile Update="Views\ListDeclinaisonPage.xaml.cs">
       <DependentUpon>ListDeclinaisonPage.xaml</DependentUpon>
@@ -363,7 +363,7 @@
     <EmbeddedResource Update="Views\ListConfigsArmes.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
-    <EmbeddedResource Update="Views\ListEquipesPage.xaml">
+    <EmbeddedResource Update="Views\TeamsView.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
     <EmbeddedResource Update="Views\ListDeclinaisonPage.xaml">

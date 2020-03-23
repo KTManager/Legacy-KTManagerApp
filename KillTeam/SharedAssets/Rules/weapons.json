@@ -11785,7 +11785,7 @@
             "Range": 48,
             "ShotNumber": "2",
             "Strength": "7",
-            "WeaponType": "L"
+            "WeaponTypeId": "L"
          }
       ]
    },

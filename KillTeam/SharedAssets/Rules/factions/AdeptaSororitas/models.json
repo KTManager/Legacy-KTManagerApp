@@ -176,6 +176,9 @@
                 ],
                 "Specialists": [
                 {
+                    "SpecialistId": "L"
+                },
+                {
                     "SpecialistId": "CO"
                 },
                 {
@@ -192,9 +195,6 @@
                 },
                 {
                     "SpecialistId": "Z"
-                },
-                {
-                    "SpecialistId": "AL"
                 }
                 ],
                 "ModelProfileWeapons": [

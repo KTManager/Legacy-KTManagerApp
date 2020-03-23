@@ -62,6 +62,18 @@ namespace KillTeam.Controllers
             ToolbarItems = toolbarItems;
             ToolbarItems.Add(new ToolbarItem
             {
+                Text = Properties.Resources.PDF,
+                Order = ToolbarItemOrder.Secondary,
+                Command = new Command(async () => await PdfExecuted())
+            });
+            ToolbarItems.Add(new ToolbarItem
+            {
+                Text = Properties.Resources.InGame,
+                Order = ToolbarItemOrder.Secondary,
+                Command = new Command(async () => await InGameExecuted())
+            });
+            ToolbarItems.Add(new ToolbarItem
+            {
                 Text = Properties.Resources.Tactiques,
                 Order = ToolbarItemOrder.Secondary,
                 Command = new Command(async () => await TacticsExecuted())
@@ -190,6 +202,16 @@ namespace KillTeam.Controllers
                 Text = $"{team.GetSummary()}\n{Properties.Resources.PartageDepuis}",
                 Url = "https://www.facebook.com/KillTeamManager"
             });
+        }
+
+        private async Task PdfExecuted()
+        {
+            await KTApp.Navigation.PushAsync(new Views.ChoixImpression(Item.Id));
+        }
+
+        private async Task InGameExecuted()
+        {
+            await KTApp.Navigation.PushAsync(new Views.InGamePage(Item.Id));
         }
 
         private async Task TacticsExecuted()

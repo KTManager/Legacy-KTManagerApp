@@ -13,7 +13,6 @@ namespace KillTeam.Droid
             //Ensure the device is running Android Froyo or higher because UIMode was added in Android Froyo, API 8.0
             if(Build.VERSION.SdkInt >= BuildVersionCodes.Froyo)
             {
-                return Theme.Dark;
                 var uiModelFlags = CrossCurrentActivity.Current.AppContext.Resources.Configuration.UiMode & UiMode.NightMask;
 
                 switch(uiModelFlags)

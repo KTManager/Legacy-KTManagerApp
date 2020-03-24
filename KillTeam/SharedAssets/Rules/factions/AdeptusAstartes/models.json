@@ -932,7 +932,11 @@
             "Leadership": 7,
             "LevelCosts": [ ],
             "MaximumNumber": 0,
-            "ModelProfileWeapons": [ ],
+            "ModelProfileWeapons": [
+               {
+                  "WeaponId": "BSNR"
+               }
+            ],
             "Movement": 6,
             "NameDe": "Eliminator",
             "NameEn": "Eliminator",
@@ -960,7 +964,12 @@
             ],
             "Strength": 4,
             "Toughness": 4,
-            "WarGearOptions": [ ],
+            "WarGearOptions": [
+               {
+                  "MaximumPerTeam": 0,
+                  "Operation": "BSNR:LAF"
+               }
+            ],
             "WeaponSkill": 3,
             "Wounds": 2
          },
@@ -974,7 +983,11 @@
             "Leadership": 8,
             "LevelCosts": [ ],
             "MaximumNumber": 1,
-            "ModelProfileWeapons": [ ],
+            "ModelProfileWeapons": [
+               {
+                  "WeaponId": "BSNR"
+               }
+            ],
             "Movement": 6,
             "NameDe": "Eliminator Sergeant",
             "NameEn": "Eliminator Sergeant",
@@ -1005,15 +1018,17 @@
             ],
             "Strength": 4,
             "Toughness": 4,
-            "WarGearOptions": [ ],
+            "WarGearOptions": [
+               {
+                  "MaximumPerTeam": 0,
+                  "Operation": "BSNR:IBC|LAF"
+               }
+            ],
             "WeaponSkill": 3,
             "Wounds": 2
          }
       ],
       "ModelWeapons": [
-         {
-            "WeaponId": "BSNR"
-         },
          {
             "WeaponId": "GF"
          },
@@ -1175,7 +1190,7 @@
                   "Exclusion": "AAI3",
                   "Id": "14",
                   "MaximumPerTeam": 0,
-                  "Operation": "EPE|EPT"
+                  "Operation": "EPE|EPT|THA|GEN"
                },
                {
                   "Exclusion": "AAI3",
@@ -1211,12 +1226,6 @@
             "Id": "12",
             "MaximumPerTeam": 0,
             "Operation": "FBO:FBA|FBS"
-         },
-         {
-            "Exclusion": null,
-            "Id": "149",
-            "MaximumPerTeam": 1,
-            "Operation": "AUS"
          }
       ]
    },
@@ -2150,7 +2159,7 @@
                   "Exclusion": null,
                   "Id": "7",
                   "MaximumPerTeam": 0,
-                  "Operation": "PB&BO:(PB|BO|PP|PG)&(EPT|EPE|GEN|AUS)"
+                  "Operation": "PB&BO:(PB|BO|PP|PG)&(EPT|EPE|GEN)"
                }
             ],
             "WeaponSkill": 3,
@@ -2291,6 +2300,11 @@
                   "Id": "391",
                   "MaximumPerTeam": 0,
                   "Operation": "PB&EPT:LCL2"
+               },
+               {
+                  "Exclusion": null,
+                  "MaximumPerTeam": 0,
+                  "Operation": "JPKSW"
                }
             ],
             "WeaponSkill": 3,
@@ -2945,6 +2959,11 @@
                   "Id": "274",
                   "MaximumPerTeam": 1,
                   "Operation": "MEBO"
+               },
+               {
+                  "Exclusion": null,
+                  "MaximumPerTeam": 0,
+                  "Operation": "JP"
                }
             ],
             "WeaponSkill": 3,

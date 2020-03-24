@@ -1422,33 +1422,33 @@
       "NameFr": "Fusil bolter de sniper",
       "WeaponProfiles": [
          {
-            "ArmourPenetration": "-2",
-            "Damages": "D3",
-            "DescriptionDe": "Bei einem Verwundungswurf von 6+ für diese Waffe verursacht sie eine tödliche Verwundung zusätzlich zum normalen Schaden.",
-            "DescriptionEn": "If you make a wound roll of 6+ for this weapon, it inflicts a mortal wound in addition to its normal damage.",
-            "DescriptionFr": "Si vous obtenez un jet de blessure de 6+ avec cette arme, elle inflige une blessure mortelle en plus des dégâts normaux",
+            "ArmourPenetration": "-1",
+            "Damages": "1",
+            "DescriptionDe": "Addiere 2 auf Trefferwürfe für diese Waffe. Zusätzlich kann diese Waffe Modelle als Ziel wählen, die für den Träger  nicht sichtbar sind. Ist das Ziel für den Träger nicht sichtbar, ist eine 6 für einen erfolgreichen Trefferwurf nötig unabhängig von der Ballistischen Fertigkeit des Trägers oder anderen Modifikatoren.",
+            "DescriptionEn": "Add 2 to hit rolls made for this weapon. In addition, this weapon can target models that are not visible to the bearer. If the target is not visible to the bearer, a 6 is required for a successful hit roll, irrespective of the firing model’s Ballistic Skill or any modifiers.",
+            "DescriptionFr": "Ajoutez 2 aux jets de touche de cette arme. Cette arme peut viser des cibles invisibles du tireur.  Dans ce cas, le jet de touche nécessaire est 6., quels que soient la CT du tireur et les modificateurs",
             "Id": "BSNR",
             "NameDe": "Henkergeschoss",
             "NameEn": "Executioner round",
             "NameFr": "Munitions Exécutrices",
             "Range": 36,
             "ShotNumber": "1",
-            "Strength": "4",
+            "Strength": "5",
             "WeaponTypeId": "L"
          },
          {
-            "ArmourPenetration": "-1",
-            "Damages": "1",
-            "DescriptionDe": "Addiere 2 auf Trefferwürfe für diese Waffe. Zusätzlich kann diese Waffe Modelle als Ziel wählen, die für den Träger  nicht sichtbar sind. Ist das Ziel für den Träger nicht sichtbar, ist eine 6 für einen erfolgreichen Trefferwurf nötig unabhängig von der Ballistischen Fertigkeit des Trägers oder anderen Modifikatoren.",
-            "DescriptionEn": "Add 2 to hit rolls made for this weapon. In addition, this weapon can target models that are not visible to the bearer. If the target is not visible to the bearer, a 6 is required for a successful hit roll, irrespective of the firing model’s Ballistic Skill or any modifiers.",
-            "DescriptionFr": "Ajoutez 2 aux jets de touche de cette arme. Cette arme peut viser des cibles invisibles du tireur.  Dans ce cas, le jet de touche nécessaire est 6., quels que soient la CT du tireur et les modificateurs",
+            "ArmourPenetration": "-2",
+            "Damages": "D3",
+            "DescriptionDe": "Bei einem Verwundungswurf von 6+ für diese Waffe verursacht sie eine tödliche Verwundung zusätzlich zum normalen Schaden.",
+            "DescriptionEn": "If you make a wound roll of 6+ for this weapon, it inflicts a mortal wound in addition to its normal damage.",
+            "DescriptionFr": "Si vous obtenez un jet de blessure de 6+ avec cette arme, elle inflige une blessure mortelle en plus des dégâts normaux",
             "Id": "BSNR1",
             "NameDe": "Mortis-Geschoss",
             "NameEn": "Mortis round",
             "NameFr": "Munitions Mortis",
             "Range": 36,
             "ShotNumber": "1",
-            "Strength": "4",
+            "Strength": "5",
             "WeaponTypeId": "L"
          },
          {
@@ -1463,7 +1463,7 @@
             "NameFr": "Munitions Hyperfrag",
             "Range": 36,
             "ShotNumber": "D3",
-            "Strength": "4",
+            "Strength": "5",
             "WeaponTypeId": "L"
          }
       ]
@@ -6855,6 +6855,17 @@
       "WeaponProfiles": [ ]
    },
    {
+      "Cost": 6,
+      "DescriptionDe": "Der Bewegungswert dieses Modells wird auf 12'' erhöht und es erhält die Schlüsselwörter SPRUNGMODUL und FLIEGEN.",
+      "DescriptionEn": "Move characteristic is increased to 12\" and gain the JUMP PACK and FLY keywords.",
+      "DescriptionFr": "Son Mouvement passe à 12\" et il gagne les mots-clés RÉACTEUR DORSAL et VOL",
+      "Id": "JPKSW",
+      "NameDe": "Sprungmodul (SPACE WOLVES only)",
+      "NameEn": "Jump pack (SPACE WOLVES only)",
+      "NameFr": "Réacteur dorsal (SPACE WOLVES only)",
+      "WeaponProfiles": [ ]
+   },
+   {
       "Cost": 0,
       "DescriptionDe": "",
       "DescriptionEn": "",
@@ -8352,6 +8363,60 @@
             "Range": 30,
             "ShotNumber": "1",
             "Strength": "4",
+            "WeaponTypeId": "L"
+         }
+      ]
+   },
+   {
+      "Cost": 0,
+      "DescriptionDe": "",
+      "DescriptionEn": "",
+      "DescriptionFr": "",
+      "Id": "IBC",
+      "NameDe": "Anstifter-Boltkarabiner",
+      "NameEn": "Instigator bolt carbine",
+      "NameFr": "Carabine bolter Instigator",
+      "WeaponProfiles": [
+         {
+            "ArmourPenetration": "-1",
+            "Damages": "2",
+            "DescriptionDe": "",
+            "DescriptionEn": "",
+            "DescriptionFr": "",
+            "Id": "IBC",
+            "NameDe": "Meisterhafter Anstifter-Boltkarabiner",
+            "NameEn": "Instigator bolt carabine",
+            "NameFr": "Carabine bolter Instigator de maître",
+            "Range": 24,
+            "ShotNumber": "1",
+            "Strength": "4",
+            "WeaponTypeId": "A"
+         }
+      ]
+   },
+   {
+      "Cost": 5,
+      "DescriptionDe": "",
+      "DescriptionEn": "",
+      "DescriptionFr": "",
+      "Id": "LAF",
+      "NameDe": "Las fusil",
+      "NameEn": "Las fusil",
+      "NameFr": "Las fusil",
+      "WeaponProfiles": [
+         {
+            "ArmourPenetration": "-3",
+            "Damages": "3",
+            "DescriptionDe": "",
+            "DescriptionEn": "",
+            "DescriptionFr": "",
+            "Id": "LAF",
+            "NameDe": "Las fusil",
+            "NameEn": "Las fusil",
+            "NameFr": "Las fusil",
+            "Range": 36,
+            "ShotNumber": "1",
+            "Strength": "8",
             "WeaponTypeId": "L"
          }
       ]

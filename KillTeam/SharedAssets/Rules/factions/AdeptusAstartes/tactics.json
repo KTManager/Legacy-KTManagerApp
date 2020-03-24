@@ -398,5 +398,21 @@
     "DescriptionDe": "Setze diese Taktik am Ende der Bewegungsphase ein. Wähle bis zu drei TERMINATOR-Modelle deines Kill Teams, die in der Reserve aufgestellt wurden, und stelle sie irgendwo auf dem Schlachtfeld auf, wo sie weiter als 5'' von feindlichen Modellen entfernt sind.",
     "Level": 0,
     "Cost": 1
+  },
+  {
+    "Id": "AAOF",
+    "SpecialistId": null,
+    "ModelProfileId": null,
+    "PhaseId": "2",
+    "Aura": false,
+    "Commander": false,
+    "NameEn": "Outflank",
+    "NameFr": "Déborder",
+    "NameDe": "Umgehen",
+    "DescriptionEn": "Use this Tactic at the end of the Movement phase. Choose a model from your kill team that was set up in Reserve and set them up within 1\" of the edge of the battlefield, and more than 5\" away from any enemy models.",
+    "DescriptionFr": "Use this Tactic at the end of the Movement phase. Choose a model from your kill team that was set up in Reserve and set them up within 1\" of the edge of the battlefield, and more than 5\" away from any enemy models.",
+    "DescriptionDe": "Use this Tactic at the end of the Movement phase. Choose a model from your kill team that was set up in Reserve and set them up within 1\" of the edge of the battlefield, and more than 5\" away from any enemy models.",
+    "Level": 0,
+    "Cost": 1
   }
 ]

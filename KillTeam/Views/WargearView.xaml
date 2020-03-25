@@ -1,0 +1,68 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:viewModels="clr-namespace:KillTeam.ViewModels;assembly=KillTeam"
+             xmlns:converters="clr-namespace:KillTeam.Converters;assembly=KillTeam"
+             x:Class="KillTeam.Views.WargearView">
+    <ContentPage.Resources>
+        <ResourceDictionary>
+            <converters:IntToBoolConverter x:Key="intToBool" />
+        </ResourceDictionary>
+    </ContentPage.Resources>
+
+    <ContentPage.Content>
+        <StackLayout>
+            <ListView ItemsSource="{Binding WargearOptions}"
+                      HorizontalOptions="Fill" VerticalOptions="Start" 
+                      Margin="10">
+                <ListView.Header>
+                    <Label Text="Wargear options" FontSize="Large" Margin="0,8"/>
+                </ListView.Header>
+                <ListView.ItemTemplate>
+                    <DataTemplate x:DataType="{x:Type viewModels:WargearSlotViewModel}">
+                        <ViewCell>
+                            <Grid>
+                                <Grid.ColumnDefinitions>
+                                    <ColumnDefinition Width="Auto"/>
+                                    <ColumnDefinition Width="*"/>
+                                </Grid.ColumnDefinitions>
+
+                                <Label Text="{Binding Name}" 
+                                       HorizontalOptions="Start" VerticalOptions="Center"
+                                       FontSize="Medium" Margin="0,0,8,0" />
+                                <Picker ItemsSource="{Binding Options}" ItemDisplayBinding="{Binding Name}"
+                                        SelectedItem="{Binding SelectedItem}"
+                                        HorizontalOptions="Fill" VerticalOptions="Center"
+                                        Grid.Column="1"/>
+                            </Grid>
+                        </ViewCell>
+                    </DataTemplate>
+                </ListView.ItemTemplate>
+            </ListView>
+
+            <ListView ItemsSource="{Binding MandatoryWargear}"
+                      HorizontalOptions="Fill" VerticalOptions="Fill"
+                      Margin="10">
+                <ListView.Header>
+                    <Label Text="Mandatory wargear" FontSize="Large"/>
+                </ListView.Header>
+                <ListView.ItemTemplate>
+                    <DataTemplate x:DataType="{x:Type viewModels:WargearViewModel}">
+                        <ViewCell>
+                            <Grid>
+                                <Grid.ColumnDefinitions>
+                                    <ColumnDefinition Width="Auto"/>
+                                    <ColumnDefinition Width="*"/>
+                                </Grid.ColumnDefinitions>
+
+                                <Label Text="{Binding Name}" 
+                                       HorizontalOptions="Fill" VerticalOptions="Center"
+                                       FontSize="Medium" />
+                            </Grid>
+                        </ViewCell>
+                    </DataTemplate>
+                </ListView.ItemTemplate>
+            </ListView>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

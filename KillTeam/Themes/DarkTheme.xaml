@@ -3,6 +3,7 @@
                     xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
                     xmlns:syncfusion="clr-namespace:Syncfusion.ListView.XForms;assembly=Syncfusion.SfListView.XForms"
                     xmlns:xForms="clr-namespace:Syncfusion.SfBusyIndicator.XForms;assembly=Syncfusion.SfBusyIndicator.XForms"
+                    xmlns:numeric="clr-namespace:Syncfusion.SfNumericUpDown.XForms;assembly=Syncfusion.SfNumericUpDown.XForms"
                     x:Class="KillTeam.Themes.DarkTheme">
 
     <Color x:Key="PrimaryColor">#e84f0b</Color>
@@ -66,5 +67,15 @@
     <Style x:Key="GridRowEven" TargetType="{x:Type Label}">
         <Setter Property="BackgroundColor" Value="{DynamicResource TertiaryColor}"/>
         <Setter Property="TextColor" Value="{DynamicResource QuaternaryColor}"/>
+    </Style>
+
+    <Style x:Key="GridHeader" TargetType="{x:Type Label}">
+        <Setter Property="BackgroundColor" Value="{DynamicResource QuinaryColor}"/>
+        <Setter Property="TextColor" Value="{DynamicResource SecondaryColor}"/>
+    </Style>
+
+    <Style TargetType="{x:Type numeric:SfNumericUpDown }">
+        <Setter Property="BackgroundColor" Value="{DynamicResource SecondaryColor}"/>
+        <Setter Property="TextColor" Value="{DynamicResource QuinaryColor}"/>
     </Style>
 </ResourceDictionary>

@@ -21,9 +21,14 @@ namespace KillTeam.Controllers
         {
             Items = new ObservableCollection<FactionsViewModel>();
 
-            Selected = new Command(async e => await SelectedExecuted(e as FactionsViewModel));
+            InitializeCommands();
 
             _createTeamCommandHandler = createTeamCommandHandler;
+        }
+
+        private void InitializeCommands()
+        {
+            Selected = new Command(async e => await SelectedExecuted(e as FactionsViewModel));
         }
 
         public async Task Refresh()

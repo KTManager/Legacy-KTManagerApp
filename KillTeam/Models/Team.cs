@@ -185,8 +185,8 @@ namespace KillTeam.Models
         {
             get
             {
-                int count = GetSelectedMembers().Count();
-                return Faction.Name + " - " + count + " " + (count <= 1 ? Properties.Resources.Membre : Properties.Resources.Membres);
+                var count = GetSelectedMembers().Count();
+                return $"{Faction.Name} - {count} {(count <= 1 ? Properties.Resources.Membre : Properties.Resources.Membres)}";
             }
         }
         

@@ -1,5 +1,6 @@
 ﻿using KillTeam.Commands.Handlers;
 using KillTeam.Controllers;
+using KillTeam.Queries.Handlers;
 using Xamarin.Forms.PlatformConfiguration.iOSSpecific;
 using Xamarin.Forms.Xaml;
 
@@ -13,7 +14,11 @@ namespace KillTeam.Views
             InitializeComponent();
             On<Xamarin.Forms.PlatformConfiguration.iOS>().SetUseSafeArea(true);
 
-            BindingContext = new TeamsController(ToolbarItems, new DeleteTeamCommandHandler(), new ReorderTeamsCommandHandler());
+            BindingContext = new TeamsController(
+                ToolbarItems, 
+                new DeleteTeamCommandHandler(), 
+                new ReorderTeamsCommandHandler(),
+                QueryProcessor.Instance());
         }
 
         protected override async void OnAppearing()

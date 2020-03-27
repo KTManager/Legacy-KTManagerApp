@@ -5,7 +5,8 @@ using System.Threading.Tasks;
 using System.Windows.Input;
 using KillTeam.Commands;
 using KillTeam.Commands.Handlers;
-
+using KillTeam.Queries;
+using KillTeam.Queries.Handlers;
 using KillTeam.Services;
 using KillTeam.ViewModels;
 using Microsoft.EntityFrameworkCore;
@@ -23,9 +24,11 @@ namespace KillTeam.Controllers
         public ICommand OpenTeam { get; private set; }
         public ICommand DeleteTeam { get; private set; }
 
-        public TeamsController(IList<ToolbarItem> toolbarItems,
+        public TeamsController(
+            IList<ToolbarItem> toolbarItems,
             IHandleCommands<DeleteTeamCommand> deleteTeamCommandHandler,
-            IHandleCommands<ReorderTeamsCommand> reorderTeamsCommandHandler)
+            IHandleCommands<ReorderTeamsCommand> reorderTeamsCommandHandler,
+            IQueryProcessor queryProcessor)
         {
             Items = new ObservableCollection<TeamsViewModel>();
 
@@ -34,6 +37,7 @@ namespace KillTeam.Controllers
 
             _reorderTeamsCommandHandler = reorderTeamsCommandHandler;
             _deleteTeamCommandHandler = deleteTeamCommandHandler;
+            _queryProcessor = queryProcessor;
         }
 
         public async Task Refresh()
@@ -76,13 +80,10 @@ namespace KillTeam.Controllers
         private async Task UpdateItems()
         {
             Items.Clear();
-            var teams = await KTContext.Db.Teams
-                                    .Include(e => e.Faction)
-                                    .Include(e => e.Members)
-                                    .AsNoTracking()
-                                    .OrderBy(post => post.Position)
-                                    .ToListAsync();
-            teams.ForEach(i => Items.Add(new TeamsViewModel(i.Id, i.Name, i.Cost, i.FactionNameAndMembersCount)));
+
+            var teams = await _queryProcessor.Execute<AllTeamsQuery, List<TeamsViewModel>>(new AllTeamsQuery());
+                            
+            teams.ForEach(t => Items.Add(t));
         }
 
         private void AddTeamExecuted()
@@ -124,5 +125,6 @@ namespace KillTeam.Controllers
 
         private readonly IHandleCommands<ReorderTeamsCommand> _reorderTeamsCommandHandler;
         private readonly IHandleCommands<DeleteTeamCommand> _deleteTeamCommandHandler;
+        private readonly IQueryProcessor _queryProcessor;
     }
 }

@@ -16,10 +16,26 @@ namespace KillTeam.Queries.Handlers
                 .Include(e => e.Members)
                 .AsNoTracking()
                 .OrderBy(post => post.Position)
+                .Select(t => new
+                {
+                    t.Id,
+                    t.Name,
+                    t.Members,
+                    t.Faction,
+                    t.Roster
+                })
                 .ToListAsync();
 
             return teams
-                .Select(t => new TeamsViewModel(t.Id, t.Name, t.Cost, t.FactionNameAndMembersCount))
+                .Select(t =>
+                {
+                    var selectedMembers = t.Members.Where(m => m.Selected || !t.Roster).ToList();
+                    var count = selectedMembers.Count();
+                    var cost = selectedMembers.Sum(m => m.Cost);
+                    var subtitle = $"{t.Faction.Name} - {count} {(count <= 1 ? Properties.Resources.Membre : Properties.Resources.Membres)}";
+                    
+                    return new TeamsViewModel(t.Id, t.Name, cost, subtitle);
+                })
                 .ToList();
         }
     }

@@ -12,7 +12,7 @@
 
     <ContentPage.Content>
         <StackLayout>
-            <ListView ItemsSource="{Binding WargearOptions}"
+            <ListView ItemsSource="{Binding WargearSlots}"
                       HorizontalOptions="Fill" VerticalOptions="Start" 
                       Margin="10">
                 <ListView.Header>

@@ -171,7 +171,7 @@ namespace KillTeam.Views
                 .Include(m => m.MemberWeapons)
                 .ThenInclude(m => m.Weapon)
                 .FirstAsync();
-            await Navigation.PushAsync(new ListConfigsArmes(membreId));
+            await Navigation.PushAsync(new WargearView(membre.ModelProfileId));
         }
 
         async void OnButtonAptitudeCliked(object sender, EventArgs e)

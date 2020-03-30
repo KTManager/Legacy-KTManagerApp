@@ -279,6 +279,7 @@
     <PackageReference Include="Microsoft.EntityFrameworkCore.Sqlite" Version="2.1.3" />
     <PackageReference Include="Newtonsoft.Json" Version="11.0.2" />
     <PackageReference Include="Plugin.Share" Version="7.1.1" />
+    <PackageReference Include="Superpower" Version="2.3.0" />
     <PackageReference Include="Syncfusion.Xamarin.DocIO" Version="16.3.0.21" />
     <PackageReference Include="Syncfusion.Xamarin.DocIORenderer" Version="16.3.0.21" />
     <PackageReference Include="Syncfusion.Xamarin.Pdf" Version="16.3.0.21" />

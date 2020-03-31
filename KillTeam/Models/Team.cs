@@ -179,16 +179,6 @@ namespace KillTeam.Models
                 return liste;
             }
         }
-
-        [JsonIgnore]
-        public string FactionNameAndMembersCount
-        {
-            get
-            {
-                int count = GetSelectedMembers().Count();
-                return Faction.Name + " - " + count + " " + (count <= 1 ? Properties.Resources.Membre : Properties.Resources.Membres);
-            }
-        }
         
         #endregion Calculated Properties
 

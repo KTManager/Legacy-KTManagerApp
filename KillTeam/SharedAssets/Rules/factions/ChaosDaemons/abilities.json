@@ -1,0 +1,90 @@
+[
+    {
+        "Id": "DAE",
+        "ModelId": "BL",
+        "NameEn": "Daemonic",
+        "NameFr": "Daemonic",
+        "NameDe": "Daemonic",
+        "DescriptionEn": "This model has a 5+ invulnerable save.",
+        "DescriptionFr": "This model has a 5+ invulnerable save.",
+        "DescriptionDe": "This model has a 5+ invulnerable save.",
+        "Details": []
+    },
+    {
+        "Id": "DAED",
+        "ModelId": "DE",
+        "NameEn": "Daemonic",
+        "NameFr": "Daemonic",
+        "NameDe": "Daemonic",
+        "DescriptionEn": "This model has a 5+ invulnerable save.",
+        "DescriptionFr": "This model has a 5+ invulnerable save.",
+        "DescriptionDe": "This model has a 5+ invulnerable save.",
+        "Details": []
+    },
+    {
+        "Id": "DAEP",
+        "ModelId": "PLB",
+        "NameEn": "Daemonic",
+        "NameFr": "Daemonic",
+        "NameDe": "Daemonic",
+        "DescriptionEn": "This model has a 5+ invulnerable save.",
+        "DescriptionFr": "This model has a 5+ invulnerable save.",
+        "DescriptionDe": "This model has a 5+ invulnerable save.",
+        "Details": []
+    },
+    {
+        "Id": "EPD",
+        "ModelId": "HO",
+        "NameEn": "Ephemeral Daemons",
+        "NameFr": "Ephemeral Daemons",
+        "NameDe": "Ephemeral Daemons",
+        "DescriptionEn": "This model has an invulnerable save 4+. Blue Horrors instead have an invulnerable save 5+. Pairs of Brimstone Horrors instead have an invulnerable save of 6+.",
+        "DescriptionFr": "This model has an invulnerable save 4+. Blue Horrors instead have an invulnerable save 5+. Pairs of Brimstone Horrors instead have an invulnerable save of 6+.",
+        "DescriptionDe": "This model has an invulnerable save 4+. Blue Horrors instead have an invulnerable save 5+. Pairs of Brimstone Horrors instead have an invulnerable save of 6+.",
+        "Details": []
+    },
+    {
+        "Id": "UF",
+        "ModelId": "BL",
+        "NameEn": "Unstoppable Ferocity",
+        "NameFr": "Unstoppable Ferocity",
+        "NameDe": "Unstoppable Ferocity",
+        "DescriptionEn": "You can add 1 to the Attacks and Strength characteristics of a model with this ability in a battle round in which they charged.",
+        "DescriptionFr": "You can add 1 to the Attacks and Strength characteristics of a model with this ability in a battle round in which they charged.",
+        "DescriptionDe": "You can add 1 to the Attacks and Strength characteristics of a model with this ability in a battle round in which they charged.",
+        "Details": []
+    },
+    {
+        "Id": "QS",
+        "ModelId": "DE",
+        "NameEn": "Quicksilver Swiftness",
+        "NameFr": "Quicksilver Swiftness",
+        "NameDe": "Quicksilver Swiftness",
+        "DescriptionEn": "A model with this ability can be chosen to fight in the Hammer of Wrath section of the Fight phase, even if they have not charged in that battle round.",
+        "DescriptionFr": "A model with this ability can be chosen to fight in the Hammer of Wrath section of the Fight phase, even if they have not charged in that battle round.",
+        "DescriptionDe": "A model with this ability can be chosen to fight in the Hammer of Wrath section of the Fight phase, even if they have not charged in that battle round.",
+        "Details": []
+    },
+    {
+        "Id": "SP",
+        "ModelId": "HO",
+        "NameEn": "Split",
+        "NameFr": "Split",
+        "NameDe": "Split",
+        "DescriptionEn": "Do not make any injury rolls for a Pink Horror, Pink Horror Icon Bearer, Pink Horror Hornblower, Iridescent Horror, Blue Horror or Pair of Brimstone Horrors model. This model is, instead, automatically taken out of action when reduced to 0 wounds. The following rules apply when one of these models is taken out of action: When a Pink Horror, Pink Horror Icon Bearer, Pink Horror Hornblower, or Iridescent Horror is taken out of action, you can set up 2 Blue Horrors wihtin 1/2\" of the slain model before it is removed. If these models cannot be set up, this ability has no effect. A Blue Horror has no weapons or equipment. When a Blue Horror is taken out of action, you can replace that model with 1 Pair of Brimstone Horror model. A Pair of Brimstone Horrors has no weapons or equipment. If a Pink Horror, Pink Horror Icon Bearer, Pink Horror Hornblower, or Iridescent Horror that is a specialist is taken out of action, any Blue Horrors that are set up are not Specialists. Blue Horrors and Pair of Brimstone Horrors are never considered to have charged in the battle round in which they are set up. Blue Horrors and Pairs of Brimstone Horrors are not treated as part of your kill team for the purposes of determining if your kill team is broken, and are not treated as friendly models for the purpose of Nerve tests.",
+        "DescriptionFr": "Do not make any injury rolls for a Pink Horror, Pink Horror Icon Bearer, Pink Horror Hornblower, Iridescent Horror, Blue Horror or Pair of Brimstone Horrors model. This model is, instead, automatically taken out of action when reduced to 0 wounds. The following rules apply when one of these models is taken out of action: When a Pink Horror, Pink Horror Icon Bearer, Pink Horror Hornblower, or Iridescent Horror is taken out of action, you can set up 2 Blue Horrors wihtin 1/2\" of the slain model before it is removed. If these models cannot be set up, this ability has no effect. A Blue Horror has no weapons or equipment. When a Blue Horror is taken out of action, you can replace that model with 1 Pair of Brimstone Horror model. A Pair of Brimstone Horrors has no weapons or equipment. If a Pink Horror, Pink Horror Icon Bearer, Pink Horror Hornblower, or Iridescent Horror that is a specialist is taken out of action, any Blue Horrors that are set up are not Specialists. Blue Horrors and Pair of Brimstone Horrors are never considered to have charged in the battle round in which they are set up. Blue Horrors and Pairs of Brimstone Horrors are not treated as part of your kill team for the purposes of determining if your kill team is broken, and are not treated as friendly models for the purpose of Nerve tests.",
+        "DescriptionDe": "Do not make any injury rolls for a Pink Horror, Pink Horror Icon Bearer, Pink Horror Hornblower, Iridescent Horror, Blue Horror or Pair of Brimstone Horrors model. This model is, instead, automatically taken out of action when reduced to 0 wounds. The following rules apply when one of these models is taken out of action: When a Pink Horror, Pink Horror Icon Bearer, Pink Horror Hornblower, or Iridescent Horror is taken out of action, you can set up 2 Blue Horrors wihtin 1/2\" of the slain model before it is removed. If these models cannot be set up, this ability has no effect. A Blue Horror has no weapons or equipment. When a Blue Horror is taken out of action, you can replace that model with 1 Pair of Brimstone Horror model. A Pair of Brimstone Horrors has no weapons or equipment. If a Pink Horror, Pink Horror Icon Bearer, Pink Horror Hornblower, or Iridescent Horror that is a specialist is taken out of action, any Blue Horrors that are set up are not Specialists. Blue Horrors and Pair of Brimstone Horrors are never considered to have charged in the battle round in which they are set up. Blue Horrors and Pairs of Brimstone Horrors are not treated as part of your kill team for the purposes of determining if your kill team is broken, and are not treated as friendly models for the purpose of Nerve tests.",
+        "Details": []
+    },
+    {
+        "Id": "DDR",
+        "ModelId": "PLB",
+        "NameEn": "Disgustingly Resilient",
+        "NameFr": "Disgustingly Resilient",
+        "NameDe": "Disgustingly Resilient",
+        "DescriptionEn": "Each time a model with this ability loses a wound, roll a D6; on a 5+ the model does not lose that wound.",
+        "DescriptionFr": "Each time a model with this ability loses a wound, roll a D6; on a 5+ the model does not lose that wound.",
+        "DescriptionDe": "Each time a model with this ability loses a wound, roll a D6; on a 5+ the model does not lose that wound.",
+        "Details": []
+    }
+]

@@ -914,7 +914,14 @@
             "SpecialistId": "V"
           }
         ],
-        "ModelProfileWeapons": [],
+        "ModelProfileWeapons": [          
+          {
+            "WeaponId": "KAL"
+          },
+          {
+            "WeaponId": "KK"
+          }
+        ],
         "CostOverrides": [
           {
             "WeaponId": "ARK",
@@ -1005,7 +1012,14 @@
             "SpecialistId": "V"
           }
         ],
-        "ModelProfileWeapons": [],
+        "ModelProfileWeapons": [
+          {
+            "WeaponId": "KAL"
+          },
+          {
+            "WeaponId": "KK"
+          }
+        ],
         "CostOverrides": [
           {
             "WeaponId": "ARK",

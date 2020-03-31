@@ -1260,7 +1260,16 @@
             "Attacks": "2",
             "BallisticSkill": 3,
             "Cost": 14,
-            "CostOverrides": [ ],
+            "CostOverrides": [
+               {
+                  "Cost": 3,
+                  "WeaponId": "BST"
+               },
+               {
+                  "Cost": 2,
+                  "WeaponId": "MAE"
+               }
+            ],
             "Id": "DWV1",
             "IsCommander": false,
             "Leadership": 8,
@@ -1312,7 +1321,16 @@
             "Attacks": "2",
             "BallisticSkill": 3,
             "Cost": 16,
-            "CostOverrides": [ ],
+            "CostOverrides": [
+               {
+                  "Cost": 3,
+                  "WeaponId": "BST"
+               },
+               {
+                  "Cost": 2,
+                  "WeaponId": "MAE"
+               }
+            ],
             "Id": "DWV2",
             "IsCommander": false,
             "Leadership": 8,
@@ -1367,7 +1385,16 @@
             "Attacks": "3",
             "BallisticSkill": 3,
             "Cost": 16,
-            "CostOverrides": [ ],
+            "CostOverrides": [
+               {
+                  "Cost": 3,
+                  "WeaponId": "BST"
+               },
+               {
+                  "Cost": 2,
+                  "WeaponId": "MAE"
+               }
+            ],
             "Id": "DWV3",
             "IsCommander": false,
             "Leadership": 8,
@@ -1412,7 +1439,16 @@
             "Attacks": "3",
             "BallisticSkill": 3,
             "Cost": 16,
-            "CostOverrides": [ ],
+            "CostOverrides": [
+               {
+                  "Cost": 3,
+                  "WeaponId": "BST"
+               },
+               {
+                  "Cost": 2,
+                  "WeaponId": "MAE"
+               }
+            ],
             "Id": "DWV4",
             "IsCommander": false,
             "Leadership": 9,

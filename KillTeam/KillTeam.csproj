@@ -49,6 +49,11 @@
     <None Remove="SharedAssets\Rules\factions\Asuryani\models.json" />
     <None Remove="SharedAssets\Rules\factions\Asuryani\psychics.json" />
     <None Remove="SharedAssets\Rules\factions\Asuryani\tactics.json" />
+    <None Remove="SharedAssets\Rules\factions\ChaosDaemons\abilities.json" />
+    <None Remove="SharedAssets\Rules\factions\ChaosDaemons\faction.json" />
+    <None Remove="SharedAssets\Rules\factions\ChaosDaemons\models.json" />
+    <None Remove="SharedAssets\Rules\factions\ChaosDaemons\psychics.json" />
+    <None Remove="SharedAssets\Rules\factions\ChaosDaemons\tactics.json" />
     <None Remove="SharedAssets\Rules\factions\DeathGuard\abilities.json" />
     <None Remove="SharedAssets\Rules\factions\DeathGuard\faction.json" />
     <None Remove="SharedAssets\Rules\factions\DeathGuard\models.json" />
@@ -182,6 +187,11 @@
     <EmbeddedResource Include="SharedAssets\Rules\factions\Asuryani\models.json" />
     <EmbeddedResource Include="SharedAssets\Rules\factions\Asuryani\psychics.json" />
     <EmbeddedResource Include="SharedAssets\Rules\factions\Asuryani\tactics.json" />
+    <EmbeddedResource Include="SharedAssets\Rules\factions\ChaosDaemons\abilities.json" />
+    <EmbeddedResource Include="SharedAssets\Rules\factions\ChaosDaemons\faction.json" />
+    <EmbeddedResource Include="SharedAssets\Rules\factions\ChaosDaemons\models.json" />
+    <EmbeddedResource Include="SharedAssets\Rules\factions\ChaosDaemons\psychics.json" />
+    <EmbeddedResource Include="SharedAssets\Rules\factions\ChaosDaemons\tactics.json" />
     <EmbeddedResource Include="SharedAssets\Rules\factions\DeathGuard\abilities.json" />
     <EmbeddedResource Include="SharedAssets\Rules\factions\DeathGuard\faction.json" />
     <EmbeddedResource Include="SharedAssets\Rules\factions\DeathGuard\models.json" />

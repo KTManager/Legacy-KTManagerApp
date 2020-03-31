@@ -1,0 +1,718 @@
+[
+   {
+      "Id": "BL",
+      "KeywordsDe": "CHAOS, KHORNE, INFANTRY, DAEMON, BLOODLETTER",
+      "KeywordsEn": "CHAOS, KHORNE, INFANTRY, DAEMON, BLOODLETTER",
+      "KeywordsFr": "CHAOS, KHORNE, INFANTRY, DAEMON, BLOODLETTER",
+      "ModelProfiles": [
+         {
+            "Attacks": "1",
+            "BallisticSkill": 3,
+            "Cost": 7,
+            "CostOverrides": [ ],
+            "Id": "BLE",
+            "IsCommander": false,
+            "Leadership": 7,
+            "LevelCosts": [ ],
+            "MaximumNumber": 0,
+            "ModelProfileWeapons": [ ],
+            "Movement": 6,
+            "NameDe": "Bloodletter",
+            "NameEn": "Bloodletter",
+            "NameFr": "Bloodletter",
+            "NumberOfKnownPsychics": 0,
+            "NumberOfPsychicsDenialPerRound": 0,
+            "NumberOfPsychicsManifestationPerRound": 0,
+            "Save": 6,
+            "Specialists": [
+               {
+                  "SpecialistId": "CB"
+               },
+               {
+                  "SpecialistId": "V"
+               }
+            ],
+            "Strength": 4,
+            "Toughness": 3,
+            "WarGearOptions": [ ],
+            "WeaponSkill": 3,
+            "Wounds": 1
+         },
+         {
+            "Attacks": "1",
+            "BallisticSkill": 3,
+            "Cost": 8,
+            "CostOverrides": [ ],
+            "Id": "BLIB",
+            "IsCommander": false,
+            "Leadership": 7,
+            "LevelCosts": [ ],
+            "MaximumNumber": 1,
+            "ModelProfileWeapons": [
+               {
+                  "WeaponId": "HEB"
+               },
+               {
+                  "WeaponId": "IK"
+               }
+            ],
+            "Movement": 6,
+            "NameDe": "Bloodletter Icon Bearer",
+            "NameEn": "Bloodletter Icon Bearer",
+            "NameFr": "Bloodletter Icon Bearer",
+            "NumberOfKnownPsychics": 0,
+            "NumberOfPsychicsDenialPerRound": 0,
+            "NumberOfPsychicsManifestationPerRound": 0,
+            "Save": 6,
+            "Specialists": [
+               {
+                  "SpecialistId": "CO"
+               },
+               {
+                  "SpecialistId": "CB"
+               },
+               {
+                  "SpecialistId": "V"
+               }
+            ],
+            "Strength": 4,
+            "Toughness": 3,
+            "WarGearOptions": [ ],
+            "WeaponSkill": 3,
+            "Wounds": 1
+         },
+         {
+            "Attacks": "1",
+            "BallisticSkill": 3,
+            "Cost": 8,
+            "CostOverrides": [ ],
+            "Id": "BLHB",
+            "IsCommander": false,
+            "Leadership": 7,
+            "LevelCosts": [ ],
+            "MaximumNumber": 1,
+            "ModelProfileWeapons": [
+               {
+                  "WeaponId": "HEB"
+               },
+               {
+                  "WeaponId": "ISK"
+               }
+            ],
+            "Movement": 6,
+            "NameDe": "Bloodletter Hornblower",
+            "NameEn": "Bloodletter Hornblower",
+            "NameFr": "Bloodletter Hornblower",
+            "NumberOfKnownPsychics": 0,
+            "NumberOfPsychicsDenialPerRound": 0,
+            "NumberOfPsychicsManifestationPerRound": 0,
+            "Save": 6,
+            "Specialists": [
+               {
+                  "SpecialistId": "CO"
+               },
+               {
+                  "SpecialistId": "CB"
+               },
+               {
+                  "SpecialistId": "V"
+               }
+            ],
+            "Strength": 4,
+            "Toughness": 3,
+            "WarGearOptions": [ ],
+            "WeaponSkill": 3,
+            "Wounds": 1
+         },
+         {
+            "Attacks": "2",
+            "BallisticSkill": 3,
+            "Cost": 8,
+            "CostOverrides": [ ],
+            "Id": "BLR",
+            "IsCommander": false,
+            "Leadership": 7,
+            "LevelCosts": [ ],
+            "MaximumNumber": 1,
+            "ModelProfileWeapons": [ ],
+            "Movement": 6,
+            "NameDe": "Bloodreaper",
+            "NameEn": "Bloodreaper",
+            "NameFr": "Bloodreaper",
+            "NumberOfKnownPsychics": 0,
+            "NumberOfPsychicsDenialPerRound": 0,
+            "NumberOfPsychicsManifestationPerRound": 0,
+            "Save": 6,
+            "Specialists": [
+               {
+                  "SpecialistId": "L"
+               },
+               {
+                  "SpecialistId": "CO"
+               },
+               {
+                  "SpecialistId": "CB"
+               },
+               {
+                  "SpecialistId": "V"
+               }
+            ],
+            "Strength": 4,
+            "Toughness": 3,
+            "WarGearOptions": [ ],
+            "WeaponSkill": 3,
+            "Wounds": 1
+         }
+      ],
+      "ModelWeapons": [
+         {
+            "WeaponId": "HEB"
+         }
+      ],
+      "NameDe": "Bloodletter",
+      "NameEn": "Bloodletter",
+      "NameFr": "Bloodletter",
+      "WarGearOptions": [ ]
+   },
+   {
+      "Id": "DE",
+      "KeywordsDe": "CHAOS, SLAANESH, INFANTRY, DAEMON, DAEMONETTE",
+      "KeywordsEn": "CHAOS, SLAANESH, INFANTRY, DAEMON, DAEMONETTE",
+      "KeywordsFr": "CHAOS, SLAANESH, INFANTRY, DAEMON, DAEMONETTE",
+      "ModelProfiles": [
+         {
+            "Attacks": "2",
+            "BallisticSkill": 3,
+            "Cost": 7,
+            "CostOverrides": [ ],
+            "Id": "DAE",
+            "IsCommander": false,
+            "Leadership": 7,
+            "LevelCosts": [ ],
+            "MaximumNumber": 0,
+            "ModelProfileWeapons": [ ],
+            "Movement": 7,
+            "NameDe": "Daemonette",
+            "NameEn": "Daemonette",
+            "NameFr": "Daemonette",
+            "NumberOfKnownPsychics": 0,
+            "NumberOfPsychicsDenialPerRound": 0,
+            "NumberOfPsychicsManifestationPerRound": 0,
+            "Save": 6,
+            "Specialists": [
+               {
+                  "SpecialistId": "CB"
+               },
+               {
+                  "SpecialistId": "V"
+               },
+               {
+                  "SpecialistId": "SC"
+               }
+            ],
+            "Strength": 3,
+            "Toughness": 3,
+            "WarGearOptions": [ ],
+            "WeaponSkill": 3,
+            "Wounds": 1
+         },
+         {
+            "Attacks": "2",
+            "BallisticSkill": 3,
+            "Cost": 8,
+            "CostOverrides": [ ],
+            "Id": "DIB",
+            "IsCommander": false,
+            "Leadership": 7,
+            "LevelCosts": [ ],
+            "MaximumNumber": 1,
+            "ModelProfileWeapons": [
+               {
+                  "WeaponId": "PIC"
+               },
+               {
+                  "WeaponId": "IS"
+               }
+            ],
+            "Movement": 7,
+            "NameDe": "Daemonette Icon Bearer",
+            "NameEn": "Daemonette Icon Bearer",
+            "NameFr": "Daemonette Icon Bearer",
+            "NumberOfKnownPsychics": 0,
+            "NumberOfPsychicsDenialPerRound": 0,
+            "NumberOfPsychicsManifestationPerRound": 0,
+            "Save": 6,
+            "Specialists": [
+               {
+                  "SpecialistId": "CO"
+               },
+               {
+                  "SpecialistId": "CB"
+               },
+               {
+                  "SpecialistId": "V"
+               },
+               {
+                  "SpecialistId": "SC"
+               }
+            ],
+            "Strength": 3,
+            "Toughness": 3,
+            "WarGearOptions": [ ],
+            "WeaponSkill": 3,
+            "Wounds": 1
+         },
+         {
+            "Attacks": "2",
+            "BallisticSkill": 3,
+            "Cost": 8,
+            "CostOverrides": [ ],
+            "Id": "DHB",
+            "IsCommander": false,
+            "Leadership": 7,
+            "LevelCosts": [ ],
+            "MaximumNumber": 1,
+            "ModelProfileWeapons": [
+               {
+                  "WeaponId": "PIC"
+               },
+               {
+                  "WeaponId": "ISS"
+               }
+            ],
+            "Movement": 7,
+            "NameDe": "Daemonette Hornblower",
+            "NameEn": "Daemonette Hornblower",
+            "NameFr": "Daemonette Hornblower",
+            "NumberOfKnownPsychics": 0,
+            "NumberOfPsychicsDenialPerRound": 0,
+            "NumberOfPsychicsManifestationPerRound": 0,
+            "Save": 6,
+            "Specialists": [
+               {
+                  "SpecialistId": "CO"
+               },
+               {
+                  "SpecialistId": "CB"
+               },
+               {
+                  "SpecialistId": "V"
+               },
+               {
+                  "SpecialistId": "SC"
+               }
+            ],
+            "Strength": 3,
+            "Toughness": 3,
+            "WarGearOptions": [ ],
+            "WeaponSkill": 3,
+            "Wounds": 1
+         },
+         {
+            "Attacks": "3",
+            "BallisticSkill": 3,
+            "Cost": 8,
+            "CostOverrides": [ ],
+            "Id": "ALU",
+            "IsCommander": false,
+            "Leadership": 7,
+            "LevelCosts": [ ],
+            "MaximumNumber": 1,
+            "ModelProfileWeapons": [
+               {
+                  "WeaponId": "PIC"
+               }
+            ],
+            "Movement": 7,
+            "NameDe": "Alluress",
+            "NameEn": "Alluress",
+            "NameFr": "Alluress",
+            "NumberOfKnownPsychics": 0,
+            "NumberOfPsychicsDenialPerRound": 0,
+            "NumberOfPsychicsManifestationPerRound": 0,
+            "Save": 6,
+            "Specialists": [
+               {
+                  "SpecialistId": "L"
+               },
+               {
+                  "SpecialistId": "CO"
+               },
+               {
+                  "SpecialistId": "CB"
+               },
+               {
+                  "SpecialistId": "V"
+               },
+               {
+                  "SpecialistId": "SC"
+               }
+            ],
+            "Strength": 3,
+            "Toughness": 3,
+            "WarGearOptions": [ ],
+            "WeaponSkill": 3,
+            "Wounds": 1
+         }
+      ],
+      "ModelWeapons": [
+         {
+            "WeaponId": "PIC"
+         }
+      ],
+      "NameDe": "Daemonette",
+      "NameEn": "Daemonette",
+      "NameFr": "Daemonette",
+      "WarGearOptions": [ ]
+   },
+   {
+      "Id": "HO",
+      "KeywordsDe": "CHAOS, TZEENTCH, INFANTRY, DAEMON, HORROR",
+      "KeywordsEn": "CHAOS, TZEENTCH, INFANTRY, DAEMON, HORROR",
+      "KeywordsFr": "CHAOS, TZEENTCH, INFANTRY, DAEMON, HORROR",
+      "ModelProfiles": [
+         {
+            "Attacks": "1",
+            "BallisticSkill": 4,
+            "Cost": 12,
+            "CostOverrides": [ ],
+            "Id": "PH",
+            "IsCommander": false,
+            "Leadership": 7,
+            "LevelCosts": [ ],
+            "MaximumNumber": 0,
+            "ModelProfileWeapons": [ ],
+            "Movement": 6,
+            "NameDe": "Pink Horror",
+            "NameEn": "Pink Horror",
+            "NameFr": "Pink Horror",
+            "NumberOfKnownPsychics": 1,
+            "NumberOfPsychicsDenialPerRound": 1,
+            "NumberOfPsychicsManifestationPerRound": 1,
+            "Save": 6,
+            "Specialists": [
+               {
+                  "SpecialistId": "D"
+               },
+               {
+                  "SpecialistId": "V"
+               }
+            ],
+            "Strength": 3,
+            "Toughness": 3,
+            "WarGearOptions": [ ],
+            "WeaponSkill": 4,
+            "Wounds": 1
+         },
+         {
+            "Attacks": "1",
+            "BallisticSkill": 4,
+            "Cost": 12,
+            "CostOverrides": [ ],
+            "Id": "PHIB",
+            "IsCommander": false,
+            "Leadership": 7,
+            "LevelCosts": [ ],
+            "MaximumNumber": 1,
+            "ModelProfileWeapons": [
+               {
+                  "WeaponId": "CF"
+               },
+               {
+                  "WeaponId": "IT"
+               }
+            ],
+            "Movement": 6,
+            "NameDe": "Pink Horror Icon Bearer",
+            "NameEn": "Pink Horror Icon Bearer",
+            "NameFr": "Pink Horror Icon Bearer",
+            "NumberOfKnownPsychics": 1,
+            "NumberOfPsychicsDenialPerRound": 1,
+            "NumberOfPsychicsManifestationPerRound": 1,
+            "Save": 6,
+            "Specialists": [
+               {
+                  "SpecialistId": "D"
+               },
+               {
+                  "SpecialistId": "V"
+               },
+               {
+                  "SpecialistId": "CO"
+               }
+            ],
+            "Strength": 3,
+            "Toughness": 3,
+            "WarGearOptions": [ ],
+            "WeaponSkill": 4,
+            "Wounds": 1
+         },
+         {
+            "Attacks": "2",
+            "BallisticSkill": 4,
+            "Cost": 12,
+            "CostOverrides": [ ],
+            "Id": "PHHB",
+            "IsCommander": false,
+            "Leadership": 7,
+            "LevelCosts": [ ],
+            "MaximumNumber": 1,
+            "ModelProfileWeapons": [
+               {
+                  "WeaponId": "CF"
+               },
+               {
+                  "WeaponId": "IST"
+               }
+            ],
+            "Movement": 6,
+            "NameDe": "Pink Horror Hornblower",
+            "NameEn": "Pink Horror Hornblower",
+            "NameFr": "Pink Horror Hornblower",
+            "NumberOfKnownPsychics": 1,
+            "NumberOfPsychicsDenialPerRound": 1,
+            "NumberOfPsychicsManifestationPerRound": 1,
+            "Save": 6,
+            "Specialists": [
+               {
+                  "SpecialistId": "D"
+               },
+               {
+                  "SpecialistId": "V"
+               },
+               {
+                  "SpecialistId": "CO"
+               }
+            ],
+            "Strength": 3,
+            "Toughness": 3,
+            "WarGearOptions": [ ],
+            "WeaponSkill": 4,
+            "Wounds": 1
+         },
+         {
+            "Attacks": "2",
+            "BallisticSkill": 4,
+            "Cost": 12,
+            "CostOverrides": [ ],
+            "Id": "IRH",
+            "IsCommander": false,
+            "Leadership": 7,
+            "LevelCosts": [ ],
+            "MaximumNumber": 0,
+            "ModelProfileWeapons": [ ],
+            "Movement": 6,
+            "NameDe": "Iridescent Horror",
+            "NameEn": "Iridescent Horror",
+            "NameFr": "Iridescent Horror",
+            "NumberOfKnownPsychics": 1,
+            "NumberOfPsychicsDenialPerRound": 1,
+            "NumberOfPsychicsManifestationPerRound": 1,
+            "Save": 6,
+            "Specialists": [
+               {
+                  "SpecialistId": "L"
+               },
+               {
+                  "SpecialistId": "D"
+               },
+               {
+                  "SpecialistId": "V"
+               },
+               {
+                  "SpecialistId": "CO"
+               }
+            ],
+            "Strength": 3,
+            "Toughness": 3,
+            "WarGearOptions": [ ],
+            "WeaponSkill": 4,
+            "Wounds": 1
+         }
+      ],
+      "ModelWeapons": [
+         {
+            "WeaponId": "CF"
+         }
+      ],
+      "NameDe": "Horrors",
+      "NameEn": "Horrors",
+      "NameFr": "Horrors",
+      "WarGearOptions": [ ]
+   },
+   {
+      "Id": "PLB",
+      "KeywordsDe": "CHAOS, NURGLE, INFANTRY, DAEMON, PLAGUEBEARER",
+      "KeywordsEn": "CHAOS, NURGLE, INFANTRY, DAEMON, PLAGUEBEARER",
+      "KeywordsFr": "CHAOS, NURGLE, INFANTRY, DAEMON, PLAGUEBEARER",
+      "ModelProfiles": [
+         {
+            "Attacks": "1",
+            "BallisticSkill": 4,
+            "Cost": 7,
+            "CostOverrides": [ ],
+            "Id": "PLBE",
+            "IsCommander": false,
+            "Leadership": 7,
+            "LevelCosts": [ ],
+            "MaximumNumber": 0,
+            "ModelProfileWeapons": [ ],
+            "Movement": 5,
+            "NameDe": "Plaguebearer",
+            "NameEn": "Plaguebearer",
+            "NameFr": "Plaguebearer",
+            "NumberOfKnownPsychics": 0,
+            "NumberOfPsychicsDenialPerRound": 0,
+            "NumberOfPsychicsManifestationPerRound": 0,
+            "Save": 6,
+            "Specialists": [
+               {
+                  "SpecialistId": "CB"
+               },
+               {
+                  "SpecialistId": "V"
+               }
+            ],
+            "Strength": 4,
+            "Toughness": 4,
+            "WarGearOptions": [ ],
+            "WeaponSkill": 4,
+            "Wounds": 1
+         },
+         {
+            "Attacks": "1",
+            "BallisticSkill": 4,
+            "Cost": 8,
+            "CostOverrides": [ ],
+            "Id": "PLIB",
+            "IsCommander": false,
+            "Leadership": 7,
+            "LevelCosts": [ ],
+            "MaximumNumber": 1,
+            "ModelProfileWeapons": [
+               {
+                  "WeaponId": "PSW"
+               },
+               {
+                  "WeaponId": "IN"
+               }
+            ],
+            "Movement": 5,
+            "NameDe": "Plaguebearer Icon Bearer",
+            "NameEn": "Plaguebearer Icon Bearer",
+            "NameFr": "Plaguebearer Icon Bearer",
+            "NumberOfKnownPsychics": 0,
+            "NumberOfPsychicsDenialPerRound": 0,
+            "NumberOfPsychicsManifestationPerRound": 0,
+            "Save": 6,
+            "Specialists": [
+               {
+                  "SpecialistId": "CB"
+               },
+               {
+                  "SpecialistId": "V"
+               },
+               {
+                  "SpecialistId": "CO"
+               }
+            ],
+            "Strength": 4,
+            "Toughness": 4,
+            "WarGearOptions": [ ],
+            "WeaponSkill": 4,
+            "Wounds": 1
+         },
+         {
+            "Attacks": "1",
+            "BallisticSkill": 4,
+            "Cost": 8,
+            "CostOverrides": [ ],
+            "Id": "PLHB",
+            "IsCommander": false,
+            "Leadership": 7,
+            "LevelCosts": [ ],
+            "MaximumNumber": 1,
+            "ModelProfileWeapons": [
+               {
+                  "WeaponId": "PSW"
+               },
+               {
+                  "WeaponId": "ISN"
+               }
+            ],
+            "Movement": 5,
+            "NameDe": "Plaguebearer Hornblower",
+            "NameEn": "Plaguebearer Hornblower",
+            "NameFr": "Plaguebearer Hornblower",
+            "NumberOfKnownPsychics": 0,
+            "NumberOfPsychicsDenialPerRound": 0,
+            "NumberOfPsychicsManifestationPerRound": 0,
+            "Save": 6,
+            "Specialists": [
+               {
+                  "SpecialistId": "CB"
+               },
+               {
+                  "SpecialistId": "V"
+               },
+               {
+                  "SpecialistId": "CO"
+               }
+            ],
+            "Strength": 4,
+            "Toughness": 4,
+            "WarGearOptions": [ ],
+            "WeaponSkill": 4,
+            "Wounds": 1
+         },
+         {
+            "Attacks": "2",
+            "BallisticSkill": 4,
+            "Cost": 8,
+            "CostOverrides": [ ],
+            "Id": "PLR",
+            "IsCommander": false,
+            "Leadership": 7,
+            "LevelCosts": [ ],
+            "MaximumNumber": 1,
+            "ModelProfileWeapons": [ ],
+            "Movement": 5,
+            "NameDe": "Plagueridden",
+            "NameEn": "Plagueridden",
+            "NameFr": "Plagueridden",
+            "NumberOfKnownPsychics": 0,
+            "NumberOfPsychicsDenialPerRound": 0,
+            "NumberOfPsychicsManifestationPerRound": 0,
+            "Save": 6,
+            "Specialists": [
+               {
+                  "SpecialistId": "CB"
+               },
+               {
+                  "SpecialistId": "V"
+               },
+               {
+                  "SpecialistId": "CO"
+               },
+               {
+                  "SpecialistId": "L"
+               }
+            ],
+            "Strength": 4,
+            "Toughness": 4,
+            "WarGearOptions": [ ],
+            "WeaponSkill": 4,
+            "Wounds": 1
+         }
+      ],
+      "ModelWeapons": [
+         {
+            "WeaponId": "PSW"
+         }
+      ],
+      "NameDe": "Plague Bearers",
+      "NameEn": "Plague Bearers",
+      "NameFr": "Plague Bearers",
+      "WarGearOptions": [ ]
+   }
+]

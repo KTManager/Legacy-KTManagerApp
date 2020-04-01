@@ -270,5 +270,53 @@
     "DescriptionDe": "Setze diese Taktik zu Beginn der Nahkampfphase ein, wenn Boss Snikrot deinem Kill Team angehört. Boss Snikrot erhält bis zum Ende der Schlachtrunde folgende Aurafähigkeit:\nSolange dieses Modell nicht erschüttert ist, kannst du Trefferwürfe von 1 für befreundete KOMMANDOS innerhalb von 6'' um dieses Modell wiederholen.",
     "Level": 0,
     "Cost": 1
+  },
+  {
+    "Id": "OR14",
+    "SpecialistId": null,
+    "ModelProfileId": null,
+    "PhaseId": "1",
+    "Aura": true,
+    "Commander": true,
+    "NameEn": "DUFF 'EM UP",
+    "NameFr": "DUFF 'EM UP",
+    "NameDe": "DUFF 'EM UP",
+    "DescriptionEn": "Use this Tactic at the start of the battle round, if your kill team includes a COMMANDER. That model gains the following aura ability until the end of the battle round: As long as this model is not shaken, add 1 to the Strength characteristic of friendly models that are within 3\" of this model.",
+    "DescriptionFr": "Use this Tactic at the start of the battle round, if your kill team includes a COMMANDER. That model gains the following aura ability until the end of the battle round: As long as this model is not shaken, add 1 to the Strength characteristic of friendly models that are within 3\" of this model.",
+    "DescriptionDe": "Use this Tactic at the start of the battle round, if your kill team includes a COMMANDER. That model gains the following aura ability until the end of the battle round: As long as this model is not shaken, add 1 to the Strength characteristic of friendly models that are within 3\" of this model.",
+    "Level": 0,
+    "Cost": 1
+  },
+  {
+    "Id": "OR15",
+    "SpecialistId": null,
+    "ModelProfileId": null,
+    "PhaseId": "2",
+    "Aura": false,
+    "Commander": false,
+    "NameEn": "JOYRIDE",
+    "NameFr": "JOYRIDE",
+    "NameDe": "JOYRIDE",
+    "DescriptionEn": "SECTOR MUNITORUM ONLY. Use this Tactic when you choose a model from your kill team to make a normal move in the Movement phase, and that model is within 1\" of a Galvanic Servohauler. When you move that model in this phase, simultaneously move the Galvanic Servohauler as if it were a friendly model. Both models are considered to have a Move characteristic of 2D6\" in this phase (roll once for both models), cannot Advance, cannot move vertically, and must end their moves within 1\" of each other.",
+    "DescriptionFr": "SECTOR MUNITORUM ONLY. Use this Tactic when you choose a model from your kill team to make a normal move in the Movement phase, and that model is within 1\" of a Galvanic Servohauler. When you move that model in this phase, simultaneously move the Galvanic Servohauler as if it were a friendly model. Both models are considered to have a Move characteristic of 2D6\" in this phase (roll once for both models), cannot Advance, cannot move vertically, and must end their moves within 1\" of each other.",
+    "DescriptionDe": "SECTOR MUNITORUM ONLY. Use this Tactic when you choose a model from your kill team to make a normal move in the Movement phase, and that model is within 1\" of a Galvanic Servohauler. When you move that model in this phase, simultaneously move the Galvanic Servohauler as if it were a friendly model. Both models are considered to have a Move characteristic of 2D6\" in this phase (roll once for both models), cannot Advance, cannot move vertically, and must end their moves within 1\" of each other.",
+    "Level": 0,
+    "Cost": 1
+  },
+  {
+    "Id": "OR16",
+    "SpecialistId": null,
+    "ModelProfileId": "ORW",
+    "PhaseId": null,
+    "Aura": false,
+    "Commander": false,
+    "NameEn": "BREAKIN' HEADS",
+    "NameFr": "BREAKIN' HEADS",
+    "NameDe": "BREAKIN' HEADS",
+    "DescriptionEn": "Use this Tactic at the start of any phase. Pick another friendly model within 3\" of a WARBOSS from your kill team that is not shaken. That model suffers 1 mortal wound, and friendly models within 6\" of a WARBOSS are no longer shaken; remove their shaken tokens.",
+    "DescriptionFr": "Use this Tactic at the start of any phase. Pick another friendly model within 3\" of a WARBOSS from your kill team that is not shaken. That model suffers 1 mortal wound, and friendly models within 6\" of a WARBOSS are no longer shaken; remove their shaken tokens.",
+    "DescriptionDe": "Use this Tactic at the start of any phase. Pick another friendly model within 3\" of a WARBOSS from your kill team that is not shaken. That model suffers 1 mortal wound, and friendly models within 6\" of a WARBOSS are no longer shaken; remove their shaken tokens.",
+    "Level": 0,
+    "Cost": 1
   }
 ]

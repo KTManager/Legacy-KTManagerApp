@@ -446,5 +446,37 @@
     "DescriptionDe": "",
     "Level": 0,
     "Cost": 1
+  },
+  {
+    "Id": "GSC1",
+    "SpecialistId": null,
+    "ModelProfileId": null,
+    "PhaseId": "2",
+    "Aura": false,
+    "Commander": false,
+    "NameEn": "SECRET LAIR",
+    "NameFr": "SECRET LAIR",
+    "NameDe": "SECRET LAIR",
+    "DescriptionEn": "SECTOR FRONTERIS. Use this Tactic at the start of the Movement phase of battle round 1, 2, or 3. Pick a model from your kill team within 3\" of a Ryza-pattern ruin hatchway and remove that model from the battlefield. At the end of the subsequent Movement phase, set up that model within 3\" of any Ryza-pattern ruin hatchway, and more than 9\" from any enemy models. If you cannot set up that model in this way, it remains in hiding; follow these rules again at the end of the next Movement phase. If this model has not been set up again before the end of the mission, it is taken out of action.",
+    "DescriptionFr": "SECTOR FRONTERIS. Use this Tactic at the start of the Movement phase of battle round 1, 2, or 3. Pick a model from your kill team within 3\" of a Ryza-pattern ruin hatchway and remove that model from the battlefield. At the end of the subsequent Movement phase, set up that model within 3\" of any Ryza-pattern ruin hatchway, and more than 9\" from any enemy models. If you cannot set up that model in this way, it remains in hiding; follow these rules again at the end of the next Movement phase. If this model has not been set up again before the end of the mission, it is taken out of action.",
+    "DescriptionDe": "SECTOR FRONTERIS. Use this Tactic at the start of the Movement phase of battle round 1, 2, or 3. Pick a model from your kill team within 3\" of a Ryza-pattern ruin hatchway and remove that model from the battlefield. At the end of the subsequent Movement phase, set up that model within 3\" of any Ryza-pattern ruin hatchway, and more than 9\" from any enemy models. If you cannot set up that model in this way, it remains in hiding; follow these rules again at the end of the next Movement phase. If this model has not been set up again before the end of the mission, it is taken out of action.",
+    "Level": 0,
+    "Cost": 1
+  },
+  {
+    "Id": "GSC2",
+    "SpecialistId": null,
+    "ModelProfileId": "GCA",
+    "PhaseId": "2",
+    "Aura": false,
+    "Commander": false,
+    "NameEn": "RABBLE ROUSER",
+    "NameFr": "RABBLE ROUSER",
+    "NameDe": "RABBLE ROUSER",
+    "DescriptionEn": "Use this Tactic at the start of the Movement phase, if your kill team includes an ACOLYTE ICONWARD. That model gains the following aura ability until the end of the battle round: As long as this model is not shaken, all friendly models within 6\" of this model can use the Acolyte Iconward's Leadership instead of their own.",
+    "DescriptionFr": "Use this Tactic at the start of the Movement phase, if your kill team includes an ACOLYTE ICONWARD. That model gains the following aura ability until the end of the battle round: As long as this model is not shaken, all friendly models within 6\" of this model can use the Acolyte Iconward's Leadership instead of their own.",
+    "DescriptionDe": "Use this Tactic at the start of the Movement phase, if your kill team includes an ACOLYTE ICONWARD. That model gains the following aura ability until the end of the battle round: As long as this model is not shaken, all friendly models within 6\" of this model can use the Acolyte Iconward's Leadership instead of their own.",
+    "Level": 0,
+    "Cost": 1
   }
 ]

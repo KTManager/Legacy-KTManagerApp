@@ -4,10 +4,10 @@
         "ModelId": "BAS",
         "NameEn": "Shield of Faith",
         "NameFr": "Shield of Faith",
-        "NameDe": "Shield of Faith",
+        "NameDe": "Schild des Glaubens",
         "DescriptionEn": "Models with this ability have a 6+ invulnerable save. In addition, models with this ability can attempt to deny one psychic power in each Psychic phase in the same manner as a Psyker. When making this attempt, roll one D6 instead of 2D6; the psychic power is resisted if the roll is greater than the result of the Psychic test that manifested the power.",
         "DescriptionFr": "Models with this ability have a 6+ invulnerable save. In addition, models with this ability can attempt to deny one psychic power in each Psychic phase in the same manner as a Psyker. When making this attempt, roll one D6 instead of 2D6; the psychic power is resisted if the roll is greater than the result of the Psychic test that manifested the power.",
-        "DescriptionDe": "Models with this ability have a 6+ invulnerable save. In addition, models with this ability can attempt to deny one psychic power in each Psychic phase in the same manner as a Psyker. When making this attempt, roll one D6 instead of 2D6; the psychic power is resisted if the roll is greater than the result of the Psychic test that manifested the power.",
+        "DescriptionDe": "Modelle mit dieser Fähigkeit haben einen Rettungswurf von 6+. Zusätzlich können Modelle mit dieser Fähigkeit in jeder Psiphase auf die selbe Weise wie ein PSIONIKER versuchen, eine Psikraft zu bannen. Wenn sie das versuchen, wirf einen W6 statt 2W6; die Psikraft wird gebannt, wenn der Wurf höher ist als das Ergebnis des Psitests, mit dem die Kraft manifestiert wurde.",
         "Details": []
     },
     {
@@ -15,10 +15,10 @@
         "ModelId": "SISR",
         "NameEn": "Shield of Faith",
         "NameFr": "Shield of Faith",
-        "NameDe": "Shield of Faith",
+        "NameDe": "Schild des Glaubens",
         "DescriptionEn": "Models with this ability have a 6+ invulnerable save. In addition, models with this ability can attempt to deny one psychic power in each Psychic phase in the same manner as a Psyker. When making this attempt, roll one D6 instead of 2D6; the psychic power is resisted if the roll is greater than the result of the Psychic test that manifested the power.",
         "DescriptionFr": "Models with this ability have a 6+ invulnerable save. In addition, models with this ability can attempt to deny one psychic power in each Psychic phase in the same manner as a Psyker. When making this attempt, roll one D6 instead of 2D6; the psychic power is resisted if the roll is greater than the result of the Psychic test that manifested the power.",
-        "DescriptionDe": "Models with this ability have a 6+ invulnerable save. In addition, models with this ability can attempt to deny one psychic power in each Psychic phase in the same manner as a Psyker. When making this attempt, roll one D6 instead of 2D6; the psychic power is resisted if the roll is greater than the result of the Psychic test that manifested the power.",
+        "DescriptionDe": "Modelle mit dieser Fähigkeit haben einen Rettungswurf von 6+. Zusätzlich können Modelle mit dieser Fähigkeit in jeder Psiphase auf die selbe Weise wie ein PSIONIKER versuchen, eine Psikraft zu bannen. Wenn sie das versuchen, wirf einen W6 statt 2W6; die Psikraft wird gebannt, wenn der Wurf höher ist als das Ergebnis des Psitests, mit dem die Kraft manifestiert wurde.",
         "Details": []
     },
     {
@@ -26,10 +26,10 @@
         "ModelId": "CANO",
         "NameEn": "Shield of Faith",
         "NameFr": "Shield of Faith",
-        "NameDe": "Shield of Faith",
+        "NameDe": "Schild des Glaubens",
         "DescriptionEn": "Models with this ability have a 6+ invulnerable save. In addition, models with this ability can attempt to deny one psychic power in each Psychic phase in the same manner as a Psyker. When making this attempt, roll one D6 instead of 2D6; the psychic power is resisted if the roll is greater than the result of the Psychic test that manifested the power.",
         "DescriptionFr": "Models with this ability have a 6+ invulnerable save. In addition, models with this ability can attempt to deny one psychic power in each Psychic phase in the same manner as a Psyker. When making this attempt, roll one D6 instead of 2D6; the psychic power is resisted if the roll is greater than the result of the Psychic test that manifested the power.",
-        "DescriptionDe": "Models with this ability have a 6+ invulnerable save. In addition, models with this ability can attempt to deny one psychic power in each Psychic phase in the same manner as a Psyker. When making this attempt, roll one D6 instead of 2D6; the psychic power is resisted if the roll is greater than the result of the Psychic test that manifested the power.",
+        "DescriptionDe": "Modelle mit dieser Fähigkeit haben einen Rettungswurf von 6+. Zusätzlich können Modelle mit dieser Fähigkeit in jeder Psiphase auf die selbe Weise wie ein PSIONIKER versuchen, eine Psikraft zu bannen. Wenn sie das versuchen, wirf einen W6 statt 2W6; die Psikraft wird gebannt, wenn der Wurf höher ist als das Ergebnis des Psitests, mit dem die Kraft manifestiert wurde.",
         "Details": []
     },
     {
@@ -37,10 +37,10 @@
         "ModelId": "SISR",
         "NameEn": "Zealot",
         "NameFr": "Zealot",
-        "NameDe": "Zealot",
+        "NameDe": "Zelot",
         "DescriptionEn": "You can re-roll hit rolls for attacks made with melee weapons by a model with this ability in any battle round in which it charged or was charged",
         "DescriptionFr": "You can re-roll hit rolls for attacks made with melee weapons by a model with this ability in any battle round in which it charged or was charged",
-        "DescriptionDe": "You can re-roll hit rolls for attacks made with melee weapons by a model with this ability in any battle round in which it charged or was charged",
+        "DescriptionDe": "Du kannst Trefferwürfe für Attacken mit Nahkampfwaffen eines Modells mit dieser Fähigkeit in jeder Schlachtrunde, in der es angegriffen hat oder angegriffen wurde, wiederholen.",
         "Details":[] 
     },
     {
@@ -48,10 +48,10 @@
         "ModelId": "SISR",
         "NameEn": "Solace in Anguish",
         "NameFr": "Solace in Anguish",
-        "NameDe": "Solace in Anguish",
+        "NameDe": "Trost durch Schmerz",
         "DescriptionEn": "Each time a model with this ability loses a wound, roll a D6; on a 5+ the model does not lose that wound.",
         "DescriptionFr": "Each time a model with this ability loses a wound, roll a D6; on a 5+ the model does not lose that wound.",
-        "DescriptionDe": "Each time a model with this ability loses a wound, roll a D6; on a 5+ the model does not lose that wound.",
+        "DescriptionDe": "Jedes Mal, wenn ein Modell mit dieser Fähigkeit einen Lebenspunkt verliert, wirf einen W6; bei 5+ verliert das Modell diesen Lebenspunkt nicht.",
         "Details":[] 
     },
     {
@@ -59,10 +59,10 @@
         "ModelId": "ARCOF",
         "NameEn": "Zealot",
         "NameFr": "Zealot",
-        "NameDe": "Zealot",
+        "NameDe": "Zelot",
         "DescriptionEn": "You can re-roll hit rolls for attacks made with melee weapons by a model with this ability in any battle round in which it charged or was charged",
         "DescriptionFr": "You can re-roll hit rolls for attacks made with melee weapons by a model with this ability in any battle round in which it charged or was charged",
-        "DescriptionDe": "You can re-roll hit rolls for attacks made with melee weapons by a model with this ability in any battle round in which it charged or was charged",
+        "DescriptionDe": "Du kannst Trefferwürfe für Attacken mit Nahkampfwaffen eines Modells mit dieser Fähigkeit in jeder Schlachtrunde, in der es angegriffen hat oder angegriffen wurde, wiederholen.",
         "Details":[] 
     },
     {
@@ -70,10 +70,10 @@
         "ModelId": "ARCOF",
         "NameEn": "Berzerk Killing Machine",
         "NameFr": "Berzerk Killing Machine",
-        "NameDe": "Berzerk Killing Machine",
+        "NameDe": "Rasende Killermaschine",
         "DescriptionEn": "Each time a model with this ability loses a wound, roll a D6; on a 5+ the model does not lose that wound",
         "DescriptionFr": "Each time a model with this ability loses a wound, roll a D6; on a 5+ the model does not lose that wound",
-        "DescriptionDe": "Each time a model with this ability loses a wound, roll a D6; on a 5+ the model does not lose that wound",
+        "DescriptionDe": "Wirf jedes Mal einen W6, wenn ein Modell mit dieser Fähigkeit einen Lebenspunkt verliert; bei 5+ verliert das Modell den Lebenspunkt nicht.",
         "Details": []
     },
     {
@@ -84,7 +84,7 @@
         "NameDe": "Rosarius",
         "DescriptionEn": "This model has a 4+ invulnerable save.",
         "DescriptionFr": "This model has a 4+ invulnerable save.",
-        "DescriptionDe": "This model has a 4+ invulnerable save.",
+        "DescriptionDe": "Dieses Modell hat einen Rettungswurf von 4+.",
         "Details": []
     },
     {
@@ -92,10 +92,10 @@
         "ModelId": "CANO",
         "NameEn": "Brazier of Holy Fire",
         "NameFr": "Brazier of Holy Fire",
-        "NameDe": "Brazier of Holy Fire",
+        "NameDe": "Schale des Heiligen Feuers",
         "DescriptionEn": "Subtract 1 from the Leadership characteristic of DAEMON models whilst they are within 6\" of any models equipped with a brazier of holy fire. In addition, once per battle, when a model equipped with a brazier of holy fire shoots or fires Overwatch, that model can instead unleash holy fire. When it does, select one enemy model that is within 12\" of this model and visible to it (if firing Overwatch, this must be the charging model) and up to 2 other enemy models that are within 2\" of that model and visible to the shooting model. Each selected enemy models suffers 1 mortal wound (if the model is a DAEMON it instead suffers 2 mortal wounds).",
         "DescriptionFr": "Subtract 1 from the Leadership characteristic of DAEMON models whilst they are within 6\" of any models equipped with a brazier of holy fire. In addition, once per battle, when a model equipped with a brazier of holy fire shoots or fires Overwatch, that model can instead unleash holy fire. When it does, select one enemy model that is within 12\" of this model and visible to it (if firing Overwatch, this must be the charging model) and up to 2 other enemy models that are within 2\" of that model and visible to the shooting model. Each selected enemy models suffers 1 mortal wound (if the model is a DAEMON it instead suffers 2 mortal wounds).",
-        "DescriptionDe": "Subtract 1 from the Leadership characteristic of DAEMON models whilst they are within 6\" of any models equipped with a brazier of holy fire. In addition, once per battle, when a model equipped with a brazier of holy fire shoots or fires Overwatch, that model can instead unleash holy fire. When it does, select one enemy model that is within 12\" of this model and visible to it (if firing Overwatch, this must be the charging model) and up to 2 other enemy models that are within 2\" of that model and visible to the shooting model. Each selected enemy models suffers 1 mortal wound (if the model is a DAEMON it instead suffers 2 mortal wounds).",
+        "DescriptionDe": "Ziehe 1 vom Moralwert von DAEMON-Modellen ab, während sie sich innerhalb von 6 Zoll um Modelle befinden, die mit einer Schale des Heiligen Feuers ausgerüstet sind. Außerdem darf ein Modell mit einer Schale des des Heiligen Feuers einmal pro Gefecht, wenn es schießt oder Abwehrfeuer abgibt, stattdessen Heiliges Feuer entfesseln. Wenn es dies tut, wähle ein für dieses Modell sichtbares feindliches Modell innerhalb von 12 Zoll (bei Abwehrfeuer muss es das angreifende Modell sein) und bis zu 2 andere feindliche Modelle, die sich innerhalb von 2 Zoll um das Modell befinden und für das schießende Modell sichtbar sind. Jedes ausgewählte feindlich Modell erleidet 1 tödliche Verwundung (wenn das Modell ein DAEMON ist, erleidet es stattdessen 2 tödliche Verwundungen).",
         "Details": []
     },
     {
@@ -103,10 +103,10 @@
         "ModelId": "CANO",
         "NameEn": "Null Rod",
         "NameFr": "Null Rod",
-        "NameDe": "Null Rod",
+        "NameDe": "Nullstab",
         "DescriptionEn": "If this model has a null rod, it cannot be targeted or affected by psychic powers. In addition, whilst any models from you kill team that are equipped with a null rod are within 18\" of a PSYKER, subtract 1 from Psychic tests and Deny the Witch tests taken for that model.",
         "DescriptionFr": "If this model has a null rod, it cannot be targeted or affected by psychic powers. In addition, whilst any models from you kill team that are equipped with a null rod are within 18\" of a PSYKER, subtract 1 from Psychic tests and Deny the Witch tests taken for that model.",
-        "DescriptionDe": "If this model has a null rod, it cannot be targeted or affected by psychic powers. In addition, whilst any models from you kill team that are equipped with a null rod are within 18\" of a PSYKER, subtract 1 from Psychic tests and Deny the Witch tests taken for that model.",
+        "DescriptionDe": "Wenn dieses Modell einen Nullstab hat, kann es nicht Ziel von Psikräften sind und kann von ihnen auch nicht betroffen sein. Ziehe zusätzlich, solange sich Modelle deines Kill Teams, die mit einem Nullstab ausgerüstet sind, innerhalb von 18 Zoll um einen PSIONIKER befinden, 1 von Psitests und Psibanntests ab, die für jenen Psioniker durchgeführt werden.",
         "Details": []
     },
     {
@@ -114,10 +114,10 @@
         "ModelId": "CANO",
         "NameEn": "Rod of Office",
         "NameFr": "Rod of Office",
-        "NameDe": "Rod of Office",
+        "NameDe": "Amtsstab",
         "DescriptionEn": "If this model has a rod of office, add 3\" to the range of its aura abilities.",
         "DescriptionFr": "If this model has a rod of office, add 3\" to the range of its aura abilities.",
-        "DescriptionDe": "If this model has a rod of office, add 3\" to the range of its aura abilities.",
+        "DescriptionDe": "Wenn dieses Modell einen Amtsstab hat, addiere 3 Zolle auf die Reichweite seiner Aurafähigkeiten.",
         "Details": []
     }
 ]

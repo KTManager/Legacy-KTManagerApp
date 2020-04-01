@@ -23,7 +23,7 @@
                 "Cost": 9,
                 "NameEn": "Battle Sister",
                 "NameFr": "",
-                "NameDe": "",
+                "NameDe": "Battle Sister",
                 "IsCommander": false,
                 "NumberOfKnownPsychics": 0,
                 "NumberOfPsychicsManifestationPerRound": 0,
@@ -87,7 +87,7 @@
                 "Cost": 10,
                 "NameEn": "Battle Sister Gunner",
                 "NameFr": "",
-                "NameDe": "",
+                "NameDe": "Battle Sister Gunner",
                 "IsCommander": false,
                 "NumberOfKnownPsychics": 0,
                 "NumberOfPsychicsManifestationPerRound": 0,
@@ -154,7 +154,7 @@
                 "Cost": 10,
                 "NameEn": "Sister Superior",
                 "NameFr": "",
-                "NameDe": "",
+                "NameDe": "Sister Superior",
                 "IsCommander": false,
                 "NumberOfKnownPsychics": 0,
                 "NumberOfPsychicsManifestationPerRound": 0,
@@ -460,6 +460,93 @@
                 "WeaponId": "GK"
             }
           ],
+          "WarGearOptions": []
+    },
+    {
+        "Id": "REPS",
+        "NameEn": "Repentia Superior",
+        "NameFe": "Repentia Superior",
+        "NameDe": "Repentia Superior",
+        "KeywordsEn": "IMPERIUM, COMMANDER, INFANTRY, REPENTIA SUPERIOR",
+        "KeywordsFr": "IMPERIUM, COMMANDER, INFANTRY, REPENTIA SUPERIOR",
+        "KeywordsDe": "IMPERIUM, COMMANDER, INFANTRY, REPENTIA SUPERIOR",
+        "ModelProfiles": [
+            {
+              "Id": "REPS",
+              "Movement": 6,
+              "WeaponSkill": 3,
+              "BallisticSkill": 3,
+              "Strength": 3,
+              "Toughness": 3,
+              "Wounds": 4,
+              "Attacks": 4,
+              "Leadership": 8,
+              "Save": 3,
+              "MaximumNumber": 1,
+              "Cost": 30,
+              "NameEn": "Repentia Superior",
+              "NameFr": "Repentia Superior",
+              "NameDe": "Repentia Superior",
+              "IsCommander": true,
+              "NumberOfKnownPsychics": 0,
+              "NumberOfPsychicsManifestationPerRound": 0,
+              "NumberOfPsychicsDenialPerRound": 0,
+              "WarGearOptions": [
+                {
+                  "MaximumPerTeam": "0",
+                  "Operation": "PB",
+                  "Exclusion": null
+                }
+              ],
+              "Specialists": [
+                {
+                  "SpecialistId": "FR"
+                },
+                {
+                  "SpecialistId": "FE"
+                },
+                {
+                  "SpecialistId": "LE"
+                },
+                {
+                  "SpecialistId": "ME"
+                },
+                {
+                  "SpecialistId": "F"
+                }
+              ],
+              "ModelProfileWeapons": [
+                {
+                  "WeaponId": "NWHPS"
+                },
+                {
+                  "WeaponId": "GF"
+                },
+                {
+                  "WeaponId": "GK"
+                }
+              ],
+              "CostOverrides": [],
+              "LevelCosts": [
+                {
+                  "Level": 1,
+                  "Cost": 30
+                },
+                {
+                  "Level": 2,
+                  "Cost": 40
+                },
+                {
+                  "Level": 3,
+                  "Cost": 55
+                },
+                {
+                  "Level": 4,
+                  "Cost": 70
+                }]
+            }
+          ],
+          "ModelWeapons": [],
           "WarGearOptions": []
     }
 ]

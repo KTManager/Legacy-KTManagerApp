@@ -11906,8 +11906,8 @@
             "ArmourPenetration": "-3",
             "Damages": "2",
             "DescriptionDe": "Wenn du mit dieser Waffe attackierst, musst du 1 von den Trefferwürfen abziehen.",
-            "DescriptionEn": "When resolving an attack made with this weapon against a model which has a Leadership characteristic of 7 or less, add 1 to the wound roll.",
-            "DescriptionFr": "When resolving an attack made with this weapon against a model which has a Leadership characteristic of 7 or less, add 1 to the wound roll.",
+            "DescriptionEn": "When resolving an attack made with this weapon, subtract 1 from the hit roll.",
+            "DescriptionFr": "When resolving an attack made with this weapon, subtract 1 from the hit roll.",
             "Id": "PEVS",
             "NameDe": "Büßer-Eviscerator",
             "NameEn": "Penitent Eviscerator",
@@ -11995,7 +11995,7 @@
             "NameFr": "Brazier of Holy Fire",
             "Range": 0,
             "ShotNumber": "0",
-            "Strength": "0",
+            "Strength": "U",
             "WeaponType": "M"
          }
       ]
@@ -12022,7 +12022,7 @@
             "NameFr": "Null Rod",
             "Range": 0,
             "ShotNumber": "0",
-            "Strength": "0",
+            "Strength": "U",
             "WeaponType": "M"
          }
       ]
@@ -12050,6 +12050,33 @@
             "Range": 0,
             "ShotNumber": "0",
             "Strength": "0",
+            "WeaponType": "M"
+         }
+      ]
+   },
+   {
+      "Cost": 0,
+      "DescriptionDe": "",
+      "DescriptionEn": "",
+      "DescriptionFr": "",
+      "Id": "NWHPS",
+      "NameDe": "Neuralpeitschen",
+      "NameEn": "Neural Whips",
+      "NameFr": "Neural Whips",
+      "WeaponProfiles": [
+         {
+            "ArmourPenetration": "-2",
+            "Damages": "1",
+            "DescriptionDe": "Addiere bei Attacken mit dieser Waffe gegen ein Modell mit einem Moralwert von 7 oder weniger 1 zum Verwundungswurf.",
+            "DescriptionEn": "When resolving an attack made with this weapon against a model which has a Leadership characteristic of 7 or less, add 1 to the wound roll.",
+            "DescriptionFr": "When resolving an attack made with this weapon against a model which has a Leadership characteristic of 7 or less, add 1 to the wound roll.",
+            "Id": "NWHPS",
+            "NameDe": "Neuralpeitschen",
+            "NameEn": "Neural Whips",
+            "NameFr": "Neural Whips",
+            "Range": 0,
+            "ShotNumber": "0",
+            "Strength": "U",
             "WeaponType": "M"
          }
       ]

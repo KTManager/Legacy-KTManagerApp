@@ -173,7 +173,7 @@
     "DescriptionFr": "Utilisez cette tactique quand une de vos figurines est mise hors de combat. Cette figurine subit une blessure légère à la place.",
     "DescriptionDe": "Setze diese Taktik ein, wenn eines deiner Modelle ausgeschaltet wird. Dieses Modell erleidet stattdessen eine Fleischwunde.",
     "Level": 0,
-    "Cost": 2
+    "Cost": 3
   },
   {
     "Id": "AA9",
@@ -414,5 +414,37 @@
     "DescriptionDe": "Use this Tactic at the end of the Movement phase. Choose a model from your kill team that was set up in Reserve and set them up within 1\" of the edge of the battlefield, and more than 5\" away from any enemy models.",
     "Level": 0,
     "Cost": 1
+  },
+  {
+    "Id": "AA14",
+    "SpecialistId": null,
+    "ModelProfileId": null,
+    "PhaseId": "2",
+    "Aura": false,
+    "Commander": false,
+    "NameEn": "Alchomite Detonation (Sector Mechanicus Only)",
+    "NameFr": "Alchomite Detonation (Sector Mechanicus Only)",
+    "NameDe": "Alchomite Detonation (Sector Mechanicus Only)",
+    "DescriptionEn": "Use this Tactic at the end of the Movement phase. Choose an Alchomite Stack that is within 1\" of at least one model from your kill team that is not shaken. At the end of the following Movement phase, roll a dice for each model within 3\" of that Alchomite Stack. On a 4+, that model suffers 1 mortal wound. Then remove the Alchomite Stack. Any models that were standing on that terrain are placed on the battlefield directly below where they were standing.",
+    "DescriptionFr": "Use this Tactic at the end of the Movement phase. Choose an Alchomite Stack that is within 1\" of at least one model from your kill team that is not shaken. At the end of the following Movement phase, roll a dice for each model within 3\" of that Alchomite Stack. On a 4+, that model suffers 1 mortal wound. Then remove the Alchomite Stack. Any models that were standing on that terrain are placed on the battlefield directly below where they were standing.",
+    "DescriptionDe": "Use this Tactic at the end of the Movement phase. Choose an Alchomite Stack that is within 1\" of at least one model from your kill team that is not shaken. At the end of the following Movement phase, roll a dice for each model within 3\" of that Alchomite Stack. On a 4+, that model suffers 1 mortal wound. Then remove the Alchomite Stack. Any models that were standing on that terrain are placed on the battlefield directly below where they were standing.",
+    "Level": 0,
+    "Cost": 2
+  },
+  {
+    "Id": "AA15",
+    "SpecialistId": null,
+    "ModelProfileId": null,
+    "PhaseId": "5",
+    "Aura": false,
+    "Commander": true,
+    "NameEn": "Champion of Humanity",
+    "NameFr": "Champion of Humanity",
+    "NameDe": "Champion of Humanity",
+    "DescriptionEn": "Use this Tactic when you choose a COMMANDER to fight in the Fight phase. Choose hit or wound rolls. You can re-roll all failed rolls of the type you chose for that model's attacks that target enemy COMMANDERS until the end of the phase.",
+    "DescriptionFr": "Use this Tactic when you choose a COMMANDER to fight in the Fight phase. Choose hit or wound rolls. You can re-roll all failed rolls of the type you chose for that model's attacks that target enemy COMMANDERS until the end of the phase.",
+    "DescriptionDe": "Use this Tactic when you choose a COMMANDER to fight in the Fight phase. Choose hit or wound rolls. You can re-roll all failed rolls of the type you chose for that model's attacks that target enemy COMMANDERS until the end of the phase.",
+    "Level": 0,
+    "Cost": 2
   }
 ]

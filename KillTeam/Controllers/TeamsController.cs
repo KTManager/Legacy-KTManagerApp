@@ -67,7 +67,7 @@ namespace KillTeam.Controllers
         private void InitializeCommands()
         {
             AddTeam = new Command(AddTeamExecuted);
-            ReorderTeam = new Command(ReorderTeamExecuted);
+            ReorderTeam = new Command(async e => await ReorderTeamExecuted());
             OpenTeam = new Command(async e => await OpenTeamExecuted(e as TeamsViewModel));
             DeleteTeam = new Command(async e => await DeleteExecuted(e as TeamsViewModel));
 
@@ -90,9 +90,11 @@ namespace KillTeam.Controllers
             KTApp.Navigation.PushModalAsync(new Views.FactionsView());
         }
 
-        private void ReorderTeamExecuted()
+        private async Task ReorderTeamExecuted()
         {
             _reorderTeamsCommandHandler.Handle(new ReorderTeamsCommand(Items.Select(x => x.Id).ToList()));
+            
+            await Refresh();
         }
 
         private async Task OpenTeamExecuted(TeamsViewModel team)

@@ -14,6 +14,7 @@
                                 AutoFitMode="Height"
                                 DragStartMode="OnHold"
                                 AllowSwiping="True"
+                                ItemDragging="TeamsView_ItemDragging"
                                 SelectionMode="None">
             <syncfusion:SfListView.ItemTemplate>
                 <DataTemplate x:DataType="{x:Type viewModels:TeamsViewModel}">

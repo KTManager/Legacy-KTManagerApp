@@ -1,5 +1,4 @@
-﻿using System;
-using System.Linq;
+﻿using System.Linq;
 using KillTeam.Models;
 using KillTeam.Services;
 using Microsoft.EntityFrameworkCore;
@@ -17,9 +16,9 @@ namespace KillTeam.Commands.Handlers
             {
                 var team = teams.First(x => x.Id == teamsIds[i]);
                 team.Position = i;
-
-                KTContext.Db.SaveChanges();
             }
+            
+            KTContext.Db.SaveChanges();
         }
     }
 }

@@ -63,7 +63,7 @@
                                            FontSize="Medium" 
                                            HorizontalOptions="EndAndExpand" />
                                 </StackLayout>
-                                <Label Text="{Binding ShortWeaponLevel}"                                        
+                                <Label Text="{Binding Description}"                                        
                                            FontSize="Small" />
                             </StackLayout>
                             <Switch Toggled="SelectedSwitchToggled" 

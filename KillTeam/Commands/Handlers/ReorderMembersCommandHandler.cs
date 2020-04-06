@@ -16,9 +16,9 @@ namespace KillTeam.Commands.Handlers
             {
                 var member = members.First(x => x.Id == memberIds[i]);
                 member.Position = i;
-
-                KTContext.Db.SaveChanges();
             }
+            
+            KTContext.Db.SaveChanges();
         }
     }
 }

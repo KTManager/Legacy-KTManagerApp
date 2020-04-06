@@ -97,7 +97,7 @@ namespace KillTeam.Controllers
         private void InitializeCommands()
         {
             AddMember = new Command(async () => await AddMemberExecuted());
-            ReorderMembers = new Command(ReorderMembersExecuted);
+            ReorderMembers = new Command(async e => await ReorderMembersExecuted());
             OpenMember = new Command(async e => await OpenMemberExecuted(e as TeamMemberViewModel));
             DeleteMember = new Command(async e => await DeleteMemberExecuted(e as TeamMemberViewModel));
             SelectMember = new Command(async e => await SelectMemberExecuted(e as TeamMemberViewModel));
@@ -148,14 +148,16 @@ namespace KillTeam.Controllers
             await Refresh();
         }
 
-        private void ReorderMembersExecuted()
+        private async Task ReorderMembersExecuted()
         {
             _reorderMembersCommandHandler.Handle(new ReorderMembersCommand(Item.Members.Select(x => x.Id).ToList()));
+            await Refresh();
         }
 
         private async Task OpenMemberExecuted(TeamMemberViewModel member)
         {
             await KTApp.Navigation.PushAsync(new Views.MembrePage(member.Id));
+            await Refresh();
         }
 
         private async Task DeleteMemberExecuted(TeamMemberViewModel member)

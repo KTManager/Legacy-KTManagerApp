@@ -65,6 +65,8 @@ namespace KillTeam.Views
             var members = binding.Item.Members;
             
             members.Move(members.IndexOf(member), e.NewIndex);
+
+            binding.ReorderMembers.Execute(null);
         }
     }
 }

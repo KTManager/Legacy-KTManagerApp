@@ -21,6 +21,15 @@
   </ItemGroup>
 
   <ItemGroup>
+    <Compile Remove="Services\PdfGeneration.cs" />
+    <Compile Remove="Views\ChoixImpression.xaml.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Remove="Views\ChoixImpression.xaml" />
+  </ItemGroup>
+
+  <ItemGroup>
     <None Remove="SharedAssets\Rules\abilities.json" />
     <None Remove="SharedAssets\Rules\factions\AdeptaSororitas\abilities.json" />
     <None Remove="SharedAssets\Rules\factions\AdeptaSororitas\faction.json" />
@@ -280,24 +289,17 @@
 
   <ItemGroup>
     <PackageReference Include="CarouselView.FormsPlugin" Version="5.2.0" />
-    <PackageReference Include="Microsoft.AppCenter" Version="2.1.1" />
-    <PackageReference Include="Microsoft.AppCenter.Analytics" Version="2.1.1" />
-    <PackageReference Include="Microsoft.AppCenter.Crashes" Version="2.1.1" />
-    <PackageReference Include="Microsoft.AppCenter.Distribute" Version="2.1.1" />
-    <PackageReference Include="Microsoft.AppCenter.Push" Version="2.1.1" />
-    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="2.1.3" />
-    <PackageReference Include="Microsoft.EntityFrameworkCore.Sqlite" Version="2.1.3" />
-    <PackageReference Include="Newtonsoft.Json" Version="11.0.2" />
+    <PackageReference Include="Microsoft.AppCenter" Version="3.1.0" />
+    <PackageReference Include="Microsoft.AppCenter.Analytics" Version="3.1.0" />
+    <PackageReference Include="Microsoft.AppCenter.Crashes" Version="3.1.0" />
+    <PackageReference Include="Microsoft.AppCenter.Distribute" Version="3.1.0" />
+    <PackageReference Include="Microsoft.AppCenter.Push" Version="3.1.0" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="3.1.3" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Sqlite" Version="3.1.3" />
+    <PackageReference Include="Newtonsoft.Json" Version="12.0.3" />
     <PackageReference Include="Plugin.Share" Version="7.1.1" />
-    <PackageReference Include="Syncfusion.Xamarin.DocIO" Version="16.3.0.21" />
-    <PackageReference Include="Syncfusion.Xamarin.DocIORenderer" Version="16.3.0.21" />
-    <PackageReference Include="Syncfusion.Xamarin.Pdf" Version="16.3.0.21" />
-    <PackageReference Include="Syncfusion.Xamarin.SfBusyIndicator" Version="16.3.0.21" />
-    <PackageReference Include="Syncfusion.Xamarin.SfListView" Version="16.3.0.21" />
-    <PackageReference Include="Syncfusion.Xamarin.SfNavigationDrawer" Version="16.3.0.29" />
-    <PackageReference Include="Syncfusion.Xamarin.SfNumericUpDown" Version="16.3.0.29" />
-    <PackageReference Include="Xamarin.Essentials" Version="1.5.1" />
-    <PackageReference Include="Xamarin.Forms" Version="3.1.0.697729" />
+    <PackageReference Include="Xamarin.Essentials" Version="1.5.2" />
+    <PackageReference Include="Xamarin.Forms" Version="4.5.0.617" />
     <PackageReference Include="Xamarin.Plugins.Clipboard" Version="2.2.1" />  
   </ItemGroup>
 
@@ -360,9 +362,6 @@
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
     <EmbeddedResource Update="Views\ChangeLevelPage.xaml">
-      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
-    </EmbeddedResource>
-    <EmbeddedResource Update="Views\ChoixImpression.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
     <EmbeddedResource Update="Views\ConfigurationCell.xaml">

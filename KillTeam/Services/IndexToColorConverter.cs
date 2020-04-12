@@ -1,5 +1,4 @@
-﻿using Syncfusion.ListView.XForms;
-using System;
+﻿using System;
 using System.Globalization;
 using Xamarin.Forms;
 
@@ -9,8 +8,14 @@ namespace KillTeam.Services
     {
         public object Convert(object value, Type targetType, object parameter, CultureInfo culture)
         {
-            var listview = parameter as SfListView;
-            var index = listview.DataSource.DisplayItems.IndexOf(value);
+            var listview = parameter as ListView;
+            var index = 0;
+            var itemsEnumerator = listview.ItemsSource.GetEnumerator();
+            while (itemsEnumerator.MoveNext())
+            {
+                if (itemsEnumerator.Current.Equals(value)) break;
+                index++;
+            }
 
             if (index % 2 == 0)
                 return Color.LightGray;

@@ -1,4 +1,5 @@
-﻿using System.Collections.Generic;
+﻿using System;
+using System.Collections.Generic;
 using System.Collections.ObjectModel;
 using System.Linq;
 using System.Threading.Tasks;
@@ -77,11 +78,11 @@ namespace KillTeam.Controllers
         {
             Items.Clear();
             var teams = await KTContext.Db.Teams
-                                    .Include(e => e.Faction)
-                                    .Include(e => e.Members)
-                                    .AsNoTracking()
-                                    .OrderBy(post => post.Position)
-                                    .ToListAsync();
+                .Include(e => e.Faction)
+                .Include(e => e.Members)
+                .AsNoTracking()
+                .OrderBy(post => post.Position)
+                .ToListAsync();
             teams.ForEach(i => Items.Add(new TeamsViewModel(i.Id, i.Name, i.Cost, i.FactionNameAndMembersCount)));
         }
 

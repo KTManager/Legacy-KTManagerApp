@@ -1,5 +1,7 @@
-﻿using KillTeam.Commands.Handlers;
+﻿using System;
+using KillTeam.Commands.Handlers;
 using KillTeam.Controllers;
+using Microsoft.AppCenter.Crashes;
 using Xamarin.Forms.PlatformConfiguration.iOSSpecific;
 using Xamarin.Forms.Xaml;
 
@@ -10,21 +12,36 @@ namespace KillTeam.Views
     {
         public Teams()
         {
-            InitializeComponent();
-            On<Xamarin.Forms.PlatformConfiguration.iOS>().SetUseSafeArea(true);
+            try
+            {
+                InitializeComponent();
+                On<Xamarin.Forms.PlatformConfiguration.iOS>().SetUseSafeArea(true);
 
-            var vm = new TeamsController(ToolbarItems, new DeleteTeamCommandHandler(), new ReorderTeamsCommandHandler());
-            BindingContext = vm;
+                BindingContext = new TeamsController(ToolbarItems, new DeleteTeamCommandHandler(), new ReorderTeamsCommandHandler());
+            }
+            catch (Exception e)
+            {
+                Crashes.TrackError(e);
+                DisplayAlert("Error", "An error occured during the page loading.", "Ok");
+            }
         }
 
         protected override async void OnAppearing()
         {
-            if (BindingContext is TeamsController binding)
+            try
             {
-                await binding.Refresh();
-            }
+                if (BindingContext is TeamsController binding)
+                {
+                    await binding.Refresh();
+                }
 
-            base.OnAppearing();
+                base.OnAppearing();
+            }
+            catch (Exception e)
+            {
+                Crashes.TrackError(e);
+                await DisplayAlert("Error", "An error occured during the page loading.", "Ok");
+            }
         }
     }
 }

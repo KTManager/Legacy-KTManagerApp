@@ -52,7 +52,7 @@
                                     <ImageButton BackgroundColor="LightPink"
                                                  Source="delete.png"
                                                  Padding="0,25"
-                                                 Command="{Binding Source={x:Reference This}, Path=BindingContext.Delete}" CommandParameter="{Binding .}"/>
+                                                 Command="{Binding Source={x:Reference CpTeams}, Path=BindingContext.DeleteTeam}" CommandParameter="{Binding .}"/>
                                 </SwipeItemView>
                             </SwipeItems>
                         </SwipeView.RightItems>

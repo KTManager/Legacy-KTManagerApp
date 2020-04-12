@@ -1,5 +1,86 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <Application xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:renderedViews="clr-namespace:Sharpnado.Presentation.Forms.RenderedViews;assembly=Sharpnado.Presentation.Forms"
              x:Class="KillTeam.KTApp">
+    <Application.Resources>
+        <ResourceDictionary>
+            <!--Global Styles-->
+            <Color x:Key="NavigationPrimary">#2196F3</Color>
+            <Style TargetType="NavigationPage">
+                <Setter Property="BarBackgroundColor" Value="{StaticResource NavigationPrimary}" />
+                <Setter Property="BarTextColor" Value="White" />
+            </Style>
+
+            <x:Double x:Key="SmallPadding">4</x:Double>
+            <x:Double x:Key="MediumPadding">8</x:Double>
+            <x:Double x:Key="StandardPadding">16</x:Double>
+
+            <Thickness x:Key="SmallTopThickness" Top="{StaticResource SmallPadding}" />
+
+            <Thickness x:Key="MediumTopThickness" Top="{StaticResource MediumPadding}" />
+
+            <Thickness x:Key="StandardTopThickness" Top="{StaticResource StandardPadding}" />
+
+            <Thickness x:Key="SmallThickness"
+                       Bottom="{StaticResource SmallPadding}"
+                       Left="{StaticResource StandardPadding}"
+                       Right="{StaticResource StandardPadding}"
+                       Top="{StaticResource SmallPadding}" />
+
+            <Thickness x:Key="MediumThickness"
+                       Bottom="{StaticResource MediumPadding}"
+                       Left="{StaticResource MediumPadding}"
+                       Right="{StaticResource MediumPadding}"
+                       Top="{StaticResource MediumPadding}" />
+
+            <Thickness x:Key="StandardThickness"
+                       Bottom="{StaticResource MediumPadding}"
+                       Left="{StaticResource StandardPadding}"
+                       Right="{StaticResource StandardPadding}"
+                       Top="{StaticResource MediumPadding}" />
+
+            <Style x:Key="OneLineRows" TargetType="renderedViews:HorizontalListView">
+                <Setter Property="ItemHeight">
+                    <Setter.Value>
+                        <OnPlatform x:TypeArguments="x:Double">
+                            <On Platform="iOS">40</On>
+                            <On Platform="Android">40</On>
+                        </OnPlatform>
+                    </Setter.Value>
+                </Setter>
+            </Style>
+
+            <Style x:Key="ThreeLineRows" TargetType="renderedViews:HorizontalListView">
+                <Setter Property="ItemHeight">
+                    <Setter.Value>
+                        <OnPlatform x:TypeArguments="x:Double">
+                            <On Platform="iOS">70</On>
+                            <On Platform="Android">70</On>
+                        </OnPlatform>
+                    </Setter.Value>
+                </Setter>
+            </Style>
+
+            <Style TargetType="renderedViews:HorizontalListView">
+                <Setter Property="ItemSpacing">
+                    <Setter.Value>
+                        <OnPlatform x:TypeArguments="x:Int32">
+                            <On Platform="iOS">8</On>
+                            <On Platform="Android">8</On>
+                        </OnPlatform>
+                    </Setter.Value>
+                </Setter>
+                <Setter Property="CollectionPadding" Value="8" />
+                <Setter Property="ListLayout" Value="Grid" />
+            </Style>
+
+            <Style TargetType="renderedViews:MaterialFrame">
+                <Setter Property="Margin" Value="4" />
+                <Setter Property="Padding" Value="{StaticResource StandardThickness}" />
+                <Setter Property="Elevation" Value="4" />
+                <Setter Property="BorderColor" Value="LightGray" />
+            </Style>
+        </ResourceDictionary>
+    </Application.Resources>
 </Application>

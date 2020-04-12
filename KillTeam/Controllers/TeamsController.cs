@@ -9,6 +9,7 @@ using KillTeam.Commands.Handlers;
 
 using KillTeam.Services;
 using KillTeam.ViewModels;
+using KillTeam.Views;
 using Microsoft.EntityFrameworkCore;
 using Xamarin.Forms;
 
@@ -100,7 +101,7 @@ namespace KillTeam.Controllers
 
         private async Task OpenTeamExecuted(TeamsViewModel team)
         {
-            await KTApp.Navigation.PushAsync(new Views.Team(team.Id));
+            await KTApp.Navigation.PushAsync(new TeamDetails(team.Id));
         }
 
         private async Task DeleteExecuted(TeamsViewModel team)
@@ -112,17 +113,17 @@ namespace KillTeam.Controllers
 
         private async Task LanguageExecuted()
         {
-            await KTApp.Navigation.PushAsync(new Views.LanguagePage());
+            await KTApp.Navigation.PushAsync(new LanguagePage());
         }
 
         private async Task CreditsExecuted()
         {
-            await KTApp.Navigation.PushAsync(new Views.RemerciementPage());
+            await KTApp.Navigation.PushAsync(new RemerciementPage());
         }
 
         private async Task VersionExecuted()
         {
-            await KTApp.Navigation.PushAsync(new Views.VersionPage());
+            await KTApp.Navigation.PushAsync(new VersionPage());
         }
 
         private readonly IHandleCommands<ReorderTeamsCommand> _reorderTeamsCommandHandler;

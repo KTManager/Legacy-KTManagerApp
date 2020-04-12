@@ -7,6 +7,7 @@ using KillTeam.Commands.Handlers;
 
 using KillTeam.Services;
 using KillTeam.ViewModels;
+using KillTeam.Views;
 using Microsoft.EntityFrameworkCore;
 using Plugin.Share;
 using Plugin.Share.Abstractions;
@@ -14,12 +15,12 @@ using Xamarin.Forms;
 
 namespace KillTeam.Controllers
 {
-    public class TeamController : BindableObject
+    public class TeamDetailsController : BindableObject
     {
-        public BindableProperty ItemProperty = BindableProperty.Create(nameof(Item), typeof(TeamViewModel), typeof(TeamController));
-        public TeamViewModel Item
+        public BindableProperty ItemProperty = BindableProperty.Create(nameof(Item), typeof(TeamDetailsViewModel), typeof(TeamDetailsController));
+        public TeamDetailsViewModel Item
         {
-            get => (TeamViewModel)GetValue(ItemProperty);
+            get => (TeamDetailsViewModel)GetValue(ItemProperty);
             set => SetValue(ItemProperty, value);
         }
 
@@ -36,7 +37,7 @@ namespace KillTeam.Controllers
 
         private ToolbarItem _errors;
 
-        public TeamController(IList<ToolbarItem> toolbarItems, string teamId,
+        public TeamDetailsController(IList<ToolbarItem> toolbarItems, string teamId,
             IHandleCommands<DeleteTeamCommand> deleteTeamCommandHandler,
             IHandleCommands<RenameTeamCommand> renameTeamCommandHandler,
             IHandleCommands<DeleteMemberCommand> deleteMemberCommandHandler,
@@ -86,14 +87,12 @@ namespace KillTeam.Controllers
         {
             AddMember = new Command(async () => await AddMemberExecuted());
             ReorderMembers = new Command(ReorderMembersExecuted);
-            OpenMember = new Command(async e => await OpenMemberExecuted(e as TeamMemberViewModel));
-            DeleteMember = new Command(async e => await DeleteMemberExecuted(e as TeamMemberViewModel));
-            SelectMember = new Command(async e => await SelectMemberExecuted(e as TeamMemberViewModel));
+            OpenMember = new Command(async e => await OpenMemberExecuted(e as TeamDetailsMemberViewModel));
+            DeleteMember = new Command(async e => await DeleteMemberExecuted(e as TeamDetailsMemberViewModel));
+            SelectMember = new Command(async e => await SelectMemberExecuted(e as TeamDetailsMemberViewModel));
             EditName = new Command(async () => await EditNameExecuted());
             EditRoster = new Command(async () => await EditRosterExecuted());
             Delete = new Command(async () => await DeleteExecuted());
-
-
         }
 
         public async Task Refresh()
@@ -124,8 +123,8 @@ namespace KillTeam.Controllers
                 .Include(e => e.Faction)
                 .FirstAsync();
 
-            Item = new TeamViewModel(team.Id, team.Name, team.Cost, team.Faction.Name, team.Roster);
-            team.Members.OrderBy(o => o.Position).ToList().ForEach(y => Item.Members.Add(new TeamMemberViewModel(y.Id, y.Name, y.Cost, y.ShortWeaponLevel, y.Selected)));
+            Item = new TeamDetailsViewModel(team.Id, team.Name, team.Cost, team.Faction.Name, team.Roster);
+            team.Members.OrderBy(o => o.Position).ToList().ForEach(y => Item.Members.Add(new TeamDetailsMemberViewModel(y.Id, y.Name, y.Cost, y.ShortWeaponLevel, y.Selected)));
 
             UpdateErrors(team.Errors);
         }
@@ -141,18 +140,18 @@ namespace KillTeam.Controllers
             _reorderMembersCommandHandler.Handle(new ReorderMembersCommand(Item.Members.Select(x => x.Id).ToList()));
         }
 
-        private async Task OpenMemberExecuted(TeamMemberViewModel member)
+        private async Task OpenMemberExecuted(TeamDetailsMemberViewModel member)
         {
             await KTApp.Navigation.PushAsync(new Views.MembrePage(member.Id));
         }
 
-        private async Task DeleteMemberExecuted(TeamMemberViewModel member)
+        private async Task DeleteMemberExecuted(TeamDetailsMemberViewModel member)
         {
             _deleteMemberCommandHandler.Handle(new DeleteMemberCommand(member.Id));
             await Refresh();
         }
 
-        private async Task SelectMemberExecuted(TeamMemberViewModel member)
+        private async Task SelectMemberExecuted(TeamDetailsMemberViewModel member)
         {
             _toggleSelectedCommandHandler.Handle(new ToggleMemberSelectedCommand(member.Id, member.IsSelected));
             await UpdateTeamCost();
@@ -255,7 +254,7 @@ namespace KillTeam.Controllers
         private async Task DeleteExecuted()
         {
             _deleteTeamCommandHandler.Handle(new DeleteTeamCommand(Item.Id));
-            //await KTApp.Navigation.PushAsync(new Views.TeamsView()); //TODO : UI/UX Rewriting. To reactivate !
+            await KTApp.Navigation.PushAsync(new Teams());
         }
 
         private readonly string _itemId;

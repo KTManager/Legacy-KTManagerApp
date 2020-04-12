@@ -6,6 +6,7 @@ using KillTeam.Commands;
 using KillTeam.Commands.Handlers;
 using KillTeam.Services;
 using KillTeam.ViewModels;
+using KillTeam.Views;
 using Microsoft.EntityFrameworkCore;
 using Xamarin.Forms;
 
@@ -53,7 +54,7 @@ namespace KillTeam.Controllers
             var teamId = _createTeamCommandHandler.Handle(new CreateTeamCommand(faction.Id));
 
             await KTApp.Navigation.PopModalAsync(true);
-            await KTApp.Navigation.PushAsync(new Views.Team(teamId));
+            await KTApp.Navigation.PushAsync(new TeamDetails(teamId));
         }
 
         private readonly IHandleCommands<string, CreateTeamCommand> _createTeamCommandHandler;

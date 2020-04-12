@@ -11,13 +11,22 @@ namespace KillTeam.Commands.Handlers
     {
         public async void Handle(CreateMemberCommand command)
         {
-            var teamId = command.TeamId;
-            var profileId = command.ProfileId;
+            try
+            {
 
-            var member = await Member.CreateFrom(teamId, profileId);
+                var teamId = command.TeamId;
+                var profileId = command.ProfileId;
 
-            KTContext.Db.Entry(member).State = EntityState.Added;
-            KTContext.Db.SaveChanges();
+                var member = await Member.CreateFrom(teamId, profileId);
+
+                KTContext.Db.Entry(member).State = EntityState.Added;
+                KTContext.Db.SaveChanges();
+            }
+            catch (Exception e)
+            {
+                Console.WriteLine(e);
+                throw;
+            }
         }
     }
 }

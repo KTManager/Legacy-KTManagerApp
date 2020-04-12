@@ -8,17 +8,17 @@
              xmlns:renderedViews="clr-namespace:Sharpnado.Presentation.Forms.RenderedViews;assembly=Sharpnado.Presentation.Forms"
              xmlns:behaviors="clr-namespace:KillTeam.Behaviors;assembly=KillTeam"
              mc:Ignorable="d"
-             x:Class="KillTeam.Views.Team"
+             x:Class="KillTeam.Views.TeamDetails"
              Title="{Binding Item.FormattedNameCost}"
-             x:Name="This">
+             x:Name="cpTeamDetails">
     <ContentPage.Resources>
         <ResourceDictionary>
-            <DataTemplate x:Key="MemberDataTemplate" x:DataType="{x:Type viewModels:TeamMemberViewModel}">
+            <DataTemplate x:Key="MemberDataTemplate" x:DataType="{x:Type viewModels:TeamDetailsMemberViewModel}">
                 <ViewCell>
                     <SwipeView>
                         <renderedViews:MaterialFrame>
                             <renderedViews:MaterialFrame.GestureRecognizers>
-                                <!--<TapGestureRecognizer Command="{Binding Source={RelativeSource AncestorType={x:Type ContentPage}}, Path=BindingContext.OpenTeam}" CommandParameter="{Binding .}" />-->
+                                <TapGestureRecognizer Command="{Binding Source={x:Reference cpTeamDetails}, Path=BindingContext.OpenMember}" CommandParameter="{Binding .}" />
                             </renderedViews:MaterialFrame.GestureRecognizers>
                             <Grid>
                                 <Grid.RowDefinitions>
@@ -47,7 +47,7 @@
                                        FontSize="Small" />
 
                                 <Switch Grid.Row="0" Grid.Column="2" Grid.RowSpan="2"
-                                        IsVisible="{Binding Source={x:Reference This}, Path=BindingContext.Item.IsRoster}"
+                                        IsVisible="{Binding Source={x:Reference cpTeamDetails}, Path=BindingContext.Item.IsRoster}"
                                         IsToggled="{Binding IsSelected}"
                                         VerticalOptions="Center"
                                         IsEnabled="True"
@@ -62,7 +62,7 @@
                                     <ImageButton BackgroundColor="LightPink"
                                                  Source="delete.png"
                                                  Padding="0,25"
-                                                 Command="{Binding Source={x:Reference This}, Path=BindingContext.DeleteMember}" CommandParameter="{Binding .}"/>
+                                                 Command="{Binding Source={x:Reference cpTeamDetails}, Path=BindingContext.DeleteMember}" CommandParameter="{Binding .}"/>
                                 </SwipeItemView>
                             </SwipeItems>
                         </SwipeView.RightItems>
@@ -124,7 +124,7 @@
                         IsEnabled="True"
                         HorizontalOptions="EndAndExpand">
                     <Switch.Behaviors>
-                        <behaviors:SwitchBehavior Command="{Binding ToggleRoster}" />
+                        <behaviors:SwitchBehavior Command="{Binding EditRoster}" />
                     </Switch.Behaviors>
                 </Switch>
             </StackLayout>

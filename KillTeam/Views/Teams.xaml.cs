@@ -40,7 +40,7 @@ namespace KillTeam.Views
             catch (Exception e)
             {
                 Crashes.TrackError(e);
-                await DisplayAlert("Error", "An error occured during the page loading.", "Ok");
+                await DisplayAlert("Error", "An error occured during the data loading.", "Ok");
             }
         }
     }

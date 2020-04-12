@@ -548,7 +548,6 @@ namespace KillTeam.Models
 
         public static async Task<Member> CreateFrom(string teamId, string modelProfileId)
         {
-
             ModelProfile declinaison = KTContext.Db.ModelProfiles
                 .Where(e => e.Id == modelProfileId)
                 .Include(m => m.CostOverrides)
@@ -587,6 +586,7 @@ namespace KillTeam.Models
             membre.Position = KTContext.Db.Members
             .Where(m => m.TeamId == teamId)
             .Select(a => a.Position)
+            .ToList()
             .DefaultIfEmpty(0)
             .Max() + 1;
 

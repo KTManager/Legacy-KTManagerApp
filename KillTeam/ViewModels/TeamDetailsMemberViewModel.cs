@@ -1,6 +1,6 @@
 ﻿namespace KillTeam.ViewModels
 {
-    public class TeamMemberViewModel
+    public class TeamDetailsMemberViewModel
     {
         public string Id { get; set; }
 
@@ -12,7 +12,7 @@
 
         public bool IsSelected { get; set; }
 
-        public TeamMemberViewModel(string id, string name, int cost, string description, bool isSelected)
+        public TeamDetailsMemberViewModel(string id, string name, int cost, string description, bool isSelected)
         {
             Id = id;
             Name = name;

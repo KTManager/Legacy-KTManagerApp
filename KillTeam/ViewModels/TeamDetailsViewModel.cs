@@ -6,7 +6,7 @@ using System.Runtime.CompilerServices;
 
 namespace KillTeam.ViewModels
 {
-    public class TeamViewModel : INotifyPropertyChanged
+    public class TeamDetailsViewModel : INotifyPropertyChanged
     {
         private int _cost;
         private string _name;
@@ -70,16 +70,16 @@ namespace KillTeam.ViewModels
         public bool ShowFaction => Name != Faction;
         public bool ShowCostOnly => !ShowFaction;
 
-        public ObservableCollection<TeamMemberViewModel> Members { get; set; }
+        public ObservableCollection<TeamDetailsMemberViewModel> Members { get; set; }
 
-        public TeamViewModel(string id, string name, int cost, string faction, bool isRoster)
+        public TeamDetailsViewModel(string id, string name, int cost, string faction, bool isRoster)
         {
             Id = id;
             Name = name;
             Cost = cost;
             Faction = faction;
             IsRoster = isRoster;
-            Members = new ObservableCollection<TeamMemberViewModel>();
+            Members = new ObservableCollection<TeamDetailsMemberViewModel>();
             Errors = new List<string>();
         }
 

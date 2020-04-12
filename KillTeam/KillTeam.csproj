@@ -329,8 +329,8 @@
     <Compile Update="Views\PsychiqueView.xaml.cs">
       <DependentUpon>PsychiqueView.xaml</DependentUpon>
     </Compile>
-    <Compile Update="Views\Team.xaml.cs">
-      <DependentUpon>Team.xaml</DependentUpon>
+    <Compile Update="Views\TeamDetails.xaml.cs">
+      <DependentUpon>TeamDetails.xaml</DependentUpon>
     </Compile>
     <Compile Update="Views\Teams.xaml.cs">
       <DependentUpon>Teams.xaml</DependentUpon>

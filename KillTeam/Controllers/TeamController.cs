@@ -62,18 +62,6 @@ namespace KillTeam.Controllers
             ToolbarItems = toolbarItems;
             ToolbarItems.Add(new ToolbarItem
             {
-                Text = Properties.Resources.PDF,
-                Order = ToolbarItemOrder.Secondary,
-                Command = new Command(async () => await PdfExecuted())
-            });
-            ToolbarItems.Add(new ToolbarItem
-            {
-                Text = Properties.Resources.InGame,
-                Order = ToolbarItemOrder.Secondary,
-                Command = new Command(async () => await InGameExecuted())
-            });
-            ToolbarItems.Add(new ToolbarItem
-            {
                 Text = Properties.Resources.Tactiques,
                 Order = ToolbarItemOrder.Secondary,
                 Command = new Command(async () => await TacticsExecuted())
@@ -97,7 +85,7 @@ namespace KillTeam.Controllers
         private void InitializeCommands()
         {
             AddMember = new Command(async () => await AddMemberExecuted());
-            ReorderMembers = new Command(async e => await ReorderMembersExecuted());
+            ReorderMembers = new Command(ReorderMembersExecuted);
             OpenMember = new Command(async e => await OpenMemberExecuted(e as TeamMemberViewModel));
             DeleteMember = new Command(async e => await DeleteMemberExecuted(e as TeamMemberViewModel));
             SelectMember = new Command(async e => await SelectMemberExecuted(e as TeamMemberViewModel));
@@ -148,16 +136,14 @@ namespace KillTeam.Controllers
             await Refresh();
         }
 
-        private async Task ReorderMembersExecuted()
+        private void ReorderMembersExecuted()
         {
             _reorderMembersCommandHandler.Handle(new ReorderMembersCommand(Item.Members.Select(x => x.Id).ToList()));
-            await Refresh();
         }
 
         private async Task OpenMemberExecuted(TeamMemberViewModel member)
         {
             await KTApp.Navigation.PushAsync(new Views.MembrePage(member.Id));
-            await Refresh();
         }
 
         private async Task DeleteMemberExecuted(TeamMemberViewModel member)
@@ -206,19 +192,9 @@ namespace KillTeam.Controllers
             });
         }
 
-        private async Task PdfExecuted()
-        {
-            await KTApp.Navigation.PushAsync(new Views.ChoixImpression(Item.Id));
-        }
-
-        private async Task InGameExecuted()
-        {
-            await KTApp.Navigation.PushAsync(new Views.InGamePage(Item.Id));
-        }
-
         private async Task TacticsExecuted()
         {
-            await KTApp.Navigation.PushAsync(new Views.ListTactiquePage(Item.Id));
+            //await KTApp.Navigation.PushAsync(new Views.ListTactiquePage(Item.Id)); //TODO : UI/UX Rewriting. To reactivate !
         }
 
         private async Task ErrorsExecuted()
@@ -279,7 +255,7 @@ namespace KillTeam.Controllers
         private async Task DeleteExecuted()
         {
             _deleteTeamCommandHandler.Handle(new DeleteTeamCommand(Item.Id));
-            await KTApp.Navigation.PushAsync(new Views.TeamsView());
+            //await KTApp.Navigation.PushAsync(new Views.TeamsView()); //TODO : UI/UX Rewriting. To reactivate !
         }
 
         private readonly string _itemId;

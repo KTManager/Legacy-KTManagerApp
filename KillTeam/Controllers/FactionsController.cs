@@ -53,7 +53,7 @@ namespace KillTeam.Controllers
             var teamId = _createTeamCommandHandler.Handle(new CreateTeamCommand(faction.Id));
 
             await KTApp.Navigation.PopModalAsync(true);
-            await KTApp.Navigation.PushAsync(new Views.TeamView(teamId));
+            await KTApp.Navigation.PushAsync(new Views.Team(teamId));
         }
 
         private readonly IHandleCommands<string, CreateTeamCommand> _createTeamCommandHandler;

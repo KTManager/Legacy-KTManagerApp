@@ -1,0 +1,156 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:viewModels="clr-namespace:KillTeam.ViewModels;assembly=KillTeam"
+             xmlns:properties="clr-namespace:KillTeam.Properties;assembly=KillTeam"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             xmlns:renderedViews="clr-namespace:Sharpnado.Presentation.Forms.RenderedViews;assembly=Sharpnado.Presentation.Forms"
+             xmlns:behaviors="clr-namespace:KillTeam.Behaviors;assembly=KillTeam"
+             mc:Ignorable="d"
+             x:Class="KillTeam.Views.Team"
+             Title="{Binding Item.FormattedNameCost}"
+             x:Name="This">
+    <ContentPage.Resources>
+        <ResourceDictionary>
+            <DataTemplate x:Key="MemberDataTemplate" x:DataType="{x:Type viewModels:TeamMemberViewModel}">
+                <ViewCell>
+                    <SwipeView>
+                        <renderedViews:MaterialFrame>
+                            <renderedViews:MaterialFrame.GestureRecognizers>
+                                <!--<TapGestureRecognizer Command="{Binding Source={RelativeSource AncestorType={x:Type ContentPage}}, Path=BindingContext.OpenTeam}" CommandParameter="{Binding .}" />-->
+                            </renderedViews:MaterialFrame.GestureRecognizers>
+                            <Grid>
+                                <Grid.RowDefinitions>
+                                    <RowDefinition Height="*"/>
+                                    <RowDefinition Height="*"/>
+                                </Grid.RowDefinitions>
+                                <Grid.ColumnDefinitions>
+                                    <ColumnDefinition Width="*"/>
+                                    <ColumnDefinition Width="Auto"/>
+                                    <ColumnDefinition Width="Auto"/>
+                                </Grid.ColumnDefinitions>
+
+                                <Label Text="{Binding Name}"
+                                       Grid.Row="0" Grid.Column="0" 
+                                       HorizontalOptions="Start" VerticalOptions="Center"
+                                       FontSize="Medium" />
+
+                                <Label Text="{Binding Cost}" 
+                                       Grid.Row="0" Grid.Column="1" Grid.RowSpan="2"
+                                       HorizontalOptions="Center" VerticalOptions="Center"
+                                       FontSize="Large"/>
+
+                                <Label Text="{Binding Description}" 
+                                       Grid.Row="1" Grid.Column="0"
+                                       HorizontalOptions="Start" VerticalOptions="Center"
+                                       FontSize="Small" />
+
+                                <Switch Grid.Row="0" Grid.Column="2" Grid.RowSpan="2"
+                                        IsVisible="{Binding Source={x:Reference This}, Path=BindingContext.Item.IsRoster}"
+                                        IsToggled="{Binding IsSelected}"
+                                        VerticalOptions="Center"
+                                        IsEnabled="True"
+                                        HorizontalOptions="End"
+                                        Toggled="SwitchSelected_Toggled"/>
+                            </Grid>
+                        </renderedViews:MaterialFrame>
+
+                        <SwipeView.RightItems>
+                            <SwipeItems>
+                                <SwipeItemView>
+                                    <ImageButton BackgroundColor="LightPink"
+                                                 Source="delete.png"
+                                                 Padding="0,25"
+                                                 Command="{Binding Source={x:Reference This}, Path=BindingContext.DeleteMember}" CommandParameter="{Binding .}"/>
+                                </SwipeItemView>
+                            </SwipeItems>
+                        </SwipeView.RightItems>
+                    </SwipeView>
+                </ViewCell>
+            </DataTemplate>
+        </ResourceDictionary>
+    </ContentPage.Resources>
+
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="*" />
+            <RowDefinition Height="Auto" />
+        </Grid.RowDefinitions>
+
+        <Grid Margin="5">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="Auto" />
+                <RowDefinition Height="Auto" />
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="Auto"/>
+            </Grid.ColumnDefinitions>
+
+            <Entry Placeholder="{x:Static properties:Resources.Nom}"
+                   VerticalOptions="Center"
+                   Text="{Binding Item.Name}"
+                   ReturnType="Done" 
+                   IsSpellCheckEnabled="false" 
+                   IsTextPredictionEnabled="false" 
+                   Grid.Row="0" Grid.ColumnSpan="2"
+                   ReturnCommand="{Binding EditName}">
+            </Entry>
+            <Label Margin="5,0"
+                   VerticalOptions="Center"
+                   FontSize="Medium"
+                   Grid.Row="1" Grid.Column="0"
+                   IsVisible="{Binding Item.ShowFaction}"
+                   Text="{Binding Item.FormattedFactionCost}" />
+            <Label Margin="5,0"
+                   VerticalOptions="Center"
+                   FontSize="Medium"
+                   Grid.Row="1" Grid.Column="0"
+                   IsVisible="{Binding Item.ShowCostOnly}"
+                   Text="{Binding Item.FormattedCost}"/>
+            <StackLayout Orientation="Horizontal"
+                         Grid.Row="1" Grid.Column="1"
+                         VerticalOptions="Center">
+                <Label Text="{x:Static properties:Resources.Roster}" 
+                       LineBreakMode="NoWrap" 
+                       VerticalOptions="Center"
+                       Style="{DynamicResource ListItemTextStyle}" 
+                       FontSize="Medium" />
+                <Switch x:Name="TglRoster"
+                        IsToggled="{Binding Item.IsRoster}"
+                        VerticalOptions="Center"
+                        IsEnabled="True"
+                        HorizontalOptions="EndAndExpand">
+                    <Switch.Behaviors>
+                        <behaviors:SwitchBehavior Command="{Binding ToggleRoster}" />
+                    </Switch.Behaviors>
+                </Switch>
+            </StackLayout>
+        </Grid>
+
+        <renderedViews:HorizontalListView ItemTemplate="{StaticResource MemberDataTemplate}"
+                                          ItemsSource="{Binding Item.Members}"
+                                          Style="{StaticResource ThreeLineRows}"
+                                          EnableDragAndDrop="True"
+                                          ColumnCount="1"
+                                          Grid.Row="1"
+                                          DragAndDropEndedCommand="{Binding ReorderMembers}"/>
+
+
+        <StackLayout Orientation="Vertical"
+                     Grid.Row="2"
+                     Margin="0,0,0,5">
+            <Button Text="{x:Static properties:Resources.AddMembreButton}"
+                    WidthRequest="200"
+                    VerticalOptions="Center" HorizontalOptions="Center"
+                    Command="{Binding AddMember}" />
+
+            <Button Text="{x:Static properties:Resources.Supprimer}"
+                    WidthRequest="200"
+                    VerticalOptions="Center" HorizontalOptions="Center"
+                    Clicked="Button_OnClicked" />
+        </StackLayout>
+    </Grid>
+</ContentPage>

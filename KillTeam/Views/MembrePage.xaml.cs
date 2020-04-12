@@ -204,12 +204,12 @@ namespace KillTeam.Views
 
         async void ButtonChangeTraitClicked(object sender, EventArgs e)
         {
-            await Navigation.PushAsync(new ListTraitPage(membreId));
+            await Navigation.PushAsync(new Traits(membreId));
         }
 
         async void ButtonChangePsyClicked(object sender, EventArgs e)
         {
-            await Navigation.PushAsync(new ListPsychiquePage(membreId));
+            //await Navigation.PushAsync(new ListPsychiquePage(membreId)); //TODO : UI/UX Rewriting. To reactivate !
         }
 
         async void OnButtonDuplicateClicked(object sender, EventArgs e)

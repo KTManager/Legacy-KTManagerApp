@@ -1,0 +1,86 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:viewModels="clr-namespace:KillTeam.ViewModels"
+             xmlns:properties="clr-namespace:KillTeam.Properties"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             xmlns:renderedViews="clr-namespace:Sharpnado.Presentation.Forms.RenderedViews;assembly=Sharpnado.Presentation.Forms"
+             mc:Ignorable="d"
+             x:Class="KillTeam.Views.Teams"
+             Title="Kill Team Manager"
+             x:Name="CpTeams">
+    <ContentPage.Resources>
+        <ResourceDictionary>
+            <DataTemplate x:Key="TeamDataTemplate" x:DataType="{x:Type viewModels:TeamsViewModel}">
+                <ViewCell>
+                    <SwipeView>
+                        <renderedViews:MaterialFrame>
+                            <renderedViews:MaterialFrame.GestureRecognizers>
+                                <TapGestureRecognizer Command="{Binding Source={x:Reference CpTeams}, Path=BindingContext.OpenTeam}" CommandParameter="{Binding .}" />
+                            </renderedViews:MaterialFrame.GestureRecognizers>
+                            <Grid>
+                                <Grid.RowDefinitions>
+                                    <RowDefinition Height="*"/>
+                                    <RowDefinition Height="*"/>
+                                </Grid.RowDefinitions>
+                                <Grid.ColumnDefinitions>
+                                    <ColumnDefinition Width="*"/>
+                                    <ColumnDefinition Width="Auto"/>
+                                </Grid.ColumnDefinitions>
+
+                                <Label Text="{Binding Name}"
+                                   Grid.Row="0" Grid.Column="0" 
+                                   HorizontalOptions="Start" VerticalOptions="Center"
+                                   FontSize="Medium" />
+
+                                <Label Text="{Binding Cost}" 
+                                   Grid.Row="0" Grid.Column="1" Grid.RowSpan="2"
+                                   HorizontalOptions="Center" VerticalOptions="Center"
+                                   FontSize="Large"/>
+
+                                <Label Text="{Binding FactionAndMembersCount}" 
+                                   Grid.Row="1" Grid.Column="0"
+                                   HorizontalOptions="Start" VerticalOptions="Center"
+                                   FontSize="Small" />
+                            </Grid>
+                        </renderedViews:MaterialFrame>
+
+                        <SwipeView.RightItems>
+                            <SwipeItems>
+                                <SwipeItemView>
+                                    <ImageButton BackgroundColor="LightPink"
+                                                 Source="delete.png"
+                                                 Padding="0,25"
+                                                 Command="{Binding Source={x:Reference This}, Path=BindingContext.Delete}" CommandParameter="{Binding .}"/>
+                                </SwipeItemView>
+                            </SwipeItems>
+                        </SwipeView.RightItems>
+                    </SwipeView>
+                </ViewCell>
+            </DataTemplate>
+        </ResourceDictionary>
+    </ContentPage.Resources>
+
+    <ContentPage.Content>
+        <Grid>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="*" />
+                <RowDefinition Height="Auto" />
+            </Grid.RowDefinitions>
+            <renderedViews:HorizontalListView ItemTemplate="{StaticResource TeamDataTemplate}"
+                                              ItemsSource="{Binding Items}"
+                                              Style="{StaticResource ThreeLineRows}"
+                                              EnableDragAndDrop="True"
+                                              ColumnCount="1"
+                                              DragAndDropEndedCommand="{Binding ReorderTeam}"/>
+
+            <Button Text="{x:Static properties:Resources.AddEquipeButton}"
+                    Grid.Row="1"
+                    WidthRequest="200"
+                    VerticalOptions="Center" HorizontalOptions="Center"
+                    Margin="0,0,0,5"
+                    Command="{Binding AddTeam}" />
+        </Grid>
+    </ContentPage.Content>
+</ContentPage>

@@ -2,8 +2,6 @@
 using System.IO;
 using CarouselView.FormsPlugin.iOS;
 using Foundation;
-using Syncfusion.ListView.XForms.iOS;
-using Syncfusion.SfNumericUpDown.XForms.iOS;
 using UIKit;
 using Xamarin.Forms;
 
@@ -28,12 +26,8 @@ namespace KillTeam.iOS
         {
             SQLitePCL.Batteries_V2.Init(); // TODO(jakemco): do we even need this?
             global::Xamarin.Forms.Forms.Init();
-            SfListViewRenderer.Init();
+
             CarouselViewRenderer.Init();
-            
-            new Syncfusion.SfNavigationDrawer.XForms.iOS.SfNavigationDrawerRenderer();
-            
-            SfNumericUpDownRenderer.Init();
 
             // Old verions of the app stored the DB in a different spot, fix it up here
             MoveLegacyDB();

@@ -215,6 +215,7 @@
   </data>
   <data name="English" xml:space="preserve">
     <value>English</value>
+    <comment>Do not translate !</comment>
   </data>
   <data name="Erreurs" xml:space="preserve">
     <value>Errors</value>
@@ -239,6 +240,7 @@
   </data>
   <data name="French" xml:space="preserve">
     <value>French</value>
+    <comment>Do not translate !</comment>
   </data>
   <data name="General" xml:space="preserve">
     <value>General</value>
@@ -248,6 +250,7 @@
   </data>
   <data name="German" xml:space="preserve">
     <value>German</value>
+    <comment>Do not translate !</comment>
   </data>
   <data name="InGame" xml:space="preserve">
     <value>In Game</value>

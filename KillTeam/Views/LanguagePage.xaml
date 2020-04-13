@@ -1,13 +1,13 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             xmlns:i18n="clr-namespace:KillTeam.Services;assembly=KillTeam"
+             xmlns:properties="clr-namespace:KillTeam.Properties;assembly=KillTeam"
              x:Class="KillTeam.Views.LanguagePage"
              Title="{Binding Title}">
 
     <StackLayout>
         <StackLayout Orientation="Horizontal" Padding="10">
-            <Label Text="{i18n:Translate French}"
+            <Label Text="{x:Static properties:Resources.French}"
                                 LineBreakMode="NoWrap" 
                                 Style="{DynamicResource ListItemTextStyle}"
                                 FontSize="16" />
@@ -17,7 +17,7 @@
                                 HorizontalOptions="EndAndExpand"></Switch>
         </StackLayout>
         <StackLayout Orientation="Horizontal" Padding="10">
-            <Label Text="{i18n:Translate German}"
+            <Label Text="{x:Static properties:Resources.German}"
                                 LineBreakMode="NoWrap" 
                                 Style="{DynamicResource ListItemTextStyle}"
                                 FontSize="16" />
@@ -27,7 +27,7 @@
                                 HorizontalOptions="EndAndExpand"></Switch>
         </StackLayout>
         <StackLayout Orientation="Horizontal" Padding="10">
-            <Label Text="{i18n:Translate English}"
+            <Label Text="{x:Static properties:Resources.English}"
                                 LineBreakMode="NoWrap" 
                                 Style="{DynamicResource ListItemTextStyle}"
                                 FontSize="16" />

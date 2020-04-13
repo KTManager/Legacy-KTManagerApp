@@ -1,54 +1,24 @@
 ﻿using KillTeam.Services;
 using KillTeam.Views;
 using System.ComponentModel;
+using System.Globalization;
 using Xamarin.Forms;
 
 namespace KillTeam.ViewModels
 {
     public class LanguageViewModel : INotifyPropertyChanged
     {
+        private CultureInfo currentCulture = CultureInfo.CurrentUICulture;
         public bool German
         {
-            get
-            {
-                bool german = false;
-                if (TranslateExtension.Ci.TwoLetterISOLanguageName == "de")
-                {
-                    german = true;
-                }
-                return german;
-            }
+            get => Equals(currentCulture, CultureInfo.GetCultureInfo("de-DE"));
             set
             {
                 PropertyChanged?.Invoke(this, new PropertyChangedEventArgs("German"));
-                if (value)
+                if (value && !Equals(CultureInfo.CurrentUICulture, CultureInfo.GetCultureInfo("de-DE")))
                 {
                     French = false;
-                    English = false;
-                    ChangeLanguage("de");
-                }
-            }
-        }
-
-        public bool English
-        {
-            get
-            {
-                bool english = false;
-                if (TranslateExtension.Ci.TwoLetterISOLanguageName == "en")
-                {
-                    english = true;
-                }
-                return english;
-            }
-            set
-            {
-                PropertyChanged?.Invoke(this, new PropertyChangedEventArgs("English"));
-                if (value)
-                {
-                    French = false;
-                    //German = false;
-                    ChangeLanguage("en");
+                    ChangeLanguage("de-DE");
                 }
             }
         }
@@ -57,35 +27,44 @@ namespace KillTeam.ViewModels
         {
             get
             {
-                bool french = false;
-                if (TranslateExtension.Ci.TwoLetterISOLanguageName == "fr")
-                {
-                    french = true;
-                }
-                return french;
+                return currentCulture.Name == "fr-FR";
             }
             set
             {
                 PropertyChanged?.Invoke(this, new PropertyChangedEventArgs("French"));
-                if (value)
+                if (value && !Equals(CultureInfo.CurrentUICulture, CultureInfo.GetCultureInfo("fr-FR")))
                 {
-                    English = false;
-                    //German = false;
-                    ChangeLanguage("fr");
+                    German = false;
+                    ChangeLanguage("fr-FR");
                 }
             }
         }
 
-        public void ChangeLanguage(string langue)
+        public bool English
         {
-            if(TranslateExtension.Ci.TwoLetterISOLanguageName != langue)
+            get => !German && !French;
+            set
             {
-                Xamarin.Forms.Application.Current.Properties["Language"] = langue;
-                TranslateExtension.Ci = new System.Globalization.CultureInfo(langue);
-                StringExtensions.Ci = new System.Globalization.CultureInfo(langue);
-                Page mainPage = new NavigationPage(new Teams());
-                Application.Current.MainPage = mainPage;
+                PropertyChanged?.Invoke(this, new PropertyChangedEventArgs("English"));
+                if (value && !Equals(CultureInfo.CurrentUICulture, CultureInfo.GetCultureInfo("en-US")))
+                {
+                    French = false;
+                    German = false;
+                    ChangeLanguage("en-US");
+                }
             }
+        }
+
+        public async void ChangeLanguage(string langue)
+        {
+            var culture = CultureInfo.GetCultureInfo(langue);
+            CultureInfo.CurrentCulture = culture;
+            CultureInfo.CurrentUICulture = culture;
+            Application.Current.Properties["Language"] = langue;
+            await Application.Current.SavePropertiesAsync();
+
+            Page mainPage = new NavigationPage(new Teams());
+            Application.Current.MainPage = mainPage;
         }
 
         public event PropertyChangedEventHandler PropertyChanged;

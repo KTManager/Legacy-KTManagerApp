@@ -1,22 +1,26 @@
-﻿using System;
-using System.Collections.Generic;
+﻿using System.Globalization;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
 using KillTeam.Views;
 using KillTeam.Services;
 using KillTeam.Themes;
+using Xamarin.Essentials;
+
+#if !DEBUG
 using Microsoft.AppCenter;
 using Microsoft.AppCenter.Analytics;
 using Microsoft.AppCenter.Crashes;
-using Xamarin.Essentials;
+#endif
 
 [assembly: XamlCompilation(XamlCompilationOptions.Compile)]
 namespace KillTeam
 {
     public partial class KTApp : Application
     {
+#if !DEBUG
         private const string ANDROID_SECRET = "6d5c2bed-d805-4345-904d-37da46738451";
         private const string IOS_SECRET = "656a7e6a-4297-44af-bb5e-3672dc169434";
+#endif
 
         public static INavigation Navigation => Current.MainPage.Navigation;
 
@@ -25,13 +29,14 @@ namespace KillTeam
             InitializeComponent();
             VersionTracking.Track();
 
-            if (Xamarin.Forms.Application.Current.Properties.ContainsKey("Language"))
+            if (Application.Current.Properties.ContainsKey("Language"))
             {
-                string langue = (string)Xamarin.Forms.Application.Current.Properties["Language"];
-                if (!string.IsNullOrEmpty(langue))
+                var language = (string)Application.Current.Properties["Language"];
+                if (!string.IsNullOrEmpty(language))
                 {
-                    TranslateExtension.Ci = new System.Globalization.CultureInfo(langue);
-                    StringExtensions.Ci = new System.Globalization.CultureInfo(langue);
+                    var culture = CultureInfo.GetCultureInfo(language);
+                    CultureInfo.CurrentCulture = culture;
+                    CultureInfo.CurrentUICulture = culture;
                 }
             }
 
@@ -62,7 +67,7 @@ namespace KillTeam
         {
             // Handle when your app resumes
         }
-        
+
         void SetTheme(Theme theme)
         {
             var mergedDictionaries = Current.Resources.MergedDictionaries;

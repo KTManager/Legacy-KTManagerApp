@@ -8,9 +8,6 @@ namespace KillTeam.Services
 {
     public static class StringExtensions
     {
-
-        public static CultureInfo Ci { get; set; }
-
         public static string FirstCharToUpper(this string input)
         {
             switch (input)
@@ -27,10 +24,6 @@ namespace KillTeam.Services
             string[] Available = new string[] { "En", "Fr", "De" };
             string ret = null;
             string lang = CultureInfo.CurrentUICulture.TwoLetterISOLanguageName.FirstCharToUpper();
-            if (Ci != null)
-            {
-                lang = Ci.TwoLetterISOLanguageName.FirstCharToUpper();
-            }
 
             try
             {

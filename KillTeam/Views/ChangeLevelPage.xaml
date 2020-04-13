@@ -4,20 +4,20 @@
              xmlns:views="clr-namespace:KillTeam.Views"
              x:Class="KillTeam.Views.ChangeLevelPage"
              Title="{Binding Title}"
-             xmlns:i18n="clr-namespace:KillTeam.Services;assembly=KillTeam">
+             xmlns:properties="clr-namespace:KillTeam.Properties;assembly=KillTeam">
     <StackLayout>
-        <Label FontSize="20" Text="{i18n:Translate TitleSpe}"/>
+        <Label FontSize="20" Text="{x:Static properties:Resources.TitleSpe}"/>
         <Picker ItemsSource="{Binding Specialites}" 
                 SelectedIndex="{Binding SelectedSpecialiteIndex}"
                 SelectedIndexChanged="Picker_SelectedIndexChanged"></Picker>
         <Label x:Name="NiveauLabel" FontSize="20" />
-        <Label FontSize="20" Text="{i18n:Translate PouvoirGeneralisteTitle}"
+        <Label FontSize="20" Text="{x:Static properties:Resources.PouvoirGeneralisteTitle}"
                 IsVisible="{Binding GeneraliteVisible}" />
         <Picker ItemsSource="{Binding PouvoirsGeneralite}" 
                 IsVisible="{Binding GeneraliteVisible}"
                 SelectedIndex="{Binding PouvoirsGeneraliteIndex}"
                 SelectedIndexChanged="Picker_PouvoirsGeneraliteIndexChanged"></Picker>
-        <Label  FontSize="20" Text="{i18n:Translate PouvoirMaitreSpeTitle}"
+        <Label  FontSize="20" Text="{x:Static properties:Resources.PouvoirMaitreSpeTitle}"
                 IsVisible="{Binding MaitreSpeVisible}" />
         <Picker ItemsSource="{Binding PouvoirMaitreSpe}" 
                 IsVisible="{Binding MaitreSpeVisible}"

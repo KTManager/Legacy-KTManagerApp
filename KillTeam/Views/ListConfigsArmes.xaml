@@ -3,21 +3,21 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
             x:Class="KillTeam.Views.ListConfigsArmes"
              x:Name="PageListConfigsArmes"
-             xmlns:i18n="clr-namespace:KillTeam.Services;assembly=KillTeam">
+             xmlns:properties="clr-namespace:KillTeam.Properties;assembly=KillTeam">
     <ContentPage.Content>
         <ScrollView>
             <StackLayout>
-                <Label x:Name="ConfigLabel" Text="{i18n:Translate ArmeConfigTitle}" FontSize="20" />
+                <Label x:Name="ConfigLabel" Text="{x:Static properties:Resources.ArmeConfigTitle}" FontSize="20" />
                 <StackLayout x:Name="LayoutConfig">
 
                 </StackLayout>
                 <BoxView x:Name="ArmesOptionnellesSep" Color="Black" HeightRequest="1"></BoxView>
-                <Label x:Name="ArmesOptionnellesLabel" Text="{i18n:Translate ArmeOptionnelleTitle}" FontSize="20" />
+                <Label x:Name="ArmesOptionnellesLabel" Text="{x:Static properties:Resources.ArmeOptionnelleTitle}" FontSize="20" />
                 <StackLayout x:Name="LayoutOptionnelles">
 
                 </StackLayout>
                 <BoxView x:Name="ArmesFixeSep" Color="Black" HeightRequest="1"></BoxView>
-                <Label x:Name="ArmesFixeLabel" Text="{i18n:Translate ArmeObligatoireTitle}" FontSize="20" />
+                <Label x:Name="ArmesFixeLabel" Text="{x:Static properties:Resources.ArmeObligatoireTitle}" FontSize="20" />
                 <StackLayout x:Name="LayoutFixe">
 
                 </StackLayout>

@@ -2,14 +2,14 @@
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="KillTeam.Views.MembrePage"
-             xmlns:i18n="clr-namespace:KillTeam.Services;assembly=KillTeam"
+             xmlns:properties="clr-namespace:KillTeam.Properties;assembly=KillTeam"
              Title="{Binding Title}">
     <ContentPage.ToolbarItems>
-        <ToolbarItem Text="{i18n:Translate Dupliquer}" Order="Secondary" Clicked="OnButtonDuplicateClicked"/>
+        <ToolbarItem Text="{x:Static properties:Resources.Dupliquer}" Order="Secondary" Clicked="OnButtonDuplicateClicked"/>
     </ContentPage.ToolbarItems>
     <ScrollView>
         <StackLayout Padding="10">
-            <Entry Placeholder="{i18n:Translate Nom}" 
+            <Entry Placeholder="{x:Static properties:Resources.Nom}" 
                    Text="{Binding Name}"
                    ReturnType="Done" 
                    IsSpellCheckEnabled="false" 
@@ -34,15 +34,15 @@
                     <RowDefinition Height="Auto" />
                     <RowDefinition Height="Auto" />
                 </Grid.RowDefinitions>
-                <Label Text="{i18n:Translate M}" Grid.Row="0" Grid.Column="0"/>
-                <Label Text="{i18n:Translate CC}" Grid.Row="0" Grid.Column="1"/>
-                <Label Text="{i18n:Translate CT}" Grid.Row="0" Grid.Column="2"/>
-                <Label Text="{i18n:Translate F}" Grid.Row="0" Grid.Column="3"/>
-                <Label Text="{i18n:Translate E}" Grid.Row="0" Grid.Column="4"/>
-                <Label Text="{i18n:Translate PV}" Grid.Row="0" Grid.Column="5"/>
-                <Label Text="{i18n:Translate A}" Grid.Row="0" Grid.Column="6"/>
-                <Label Text="{i18n:Translate Cd}" Grid.Row="0" Grid.Column="7"/>
-                <Label Text="{i18n:Translate Sv}" Grid.Row="0" Grid.Column="8"/>
+                <Label Text="{x:Static properties:Resources.M}" Grid.Row="0" Grid.Column="0"/>
+                <Label Text="{x:Static properties:Resources.CC}" Grid.Row="0" Grid.Column="1"/>
+                <Label Text="{x:Static properties:Resources.CT}" Grid.Row="0" Grid.Column="2"/>
+                <Label Text="{x:Static properties:Resources.F}" Grid.Row="0" Grid.Column="3"/>
+                <Label Text="{x:Static properties:Resources.E}" Grid.Row="0" Grid.Column="4"/>
+                <Label Text="{x:Static properties:Resources.PV}" Grid.Row="0" Grid.Column="5"/>
+                <Label Text="{x:Static properties:Resources.A}" Grid.Row="0" Grid.Column="6"/>
+                <Label Text="{x:Static properties:Resources.Cd}" Grid.Row="0" Grid.Column="7"/>
+                <Label Text="{x:Static properties:Resources.Sv}" Grid.Row="0" Grid.Column="8"/>
 
                 <Label Text="{Binding ModelProfile.Movement}" Grid.Row="1" Grid.Column="0" />
                 <Label Text="{Binding ModelProfile.WeaponSkill}" Grid.Row="1" Grid.Column="1" />
@@ -76,7 +76,7 @@
                        HorizontalOptions="Start">
                 </Entry>
                 
-                <Label Text="{i18n:Translate Recrue}"
+                <Label Text="{x:Static properties:Resources.Recrue}"
                     LineBreakMode="NoWrap" 
                     Style="{DynamicResource ListItemTextStyle}"
                     VerticalOptions="Center"
@@ -89,7 +89,7 @@
                     VerticalOptions="Center"
                     HorizontalOptions="Start"></Switch>
                 
-                <Label Text="{i18n:Translate Convalescence}" 
+                <Label Text="{x:Static properties:Resources.Convalescence}" 
                     LineBreakMode="NoWrap" 
                     Style="{DynamicResource ListItemTextStyle}" 
                     VerticalOptions="Center"
@@ -103,24 +103,24 @@
                     HorizontalOptions="Start"></Switch>
             </StackLayout>
 
-        <Button Text="{i18n:Translate ListAptitudeButton}"
+        <Button Text="{x:Static properties:Resources.ListAptitudeButton}"
                 VerticalOptions="End"
                 Clicked="OnButtonAptitudeCliked" />
-            <Button Text="{i18n:Translate ChangeArme}"
+            <Button Text="{x:Static properties:Resources.ChangeArme}"
                     VerticalOptions="End"
                     Clicked="OnButtonArmeCliked" />
-            <Button Text="{i18n:Translate ChangeNiveau}"
+            <Button Text="{x:Static properties:Resources.ChangeNiveau}"
                     VerticalOptions="End"
                     Clicked="ChangeNiveauClicked" />
-            <Button Text="{i18n:Translate ChangeTrait}"
+            <Button Text="{x:Static properties:Resources.ChangeTrait}"
                     VerticalOptions="End"
                     Clicked="ButtonChangeTraitClicked"
                     IsVisible="{Binding ModelProfile.IsCommander}"/>
-            <Button Text="{i18n:Translate ChoisirPsy}"
+            <Button Text="{x:Static properties:Resources.ChoisirPsy}"
                     VerticalOptions="End"
                     Clicked="ButtonChangePsyClicked"
                     IsVisible="{Binding ModelProfile.IsPsyker}"/>
-            <Button Text="{i18n:Translate Supprimer}"
+            <Button Text="{x:Static properties:Resources.Supprimer}"
                     VerticalOptions="End"
                     Clicked="ButtonSupprimerClicked" />
         </StackLayout>

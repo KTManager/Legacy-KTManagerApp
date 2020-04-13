@@ -22,6 +22,7 @@
 
   <ItemGroup>
     <Compile Remove="Services\PdfGeneration.cs" />
+    <Compile Remove="Services\TranslateExtension.cs" />
     <Compile Remove="Views\ListTactiquePage.xaml.cs" />
   </ItemGroup>
 

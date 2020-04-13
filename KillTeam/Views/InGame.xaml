@@ -2,13 +2,13 @@
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
               xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
               xmlns:cv="clr-namespace:CarouselView.FormsPlugin.Abstractions;assembly=CarouselView.FormsPlugin.Abstractions"
-             xmlns:i18n="clr-namespace:KillTeam.Services;assembly=KillTeam"
              xmlns:views="clr-namespace:KillTeam.Views"
              xmlns:local="clr-namespace:KillTeam.Services"
+             xmlns:properties="clr-namespace:KillTeam.Properties;assembly=KillTeam"
              x:Class="KillTeam.Views.InGame"
              Title="{Binding Title}">
     <ContentPage.ToolbarItems>
-        <ToolbarItem Text="{i18n:Translate Tactiques}" Icon="Ressources/drawable/cible.png" Order="Primary" Clicked="OnButtonTacticalClicked"/>
+        <ToolbarItem Text="{x:Static properties:Resources.Tactiques}" Icon="Ressources/drawable/cible.png" Order="Primary" Clicked="OnButtonTacticalClicked"/>
     </ContentPage.ToolbarItems>
     <ContentPage.Resources>
         <ResourceDictionary>
@@ -68,15 +68,15 @@
                                     <RowDefinition Height="Auto" />
                                     <RowDefinition Height="Auto" />
                                 </Grid.RowDefinitions>
-                                <Label Text="{i18n:Translate M}" Grid.Row="0" Grid.Column="0" Style="{DynamicResource GridHeader}"/>
-                                <Label Text="{i18n:Translate CC}" Grid.Row="0" Grid.Column="1" Style="{DynamicResource GridHeader}"/>
-                                <Label Text="{i18n:Translate CT}" Grid.Row="0" Grid.Column="2" Style="{DynamicResource GridHeader}"/>
-                                <Label Text="{i18n:Translate F}" Grid.Row="0" Grid.Column="3" Style="{DynamicResource GridHeader}"/>
-                                <Label Text="{i18n:Translate E}" Grid.Row="0" Grid.Column="4" Style="{DynamicResource GridHeader}"/>
-                                <Label Text="{i18n:Translate PV}" Grid.Row="0" Grid.Column="5" Style="{DynamicResource GridHeader}"/>
-                                <Label Text="{i18n:Translate A}" Grid.Row="0" Grid.Column="6" Style="{DynamicResource GridHeader}"/>
-                                <Label Text="{i18n:Translate Cd}" Grid.Row="0" Grid.Column="7" Style="{DynamicResource GridHeader}"/>
-                                <Label Text="{i18n:Translate Sv}" Grid.Row="0" Grid.Column="8" Style="{DynamicResource GridHeader}"/>
+                                <Label Text="{x:Static properties:Resources.M}" Grid.Row="0" Grid.Column="0" Style="{DynamicResource GridHeader}"/>
+                                <Label Text="{x:Static properties:Resources.CC}" Grid.Row="0" Grid.Column="1" Style="{DynamicResource GridHeader}"/>
+                                <Label Text="{x:Static properties:Resources.CT}" Grid.Row="0" Grid.Column="2" Style="{DynamicResource GridHeader}"/>
+                                <Label Text="{x:Static properties:Resources.F}" Grid.Row="0" Grid.Column="3" Style="{DynamicResource GridHeader}"/>
+                                <Label Text="{x:Static properties:Resources.E}" Grid.Row="0" Grid.Column="4" Style="{DynamicResource GridHeader}"/>
+                                <Label Text="{x:Static properties:Resources.PV}" Grid.Row="0" Grid.Column="5" Style="{DynamicResource GridHeader}"/>
+                                <Label Text="{x:Static properties:Resources.A}" Grid.Row="0" Grid.Column="6" Style="{DynamicResource GridHeader}"/>
+                                <Label Text="{x:Static properties:Resources.Cd}" Grid.Row="0" Grid.Column="7" Style="{DynamicResource GridHeader}"/>
+                                <Label Text="{x:Static properties:Resources.Sv}" Grid.Row="0" Grid.Column="8" Style="{DynamicResource GridHeader}"/>
 
                                 <Label Text="{Binding ModelProfile.Movement}" Grid.Row="1" Grid.Column="0" />
                                 <Label Text="{Binding ModelProfile.WeaponSkill}" Grid.Row="1" Grid.Column="1" />
@@ -122,7 +122,7 @@
                                 Text="{Binding FormattedConvRecruit}"/>
 
                             <Label 
-                                Text="{i18n:Translate Psyker}"
+                                Text="{x:Static properties:Resources.Psyker}"
                                          IsVisible="{Binding IsPsyker}"/>
                             <Label Text="{Binding PsykerDesc}"
                                          IsVisible="{Binding IsPsyker}"/>
@@ -131,7 +131,7 @@
                                          IsVisible="{Binding IsPsyker}">
                             </StackLayout>
                             <Label 
-                                Text="{i18n:Translate Aptitudes}"
+                                Text="{x:Static properties:Resources.Aptitudes}"
                                          IsVisible="{Binding HasAbilities}"/>
                             <StackLayout BindingContext="{Binding Abilities}"
                                          BindingContextChanged="StackLayout_BindingContextChanged"

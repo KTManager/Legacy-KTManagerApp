@@ -32,19 +32,19 @@ namespace KillTeam.Views
             {
                 if (showModal)
                 {
-                    var title = Equals(TranslateExtension.Ci, CultureInfo.GetCultureInfo("fr"))
+                    var title = Equals(CultureInfo.CurrentCulture, CultureInfo.GetCultureInfo("fr-FR"))
                         ? "Quelle version ?"
                         : "Which Version?";
 
-                    var message = Equals(TranslateExtension.Ci, CultureInfo.GetCultureInfo("fr"))
+                    var message = Equals(CultureInfo.CurrentCulture, CultureInfo.GetCultureInfo("fr-FR"))
                         ? "La mise à jour 2.1.4 a pu provoqué la suppression de vos équipes. Souhaitez-vous les récupérer, ou utiliser celle que vous avez créé dans la version 2.1.4 ?"
                         : "There was a bug in v2.1.4 that lost teams before that. Would you like to restore your teams from before, or keep the new ones you made in 2.1.4?";
 
-                    var accept = Equals(TranslateExtension.Ci, CultureInfo.GetCultureInfo("fr"))
+                    var accept = Equals(CultureInfo.CurrentCulture, CultureInfo.GetCultureInfo("fr-FR"))
                         ? "Récupérer mes anciennes équipes"
                         : "Use Old Teams";
 
-                    var cancel = Equals(TranslateExtension.Ci, CultureInfo.GetCultureInfo("fr"))
+                    var cancel = Equals(CultureInfo.CurrentCulture, CultureInfo.GetCultureInfo("fr-FR"))
                         ? "Garder mes équipes v2.1.4"
                         : "Keep Teams from v2.1.4";
 

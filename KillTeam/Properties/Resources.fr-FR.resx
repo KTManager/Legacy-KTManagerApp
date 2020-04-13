@@ -214,7 +214,8 @@
     <value>E</value>
   </data>
   <data name="English" xml:space="preserve">
-    <value>Anglais</value>
+    <value>English</value>
+    <comment>Do not translate !</comment>
   </data>
   <data name="Erreurs" xml:space="preserve">
     <value>Erreurs</value>
@@ -239,6 +240,7 @@
   </data>
   <data name="French" xml:space="preserve">
     <value>Français</value>
+    <comment>Do not translate !</comment>
   </data>
   <data name="General" xml:space="preserve">
     <value>Général</value>
@@ -247,7 +249,8 @@
     <value>Générer le PDF</value>
   </data>
   <data name="German" xml:space="preserve">
-    <value>Allemand</value>
+    <value>Deutsch</value>
+    <comment>Do not translate !</comment>
   </data>
   <data name="InGame" xml:space="preserve">
     <value>En jeu</value>
@@ -269,7 +272,7 @@ Aimez-vous Kill Team Manager? Aidez-nous à créer MyMiniReport.</value>
     <value>Notre nouvelle application sur KickStarter !</value>
   </data>
   <data name="Language" xml:space="preserve">
-    <value>Langage</value>
+    <value>Langue</value>
   </data>
   <data name="ListAptitudeButton" xml:space="preserve">
     <value>Liste Aptitudes</value>

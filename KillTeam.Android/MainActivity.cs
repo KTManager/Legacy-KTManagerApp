@@ -37,17 +37,10 @@ namespace KillTeam.Droid
             SharpnadoInitializer.Initialize();
 
             LoadApplication(new KTApp());
-            var ci = DependencyService.Get<Localize>().GetCurrentCultureInfo();            
+
             AndroidPlaystoreAudit.Instance.UsesUntilPrompt = 1;
             AndroidPlaystoreAudit.Instance.TimeUntilPrompt = new TimeSpan(2, 0, 0, 0);
 
-            if(ci.TwoLetterISOLanguageName == "fr")
-            {
-                AndroidPlaystoreAudit.Instance.DontRemindButtonText = "Ne plus afficher";
-                AndroidPlaystoreAudit.Instance.RemindLaterButtonText = "Me rappeler plus tard";
-                AndroidPlaystoreAudit.Instance.ReviewAppStoreButtonText = "Noter l'application";
-                AndroidPlaystoreAudit.Instance.PromptTitle = "Pourriez-vous prendre une minute pour noter cette application?";
-            }
             AndroidPlaystoreAudit.Instance.Run(this);
 
             GameHelper.Helper = new GameHelper(this);

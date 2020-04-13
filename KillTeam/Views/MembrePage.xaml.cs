@@ -4,6 +4,7 @@ using KillTeam.Services;
 using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
+using System.Globalization;
 using System.Linq;
 using KillTeam.Commands;
 using KillTeam.Commands.Handlers;
@@ -34,7 +35,7 @@ namespace KillTeam.Views
             var evenStyle = Application.Current.Resources["GridRowEven"] as Style;
             var oddStyle = Application.Current.Resources["GridRowOdd"] as Style;
             var labelStyle = evenStyle;
-            bool isGerman = TranslateExtension.Ci.TwoLetterISOLanguageName == "de";
+            bool isGerman = Equals(CultureInfo.CurrentCulture, CultureInfo.GetCultureInfo("de-DE"));
 
             ArmeGrid.RowDefinitions.Clear();
             ArmeGrid.ColumnDefinitions.Clear();

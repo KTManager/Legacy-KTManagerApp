@@ -1,0 +1,91 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="KillTeam.Views.PdfOptions"
+             xmlns:properties="clr-namespace:KillTeam.Properties;assembly=KillTeam">
+    <ContentPage.Content>
+        <StackLayout Orientation="Vertical">
+            <Label Text="{x:Static properties:Resources.ChoixImpression}"  FontSize="20"/>
+
+            <StackLayout Orientation="Horizontal"
+                         VerticalOptions="Start">
+                <Label Text="{x:Static properties:Resources.PdfOfficiel}" 
+                       LineBreakMode="NoWrap" 
+                       Style="{DynamicResource ListItemTextStyle}" 
+                       FontSize="16" />
+                <Switch IsToggled="{Binding PdfOfficiel}"
+                        IsEnabled="True"
+                        x:Name="PdfOfficiel"
+                        Toggled="OfficialPdfToggled"
+                        HorizontalOptions="EndAndExpand"></Switch>
+            </StackLayout>
+            <StackLayout Orientation="Horizontal"
+                         VerticalOptions="Start">
+                <Label Text="{x:Static properties:Resources.RegroupeMembres}" 
+                       LineBreakMode="NoWrap"
+                       Style="{DynamicResource ListItemTextStyle}" 
+                       FontSize="16" />
+                <Switch IsToggled="{Binding RegrouperIdentique}"
+                        IsEnabled="True"
+                        x:Name="RegrouperIdentique"
+                        Toggled="NoneOfficialPdfToggled"
+                        HorizontalOptions="EndAndExpand"></Switch>
+            </StackLayout>
+            <StackLayout Orientation="Horizontal">
+                <Label Text="{x:Static properties:Resources.DetailsAptitudes}" 
+                       LineBreakMode="NoWrap" 
+                       Style="{DynamicResource ListItemTextStyle}" 
+                       FontSize="16" />
+                <Switch IsToggled="{Binding DetailAptitudes}"
+                        IsEnabled="True"
+                        x:Name="DetailAptitudes"
+                        Toggled="NoneOfficialPdfToggled"
+                        HorizontalOptions="EndAndExpand"></Switch>
+            </StackLayout>
+            <StackLayout Orientation="Horizontal">
+                <Label Text="{x:Static properties:Resources.RegrouperAptitudes}" 
+                       LineBreakMode="NoWrap"
+                       Style="{DynamicResource ListItemTextStyle}" 
+                       FontSize="16" />
+                <Switch IsToggled="{Binding RegrouperAptitudes}"
+                        IsEnabled="True"
+                        x:Name="RegrouperAptitudes"
+                        Toggled="NoneOfficialPdfToggled"
+                        HorizontalOptions="EndAndExpand"></Switch>
+            </StackLayout>
+            <StackLayout Orientation="Horizontal">
+                <Label Text="{x:Static properties:Resources.Tactiques}" 
+                       LineBreakMode="NoWrap" 
+                       Style="{DynamicResource ListItemTextStyle}" 
+                       FontSize="16" />
+                <Switch IsToggled="{Binding Tactiques}"
+                        IsEnabled="True"
+                        x:Name="Tactiques"
+                        Toggled="NoneOfficialPdfToggled"
+                        HorizontalOptions="EndAndExpand"></Switch>
+            </StackLayout>
+            <StackLayout Orientation="Horizontal">
+                <Label Text="{x:Static properties:Resources.XPRecrueConvalescence}" 
+                       LineBreakMode="NoWrap" 
+                       Style="{DynamicResource ListItemTextStyle}" 
+                       FontSize="16" />
+                <Switch IsToggled="{Binding XPRecrueConvalescence}"
+                        IsEnabled="True"
+                        x:Name="XPRecrueConvalescence"
+                        Toggled="NoneOfficialPdfToggled"
+                        HorizontalOptions="EndAndExpand"></Switch>
+            </StackLayout>
+
+            <Button Text="{x:Static properties:Resources.GeneratePDF}"
+                    VerticalOptions="End"
+                    Clicked="OnButtonPdfClicked"
+                    x:Name="PDFButton"
+                    IsVisible="{Binding GenerateButtonVisible, Mode=TwoWay}"/>
+            <Button Text="{x:Static properties:Resources.Ouvrir}"
+                    VerticalOptions="End"
+                    Clicked="OpenButton_Clicked"
+                    x:Name="OpenButton"
+                    IsVisible="{Binding OpenButtonVisible, Mode=TwoWay}"/>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

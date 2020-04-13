@@ -225,7 +225,7 @@ namespace KillTeam.Controllers
 
         private async Task PdfExecuted()
         {
-            //await KTApp.Navigation.PushAsync(new Views.PdfChoices(Item.Id)); //TODO : UI/UX Rewriting. To reactivate !
+            await KTApp.Navigation.PushAsync(new PdfOptions(Item.Id));
         }
 
         private async Task InGameExecuted()

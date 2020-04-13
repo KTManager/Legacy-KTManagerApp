@@ -22,13 +22,11 @@
 
   <ItemGroup>
     <Compile Remove="Services\PdfGeneration.cs" />
-    <Compile Remove="Views\ChoixImpression.xaml.cs" />
     <Compile Remove="Views\InGamePage.xaml.cs" />
     <Compile Remove="Views\ListTactiquePage.xaml.cs" />
   </ItemGroup>
 
   <ItemGroup>
-    <EmbeddedResource Remove="Views\ChoixImpression.xaml" />
     <EmbeddedResource Remove="Views\InGamePage.xaml" />
     <EmbeddedResource Remove="Views\ListTactiquePage.xaml" />
   </ItemGroup>
@@ -319,6 +317,9 @@
     </Compile>
     <Compile Update="Themes\LightTheme.xaml.cs">
       <DependentUpon>LightTheme.xaml</DependentUpon>
+    </Compile>
+    <Compile Update="Views\PdfOptions.xaml.cs">
+      <DependentUpon>PdfOptions.xaml</DependentUpon>
     </Compile>
     <Compile Update="Views\FactionsView.xaml.cs">
       <DependentUpon>FactionsView.xaml</DependentUpon>

@@ -209,7 +209,7 @@ namespace KillTeam.Views
 
         async void ButtonChangePsyClicked(object sender, EventArgs e)
         {
-            //await Navigation.PushAsync(new ListPsychiquePage(membreId)); //TODO : UI/UX Rewriting. To reactivate !
+            await Navigation.PushAsync(new Psychics(membreId));
         }
 
         async void OnButtonDuplicateClicked(object sender, EventArgs e)

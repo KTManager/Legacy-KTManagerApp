@@ -606,12 +606,12 @@ namespace KillTeam.Models
             if (declinaison.NumberOfPsychicsManifestationPerRound > 0)
             {
                 Psychic psybolt = KTContext.Db.Psychics.Find("1");
-                MemberPsychic mp = new MemberPsychic() { Psychic = psybolt, PsychicId = psybolt.Id, Member = membre, MemberId = membre.Id };
+                MemberPsychic mp = new MemberPsychic() { Id = Guid.NewGuid().ToString(), Psychic = psybolt, PsychicId = psybolt.Id, Member = membre, MemberId = membre.Id };
                 KTContext.Db.Entry(mp).State = EntityState.Added;
 
                 foreach (Psychic psy in KTContext.Db.Psychics.Where(p => p.ModelProfileId == declinaison.Id).Take(declinaison.NumberOfKnownPsychics))
                 {
-                    MemberPsychic mp2 = new MemberPsychic() { Psychic = psy, PsychicId = psy.Id, Member = membre, MemberId = membre.Id };
+                    MemberPsychic mp2 = new MemberPsychic() { Id = Guid.NewGuid().ToString(), Psychic = psy, PsychicId = psy.Id, Member = membre, MemberId = membre.Id };
                     KTContext.Db.Entry(mp2).State = EntityState.Added;
                 }
             }

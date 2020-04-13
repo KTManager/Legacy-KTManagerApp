@@ -151,7 +151,7 @@ namespace KillTeam.Controllers
 
         private async Task AddMemberExecuted()
         {
-            await KTApp.Navigation.PushModalAsync(new Views.ModelsView(Item.Id));
+            await KTApp.Navigation.PushModalAsync(new Views.Models(Item.Id));
             await Refresh();
         }
 
@@ -162,7 +162,7 @@ namespace KillTeam.Controllers
 
         private async Task OpenMemberExecuted(TeamDetailsMemberViewModel member)
         {
-            await KTApp.Navigation.PushAsync(new Views.MembrePage(member.Id));
+            await KTApp.Navigation.PushAsync(new Views.MemberDetails(member.Id));
         }
 
         private async Task DeleteMemberExecuted(TeamDetailsMemberViewModel member)
@@ -235,7 +235,7 @@ namespace KillTeam.Controllers
 
         private async Task ErrorsExecuted()
         {
-            await KTApp.Navigation.PushAsync(new Views.ListErreurPage(Item.Id));
+            await KTApp.Navigation.PushAsync(new Views.Errors(Item.Id));
         }
 
         private async Task UpdateTeamCost()

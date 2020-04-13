@@ -2,7 +2,7 @@
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              xmlns:viewModels="clr-namespace:KillTeam.ViewModels;assembly=KillTeam"
-             x:Class="KillTeam.Views.ModelsView"
+             x:Class="KillTeam.Views.Models"
              x:Name="CpModels">
     <StackLayout  Padding="10">
         <ListView ItemsSource="{Binding Items}"

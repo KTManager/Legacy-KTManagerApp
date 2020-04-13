@@ -40,7 +40,7 @@ namespace KillTeam
                 }
             }
 
-            MainPage = new NavigationPage(new DatabaseLoadPage());
+            MainPage = new NavigationPage(new DatabaseLoad());
         }
 
         protected override void OnStart()

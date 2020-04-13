@@ -9,9 +9,9 @@ using Xamarin.Forms.Xaml;
 namespace KillTeam.Views
 {
     [XamlCompilation(XamlCompilationOptions.Compile)]
-    public partial class ModelsView
+    public partial class Models
     {
-        public ModelsView(string teamId)
+        public Models(string teamId)
         {
             try
             {

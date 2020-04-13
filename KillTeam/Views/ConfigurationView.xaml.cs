@@ -8,10 +8,10 @@ namespace KillTeam.Views
 	[XamlCompilation(XamlCompilationOptions.Compile)]
 	public partial class ConfigurationView : ContentView
     {
-        private ListConfigsArmes parentPage;
+        private WeaponsConfig parentPage;
         private EventHandler<ToggledEventArgs> OnSwitch;
 
-        public ConfigurationView(ListConfigsArmes page, EventHandler<ToggledEventArgs> OnSwitch)
+        public ConfigurationView(WeaponsConfig page, EventHandler<ToggledEventArgs> OnSwitch)
 		{
             parentPage = page;
             this.OnSwitch = OnSwitch;

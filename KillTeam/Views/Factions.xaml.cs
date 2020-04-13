@@ -5,9 +5,9 @@ using Xamarin.Forms.Xaml;
 namespace KillTeam.Views
 {
     [XamlCompilation(XamlCompilationOptions.Compile)]
-    public partial class FactionsView
+    public partial class Factions
     {
-        public FactionsView()
+        public Factions()
         {
             InitializeComponent();
             On<Xamarin.Forms.PlatformConfiguration.iOS>().SetUseSafeArea(true);

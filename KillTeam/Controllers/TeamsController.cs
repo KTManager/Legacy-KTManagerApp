@@ -89,7 +89,7 @@ namespace KillTeam.Controllers
 
         private void AddTeamExecuted()
         {
-            KTApp.Navigation.PushModalAsync(new Views.FactionsView());
+            KTApp.Navigation.PushModalAsync(new Views.Factions());
         }
 
         private async Task ReorderTeamExecuted()
@@ -118,12 +118,12 @@ namespace KillTeam.Controllers
 
         private async Task CreditsExecuted()
         {
-            await KTApp.Navigation.PushAsync(new RemerciementPage());
+            await KTApp.Navigation.PushAsync(new Credits());
         }
 
         private async Task VersionExecuted()
         {
-            await KTApp.Navigation.PushAsync(new VersionPage());
+            await KTApp.Navigation.PushAsync(new Versions());
         }
 
         private readonly IHandleCommands<ReorderTeamsCommand> _reorderTeamsCommandHandler;

@@ -72,7 +72,7 @@ namespace KillTeam.Views
         private void ArmesBindingContext(object sender, EventArgs e)
         {
             Grid grid = sender as Grid;
-            MembrePage.FillArmGrid(grid, grid.BindingContext as Member);
+            MemberDetails.FillArmGrid(grid, grid.BindingContext as Member);
         }
 
         void OnPositionSelected(object sender, PositionSelectedEventArgs e)
@@ -102,7 +102,7 @@ namespace KillTeam.Views
             List<Ability> aptitudes = stackLayout.BindingContext as List<Ability>;
             foreach (Ability aptitude in aptitudes)
             {
-                stackLayout.Children.Add(new AptitudeView { BindingContext = aptitude });
+                stackLayout.Children.Add(new AbilityDetails { BindingContext = aptitude });
             }
         }
 

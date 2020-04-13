@@ -317,14 +317,38 @@
     <Compile Update="Themes\LightTheme.xaml.cs">
       <DependentUpon>LightTheme.xaml</DependentUpon>
     </Compile>
+    <Compile Update="Views\AbilityDetails.xaml.cs">
+      <DependentUpon>AbilityDetails.xaml</DependentUpon>
+    </Compile>
+    <Compile Update="Views\DatabaseLoad.xaml.cs">
+      <DependentUpon>DatabaseLoad.xaml</DependentUpon>
+    </Compile>
     <Compile Update="Views\InGame.xaml.cs">
       <DependentUpon>InGame.xaml</DependentUpon>
+    </Compile>
+    <Compile Update="Views\Errors.xaml.cs">
+      <DependentUpon>Errors.xaml</DependentUpon>
+    </Compile>
+    <Compile Update="Views\Abilities.xaml.cs">
+      <DependentUpon>Abilities.xaml</DependentUpon>
+    </Compile>
+    <Compile Update="Views\WeaponsConfig.xaml.cs">
+      <DependentUpon>WeaponsConfig.xaml</DependentUpon>
+    </Compile>
+    <Compile Update="Views\Specialists.xaml.cs">
+      <DependentUpon>Specialists.xaml</DependentUpon>
+    </Compile>
+    <Compile Update="Views\MemberDetails.xaml.cs">
+      <DependentUpon>MemberDetails.xaml</DependentUpon>
     </Compile>
     <Compile Update="Views\PdfOptions.xaml.cs">
       <DependentUpon>PdfOptions.xaml</DependentUpon>
     </Compile>
-    <Compile Update="Views\FactionsView.xaml.cs">
-      <DependentUpon>FactionsView.xaml</DependentUpon>
+    <Compile Update="Views\Factions.xaml.cs">
+      <DependentUpon>Factions.xaml</DependentUpon>
+    </Compile>
+    <Compile Update="Views\Credits.xaml.cs">
+      <DependentUpon>Credits.xaml</DependentUpon>
     </Compile>
     <Compile Update="Views\Traits.xaml.cs">
       <DependentUpon>Traits.xaml</DependentUpon>
@@ -338,14 +362,17 @@
     <Compile Update="Views\Teams.xaml.cs">
       <DependentUpon>Teams.xaml</DependentUpon>
     </Compile>
-    <Compile Update="Views\ModelsView.xaml.cs">
-      <DependentUpon>ModelsView.xaml</DependentUpon>
+    <Compile Update="Views\Models.xaml.cs">
+      <DependentUpon>Models.xaml</DependentUpon>
     </Compile>
-    <Compile Update="Views\AptitudeCell.xaml.cs">
-      <DependentUpon>AptitudeCell.xaml</DependentUpon>
+    <Compile Update="Views\AbilityCell.xaml.cs">
+      <DependentUpon>AbilityCell.xaml</DependentUpon>
     </Compile>
     <Compile Update="Views\Psychics.xaml.cs">
       <DependentUpon>Psychics.xaml</DependentUpon>
+    </Compile>
+    <Compile Update="Views\Versions.xaml.cs">
+      <DependentUpon>Versions.xaml</DependentUpon>
     </Compile>
   </ItemGroup>
 
@@ -357,10 +384,10 @@
     <EmbeddedResource Update="Themes\DarkTheme.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
-    <EmbeddedResource Update="Views\AptitudeView.xaml">
+    <EmbeddedResource Update="Views\AbilityDetails.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
-    <EmbeddedResource Update="Views\DatabaseLoadPage.xaml">
+    <EmbeddedResource Update="Views\DatabaseLoad.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
     <EmbeddedResource Update="Views\ChangeLevelPage.xaml">
@@ -369,46 +396,43 @@
     <EmbeddedResource Update="Views\ConfigurationCell.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
-    <EmbeddedResource Update="Views\FactionsView.xaml">
-      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
-    </EmbeddedResource>
-    <EmbeddedResource Update="Views\KickStarter.xaml">
+    <EmbeddedResource Update="Views\Factions.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
     <EmbeddedResource Update="Views\LanguagePage.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
-    <EmbeddedResource Update="Views\ListAptitudePage.xaml">
+    <EmbeddedResource Update="Views\Abilities.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
-    <EmbeddedResource Update="Views\ListConfigsArmes.xaml">
+    <EmbeddedResource Update="Views\WeaponsConfig.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
     <EmbeddedResource Update="Views\Teams.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
-    <EmbeddedResource Update="Views\ModelsView.xaml">
+    <EmbeddedResource Update="Views\Models.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
-    <EmbeddedResource Update="Views\ListErreurPage.xaml">
+    <EmbeddedResource Update="Views\Errors.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
-    <EmbeddedResource Update="Views\ListSpecialitesPage.xaml">
+    <EmbeddedResource Update="Views\Specialists.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
     <EmbeddedResource Update="Views\Traits.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
-    <EmbeddedResource Update="Views\MembrePage.xaml">
+    <EmbeddedResource Update="Views\MemberDetails.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
-    <EmbeddedResource Update="Views\AptitudeCell.xaml">
+    <EmbeddedResource Update="Views\AbilityCell.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
-    <EmbeddedResource Update="Views\RemerciementPage.xaml">
+    <EmbeddedResource Update="Views\Credits.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
-    <EmbeddedResource Update="Views\VersionPage.xaml">
+    <EmbeddedResource Update="Views\Versions.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
   </ItemGroup>

@@ -540,7 +540,6 @@ namespace KillTeam.Models
                 membre.Name = membreNom;
                 equipe.Members.Add(membre);
             }
-            await KTContext.Db.SaveChangesAsync();
 
             return membre;
         }

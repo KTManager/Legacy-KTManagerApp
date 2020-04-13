@@ -43,7 +43,8 @@ namespace KillTeam.Controllers
             IHandleCommands<DeleteMemberCommand> deleteMemberCommandHandler,
             IHandleCommands<ReorderMembersCommand> reorderMembersCommandHandler,
             IHandleCommands<ToggleRosterCommand> toggleRosterCommandHandler,
-            IHandleCommands<ToggleMemberSelectedCommand> toggleSelectedCommandHandler)
+            IHandleCommands<ToggleMemberSelectedCommand> toggleSelectedCommandHandler,
+            IHandleCommands<DuplicateTeamCommand> duplicateTeamCommandHandler)
         {
             _itemId = teamId;
 
@@ -56,6 +57,7 @@ namespace KillTeam.Controllers
             _toggleRosterCommandHandler = toggleRosterCommandHandler;
             _deleteTeamCommandHandler = deleteTeamCommandHandler;
             _renameTeamCommandHandler = renameTeamCommandHandler;
+            _duplicateTeamCommandHandler = duplicateTeamCommandHandler;
         }
 
         private void InitializeToolbar(IList<ToolbarItem> toolbarItems)
@@ -72,6 +74,12 @@ namespace KillTeam.Controllers
                 Text = Properties.Resources.Partager,
                 Order = ToolbarItemOrder.Secondary,
                 Command = new Command(async () => await ShareExecuted())
+            });
+            ToolbarItems.Add(new ToolbarItem
+            {
+                Text = Properties.Resources.Dupliquer,
+                Order = ToolbarItemOrder.Secondary,
+                Command = new Command(async () => await DuplicateExecuted())
             });
 
             _errors = new ToolbarItem
@@ -191,6 +199,13 @@ namespace KillTeam.Controllers
             });
         }
 
+        private async Task DuplicateExecuted()
+        {
+
+            _duplicateTeamCommandHandler.Handle(new DuplicateTeamCommand(Item.Id));
+            await KTApp.Navigation.PushAsync(new Teams());
+        }
+
         private async Task TacticsExecuted()
         {
             //await KTApp.Navigation.PushAsync(new Views.ListTactiquePage(Item.Id)); //TODO : UI/UX Rewriting. To reactivate !
@@ -264,5 +279,6 @@ namespace KillTeam.Controllers
         private readonly IHandleCommands<ToggleRosterCommand> _toggleRosterCommandHandler;
         private readonly IHandleCommands<DeleteTeamCommand> _deleteTeamCommandHandler;
         private readonly IHandleCommands<RenameTeamCommand> _renameTeamCommandHandler;
+        private readonly IHandleCommands<DuplicateTeamCommand> _duplicateTeamCommandHandler;
     }
 }

@@ -26,7 +26,8 @@ namespace KillTeam.Views
                     new DeleteMemberCommandHandler(),
                     new ReorderMembersCommandHandler(),
                     new ToggleRosterCommandHandler(),
-                    new ToggleMemberSelectedCommandHandler());
+                    new ToggleMemberSelectedCommandHandler(),
+                    new DuplicateTeamCommandHandler());
             }
             catch (Exception e)
             {

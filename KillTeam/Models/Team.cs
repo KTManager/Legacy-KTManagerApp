@@ -244,6 +244,7 @@ namespace KillTeam.Models
 
             Team equipe = new Team()
             {
+                Id = Guid.NewGuid().ToString(),
                 Faction = baseEquipe.Faction,
                 Roster = baseEquipe.Roster
             };
@@ -262,7 +263,6 @@ namespace KillTeam.Models
             equipe.Name = equipeNom;
             equipe.Position = KTContext.Db.Teams.Count();
             KTContext.Db.Entry(equipe).State = EntityState.Added;
-            KTContext.Db.SaveChanges();
 
             foreach (Member membre in baseEquipe.Members)
             {

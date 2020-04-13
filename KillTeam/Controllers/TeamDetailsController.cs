@@ -230,7 +230,7 @@ namespace KillTeam.Controllers
 
         private async Task InGameExecuted()
         {
-            //await KTApp.Navigation.PushAsync(new Views.InGame(Item.Id)); //TODO : UI/UX Rewriting. To reactivate !
+            await KTApp.Navigation.PushAsync(new InGame(Item.Id));
         }
 
         private async Task ErrorsExecuted()

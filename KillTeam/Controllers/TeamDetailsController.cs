@@ -65,6 +65,18 @@ namespace KillTeam.Controllers
             ToolbarItems = toolbarItems;
             ToolbarItems.Add(new ToolbarItem
             {
+                Text = Properties.Resources.PDF,
+                Order = ToolbarItemOrder.Secondary,
+                Command = new Command(async () => await PdfExecuted())
+            });
+            ToolbarItems.Add(new ToolbarItem
+            {
+                Text = Properties.Resources.InGame,
+                Order = ToolbarItemOrder.Secondary,
+                Command = new Command(async () => await InGameExecuted())
+            });
+            ToolbarItems.Add(new ToolbarItem
+            {
                 Text = Properties.Resources.Tactiques,
                 Order = ToolbarItemOrder.Secondary,
                 Command = new Command(async () => await TacticsExecuted())
@@ -209,6 +221,16 @@ namespace KillTeam.Controllers
         private async Task TacticsExecuted()
         {
             //await KTApp.Navigation.PushAsync(new Views.ListTactiquePage(Item.Id)); //TODO : UI/UX Rewriting. To reactivate !
+        }
+
+        private async Task PdfExecuted()
+        {
+            //await KTApp.Navigation.PushAsync(new Views.PdfChoices(Item.Id)); //TODO : UI/UX Rewriting. To reactivate !
+        }
+
+        private async Task InGameExecuted()
+        {
+            //await KTApp.Navigation.PushAsync(new Views.InGame(Item.Id)); //TODO : UI/UX Rewriting. To reactivate !
         }
 
         private async Task ErrorsExecuted()

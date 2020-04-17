@@ -14,7 +14,7 @@
                        LineBreakMode="NoWrap" 
                        Style="{DynamicResource ListItemTextStyle}" 
                        FontSize="16" />
-                <Switch IsToggled="{Binding PdfOfficiel}"
+                <Switch IsToggled="{Binding OfficialPdf}"
                         IsEnabled="True"
                         x:Name="PdfOfficiel"
                         Toggled="OfficialPdfToggled"
@@ -26,7 +26,7 @@
                        LineBreakMode="NoWrap"
                        Style="{DynamicResource ListItemTextStyle}" 
                        FontSize="16" />
-                <Switch IsToggled="{Binding RegrouperIdentique}"
+                <Switch IsToggled="{Binding GroupIdenticalMembers}"
                         IsEnabled="True"
                         x:Name="RegrouperIdentique"
                         Toggled="NoneOfficialPdfToggled"
@@ -37,7 +37,7 @@
                        LineBreakMode="NoWrap" 
                        Style="{DynamicResource ListItemTextStyle}" 
                        FontSize="16" />
-                <Switch IsToggled="{Binding DetailAptitudes}"
+                <Switch IsToggled="{Binding AbilityDetails}"
                         IsEnabled="True"
                         x:Name="DetailAptitudes"
                         Toggled="NoneOfficialPdfToggled"
@@ -48,7 +48,7 @@
                        LineBreakMode="NoWrap"
                        Style="{DynamicResource ListItemTextStyle}" 
                        FontSize="16" />
-                <Switch IsToggled="{Binding RegrouperAptitudes}"
+                <Switch IsToggled="{Binding GroupAbilities}"
                         IsEnabled="True"
                         x:Name="RegrouperAptitudes"
                         Toggled="NoneOfficialPdfToggled"
@@ -59,7 +59,7 @@
                        LineBreakMode="NoWrap" 
                        Style="{DynamicResource ListItemTextStyle}" 
                        FontSize="16" />
-                <Switch IsToggled="{Binding Tactiques}"
+                <Switch IsToggled="{Binding Tactics}"
                         IsEnabled="True"
                         x:Name="Tactiques"
                         Toggled="NoneOfficialPdfToggled"
@@ -70,7 +70,7 @@
                        LineBreakMode="NoWrap" 
                        Style="{DynamicResource ListItemTextStyle}" 
                        FontSize="16" />
-                <Switch IsToggled="{Binding XPRecrueConvalescence}"
+                <Switch IsToggled="{Binding XpRecruitConvalescence}"
                         IsEnabled="True"
                         x:Name="XPRecrueConvalescence"
                         Toggled="NoneOfficialPdfToggled"

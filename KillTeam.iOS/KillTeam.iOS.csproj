@@ -75,6 +75,7 @@
     <AppExtensionDebugBundleId />
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="ApplePrintService.cs" />
     <Compile Include="Cloud.cs" />
     <Compile Include="Contracts\IDescribed.cs" />
     <Compile Include="Contracts\IIdentifiable.cs" />
@@ -274,6 +275,9 @@
     <Reference Include="System" />
     <Reference Include="System.Xml" />
     <Reference Include="System.Core" />
+    <Reference Include="Xamarin.Forms.Core, Version=2.0.0.0, Culture=neutral, PublicKeyToken=null">
+      <HintPath>..\..\..\.nuget\packages\xamarin.forms\3.1.0.697729\lib\netstandard2.0\Xamarin.Forms.Core.dll</HintPath>
+    </Reference>
     <Reference Include="Xamarin.iOS" />
   </ItemGroup>
   <ItemGroup>
@@ -312,7 +316,7 @@
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\iOS\Xamarin.iOS.CSharp.targets" />
   <ItemGroup>
     <ProjectReference Include="..\KillTeam\KillTeam.csproj">
-      <Project>{F3DFE0B5-AFA9-40DE-BCBE-9F8A18C728E1}</Project>
+      <Project>{A4133398-F8D1-4395-9C79-F3CF2DC687E2}</Project>
       <Name>KillTeam</Name>
     </ProjectReference>
   </ItemGroup>
@@ -324,5 +328,10 @@
     <Folder Include="Assets.xcassets\FeuilleOrdre_en.dataset\" />
     <Folder Include="Assets.xcassets\FeuilleOrdre_fr.dataset\" />
     <Folder Include="Assets.xcassets\kickstarter.imageset\" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\KTMList.css">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </BundleResource>
   </ItemGroup>
 </Project>

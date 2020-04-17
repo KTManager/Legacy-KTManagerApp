@@ -172,6 +172,7 @@
     <AndroidAsset Include="Assets\Equipe_de.pdf" />
     <AndroidAsset Include="Assets\Equipe_en.pdf" />
     <AndroidAsset Include="Assets\Equipe_fr.pdf" />
+    <AndroidAsset Include="Assets\KTMList.css" />
     <None Include="google-services.json" />
     <None Include="google-services-dev.json" />
     <None Include="Resources\AboutResources.txt" />

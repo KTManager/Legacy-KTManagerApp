@@ -1,0 +1,192 @@
+﻿@using KillTeam.Models
+@using KillTeam.Views
+
+@model GeneratedList
+
+@{ var odd = true; }
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Kill Team @Model.Name - Kill Team @Model.Faction</title>
+    <link rel="stylesheet" type="text/css" href="KTMList.css" media="screen, print" />
+</head>
+<body>
+<div class="page">
+    <div class="header">
+        <div class="header__value" id="header__faction">@Model.Faction</div>
+        <div class="header__value" id="header__name">@Model.Name</div>
+        <div class="header__value" id="header__points">@Model.Points pts</div>
+    </div>
+    @if (Model.ShowTactics)
+    {
+        <div id="tactics">
+            <div class="tactics__title">
+                @KillTeam.Properties.Resources.Tactiques
+            </div>
+            @foreach (var vm in Model.Tactics)
+            {
+                <div class="tactics__row @(odd ? "tactics__odd" : "even-row")">
+                    <strong>@($"{vm.Tactique.Name} ({vm.Origine}: {vm.Tactique.Cost}{KillTeam.Properties.Resources.Points})"):</strong> @vm.Tactique.Description
+                </div>
+                odd = !odd;
+            }
+        </div>
+        <div class="spacer"></div>
+    }
+    <div id="common">
+        <div id="common__title">
+            @KillTeam.Properties.Resources.AptitudesCommunes
+        </div>
+        @{ odd = true; }
+        @foreach (var ability in Model.Abilities)
+        {
+            <div class="common__row @(odd ? "common__odd" : "even-row")">
+                <strong>@ability.Name:</strong> @ability.Description  
+            </div>
+            odd = !odd;
+        }
+    </div>
+    <div class="spacer"></div>
+    <div id="members">
+        @{ odd = true; }
+        @foreach (var member in Model.Members)
+        {
+            <div class="member @(odd ? "member__odd" : "even-row")">
+                <div class="member__header">
+                    <div class="member__stat member__type">@member.SpecialistLevel</div>
+                    <div class="member__stat member__points">@member.Cost @KillTeam.Properties.Resources.Points</div>
+                    <div class="member__stat member__m">@KillTeam.Properties.Resources.M</div>
+                    <div class="member__stat member__ws">@KillTeam.Properties.Resources.CC</div>
+                    <div class="member__stat member__bs">@KillTeam.Properties.Resources.CT</div>
+                    <div class="member__stat member__s">@KillTeam.Properties.Resources.F</div>
+                    <div class="member__stat member__t">@KillTeam.Properties.Resources.E</div>
+                    <div class="member__stat member__w">@KillTeam.Properties.Resources.PV</div>
+                    <div class="member__stat member__a">@KillTeam.Properties.Resources.A</div>
+                    <div class="member__stat member__ld">@KillTeam.Properties.Resources.Cd</div>
+                    <div class="member__stat member__sv">@KillTeam.Properties.Resources.Sv</div>
+                </div>
+                <div class="member__stats">
+                    <div class="member__stat member__type">@member.Name</div>
+                    <div class="member__stat member__m">@member.ModelProfile.Movement"</div>
+                    <div class="member__stat member__ws">@member.ModelProfile.WeaponSkill+</div>
+                    <div class="member__stat member__bs">@member.ModelProfile.BallisticSkill+</div>
+                    <div class="member__stat member__s">@member.ModelProfile.Strength</div>
+                    <div class="member__stat member__t">@member.ModelProfile.Toughness</div>
+                    <div class="member__stat member__w">@member.ModelProfile.Wounds</div>
+                    <div class="member__stat member__a">@member.ModelProfile.Attacks</div>
+                    <div class="member__stat member__ld">@member.ModelProfile.Leadership</div>
+                    <div class="member__stat member__sv">@member.ModelProfile.Save+</div>
+                </div>
+                <table class="member__weapons">
+                    <thead>
+                    <tr>
+                        <th class="weapon__stat weapon__w">Weapon</th>
+                        <th class="weapon__stat weapon__r">Range</th>
+                        <th class="weapon__stat weapon__t">Type</th>
+                        <th class="weapon__stat weapon__s">Strength</th>
+                        <th class="weapon__stat weapon__ap">AP</th>
+                        <th class="weapon__stat weapon__d">Damage</th>
+                        <th class="weapon__stat weapon__a">Abilites</th>
+                    </tr>
+                    </thead>
+                    <tbody>
+                    @{
+                        var memberWeapons = member.MemberWeapons.ToList();
+                        memberWeapons.Sort();
+                    }
+                    
+                    @foreach (var weapon in memberWeapons.Select(mw => mw.Weapon))
+                    {
+                        if (weapon.IsEquipement())
+                        {
+                            continue;
+                        }
+
+                        if (weapon.IsMultiWeapons())
+                        {
+                            <tr>
+                                <td class="weapon__stat weapon__w">@weapon.Name</td>
+                                <td class="weapon__stat weapon__a--multi">@(weapon.Description ?? string.Empty)</td>
+                            </tr>
+                        }
+
+                        foreach (var profile in weapon.WeaponProfiles)
+                        {
+                            var name = weapon.IsMultiWeapons() ? $" -{profile.Name}" : profile.Name;
+                            var range = profile.Range > 0 ? $"{profile.Range}\"" : string.Empty;
+                            var type = $"{profile.WeaponType.Name} {(profile.WeaponType.Id != "M" ? profile.ShotNumber : "")}";
+                            
+                            <tr>
+                                <td class="weapon__stat weapon__w">@name</td>
+                                <td class="weapon__stat weapon__r">@range</td>
+                                <td class="weapon__stat weapon__t">@type</td>
+                                <td class="weapon__stat weapon__s">@profile.Strength</td>
+                                <td class="weapon__stat weapon__ap">@profile.ArmourPenetration</td>
+                                <td class="weapon__stat weapon__d">@profile.Damages</td>
+                                <td class="weapon__stat weapon__a">@(profile.Description ?? string.Empty)</td>
+                            </tr>   
+                        }
+                    }
+                    </tbody>
+                </table>
+                @{ var abilityOdd = false; }
+                @if (member.IsPsyker)
+                {
+                    var psychics = member.MemberPsychics.Select(p => p.Psychic).ToList();
+                    if (!member.MemberPsychics.Any())
+                    {
+                        psychics.Add(Model.Psybolt);
+                    }
+
+                    <div class="psyker">
+                        <div class="psyker__description">
+                            <strong>@(KillTeam.Properties.Resources.Psyker):</strong> @member.PsykerDesc
+                        </div>
+                        
+                        @if(Model.ShowAbilityDetails)
+                        {
+                            foreach (var power in psychics)
+                            {
+                                <div class="psyker__power @(abilityOdd ? "psyker__odd" : "even-row")">
+                                    <strong>- @power.Name (@power.WarpCharge):</strong> @power.Description
+                                </div>
+
+                                abilityOdd = !abilityOdd;
+                            }
+                        }
+                        else
+                        {
+                            <div class="psyker__power even-row">
+                                - @KillTeam.Properties.Resources.Psyker: @(string.Join(", ", psychics.Select(p => p.Name)))
+                            </div>
+                        }
+                    </div>
+                }
+                <div class="abilities">
+                    @{ var abilities = member.Abilities.Where(a => Model.FactionAbilities.All(fa => fa.Id != a.Id)).ToList(); }
+                    @if (Model.ShowAbilityDetails && !Model.GroupAbilities)
+                    {
+                        foreach (var ability in abilities)
+                        {
+                            <div class="ability @(abilityOdd ? "ability--odd" : "even-row")">
+                                @ability.Name: @ability.Description
+                            </div>
+                        }    
+                    }
+                    else if (abilities.Any())
+                    {
+                        <div class="ability ability--odd">
+                            @KillTeam.Properties.Resources.Aptitudes: @(string.Join(", ", abilities.Select(a => a.Name)))
+                        </div>
+                    }
+                </div>
+            </div>
+            odd = !odd;
+        }
+        <div class="spacer"></div>
+    </div>
+</div>
+</body>
+</html>

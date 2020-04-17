@@ -28,7 +28,7 @@ namespace KillTeam.Models
         public virtual ICollection<Model> Models { get; set; }
 
         [JsonIgnore]
-        public virtual ICollection<Ability> Abilities { get; set; }
+        public virtual List<Ability> Abilities { get; set; }
 
         #endregion Navigation Properties
 

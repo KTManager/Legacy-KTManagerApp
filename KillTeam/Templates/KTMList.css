@@ -1,0 +1,203 @@
+body {
+  background: #cccccc;
+}
+body .page {
+  width: 100%;
+  background: white;
+  display: block;
+  box-shadow: 0 0 0.5cm rgba(0, 0, 0, 0.5);
+  font-family: Arial, serif;
+  border: 1px solid black;
+}
+body .header {
+  height: 25px;
+  padding-top: 0.3em;
+  background-color: #cd4443;
+  color: white;
+  border-bottom: 1px solid #dc7777;
+}
+body .header .header_value {
+  padding-top: 0.3em;
+  font-size: 14pt;
+}
+body .header #header__faction {
+  float: left;
+  width: 25%;
+  padding-left: 0.5em;
+}
+body .header #header__name {
+  width: 48%;
+  float: left;
+  text-align: center;
+}
+body .header #header__points {
+  float: right;
+  width: 10%;
+  text-align: left;
+}
+body #tactics {
+  font-size: 8pt;
+}
+body #tactics .tactics__title {
+  padding: 0.5em;
+  background-color: #cd4443;
+  color: white;
+}
+body #tactics .tactics__row {
+  padding: 0.5em;
+  border-top: 1px solid black;
+  color: #000000;
+}
+body #tactics .tactics__odd {
+  background-color: #f4d2d1;
+}
+body #common {
+  font-size: 8pt;
+}
+body #common #common__title {
+  padding: 0.5em;
+  background-color: #ff931f;
+  color: white;
+  border: 1px solid #e3bb7f;
+}
+body #common .common__row {
+  padding: 0.5em;
+  color: black;
+}
+body #common .common__odd {
+  background-color: #ffcdcd;
+}
+body .spacer {
+  border-top: 1px solid black;
+  height: 2em;
+}
+body .even {
+  background-color: white;
+}
+
+#members {
+  font-size: 8pt;
+}
+#members .member .member__type {
+  width: 20%;
+}
+#members .member .member__points {
+  width: 10%;
+  text-align: center;
+}
+#members .member .member__m, #members .member .member__ws, #members .member .member__bs, #members .member .member__s, #members .member .member__t,
+#members .member .member__w, #members .member .member__a, #members .member .member__ld, #members .member .member__sv {
+  width: 6.96%;
+  text-align: center;
+}
+#members .member .member__sv {
+  border-right: none;
+}
+#members .member .member__header {
+  background-color: #cd4443;
+  border: 1px solid #dc7777;
+  color: white;
+  height: 1.7em;
+}
+#members .member .member__stats {
+  height: 1.7em;
+  color: black;
+}
+#members .member .member__stats .member__type {
+  width: 30.7%;
+}
+#members .member .member__stat {
+  float: left;
+  padding: 0.3em 0 0 0.5em;
+  border-right: 1px solid #dc7777;
+}
+#members .member .member__weapons {
+  color: black;
+  border: 1px solid black;
+  border-collapse: collapse;
+  font-size: 8pt;
+  font-weight: normal;
+  text-align: left;
+  width: 100%;
+}
+#members .member .member__weapons thead, #members .member .member__weapons tr {
+  border-right: 1px solid black;
+  border-bottom: 1px solid black;
+}
+#members .member .member__weapons .weapon__multi {
+  border-bottom: 0;
+}
+#members .member .member__weapons .weapon__stat {
+  float: left;
+  padding-left: 0.5em;
+}
+#members .member .member__weapons .weapon__w {
+  width: 20%;
+}
+#members .member .member__weapons .weapon__r {
+  width: 5.5%;
+}
+#members .member .member__weapons .weapon__t {
+  width: 19.1%;
+}
+#members .member .member__weapons .weapon__s {
+  width: 7%;
+}
+#members .member .member__weapons .weapon__ap {
+  width: 6.9%;
+}
+#members .member .member__weapons .weapon__d {
+  width: 7.1%;
+}
+#members .member .member__weapons .weapon__a {
+  width: 29%;
+  border-right: none;
+}
+#members .member .member__weapons .weapon__a--multi {
+  width: 78%;
+  overflow-wrap: break-word;
+  max-width: 78%;
+}
+#members .member .psyker .psyker__description {
+  font-size: 8pt;
+  padding: 0.5em;
+  color: black;
+  background-color: #f4d2d1;
+}
+#members .member .psyker .psyker__power {
+  padding: 0.5em;
+  font-size: 8pt;
+}
+#members .member .psyker .psyker__odd {
+  background-color: #f4d2d1;
+}
+#members .member .abilities .ability {
+  padding: 0.5em;
+  font-size: 8pt;
+}
+#members .member .abilities .ability--odd {
+  background-color: #f4d2d1;
+}
+#members .member__odd .member__header {
+  background-color: #cd4443;
+}
+#members .member__odd .member__stats {
+  background-color: #f4d2d1;
+}
+#members .member__even {
+  background-color: #ffcdcd;
+}
+
+@media print {
+  .body, .page {
+    margin: 0;
+    box-shadow: 0 0;
+  }
+
+  .page {
+    width: 21cm;
+    margin: 0 auto 0.5cm;
+  }
+}
+
+/*# sourceMappingURL=KTMList.css.map */

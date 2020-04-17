@@ -1,0 +1,249 @@
+$border-black: 1px solid black;
+$title-red: rgb(205, 68, 67);
+$title-orange: rgb(255, 147, 31);
+$border-red: 1px solid rgb(220, 119, 119);
+$border-orange: 1px solid rgb(227, 187, 127);
+$odd-red: rgb(244,210,209);
+$odd-orange: rgb(255, 205, 205);
+$even: rgb(255, 255, 255);
+$normal-font: 8pt;
+$top-padding: 0.3em;
+$row-padding: 0.5em;
+
+body {
+  background: rgb(204, 204, 204);
+
+  .page {
+    width: 100%;
+    background: white;
+    display: block;
+    box-shadow: 0 0 0.5cm rgba(0,0,0,0.5);
+    font-family: Arial, serif;
+    border: $border-black
+  }
+
+  .header {
+    height: 25px;
+    padding-top: $top-padding;
+    background-color: $title-red;
+    color: white;
+    border-bottom: $border-red;
+
+    .header_value {
+      padding-top: $top-padding;
+      font-size: 14pt;
+    } 
+    
+    #header__faction {
+      float: left;
+      width: 25%;
+      padding-left: $row-padding;
+    }
+
+    #header__name {
+      width: 48%;
+      float: left;
+      text-align: center;
+    }
+
+    #header__points {
+      float: right;
+      width: 10%;
+      text-align: left;
+    }
+  }
+  
+  #tactics {
+    font-size: $normal-font;
+    
+    .tactics__title {
+      padding: $row-padding;
+      background-color: $title-red;
+      color: white;
+    }
+    
+    .tactics__row {
+      padding: $row-padding;
+      border-top: $border-black;
+      color: #000000;
+    }
+    
+    .tactics__odd {
+      background-color: $odd-red;
+    }
+  }
+  
+  #common {
+    font-size: $normal-font;
+    
+    #common__title {
+      padding: $row-padding;
+      background-color: $title-orange;
+      color: white;
+      border: $border-orange;
+    }
+    
+    .common__row {
+      padding: $row-padding;
+      color: black;
+    }
+    
+    .common__odd {
+      background-color: $odd-orange;
+    }
+  }
+  
+  .spacer {
+    border-top: $border-black;
+    height: 2em;
+    
+  }
+
+  .even {
+    background-color: $even;
+  }
+}
+
+#members {
+  font-size: $normal-font;
+  
+  .member {
+
+    .member__type {
+      width: 20%;
+    }
+
+    .member__points {
+      width: 10%;
+      text-align: center;
+    }
+
+    .member__m, .member__ws, .member__bs, .member__s, .member__t,
+    .member__w, .member__a, .member__ld, .member__sv {
+      width: 6.96%;
+      text-align: center;
+    }
+
+    .member__sv {
+      border-right: none;
+    }
+    
+    .member__header {
+      background-color: $title-red;
+      border: $border-red;
+      color: white;
+      height: 1.7em;
+    }
+    
+    .member__stats {
+      height: 1.7em;
+      color: black;
+      
+      .member__type {
+        width: 30.7%;
+      }
+    }
+
+    .member__stat {
+      float: left;
+      padding: $top-padding 0 0 $row-padding;
+      border-right: $border-red;
+    }
+    
+    .member__weapons {
+      color: black;
+      border: $border-black;
+      border-collapse: collapse;
+      font-size: $normal-font;
+      font-weight: normal;
+      text-align: left;
+      width: 100%;
+      
+      thead, tr {
+        border-right: $border-black;
+        border-bottom: $border-black;
+      }
+      
+      .weapon__multi {
+        border-bottom: 0;
+      }
+      
+      .weapon__stat {
+        float: left;
+        padding-left: $row-padding;
+      }
+      
+      .weapon__w { width: 20%; }
+      .weapon__r { width: 5.5%; }
+      .weapon__t { width: 19.1%; }
+      .weapon__s { width: 7%; }
+      .weapon__ap { width: 6.9%; }
+      .weapon__d { width: 7.1%; }
+      .weapon__a { 
+        width: 29%;
+        border-right: none;
+      }
+      
+      .weapon__a--multi {
+        width: 78%;
+        overflow-wrap: break-word;
+        max-width: 78%;
+      }
+    }
+  
+    .psyker {
+      .psyker__description {
+        font-size: $normal-font;
+        padding: $row-padding;
+        color: black;
+        background-color: $odd-red;
+      }
+      
+      .psyker__power {
+        padding: $row-padding;
+        font-size: $normal-font;
+      }
+      
+      .psyker__odd {
+        background-color: $odd-red;
+      }
+    }
+    
+    .abilities {
+      .ability {
+        padding: $row-padding;
+        font-size: $normal-font;
+      }
+      
+      .ability--odd {
+        background-color: $odd-red;
+      }
+    }
+  }
+  
+  .member__odd {
+    .member__header {
+      background-color: $title-red;
+    }
+    
+    .member__stats {
+      background-color: $odd-red;
+    }
+  }
+  
+  .member__even {
+    background-color: $odd-orange;
+  }
+}
+
+@media print {
+  .body, .page {
+    margin: 0;
+    box-shadow: 0 0;
+  }
+  
+  .page {
+    width: 21cm;
+    margin: 0 auto 0.5cm;
+  }
+}

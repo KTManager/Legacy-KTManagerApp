@@ -424,6 +424,9 @@ Do you like Kill Team Manager? Help us to create MyMiniReport.</value>
   <data name="UnSeulCommandant" xml:space="preserve">
     <value>You can only have one commander</value>
   </data>
+  <data name="Validate" xml:space="preserve">
+    <value>Validate</value>
+  </data>
   <data name="XPRecrueConvalescence" xml:space="preserve">
     <value>XP / New recruit / Convalescence</value>
   </data>

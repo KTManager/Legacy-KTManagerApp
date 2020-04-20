@@ -5,6 +5,7 @@ using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Threading.Tasks;
 using Xamarin.Forms;
 using Xamarin.Forms.PlatformConfiguration.iOSSpecific;
 using Xamarin.Forms.Xaml;
@@ -22,6 +23,14 @@ namespace KillTeam.Views
             InitializeComponent();
             this.equipeId = equipeId;
             On<Xamarin.Forms.PlatformConfiguration.iOS>().SetUseSafeArea(true);
+
+
+            ToolbarItems.Add(new ToolbarItem
+            {
+                Text = Properties.Resources.Filtres,
+                Order = ToolbarItemOrder.Primary,
+                Command = new Command(async () => await FiltersExecuted())
+            });
         }
 
         protected override void OnAppearing()
@@ -132,7 +141,7 @@ namespace KillTeam.Views
 
         async void OnButtonTacticalClicked(object sender, EventArgs e)
         {
-            //await Navigation.PushAsync(new ListTactiquePage(equipeId));
+            await Navigation.PushAsync(new Tactics(equipeId));
         }
 
         private void TapGestureRecognizer_Tapped(object sender, EventArgs e)
@@ -150,6 +159,11 @@ namespace KillTeam.Views
             {
                 CarouselMembres.Position = index;
             }
+        }
+
+        private async Task FiltersExecuted()
+        {
+            await KTApp.Navigation.PushModalAsync(new TacticsFilters());
         }
     }
 }

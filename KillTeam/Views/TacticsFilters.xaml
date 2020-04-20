@@ -1,0 +1,63 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             xmlns:properties="clr-namespace:KillTeam.Properties;assembly=KillTeam"
+             mc:Ignorable="d"
+             x:Class="KillTeam.Views.TacticsFilters">
+    <ContentPage.Content>
+        <StackLayout>
+            <StackLayout VerticalOptions="Start" x:Name="StackLayoutOptions">
+                <Label Text="{x:Static properties:Resources.Filtres}"                                        
+                                Style="{DynamicResource ListItemTextStyle}" 
+                                FontSize="20"
+                                FontAttributes="Bold"/>
+                <StackLayout Orientation="Horizontal">
+                    <Label Text="{x:Static properties:Resources.OptionTactiquesGeneral}"
+                                        LineBreakMode="NoWrap" 
+                                        Style="{DynamicResource ListItemTextStyle}"
+                                        FontSize="16" />
+                    <Switch IsToggled="{Binding Generale}"
+                                        IsEnabled="True"
+                                        HorizontalOptions="EndAndExpand"/>
+                </StackLayout>
+                <StackLayout Orientation="Horizontal">
+                    <Label Text="{x:Static properties:Resources.OptionTactiquesFaction}"
+                                        LineBreakMode="NoWrap" 
+                                        Style="{DynamicResource ListItemTextStyle}"
+                                        FontSize="16" />
+                    <Switch IsToggled="{Binding Faction}"
+                                        IsEnabled="True"
+                                        HorizontalOptions="EndAndExpand"/>
+                </StackLayout>
+
+                <StackLayout Orientation="Horizontal">
+                    <Label Text="{x:Static properties:Resources.OptionTactiquesSpecialite}"
+                                        LineBreakMode="NoWrap" 
+                                        Style="{DynamicResource ListItemTextStyle}"
+                                        FontSize="16" />
+                    <Switch IsToggled="{Binding Specialist}"
+                                        IsEnabled="True"
+                                        HorizontalOptions="EndAndExpand"/>
+                </StackLayout>
+
+                <StackLayout Orientation="Horizontal">
+                    <Label Text="{x:Static properties:Resources.OptionTactiquesDeclinaison}"
+                                        LineBreakMode="NoWrap" 
+                                        Style="{DynamicResource ListItemTextStyle}"
+                                        FontSize="16" />
+                    <Switch IsToggled="{Binding ModelProfile}"
+                                        IsEnabled="True"
+                                        HorizontalOptions="EndAndExpand"/>
+                </StackLayout>
+                <Label Text="{x:Static properties:Resources.Phases}"                                        
+                                Style="{DynamicResource ListItemTextStyle}" 
+                                FontSize="20"
+                                FontAttributes="Bold"/>
+            </StackLayout>
+
+            <Button Text="{x:Static properties:Resources.Validate}" Clicked="Button_OnClicked"/>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

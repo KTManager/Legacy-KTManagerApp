@@ -971,6 +971,15 @@ namespace KillTeam.Properties {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Validate.
+        /// </summary>
+        internal static string Validate {
+            get {
+                return ResourceManager.GetString("Validate", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to XP / New recruit / Convalescence.
         /// </summary>
         internal static string XPRecrueConvalescence {

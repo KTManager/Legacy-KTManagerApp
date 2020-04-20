@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="KillTeam.Views.Tactics"
+             Title="{Binding Title}">
+    <StackLayout>
+        <ListView x:Name="TactiquesListView"
+                                VerticalOptions="FillAndExpand"
+                                HasUnevenRows="true"
+                                SelectionMode="None"
+                                CachingStrategy="RecycleElement">
+            <ListView.ItemTemplate>
+                <DataTemplate>
+                    <ViewCell>
+                        <StackLayout Padding="10">
+
+                            <StackLayout Orientation="Horizontal"
+                                         VerticalOptions="Start">
+                                <Label Text="{Binding Tactique.Name}"                                        
+                                       Style="{DynamicResource ListItemTextStyle}" 
+                                       FontSize="14" />
+                                <Label Text="{Binding Origine}"                                        
+                                       Style="{DynamicResource ListItemTextStyle}" 
+                                       FontSize="10" />
+                                <Label Text="{Binding Tactique.Cost}" 
+                                       FontSize="14" 
+                                       HorizontalOptions="EndAndExpand" />
+                            </StackLayout>
+                            <Label Text="{Binding Tactique.Description}" 
+                                   FontSize="10" 
+                                   FontAttributes="Italic"
+                                   VerticalOptions="CenterAndExpand" />
+                        </StackLayout>
+                    </ViewCell>
+                </DataTemplate>
+            </ListView.ItemTemplate>
+        </ListView>
+    </StackLayout>
+</ContentPage>

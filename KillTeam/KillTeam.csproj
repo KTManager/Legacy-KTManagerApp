@@ -23,11 +23,6 @@
   <ItemGroup>
     <Compile Remove="Services\PdfGeneration.cs" />
     <Compile Remove="Services\TranslateExtension.cs" />
-    <Compile Remove="Views\ListTactiquePage.xaml.cs" />
-  </ItemGroup>
-
-  <ItemGroup>
-    <EmbeddedResource Remove="Views\ListTactiquePage.xaml" />
   </ItemGroup>
 
   <ItemGroup>
@@ -332,6 +327,9 @@
     <Compile Update="Views\Abilities.xaml.cs">
       <DependentUpon>Abilities.xaml</DependentUpon>
     </Compile>
+    <Compile Update="Views\Tactics.xaml.cs">
+      <DependentUpon>Tactics.xaml</DependentUpon>
+    </Compile>
     <Compile Update="Views\WeaponsConfig.xaml.cs">
       <DependentUpon>WeaponsConfig.xaml</DependentUpon>
     </Compile>
@@ -403,6 +401,9 @@
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
     <EmbeddedResource Update="Views\Abilities.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Views\TacticsFilters.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
     <EmbeddedResource Update="Views\WeaponsConfig.xaml">

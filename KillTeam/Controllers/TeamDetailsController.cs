@@ -220,7 +220,7 @@ namespace KillTeam.Controllers
 
         private async Task TacticsExecuted()
         {
-            //await KTApp.Navigation.PushAsync(new Views.ListTactiquePage(Item.Id)); //TODO : UI/UX Rewriting. To reactivate !
+            await KTApp.Navigation.PushAsync(new Tactics(Item.Id));
         }
 
         private async Task PdfExecuted()

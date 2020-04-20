@@ -5,6 +5,7 @@
              xmlns:views="clr-namespace:KillTeam.Views"
              xmlns:local="clr-namespace:KillTeam.Services"
              xmlns:properties="clr-namespace:KillTeam.Properties;assembly=KillTeam"
+             xmlns:controls="clr-namespace:KillTeam.Controls;assembly=KillTeam"
              x:Class="KillTeam.Views.InGame"
              Title="{Binding Title}">
     <ContentPage.ToolbarItems>
@@ -101,21 +102,21 @@
                                 </Grid.RowDefinitions>
                                 <Label Grid.Row="0" Grid.Column="0"
                                     Text="{Binding Experience}"/>
-                                <Entry 
+                                <controls:NumericPicker  
                                     FontSize="14"
                                     Grid.Row="0" Grid.Column="1"
                                     BindingContext="{Binding}"
-                                    Text="{Binding Xp}"
-                                    Keyboard="Numeric"/>
+                                    Maximum="12"
+                                    Title="{Binding Xp}"/>
 
                                 <Label Grid.Row="1" Grid.Column="0"
                                     Text="{Binding Blessure}"/>
-                                <Entry 
+                                <controls:NumericPicker 
                                     FontSize="14"
                                     Grid.Row="1" Grid.Column="1"
                                     BindingContext="{Binding}"
-                                    Text="{Binding FleshWounds}"
-                                    Keyboard="Numeric"/>
+                                    Maximum ="3"
+                                    Title="{Binding FleshWounds}"/>
                             </Grid>
                                                        
                             <Label 

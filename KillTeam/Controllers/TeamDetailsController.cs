@@ -225,7 +225,7 @@ namespace KillTeam.Controllers
 
         private async Task PdfExecuted()
         {
-            await KTApp.Navigation.PushAsync(new ListGenerator(Item.Id));
+            await KTApp.Navigation.PushAsync(new ListGeneratorConfig(Item.Id));
         }
 
         private async Task InGameExecuted()

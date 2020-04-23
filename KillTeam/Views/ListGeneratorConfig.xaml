@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:properties="clr-namespace:KillTeam.Properties;assembly=KillTeam"
+             xmlns:controllers="clr-namespace:KillTeam.Controllers;assembly=KillTeam"
+             x:Class="KillTeam.Views.ListGeneratorConfig" 
+             x:DataType="controllers:ListGeneratorConfigController"
+             Title="List Generation Options">
+    <ContentPage.Content>
+        <StackLayout>
+            <Grid
+                Margin="20,20,20,20">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="Auto" />
+                    <RowDefinition Height="Auto" />
+                    <RowDefinition Height="Auto" />
+                    <RowDefinition Height="Auto" />
+                    <RowDefinition Height="Auto" />
+                </Grid.RowDefinitions>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="Auto" />
+                    <ColumnDefinition Width="*" />
+                </Grid.ColumnDefinitions>
+                <Label Text="{x:Static properties:Resources.RegroupeMembres}" 
+                       LineBreakMode="NoWrap"
+                       Style="{DynamicResource ListItemTextStyle}" 
+                       FontSize="16"
+                       Grid.Row="0"
+                       Grid.Column="0" />
+                <Switch IsToggled="{Binding GroupIdenticalMembers}"
+                        IsEnabled="True"
+                        x:Name="GroupIdenticalMembers"
+                        HorizontalOptions="End"
+                        Grid.Row="0"
+                        Grid.Column="1" />
+                <Label Text="{x:Static properties:Resources.DetailsAptitudes}" 
+                       LineBreakMode="NoWrap" 
+                       Style="{DynamicResource ListItemTextStyle}" 
+                       FontSize="16"
+                       Grid.Row="1"
+                       Grid.Column="0"/>
+                <Switch IsToggled="{Binding ShowAbilityDetails}"
+                        IsEnabled="True"
+                        x:Name="DetailsOfAbilities"
+                        HorizontalOptions="End"
+                        Grid.Row="1"
+                        Grid.Column="1"/>
+                <Label Text="{x:Static properties:Resources.RegrouperAptitudes}" 
+                       LineBreakMode="NoWrap"
+                       Style="{DynamicResource ListItemTextStyle}" 
+                       FontSize="16"
+                       Grid.Row="2"
+                       Grid.Column="0"/>
+                <Switch IsToggled="{Binding GroupAbilities}"
+                        IsEnabled="True"
+                        x:Name="GroupAbilities"
+                        HorizontalOptions="End"
+                        Grid.Row="2"
+                        Grid.Column="1" />
+                <Label Text="{x:Static properties:Resources.Tactiques}" 
+                       LineBreakMode="NoWrap" 
+                       Style="{DynamicResource ListItemTextStyle}"
+                       FontSize="16"
+                       Grid.Row="3"
+                       Grid.Column="0" />
+                <Switch IsToggled="{Binding ShowTactics}"
+                        IsEnabled="True"
+                        x:Name="ShowTactics"
+                        HorizontalOptions="End"
+                        Grid.Row="3"
+                        Grid.Column="1" />
+                <Label Text="{x:Static properties:Resources.XPRecrueConvalescence}" 
+                       LineBreakMode="NoWrap" 
+                       Style="{DynamicResource ListItemTextStyle}" 
+                       FontSize="16"
+                       Grid.Row="4"
+                       Grid.Column="0" />
+                <Switch IsToggled="{Binding ShowXpNewRecruitConvalescence}"
+                        IsEnabled="True"
+                        x:Name="ShowXpNewRecruitConvalescence"    
+                        HorizontalOptions="End"
+                        Grid.Row="4"
+                        Grid.Column="1"/>
+            </Grid>
+            <StackLayout Orientation="Vertical"
+                         Margin="10,10,10,10">
+                <Button Text="{Binding GenerateListText}"
+                        Command="{Binding GenerateList}" />
+                <Button Text="{x:Static properties:Resources.Ouvrir}"
+                        Command="{Binding OpenList}"
+                        IsVisible="{Binding OpenButtonVisible, Mode=TwoWay}" />    
+            </StackLayout>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

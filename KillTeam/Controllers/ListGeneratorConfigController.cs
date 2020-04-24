@@ -4,6 +4,7 @@ using System.Windows.Input;
 using KillTeam.Models;
 using KillTeam.Services;
 using KillTeam.Templates;
+using KillTeam.ViewModels;
 using KillTeam.Views;
 using Microsoft.EntityFrameworkCore;
 using MvvmHelpers;
@@ -16,69 +17,16 @@ namespace KillTeam.Controllers
     {
         public ICommand GenerateList { get; }
         public ICommand OpenList { get; }
+        public ListGeneratorConfigViewModel ViewModel { get;  }
 
         public ListGeneratorConfigController(string teamId)
         {
-            _listGenerationConfig = new ListGenerationConfig();
+            ViewModel = new ListGeneratorConfigViewModel();
+            
             _teamId = teamId;
-            _groupIdenticalMembers = _listGenerationConfig.GroupIdenticalMembers;
-            _showAbilityDetails = _listGenerationConfig.ShowAbilityDetails;
-            _groupAbilities = _listGenerationConfig.GroupAbilities;
-            _showTactics = _listGenerationConfig.ShowTactics;
-            _showXpNewRecruitConvalescence = _listGenerationConfig.ShowXpNewRecruitConvalescence;
             
             GenerateList = new Command(async () => await LoadTeam());
             OpenList = new Command(async  () => await OpenGeneratedList());
-        }
-
-        public bool GroupIdenticalMembers
-        {
-            get => _groupIdenticalMembers;
-            set
-            {
-                SetProperty(ref _groupIdenticalMembers, value, nameof(GroupIdenticalMembers));
-                _listGenerationConfig.GroupIdenticalMembers = value;
-            }
-        }
-
-        public bool ShowAbilityDetails
-        {
-            get => _showAbilityDetails;
-            set
-            {
-                SetProperty(ref _showAbilityDetails, value, nameof(ShowAbilityDetails));
-                _listGenerationConfig.ShowAbilityDetails = value;
-            }
-        }
-
-        public bool GroupAbilities
-        {
-            get => _groupAbilities;
-            set
-            {
-                SetProperty(ref _groupAbilities, value, nameof(GroupAbilities));
-                _listGenerationConfig.GroupAbilities = value;
-            }
-        }
-
-        public bool ShowTactics
-        {
-            get => _showTactics;
-            set
-            {
-                SetProperty(ref _showTactics, value, nameof(ShowTactics));
-                _listGenerationConfig.ShowTactics = value;
-            }
-        }
-
-        public bool ShowXpNewRecruitConvalescence
-        {
-            get => _showXpNewRecruitConvalescence;
-            set
-            {
-                SetProperty(ref _showXpNewRecruitConvalescence, value, nameof(ShowXpNewRecruitConvalescence));
-                _listGenerationConfig.ShowXpNewRecruitConvalescence = value;
-            }
         }
 
         public bool GenerateListEnabled
@@ -173,11 +121,11 @@ namespace KillTeam.Controllers
             {
                 var config = new PdfConfiguration
                 {
-                    GroupIdenticalMembers = GroupIdenticalMembers,
-                    AbilityDetails = ShowAbilityDetails,
-                    GroupAbilities = GroupAbilities,
-                    Tactics = ShowTactics,
-                    XpRecruitConvalescence = ShowXpNewRecruitConvalescence
+                    GroupIdenticalMembers = ViewModel.GroupIdenticalMembers,
+                    AbilityDetails = ViewModel.ShowAbilityDetails,
+                    GroupAbilities = ViewModel.GroupAbilities,
+                    Tactics = ViewModel.ShowTactics,
+                    XpRecruitConvalescence = ViewModel.ShowXpNewRecruitConvalescence
                 };
                 
                 var template = new Template
@@ -200,14 +148,8 @@ namespace KillTeam.Controllers
         {
             await KTApp.Navigation.PushAsync(new ListGenerator(_htmlString));
         }
-        
-        private readonly ListGenerationConfig _listGenerationConfig;
+
         private string _teamId;
-        private bool _groupIdenticalMembers;
-        private bool _showAbilityDetails;
-        private bool _groupAbilities;
-        private bool _showTactics;
-        private bool _showXpNewRecruitConvalescence;
         private bool _generateListEnabled;
         private string _generateListText = Properties.Resources.GeneratePDF;
         private Team _team;
@@ -215,44 +157,5 @@ namespace KillTeam.Controllers
         private bool _openButtonVisible;
     }
 
-    public class ListGenerationConfig
-    {
-        public bool GroupIdenticalMembers
-        {
-            get => FetchValueOrDefault(nameof(GroupIdenticalMembers));
-            set => Application.Current.Properties[nameof(GroupIdenticalMembers)] = value;
-        }
-
-        public bool ShowAbilityDetails
-        {
-            get => FetchValueOrDefault(nameof(ShowAbilityDetails));
-            set => Application.Current.Properties[nameof(ShowAbilityDetails)] = value;
-        }
-
-        public bool GroupAbilities
-        {
-            get => FetchValueOrDefault(nameof(GroupAbilities));
-            set => Application.Current.Properties[nameof(GroupAbilities)] = value;
-        }
-
-        public bool ShowTactics
-        {
-            get => FetchValueOrDefault(nameof(ShowTactics));
-            set => Application.Current.Properties[nameof(ShowTactics)] = value;
-        }
-
-        public bool ShowXpNewRecruitConvalescence
-        {
-            get => FetchValueOrDefault(nameof(ShowXpNewRecruitConvalescence));
-            set => Application.Current.Properties[nameof(ShowXpNewRecruitConvalescence)] = value;
-        }
-
-        private bool FetchValueOrDefault(string key)
-        {
-            if (Application.Current.Properties.ContainsKey(key))
-                return (bool) Application.Current.Properties[key];
-
-            return false;
-        }
-    }
+    
 }

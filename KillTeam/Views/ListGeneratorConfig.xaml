@@ -28,7 +28,7 @@
                        FontSize="16"
                        Grid.Row="0"
                        Grid.Column="0" />
-                <Switch IsToggled="{Binding GroupIdenticalMembers}"
+                <Switch IsToggled="{Binding ViewModel.GroupIdenticalMembers}"
                         IsEnabled="True"
                         x:Name="GroupIdenticalMembers"
                         HorizontalOptions="End"
@@ -40,7 +40,7 @@
                        FontSize="16"
                        Grid.Row="1"
                        Grid.Column="0"/>
-                <Switch IsToggled="{Binding ShowAbilityDetails}"
+                <Switch IsToggled="{Binding ViewModel.ShowAbilityDetails}"
                         IsEnabled="True"
                         x:Name="DetailsOfAbilities"
                         HorizontalOptions="End"
@@ -52,7 +52,7 @@
                        FontSize="16"
                        Grid.Row="2"
                        Grid.Column="0"/>
-                <Switch IsToggled="{Binding GroupAbilities}"
+                <Switch IsToggled="{Binding ViewModel.GroupAbilities}"
                         IsEnabled="True"
                         x:Name="GroupAbilities"
                         HorizontalOptions="End"
@@ -64,7 +64,7 @@
                        FontSize="16"
                        Grid.Row="3"
                        Grid.Column="0" />
-                <Switch IsToggled="{Binding ShowTactics}"
+                <Switch IsToggled="{Binding ViewModel.ShowTactics}"
                         IsEnabled="True"
                         x:Name="ShowTactics"
                         HorizontalOptions="End"
@@ -76,7 +76,7 @@
                        FontSize="16"
                        Grid.Row="4"
                        Grid.Column="0" />
-                <Switch IsToggled="{Binding ShowXpNewRecruitConvalescence}"
+                <Switch IsToggled="{Binding ViewModel.ShowXpNewRecruitConvalescence}"
                         IsEnabled="True"
                         x:Name="ShowXpNewRecruitConvalescence"    
                         HorizontalOptions="End"

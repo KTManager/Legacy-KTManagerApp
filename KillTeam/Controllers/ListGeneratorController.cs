@@ -25,7 +25,7 @@ namespace KillTeam.Controllers
 
         private void SaveList()
         {
-            DependencyService.Get<ISave>().Save($"{_teamName}.pdf", "text/html", _teamList);
+            DependencyService.Get<ISave>().Save($"{_teamName}.html", "text/html", _teamList);
         }
 
         private string _teamName;

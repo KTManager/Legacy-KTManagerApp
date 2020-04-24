@@ -1,5 +1,6 @@
 ﻿using System;
 using System.IO;
+using System.Text;
 using Android;
 using Android.Content;
 using Android.Content.PM;
@@ -45,7 +46,7 @@ namespace KillTeam.Droid
             }
         }
 
-        public string Save(string fileName, String contentType, MemoryStream stream)
+        public string Save(string fileName, string contentType, string content)
         {
             if (Android.OS.Build.VERSION.SdkInt >= Android.OS.BuildVersionCodes.M)
                 if (Android.App.Application.Context.CheckSelfPermission(Manifest.Permission.WriteExternalStorage) != (int)Permission.Granted)
@@ -73,7 +74,7 @@ namespace KillTeam.Droid
                 file.Delete();
 
             FileOutputStream outs = new FileOutputStream(file);
-            outs.Write(stream.ToArray());
+            outs.Write(Encoding.ASCII.GetBytes(content));
             outs.Flush();
             outs.Close();
             return file.AbsolutePath;

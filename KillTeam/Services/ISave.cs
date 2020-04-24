@@ -7,7 +7,7 @@ namespace KillTeam.Services
 
         bool HasRight();
 
-        string Save(string filename, string contentType, MemoryStream stream);
+        string Save(string filename, string contentType, string content);
 
         void OpenPDF(string filename);
 

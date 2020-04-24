@@ -24,7 +24,7 @@ namespace KillTeam.iOS
             viewer.PresentOpenInMenu(new RectangleF(0, -260, 320, 320), GetVisibleViewController().View, true);
         }
 
-        public string Save(string fileName, String contentType, MemoryStream stream)
+        public string Save(string fileName, String contentType, string content)
         {
             string filePath = Path.Combine(Environment.GetFolderPath(Environment.SpecialFolder.MyDocuments), fileName);
 
@@ -32,7 +32,9 @@ namespace KillTeam.iOS
             {
                 File.Delete(filePath);
             }
-            File.WriteAllBytes(filePath, stream.ToArray());
+            
+            File.WriteAllText(filePath, content);
+            
             return filePath;
         }
 

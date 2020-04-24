@@ -2,10 +2,21 @@
 
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             x:Class="KillTeam.Views.ListGenerator">
+             xmlns:controllers="clr-namespace:KillTeam.Controllers;assembly=KillTeam"
+             x:Class="KillTeam.Views.ListGenerator"
+             x:DataType="controllers:ListGeneratorController">
+    <ContentPage.ToolbarItems>
+        <ToolbarItem Text="Save"
+                     Order="Primary"
+                     Priority="0"
+                     Command="{Binding Save}"/>
+    </ContentPage.ToolbarItems>
     <ContentPage.Content>
         <StackLayout>
-            <WebView x:Name="KtmListView" VerticalOptions="FillAndExpand" />
+            <WebView 
+                x:Name="KtmListView"
+                Source="{Binding TeamList}"
+                VerticalOptions="FillAndExpand" />
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>

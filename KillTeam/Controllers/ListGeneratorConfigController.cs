@@ -146,7 +146,7 @@ namespace KillTeam.Controllers
 
         private async Task OpenGeneratedList()
         {
-            await KTApp.Navigation.PushAsync(new ListGenerator(_htmlString));
+            await KTApp.Navigation.PushAsync(new ListGenerator(_team.Name, _htmlString));
         }
 
         private string _teamId;

@@ -23,7 +23,7 @@ namespace KillTeam.Views
                 new DeleteMemberCommandHandler(),
                 new ReorderMembersCommandHandler(),
                 new ToggleRosterCommandHandler(),
-                new ChangeMaxPointsCommandHandler(),
+                new EditMaxPointsCommandHandler(),
                 new ToggleMemberSelectedCommandHandler());
         }
 
@@ -79,7 +79,7 @@ namespace KillTeam.Views
 
             if (selectedIndex != -1)
             {
-                binding.ChangeMaxPoints.Execute(null);
+                binding.EditMaxPoints.Execute(null);
             }
 
 

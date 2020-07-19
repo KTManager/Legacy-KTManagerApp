@@ -32,7 +32,7 @@ namespace KillTeam.Controllers
         public ICommand SelectMember { get; private set; }
         public ICommand EditName { get; private set; }
         public ICommand EditRoster { get; private set; }
-        public ICommand ChangeMaxPoints { get; private set; }
+        public ICommand EditMaxPoints { get; private set; }
         public ICommand Delete { get; private set; }
 
         private ToolbarItem _errors;
@@ -43,7 +43,7 @@ namespace KillTeam.Controllers
             IHandleCommands<DeleteMemberCommand> deleteMemberCommandHandler,
             IHandleCommands<ReorderMembersCommand> reorderMembersCommandHandler,
             IHandleCommands<ToggleRosterCommand> toggleRosterCommandHandler,
-            IHandleCommands<ChangeMaxPointsCommand> changeMaxPointsCommandHandler,
+            IHandleCommands<EditMaxPointsCommand> editMaxPointsCommandHandler,
             IHandleCommands<ToggleMemberSelectedCommand> toggleSelectedCommandHandler)
         {
             _itemId = teamId;
@@ -55,7 +55,7 @@ namespace KillTeam.Controllers
             _toggleSelectedCommandHandler = toggleSelectedCommandHandler;
             _reorderMembersCommandHandler = reorderMembersCommandHandler;
             _toggleRosterCommandHandler = toggleRosterCommandHandler;
-            _changeMaxPointsCommandHandler = changeMaxPointsCommandHandler;
+            _editMaxPointsCommandHandler = editMaxPointsCommandHandler;
             _deleteTeamCommandHandler = deleteTeamCommandHandler;
             _renameTeamCommandHandler = renameTeamCommandHandler;
         }
@@ -106,7 +106,7 @@ namespace KillTeam.Controllers
             SelectMember = new Command(async e => await SelectMemberExecuted(e as TeamMemberViewModel));
             EditName = new Command(async () => await EditNameExecuted());
             EditRoster = new Command(async () => await EditRosterExecuted());
-            ChangeMaxPoints = new Command(async () => await ChangeMaxPointsExecuted());
+            EditMaxPoints = new Command(async () => await EditMaxPointsExecuted());
             Delete = new Command(async () => await DeleteExecuted());
 
 
@@ -190,9 +190,9 @@ namespace KillTeam.Controllers
             await UpdateErrors();
         }
 
-        private async Task ChangeMaxPointsExecuted()
+        private async Task EditMaxPointsExecuted()
         {
-            _changeMaxPointsCommandHandler.Handle(new ChangeMaxPointsCommand(Item.Id, Item.MaxPoints));
+            _editMaxPointsCommandHandler.Handle(new EditMaxPointsCommand(Item.Id, Item.MaxPoints));
             await UpdateErrors();
         }
 
@@ -298,7 +298,7 @@ namespace KillTeam.Controllers
         private readonly IHandleCommands<ToggleMemberSelectedCommand> _toggleSelectedCommandHandler;
         private readonly IHandleCommands<ReorderMembersCommand> _reorderMembersCommandHandler;
         private readonly IHandleCommands<ToggleRosterCommand> _toggleRosterCommandHandler;
-        private readonly IHandleCommands<ChangeMaxPointsCommand> _changeMaxPointsCommandHandler;
+        private readonly IHandleCommands<EditMaxPointsCommand> _editMaxPointsCommandHandler;
         private readonly IHandleCommands<DeleteTeamCommand> _deleteTeamCommandHandler;
         private readonly IHandleCommands<RenameTeamCommand> _renameTeamCommandHandler;
     }

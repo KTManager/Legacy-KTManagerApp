@@ -3,9 +3,9 @@ using Microsoft.EntityFrameworkCore;
 
 namespace KillTeam.Commands.Handlers
 {
-    public class ChangeMaxPointsCommandHandler : IHandleCommands<ChangeMaxPointsCommand>
+    public class EditMaxPointsCommandHandler : IHandleCommands<EditMaxPointsCommand>
     {
-        public void Handle(ChangeMaxPointsCommand command)
+        public void Handle(EditMaxPointsCommand command)
         {
             var teamId = command.TeamId;
             var team = KTContext.Db.Teams.Find(teamId);

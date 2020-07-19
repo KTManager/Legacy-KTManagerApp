@@ -338,7 +338,7 @@ Do you like Kill Team Manager? Help us to create MyMiniReport.</value>
     <value>Phases</value>
   </data>
   <data name="PlusDeCentPoints" xml:space="preserve">
-    <value>Your team is worth more than 100 points</value>
+    <value>Your team is worth more than {0:N0} points</value>
   </data>
   <data name="PlusDeQuatreSpe" xml:space="preserve">
     <value>Your team has more than 4 specialists</value>

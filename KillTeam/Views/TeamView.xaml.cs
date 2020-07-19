@@ -23,6 +23,7 @@ namespace KillTeam.Views
                 new DeleteMemberCommandHandler(),
                 new ReorderMembersCommandHandler(),
                 new ToggleRosterCommandHandler(),
+                new ChangeMaxPointsCommandHandler(),
                 new ToggleMemberSelectedCommandHandler());
         }
 
@@ -67,6 +68,21 @@ namespace KillTeam.Views
             members.Move(members.IndexOf(member), e.NewIndex);
 
             binding.ReorderMembers.Execute(null);
+        }
+
+        private void TeamView_ChangedMaxPoints(object sender, EventArgs e)
+        {
+            if (!(BindingContext is Controllers.TeamController binding)) return;
+
+            var picker = (Xamarin.Forms.Picker)sender;
+            var selectedIndex = picker.SelectedIndex;
+
+            if (selectedIndex != -1)
+            {
+                binding.ChangeMaxPoints.Execute(null);
+            }
+
+
         }
     }
 }

@@ -32,6 +32,7 @@ namespace KillTeam.Controllers
         public ICommand SelectMember { get; private set; }
         public ICommand EditName { get; private set; }
         public ICommand EditRoster { get; private set; }
+        public ICommand ChangeMaxPoints { get; private set; }
         public ICommand Delete { get; private set; }
 
         private ToolbarItem _errors;
@@ -42,6 +43,7 @@ namespace KillTeam.Controllers
             IHandleCommands<DeleteMemberCommand> deleteMemberCommandHandler,
             IHandleCommands<ReorderMembersCommand> reorderMembersCommandHandler,
             IHandleCommands<ToggleRosterCommand> toggleRosterCommandHandler,
+            IHandleCommands<ChangeMaxPointsCommand> changeMaxPointsCommandHandler,
             IHandleCommands<ToggleMemberSelectedCommand> toggleSelectedCommandHandler)
         {
             _itemId = teamId;
@@ -53,6 +55,7 @@ namespace KillTeam.Controllers
             _toggleSelectedCommandHandler = toggleSelectedCommandHandler;
             _reorderMembersCommandHandler = reorderMembersCommandHandler;
             _toggleRosterCommandHandler = toggleRosterCommandHandler;
+            _changeMaxPointsCommandHandler = changeMaxPointsCommandHandler;
             _deleteTeamCommandHandler = deleteTeamCommandHandler;
             _renameTeamCommandHandler = renameTeamCommandHandler;
         }
@@ -103,6 +106,7 @@ namespace KillTeam.Controllers
             SelectMember = new Command(async e => await SelectMemberExecuted(e as TeamMemberViewModel));
             EditName = new Command(async () => await EditNameExecuted());
             EditRoster = new Command(async () => await EditRosterExecuted());
+            ChangeMaxPoints = new Command(async () => await ChangeMaxPointsExecuted());
             Delete = new Command(async () => await DeleteExecuted());
 
 
@@ -136,7 +140,7 @@ namespace KillTeam.Controllers
                 .Include(e => e.Faction)
                 .FirstAsync();
 
-            Item = new TeamViewModel(team.Id, team.Name, team.Cost, team.Faction.Name, team.Roster);
+            Item = new TeamViewModel(team.Id, team.Name, team.Cost, team.Faction.Name, team.Roster, team.MaxPoints);
             team.Members.OrderBy(o => o.Position).ToList().ForEach(y => Item.Members.Add(new TeamMemberViewModel(y.Id, y.Name, y.Cost, y.ShortWeaponLevel, y.Selected)));
 
             UpdateErrors(team.Errors);
@@ -185,6 +189,13 @@ namespace KillTeam.Controllers
             await UpdateTeamCost();
             await UpdateErrors();
         }
+
+        private async Task ChangeMaxPointsExecuted()
+        {
+            _changeMaxPointsCommandHandler.Handle(new ChangeMaxPointsCommand(Item.Id, Item.MaxPoints));
+            await UpdateErrors();
+        }
+
 
         private async Task ShareExecuted()
         {
@@ -287,6 +298,7 @@ namespace KillTeam.Controllers
         private readonly IHandleCommands<ToggleMemberSelectedCommand> _toggleSelectedCommandHandler;
         private readonly IHandleCommands<ReorderMembersCommand> _reorderMembersCommandHandler;
         private readonly IHandleCommands<ToggleRosterCommand> _toggleRosterCommandHandler;
+        private readonly IHandleCommands<ChangeMaxPointsCommand> _changeMaxPointsCommandHandler;
         private readonly IHandleCommands<DeleteTeamCommand> _deleteTeamCommandHandler;
         private readonly IHandleCommands<RenameTeamCommand> _renameTeamCommandHandler;
     }

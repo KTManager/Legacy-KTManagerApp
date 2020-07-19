@@ -36,7 +36,7 @@
         </StackLayout>
 
         <StackLayout Orientation="Horizontal" VerticalOptions="Start">
-            <Label Text="Points"
+            <Label Text="Points Limit"
                    LineBreakMode="NoWrap"
                    FontSize="16"
                    VerticalTextAlignment="Center"/>

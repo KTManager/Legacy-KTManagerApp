@@ -36,12 +36,12 @@
         </StackLayout>
 
         <StackLayout Orientation="Horizontal" VerticalOptions="Start">
-            <Label Text="Points Limit"
+            <Label Text="{i18N:Translate PointLimit}"
                    LineBreakMode="NoWrap"
                    FontSize="16"
                    VerticalTextAlignment="Center"/>
             <Picker x:Name="MaxPointsPicker"
-                    Title="Team Points"
+                    Title="{i18N:Translate TeamPoints}"
                     SelectedItem="{Binding Item.MaxPoints}"
                     HorizontalOptions="EndAndExpand"
                     SelectedIndexChanged="TeamView_ChangedMaxPoints">

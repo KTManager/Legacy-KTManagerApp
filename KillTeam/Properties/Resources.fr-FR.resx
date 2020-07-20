@@ -349,6 +349,9 @@ Aimez-vous Kill Team Manager? Aidez-nous à créer MyMiniReport.</value>
   <data name="Points" xml:space="preserve">
     <value>Point(s)</value>
   </data>
+  <data name="PointLimit" xml:space="preserve">
+    <value>Limite de points</value>
+  </data>
   <data name="Portee" xml:space="preserve">
     <value>Portée</value>
   </data>
@@ -405,6 +408,9 @@ Aimez-vous Kill Team Manager? Aidez-nous à créer MyMiniReport.</value>
   </data>
   <data name="Tactiques" xml:space="preserve">
     <value>Tactiques</value>
+  </data>
+  <data name="TeamPoints" xml:space="preserve">
+    <value>Points d'équipe</value>
   </data>
   <data name="TitleSpe" xml:space="preserve">
     <value>Sélectionnez une spécialité</value>

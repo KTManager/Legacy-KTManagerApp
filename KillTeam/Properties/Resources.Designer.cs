@@ -509,6 +509,12 @@ namespace KillTeam.Properties {
             }
         }
         
+        internal static string PointLimit {
+            get {
+                return ResourceManager.GetString("PointLimit", resourceCulture);
+            }
+        }
+        
         internal static string Portee {
             get {
                 return ResourceManager.GetString("Portee", resourceCulture);
@@ -620,6 +626,12 @@ namespace KillTeam.Properties {
         internal static string Tactiques {
             get {
                 return ResourceManager.GetString("Tactiques", resourceCulture);
+            }
+        }
+        
+        internal static string TeamPoints {
+            get {
+                return ResourceManager.GetString("TeamPoints", resourceCulture);
             }
         }
         

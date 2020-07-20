@@ -20,6 +20,7 @@ namespace KillTeam.Commands.Handlers
                 Name = faction.Name,
                 FactionId = factionId,
                 Members = new List<Member>(),
+                MaxPoints = 100,
                 Position = KTContext.Db.Teams.Select(a => a.Position).ToList().DefaultIfEmpty(0).Max() + 1
             };
 

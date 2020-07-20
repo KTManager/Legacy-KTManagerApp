@@ -338,7 +338,7 @@ Do you like Kill Team Manager? Help us to create MyMiniReport.</value>
     <value>Phasen</value>
   </data>
   <data name="PlusDeCentPoints" xml:space="preserve">
-    <value>Dein Team ist mehr als 100 Punkte wert.</value>
+    <value>Dein Team ist mehr als {0:N0} Punkte wert.</value>
   </data>
   <data name="PlusDeQuatreSpe" xml:space="preserve">
     <value>Dein Team hat mehr als vier Spezialisten.</value>
@@ -348,6 +348,9 @@ Do you like Kill Team Manager? Help us to create MyMiniReport.</value>
   </data>
   <data name="Points" xml:space="preserve">
     <value>Punkt(e)</value>
+  </data>
+  <data name="PointLimit" xml:space="preserve">
+    <value>Punktgrenze</value>
   </data>
   <data name="Portee" xml:space="preserve">
     <value>Reichweite</value>
@@ -405,6 +408,9 @@ Do you like Kill Team Manager? Help us to create MyMiniReport.</value>
   </data>
   <data name="Tactiques" xml:space="preserve">
     <value>Taktiken</value>
+  </data>
+  <data name="TeamPoints" xml:space="preserve">
+    <value>Teampunkte</value>
   </data>
   <data name="TitleSpe" xml:space="preserve">
     <value>Wähle eine Spezialisierung</value>

@@ -1,4 +1,5 @@
-﻿using System.Collections.Generic;
+﻿using System;
+using System.Collections.Generic;
 using System.Collections.ObjectModel;
 using System.ComponentModel;
 using System.Runtime.CompilerServices;
@@ -12,6 +13,7 @@ namespace KillTeam.ViewModels
         private string _name;
         private string _faction;
         private bool _isRoster;
+        private int _maxPoints;
         public string Id { get; set; }
 
         public string Name
@@ -59,6 +61,16 @@ namespace KillTeam.ViewModels
             }
         }
 
+        public int MaxPoints
+        {
+            get => _maxPoints;
+            set
+            {
+                _maxPoints = value;
+                OnPropertyChanged();
+            }
+        }
+
         public List<string> Errors { get; set; }
 
         public string FormattedNameCost => $"{Name} ({Cost})";
@@ -72,13 +84,14 @@ namespace KillTeam.ViewModels
 
         public ObservableCollection<TeamMemberViewModel> Members { get; set; }
 
-        public TeamViewModel(string id, string name, int cost, string faction, bool isRoster)
+        public TeamViewModel(string id, string name, int cost, string faction, bool isRoster, int maxPoints)
         {
             Id = id;
             Name = name;
             Cost = cost;
             Faction = faction;
             IsRoster = isRoster;
+            MaxPoints = maxPoints;
             Members = new ObservableCollection<TeamMemberViewModel>();
             Errors = new List<string>();
         }
@@ -89,5 +102,6 @@ namespace KillTeam.ViewModels
         {
             PropertyChanged?.Invoke(this, new PropertyChangedEventArgs(propertyName));
         }
+
     }
 }

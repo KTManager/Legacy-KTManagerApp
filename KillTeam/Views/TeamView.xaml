@@ -34,6 +34,26 @@
                 </Switch.Behaviors>
             </Switch>
         </StackLayout>
+
+        <StackLayout Orientation="Horizontal" VerticalOptions="Start">
+            <Label Text="{i18N:Translate PointLimit}"
+                   LineBreakMode="NoWrap"
+                   FontSize="16"
+                   VerticalTextAlignment="Center"/>
+            <Picker x:Name="MaxPointsPicker"
+                    Title="{i18N:Translate TeamPoints}"
+                    SelectedItem="{Binding Item.MaxPoints}"
+                    HorizontalOptions="EndAndExpand"
+                    SelectedIndexChanged="TeamView_ChangedMaxPoints">
+                <Picker.ItemsSource>
+                    <x:Array Type="{x:Type x:Int32}">
+                        <x:Int32>100</x:Int32>
+                        <x:Int32>125</x:Int32>
+                        <x:Int32>200</x:Int32>
+                    </x:Array>
+                </Picker.ItemsSource>
+            </Picker>
+        </StackLayout>
         <syncfusion:SfListView  x:Name="MembresListView"
                                 ItemsSource="{Binding Item.Members}"
                                 VerticalOptions="FillAndExpand"

@@ -54,6 +54,8 @@ namespace KillTeam.Models
 
         public int Position { get; set; }
 
+        public int MaxPoints { get; set; }
+
         #endregion Native Properties 
 
         #region Navigation Properties
@@ -108,9 +110,9 @@ namespace KillTeam.Models
             {
                 List<string> liste = new List<string>();
 
-                if (Cost > 100)
+                if (Cost > this.MaxPoints)
                 {
-                    liste.Add(Properties.Resources.PlusDeCentPoints);
+                    liste.Add(String.Format(Properties.Resources.PlusDeCentPoints, this.MaxPoints));
                 }
                 if (!GetSelectedMembers().Any(m => m.SpecialistId == "L"))
                 {

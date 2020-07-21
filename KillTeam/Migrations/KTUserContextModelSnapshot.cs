@@ -152,8 +152,6 @@ namespace KillTeam.Migrations
 
                     b.Property<string>("SpecialistId");
 
-                    b.Property<string>("SubFactionId");
-
                     b.Property<string>("TeamId");
 
                     b.Property<int>("Xp");
@@ -163,8 +161,6 @@ namespace KillTeam.Migrations
                     b.HasIndex("ModelProfileId");
 
                     b.HasIndex("SpecialistId");
-
-                    b.HasIndex("SubFactionId");
 
                     b.HasIndex("TeamId");
 
@@ -480,26 +476,6 @@ namespace KillTeam.Migrations
                     b.ToTable("Specialists");
                 });
 
-            modelBuilder.Entity("KillTeam.Models.SubFaction", b =>
-                {
-                    b.Property<string>("Id")
-                        .ValueGeneratedOnAdd();
-
-                    b.Property<string>("FactionId");
-
-                    b.Property<string>("NameDe");
-
-                    b.Property<string>("NameEn");
-
-                    b.Property<string>("NameFr");
-
-                    b.HasKey("Id");
-
-                    b.HasIndex("FactionId");
-
-                    b.ToTable("SubFaction");
-                });
-
             modelBuilder.Entity("KillTeam.Models.Tactic", b =>
                 {
                     b.Property<string>("Id")
@@ -768,10 +744,6 @@ namespace KillTeam.Migrations
                         .WithMany("Members")
                         .HasForeignKey("SpecialistId");
 
-                    b.HasOne("KillTeam.Models.SubFaction", "SubFaction")
-                        .WithMany()
-                        .HasForeignKey("SubFactionId");
-
                     b.HasOne("KillTeam.Models.Team", "Team")
                         .WithMany("Members")
                         .HasForeignKey("TeamId");
@@ -905,13 +877,6 @@ namespace KillTeam.Migrations
                     b.HasOne("KillTeam.Models.ModelProfile", "ModelProfile")
                         .WithMany("Psychics")
                         .HasForeignKey("ModelProfileId");
-                });
-
-            modelBuilder.Entity("KillTeam.Models.SubFaction", b =>
-                {
-                    b.HasOne("KillTeam.Models.Faction", "Faction")
-                        .WithMany()
-                        .HasForeignKey("FactionId");
                 });
 
             modelBuilder.Entity("KillTeam.Models.Tactic", b =>

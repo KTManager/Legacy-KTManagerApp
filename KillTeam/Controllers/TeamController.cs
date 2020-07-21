@@ -290,7 +290,7 @@ namespace KillTeam.Controllers
         private async Task DeleteExecuted()
         {
             _deleteTeamCommandHandler.Handle(new DeleteTeamCommand(Item.Id));
-            await KTApp.Navigation.PushAsync(new Views.TeamsView());
+            await KTApp.Navigation.PopAsync();
         }
 
         private readonly string _itemId;

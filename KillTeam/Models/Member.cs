@@ -92,6 +92,8 @@ namespace KillTeam.Models
 
         public virtual Specialist Specialist { get; set; }
 
+        public virtual SubFaction SubFaction { get; set; }
+
         public virtual ICollection<MemberPower> MemberPowers { get; set; }
 
         public virtual ICollection<MemberWeapon> MemberWeapons { get; set; }

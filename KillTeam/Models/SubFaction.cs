@@ -22,9 +22,6 @@ namespace KillTeam.Models
 
         public Faction Faction { get; set; }
 
-        [JsonIgnore]
-        public virtual ICollection<Model> Models { get; set; }
-
         #endregion Navigation Properties
 
         #region Calculated Properties

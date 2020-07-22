@@ -765,6 +765,8 @@ namespace KillTeam.Services
 
         public DbSet<WeaponProfile> WeaponProfiles { get; set; }
 
+        public DbSet<SubFaction> SubFactions { get; set; }
+
         public DbSet<Team> Teams { get; set; }
 
         public DbSet<Member> Members { get; set; }
@@ -778,5 +780,7 @@ namespace KillTeam.Services
         public DbSet<MemberPsychic> MemberPsychics { get; set; }
         
         public DbSet<MemberWarGearOption> MemberWarGearOptions { get; set; }
+
+        public DbSet<MemberSubFaction> MemberSubFactions { get; set; }
     }
 }

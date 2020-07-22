@@ -35,7 +35,6 @@ namespace KillTeam.Commands.Handlers
                 var mad = KTContext.Db.MemberWarGearOptions.Find(ma.Id);
                 KTContext.Db.Entry(mad).State = EntityState.Deleted;
             }
-            
 
             var membre = KTContext.Db.Members.Find(memberId);
             KTContext.Db.Entry(membre).State = EntityState.Deleted;

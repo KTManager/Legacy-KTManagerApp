@@ -65,6 +65,7 @@ namespace KillTeam.Services
         public DbSet<Psychic> Psychics { get; protected set; }
         public DbSet<Power> Powers { get; protected set; }
         public DbSet<WeaponProfile> WeaponProfiles { get; protected set; }
+        public DbSet<SubFaction> SubFactions { get; protected set; }
         public DbSet<Models.Version> Versions { get; protected set; }
     }
 }

@@ -32,6 +32,7 @@ namespace KillTeam.Services
         DbSet<Psychic> Psychics { get; }
         DbSet<Power> Powers { get; }
         DbSet<WeaponProfile> WeaponProfiles { get; }
+        DbSet<SubFaction> SubFactions { get; }
     }
 
     public interface IKTContext : IKTRulesContext
@@ -43,5 +44,6 @@ namespace KillTeam.Services
         DbSet<MemberTrait> MemberTraits { get; }
         DbSet<MemberPsychic> MemberPsychics { get; }
         DbSet<MemberWarGearOption> MemberWarGearOptions { get; }
+        DbSet<MemberSubFaction> MemberSubFactions { get; }
     }
 }

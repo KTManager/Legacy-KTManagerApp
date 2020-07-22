@@ -29,6 +29,7 @@ namespace KillTeam.Services
         public DbSet<MemberTrait> MemberTraits { get; protected set; }
         public DbSet<MemberPsychic> MemberPsychics { get; protected set; }
         public DbSet<MemberWarGearOption> MemberWarGearOptions { get; protected set; }
+        public DbSet<MemberSubFaction> MemberSubFactions { get; protected set; }
 
     }
 }

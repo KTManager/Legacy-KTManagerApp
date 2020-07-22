@@ -117,14 +117,13 @@ namespace KillTeam.Models
                     configuration.CostOverrides = costOverrides;
                 }
             }
-            List<WarGearCombination> configurations = new List<WarGearCombination>();
-            configurations.AddRange(cp.WarGearCombinations);
-            foreach(WarGearCombination configuration in configurations)
+            Dictionary<string, WarGearCombination> uniques = new Dictionary<string, WarGearCombination>();
+            foreach (WarGearCombination configuration in cp.WarGearCombinations)
             {
-                var configs = cp.WarGearCombinations.Where(c => c.Weapons.Select(a => a.Id).OrderBy(id => id).SequenceEqual(configuration.Weapons.Select(a => a.Id).OrderBy(id => id))).Skip(1).ToList();
-                foreach(WarGearCombination c in configs)
-                    cp.WarGearCombinations.Remove(c);
+                var key = string.Join("_", configuration.Weapons.Select(a => a.Id).OrderBy(id => id));
+                uniques[key] = configuration;
             }
+            cp.WarGearCombinations = uniques.Values.ToList();
 
             var configSelected = cp.WarGearCombinations.Where(c => c.Selected);
             if (configSelected.Count() > 1 && configSelected.SelectMany(c => c.Weapons).Select(a => a.Id).Distinct().Count() == 1)

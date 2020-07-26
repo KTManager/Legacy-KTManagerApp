@@ -1,0 +1,67 @@
+name: msbuild
+
+on: [push, pull_request]
+
+jobs:
+  android:
+
+    runs-on: windows-latest
+
+    steps:
+    - uses: actions/checkout@v2
+
+    - name: Setup MSBuild
+      uses: microsoft/setup-msbuild@v1
+      with:
+        vs-version: 16.4
+    
+    - name: Setup Nuget
+      uses: warrenbuckley/Setup-Nuget@v1
+
+    - name: Nuget restore
+      run: nuget restore
+
+    - name: Build with msbuild
+      run: msbuild KillTeam.Android\KillTeam.Android.csproj /t:Rebuild /p:Configuration=Debug
+
+  ios:
+
+    runs-on: macos-latest
+
+    steps:
+    - uses: actions/checkout@v2
+
+    - name: Download keys, certs, provisioning profile
+      env:
+        dev_mobileprovision_base64: ${{ secrets.DEV_MOBILEPROVISION_BASE64 }}
+        dev_p12_base64: ${{ secrets.DEV_P12_BASE64 }}
+        dev_passphrase: ${{ secrets.DEV_PASSPHRASE }}
+      run: |
+        mkdir keys
+        base64 --decode > keys/dev.mobileprovision <<< "$dev_mobileprovision_base64"
+        base64 --decode > keys/dev.p12 <<< "$dev_p12_base64"
+        cat > keys/dev.passphrase <<< "$dev_passphrase"
+    
+    # https://zach.codes/ios-builds-using-github-actions-without-fastlane/
+    - name: Install keys, certs, provisioning profile
+      run: |
+        uuid=$(grep UUID -A1 -a keys/dev.mobileprovision | grep -io "[-A-F0-9]\{36\}")
+        mkdir -p "~/Library/MobileDevice/Provisioning Profiles"
+        cp keys/dev.mobileprovision "~/Library/MobileDevice/Provisioning Profiles/$uuid.mobileprovision"
+
+        security create-keychain -p "" build.keychain
+        security import keys/dev.p12 -t agg -f pkcs12 -P "$(< keys/dev.passphrase)" -k ~/Library/Keychains/build.keychain -A
+        security default-keychain -s ~/Library/Keychains/build.keychain
+        security unlock-keychain -p "" ~/Library/Keychains/build.keychain
+
+        security set-key-partition-list -S apple-tool:,apple: -s -k "" ~/Library/Keychains/build.keychain
+
+
+    - name: Nuget restore
+      run: nuget restore
+
+    - name: Build with msbuild
+      run: |
+        uuid=$(grep UUID -A1 -a keys/dev.mobileprovision | grep -io "[-A-F0-9]\{36\}")
+        xxd "~/Library/MobileDevice/Provisioning Profiles/$uuid.mobileprovision"
+        msbuild KillTeam.iOS/KillTeam.iOS.csproj /t:Rebuild /p:Configuration=Debug "/p:CodesignProvision=$uuid" '/p:CodesignKey=iPhone Developer: Thomas Lacombe (XD9RM4TZB7)'

@@ -41,6 +41,14 @@ namespace KillTeam.Models
             }
         }
 
+        [JsonIgnore]
+        public string Description
+        {
+            get
+            {
+                return this.Traduction(nameof(Description));
+            }
+        }
 
         #endregion Calculated Properties
     }

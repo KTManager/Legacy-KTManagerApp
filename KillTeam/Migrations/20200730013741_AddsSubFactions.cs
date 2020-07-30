@@ -108,15 +108,16 @@ namespace KillTeam.Migrations
                 name: "IX_SubFactions_FactionId",
                 table: "SubFactions",
                 column: "FactionId");
+
             /*
-            migrationBuilder.AddForeignKey(
-                name: "FK_Members_SubFactions_SubFactionId",
-                table: "Members",
-                column: "SubFactionId",
-                principalTable: "SubFactions",
-                principalColumn: "Id",
-                onDelete: ReferentialAction.Restrict);
-            */
+             *  Since SQLite does not support ALTER TABLE statements that
+             *  add Foreign Keys, we need to create a table with the new schema,
+             *  migrate all existing data over to that table, drop the original
+             *  table, and rename the new table as the original one.
+             *  
+             *  This approach is documented here:
+             *  https://github.com/dotnet/efcore/issues/329#issuecomment-276138743
+             */
             migrationBuilder.CreateTable(
                 name: "tmp_Members",
                 columns: table => new

@@ -35,6 +35,11 @@ namespace KillTeam.Commands.Handlers
                 var mad = KTContext.Db.MemberWarGearOptions.Find(ma.Id);
                 KTContext.Db.Entry(mad).State = EntityState.Deleted;
             }
+            foreach (var sf in KTContext.Db.MemberSubFactions.Where(m => m.MemberId == memberId).AsNoTracking().ToList())
+            {
+                var mad = KTContext.Db.MemberSubFactions.Find(sf.Id);
+                KTContext.Db.Entry(mad).State = EntityState.Deleted;
+            }
 
             var membre = KTContext.Db.Members.Find(memberId);
             KTContext.Db.Entry(membre).State = EntityState.Deleted;

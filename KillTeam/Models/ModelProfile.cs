@@ -66,6 +66,8 @@ namespace KillTeam.Models
 
         public virtual ICollection<ModelProfileWeapon> ModelProfileWeapons { get; set; }
 
+        public virtual ICollection<ModelProfileSubFaction> ModelProfileSubFactions { get; set; }
+
         [JsonIgnore]
         public virtual ICollection<Trait> Traits { get; set; }
 

@@ -50,6 +50,8 @@ namespace KillTeam.Services
                 .HasKey(mpw => new { mpw.ModelProfileId, mpw.WeaponId });
             modelBuilder.Entity<ModelProfileSpecialist>()
                 .HasKey(mps => new { mps.ModelProfileId, mps.SpecialistId });
+            modelBuilder.Entity<ModelProfileSubFaction>()
+                .HasKey(mps => new { mps.ModelProfileId, mps.SubFactionId });
         }
 
         public DbSet<Faction> Factions { get; protected set; }

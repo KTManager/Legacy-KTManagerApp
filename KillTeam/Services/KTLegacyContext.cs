@@ -109,6 +109,7 @@ namespace KillTeam.Services
             BuildModelWeaponMapping(modelBuilder);
             BuildModelProfileWeaponMapping(modelBuilder);
             BuildModelProfileSpecialistMapping(modelBuilder);
+            BuildModelProfileSubFactionMapping(modelBuilder);
             BuildCostOverridesMapping(modelBuilder);
             BuildWarGearOptionsMapping(modelBuilder);
             BuildLevelCostsMapping(modelBuilder);
@@ -511,6 +512,12 @@ namespace KillTeam.Services
                 .HasForeignKey(modelProfileSpecialist => modelProfileSpecialist.ModelProfileId);
         }
 
+        private void BuildModelProfileSubFactionMapping(ModelBuilder modelBuilder)
+        {
+            // todo: implement this method
+            throw new NotImplementedException();
+            
+        }
         private void BuildCostOverridesMapping(ModelBuilder modelBuilder)
         {
             modelBuilder.Entity<CostOverride>().ToTable("SurchargeCoutArme");

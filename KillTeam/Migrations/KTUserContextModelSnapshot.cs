@@ -152,8 +152,6 @@ namespace KillTeam.Migrations
 
                     b.Property<string>("SpecialistId");
 
-                    b.Property<string>("SubFactionId");
-
                     b.Property<string>("TeamId");
 
                     b.Property<int>("Xp");
@@ -163,8 +161,6 @@ namespace KillTeam.Migrations
                     b.HasIndex("ModelProfileId");
 
                     b.HasIndex("SpecialistId");
-
-                    b.HasIndex("SubFactionId");
 
                     b.HasIndex("TeamId");
 
@@ -211,24 +207,6 @@ namespace KillTeam.Migrations
                     b.HasIndex("PsychicId");
 
                     b.ToTable("MemberPsychics");
-                });
-
-            modelBuilder.Entity("KillTeam.Models.MemberSubFaction", b =>
-                {
-                    b.Property<string>("Id")
-                        .ValueGeneratedOnAdd();
-
-                    b.Property<string>("MemberId");
-
-                    b.Property<string>("SubFactionId");
-
-                    b.HasKey("Id");
-
-                    b.HasIndex("MemberId");
-
-                    b.HasIndex("SubFactionId");
-
-                    b.ToTable("MemberSubFactions");
                 });
 
             modelBuilder.Entity("KillTeam.Models.MemberTrait", b =>
@@ -378,19 +356,6 @@ namespace KillTeam.Migrations
                     b.ToTable("ModelProfileSpecialist");
                 });
 
-            modelBuilder.Entity("KillTeam.Models.ModelProfileSubFaction", b =>
-                {
-                    b.Property<string>("ModelProfileId");
-
-                    b.Property<string>("SubFactionId");
-
-                    b.HasKey("ModelProfileId", "SubFactionId");
-
-                    b.HasIndex("SubFactionId");
-
-                    b.ToTable("ModelProfileSubFaction");
-                });
-
             modelBuilder.Entity("KillTeam.Models.ModelProfileWeapon", b =>
                 {
                     b.Property<string>("ModelProfileId");
@@ -509,26 +474,6 @@ namespace KillTeam.Migrations
                     b.HasKey("Id");
 
                     b.ToTable("Specialists");
-                });
-
-            modelBuilder.Entity("KillTeam.Models.SubFaction", b =>
-                {
-                    b.Property<string>("Id")
-                        .ValueGeneratedOnAdd();
-
-                    b.Property<string>("FactionId");
-
-                    b.Property<string>("NameDe");
-
-                    b.Property<string>("NameEn");
-
-                    b.Property<string>("NameFr");
-
-                    b.HasKey("Id");
-
-                    b.HasIndex("FactionId");
-
-                    b.ToTable("SubFactions");
                 });
 
             modelBuilder.Entity("KillTeam.Models.Tactic", b =>
@@ -799,10 +744,6 @@ namespace KillTeam.Migrations
                         .WithMany("Members")
                         .HasForeignKey("SpecialistId");
 
-                    b.HasOne("KillTeam.Models.SubFaction", "SubFaction")
-                        .WithMany()
-                        .HasForeignKey("SubFactionId");
-
                     b.HasOne("KillTeam.Models.Team", "Team")
                         .WithMany("Members")
                         .HasForeignKey("TeamId");
@@ -828,17 +769,6 @@ namespace KillTeam.Migrations
                     b.HasOne("KillTeam.Models.Psychic", "Psychic")
                         .WithMany("MemberPsychics")
                         .HasForeignKey("PsychicId");
-                });
-
-            modelBuilder.Entity("KillTeam.Models.MemberSubFaction", b =>
-                {
-                    b.HasOne("KillTeam.Models.Member", "Member")
-                        .WithMany()
-                        .HasForeignKey("MemberId");
-
-                    b.HasOne("KillTeam.Models.SubFaction", "SubFaction")
-                        .WithMany()
-                        .HasForeignKey("SubFactionId");
                 });
 
             modelBuilder.Entity("KillTeam.Models.MemberTrait", b =>
@@ -905,19 +835,6 @@ namespace KillTeam.Migrations
                         .OnDelete(DeleteBehavior.Cascade);
                 });
 
-            modelBuilder.Entity("KillTeam.Models.ModelProfileSubFaction", b =>
-                {
-                    b.HasOne("KillTeam.Models.ModelProfile", "ModelProfile")
-                        .WithMany("ModelProfileSubFactions")
-                        .HasForeignKey("ModelProfileId")
-                        .OnDelete(DeleteBehavior.Cascade);
-
-                    b.HasOne("KillTeam.Models.SubFaction", "SubFaction")
-                        .WithMany()
-                        .HasForeignKey("SubFactionId")
-                        .OnDelete(DeleteBehavior.Cascade);
-                });
-
             modelBuilder.Entity("KillTeam.Models.ModelProfileWeapon", b =>
                 {
                     b.HasOne("KillTeam.Models.ModelProfile", "ModelProfile")
@@ -960,13 +877,6 @@ namespace KillTeam.Migrations
                     b.HasOne("KillTeam.Models.ModelProfile", "ModelProfile")
                         .WithMany("Psychics")
                         .HasForeignKey("ModelProfileId");
-                });
-
-            modelBuilder.Entity("KillTeam.Models.SubFaction", b =>
-                {
-                    b.HasOne("KillTeam.Models.Faction", "Faction")
-                        .WithMany()
-                        .HasForeignKey("FactionId");
                 });
 
             modelBuilder.Entity("KillTeam.Models.Tactic", b =>

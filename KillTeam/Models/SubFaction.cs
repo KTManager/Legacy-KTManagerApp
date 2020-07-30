@@ -16,6 +16,12 @@ namespace KillTeam.Models
 
         public string NameDe { get; set; }
 
+        public string DescriptionEn { get; set; }
+
+        public string DescriptionFr { get; set; }
+
+        public string DescriptionDe { get; set; }
+
         #endregion Native Properties
 
         #region Navigation Properties
